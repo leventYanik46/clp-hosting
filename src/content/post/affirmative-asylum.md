@@ -2,7 +2,7 @@
 title: Affirmative Asylum
 excerpt: Affirmative Asylum
 category: Affirmative Asylum
-lang: en
+lang: tr
 tags:
   - law
   - affirmativeasylum
