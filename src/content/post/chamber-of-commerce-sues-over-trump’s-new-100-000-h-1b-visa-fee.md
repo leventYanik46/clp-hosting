@@ -12,7 +12,7 @@ category: USA News
 image: /images/news.jpg
 imageWidth: 6912
 imageHeight: 4160
-publishDate: 2025-10-18T14:05:00.000+03:00
+publishDate: 2025-10-18T17:16:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100,000-dollar-H-1B-visa-fee
   description: "The U.S. Chamber of Commerce has filed a lawsuit against the Trump
@@ -23,21 +23,15 @@ In **September 2025**, former President **Donald Trump** announced a new
 
 Previously, most H-1B application costs ranged between **$2,000 – $5,000**, covering administrative and legal processing fees. 
 
- 
-
 The administration defended the move as a way to “prioritize American workers” and reduce alleged misuse of the H-1B system by large outsourcing firms. 
 
-([AP News](https://apnews.com/article/7b6097bc44d6c0aff86fbe6f43dae7af), [Reuters](https://www.reuters.com/world/major-us-business-group-sues-over-trumps-100000-h-1b-visa-fee-2025-10-16/)) 
-
- 
+(AP News, Reuters) 
 
 ### **The Lawsuit** 
 
 On **October 16, 2025**, the **U.S. Chamber of Commerce**, representing over **300,000 businesses nationwide**, filed suit in the **U.S. District Court for the District of Columbia**. 
 
-([U.S. Chamber of Commerce Press Release](https://www.uschamber.com/workforce/u-s-chamber-files-lawsuit-to-support-businesses-use-of-h-1b-visas)) 
-
- 
+(U.S. Chamber of Commerce Press Release) 
 
 The Chamber argues that: 
 
@@ -47,11 +41,7 @@ The Chamber argues that: 
 
 \-The rule was issued **without the legally required public comment period**, making it procedurally invalid under the *Administrative Procedure Act (APA).* 
 
- 
-
 The lawsuit seeks to **block enforcement** of the policy and declare it **unconstitutional** and **unlawful.** 
-
- 
 
 ### **Government’s Position** 
 
@@ -61,13 +51,9 @@ The lawsuit seeks to **block enforcement** of the policy and declare 
 
 \-It applies **only to new H-1B applications**, not to current visa holders or renewals. 
 
-([Al Jazeera](https://www.aljazeera.com/news/2025/9/21/us-says-100000-fee-for-h-1b-visas-will-not-apply-to-existing-holders), [Washington Post](https://www.washingtonpost.com/business/2025/10/16/trump-h1b-visa-chamber-of-commerce-lawsuit)) 
-
- 
+(Al Jazeera, Washington Post) 
 
 Officials say the fee aims to discourage companies from “over-relying” on foreign labor in sectors like tech, finance, and healthcare — a major point in Trump’s broader “America First” labor policy. 
-
- 
 
 ### **Legal Framework** 
 
@@ -77,19 +63,13 @@ The Chamber’s legal complaint centers on two key statutes: 
 
 **\-Administrative Procedure Act (APA):** Requires public notice and comment before implementing regulatory changes. 
 
- 
-
 The Chamber alleges the executive order bypassed these processes entirely, making the action “unlawful, arbitrary, and capricious.” 
 
 **Economic and Labor Implications** 
 
- 
-
 Economists from **JPMorgan** estimate the new fee could reduce **H-1B approvals by 5,000–5,500 per month**, disproportionately affecting small and mid-sized firms unable to pay the steep cost. 
 
-([Business Insider](https://www.businessinsider.com/jpmorgan-h1b-visa-fee-economists-analysis-monthly-reduction-authorizations-2025-9)) 
-
- 
+(Business Insider) 
 
 Analysts also warn that: 
 
@@ -99,9 +79,7 @@ Analysts also warn that: 
 
 \-Innovation and productivity could decline, given H-1B workers’ significant contribution to the U.S. economy. 
 
-([Forbes](https://www.forbes.com/sites/stuartanderson/2025/10/17/how-a-second-immigration-lawsuit-threatens-trumps-100000-h-1b-fee)) 
-
- 
+(Forbes) 
 
 #### **Broader Impact and Global Context** 
 
@@ -109,15 +87,11 @@ Analysts also warn that: 
 
 Many foreign professionals — including engineers and developers from **India, China, and Turkey** — rely on this visa to work legally in the U.S. 
 
- 
-
 If the $100,000 fee remains in place, experts say: 
 
 \-U.S. competitiveness in the global talent market will decline. 
 
 \-Foreign STEM graduates may shift to **Canada, the UK, or Australia**, where visa costs are far lower and policies more welcoming. 
-
- 
 
 ### **What’s Next** 
 
@@ -129,14 +103,11 @@ A ruling in favor of the Chamber could suspend or overturn the $100,
 
 If the Trump administration prevails, the policy could reshape how — and whether — U.S. companies hire foreign tech talent. 
 
-
-
  The lawsuit marks one of the most consequential challenges to Trump’s immigration and labor policies since his return to office. 
 
 At stake is not only the legality of the $100,000 H-1B visa fee but also the **future of America’s high-skilled workforce** and its role in the global economy. 
 
 Whether the court sides with the Chamber or the administration, the outcome will likely set a precedent for how far U.S. presidents can go in reshaping immigration policy without congressional approval. 
-
 
 Follow us to stay informed about new updates and further developments.
 
