@@ -12,7 +12,7 @@ category: USA News
 image: /images/news.jpg
 imageWidth: 6912
 imageHeight: 4160
-publishDate: 2025-10-18T17:16:00.000+03:00
+publishDate: 2025-10-20T17:16:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100,000-dollar-H-1B-visa-fee
   description: "The U.S. Chamber of Commerce has filed a lawsuit against the Trump
