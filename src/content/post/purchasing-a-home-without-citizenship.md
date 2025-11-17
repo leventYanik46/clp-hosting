@@ -8,7 +8,7 @@ tags:
 image: /images/purchsasing-a-house-non-citizen.jpg
 imageWidth: 4000
 imageHeight: 2247
-publishDate: 2025-09-30T16:44:00.000+03:00
+publishDate: 2025-11-11T16:44:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/purchasing-a-home-without-citizenship
   description: Purchasing a Home Without Citizenship. What Types of Properties Can
