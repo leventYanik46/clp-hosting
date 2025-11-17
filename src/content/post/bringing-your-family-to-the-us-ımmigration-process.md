@@ -1,5 +1,5 @@
 ---
-title: How Can I Bring My Family to the US?- Immigration Process
+title: How Can I Bring My Family to the usa? | Immigration Process
 excerpt: The most critical elements in the US immigration process are preparing
   the correct forms, providing complete information, and starting the process on
   time. Correct Forms provides professional support to its clients in these
@@ -11,7 +11,7 @@ category: "Immigration "
 image: /images/bringg-fam.jpg
 imageWidth: 6016
 imageHeight: 4016
-publishDate: 2025-10-16T02:50:00.000+03:00
+publishDate: 2025-11-13T02:50:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/bringing-your-family-to-the-u-s-and-the-immigration-process
   description: Bringing Your Family to the US and the Immigration Process. The
