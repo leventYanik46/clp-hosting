@@ -18,23 +18,15 @@ metadata:
 ---
 ## **Purchasing a Home Without Citizenship** 
 
- 
-
 ### **What Types of Properties Can Non-Citizens Buy?** 
 
- 
-
 **Buying Real Estate in the U.S.: Are There Any Restrictions for Foreign Nationals?** 
-
- 
 
 **Can you buy a house if you only have a work visa or a student visa?** 
 
 Yes. Anyone who is not a U.S. citizen still has the right to purchase property in the United States. This includes permanent residents (Green Card holders), temporary residents, non-residents, refugees, asylum seekers, and individuals under the DACA (Dreamer) program. 
 
 For these categories, there are no legal restrictions preventing the purchase of real estate, whether for residential or commercial purposes. 
-
- 
 
 **Types of properties non-citizens can purchase:** 
 
@@ -43,8 +35,6 @@ For these categories, there are no legal restrictions preventing the p
 * **Investment Properties:** Non-   citizens are also free to invest in real estate for rental income or capital appreciation, offering both passive income and long-term growth potential. 
 
 **In short, U.S. citizenship is not a requirement for property ownership.** 
-
- 
 
 ### **How to Buy Property as a Non-Citizen** 
 
@@ -62,11 +52,7 @@ International real estate transactions can be complex, particularly in t
 
 \-A **financial advisor** provides guidance on tax implications and financial planning. 
 
- 
-
 **[Capitol Law Partners](https://capitollawpartners.com/)**’ international tax attorneys are dual-certified to help foreign buyers understand the legal and financial impact of purchasing a home. Their team can support you throughout the entire process. 
-
- 
 
 **3. Understand Your Financing Options** 
 
@@ -79,8 +65,6 @@ International real estate transactions can be complex, particularly in t
 \-Alternative financing sources 
 
 It’s critical to review loan terms, interest rates, and repayment schedules carefully before proceeding. 
-
- 
 
 **4. Find the Right Property** 
 
@@ -103,5 +87,11 @@ Once financing is in place, you can begin your property search. Key f
 [](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Phone [+1 (202) 440-2272](tel:+12024402272)
 
 [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
+
+[](mailto:info@capitollawpartners.com)
+
+![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg "Capitol Law Partners")
+
+
 
 [](mailto:info@capitollawpartners.com)
