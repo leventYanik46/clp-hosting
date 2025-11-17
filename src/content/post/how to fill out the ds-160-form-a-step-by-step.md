@@ -11,7 +11,9 @@ imageHeight: 4000
 publishDate: 2025-11-14T12:35:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-step-by-step
-  description: "How to Fill Out the DS-160 Form: A Step-by-Step Guide . "
+  description: "How to Fill Out the DS-160 Form: A Step-by-Step Guide. DS-160
+    sample, DS-160 errors, U.S. visa application, DS-160 English characters,
+    passport information.."
 ---
 ### How to Fill Out the DS-160 Form: A Step-by-Step Guide 
 
