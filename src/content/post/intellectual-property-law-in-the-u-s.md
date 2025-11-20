@@ -9,7 +9,7 @@ category: Intellectual Property
 image: /images/ıpl.jpg
 imageWidth: 2816
 imageHeight: 1880
-publishDate: 2025-08-24T15:08:00.000+03:00
+publishDate: 2025-11-16T15:08:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/intellectual-property-law-in-the-u-s
   description: Learn how U.S. Intellectual Property Law safeguards your ideas.
