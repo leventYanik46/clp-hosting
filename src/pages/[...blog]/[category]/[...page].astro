@@ -15,7 +15,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths> & { category: Record<string, string> };
 
-const { page, category } = Astro.props as Props;
+const { page, category, lang } = Astro.props as Props;
 
 const currentPage = page.currentPage ?? 1;
 
@@ -24,6 +24,9 @@ const metadata = {
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
+  },
+  openGraph: {
+    locale: lang === 'tr' ? 'tr-TR' : 'en-US',
   },
 };
 ---

@@ -42,6 +42,8 @@ export interface Post {
 
   /**  */
   readingTime?: number;
+  /** language code or array of language codes this post applies to, e.g. 'en' or ['en','tr'] */
+  lang?: string | string[];
 }
 
 export interface Taxonomy {

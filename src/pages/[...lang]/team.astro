@@ -1,0 +1,35 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import TeamCard from '~/components/widgets/teamcard.astro';
+import type { ContentEntryMap } from "astro:content";
+import { getListPage } from "~/utils/lib/contentParser.astro";
+import { supportedLang } from "~/utils/lib/languageParser";
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const { lang } = Astro.params;
+
+const teampage = await getListPage("team", lang as keyof ContentEntryMap);
+if (!teampage || teampage.length === 0 || !teampage[0].data) {
+  throw new Error("Team content not found for language: " + lang);
+}
+
+const { metadata, sections } = teampage[0].data;
+const filteredSections =
+  sections?.filter((section) => section.wrapper?.trim() !== 'w-full grid grid-cols-1 md:grid-cols-3 gap-4') ?? [];
+---
+
+<Layout metadata={metadata}>
+  {filteredSections.map((section) => (
+    <div class={section.wrapper}>
+      {section.members.map((member) => (
+        <TeamCard {...member} />
+      ))}
+    </div>
+  ))}
+</Layout>

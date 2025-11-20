@@ -1,6 +1,6 @@
 export const languages = {
   en: 'English',
-  es: 'Español',
+  tr: 'Turkish',
   // Add more languages as needed
 };
 

@@ -14,6 +14,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Category", name: "category", widget: "string" }
+      - { label: "Language", name: "lang", widget: "select", options: ["en", "tr", "es", "pt", "fr"], default: "en" }
       - label: "Tags"
         name: "tags"
         widget: "list"

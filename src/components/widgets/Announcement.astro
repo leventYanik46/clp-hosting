@@ -1,25 +1,44 @@
 ---
 import { Icon } from 'astro-icon/components';
+import type { ContentEntryMap } from "astro:content";
+import { getListPage } from "~/utils/lib/contentParser.astro";
+import { supportedLang } from "~/utils/lib/languageParser";
+
+// Extract language from URL path
+const pathSegments = new URL(Astro.url).pathname.split('/').filter(Boolean);
+const lang = pathSegments[0] && supportedLang.includes(pathSegments[0]) ? pathSegments[0] : '';
+
+let announcementPages = await getListPage("announcement", lang as keyof ContentEntryMap);
+let announcement = announcementPages && announcementPages[0]?.data;
+
+// Fallback to English if not found
+if (!announcement) {
+  const fallbackPages = await getListPage("announcement", "en" as keyof ContentEntryMap);
+  announcement = fallbackPages && fallbackPages[0]?.data;
+}
 ---
 
-<div
-  class="text-[#0D1B2A] text-sm bg-[#dcf0fa] hidden md:flex gap-1 overflow-hidden px-3 py-2 relative text-ellipsis whitespace-nowrap"
->
-  <span class="font-semibold px-1 py-0.5 text-m ml-[8.75rem] mr-0.5 rtl:mr-0 rtl:ml-0.5 inline-block">
-    We would love to hear from you. Call us at
-    <a href="tel:+12024402272" class="hover:text-primary font-bold underline"> (202) 440-2272 </a>
-    or fill out our
-    <a href="/contact" class="hover:text-primary font-bold underline"> Contact Us Form. </a>
-  </span>
-  <div class="ml-auto flex gap-2 mr-8 items-center">
-    <a href="https://www.instagram.com/capitollawpartners/" target="_blank" rel="noopener noreferrer">
-      <Icon name="tabler:brand-instagram" class="w-6 h-6  text-[#0D1B2A] hover:text-primary" />
-    </a>
-    <a href="https://www.facebook.com/CapitolLaw/" target="_blank" rel="noopener noreferrer">
-      <Icon name="tabler:brand-facebook" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
-    </a>
-    <a href="https://www.linkedin.com/company/capitollawpartners" target="_blank" rel="noopener noreferrer">
-      <Icon name="tabler:brand-linkedin" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
-    </a>
+{announcement && (
+  <div
+    class="text-[#0D1B2A] text-sm bg-[#dcf0fa] hidden md:flex gap-1 overflow-hidden px-3 py-2 relative text-ellipsis whitespace-nowrap"
+  >
+    <span class="font-semibold px-1 py-0.5 text-m ml-[5rem] mr-0.5 rtl:mr-0 rtl:ml-0.5 inline-block">
+  {announcement.intro_text}&nbsp;
+  {announcement.call_text}&nbsp;
+      <a href={`tel:${announcement.phone}`} class="hover:text-primary font-bold underline">{announcement.phone_display}</a>&nbsp;
+      {announcement.or_text}&nbsp;
+      <a href={announcement.contact_url} class="hover:text-primary font-bold underline">{announcement.contact_text}</a>
+    </span>
+    <div class="ml-auto flex gap-2 mr-8 items-center">
+      <a href={announcement.instagram} target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-instagram" class="w-6 h-6  text-[#0D1B2A] hover:text-primary" />
+      </a>
+      <a href={announcement.facebook} target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-facebook" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
+      </a>
+      <a href={announcement.linkedin} target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-linkedin" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
+      </a>
+    </div>
   </div>
-</div>
+)}

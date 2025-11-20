@@ -1,0 +1,107 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import type { ContentEntryMap } from "astro:content";
+import { getListPage } from "~/utils/lib/contentParser.astro";
+import { supportedLang } from "~/utils/lib/languageParser";
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const routeLang = Astro.params?.lang;
+const propLang = Astro.props?.lang;
+const lang = (typeof routeLang !== 'undefined' ? routeLang : propLang) ?? '';
+
+const homepage = await getListPage("homepage", (lang || undefined) as keyof ContentEntryMap);
+if (!homepage || homepage.length === 0 || !homepage[0].data) {
+  throw new Error("Homepage content not found for language: " + lang);
+}
+
+const { metadata, hero, practiceAreas, spotlights, testimonials, steps, blog, cta } = homepage[0].data;
+
+---
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    image={hero.image}
+    actions={hero.actions}
+  >
+    <Fragment slot="title">
+      <span class="text-blue-700 highlight">{hero.title.highlight}</span>
+      <span class="hidden xl:inline">{hero.title.rest}</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <Fragment set:html={hero.subtitleHtml} />
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id={practiceAreas.id}
+    tagline={practiceAreas.tagline}
+    title={practiceAreas.title}
+    subtitle={practiceAreas.subtitle}
+    items={practiceAreas.items}
+  />
+
+  <!-- Content Widget **************** -->
+  {spotlights.map((spotlight) => (
+    <Content {...spotlight.props} items={spotlight.items} image={spotlight.image}>
+      <Fragment slot="content">
+        <Fragment set:html={spotlight.contentHtml} />
+      </Fragment>
+
+      {spotlight.backgroundClass && (
+        <Fragment slot="bg">
+          <div class={spotlight.backgroundClass}></div>
+        </Fragment>
+      )}
+    </Content>
+  ))}
+
+  <!-- Testimonials Widget ********** -->
+  <Testimonials
+    title={testimonials.title}
+    subtitle={testimonials.subtitle}
+    testimonials={testimonials.items}
+    callToAction={testimonials.callToAction}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps title={steps.title} items={steps.items} image={steps.image} />
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts title={blog.title} information={blog.information} />
+
+  
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction actions={cta.actions}>
+    <Fragment slot="title">
+      <Fragment set:html={cta.titleHtml} />
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <Fragment set:html={cta.subtitleHtml} />
+    </Fragment>
+  </CallToAction>
+</Layout>

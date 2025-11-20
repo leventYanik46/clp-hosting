@@ -57,16 +57,17 @@ const {
   {
     actions && (
       <div class="relative py-5 md:py12 bg-white\ -mt-[2rem] md:-mt-[3rem]">
-        <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+        <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-2 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
           {Array.isArray(actions) ? (
             actions.map((action) => (
-              <div class="flex w-full sm:w-auto">
-                <Button {...(action || {})} class="w-full sm:mb-0" />
+              <div class="flex w-full sm:w-auto whitespace-nowrap">
+                <Button {...(action || {})}/>
               </div>
             ))
           ) : (
             <Fragment set:html={actions} />
           )}
+          
         </div>
       </div>
     )
