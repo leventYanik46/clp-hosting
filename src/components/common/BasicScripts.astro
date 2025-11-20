@@ -108,6 +108,21 @@ import { UI } from 'astrowind:config';
       document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
     });
 
+    const desktopScreen = window.matchMedia('(min-width: 1230px)');
+    const handleDesktopScreen = (event) => {
+      if (event.matches) {
+        document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+        document.body.classList.remove('overflow-hidden');
+        document.getElementById('header')?.classList.remove('h-screen');
+        document.getElementById('header')?.classList.remove('expanded');
+        document.getElementById('header')?.classList.remove('bg-page');
+        document.querySelector('#header nav')?.classList.remove('hidden');
+        document.querySelector('#header > div > div:last-child')?.classList.remove('hidden');
+      }
+    };
+    handleDesktopScreen(desktopScreen);
+    desktopScreen.addEventListener('change', handleDesktopScreen);
+
     function applyHeaderStylesOnScroll() {
       const header = document.querySelector('#header[data-aw-sticky-header]');
       if (!header) return;

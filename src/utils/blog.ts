@@ -4,6 +4,8 @@ import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { APP_BLOG } from 'astrowind:config';
 import { cleanSlug, trimSlash, BLOG_BASE, POST_PERMALINK_PATTERN, CATEGORY_BASE, TAG_BASE } from './permalinks';
+import { supportedLang } from '~/utils/lib/languageParser';
+import config from '~/config/config.json';
 
 const generatePermalink = async ({
   id,
@@ -54,6 +56,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     category: rawCategory,
     author,
     draft = false,
+    // allow editors to set a language or array of languages on the post frontmatter
+    lang: rawLang = undefined,
     metadata = {},
   } = data;
 
@@ -97,6 +101,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // or 'content' in case you consume from API
 
     readingTime: remarkPluginFrontmatter?.readingTime,
+    // normalize lang to either a string or array
+    lang: rawLang,
   };
 };
 
@@ -176,21 +182,50 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
 /** */
 export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogListRouteEnabled) return [];
-  return paginate(await fetchPosts(), {
-    params: { blog: BLOG_BASE || undefined },
-    pageSize: blogPostsPerPage,
+  const posts = await fetchPosts();
+
+  const defaultLang = config.settings.default_language;
+  const languages = supportedLang; // e.g. ["", "en", "tr"] when default is root
+  console.log('getStaticPathsBlogList languages', languages);
+
+  return languages.flatMap((langPrefix) => {
+    const langCode = langPrefix === '' ? defaultLang : langPrefix;
+    const filtered = posts.filter((post) => {
+      const postLang = post.lang;
+      if (Array.isArray(postLang)) return postLang.includes(langCode);
+      if (typeof postLang === 'string') return postLang === langCode;
+      return langCode === defaultLang;
+    });
+
+    const blogParam = BLOG_BASE ? (langPrefix ? `${langPrefix}/${BLOG_BASE}` : `${BLOG_BASE}`) : undefined;
+
+    return paginate(filtered, {
+      params: { blog: blogParam },
+      pageSize: blogPostsPerPage,
+      props: { lang: langCode },
+    });
   });
 };
 
 /** */
 export const getStaticPathsBlogPost = async () => {
   if (!isBlogEnabled || !isBlogPostRouteEnabled) return [];
-  return (await fetchPosts()).flatMap((post) => ({
-    params: {
-      blog: post.permalink,
-    },
-    props: { post },
-  }));
+  const posts = await fetchPosts();
+  const defaultLang = config.settings.default_language;
+  return posts.flatMap((post) => {
+    const postLang = post.lang;
+    const langs = Array.isArray(postLang) ? postLang : postLang ? [postLang] : [defaultLang];
+
+    // Map language codes to route prefixes ('' for default to keep root paths)
+    const prefixes = langs.map((code) => (code === defaultLang ? '' : code));
+
+    return prefixes.map((prefix) => ({
+      params: {
+        blog: prefix ? `${prefix}/${post.permalink}` : post.permalink,
+      },
+      props: { post, lang: prefix === '' ? defaultLang : prefix },
+    }));
+  });
 };
 
 /** */
@@ -205,16 +240,40 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
     }
   });
 
-  return Array.from(Object.keys(categories)).flatMap((categorySlug) =>
-    paginate(
-      posts.filter((post) => post.category?.slug && categorySlug === post.category?.slug),
-      {
-        params: { category: categorySlug, blog: CATEGORY_BASE || undefined },
-        pageSize: blogPostsPerPage,
-        props: { category: categories[categorySlug] },
-      }
-    )
-  );
+  const defaultLang = config.settings.default_language;
+  return Array.from(Object.keys(categories)).flatMap((categorySlug) => {
+    // derive set of language codes present in posts, fallback to default
+    const langCodes = Array.from(
+      new Set(
+        posts.flatMap((p) => {
+          const pl = p.lang;
+          if (Array.isArray(pl)) return pl;
+          if (typeof pl === 'string') return [pl];
+          return [defaultLang];
+        })
+      )
+    );
+
+    const prefixes = langCodes.map((code) => (code === defaultLang ? '' : code));
+
+    return prefixes.flatMap((prefix) =>
+      paginate(
+        posts.filter((post) => {
+          if (!post.category?.slug || categorySlug !== post.category.slug) return false;
+          const postLang = post.lang;
+          const code = prefix === '' ? defaultLang : prefix;
+          if (Array.isArray(postLang)) return postLang.includes(code);
+          if (typeof postLang === 'string') return postLang === code;
+          return code === defaultLang;
+        }),
+        {
+          params: { category: categorySlug, blog: CATEGORY_BASE ? (prefix ? `${prefix}/${CATEGORY_BASE}` : `${CATEGORY_BASE}`) : undefined },
+          pageSize: blogPostsPerPage,
+          props: { category: categories[categorySlug], lang: prefix === '' ? defaultLang : prefix },
+        }
+      )
+    );
+  });
 };
 
 /** */
@@ -231,16 +290,39 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
     }
   });
 
-  return Array.from(Object.keys(tags)).flatMap((tagSlug) =>
-    paginate(
-      posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.slug === tagSlug)),
-      {
-        params: { tag: tagSlug, blog: TAG_BASE || undefined },
-        pageSize: blogPostsPerPage,
-        props: { tag: tags[tagSlug] },
-      }
-    )
-  );
+  const defaultLang = config.settings.default_language;
+  return Array.from(Object.keys(tags)).flatMap((tagSlug) => {
+    const langCodes = Array.from(
+      new Set(
+        posts.flatMap((p) => {
+          const pl = p.lang;
+          if (Array.isArray(pl)) return pl;
+          if (typeof pl === 'string') return [pl];
+          return [defaultLang];
+        })
+      )
+    );
+
+    const prefixes = langCodes.map((code) => (code === defaultLang ? '' : code));
+
+    return prefixes.flatMap((prefix) =>
+      paginate(
+        posts.filter((post) => {
+          if (!Array.isArray(post.tags) || !post.tags.find((elem) => elem.slug === tagSlug)) return false;
+          const postLang = post.lang;
+          const code = prefix === '' ? defaultLang : prefix;
+          if (Array.isArray(postLang)) return postLang.includes(code);
+          if (typeof postLang === 'string') return postLang === code;
+          return code === defaultLang;
+        }),
+        {
+          params: { tag: tagSlug, blog: TAG_BASE ? (prefix ? `${prefix}/${TAG_BASE}` : `${TAG_BASE}`) : undefined },
+          pageSize: blogPostsPerPage,
+          props: { tag: tags[tagSlug], lang: prefix === '' ? defaultLang : prefix },
+        }
+      )
+    );
+  });
 };
 
 /** */

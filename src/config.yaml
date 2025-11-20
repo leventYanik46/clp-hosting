@@ -31,7 +31,9 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  defaultLanguage: 'en'
+  disabledLanguages: []
+  default_language_in_subdir: false,
   textDirection: ltr
 
 apps:

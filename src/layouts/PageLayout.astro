@@ -3,15 +3,23 @@ import Layout from '~/layouts/Layout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
-import { headerData, footerData } from '~/navigation';
+import Chatbox from '~/components/widgets/Chatbox.astro'; // Import Chatbox
+import { headerData, headerDataTr, headerDataEs, headerDataPt, headerDataFr, footerData, footerDataTr, footerDataSpanish, footerDataPt, footerDataFr } from '~/navigation';
 import type { MetaData } from '~/types';
 import type { Props as HeaderProps } from '~/components/widgets/Header.astro';
-
 export interface Props {
   metadata?: MetaData;
 }
 
 const { metadata } = Astro.props;
+// Extract language from URL path
+const pathSegments = new URL(Astro.url).pathname.split('/').filter(Boolean);
+const lang = pathSegments[0] && ['en','tr','es','pt','fr'].includes(pathSegments[0]) ? pathSegments[0] : 'en';
+
+const headerlangdata = { 'en': headerData, 'tr': headerDataTr, 'es': headerDataEs, 'pt': headerDataPt, 'fr': headerDataFr };
+const header = headerlangdata[lang] || headerlangdata['en'];
+const footerlanguageData = { 'en': footerData, 'tr': footerDataTr, 'es': footerDataSpanish, 'pt': footerDataPt, 'fr': footerDataFr };
+const footer = footerlanguageData[lang] || footerlanguageData['en'];
 ---
 
 <Layout metadata={metadata}>
@@ -19,13 +27,14 @@ const { metadata } = Astro.props;
     <Announcement />
   </slot>
   <slot name="header">
-    {/* Explicitly type headerData as HeaderProps */}
-    <Header {...headerData as HeaderProps} isSticky />
+    {/* Select headerData based on detected language */}
+    <Header {...header as HeaderProps} isSticky />
   </slot>
   <main>
     <slot />
   </main>
   <slot name="footer">
-    <Footer {...footerData} />
+    <Footer {...footer} />
   </slot>
+  <Chatbox /> <!-- Add Chatbox here -->
 </Layout>

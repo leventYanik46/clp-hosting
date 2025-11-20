@@ -21,9 +21,11 @@ export const getStaticPaths = (async () => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
-const { post } = Astro.props as Props;
+const { post, lang } = Astro.props as Props;
 
-const url = getCanonical(getPermalink(post.permalink, 'post'));
+// build language-prefixed permalink when lang is provided
+const prefixedPermalink = lang ? `${lang}/${post.permalink}` : post.permalink;
+const url = getCanonical(getPermalink(prefixedPermalink, 'post'));
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
 
 const metadata = merge(

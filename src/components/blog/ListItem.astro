@@ -90,10 +90,10 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
           }
         </span>
       </div>
-      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading">
+      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading" style="word-break:break-word;">
         {
           link ? (
-            <a class="inline-block hover:text-primary transition ease-in duration-200" href={link}>
+            <a class="inline-block hover:text-primary transition ease-in duration-200" href={link} style="word-break:break-word;">
               {post.title}
             </a>
           ) : (
@@ -102,8 +102,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         }
       </h2>
     </header>
-
-    {post.excerpt && <p class="flex-grow text-muted text-lg">{post.excerpt}</p>}
+  {post.excerpt && <p class="flex-grow text-muted text-lg" style="word-break:break-word;">{post.excerpt}</p>}
     {
       post.tags && Array.isArray(post.tags) ? (
         <footer class="mt-5">

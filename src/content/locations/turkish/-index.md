@@ -1,0 +1,55 @@
+---
+hero:
+  tagline: Bizi Bulun
+  title: Ofislerimiz
+locations:
+  - title: Virginia Ofisi
+    description: 13873 Park Center Road, Suite 152, Herndon, VA 20171
+    image:
+      src: '~/assets/images/map-herndon.jpg'
+      alt: 'Harita konum görseli'
+      href: 'https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111'
+  - title: Washington DC Ofisi
+    description: 1200 G Street, NW, STE 800, Washington, DC 20005
+    image:
+      src: '~/assets/images/map-washington.png'
+      alt: 'Harita konum görseli'
+      href: 'https://www.google.com/maps/place/Capitol+Law+Partners/@38.8981849,-77.0307687,17z/data=!3m2!4b1!5s0x89b7b7bdf11bb751:0xf9b2c66482b778ff!4m6!3m5!1s0x89b7b79fdc4c0afd:0x70647fab40f6ef1b!8m2!3d38.8981808!4d-77.0281938!16s%2Fg%2F11y23hfk14?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D'
+  - title: New York Ofisi
+    description: 14 Wall Street 20. Kat, New York, NY 10005
+    image:
+      src: '~/assets/images/map-newyork.png'
+      alt: 'Harita konum görseli'
+      href: 'https://www.google.com/maps/place/14+Wall+St+20th+Floor,+New+York,+NY+10005'
+  - title: İstanbul Ofisi
+    description: Trump Towers, Residence 2901, 34381, Şişli/İstanbul Türkiye
+    image:
+      src: '~/assets/images/map-istanbul-1.png'
+      alt: 'Harita konum görseli'
+      href: 'https://www.google.com/maps/place/Trump+Towers/data=!4m2!3m1!1s0x0:0x9ce9fcc6cd43250?sa=X&ved=1t:2428&ictx=111'
+callToAction:
+  title: Capitol Law Partners
+  subtitle: Uzmanlığımızın hukuki meselelerinizde yaratacağı farkı keşfedin. Bugün bizimle iletişime geçin!
+  buttonText: İletişime Geçin
+features:
+  title: Size yardımcı olmak için buradayız!
+  items:
+  - title: Genel destek
+    description: Hukuki danışmanlık, dosya değerlendirmesi, sözleşme incelemesi, uyum süreçleri veya hizmetlerimizle ilgili genel sorularınız için bizimle sohbet edin.
+  - title: Avukatla görüşün
+    description: Doğrudan hukuki tavsiye mi istiyorsunuz? Kişiye özel danışmanlık ve profesyonel temsil için avukatlarımıza ulaşın.
+  - title: Göçmenlik Dosyası Yardımı
+    description: Göçmenlik dosyanızda yardıma mı ihtiyacınız var? Vize, yeşil kart, vatandaşlık başvuruları veya göçmenlik sorunlarınızda ekibimiz size rehberlik edecektir.
+  - title: Telefon
+    description: +1 (202) 440-2272
+    link: tel:+12024402272
+  - title: E-posta
+    description: info@capitollawpartners.com
+    link: mailto:info@capitollawpartners.com
+  - title: Whatsapp
+    description: +1 (202) 440-2272
+    link: https://wa.me/12024402272
+metadata:
+  title: iletişim
+  description: Göçmenlik, ticaret ve marka hukuku ofislerimizi yakından keşfedin. Ofis adreslerimizi, çalışma saatlerimizi ve yol tariflerini görüntüleyerek yüz yüze danışmanlık randevusu alın.
+---

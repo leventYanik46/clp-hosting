@@ -22,6 +22,7 @@ export const cleanSlug = (text = '') =>
     .join('/');
 
 export const BLOG_BASE = cleanSlug(APP_BLOG?.list?.pathname);
+console.log('permalinks BLOG_BASE', BLOG_BASE);
 export const CATEGORY_BASE = cleanSlug(APP_BLOG?.category?.pathname);
 export const TAG_BASE = cleanSlug(APP_BLOG?.tag?.pathname) || 'tag';
 

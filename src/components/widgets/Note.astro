@@ -1,11 +1,29 @@
 ---
 import { Icon } from 'astro-icon/components';
+import type { ContentEntryMap } from "astro:content";
+import { getListPage } from "~/utils/lib/contentParser.astro";
+import { supportedLang } from "~/utils/lib/languageParser";
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const { lang } = Astro.params;
+
+const notePage = await getListPage("note", lang as keyof ContentEntryMap);
+if (!notePage || notePage.length === 0 || !notePage[0].data) {
+  throw new Error("Note content not found for language: " + lang);
+}
+
+const { title, text } = notePage[0].data;
 ---
 
 <section class="bg-blue-50 not-prose">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-lg text-center font-medium">
     <span class="font-bold">
-      <Icon name="tabler:info-square" class="w-5 h-5 inline-block align-text-bottom" /> Philosophy:</span
-    > We Make The Complex Simple
+      <Icon name="tabler:info-square" class="w-5 h-5 inline-block align-text-bottom" /> {title}</span
+    > {text}
   </div>
 </section>
