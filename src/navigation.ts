@@ -5,20 +5,7 @@ export const headerData = {
   links: [
     {
       text: 'About Us',
-      links: [
-        {
-          text: 'About Us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Our Locations',
-          href: getPermalink('/locations'),
-        },
-        {
-          text: 'Blog',
-          href: getPermalink('/blog'),
-        },
-      ],
+      href: getPermalink('/about'),
     },
     {
       text: 'Practice Areas',

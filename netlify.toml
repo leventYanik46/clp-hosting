@@ -12,7 +12,7 @@
   pretty_urls = false
 
 # ─────────────────────────────────────────────────────────────
-# Redirect outdated CLP routes → new relative routes
+# Redirect outdated CLP routes → current site routes
 # ─────────────────────────────────────────────────────────────
 
 # Old “About” pages → /about
@@ -37,7 +37,7 @@
   to   = "/contact"
   status = 301
 
-# Practice‐area slugs that changed
+# Practice-area slugs that changed
 [[redirects]]
   from = "/practise_area/corporate-law/"
   to   = "/practice-area/business-corporate-law"
@@ -46,17 +46,6 @@
 [[redirects]]
   from = "/practise_area/business-immigration-law/"
   to   = "/practice-area/immigration-law"
-  status = 301
-
-# Pages no longer exist → homepage
-[[redirects]]
-  from = "/practise_area/business-litigation-2/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practise_area/"
-  to   = "/"
   status = 301
 
 # Locations → /locations
@@ -70,237 +59,24 @@
   to   = "/locations"
   status = 301
 
-# Scheduling → /Schedule
+# Scheduling → /schedule
 [[redirects]]
   from = "/consultation-appointment/"
-  to   = "/Schedule"
+  to   = "/schedule"
   status = 301
 
 [[redirects]]
   from = "/ucretsiz-danismanlik-randevusu/"
-  to   = "/Schedule"
-  status = 301
-
-# Language toggles → homepage
-[[redirects]]
-  from = "/tr/"
-  to   = "/"
+  to   = "/schedule"
   status = 301
 
 [[redirects]]
-  from = "/?lang=tr"
-  to   = "/"
+  from = "/Schedule"
+  to   = "/schedule"
   status = 301
 
+# Sitemap canonicalization
 [[redirects]]
-  from = "/?lang=en"
-  to   = "/"
-  status = 301
-
-# Other legacy CLP pages → homepage
-[[redirects]]
-  from = "/ekibimiz/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/our-team/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/careers/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/kariyer/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practise-areas/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/calisma-alanlarimiz/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/home-clp/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/faq/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/jurisdiction/"
-  to   = "/"
-  status = 301
-
-# Technical/unused → homepage
-[[redirects]]
-  from = "/tf_header_footer/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/tf_header_footer/footer-default/"
-  to   = "/"
-  status = 301
-
-# Old gallery → homepage
-[[redirects]]
-  from = "/gallery/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-8/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-7/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-6/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-5/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-4/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-3/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases-2/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/gallery/education-law-cases/"
-  to   = "/"
-  status = 301
-
-  [[redirects]]
   from = "/sitemap.xml"
   to   = "/sitemap-index.xml"
-  status = 301
-
-  [[redirects]]
-  from = "/https://capitollawpartners.com/fusce-tincidunt-commodo-sapien-quis-porttitor-ipsum-fringilla-et-2/"
-  to   = "/"
-  status = 301
-
-[[redirects]]
-  from = "/case-study/motocycle-security-case/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practise_area/practice-areas/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practice-areas/tax/shoe-carnival-converse-shoes-c-RQXzwNTD"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/case-study/real-estate-case/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/case_study_category/real-specialist/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/attorney/benjamin-isabella/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practise-areas/info@capitollawpartners.com"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/attorney/sena-sahin/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practice-areas/tax/20240402"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/attorney/william-sophia/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/fusce-tincidunt-commodo-sapien-quis-porttitor-ipsum-fringilla-et/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/case-study/domestic-violence-case/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/category/blog/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/domestic-violence-in-california-how-a-lawyer-can-help-2/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/practise_area/insurance-defense/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/hello-world/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/category/attorney/"
-  to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/tag/creative/"
-  to = "/"
   status = 301
