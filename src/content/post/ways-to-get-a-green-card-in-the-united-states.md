@@ -6,10 +6,11 @@ excerpt: " There are multiple ways to get a Green Card: family sponsorship
   helps clients choose the best path and provides legal support to achieve
   permanent residency. "
 category: Green Card
+lang: en
 image: /images/grencardusway.jpg
 imageWidth: 5908
 imageHeight: 3938
-publishDate: 2025-08-28T01:45:00.000+03:00
+publishDate: 2025-11-20T01:45:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/ways-to-get-a-green-card-in-the-united-states 
   description: Ways to Get a Green Card in the United States. How do I get a Green
