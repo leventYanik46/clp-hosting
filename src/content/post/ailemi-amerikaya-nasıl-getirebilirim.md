@@ -12,7 +12,7 @@ lang: tr
 image: /images/how-can-i-bring-my-family-in-usa.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-30T18:17:00.000+03:00
+publishDate: 2025-11-30T18:17:00.000+03:00
 metadata:
   description: "Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik
     süreçlerinde yapılan en büyük hatalar. Ebeveyn Sponsorluğu. "
