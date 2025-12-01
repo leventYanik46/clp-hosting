@@ -214,7 +214,7 @@ blog:
 cta:
   titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
   subtitleHtml: Discover the difference our expertise can make in your legal matters.
-    <br class="hidden md:inline" />Contact us today!
+    <br class="hidden md:inline" /> Contact us today!
   actions:
   - variant: primary
     text: Contact Us
