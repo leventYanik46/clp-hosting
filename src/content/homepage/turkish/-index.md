@@ -147,7 +147,7 @@ blog:
   information: Hukuki içgörüler, pratik ipuçları ve zamanında güncellemeler için blogumuzu ziyaret edin; karmaşık soruları güvenli kararlara dönüştürmenize yardımcı olalım.
 cta:
   titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
-  subtitleHtml: Uzmanlığımızın hukuki konularınızda yaratacağı farkı keşfedin. <br class="hidden md:inline" />Hemen bize ulaşın!
+  subtitleHtml: Uzmanlığımızın hukuki konularınızda yaratacağı farkı keşfedin. <br class="hidden md:inline" />&nbsp;Hemen bize ulaşın!
   actions:
   - variant: primary
     text: Bize Ulaşın

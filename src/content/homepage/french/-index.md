@@ -147,7 +147,7 @@ blog:
   information: Parcourez notre blog pour des analyses juridiques, des conseils pratiques et des mises à jour ponctuelles qui transforment des questions complexes en décisions éclairées.
 cta:
   titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
-  subtitleHtml: Découvrez la différence que notre expertise peut apporter à vos enjeux juridiques.<br class="hidden md:inline" />Contactez-nous dès aujourd’hui !
+  subtitleHtml: Découvrez la différence que notre expertise peut apporter à vos enjeux juridiques.<br class="hidden md:inline" />&nbsp;Contactez-nous dès aujourd’hui !
   actions:
     - variant: primary
       text: Nous contacter
