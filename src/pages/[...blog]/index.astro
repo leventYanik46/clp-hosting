@@ -21,10 +21,11 @@ export const getStaticPaths = (async () => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
-const { post, lang } = Astro.props as Props;
+const { post, lang, pathPrefix } = Astro.props as Props;
+const ogLocaleMap: Record<string, string> = { en: 'en-US', tr: 'tr-TR', es: 'es-ES', pt: 'pt-PT', fr: 'fr-FR' };
 
-// build language-prefixed permalink when lang is provided
-const prefixedPermalink = lang ? `${lang}/${post.permalink}` : post.permalink;
+// build language-prefixed permalink when the route includes a prefix
+const prefixedPermalink = pathPrefix ? `${pathPrefix}/${post.permalink}` : post.permalink;
 const url = getCanonical(getPermalink(prefixedPermalink, 'post'));
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
 
@@ -38,6 +39,7 @@ const metadata = merge(
     },
     openGraph: {
       type: 'article',
+      locale: ogLocaleMap[lang] || ogLocaleMap.en,
       ...(image
         ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] }
         : {}),

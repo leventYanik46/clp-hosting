@@ -215,15 +215,23 @@ export const getStaticPathsBlogPost = async () => {
   return posts.flatMap((post) => {
     const postLang = post.lang;
     const langs = Array.isArray(postLang) ? postLang : postLang ? [postLang] : [defaultLang];
+    const primaryLang = langs[0] || defaultLang;
 
-    // Map language codes to route prefixes ('' for default to keep root paths)
-    const prefixes = langs.map((code) => (code === defaultLang ? '' : code));
+    // Map path prefixes to language codes, always adding an unprefixed fallback.
+    const prefixToLang = new Map<string, string>();
+    langs.forEach((code) => {
+      const prefix = code === defaultLang ? '' : code;
+      if (!prefixToLang.has(prefix)) prefixToLang.set(prefix, code);
+    });
+    if (!prefixToLang.has('')) {
+      prefixToLang.set('', primaryLang);
+    }
 
-    return prefixes.map((prefix) => ({
+    return Array.from(prefixToLang.entries()).map(([prefix, langCode]) => ({
       params: {
         blog: prefix ? `${prefix}/${post.permalink}` : post.permalink,
       },
-      props: { post, lang: prefix === '' ? defaultLang : prefix },
+      props: { post, lang: langCode, pathPrefix: prefix },
     }));
   });
 };
