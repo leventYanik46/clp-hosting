@@ -3,6 +3,12 @@
   functions = "netlify/functions"
   publish = "dist"
 
+[dev]
+  command = "npm run dev"
+  targetPort = 4321
+  port = 8888
+  autoLaunch = false
+
 [[headers]]
   for = "/_astro/*"
   [headers.values]

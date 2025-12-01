@@ -6,7 +6,7 @@ sections:
 - wrapper: flex flex-wrap justify-center gap-4
   members:
   - title: Cagatay Ersoy
-    tagline: Abogado
+    tagline: Cofundador y Socio Director
     subtitle: Trabajemos juntos
     bottomtag: Inmigración Empresarial | Derecho Comercial | Derecho de Marcas
     actions:
@@ -22,7 +22,7 @@ sections:
       src: ~/assets/images/cagatay-bw.png
       alt: Agendar una cita
   - title: Sena Sahin
-    tagline: Abogada
+    tagline: Cofundadora y Socia Directora
     subtitle: Trabajemos juntas
     bottomtag: Litigios Comerciales | Planificación Patrimonial | Litigios Federales
     actions:

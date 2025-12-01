@@ -6,7 +6,7 @@ sections:
 - wrapper: flex flex-wrap justify-center gap-4
   members:
   - title: Cagatay Ersoy
-    tagline: Attorney at Law
+    tagline: Co-Founder & Managing Partner
     subtitle: Let's Work Together
     bottomtag: Business Immigration | Business Law | Trademark Law
     actions:
@@ -22,7 +22,7 @@ sections:
       src: ~/assets/images/cagatay-bw.png
       alt: Schedule an appointment
   - title: Sena Sahin
-    tagline: Attorney at Law
+    tagline: Co-Founder & Managing Partner
     subtitle: Let's Work Together
     bottomtag: Business Litigation | Estate Planning | Federal Litigation
     actions:

@@ -54,8 +54,10 @@ const {
         <Image
           src={image.src}
           alt={image.alt}
-          width={300}
-          height={200}
+          width={360}
+          height={240}
+          widths={[400, 800]}
+          sizes="(max-width: 640px) 90vw, 320px"
           class="mx-auto rounded-md shadow-lg"
         />
       </div>

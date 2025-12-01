@@ -4,15 +4,27 @@ import { APP_BLOG } from 'astrowind:config';
 import { getRelatedPosts } from '~/utils/blog';
 import BlogHighlightedPosts from '../widgets/BlogHighlightedPosts.astro';
 import type { Post } from '~/types';
-import { getBlogPermalink } from '~/utils/permalinks';
+import { BLOG_BASE, getPermalink } from '~/utils/permalinks';
+import config from '~/config/config.json';
 
 export interface Props {
   post: Post;
+  lang?: string;
 }
 
-const { post } = Astro.props;
+const { post, lang } = Astro.props;
+const { default_language, default_language_in_subdir } = config.settings;
+const resolveLang = lang || default_language;
+const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
+const pathPrefix = needsPrefix ? lang : '';
+const blogListUrl = getPermalink(pathPrefix ? `${pathPrefix}/${BLOG_BASE}` : BLOG_BASE, 'page');
 
-const relatedPosts = post.tags ? await getRelatedPosts(post, 4) : [];
+const relatedPosts = (post.tags ? await getRelatedPosts(post, 4) : []).filter((related) => {
+  const postLang = related.lang;
+  if (Array.isArray(postLang)) return postLang.includes(resolveLang);
+  if (typeof postLang === 'string') return postLang === resolveLang;
+  return resolveLang === default_language;
+});
 ---
 
 {
@@ -24,8 +36,9 @@ const relatedPosts = post.tags ? await getRelatedPosts(post, 4) : [];
       }}
       title="Related Posts"
       linkText="View All Posts"
-      linkUrl={getBlogPermalink()}
+      linkUrl={blogListUrl}
       postIds={relatedPosts.map((post) => post.id)}
+      lang={resolveLang}
     />
   ) : null
 }

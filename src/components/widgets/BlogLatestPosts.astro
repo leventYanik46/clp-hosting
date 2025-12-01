@@ -3,11 +3,12 @@ import { APP_BLOG } from 'astrowind:config';
 
 import Grid from '~/components/blog/Grid.astro';
 
-import { getBlogPermalink } from '~/utils/permalinks';
-import { findLatestPosts } from '~/utils/blog';
+import { BLOG_BASE, getPermalink } from '~/utils/permalinks';
+import { fetchPosts } from '~/utils/blog';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import type { Widget } from '~/types';
 import Button from '../ui/Button.astro';
+import config from '~/config/config.json';
 
 export interface Props extends Widget {
   title?: string;
@@ -15,21 +16,35 @@ export interface Props extends Widget {
   linkUrl?: string | URL;
   information?: string;
   count?: number;
+  lang?: string;
 }
-
+  
 const {
   title = await Astro.slots.render('title'),
   linkText = 'View all posts',
-  linkUrl = getBlogPermalink(),
+  linkUrl,
   information = await Astro.slots.render('information'),
   count = 4,
+  lang,
 
   id,
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
 
-const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
+const { default_language, default_language_in_subdir } = config.settings;
+const resolveLang = lang || default_language;
+const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
+const pathPrefix = needsPrefix ? lang : '';
+const blogListUrl = linkUrl || getPermalink(pathPrefix ? `${pathPrefix}/${BLOG_BASE}` : BLOG_BASE, 'page');
+
+const allPosts = APP_BLOG.isEnabled ? await fetchPosts() : [];
+const posts = allPosts.filter((post) => {
+  const postLang = post.lang;
+  if (Array.isArray(postLang)) return postLang.includes(resolveLang);
+  if (typeof postLang === 'string') return postLang === resolveLang;
+  return resolveLang === default_language;
+}).slice(0, count);
 ---
 
 {
@@ -42,8 +57,8 @@ const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
               class="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2"
               set:html={title}
             />
-            {APP_BLOG.list.isEnabled && linkText && linkUrl && (
-              <Button variant="link" href={linkUrl}>
+            {APP_BLOG.list.isEnabled && linkText && blogListUrl && (
+              <Button variant="link" href={blogListUrl}>
                 {' '}
                 {linkText} »
               </Button>
@@ -54,7 +69,7 @@ const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
         {information && <p class="text-muted lg:text-sm lg:max-w-md" set:html={information} />}
       </div>
 
-      <Grid posts={posts} />
+      <Grid posts={posts} lang={resolveLang} />
     </WidgetWrapper>
   ) : (
     <Fragment />

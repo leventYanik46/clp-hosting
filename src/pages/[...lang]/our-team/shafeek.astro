@@ -85,7 +85,7 @@ const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? hr
   {cta && <CallToAction {...cta} />}
 
   {blog && (
-    <BlogLatestPosts id={blog.id} title={blog.title} information={blog.information}>
+    <BlogLatestPosts id={blog.id} title={blog.title} information={blog.information} lang={lang}>
       <Fragment slot="bg">
         <div class={blog.bgClass}></div>
       </Fragment>

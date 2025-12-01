@@ -94,6 +94,7 @@ const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? hr
       id={blog.id}
       title={blog.title}
       information={blog.information}
+      lang={lang}
     >
       <Fragment slot="bg">
         <div class={blog.bgClass}></div>

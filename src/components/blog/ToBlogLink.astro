@@ -1,14 +1,21 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { getBlogPermalink } from '~/utils/permalinks';
+import { BLOG_BASE, getPermalink } from '~/utils/permalinks';
 import { I18N } from 'astrowind:config';
 import Button from '~/components/ui/Button.astro';
+import config from '~/config/config.json';
 
 const { textDirection } = I18N;
+const { lang } = Astro.props;
+const { default_language, default_language_in_subdir } = config.settings;
+const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
+const pathPrefix = needsPrefix ? lang : '';
+const blogPath = pathPrefix ? `${pathPrefix}/${BLOG_BASE}` : BLOG_BASE;
+const blogHref = getPermalink(blogPath, 'page');
 ---
 
 <div class="mx-auto px-6 sm:px-6 max-w-3xl pt-8 md:pt-4 pb-12 md:pb-20">
-  <Button variant="tertiary" class="px-3 md:px-3" href={getBlogPermalink()}>
+  <Button variant="tertiary" class="px-3 md:px-3" href={blogHref}>
     {
       textDirection === 'rtl' ? (
         <Icon name="tabler:chevron-right" class="w-5 h-5 mr-1 -ml-1.5 rtl:-mr-1.5 rtl:ml-1" />

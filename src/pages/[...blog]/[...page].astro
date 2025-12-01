@@ -43,7 +43,7 @@ const metadata = {
     >
       The Blog
     </Headline>
-    <BlogList posts={page.data} />
+    <BlogList posts={page.data} lang={lang} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--
       <PostTags tags={allCategories} class="mb-2" title="Search by Categories:" isCategory />

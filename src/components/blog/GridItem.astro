@@ -6,15 +6,22 @@ import Image from '~/components/common/Image.astro';
 
 import { findImage } from '~/utils/images';
 import { getPermalink } from '~/utils/permalinks';
+import config from '~/config/config.json';
 
 export interface Props {
   post: Post;
+  lang?: string;
 }
 
-const { post } = Astro.props;
+const { post, lang } = Astro.props;
 const image = await findImage(post.image);
 
-const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : '';
+const { default_language, default_language_in_subdir } = config.settings;
+const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
+const pathPrefix = needsPrefix ? lang : '';
+const permalinkPath = pathPrefix ? `${pathPrefix}/${post.permalink}` : post.permalink;
+
+const link = APP_BLOG?.post?.isEnabled ? getPermalink(permalinkPath, 'post') : '';
 ---
 
 <article
