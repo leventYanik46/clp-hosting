@@ -86,3 +86,17 @@
   from = "/sitemap.xml"
   to   = "/sitemap-index.xml"
   status = 301
+
+# Hero image pinned through Netlify Image CDN
+[[redirects]]
+  from = "/hero-image"
+  to = "/.netlify/images?url=/assets/images/high-resolution-photo-of-us-capitol-l.png&w=2400&fit=cover&auto=format&q=85"
+  status = 200
+  force = true
+
+# Keep hero image variants cached and untransformed
+[[headers]]
+  for = "/_astro/high-resolution-photo-of-us-capitol-l*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable, no-transform"
+    Vary = "Accept"

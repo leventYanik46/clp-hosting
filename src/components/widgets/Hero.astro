@@ -39,11 +39,11 @@ const {
             ) : (
               <Image
                 class="w-full h-full object-cover"
-                widths={[360, 640, 768, 1024, 1280, 1920, 2400, 3200]}
-                sizes="(min-width: 3200px) 3200px, (min-width: 2400px) 2400px, (min-width: 1920px) 1920px, (min-width: 1280px) 1280px, (min-width: 1024px) 1024px, (min-width: 768px) 768px, (min-width: 640px) 640px, 360px"
+                layout="cover"
+                widths={[720, 1080, 1440, 1920, 2400]}
+                sizes="100vw"
                 loading="eager"
-                width={3200}
-                height={1080}
+                fetchpriority="high"
                 {...image}
               />
             )}
