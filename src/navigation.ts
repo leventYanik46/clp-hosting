@@ -91,7 +91,7 @@ export const headerDataTr = {
       href: getPermalink('/tr/about'),
     },
     {
-      text: 'Uygulama Alanları',
+      text: 'Çalışma Alanları',
       links: [
         {
           text: 'Genel Hukuk Müşavirliği ve Danışmanlık',
@@ -539,8 +539,8 @@ export const footerDataTr = {
     {
       title: 'Çalışma Alanları',
       links: [
-        { text: 'nışmanlığı Hizmetleri', href: getPermalink('/practice-area/general-counsel-services') },
-        { text: 'Ticaret ve Şirketler Hukuku', href: getPermalink('/practice-area/business-corporate-law') },
+        { text: 'Danışmanlık Hizmetleri', href: getPermalink('/practice-area/general-counsel-services') },
+        { text: 'İş ve Şirketler Hukuku', href: getPermalink('/practice-area/business-corporate-law') },
         { text: 'Vasiyet ve Miras Hukuku', href: getPermalink('/practice-area/estate-planning') },
         { text: 'Gayrimenkul Hukuku', href: getPermalink('/practice-area/real-estate') },
         { text: 'Fikri Mülkiyet Hukuku', href: getPermalink('/practice-area/ip-law') },
