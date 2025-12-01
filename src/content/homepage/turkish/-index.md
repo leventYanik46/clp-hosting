@@ -5,8 +5,8 @@ metadata:
   ignoreTitleTemplate: true
 hero:
   title:
-    highlight: Güvenilir Ortağınız
-    rest: Hukuki Çözümlerinizde
+    highlight: Hukuki Çözümlerinizde
+    rest: Güvenilir Ortağınız 
   subtitleHtml: <span class="hidden sm:inline">Alanında saygın savunucularınız—</span><strong>İş büyümesi, göçmenlik başarısı ve miras planlamasında</strong> size zamanla kanıtlanmış uzmanlığımız ve sarsılmaz bağlılığımızla öncelik veriyoruz.
   image:
     src: ~/assets/images/high-resolution-photo-of-us-capitol-l.png

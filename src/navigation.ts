@@ -447,6 +447,7 @@ export const footerData = {
       links: [
         { text: 'About Us',  href: getPermalink('/about') },
         { text: 'Our Locations', href: getPermalink('/locations') },
+        { text: 'Contact Us', href: getPermalink('/contact') },
       ],
     },
     {
@@ -479,8 +480,7 @@ export const footerData = {
       title: 'Resources',
       links: [
         { text: 'Blog', href: getBlogPermalink() },
-        { text: 'Contact Us', href: getPermalink('/contact') },
-        { text: 'Free Evaluations', href: getPermalink('/contact') },
+        { text: 'Free Evaluations', href: getPermalink('/evaluations') },
       ],
     },
   ],
@@ -520,6 +520,7 @@ export const footerDataTr = {
       links: [
         { text: 'Hakkımızda', href: getPermalink('/about') },
         { text: 'Ofislerimiz', href: getPermalink('/locations') },
+        { text: 'Bize Ulaşın', href: getPermalink('/contact') },
       ],
     },
     {
@@ -551,8 +552,7 @@ export const footerDataTr = {
       title: 'Kaynaklar',
       links: [
         { text: 'Blog', href: getBlogPermalink() },
-        { text: 'Bize Ulaşın', href: getPermalink('/contact') },
-        { text: 'Ücretsiz Değerlendirme', href: getPermalink('/contact') },
+        { text: 'Ücretsiz Değerlendirme', href: getPermalink('/tr/evaluations') },
       ],
     },
   ],
@@ -592,6 +592,7 @@ export const footerDataSpanish = {
       links: [
         { text: 'Sobre Nosotros', href: getPermalink('/es/about') },
         { text: 'Nuestras Ubicaciones', href: getPermalink('/es/locations') },
+        { text: 'Contáctenos', href: getPermalink('/es/contact') },
       ],
     },
     {
@@ -623,7 +624,6 @@ export const footerDataSpanish = {
       title: 'Recursos',
       links: [
         { text: 'Blog', href: getPermalink('/es/blog') },
-        { text: 'Contáctenos', href: getPermalink('/es/contact') },
         { text: 'Evaluaciones gratuitas', href: getPermalink('/es/evaluations') },
       ],
     },
@@ -665,6 +665,7 @@ export const footerDataFr = {
       links: [
         { text: 'À propos de nous', href: getPermalink('/fr/about') },
         { text: 'Nos bureaux', href: getPermalink('/fr/locations') },
+        { text: 'Nous contacter', href: getPermalink('/fr/contact') },
       ],
     },
     {
@@ -696,7 +697,6 @@ export const footerDataFr = {
       title: 'Ressources',
       links: [
         { text: 'Blog', href: getPermalink('/fr/blog') },
-        { text: 'Nous contacter', href: getPermalink('/fr/contact') },
         { text: 'Évaluations gratuites', href: getPermalink('/fr/evaluations') },
       ],
     },
@@ -736,6 +736,7 @@ export const footerDataPt = {
       links: [
         { text: 'Sobre Nós', href: getPermalink('/pt/about') },
         { text: 'Nossos Escritórios', href: getPermalink('/pt/locations') },
+        { text: 'Fale Conosco', href: getPermalink('/pt/contact') },
       ],
     },
     {
@@ -768,7 +769,6 @@ export const footerDataPt = {
       title: 'Recursos',
       links: [
         { text: 'Blog', href: getPermalink('/pt/blog') },
-        { text: 'Fale Conosco', href: getPermalink('/pt/contact') },
         { text: 'Avaliações gratuitas', href: getPermalink('/pt/evaluations') },
       ],
     },
