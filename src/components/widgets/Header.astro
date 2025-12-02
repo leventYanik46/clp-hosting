@@ -95,7 +95,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
                     />
                   </button>
                   <ul
-                    class="dropdown-menu pl-4 min-[1230px]:pl-0 font-medium min-[1230px]:bg-white/90 min-[1230px]:min-w-[320px] min-[1230px]:w-max drop-shadow-xl min-[1230px]:backdrop-blur-md rounded min-[1230px]:absolute min-[1230px]:top-full min-[1230px]:hidden min-[1230px]:group-hover:block min-[1230px]:group-focus-within:block"
+                    class="dropdown-menu hidden group-focus-within:block pl-4 min-[1230px]:pl-0 font-medium min-[1230px]:bg-white/90 min-[1230px]:min-w-[320px] min-[1230px]:w-max drop-shadow-xl min-[1230px]:backdrop-blur-md rounded min-[1230px]:absolute min-[1230px]:top-full min-[1230px]:group-hover:block min-[1230px]:group-focus-within:block"
                   >
                     {links.map(({ text: text2, href: href2 }) => (
                       <li>
