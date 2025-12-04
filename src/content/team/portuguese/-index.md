@@ -38,7 +38,7 @@ sections:
       src: ~/assets/images/Sena-bw.jpg
       alt: Agendar uma consulta
   - title: Shafeek Seddiq
-    tagline: Advogado
+    tagline: Consultor Jurídico
     subtitle: Vamos trabalhar juntos
     bottomtag: Trusts e Sucessões | Direito Empresarial | Consultor Jurídico Geral
     actions:

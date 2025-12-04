@@ -38,7 +38,7 @@ sections:
       src: ~/assets/images/Sena-bw.jpg
       alt: Agendar una cita
   - title: Shafeek Seddiq
-    tagline: Abogado
+    tagline: Asesor Jurídico
     subtitle: Trabajemos juntos
     bottomtag: Fideicomisos y Sucesiones | Derecho Empresarial | Asesoría General
     actions:

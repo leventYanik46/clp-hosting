@@ -11,7 +11,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Shafeek Seddiq
-  role: Avocat
+  role: Avocat Conseil
   bio:
   - Shafeek est un leader et avocat proactif, orienté résultats et expérimenté, avec plus de 20 ans d’expérience juridique. Il accompagne ses clients en planification successorale, création d’entreprises, partenariats et rédaction de divers documents juridiques. Il conseille également des organisations de santé sur la conformité, les opérations et la gestion.
   - Après son diplôme en droit, Shafeek a exercé dans l’un des plus grands cabinets de Washington, D.C. Il a ensuite ouvert son propre cabinet à Fairfax, en Virginie.

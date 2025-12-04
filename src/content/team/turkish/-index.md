@@ -38,7 +38,7 @@ sections:
           src: ~/assets/images/Sena-bw.jpg
           alt: Randevu planlayın
       - title: Shafeek Seddiq
-        tagline: Avukat
+        tagline: Danışman Avukat
         subtitle: Birlikte Çalışalım
         bottomtag: Vasiyetler & Miras | İş Hukuku | Genel Hukuk Müşavirliği
         actions:

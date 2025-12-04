@@ -11,7 +11,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Shafeek Seddiq
-  role: Advogado
+  role: Consultor Jurídico
   bio:
   - Shafeek é um líder e advogado proativo, orientado a resultados e experiente, com mais de 20 anos de atuação jurídica. Ele trabalha com clientes em planejamento sucessório, constituição de empresas, parcerias e elaboração de diversos documentos legais. Além disso, Shafeek atua como conselheiro e orienta organizações de saúde em questões de conformidade, operação e gestão.
   - Após se formar em Direito, Shafeek atuou em um dos maiores escritórios de Washington, D.C. Posteriormente, abriu seu próprio escritório em Fairfax, Virgínia.

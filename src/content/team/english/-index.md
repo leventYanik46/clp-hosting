@@ -38,7 +38,7 @@ sections:
       src: ~/assets/images/Sena-bw.jpg
       alt: Schedule an appointment
   - title: Shafeek Seddiq
-    tagline: Attorney at Law
+    tagline: Of Counsel
     subtitle: Let's Work Together
     bottomtag: Trusts & Estates | Business Law | General Counsel
     actions:

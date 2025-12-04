@@ -38,7 +38,7 @@ sections:
       src: ~/assets/images/Sena-bw.jpg
       alt: Prendre rendez-vous
   - title: Shafeek Seddiq
-    tagline: Avocat
+    tagline: Avocat Conseil
     subtitle: Travaillons ensemble
     bottomtag: Trusts et successions | Droit des affaires | Conseil juridique externe
     actions:

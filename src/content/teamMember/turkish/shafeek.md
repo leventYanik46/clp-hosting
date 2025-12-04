@@ -11,7 +11,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Shafeek Seddiq
-  role: Avukat
+  role: Danışman Avukat
   bio:
   - Shafeek, 20 yılı aşkın hukuki deneyime sahip, proaktif, sonuç odaklı ve deneyimli bir lider ve avukattır. Miras planlaması, şirket kuruluşu, ortaklıklar ve çeşitli hukuki belgelerin hazırlanması konularında müvekkillerle çalışmaktadır. Ayrıca Shafeek, sağlık kuruluşlarına uyumluluk, operasyon ve yönetim konularında danışmanlık yapmaktadır.
   - Hukuk fakültesinden mezun olduktan sonra Shafeek, Washington, D.C.’deki en büyük hukuk firmalarından birinde avukatlık yapmıştır. Daha sonra Virginia, Fairfax’ta kendi hukuk bürosunu açmıştır.

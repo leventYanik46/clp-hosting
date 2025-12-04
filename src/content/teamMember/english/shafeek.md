@@ -12,7 +12,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Shafeek Seddiq
-  role: Attorney At Law
+  role: Of Counsel
   bio:
   - Shafeek is a proactive, results-driven, and seasoned leader and lawyer with over
     20 years of legal experience. He works with clients on estate planning, business
