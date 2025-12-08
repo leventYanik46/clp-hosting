@@ -10,6 +10,7 @@ lang: tr
 image: /images/pexels-steve-845246.jpg
 imageWidth: 4379
 imageHeight: 2919
+publishDate: 2025-12-04T15:13:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/green-card-vize-başvurum-reddedildi-ne-yapmalıyım?
   description: Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım
