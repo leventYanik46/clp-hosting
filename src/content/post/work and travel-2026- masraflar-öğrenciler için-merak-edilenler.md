@@ -1,10 +1,10 @@
 ---
 title: Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler 
-excerpt: Work and Travel programı, üniversite öğrencilerine hem Amerika’da
+excerpt: "Work and Travel programı, üniversite öğrencilerine hem Amerika’da
   çalışma deneyimi kazanma hem de kültürel değişim fırsatı sunan en popüler yaz
   dönemi programlarından biridir. Bu rehberde başvuru şartlarından vize
   sürecine, iş bulma ipuçlarından gider–gelir dengesine kadar öğrencilerin en
-  çok merak ettiği konular uzman bakışıyla ele alınıyor. Programdan
+  çok merak ettiği konular uzman bakışıyla ele alınıyor. "
 category: Work and Travel
 lang: tr
 image: /images/work-and-travel.jpg
