@@ -8,7 +8,7 @@ excerpt: "Work and Travel programı, üniversite öğrencilerine hem Amerika’d
 category: Work and Travel
 lang: tr
 image: /images/work-and-travel.jpg
-imageWidth: 6000
+imageWidth: 5998
 imageHeight: 4000
 publishDate: 2025-12-08T14:59:00.000+03:00
 metadata:
