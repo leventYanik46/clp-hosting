@@ -7,7 +7,7 @@ profile:
   id: about
   columns: 2
   image:
-    src: ~/assets/images/cagatay-profile.jpg
+    src: ~/assets/images/cagatay-bio-new.jpeg
     alt: Cagatay Ersoy
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto

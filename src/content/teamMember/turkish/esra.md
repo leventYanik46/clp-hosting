@@ -6,10 +6,10 @@ profile:
   id: about
   columns: 2
   name: Esra Nur Bulan
-  role: Avukat
   image:
-    src: ~/assets/images/Esra.jpg
+    src: ~/assets/images/esra-bio-new.jpeg
     alt: Esra Nur Bulan profil fotoğrafı
+  role: Avukat
   bio:
   - Esra Nur Bulan, göçmenlik hukuku, insani yardım ve aile temelli başvurular üzerine yoğunlaşmaktadır. Penn State University Hukuk Fakültesi mezunu olan ve İstanbul Üniversitesi Hukuk Fakültesi’nden hukuk diplomasına sahip olan Bulan, hem uluslararası hukuk eğitimi hem de Amerika genelinde göçmen topluluklarını temsil etme deneyimiyle dikkat çekmektedir.
   - Bulan, sığınmacılar, mülteciler ve karmaşık aile veya insani göçmenlik süreçlerinden geçen bireyleri başarıyla temsil etmiştir. Deneyimleri arasında hukuki yardım ekiplerini yönetmek, müvekkilleri USCIS ve göçmenlik mahkemesi süreçlerine hazırlamak ve yoğun tempolu sivil toplum kuruluşlarında hukuki stratejileri yürütmek bulunmaktadır. Sığınma, TPS, Özel Göçmen Genç Statüsü (SIJS), U vizeleri ve statü ayarlama başvuruları dahil çok çeşitli davalarla ilgilenmiştir.

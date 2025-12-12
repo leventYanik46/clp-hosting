@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Image from '~/components/common/Image.astro';
 import { getEntry} from 'astro:content';
 import { supportedLang } from '~/utils/lib/languageParser';
+import ContactUs from '~/components/widgets/Service.astro';
 
 export function getStaticPaths() {
   // Return string (or undefined) for the `lang` param because this
@@ -28,20 +29,37 @@ if (lang === 'fr') langFolder = 'french';
 const entry = await getEntry('practiceArea', `${langFolder}/ip-law`);
 if (!entry) throw new Error('Practice area not found for language: ' + lang);
 
-const { metadata, post } = entry.data;
+const { metadata, post, contactForm, hero } = entry.data;
 
 ---
 
 <Layout metadata={metadata}>
-  <section class="py-8 sm:py-16 lg:py-20 mx-auto">
+  <section class="py-2 sm:py-6 lg:py-8 mx-auto">
+    {contactForm && (
+      <ContactUs
+        id="form"
+        title={contactForm.title}
+        infoTitle={contactForm.infoTitle ?? contactForm.title}
+        infoDescription={contactForm.infoDescription ?? contactForm.subtitle}
+        googleReview={contactForm.googleReview}
+        inputs={[
+          { type: 'text', name: 'name', label: contactForm.inputs.name },
+          { type: 'email', name: 'email', label: contactForm.inputs.email },
+          { type: 'tel', name: 'phone', label: contactForm.inputs.phone },
+        ]}
+        textarea={{ label: contactForm.textarea }}
+        disclaimer={{ label: contactForm.disclaimer }}
+        image={hero?.image}
+      />
+    )}
     <article>
       <header class="intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
         <h1
-          class="px-4 sm:px-6 max-w-3xl mb-10 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+          class="px-4 sm:px-6 max-w-3xl mb-16 mt-4 sm:mt-24 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
         >
           {post.title}
         </h1>
-        <p class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted text-justify"></p>
+        <p class="max-w-3xl mx-auto mt-1 mb-2 px-4 sm:px-6 text-xl md:text-2xl text-muted text-justify"></p>
 
         {post.image ? (
           <Image

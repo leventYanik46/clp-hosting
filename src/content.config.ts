@@ -191,6 +191,16 @@ const spotlightSchema = z.object({
 const contactFormSchema = z.object({
   title: z.string(),
   subtitle: z.string().optional(),
+  infoTitle: z.string().optional(),
+  infoDescription: z.string().optional(),
+  googleReview: z
+    .object({
+      label: z.string().optional(),
+      rating: z.union([z.number(), z.string()]).optional(),
+      count: z.union([z.number(), z.string()]).optional(),
+      url: z.string().optional(),
+    })
+    .optional(),
   inputs: z
     .object({
       name: z.string().optional(),
@@ -356,11 +366,13 @@ const practiceAreaCollection = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: 'src/content/practiceArea' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    hero: heroBasicSchema.extend({ image: imageSchema.optional() }).optional(),
     post: z.object({
       title: z.string(),
       image: z.union([z.string(), imageSchema]).optional(),
       content: z.string().optional(),
     }),
+    contactForm: contactFormSchema.optional(), // <-- added
   }),
 });
 

@@ -5,8 +5,8 @@ metadata:
 profile:
   id: about
   columns: 2
-  image:
-    src: ~/assets/images/sena-profile-alternate.png
+  image:   
+    src: ~/assets/images/sena-bio-new.jpeg
     alt: Sena Şahin
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto

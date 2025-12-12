@@ -1,0 +1,89 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+import { getEntry} from 'astro:content';
+import { supportedLang } from '~/utils/lib/languageParser';
+import ContactUs from '~/components/widgets/Service.astro';
+
+export function getStaticPaths() {
+  // Return string (or undefined) for the `lang` param because this
+  // file lives under a dynamic folder `[...]lang` and Astro expects
+  // a string/number/undefined for that segment in this case.
+  return supportedLang.map((l) => ({
+    params: { lang: l || undefined },
+  }));
+}
+
+// Normalize Astro.params.lang to a single string and fall back to the
+// configured default language when missing.
+const raw = Astro.params?.lang;
+const resolvedLang = Array.isArray(raw) ? raw[0] : typeof raw === 'string' ? raw : undefined;
+const lang = resolvedLang ?? (await import('../../../../config/config.json')).default?.settings?.default_language ?? 'en';
+// Map lang codes to folder names
+let langFolder = lang;
+if (lang === 'en') langFolder = 'english';
+if (lang === 'tr') langFolder = 'turkish';
+if (lang === 'es') langFolder = 'spanish';
+if (lang === 'pt') langFolder = 'portuguese';
+if (lang === 'fr') langFolder = 'french';
+const entry = await getEntry('practiceArea', `${langFolder}/legal-guardianship`);
+if (!entry) throw new Error('Practice area not found for language: ' + lang);
+
+const { metadata, post, contactForm, hero } = entry.data;
+
+---
+
+<Layout metadata={metadata}>
+  <section class="py-2 sm:py-6 lg:py-8 mx-auto">
+    {contactForm && (
+      <ContactUs
+        id="form"
+        title={contactForm.title}
+        infoTitle={contactForm.infoTitle ?? contactForm.title}
+        infoDescription={contactForm.infoDescription ?? contactForm.subtitle}
+        googleReview={contactForm.googleReview}
+        inputs={[
+          { type: 'text', name: 'name', label: contactForm.inputs.name },
+          { type: 'email', name: 'email', label: contactForm.inputs.email },
+          { type: 'tel', name: 'phone', label: contactForm.inputs.phone },
+        ]}
+        textarea={{ label: contactForm.textarea }}
+        disclaimer={{ label: contactForm.disclaimer }}
+        image={hero?.image}
+      />
+    )}
+    <article>
+      <header class="intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+        <h1
+          class="px-4 sm:px-6 max-w-3xl mb-16 mt-4 sm:mt-24 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+        >
+          {post.title}
+        </h1>
+        <p class="max-w-3xl mx-auto mt-1 mb-2 px-4 sm:px-6 text-xl md:text-2xl text-muted text-justify"></p>
+
+        {post.image ? (
+          <Image
+            src={post.image}
+            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400"
+            widths={[400, 900]}
+            sizes="(max-width: 900px) 400px, 900px"
+            alt=""
+            width={900}
+            height={506}
+            loading="eager"
+            decoding="async"
+          />
+        ) : (
+          <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            <div class="border-t" />
+          </div>
+        )}
+      </header>
+      <div
+        class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+      >
+        <Fragment set:html={post.content} />
+      </div>
+    </article>
+  </section>
+</Layout>

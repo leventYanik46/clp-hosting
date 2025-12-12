@@ -6,10 +6,10 @@ profile:
   id: about
   columns: 2
   name: Esra Nur Bulan
-  role: Associée
   image:
-    src: ~/assets/images/Esra.jpg
+    src: ~/assets/images/esra-bio-new.jpeg
     alt: Photo de profil d’Esra Nur Bulan
+  role: Associée
   bio:
   - Esra Nur Bulan concentre sa pratique sur le droit de l’immigration, l’aide humanitaire et les demandes basées sur la famille. Diplômée de la Penn State University School of Law et titulaire d’un diplôme de droit de l’Université d’Istanbul, Me Bulan apporte à la fois une formation juridique internationale et une expérience pratique au service des communautés immigrées aux États-Unis.
   - Me Bulan a représenté avec succès des demandeurs d’asile, des réfugiés et des personnes confrontées à des questions familiales et humanitaires complexes. Son expérience inclut la gestion d’équipes d’aide juridique, la préparation des clients aux procédures USCIS et tribunaux d’immigration, et la direction de stratégies juridiques dans des contextes associatifs à fort volume. Elle a traité un large éventail de dossiers, dont l’asile, le TPS, le statut spécial de mineur immigrant, les visas U et les demandes d’ajustement de statut.
