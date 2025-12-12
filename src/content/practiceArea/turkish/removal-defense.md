@@ -1,0 +1,56 @@
+---
+metadata:
+  title: Sınır Dışı Etme Savunması
+  description: >-
+    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması, 
+    yardım uygunluğu ve delillere odaklanmıştır.
+hero:
+  tagline: Bize Ulaşın
+  title: Bağlanalım!
+  image:
+    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.jpeg
+    alt: Us capitol building image
+contactForm:
+  title: Hemen bize mesaj gönderin!
+  subtitle: İhtiyaçlarınıza özel hukuki rehberlik için bizimle iletişime geçin.
+  inputs:
+    name: Ad
+    email: E-posta
+    phone: Telefon Numarası
+  textarea: Mesaj
+  disclaimer: Bu formu göndererek verilerin toplanmasını kabul edersiniz.
+  description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
+  googleReview:
+    label: Google Yorumları
+    rating: 5
+    count: 97
+    url: >-
+      https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
+  infoTitle: Sınır Dışı Etme Savunması
+  infoDescription: >-
+    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması, 
+    yardım uygunluğu ve delillere odaklanmıştır.
+post:
+  title: Sınır Dışı Etme Savunması
+  image: ~/assets/images/immigration-img.jpg
+  content: >
+
+    <p>Sınır dışı etme işlemlerindeki bireylere yardım uygunluğu ve delillere 
+    odaklanarak kapsamlı savunma sunuyoruz.</p>
+
+
+    <h3>Temel Hizmetler</h3>
+
+    <ul>
+      <li>Kefalet işitimleri ve gözaltı stratejisi</li>
+      <li>Sığınma, geri gönderilmeme ve CAT talepleri</li>
+      <li>Sınır dışı etme kararının iptal edilmesi ve muafiyet</li>
+      <li>BIA ve federal devrelerinde temyiz</li>
+    </ul>
+
+    <h3>Neden Önemli</h3>
+
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
+    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
+    azaltımına odaklanarak yürütürüz.</p>
+---

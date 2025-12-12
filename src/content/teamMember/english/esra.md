@@ -7,10 +7,10 @@ profile:
   id: about
   columns: 2
   name: Esra Nur Bulan
-  role: Associate
   image:
-    src: ~/assets/images/Esra.jpg
+    src: ~/assets/images/esra-bio-new.jpeg
     alt: Esra Nur Bulan profile photo
+  role: Associate
   bio:
   - Esra Nur Bulan focuses her practice on immigration law, humanitarian relief, and
     family-based petitions. A graduate of Penn State University School of Law and

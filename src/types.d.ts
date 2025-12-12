@@ -214,6 +214,7 @@ export interface Form {
   disclaimer?: Disclaimer;
   button?: string;
   description?: string;
+  compact?: boolean;
 }
 
 // WIDGETS
@@ -287,4 +288,18 @@ export interface Content extends Omit<Headline, 'classes'>, Widget {
   callToAction?: CallToAction;
 }
 
+export interface GoogleReview {
+  rating?: number | string;
+  count?: number | string;
+  label?: string;
+  url?: string;
+}
+
 export interface Contact extends Omit<Headline, 'classes'>, Form, Widget {}
+
+export interface Service extends Omit<Headline, 'classes'>, Form, Widget {
+  image?: string | unknown;
+  infoTitle?: string;
+  infoDescription?: string;
+  googleReview?: GoogleReview;
+}

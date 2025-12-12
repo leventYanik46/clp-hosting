@@ -19,7 +19,7 @@ sections:
       href: /es/our-team/cagatay
       target: _blank
     image:
-      src: ~/assets/images/cagatay-bw.png
+      src: ~/assets/images/cagatay-bio-new-team.jpeg
       alt: Agendar una cita
   - title: Sena Sahin
     tagline: Cofundadora y Socia Directora
@@ -35,7 +35,8 @@ sections:
       href: /es/our-team/sena
       target: _blank
     image:
-      src: ~/assets/images/Sena-bw.jpg
+      src: ~/assets/images/sena-bio-new-team.jpeg
+
       alt: Agendar una cita
   - title: Shafeek Seddiq
     tagline: Asesor Jurídico
@@ -51,7 +52,7 @@ sections:
       href: /es/our-team/shafeek
       target: _blank
     image:
-      src: ~/assets/images/shafeek-bw.png
+      src: ~/assets/images/shafeek-bio-new-team.jpeg
       alt: Imagen de plano
   - title: Esra Nur Bulan
     tagline: Abogada
@@ -67,7 +68,7 @@ sections:
       href: /es/our-team/esra
       target: _blank
     image:
-      src: ~/assets/images/esra-bw.png
+      src: ~/assets/images/esra-bio-new-team.jpeg
       alt: Imagen de plano
   - title: Mehmet Y. Turkoglu
     tagline: Abogado
@@ -83,7 +84,7 @@ sections:
       href: /es/our-team/mehmet
       target: _blank
     image:
-      src: ~/assets/images/Mehmet-bio.jpg
+      src: ~/assets/images/mehmet-bio-new-team.jpeg
       alt: Mehmet Y. Turkoglu
   - title: S. Selman Kilic
     tagline: Abogado
@@ -99,7 +100,9 @@ sections:
       href: /es/our-team/selman
       target: _blank
     image:
-      src: ~/assets/images/selman-bio.jpeg
+      src: ~/assets/images/selman-bio-new-team.jpeg
+
+
       alt: S. Selman Kilic
   - title: Kemal Sahin
     tagline: Pasante Jurídico

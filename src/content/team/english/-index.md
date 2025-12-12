@@ -19,7 +19,7 @@ sections:
       href: /our-team/cagatay
       target: _blank
     image:
-      src: ~/assets/images/cagatay-bw.png
+      src: ~/assets/images/cagatay-bio-new-team.jpeg
       alt: Schedule an appointment
   - title: Sena Sahin
     tagline: Co-Founder & Managing Partner
@@ -35,7 +35,7 @@ sections:
       href: /our-team/sena
       target: _blank
     image:
-      src: ~/assets/images/Sena-bw.jpg
+      src: ~/assets/images/sena-bio-new-team.jpeg
       alt: Schedule an appointment
   - title: Shafeek Seddiq
     tagline: Of Counsel
@@ -51,7 +51,7 @@ sections:
       href: /our-team/shafeek
       target: _blank
     image:
-      src: ~/assets/images/shafeek-bw.png
+      src: ~/assets/images/shafeek-bio-new-team.jpeg
       alt: Blueprint Image
   - title: Esra Nur Bulan
     tagline: Attorney at Law
@@ -67,7 +67,7 @@ sections:
       href: /our-team/esra
       target: _blank
     image:
-      src: ~/assets/images/esra-bw.png
+      src: ~/assets/images/esra-bio-new-team.jpeg
       alt: Blueprint Image    
   - title: Mehmet Y. Turkoglu
     tagline: Attorney At Law
@@ -83,7 +83,7 @@ sections:
       href: /our-team/mehmet
       target: _blank
     image:
-      src: ~/assets/images/Mehmet-bio.jpg
+      src: ~/assets/images/mehmet-bio-new-team.jpeg
       alt: Mehmet Y. Turkoglu
   - title: S. Selman Kilic
     tagline: Attorney at Law
@@ -99,7 +99,7 @@ sections:
       href: /our-team/selman
       target: _blank
     image:
-      src: ~/assets/images/selman-bio.jpeg
+      src: ~/assets/images/selman-bio-new-team.jpeg
       alt: Selman Kilic
   - title: Kemal Sahin
     tagline: Attorney at Law
