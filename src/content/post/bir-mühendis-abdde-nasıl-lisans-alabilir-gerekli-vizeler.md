@@ -9,7 +9,7 @@ excerpt: Amerika Birleşik Devletleri'nde çalışmak isteyen yurtdışında eğ
   mühendislik lisansına uygun ve kolay bir yol sunar.  Translated with DeepL.com
   (free version)
 category: Göçmenlik ve Mesleki Lisanslama
-lang: en
+lang: tr
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
