@@ -10,7 +10,7 @@ excerpt: Bu kılavuz, ilk başvurunuzu yapmaktan son görüşmeye hazırlanmaya 
   öğreneceksiniz. Sürecin başlangıcında veya sonuna yaklaşmış olsanız da, bu
   kılavuz sürecin her aşamasında bilgili, organize ve hazır olmanızı sağlar.
 category: "Immigration "
-lang: en
+lang: tr
 tags:
   - Green Card
   - immigration visa
