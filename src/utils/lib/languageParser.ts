@@ -71,16 +71,16 @@ const {
   disable_languages: disabledLanguages = [],
 } = config.settings;
 
-const computedSupportedLang: string[] = [""];
+// Include root path when the default language lives at the site root; otherwise start empty.
+const computedSupportedLang: string[] = defaultLanguageInSubdir ? [] : [""];
 
 languagesJSON.forEach(({ languageCode }) => {
   if (disabledLanguages.includes(languageCode)) {
     return;
   }
-  if (!defaultLanguageInSubdir && languageCode === defaultLanguageCode) {
-    return;
+  if (!computedSupportedLang.includes(languageCode)) {
+    computedSupportedLang.push(languageCode);
   }
-  computedSupportedLang.push(languageCode);
 });
 
 console.log('languageParser supportedLang', computedSupportedLang);

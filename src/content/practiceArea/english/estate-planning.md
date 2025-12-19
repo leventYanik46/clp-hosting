@@ -41,25 +41,25 @@ post:
 
     <ul>
       <li>
-        <a href="/en/practice-area/key-services/estate-planning-asset-protection">
+        <a href="/practice-area/key-services/estate-planning-asset-protection">
           Estate Planning & Asset Protection
         </a>
       </li>
 
       <li>
-        <a href="/en/practice-area/key-services/wills-trusts-probate-administration">
+        <a href="/practice-area/key-services/wills-trusts-probate-administration">
           Wills, Trusts & Probate Administration
         </a>
       </li>
 
       <li>
-        <a href="/en/practice-area/key-services/legal-guardianship">
+        <a href="/practice-area/key-services/legal-guardianship">
           Legal Guardianship
         </a>
       </li>
 
       <li>
-        <a href="/en/practice-area/key-services/conservatorship">
+        <a href="/practice-area/key-services/conservatorship">
           Conservatorship
         </a>
       </li>
