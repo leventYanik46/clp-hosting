@@ -20,9 +20,7 @@ metadata:
     "
   canonical: https://capitollawpartners.com/what-is-form-i-485-how complate-step-by-step
 ---
-## What Is Form I-485? How to Complete? Step-by-Step 
-
-
+## What Is Form I-485? How to Complete? Step-by-Step
 
 ### What Is Form I-485 and Who Can File It? 
 
@@ -34,11 +32,7 @@ You can file it if you: 
 * Entered lawfully and meet eligibility under your category 
 * Are not barred by immigration violations 
 
- 
-
 Many applicants compare it to DS-160 because both are detailed and ask for personal history—but unlike DS-160, **I-485 determines your eligibility for a green card**, not just a visa interview. 
-
- 
 
 ### Required Documents (Quick Checklist) 
 
@@ -50,11 +44,7 @@ Many applicants compare it to DS-160 because both are detailed and as
 * Two passport-style photos 
 * Any immigration documents from previous stays (EADs, visas, approvals) 
 
- 
-
 Make sure all names match **exactly** as they appear on your passport—just like the DS-160 rule that only English alphabet letters can be used. 
-
- 
 
 ### How to Fill Out Form I-485 (Section by Section) 
 
@@ -63,8 +53,6 @@ Make sure all names match **exactly** as they appear on your passport�
  Provide your legal name, mailing address, physical address, and other personal identifiers. 
 
 If your name has ever changed, list every variation—this mirrors the DS-160 principle of “full transparency of identity history.” 
-
- 
 
 2 – Application Type 
 
@@ -77,21 +65,15 @@ If your name has ever changed, list every variation—this mirrors the 
 
  Applicants often get errors here because they choose a category that “sounds correct.” Use the exact category from your petition approval. 
 
- 
-
 3 – Additional Information About You 
 
  This part covers your **immigration history**—entries, exits, previous visas, and violations. 
 
 Think of it like the DS-160 travel history section, but more detailed. 
 
- 
-
 4– General Eligibility and Security Questions 
 
 Only answer “Yes” if you are absolutely sure it applies to you. A mistaken “Yes” can trigger unnecessary background checks. 
-
- 
 
 ### Common Mistakes to Avoid 
 
@@ -99,35 +81,26 @@ Only answer “Yes” if you are absolutely sure it applies to you. A�
 
 Your DS-160, I-130, I-94, and I-485 must tell the same story. 
 
- 
-
 **❌ Leaving questions blank** 
 
 Use “N/A” or “None” when appropriate. 
-
- 
 
 **❌ Submitting an expired medical exam**  
 
 Form I-693 typically remains valid for 2 years, but timing depends on when the civil surgeon signed it. 
 
- 
-
 **❌ Forgetting to sign your form** 
 
  USCIS rejects thousands of applications every month for missing signatures. 
 
- 
-
 #### Fees and Filing Tips 
 
-* I-485 fee varies depending on age and category. 
+I-485 fee varies depending on age and category. 
+
 * Pay using check, money order, or the appropriate online method if filing digitally. 
-* Package your application neatly: the video mentioned organizing documents so officers “don’t have to dig”—that applies here. Use tabs or separators. 
+* Package your application neatly
 
- 
-
-#### How DS-160 Experience Helps With I-485 
+How DS-160 Experience Helps With I-485 
 
 Many applicants who previously completed the DS-160 find that: 
 
@@ -136,11 +109,7 @@ Many applicants who previously completed the DS-160 find that: 
 * Both require careful spelling (English alphabet only) 
 * Both must match passport information exactly 
 
- 
-
 Your DS-160 preparation actually makes I-485 easier because you already gathered most of your personal and travel history. 
-
- 
 
 #### After Filing: What to Expect 
 
