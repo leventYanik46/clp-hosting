@@ -12,7 +12,7 @@ tags:
 image: /images/us.visa.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-10T00:44:00.000+03:00
+publishDate: 2025-12-22T22:17:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/green-card-almanın-en-hızlı-yolları
   description: Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En
