@@ -68,7 +68,7 @@ testimonials:
       alt: Volkan Aydingoz testimonial
   - title: '"máximo profissionalismo e respeito"'
     testimonial: Recentemente tive o prazer de trabalhar com a Capitol Law Partners e não poderia estar mais satisfeito com seus serviços. Desde o momento em que cheguei, fui tratado com o máximo de profissionalismo e respeito. A equipe é extremamente conhecedora, atenciosa e cuidadosa ao lidar com meu caso. Recomendo muito a Capitol Law Partners a quem busca serviços jurídicos de primeira. Obrigado pelo excelente trabalho!
-    name: sayed JALAL
+    name: Sayed Jalal
     image:
       src: ~/assets/images/testimonial-7.png
       alt: Sayed Jalal testimonial

@@ -215,7 +215,7 @@ testimonials:
         rigoureuse dans la gestion de mon dossier. Je recommande vivement
         Capitol Law Partners à quiconque cherche des services juridiques de
         premier plan. Merci pour votre excellent travail !
-      name: sayed JALAL
+      name: Sayed Jalal
       image:
         src: ~/assets/images/testimonial-7.png
         alt: Témoignage de Sayed Jalal

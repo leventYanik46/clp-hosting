@@ -209,7 +209,7 @@ testimonials:
         ve dosyamı titizlikle yönetti. Üst düzey hukuki hizmet arayan herkese
         Capitol Law Partners'ı içtenlikle tavsiye ederim. Harika çalışmanız için
         teşekkürler!
-      name: sayed JALAL
+      name: Sayed Jalal
       image:
         src: ~/assets/images/testimonial-7.png
         alt: Sayed Jalal değerlendirmesi

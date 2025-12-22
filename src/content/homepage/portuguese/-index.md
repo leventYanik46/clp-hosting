@@ -217,7 +217,7 @@ testimonials:
         equipe é extremamente conhecedora, atenciosa e cuidadosa ao lidar com
         meu caso. Recomendo muito a Capitol Law Partners a quem busca serviços
         jurídicos de primeira. Obrigado pelo excelente trabalho!
-      name: sayed JALAL
+      name: Sayed Jalal
       image:
         src: ~/assets/images/testimonial-7.png
         alt: Depoimento de Sayed Jalal

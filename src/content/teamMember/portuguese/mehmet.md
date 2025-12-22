@@ -6,7 +6,7 @@ profile:
   id: about
   columns: 2
   image:
-    src: ~/assets/images/Mehmet-bio.jpg
+    src: ~/assets/images/mehmet-bio-new-team.jpeg
     alt: Mehmet Y. Turkoglu
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
