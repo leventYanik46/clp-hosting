@@ -295,9 +295,12 @@ const contactCollection = defineCollection({
       title: z.string(),
     }),
     locations: z
-      .object({
-        items: z.array(locationSchema.omit({ image: true })),
-      })
+      .union([
+        z.array(locationSchema),
+        z.object({
+          items: z.array(locationSchema),
+        }),
+      ])
       .optional(),
   }),
 });

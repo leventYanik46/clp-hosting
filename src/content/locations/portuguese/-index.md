@@ -27,6 +27,12 @@ locations:
       src: '~/assets/images/map-istanbul-1.png'
       alt: 'Imagem da localização no mapa'
       href: 'https://www.google.com/maps/place/Trump+Towers/data=!4m2!3m1!1s0x0:0x9ce9fcc6cd43250?sa=X&ved=1t:2428&ictx=111'
+  - title: Escritório em Minneapolis
+    description: 5775 Wayzata Blvd, St Louis Park, MN 55416
+    image:
+      src: '~/assets/images/minneapolis-office.png'
+      alt: 'Imagem da localização no mapa'
+      href: 'https://www.google.com/maps/place/5775+Wayzata+Blvd+Suite+700,+St+Louis+Park,+MN+55416/@44.9694331,-93.3824122,13.31z/data=!4m6!3m5!1s0x52b334bd9ceaaaab:0x6ad439e33864c71e!8m2!3d44.9688915!4d-93.3538241!16s%2Fg%2F11mhjvs72_?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D'
 callToAction:
   title: Capitol Law Partners
   subtitle: Descubra a diferença que nossa expertise pode fazer em suas questões jurídicas.
