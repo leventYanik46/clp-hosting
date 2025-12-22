@@ -5,7 +5,7 @@ excerpt: ABD'de Yeşil Kart almak için birkaç yol vardır, ancak tüm seçenek
   süreç için yöntemleri sizinle birlikte gözden geçiriyoruz. En uygun stratejiyi
   belirlemek için bir göçmenlik avukatına danışmak çok önemlidir..
 category: Green Card
-lang: en
+lang: tr
 tags:
   - Green Card
   - Fastest Green Card Process
