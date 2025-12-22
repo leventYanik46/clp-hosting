@@ -1,5 +1,5 @@
 ---
-title: Green Card Almanın En Hızlı Yolları | Yeşil Kart Nasıl Daha Hızlı Alınır?
+title: Green Card Almanın En Hızlı Yolları | Hızlı Süreç
 excerpt: ABD'de Yeşil Kart almak için birkaç yol vardır, ancak tüm seçenekler
   aynı derecede hızlı veya herkes için geçerli değildir. Hızlı ve etkili bir
   süreç için yöntemleri sizinle birlikte gözden geçiriyoruz. En uygun stratejiyi
