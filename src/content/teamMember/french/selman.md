@@ -5,6 +5,9 @@ metadata:
 profile:
   id: about
   columns: 2
+  image:
+    src: ~/assets/images/selman-bio-new.jpeg
+    alt: Selman Kilic
   name: S. Selman Kilic
   role: Associé Avocat
   bio:
