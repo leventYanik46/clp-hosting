@@ -4,7 +4,7 @@ excerpt: Bu makale Amerika'da Vatandaşlık almak isteyen, göçmen vizesi hakk�
   bilgi sahibi olmak isteyenler için vize türleri ve göçmenlik süreci hakkında
   bilgi verir.
 category: Green Card
-lang: en
+lang: tr
 tags:
   - göçmenlik
   - green card
