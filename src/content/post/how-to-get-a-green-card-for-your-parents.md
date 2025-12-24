@@ -1,7 +1,7 @@
 ---
 title: How to Get a Green Card for Your Parents
 excerpt: Green Card
-category: " 193 One of the most important questions on the minds of many people
+category: "One of the most important questions on the minds of many people
   living in and holding American citizenship is: Can I apply for a Green Card
   for my parents? Application Requirements..."
 lang: en
