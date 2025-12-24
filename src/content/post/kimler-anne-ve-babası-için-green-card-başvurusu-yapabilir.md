@@ -11,9 +11,8 @@ imageHeight: 3333
 publishDate: 2025-12-23T15:13:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/kimler-anne-ve-babasi-icin-green-card-basvurusu-yapabilir
-  description: "Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?
-    aklındaki en önemli sorulardan biri şudur: Anne ve babam için Green Card
-    başvurusu yapabilir miyim?"
+  description: Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir? Anne ve
+    babam için Green Card başvurusu yapabilir miyim? Başvuru Şartları Neler?
 ---
 # Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?
 
