@@ -2,13 +2,14 @@
 title: Purchasing a Home Without Citizenship 
 excerpt: Buying property in the United States is fully accessible to non-citizens. With the right team of experts and careful financial planning, you can successfully purchase real estate for both personal use and investment purposes. 
 category: Real Estate Law
+lang: en
 tags:
   - RealEstateLaw
   - LegalAdvice
 image: /images/purchsasing-a-house-non-citizen.jpg
 imageWidth: 4000
 imageHeight: 2247
-publishDate: 2025-11-11T16:44:00.000+03:00
+publishDate: 2025-12-27T23:49:00.000+03:00
 metadata:
   canonical: https://capitollawpartners.com/purchasing-a-home-without-citizenship
   description: Purchasing a Home Without Citizenship. What Types of Properties Can
