@@ -1,0 +1,114 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero3 from '~/components/widgets/hero3.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import ItemGrid3 from '~/components/ui/ItemGrid3.astro';
+import type { ContentEntryMap } from "astro:content";
+import { getListPage } from "~/utils/lib/contentParser.astro";
+import { supportedLang } from "~/utils/lib/languageParser";
+import { Icon } from 'astro-icon/components';
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+const { lang } = Astro.params;
+
+const confirmationPage = await getListPage("confirmation", lang as keyof ContentEntryMap);
+if (!confirmationPage || confirmationPage.length === 0 || !confirmationPage[0].data) {
+  throw new Error("Confirmation content not found for language: " + lang);
+}
+
+const {
+  metadata,
+  title,
+  see_more_text,
+  about_button_text,
+  home_button_text,
+  team_button_text,
+  info,
+  about_text,
+  about_url,
+  home_text,
+  home_url,
+  team_text,
+  team_url,
+  social_text,
+  instagram,
+  facebook,
+  linkedin,
+} = confirmationPage[0].data;
+
+const pageLinks = [
+  {
+    title: about_text,
+    callToAction: {
+      variant: 'primary',
+      text: about_button_text,
+      href: about_url,
+    },
+  },
+  {
+    title: home_text,
+    callToAction: {
+      variant: 'primary',
+      text: home_button_text,
+      href: home_url,
+    },
+  },
+  {
+    title: team_text,
+    callToAction: {
+      variant: 'primary',
+      text: team_button_text,
+      href: team_url,
+    },
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero3
+    title={title}
+    subtitle={info}
+  />
+  <Features2
+    title={social_text}
+    classes={{
+      container: 'py-1 md:py-1 lg:py-1',
+    }}
+  />  
+  <!-- Social Icons ******************* -->
+  <div class="w-full flex justify-center items-center gap-6 mt-1 mb-14">
+    <a href={instagram} target="_blank" rel="noopener noreferrer" class="flex items-center justify-center">
+      <Icon name="tabler:brand-instagram" class="w-[4.5rem] h-[4.5rem] text-[#0D1B2A] hover:text-primary" />
+    </a>
+    <a href={facebook} target="_blank" rel="noopener noreferrer" class="flex items-center justify-center">
+      <Icon name="tabler:brand-facebook" class="w-[4.5rem] h-[4.5rem] text-[#0D1B2A] hover:text-primary" />
+    </a>
+    <a href={linkedin} target="_blank" rel="noopener noreferrer" class="flex items-center justify-center">
+      <Icon name="tabler:brand-linkedin" class="w-[4.5rem] h-[4.5rem] text-[#0D1B2A] hover:text-primary" />
+    </a>
+  </div>
+  <Features2
+    title={see_more_text}
+    classes={{
+      container: 'py-1 md:py-1 lg:py-1',
+    }}
+  />  
+  <!-- ItemGrid3 Widget ******************* -->
+  <ItemGrid3
+    items={pageLinks}
+    columns={3}
+    classes={{
+      container: 'gap-4 md:gap-6 mt-2 mb-8 md:mt-3 md:mb-8',
+      panel: 'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white p-6 text-center flex flex-col items-center justify-center',
+      icon: 'w-16 h-16 mb-6 text-primary',
+    }}
+  />
+</Layout>

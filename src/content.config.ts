@@ -430,6 +430,33 @@ const announcementCollection = defineCollection({
     instagram: z.string().optional(),
     facebook: z.string().optional(),
     linkedin: z.string().optional(),
+  instagram_button_text: z.string().optional(),
+  facebook_button_text: z.string().optional(),
+  linkedin_button_text: z.string().optional(),
+  }),
+});
+
+const confirmationCollection = defineCollection({
+  schema: z.object({
+    metadata: metadataDefinition(),
+    title: z.string(),
+    lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']),
+    info: z.string().optional(),
+    phone: z.string().optional(),
+    see_more_text: z.string().optional(),
+    about_text: z.string().optional(),
+    about_button_text: z.string().optional(),
+    about_url: z.string().optional(),
+    home_text: z.string().optional(),
+    home_button_text: z.string().optional(),
+    home_url: z.string().optional(),
+    team_text: z.string().optional(),
+    team_button_text: z.string().optional(),
+    team_url: z.string().optional(),
+    social_text: z.string().optional(),
+    instagram: z.string().optional(),
+    facebook: z.string().optional(),
+    linkedin: z.string().optional(),
   }),
 });
 
@@ -438,6 +465,7 @@ export const collections = {
   homepage: homepageCollection,
   about: aboutCollection,
   contact: contactCollection,
+  confirmation: confirmationCollection,
   locations: locationsCollection,
   schedule: scheduleCollection,
   evaluations: evaluationsCollection,

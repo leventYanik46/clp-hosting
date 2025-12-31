@@ -1,6 +1,8 @@
 ---
 import type { Form as Props } from '~/types';
 import Button from '~/components/ui/Button.astro';
+import config from '~/config/config.json';
+import languages from '~/config/language.json';
 
 const {
   inputs,
@@ -31,10 +33,14 @@ const disclaimerCheckboxClass = compact
   ? 'mt-0.5 h-4 w-4 cursor-pointer rounded border-gray-300'
   : 'cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 bg-white';
 const textareaRows = textarea?.rows ?? (compact ? 3 : 4);
+const supportedLangs = languages.map((language) => language.languageCode);
+const defaultLanguage = config.settings?.default_language ?? 'en';
+const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? false;
 ---
 
 <form
   id="contactForm"
+  data-contact-form
   class:list={[
     compact && 'grid grid-cols-1 gap-2 md:grid-cols-10 md:gap-3',
   ]}
@@ -185,37 +191,61 @@ const textareaRows = textarea?.rows ?? (compact ? 3 : 4);
   }
 </form>
 
-<script>
-  document.getElementById('contactForm')!.addEventListener('submit', async function (event) {
-    event.preventDefault();
+<script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
+  const forms = document.querySelectorAll('form[data-contact-form]');
+  const confirmationSlug = 'confirmation';
 
-    const form = this as HTMLFormElement;
-    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]');
-    if (!submitButton) return;
-    submitButton.disabled = true;
+  const buildConfirmationPath = () => {
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    const maybeLang = pathParts[0];
 
-    const formData = new FormData(form);
-    const formObject = Object.fromEntries(formData.entries());
-
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formObject),
-      });
-
-      const result = await response.json();
-      if (result.success) {
-        alert('Your message has been sent successfully!');
-        form.reset(); // Reset form on success
-      } else {
-        alert('Error sending message: ' + result.error);
-      }
-    } catch (error) {
-      alert('An error occurred while sending your message.');
-      console.error(error);
-    } finally {
-      submitButton.disabled = false;
+    if (maybeLang && supportedLangs.includes(maybeLang)) {
+      return `/${maybeLang}/${confirmationSlug}`;
     }
+
+    if (defaultLanguageInSubdir) {
+      return `/${defaultLanguage}/${confirmationSlug}`;
+    }
+
+    return `/${confirmationSlug}`;
+  };
+
+  forms.forEach((form) => {
+    if (form.dataset.contactFormBound === 'true') {
+      return;
+    }
+
+    form.dataset.contactFormBound = 'true';
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+
+      const submitButton = form.querySelector('button[type="submit"]');
+      if (!submitButton) return;
+      submitButton.disabled = true;
+
+      const formData = new FormData(form);
+      const formObject = Object.fromEntries(formData.entries());
+
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formObject),
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          window.location.assign(buildConfirmationPath());
+          return;
+        }
+
+        alert('Error sending message: ' + result.error);
+      } catch (error) {
+        alert('An error occurred while sending your message.');
+        console.error(error);
+      } finally {
+        submitButton.disabled = false;
+      }
+    });
   });
 </script>
