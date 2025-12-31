@@ -104,6 +104,22 @@ sections:
 
 
       alt: S. Selman Kılıç
+  - title: Omar Bississo
+    tagline: Ceza Savunma Avukatı
+    subtitle: Birlikte Çalışalım
+    bottomtag: Ceza Savunması | Hukuk Davaları
+    actions:
+    - variant: primary
+      text: İletişime Geç
+      href: /tr/contact
+      target: _blank
+    - variant: primary
+      text: Biyografiyi Gör →
+      href: /tr/our-team/omar
+      target: _blank
+    image:
+      src: ~/assets/images/omar-bio-new-team.jpeg
+      alt: Omar Bississo
   - title: Kemal Şahin
     tagline: Stajyer Avukat
     subtitle: Birlikte Çalışalım

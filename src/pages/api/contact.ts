@@ -3,9 +3,43 @@ import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 export const prerender = false;
 
+const SHEETS_SCOPE = ['https://www.googleapis.com/auth/spreadsheets'];
+
+const appendContactRow = async (row: Array<string>) => {
+  const spreadsheetId = process.env.GOOGLE_SHEETS_ID;
+  const clientEmail = process.env.GOOGLE_SHEETS_CLIENT_EMAIL;
+  const privateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
+  const sheetName = process.env.GOOGLE_SHEETS_NAME || 'Sheet1';
+
+  if (!spreadsheetId || !clientEmail || !privateKey) {
+    throw new Error('Missing Google Sheets credentials');
+  }
+
+  const auth = new google.auth.JWT(
+    clientEmail,
+    undefined,
+    privateKey.replace(/\\n/g, '\n'),
+    SHEETS_SCOPE
+  );
+
+  const sheets = google.sheets({ version: 'v4', auth });
+  await sheets.spreadsheets.values.append({
+    spreadsheetId,
+    range: `${sheetName}!A:H`,
+    valueInputOption: 'USER_ENTERED',
+    requestBody: {
+      values: [row],
+    },
+  });
+};
+
 export async function POST({ request }) {
   dotenv.config();
-  const { name, email, phone, message } = await request.json();
+  const payload = await request.json();
+  const { name, email, phone, message } = payload;
+  const language = typeof payload.language === 'string' ? payload.language : '';
+  const sourcePage = typeof payload.sourcePage === 'string' ? payload.sourcePage : '';
+  const resolvedSourcePage = sourcePage || request.headers.get('referer') || '';
 
   // Validate required fields
   if (!name || !email || !phone || !message) {
@@ -60,10 +94,29 @@ export async function POST({ request }) {
         <hr/><p>${message}</p>`
     };
     await transporter.sendMail(mailOptions);
+    let sheetLogged = false;
+
+    try {
+      await appendContactRow([
+        new Date().toISOString(),
+        String(name),
+        String(email),
+        String(phone),
+        String(message),
+        language,
+        resolvedSourcePage,
+        'No',
+      ]);
+      sheetLogged = true;
+    } catch (sheetError) {
+      console.error('Google Sheets logging failed', sheetError);
+    }
+
     return new Response(
       JSON.stringify({
         success: true,
         mail: mailOptions,
+        sheetLogged,
       }),
       { status: 200 }
     );

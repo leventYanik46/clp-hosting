@@ -104,6 +104,22 @@ sections:
 
 
       alt: S. Selman Kilic
+  - title: Omar Bississo
+    tagline: Advogado de Defesa Criminal
+    subtitle: Vamos trabalhar juntos
+    bottomtag: Defesa Criminal | Litígio Cível
+    actions:
+    - variant: primary
+      text: Fale comigo
+      href: /pt/contact
+      target: _blank
+    - variant: primary
+      text: Ver bio →
+      href: /pt/our-team/omar
+      target: _blank
+    image:
+      src: ~/assets/images/omar-bio-new-team.jpeg
+      alt: Omar Bississo
   - title: Kemal Sahin
     tagline: Assistente jurídico
     subtitle: Vamos trabalhar juntos
