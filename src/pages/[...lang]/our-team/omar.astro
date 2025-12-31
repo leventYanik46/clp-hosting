@@ -1,0 +1,94 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import { getPermalink } from '~/utils/permalinks';
+import { getEntry} from 'astro:content';
+import { supportedLang } from '~/utils/lib/languageParser';
+
+export function getStaticPaths() {
+  // Return string (or undefined) for the `lang` param because this
+  // file lives under a dynamic folder `[...]lang` and Astro expects
+  // a string/number/undefined for that segment in this case.
+  return supportedLang.map((l) => ({
+    params: { lang: l || undefined },
+  }));
+}
+
+// Normalize Astro.params.lang to a single string and fall back to the
+// configured default language when missing.
+const raw = Astro.params?.lang;
+const resolvedLang = Array.isArray(raw) ? raw[0] : typeof raw === 'string' ? raw : undefined;
+const lang = resolvedLang ?? (await import('../../../config/config.json')).default?.settings?.default_language ?? 'en';
+// This page is for 'omar', so the slug is always 'omar' here
+let langFolder = lang;
+if (lang === 'en') langFolder = 'english';
+if (lang === 'tr') langFolder = 'turkish';
+if (lang === 'es') langFolder = 'spanish';
+if (lang === 'pt') langFolder = 'portuguese';
+if (lang === 'fr') langFolder = 'french';
+const entry = await getEntry('teamMember', `${langFolder}/omar`);
+if (!entry) throw new Error('Team member not found for language: ' + lang);
+const { metadata, profile, steps, testimonials, cta, blog } = entry.data;
+
+const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? href : getPermalink(href));
+---
+
+<Layout metadata={metadata}>
+  <Content
+    id={profile.id}
+    columns={profile.columns}
+    image={profile.image}
+  >
+    <Fragment slot="content">
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tight sm:text-6xl mb-4">{profile.name}</h1>
+      <h2 class="text-xl md:text-2xl text-gray-600 mb-6">{profile.role}</h2>
+      <div class="prose prose-lg max-w-none mb-8">
+        {profile.bio?.map((paragraph) => (
+          <Fragment>
+            <p>{paragraph}</p>
+            <br />
+          </Fragment>
+        ))}
+      </div>
+      {profile.actions?.length ? (
+        <div class="flex flex-col sm:flex-row items-center gap-4 mt-8">
+          {profile.actions.map((action) => (
+            <a
+              href={resolveHref(action.href || "")}
+              class={action.class}
+              {...(action.target ? { target: action.target } : {})}
+            >
+              {action.text}
+            </a>
+          ))}
+        </div>
+      ) : null}
+    </Fragment>
+  </Content>
+
+  {(steps ?? []).map((section) => (
+    <Steps id={section.id} title={section.title} items={section.items} classes={section.classes} />
+  ))}
+
+  {testimonials && (
+    <Testimonials
+      title={testimonials.title}
+      subtitle={testimonials.subtitle}
+      testimonials={testimonials.items}
+    />
+  )}
+
+  {cta && <CallToAction {...cta} />}
+
+  {blog && (
+    <BlogLatestPosts id={blog.id} title={blog.title} information={blog.information} lang={lang}>
+      <Fragment slot="bg">
+        <div class={blog.bgClass}></div>
+      </Fragment>
+    </BlogLatestPosts>
+  )}
+</Layout>

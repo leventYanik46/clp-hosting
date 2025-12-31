@@ -210,6 +210,19 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
     return `/${confirmationSlug}`;
   };
 
+  const resolveLanguage = () => {
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    const maybeLang = pathParts[0];
+
+    if (maybeLang && supportedLangs.includes(maybeLang)) {
+      return maybeLang;
+    }
+
+    return defaultLanguage;
+  };
+
+  const resolveSourcePage = () => `${window.location.origin}${window.location.pathname}`;
+
   forms.forEach((form) => {
     if (form.dataset.contactFormBound === 'true') {
       return;
@@ -225,6 +238,8 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
       const formData = new FormData(form);
       const formObject = Object.fromEntries(formData.entries());
+      formObject.language = resolveLanguage();
+      formObject.sourcePage = resolveSourcePage();
 
       try {
         const response = await fetch('/api/contact', {

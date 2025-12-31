@@ -104,6 +104,22 @@ sections:
 
 
       alt: S. Selman Kilic
+  - title: Omar Bississo
+    tagline: Avocat en défense pénale
+    subtitle: Travaillons ensemble
+    bottomtag: Défense pénale | Contentieux civil
+    actions:
+    - variant: primary
+      text: Me contacter
+      href: /fr/contact
+      target: _blank
+    - variant: primary
+      text: Voir la bio →
+      href: /fr/our-team/omar
+      target: _blank
+    image:
+      src: ~/assets/images/omar-bio-new-tean.jpeg
+      alt: Omar Bississo
   - title: Kemal Sahin
     tagline: Assistant juridique
     subtitle: Travaillons ensemble

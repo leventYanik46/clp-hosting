@@ -71,6 +71,9 @@ export const headerData = {
         { text: 'Kemal Sahin', 
           href: getPermalink('/our-team/kemal'),
         },
+        { text: 'Omar Bississo',
+          href: getPermalink('/our-team/omar'),
+        },
       ],
     },
     {
@@ -157,6 +160,10 @@ export const headerDataTr = {
         { 
           text: 'Kemal Şahin', 
           href: getPermalink('/tr/our-team/kemal'),
+        },
+        {
+          text: 'Omar Bississo',
+          href: getPermalink('/tr/our-team/omar'),
         },
       ],
     },
@@ -261,6 +268,10 @@ export const headerDataEs= {
           text: 'Kemal Sahin',
           href: getPermalink('/es/our-team/kemal'),
         },
+        {
+          text: 'Omar Bississo',
+          href: getPermalink('/es/our-team/omar'),
+        },
       ],
     },
   ],
@@ -342,6 +353,8 @@ export const headerDataFr = {
           href: getPermalink('/fr/our-team/mehmet') },
         { text: 'Kemal Sahin',
           href: getPermalink('/fr/our-team/kemal') },
+        { text: 'Omar Bississo',
+          href: getPermalink('/fr/our-team/omar') },
       ],
     },
     {
@@ -428,6 +441,8 @@ export const headerDataPt = {
           href: getPermalink('/pt/our-team/mehmet') },
         { text: 'Kemal Sahin', 
           href: getPermalink('/pt/our-team/kemal') },
+        { text: 'Omar Bississo',
+          href: getPermalink('/pt/our-team/omar') },
       ],
     },
     {
@@ -461,6 +476,7 @@ export const footerData = {
         { text: 'Esra Nur Bulan', href: getPermalink('/our-team/esra') },
         { text: 'Mehmet Y. Turkoglu', href: getPermalink('/our-team/mehmet') },
         { text: 'Kemal Sahin', href: getPermalink('/our-team/kemal') },
+        { text: 'Omar Bississo', href: getPermalink('/our-team/omar') },
 
       ],
     },
@@ -518,40 +534,41 @@ export const footerDataTr = {
     {
       title: 'Bilgi',
       links: [
-        { text: 'Hakkımızda', href: getPermalink('/about') },
-        { text: 'Ofislerimiz', href: getPermalink('/locations') },
-        { text: 'Bize Ulaşın', href: getPermalink('/contact') },
+        { text: 'Hakkımızda', href: getPermalink('/tr/about') },
+        { text: 'Ofislerimiz', href: getPermalink('/tr/locations') },
+        { text: 'Bize Ulaşın', href: getPermalink('/tr/contact') },
       ],
     },
     {
       title: 'Ekibimiz',
       links: [
-        { text: 'Ekibimizle Tanışın', href: getPermalink('/team') },
-        { text: 'Çağatay Ersoy', href: getPermalink('/our-team/cagatay') },
-        { text: 'Sena Şahin', href: getPermalink('/our-team/sena') },
-        { text: 'Shafeek Seddiq', href: getPermalink('/our-team/shafeek') },
-        { text: 'S. Selman Kılıç', href: getPermalink('/our-team/selman') },
-        { text: 'Esra Nur Bulan', href: getPermalink('/our-team/esra') },
-        { text: 'Mehmet Y. Turkoglu', href: getPermalink('/our-team/mehmet') },
-        { text: 'Kemal Şahin', href: getPermalink('/our-team/kemal') }
+        { text: 'Ekibimizle Tanışın', href: getPermalink('/tr/team') },
+        { text: 'Çağatay Ersoy', href: getPermalink('/tr/our-team/cagatay') },
+        { text: 'Sena Şahin', href: getPermalink('/tr/our-team/sena') },
+        { text: 'Shafeek Seddiq', href: getPermalink('/tr/our-team/shafeek') },
+        { text: 'S. Selman Kılıç', href: getPermalink('/tr/our-team/selman') },
+        { text: 'Esra Nur Bulan', href: getPermalink('/tr/our-team/esra') },
+        { text: 'Mehmet Y. Turkoglu', href: getPermalink('/tr/our-team/mehmet') },
+        { text: 'Kemal Şahin', href: getPermalink('/tr/our-team/kemal') },
+        { text: 'Omar Bississo', href: getPermalink('/tr/our-team/omar') },
       ],
     },
     {
       title: 'Çalışma Alanları',
       links: [
-        { text: 'Danışmanlık Hizmetleri', href: getPermalink('/practice-area/general-counsel-services') },
-        { text: 'İş ve Şirketler Hukuku', href: getPermalink('/practice-area/business-corporate-law') },
-        { text: 'Vasiyet ve Miras Hukuku', href: getPermalink('/practice-area/estate-planning') },
-        { text: 'Gayrimenkul Hukuku', href: getPermalink('/practice-area/real-estate') },
-        { text: 'Fikri Mülkiyet Hukuku', href: getPermalink('/practice-area/ip-law') },
-  { text: 'Göçmenlik Hukuku', href: getPermalink('/practice-area/immigration-law') },
-  { text: 'Kişisel Yaralanma Hukuku', href: getPermalink('/practice-area/personal-injury-law') },
+        { text: 'Danışmanlık Hizmetleri', href: getPermalink('/tr/practice-area/general-counsel-services') },
+        { text: 'İş ve Şirketler Hukuku', href: getPermalink('/tr/practice-area/business-corporate-law') },
+        { text: 'Vasiyet ve Miras Hukuku', href: getPermalink('/tr/practice-area/estate-planning') },
+        { text: 'Gayrimenkul Hukuku', href: getPermalink('/tr/practice-area/real-estate') },
+        { text: 'Fikri Mülkiyet Hukuku', href: getPermalink('/tr/practice-area/ip-law') },
+        { text: 'Göçmenlik Hukuku', href: getPermalink('/tr/practice-area/immigration-law') },
+        { text: 'Kişisel Yaralanma Hukuku', href: getPermalink('/tr/practice-area/personal-injury-law') },
       ],
     },
     {
       title: 'Kaynaklar',
       links: [
-        { text: 'Blog', href: getBlogPermalink() },
+        { text: 'Blog', href: getPermalink('/tr/blog') },
         { text: 'Ücretsiz Değerlendirme', href: getPermalink('/tr/evaluations') },
       ],
     },
@@ -606,6 +623,7 @@ export const footerDataSpanish = {
         { text: 'Esra Nur Bulan', href: getPermalink('/es/our-team/esra') },
         { text: 'Mehmet Y. Turkoglu', href: getPermalink('/es/our-team/mehmet') },
         { text: 'Kemal Sahin', href: getPermalink('/es/our-team/kemal') },
+        { text: 'Omar Bississo', href: getPermalink('/es/our-team/omar') },
       ],
     },
     {
@@ -629,8 +647,8 @@ export const footerDataSpanish = {
     },
   ],
   secondaryLinks: [
-    { text: 'Términos', href: getPermalink('/es/terms/spanish/terms') },
-    { text: 'Política de Privacidad', href: getPermalink('/es/terms/spanish/privacy') },
+    { text: 'Términos', href: getPermalink('/terms/spanish/terms') },
+    { text: 'Política de Privacidad', href: getPermalink('/terms/spanish/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },
@@ -679,6 +697,7 @@ export const footerDataFr = {
         { text: 'Esra Nur Bulan', href: getPermalink('/fr/our-team/esra') },
         { text: 'Mehmet Y. Turkoglu', href: getPermalink('/fr/our-team/mehmet') },
         { text: 'Kemal Sahin', href: getPermalink('/fr/our-team/kemal') },
+        { text: 'Omar Bississo', href: getPermalink('/fr/our-team/omar') },
       ],
     },
     {
@@ -702,8 +721,8 @@ export const footerDataFr = {
     },
   ],
   secondaryLinks: [
-    { text: 'Conditions', href: getPermalink('/fr/terms/french/terms') },
-    { text: 'Politique de confidentialité', href: getPermalink('/fr/terms/french/privacy') },
+    { text: 'Conditions', href: getPermalink('/terms/french/terms') },
+    { text: 'Politique de confidentialité', href: getPermalink('/terms/french/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },
@@ -750,6 +769,7 @@ export const footerDataPt = {
         { text: 'Esra Nur Bulan', href: getPermalink('/pt/our-team/esra') },
         { text: 'Mehmet Y. Turkoglu', href: getPermalink('/pt/our-team/mehmet') },
         { text: 'Kemal Sahin', href: getPermalink('/pt/our-team/kemal') },
+        { text: 'Omar Bississo', href: getPermalink('/pt/our-team/omar') },
 
       ],
     },
@@ -774,8 +794,8 @@ export const footerDataPt = {
     },
   ],
   secondaryLinks: [
-    { text: 'Termos', href: getPermalink('/pt/terms/portuguese/terms') },
-    { text: 'Política de Privacidade', href: getPermalink('/pt/terms/portuguese/privacy') },
+    { text: 'Termos', href: getPermalink('/terms/portuguese/terms') },
+    { text: 'Política de Privacidade', href: getPermalink('/terms/portuguese/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },

@@ -101,6 +101,22 @@ sections:
     image:
       src: ~/assets/images/selman-bio-new-team.jpeg
       alt: Selman Kilic
+  - title: Omar Bississo
+    tagline: Criminal Defense Attorney
+    subtitle: Let's Work Together
+    bottomtag: Criminal Defense | Civil Litigation 
+    actions:
+    - variant: primary
+      text: Contact Me
+      href: /contact
+      target: _blank
+    - variant: primary
+      text: See Bio →
+      href: /our-team/omar
+      target: _blank
+    image:
+      src: ~/assets/images/omar-bio-new-team.jpeg
+      alt: Omar Bississo    
   - title: Kemal Sahin
     tagline: Attorney at Law
     subtitle: Let's Work Together
