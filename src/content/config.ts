@@ -63,6 +63,34 @@ const postCollection = defineCollection({
   }),
 });
 
+const confirmationCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']),
+    info: z.string().optional(),
+    phone: z.string().optional(),
+    see_more_text: z.string().optional(),
+    about_text: z.string().optional(),
+    about_url: z.string().optional(),
+    home_text: z.string().optional(),
+    home_url: z.string().optional(),
+    team_text: z.string().optional(),
+    team_url: z.string().optional(),
+    social_text: z.string().optional(),
+    instagram: z.string().optional(),
+    facebook: z.string().optional(),
+    linkedin: z.string().optional(),
+    hero: z
+      .object({
+        subtitle: z.string().optional(),
+        subtitleHtml: z.string().optional(),
+      })
+      .optional(),
+    metadata: metadataDefinition(),
+  }),
+});
+
 export const collections = {
   post: postCollection,
+  confirmation: confirmationCollection,
 };
