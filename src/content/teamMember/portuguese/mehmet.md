@@ -30,9 +30,9 @@ steps:
 - id: resume
   title: Formação
   items:
-  - title: Faculdade de Direito da Universidade de Minnesota <br /><span class="text-sm font-normal">(2020)</span>
+  - title: Faculdade de Direito da Universidade de Minnesota <br /><span class="text-sm font-normal"></span>
     icon: tabler:school
-  - title: Faculdade de Direito da Universidade de Istambul <br /><span class="text-sm font-normal">(2013)</span>
+  - title: Faculdade de Direito da Universidade de Istambul <br /><span class="text-sm font-normal"></span>
     icon: tabler:school
   classes:
     container: max-w-3xl

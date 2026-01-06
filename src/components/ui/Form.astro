@@ -210,18 +210,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
     return `/${confirmationSlug}`;
   };
 
-  const resolveLanguage = () => {
-    const pathParts = window.location.pathname.split('/').filter(Boolean);
-    const maybeLang = pathParts[0];
-
-    if (maybeLang && supportedLangs.includes(maybeLang)) {
-      return maybeLang;
-    }
-
-    return defaultLanguage;
-  };
-
-  const resolveSourcePage = () => `${window.location.origin}${window.location.pathname}`;
+  const resolveSourcePage = () => window.location.href;
 
   forms.forEach((form) => {
     if (form.dataset.contactFormBound === 'true') {
@@ -238,7 +227,6 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
       const formData = new FormData(form);
       const formObject = Object.fromEntries(formData.entries());
-      formObject.language = resolveLanguage();
       formObject.sourcePage = resolveSourcePage();
 
       try {

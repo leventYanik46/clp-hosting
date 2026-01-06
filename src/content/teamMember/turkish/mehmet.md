@@ -39,9 +39,9 @@ steps:
 - id: resume
   title: Baro Kayıtları
   items:
-  - title: New York Barosu <br /><span class="text-sm font-normal">(2025)</span>
+  - title: New York Barosu <br /><span class="text-sm font-normal"></span>
     icon: tabler:certificate
-  - title: İstanbul Barosu <br /><span class="text-sm font-normal">(2015)</span>
+  - title: İstanbul Barosu <br /><span class="text-sm font-normal"></span>
     icon: tabler:certificate
   classes:
     container: max-w-3xl
