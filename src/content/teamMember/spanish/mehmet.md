@@ -39,9 +39,9 @@ steps:
 - id: resume
   title: Colegiaciones
   items:
-  - title: Colegio de Abogados del Estado de Nueva York <br /><span class="text-sm font-normal">(2025)</span>
+  - title: Colegio de Abogados del Estado de Nueva York <br /><span class="text-sm font-normal"></span>
     icon: tabler:certificate
-  - title: Colegio de Abogados de Estambul <br /><span class="text-sm font-normal">(2015)</span>
+  - title: Colegio de Abogados de Estambul <br /><span class="text-sm font-normal"></span>
     icon: tabler:certificate
   classes:
     container: max-w-3xl

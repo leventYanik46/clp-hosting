@@ -43,9 +43,9 @@ steps:
 - id: resume
   title: Bar Admissions
   items:
-  - title: New York State Bar <br /><span class="text-sm font-normal">(2025)</span>
+  - title: New York State Bar <br /><span class="text-sm font-normal"></span>
     icon: tabler:certificate
-  - title: Istanbul Bar Association <br /><span class="text-sm font-normal">(2015)</span>
+  - title: Istanbul Bar Association <br /><span class="text-sm font-normal"></span>
     icon: tabler:certificate
   classes:
     container: max-w-3xl
