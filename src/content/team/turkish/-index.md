@@ -166,9 +166,6 @@ sections:
   - title: null
     subtitle: Said M.
     tagline: Pazarlama Direktörü
-  - title: null
-    subtitle: Nimet Y.
-    tagline: Kreatif Direktör
 - wrapper: w-full
   members:
   - title: null

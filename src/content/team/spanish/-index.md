@@ -166,9 +166,6 @@ sections:
   - title: null
     subtitle: Said M.
     tagline: Director de marketing
-  - title: null
-    subtitle: Nimet Y.
-    tagline: Directora creativa
 - wrapper: w-full
   members:
   - title: null
