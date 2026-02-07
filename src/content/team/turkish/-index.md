@@ -133,6 +133,9 @@ sections:
       text: Biyografiyi Gör →
       href: /tr/our-team/kemal
       target: _blank
+    image:
+      src: ~/assets/images/kemal.jpeg
+      alt: Kemal Şahin
 - wrapper: w-full
   members:
   - title: null

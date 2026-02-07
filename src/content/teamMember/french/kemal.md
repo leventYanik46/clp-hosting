@@ -5,6 +5,9 @@ metadata:
 profile:
   id: about
   columns: 2
+  image:
+    src: ~/assets/images/kemal.jpeg
+    alt: Kemal Sahin
   name: Kemal Sahin
   role: Avocat (Attorney At Law)
   bio:

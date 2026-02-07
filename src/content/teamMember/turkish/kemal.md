@@ -5,6 +5,9 @@ metadata:
 profile:
   id: about
   columns: 2
+  image:
+    src: ~/assets/images/kemal.jpeg
+    alt: Kemal Şahin
   name: Kemal Şahin
   role: Avukat (Attorney At Law)
   bio:

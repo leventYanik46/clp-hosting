@@ -133,6 +133,9 @@ sections:
       text: Ver biografía →
       href: /es/our-team/kemal
       target: _blank
+    image:
+      src: ~/assets/images/kemal.jpeg
+      alt: Kemal Sahin
 - wrapper: w-full
   members:
   - title: null
