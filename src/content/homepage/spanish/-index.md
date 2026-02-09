@@ -108,7 +108,7 @@ spotlights:
           intelectual y construyendo valor a largo plazo.
     image:
       src: ~/assets/images/cagatay-profile.jpg
-      alt: Imagen de plano
+      alt: Foto de perfil de Cagatay Ersoy
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Cagatay
       Ersoy</h3>Graduado de <strong>Columbia Law School</strong>, una de las
@@ -137,8 +137,8 @@ spotlights:
           de leyes estadounidenses como HIPAA, GLBA y normativas estatales en
           evolución.
     image:
-      src: ~/assets/images/sena-profile-alternate.png
-      alt: Imagen de plano
+      src: ~/assets/images/sena-bio-new.jpeg
+      alt: Foto de perfil de Sena Sahin
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Sena
       Sahin</h3>Graduada de <strong>South Texas College of Law Houston</strong>,
@@ -169,7 +169,7 @@ spotlights:
           derecho sanitario.
     image:
       src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Imagen de plano
+      alt: Foto de perfil de Shafeek Seddiq
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
       Seddiq</h3>Abogado con más de <strong>20 años de experiencia

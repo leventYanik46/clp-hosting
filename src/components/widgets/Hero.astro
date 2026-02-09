@@ -40,10 +40,12 @@ const {
               <Image
                 class="w-full h-full object-cover"
                 layout="cover"
-                widths={[720, 1080, 1440, 1920, 2400]}
+                widths={[640, 960, 1280, 1600, 1920]}
                 sizes="100vw"
                 loading="eager"
                 fetchpriority="high"
+                format="webp"
+                quality={68}
                 {...image}
               />
             )}

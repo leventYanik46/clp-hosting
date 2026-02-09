@@ -107,7 +107,7 @@ spotlights:
           intellectual property and build long-term brand value.
     image:
       src: ~/assets/images/cagatay-profile.jpg
-      alt: Blueprint Image
+      alt: Cagatay Ersoy profile picture
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Cagatay
       Ersoy</h3>A graduate of<strong> Columbia Law School</strong>, one of the
@@ -135,8 +135,8 @@ spotlights:
           organizations on data privacy, cybersecurity, and compliance with U.S.
           privacy laws including HIPAA, GLBA, and evolving state regulations.
     image:
-      src: ~/assets/images/sena-profile-alternate.png
-      alt: Blueprint Image
+      src: ~/assets/images/sena-bio-new.jpeg
+      alt: Sena Sahin profile picture
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Sena
       Sahin</h3>A graduate of <strong>South Texas College of Law
@@ -166,7 +166,7 @@ spotlights:
           healthcare law and regulations.
     image:
       src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Blueprint Image
+      alt: Shafeek Seddiq profile picture
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
       Seddiq</h3>A seasoned attorney with over <strong>20 years of legal

@@ -103,7 +103,7 @@ spotlights:
           fikri varlıklarını korur ve uzun vadeli marka değerini güçlendirir.
     image:
       src: ~/assets/images/cagatay-profile.jpg
-      alt: Plan çizimi görseli
+      alt: Cagatay Ersoy profil fotoğrafı
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Cagatay
       Ersoy</h3>Ülkenin önde gelen Ivy League kurumlarından biri olan<strong>
@@ -131,8 +131,8 @@ spotlights:
           gizliliği, siber güvenlik ve HIPAA, GLBA gibi ABD düzenlemelerine uyum
           konularında yol gösterir.
     image:
-      src: ~/assets/images/sena-profile-alternate.png
-      alt: Plan çizimi görseli
+      src: ~/assets/images/sena-bio-new.jpeg
+      alt: Sena Sahin profil fotoğrafı
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Sena
       Sahin</h3><strong>South Texas College of Law Houston</strong> mezunu olan
@@ -161,7 +161,7 @@ spotlights:
           gereklilikler hakkında derin hukuk bilgisiyle rehberlik eder.
     image:
       src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Plan çizimi görseli
+      alt: Shafeek Seddiq profil fotoğrafı
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
       Seddiq</h3><strong>20 yılı aşkın hukuki deneyime</strong> sahip olan

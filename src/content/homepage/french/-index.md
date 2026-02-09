@@ -106,7 +106,7 @@ spotlights:
           protéger l’IP et construire la valeur de marque.
     image:
       src: ~/assets/images/cagatay-profile.jpg
-      alt: Image illustrative
+      alt: Photo de profil de Cagatay Ersoy
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Cagatay
       Ersoy</h3>Diplômé de la <strong>Columbia Law School</strong>, l’une des
@@ -134,8 +134,8 @@ spotlights:
           et la conformité aux lois américaines, notamment HIPAA, GLBA et les
           réglementations étatiques en évolution.
     image:
-      src: ~/assets/images/sena-profile-alternate.png
-      alt: Image illustrative
+      src: ~/assets/images/sena-bio-new.jpeg
+      alt: Photo de profil de Sena Sahin
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Sena
       Sahin</h3>Diplômée de la <strong>South Texas College of Law
@@ -166,7 +166,7 @@ spotlights:
           une solide expertise en droit et régulation du secteur.
     image:
       src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Image illustrative
+      alt: Photo de profil de Shafeek Seddiq
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
       Seddiq</h3>Avocat expérimenté avec plus de <strong>20 ans de

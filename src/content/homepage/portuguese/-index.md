@@ -107,7 +107,7 @@ spotlights:
           intelectual e construir valor de marca de longo prazo.
     image:
       src: ~/assets/images/cagatay-profile.jpg
-      alt: Imagem de projeto
+      alt: Foto de perfil de Cagatay Ersoy
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Cagatay
       Ersoy</h3>Formado pela <strong>Columbia Law School</strong>, uma das
@@ -136,8 +136,8 @@ spotlights:
           conformidade com leis de privacidade dos EUA, incluindo HIPAA, GLBA e
           normas estaduais em evolução.
     image:
-      src: ~/assets/images/sena-profile-alternate.png
-      alt: Imagem de projeto
+      src: ~/assets/images/sena-bio-new.jpeg
+      alt: Foto de perfil de Sena Sahin
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Sena
       Sahin</h3>Formada pela <strong>South Texas College of Law
@@ -168,7 +168,7 @@ spotlights:
           regulamentação do setor.
     image:
       src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Imagem de projeto
+      alt: Foto de perfil de Shafeek Seddiq
     contentHtml: >-
       <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
       Seddiq</h3>Advogado experiente com mais de <strong>20 anos de

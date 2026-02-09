@@ -31,6 +31,9 @@ export default defineConfig({
   site: 'https://capitollawpartners.com', // Replace with your website URL
   adapter: netlify(),
   output: 'static',
+  build: {
+    inlineStylesheets: 'always',
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,

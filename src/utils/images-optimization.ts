@@ -24,6 +24,7 @@ export interface ImageProps extends Omit<HTMLAttributes<'img'>, 'src'> {
   objectPosition?: string;
 
   format?: string;
+  quality?: number;
 }
 
 export type ImagesOptimizer = (
@@ -31,7 +32,8 @@ export type ImagesOptimizer = (
   breakpoints: number[],
   width?: number,
   height?: number,
-  format?: string
+  format?: string,
+  quality?: number
 ) => Promise<Array<{ src: string; width: number }>>;
 
 /* ******* */
@@ -58,6 +60,7 @@ const config = {
   ],
 
   formats: ['image/webp'],
+  quality: 70,
 };
 
 const computeHeight = (width: number, aspectRatio: number) => {
@@ -217,7 +220,8 @@ export const astroAsseetsOptimizer: ImagesOptimizer = async (
   breakpoints,
   _width,
   _height,
-  format = undefined
+  format = undefined,
+  quality = undefined
 ) => {
   if (!image) {
     return [];
@@ -225,7 +229,13 @@ export const astroAsseetsOptimizer: ImagesOptimizer = async (
 
   return Promise.all(
     breakpoints.map(async (w: number) => {
-      const result = await getImage({ src: image, width: w, inferSize: true, ...(format ? { format: format } : {}) });
+      const result = await getImage({
+        src: image,
+        width: w,
+        inferSize: true,
+        ...(format ? { format: format } : {}),
+        ...(quality ? { quality: quality } : {}),
+      });
 
       return {
         src: result?.src,
@@ -241,7 +251,14 @@ export const isUnpicCompatible = (image: string) => {
 };
 
 /* ** */
-export const unpicOptimizer: ImagesOptimizer = async (image, breakpoints, width, height, format = undefined) => {
+export const unpicOptimizer: ImagesOptimizer = async (
+  image,
+  breakpoints,
+  width,
+  height,
+  format = undefined,
+  quality = undefined
+) => {
   if (!image || typeof image !== 'string') {
     return [];
   }
@@ -261,6 +278,7 @@ export const unpicOptimizer: ImagesOptimizer = async (image, breakpoints, width,
           height: _height,
           cdn: urlParsed.cdn,
           ...(format ? { format: format } : {}),
+          ...(quality ? { quality: quality } : {}),
         }) || image;
       return {
         src: String(url),
@@ -284,7 +302,8 @@ export async function getImagesOptimized(
     widths,
     layout = 'constrained',
     style = '',
-    format,
+    format = config.formats[0].replace('image/', ''),
+    quality = config.quality,
     ...rest
   }: ImageProps,
   transform: ImagesOptimizer = () => Promise.resolve([])
@@ -327,12 +346,23 @@ export async function getImagesOptimized(
   let breakpoints = getBreakpoints({ width: width, breakpoints: widths, layout: layout });
   breakpoints = [...new Set(breakpoints)].sort((a, b) => a - b);
 
-  const srcset = (await transform(image, breakpoints, Number(width) || undefined, Number(height) || undefined, format))
+  const transformedImages = await transform(
+    image,
+    breakpoints,
+    Number(width) || undefined,
+    Number(height) || undefined,
+    format,
+    quality
+  );
+
+  const srcset = transformedImages
     .map(({ src, width }) => `${src} ${width}w`)
     .join(', ');
 
+  const fallbackSrc = transformedImages.find((candidate) => candidate.width >= (width || 0))?.src ?? transformedImages.at(-1)?.src;
+
   return {
-    src: typeof image === 'string' ? image : image.src,
+    src: fallbackSrc ?? (typeof image === 'string' ? image : image.src),
     attributes: {
       width: width,
       height: height,
