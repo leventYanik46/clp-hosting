@@ -11,7 +11,7 @@ imageWidth: 1024
 imageHeight: 684
 publishDate: 2025-12-21T20:59:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/what-is-m-1-visa-step-by-step
+  canonical: https://capitollawpartners.com/what-is-the-m-1-visa-step-by-step
   description: >-
     What the M-1 visa is, who qualifies for vocational training in the U.S.,
     application requirements, duration, work limitations. Visa & Green Card.
@@ -19,7 +19,7 @@ seo:
   description: >-
     What the M-1 visa is, who qualifies for vocational training in the U.S.,
     application requirements, duration, work limitations. Visa & Green Card.
-  canonicalOverride: https://capitollawpartners.com/what-is-m-1-visa-step-by-step
+  canonicalOverride: https://capitollawpartners.com/what-is-the-m-1-visa-step-by-step
   title: 'What Is the M-1 Visa? Step by Step '
 ---
 # What Is the M-1 Visa? Explained Step by Step

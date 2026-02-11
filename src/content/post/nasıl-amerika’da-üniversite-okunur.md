@@ -14,7 +14,7 @@ imageWidth: 4416
 imageHeight: 2488
 publishDate: 2025-12-09T16:13:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/amerikada-nas%c4%b1l-%c3%bcniversite-okunur
+  canonical: https://capitollawpartners.com/tr/nasil-amerikada-universite-okunur
   description: >-
     Nasıl Amerika'da Üniversite Okunur? Amerika'da Üniversite Okuyabilmek İçin
     Girilmesi gereken Sınavlar. Dil Yeterliliği Gerekiyor Mu?
@@ -22,7 +22,7 @@ seo:
   description: >-
     Nasıl Amerika'da Üniversite Okunur? Amerika'da Üniversite Okuyabilmek İçin
     Girilmesi gereken Sınavlar. Dil Yeterliliği Gerekiyor Mu?
-  canonicalOverride: https://capitollawpartners.com/amerikada-nas%c4%b1l-%c3%bcniversite-okunur
+  canonicalOverride: https://capitollawpartners.com/tr/nasil-amerikada-universite-okunur
   title: Nasıl Amerika’da Üniversite Okunur?
 ---
 ## **Nasıl Amerika’da** **Üniversite Okunur? | Capitol Law Partners** 

@@ -7,8 +7,7 @@ imageWidth: 6000
 imageHeight: 4000
 publishDate: 2025-09-06T15:02:00.000Z
 metadata:
-  canonical: >-
-    https://capitollawpartners.com/j-1-visa-exchange-visitor-program-participants-update-2025
+  canonical: https://capitollawpartners.com/j-1-visa-exchange-visitor-program-update-2025
   description: >-
     J-1 Visa: Exchange Visitor Program Participants Update – 2025. This guide,
     prepared by Capitol Law Partners, provides a comprehensive breakdown..
@@ -16,8 +15,7 @@ seo:
   description: >-
     J-1 Visa: Exchange Visitor Program Participants Update – 2025. This guide,
     prepared by Capitol Law Partners, provides a comprehensive breakdown..
-  canonicalOverride: >-
-    https://capitollawpartners.com/j-1-visa-exchange-visitor-program-participants-update-2025
+  canonicalOverride: https://capitollawpartners.com/j-1-visa-exchange-visitor-program-update-2025
   title: 'J-1 Visa - Exchange Visitor Program Update – 2025 '
 ---
 ### J-1 Visa: Exchange Visitor Program Participants Update – 2025

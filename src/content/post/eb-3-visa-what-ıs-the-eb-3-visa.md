@@ -10,11 +10,11 @@ imageWidth: 6000
 imageHeight: 4000
 publishDate: 2025-09-02T15:13:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/what-is-the-eb-3-visa
+  canonical: https://capitollawpartners.com/eb-3-visa-what-is-the-eb-3-visa
   description: " EB-3 Visa | What Is the EB-3 Visa?\_Learn how the EB-3 visa can help you achieve U.S. permanent residency.."
 seo:
   description: " EB-3 Visa | What Is the EB-3 Visa?\_Learn how the EB-3 visa can help you achieve U.S. permanent residency.."
-  canonicalOverride: https://capitollawpartners.com/what-is-the-eb-3-visa
+  canonicalOverride: https://capitollawpartners.com/eb-3-visa-what-is-the-eb-3-visa
   title: "EB-3 Visa - What Is the EB-3 Visa?\_How to Apply ?"
 ---
 ## **Understanding the EB-3 Visa**

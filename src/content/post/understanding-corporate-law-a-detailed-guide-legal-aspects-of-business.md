@@ -19,7 +19,8 @@ imageWidth: 5184
 imageHeight: 3888
 publishDate: 2025-07-23T10:25:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/detailed-guide-to-legal-aspects-of-business
+  canonical: >-
+    https://capitollawpartners.com/understanding-corporate-law-a-detailed-guide-legal-aspects-of-business
   description: >-
     Understanding Corporate Law A Detailed Guide to Legal Aspects of Business.
     Learn more about business. Corporate law is the backbone of the business
@@ -29,7 +30,8 @@ seo:
     Understanding Corporate Law A Detailed Guide to Legal Aspects of Business.
     Learn more about business. Corporate law is the backbone of the business
     world.. 
-  canonicalOverride: https://capitollawpartners.com/detailed-guide-to-legal-aspects-of-business
+  canonicalOverride: >-
+    https://capitollawpartners.com/understanding-corporate-law-a-detailed-guide-legal-aspects-of-business
   title: "Understanding Corporate Law: A Detailed Guide - Legal Aspects of Business\_"
 ---
 ### **Understanding Corporate Law: A Detailed Guide to the Legal Aspects of Business** 

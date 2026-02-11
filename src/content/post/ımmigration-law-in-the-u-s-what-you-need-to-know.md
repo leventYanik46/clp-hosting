@@ -12,7 +12,8 @@ imageWidth: 5760
 imageHeight: 3840
 publishDate: 2025-08-12T02:21:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/immigration-law-what-you-need-to-now
+  canonical: >-
+    https://capitollawpartners.com/immigration-law-in-the-u-s-what-you-need-to-know
   description: >-
     Discover the essentials of U.S. immigration law with Capitol Law Partners.
     Learn about visas, green cards, naturalization, and how our legal team can
@@ -22,7 +23,8 @@ seo:
     Discover the essentials of U.S. immigration law with Capitol Law Partners.
     Learn about visas, green cards, naturalization, and how our legal team can
     guide you through every step of the process.
-  canonicalOverride: https://capitollawpartners.com/immigration-law-what-you-need-to-now
+  canonicalOverride: >-
+    https://capitollawpartners.com/immigration-law-in-the-u-s-what-you-need-to-know
   title: "Immigration Law in the U.S.: What You Need to Know\_"
 ---
 ### **Immigration Law in the U.S.: What You Need to Know** 

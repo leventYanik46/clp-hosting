@@ -18,12 +18,12 @@ metadata:
   description: >-
     Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik süreçlerinde yapılan
     en büyük hatalar. Ebeveyn Sponsorluğu. 
-  canonical: https://capitollawpartners.com/ailemi-amerikaya-nas%c4%b1l-getirebilirim
+  canonical: https://capitollawpartners.com/tr/ailemi-amerikaya-nasil-getirebilirim
 seo:
   description: >-
     Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik süreçlerinde yapılan
     en büyük hatalar. Ebeveyn Sponsorluğu. 
-  canonicalOverride: https://capitollawpartners.com/ailemi-amerikaya-nas%c4%b1l-getirebilirim
+  canonicalOverride: https://capitollawpartners.com/tr/ailemi-amerikaya-nasil-getirebilirim
   title: Ailemi Amerikaya Nasıl Getirebilirim?
 ---
 Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci 

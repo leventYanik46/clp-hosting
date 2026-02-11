@@ -10,7 +10,7 @@ imageWidth: 6720
 imageHeight: 4480
 publishDate: 2025-09-24T16:32:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/u-s-h-1b-visa-overhaul-visa-changes-faq
+  canonical: https://capitollawpartners.com/us-h-1b-visa-overhaul-h-1b-visa-changes-faq
   description: >-
     US H-1B Visa Overhaul | H-1B Visa Changes. Will current H-1B visa holders be
     affected? Is this a one-time payment? What is an H-1 Visa?..
@@ -18,7 +18,7 @@ seo:
   description: >-
     US H-1B Visa Overhaul | H-1B Visa Changes. Will current H-1B visa holders be
     affected? Is this a one-time payment? What is an H-1 Visa?..
-  canonicalOverride: https://capitollawpartners.com/u-s-h-1b-visa-overhaul-visa-changes-faq
+  canonicalOverride: https://capitollawpartners.com/us-h-1b-visa-overhaul-h-1b-visa-changes-faq
   title: US H-1B Visa Overhaul | H-1B Visa Changes - FAQ
 ---
 ### US H-1B Visa Overhaul | H-1B Visa Changes - FAQ

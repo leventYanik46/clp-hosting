@@ -14,10 +14,10 @@ imageHeight: 4000
 publishDate: 2025-12-29T01:41:00.000Z
 metadata:
   description: ' 136 Statü Değişikliği için I-485 Formunu nasıl dolduracağınızı öğrenin. Adım adım kılavuz, gerekli belgeler, sık yapılan hatalar ve DS-160 ipuçları.'
-  canonical: https://capitollawpartners.com/i-485-formu-nedir-nas%c4%b1l-doldurulur
+  canonical: https://capitollawpartners.com/tr/i-485-formu-nedir-nasil-doldurulur
 seo:
   description: ' 136 Statü Değişikliği için I-485 Formunu nasıl dolduracağınızı öğrenin. Adım adım kılavuz, gerekli belgeler, sık yapılan hatalar ve DS-160 ipuçları.'
-  canonicalOverride: https://capitollawpartners.com/i-485-formu-nedir-nas%c4%b1l-doldurulur
+  canonicalOverride: https://capitollawpartners.com/tr/i-485-formu-nedir-nasil-doldurulur
   title: 'I-485 Formu Nedir? Nasıl Doldurulur? '
 ---
 # Form I-485 Nedir? Nasıl Doldurulur? Adım Adım

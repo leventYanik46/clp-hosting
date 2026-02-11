@@ -15,7 +15,7 @@ imageHeight: 5997
 publishDate: 2025-12-12T11:33:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/g%c3%b6%c3%a7menlik-vizesi-kimlere-verilir-vize-t%c3%bcrleri
+    https://capitollawpartners.com/tr/gocmenlik-vizesi-kimlere-verilir-vize-turleri
   description: >-
     Göçmenlik Vizesi Kimlere Verilir | Vize Türleri Nelerdir? Green Card Kimlere
     Verilir? Statü değişikliği. Konsoloslukla Yazışma.
@@ -24,7 +24,7 @@ seo:
     Göçmenlik Vizesi Kimlere Verilir | Vize Türleri Nelerdir? Green Card Kimlere
     Verilir? Statü değişikliği. Konsoloslukla Yazışma.
   canonicalOverride: >-
-    https://capitollawpartners.com/g%c3%b6%c3%a7menlik-vizesi-kimlere-verilir-vize-t%c3%bcrleri
+    https://capitollawpartners.com/tr/gocmenlik-vizesi-kimlere-verilir-vize-turleri
   title: Göçmenlik Vizesi Kimlere Verilir | Vize Türleri
 ---
 ### 

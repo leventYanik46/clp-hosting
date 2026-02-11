@@ -9,12 +9,12 @@ imageHeight: 684
 publishDate: 2025-12-21T20:10:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/amerikada-calisma-vizesi-nasil-alinir-hangi-vizeler-gerekiyor
+    https://capitollawpartners.com/tr/amerikada-calisma-izni-nasil-alinir-hangi-vize-gerekiyor
   description: "Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? Vize İçin Gerekli Belgeler.  E-1 / E-2 mi, H-1B mi? Hangi Vize Kimler İçin Daha Uygun? Capitol\_Law\_Partners\_ile Amerika’da Çalışma ve Göçmenlik Sürecinizi Yönetmek.."
 seo:
   description: "Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? Vize İçin Gerekli Belgeler.  E-1 / E-2 mi, H-1B mi? Hangi Vize Kimler İçin Daha Uygun? Capitol\_Law\_Partners\_ile Amerika’da Çalışma ve Göçmenlik Sürecinizi Yönetmek.."
   canonicalOverride: >-
-    https://capitollawpartners.com/amerikada-calisma-vizesi-nasil-alinir-hangi-vizeler-gerekiyor
+    https://capitollawpartners.com/tr/amerikada-calisma-izni-nasil-alinir-hangi-vize-gerekiyor
   title: 'Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? '
 ---
 # Amerika’da Çalışma İzni Nasıl Alınır? 

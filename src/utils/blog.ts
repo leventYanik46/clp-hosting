@@ -338,10 +338,10 @@ const getPostLanguageCodes = (post: Post): string[] => {
 
 const pageSize = Number(blogPostsPerPage) || 12;
 
-const getAvailableLanguageCodesForPage = (posts: Post[], pageNumber: number): string[] => {
-  const currentPage = Number.isFinite(pageNumber) && pageNumber > 0 ? Math.floor(pageNumber) : 1;
-  const minItemCount = (currentPage - 1) * pageSize + 1;
+const normalizePageNumber = (pageNumber: number): number =>
+  Number.isFinite(pageNumber) && pageNumber > 0 ? Math.floor(pageNumber) : 1;
 
+const getLanguageCounts = (posts: Post[]): Map<string, number> => {
   const countsByLanguage = new Map<string, number>();
 
   posts.forEach((post) => {
@@ -350,9 +350,28 @@ const getAvailableLanguageCodesForPage = (posts: Post[], pageNumber: number): st
     });
   });
 
-  const available = Array.from(countsByLanguage.entries())
-    .filter(([, count]) => count >= minItemCount)
-    .map(([languageCode]) => languageCode);
+  return countsByLanguage;
+};
+
+const getLanguageCodesForPage = (
+  countsByLanguage: Map<string, number>,
+  pageNumber: number,
+  routeLanguageCodes: string[]
+): string[] => {
+  const currentPage = normalizePageNumber(pageNumber);
+  const resolvedRouteLanguageCodes =
+    routeLanguageCodes.length > 0 ? Array.from(new Set(routeLanguageCodes)) : [defaultBlogLanguage];
+
+  // Page 1 exists for every generated language route, even if there are no posts for that language.
+  if (currentPage === 1) {
+    return resolvedRouteLanguageCodes;
+  }
+
+  const minItemCount = (currentPage - 1) * pageSize + 1;
+
+  const available = resolvedRouteLanguageCodes.filter((languageCode) => {
+    return (countsByLanguage.get(languageCode) || 0) >= minItemCount;
+  });
 
   if (available.length === 0) {
     return [defaultBlogLanguage];
@@ -363,19 +382,27 @@ const getAvailableLanguageCodesForPage = (posts: Post[], pageNumber: number): st
 
 export const getBlogLanguageCodesForListPage = async (pageNumber = 1): Promise<string[]> => {
   const posts = await fetchPosts();
-  return getAvailableLanguageCodesForPage(posts, pageNumber);
+  const routeLanguageCodes = Array.from(
+    new Set(supportedLang.map((langPrefix) => (langPrefix === '' ? defaultBlogLanguage : langPrefix)))
+  );
+  const countsByLanguage = getLanguageCounts(posts);
+  return getLanguageCodesForPage(countsByLanguage, pageNumber, routeLanguageCodes);
 };
 
 export const getBlogLanguageCodesForCategoryPage = async (categorySlug: string, pageNumber = 1): Promise<string[]> => {
   const posts = await fetchPosts();
   const categoryPosts = posts.filter((post) => post.category?.slug === categorySlug);
-  return getAvailableLanguageCodesForPage(categoryPosts, pageNumber);
+  const routeLanguageCodes = Array.from(new Set(posts.flatMap((post) => getPostLanguageCodes(post))));
+  const countsByLanguage = getLanguageCounts(categoryPosts);
+  return getLanguageCodesForPage(countsByLanguage, pageNumber, routeLanguageCodes);
 };
 
 export const getBlogLanguageCodesForTagPage = async (tagSlug: string, pageNumber = 1): Promise<string[]> => {
   const posts = await fetchPosts();
   const tagPosts = posts.filter((post) => Array.isArray(post.tags) && post.tags.some((tag) => tag.slug === tagSlug));
-  return getAvailableLanguageCodesForPage(tagPosts, pageNumber);
+  const routeLanguageCodes = Array.from(new Set(posts.flatMap((post) => getPostLanguageCodes(post))));
+  const countsByLanguage = getLanguageCounts(tagPosts);
+  return getLanguageCodesForPage(countsByLanguage, pageNumber, routeLanguageCodes);
 };
 
 /** */

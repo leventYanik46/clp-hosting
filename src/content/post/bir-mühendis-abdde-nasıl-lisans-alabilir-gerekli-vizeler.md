@@ -20,13 +20,13 @@ metadata:
     Yabancı bir mühendis ABD'de nasıl lisans alabilir? | Adım adım. Göçmenlik ve
     Mesleki Lisanslama. Capitol Law Partners.
   canonical: >-
-    https://capitollawpartners.com/bir-m%c3%bchendis-abd-de-nas%c4%b1l-lisans-alabilir-gerekli-vizeler
+    https://capitollawpartners.com/tr/bir-muhendis-abdde-nasil-lisans-alabilir-gerekli-vizeler
 seo:
   description: >-
     Yabancı bir mühendis ABD'de nasıl lisans alabilir? | Adım adım. Göçmenlik ve
     Mesleki Lisanslama. Capitol Law Partners.
   canonicalOverride: >-
-    https://capitollawpartners.com/bir-m%c3%bchendis-abd-de-nas%c4%b1l-lisans-alabilir-gerekli-vizeler
+    https://capitollawpartners.com/tr/bir-muhendis-abdde-nasil-lisans-alabilir-gerekli-vizeler
   title: 'Bir Mühendis ABD''de Nasıl Lisans Alabilir? | Gerekli Vizeler '
 ---
 # Yabancı Bir Mühendis ABD'de Nasıl Lisans Alabilir? | Adım Adım 

@@ -19,12 +19,14 @@ metadata:
   description: >-
     Learn how to complete Form I-485 for Adjustment of Status. Step-by-step
     guidance, required documents, common mistakes, and DS-160 tips. 
-  canonical: https://capitollawpartners.com/what-is-form-i-485-how-complate-step-by-step
+  canonical: >-
+    https://capitollawpartners.com/what-is-form-i-485-how-to-complete-step-by-step
 seo:
   description: >-
     Learn how to complete Form I-485 for Adjustment of Status. Step-by-step
     guidance, required documents, common mistakes, and DS-160 tips. 
-  canonicalOverride: https://capitollawpartners.com/what-is-form-i-485-how-complate-step-by-step
+  canonicalOverride: >-
+    https://capitollawpartners.com/what-is-form-i-485-how-to-complete-step-by-step
   title: "What\_Is Form I-485? How\_to\_Complete? Step-by-Step "
 ---
 ## What Is Form I-485? How to Complete? Step-by-Step

@@ -29,14 +29,15 @@ const currentPage = page.currentPage ?? 1;
 const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
 const { routePath } = stripLangPrefix(Astro.url.pathname);
 const availableLanguageCodes = await getBlogLanguageCodesForListPage(currentPage);
+const alternateLanguageCodes = Array.from(new Set([...(lang ? [lang] : []), ...availableLanguageCodes]));
 const languageAlternates = buildLanguageAlternatesForLangs(
   routePath,
   siteUrl,
-  availableLanguageCodes,
+  alternateLanguageCodes,
   DEFAULT_SEO_LANG,
   false
 );
-const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, availableLanguageCodes, false);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, alternateLanguageCodes, false);
 
 // const allCategories = await findCategories();
 // const allTags = await findTags();

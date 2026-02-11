@@ -12,7 +12,7 @@ imageHeight: 3333
 publishDate: 2025-12-23T12:13:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/kimler-anne-ve-babasi-icin-green-card-basvurusu-yapabilir
+    https://capitollawpartners.com/tr/kimler-anne-ve-babasi-icin-green-card-basvurusu-yapabilir
   description: >-
     Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir? Anne ve babam
     için Green Card başvurusu yapabilir miyim? Başvuru Şartları Neler?
@@ -21,7 +21,7 @@ seo:
     Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir? Anne ve babam
     için Green Card başvurusu yapabilir miyim? Başvuru Şartları Neler?
   canonicalOverride: >-
-    https://capitollawpartners.com/kimler-anne-ve-babasi-icin-green-card-basvurusu-yapabilir
+    https://capitollawpartners.com/tr/kimler-anne-ve-babasi-icin-green-card-basvurusu-yapabilir
   title: Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?
 ---
 # Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?

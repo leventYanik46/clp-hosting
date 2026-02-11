@@ -16,12 +16,12 @@ imageHeight: 4000
 publishDate: 2025-12-22T19:17:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/green-card-alman%c4%b1n-en-h%c4%b1zl%c4%b1-yollar%c4%b1
+    https://capitollawpartners.com/tr/green-card-almanin-en-hizli-yollari-yesil-kart-nasil-daha-hizli-alinir
   description: "Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En Hızlı Yolları\_| Green Card Nasıl Daha Hızlı Alınır ?"
 seo:
   description: "Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En Hızlı Yolları\_| Green Card Nasıl Daha Hızlı Alınır ?"
   canonicalOverride: >-
-    https://capitollawpartners.com/green-card-alman%c4%b1n-en-h%c4%b1zl%c4%b1-yollar%c4%b1
+    https://capitollawpartners.com/tr/green-card-almanin-en-hizli-yollari-yesil-kart-nasil-daha-hizli-alinir
   title: Green Card Almanın En Hızlı Yolları | Hızlı Süreç
 ---
 # ABD'de Yeşil Kart Almanın En Hızlı Yolları | Green Card Nasıl Daha Hızlı Alınır ?

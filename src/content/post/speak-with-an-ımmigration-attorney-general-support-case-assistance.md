@@ -13,7 +13,7 @@ imageHeight: 2864
 publishDate: 2025-08-14T08:11:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/speak-with-an-immigration-attorney-general-sport
+    https://capitollawpartners.com/speak-with-an-immigration-attorney-general-support-case-assistance
   description: >-
     Get immigration case assistance at Capitol Law Partners. Speak with an
     attorney for trusted support in visas, green cards, citizenship, and
@@ -24,7 +24,7 @@ seo:
     attorney for trusted support in visas, green cards, citizenship, and
     deportation defense.
   canonicalOverride: >-
-    https://capitollawpartners.com/speak-with-an-immigration-attorney-general-sport
+    https://capitollawpartners.com/speak-with-an-immigration-attorney-general-support-case-assistance
   title: "Speak with an Immigration Attorney: General Support & Case Assistance\_"
 ---
 ## **Speak with an Immigration Attorney: General Support & Case Assistance** 

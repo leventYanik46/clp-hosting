@@ -7,11 +7,13 @@ imageWidth: 6000
 imageHeight: 4000
 publishDate: 2025-11-14T09:35:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-step-by-step
+  canonical: >-
+    https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-a-step-by-step
   description: "How\_to\_Fill\_Out\_the\_DS-160 Form: A Step-by-Step Guide. DS-160 sample, DS-160 errors, U.S. visa application, DS-160 English characters, passport information.."
 seo:
   description: "How\_to\_Fill\_Out\_the\_DS-160 Form: A Step-by-Step Guide. DS-160 sample, DS-160 errors, U.S. visa application, DS-160 English characters, passport information.."
-  canonicalOverride: https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-step-by-step
+  canonicalOverride: >-
+    https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-a-step-by-step
   title: "How\_to\_Fill\_Out\_the\_DS-160 Form - A Step by Step "
 ---
 ### How to Fill Out the DS-160 Form: A Step-by-Step Guide 

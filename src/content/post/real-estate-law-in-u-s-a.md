@@ -13,7 +13,7 @@ imageWidth: 4608
 imageHeight: 3072
 publishDate: 2025-07-25T12:31:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/real-estate-law-in-usa
+  canonical: https://capitollawpartners.com/real-estate-law-in-u-s-a
   description: >-
     "Learn how U.S. real estate law impacts buying, leasing, and developing
     property. Legal clarity for secure and profitable investments."
@@ -21,7 +21,7 @@ seo:
   description: >-
     "Learn how U.S. real estate law impacts buying, leasing, and developing
     property. Legal clarity for secure and profitable investments."
-  canonicalOverride: https://capitollawpartners.com/real-estate-law-in-usa
+  canonicalOverride: https://capitollawpartners.com/real-estate-law-in-u-s-a
   title: Real Estate Law in U.S.A
 ---
 ## **Real Estate Law: A Comprehensive Guide**

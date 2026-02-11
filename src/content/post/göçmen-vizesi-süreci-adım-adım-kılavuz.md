@@ -20,8 +20,7 @@ imageWidth: 6000
 imageHeight: 4000
 publishDate: 2025-12-13T10:54:00.000Z
 metadata:
-  canonical: >-
-    https://capitollawpartners.com/abd-g%c3%b6%c3%a7men-vizesi-s%c3%bcreci-ad%c4%b1m-ad%c4%b1m
+  canonical: https://capitollawpartners.com/tr/gocmen-vizesi-sureci-adim-adim-kilavuz
   description: >-
     Göçmen Vizesi Süreci - Adım Adım Kılavuz. Ödenmesi Gereken Ücretler. Dilekçe
     Örnekleri ve Süreç. 
@@ -29,8 +28,7 @@ seo:
   description: >-
     Göçmen Vizesi Süreci - Adım Adım Kılavuz. Ödenmesi Gereken Ücretler. Dilekçe
     Örnekleri ve Süreç. 
-  canonicalOverride: >-
-    https://capitollawpartners.com/abd-g%c3%b6%c3%a7men-vizesi-s%c3%bcreci-ad%c4%b1m-ad%c4%b1m
+  canonicalOverride: https://capitollawpartners.com/tr/gocmen-vizesi-sureci-adim-adim-kilavuz
   title: "Göçmen Vizesi Süreci: Adım Adım Kılavuz\_\_"
 ---
 # ABD Vizeleri – Göçmen Vizesi Süreci: Adım Adım Kılavuz  

@@ -16,7 +16,7 @@ imageHeight: 4016
 publishDate: 2025-11-12T23:50:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/bringing-your-family-to-the-u-s-and-the-immigration-process
+    https://capitollawpartners.com/bringing-your-family-to-the-us-immigration-process
   description: >-
     Bringing Your Family to the US and the Immigration Process. The biggest
     mistakes in immigration processes. Parent Sponsorship..
@@ -25,7 +25,7 @@ seo:
     Bringing Your Family to the US and the Immigration Process. The biggest
     mistakes in immigration processes. Parent Sponsorship..
   canonicalOverride: >-
-    https://capitollawpartners.com/bringing-your-family-to-the-u-s-and-the-immigration-process
+    https://capitollawpartners.com/bringing-your-family-to-the-us-immigration-process
   title: How Can I Bring My Family to the USA? | Immigration Process
 ---
 ## Bringing Your Family to the US and the Immigration Process

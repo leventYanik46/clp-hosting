@@ -13,10 +13,12 @@ imageHeight: 3648
 publishDate: 2025-09-01T12:55:00.000Z
 metadata:
   description: "Understanding Family-Based Immigration.\_Capitol Law Partners’ family-based immigration attorneys help reunite families in the U.S. with expert legal guidance.."
-  canonical: https://capitollawpartners.com/understanding-family-based-immigration
+  canonical: >-
+    https://capitollawpartners.com/understanding-family-based-immigration-attorney
 seo:
   description: "Understanding Family-Based Immigration.\_Capitol Law Partners’ family-based immigration attorneys help reunite families in the U.S. with expert legal guidance.."
-  canonicalOverride: https://capitollawpartners.com/understanding-family-based-immigration
+  canonicalOverride: >-
+    https://capitollawpartners.com/understanding-family-based-immigration-attorney
   title: "Understanding Family-Based Immigration |\_Attorney "
 ---
 ## **Understanding Family-Based Immigration** 

@@ -7,7 +7,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import SinglePost from '~/components/blog/SinglePost.astro';
 import ToBlogLink from '~/components/blog/ToBlogLink.astro';
 
-import { getCanonical, getPermalink } from '~/utils/permalinks';
 import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
 import { findImage } from '~/utils/images';
 import type { MetaData, SeoData } from '~/types';
@@ -28,23 +27,21 @@ export const getStaticPaths = (async () => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
-const { post, lang, pathPrefix } = Astro.props as Props;
+const { post, lang } = Astro.props as Props;
 const seoLang = ['en', 'tr', 'es', 'pt', 'fr'].includes(lang) ? (lang as 'en' | 'tr' | 'es' | 'pt' | 'fr') : 'en';
 const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
 const siteHost = new URL(siteUrl).hostname;
 
-// build language-prefixed permalink when the route includes a prefix
-const prefixedPermalink = pathPrefix ? `${pathPrefix}/${post.permalink}` : post.permalink;
 const generatedCanonical =
-  sanitizeCanonicalUrl(String(getCanonical(getPermalink(prefixedPermalink, 'post'))), {
+  sanitizeCanonicalUrl(Astro.url.pathname, {
     siteUrl,
     forceHost: siteHost,
-  }) ?? String(getCanonical(getPermalink(prefixedPermalink, 'post')));
-const canonicalOverride = sanitizeCanonicalUrl(post?.metadata?.canonical, {
-  siteUrl,
-  forceHost: siteHost,
-});
-const canonical = generatedCanonical || canonicalOverride || String(Astro.url.href);
+  }) ??
+  sanitizeCanonicalUrl(String(Astro.url.href), {
+    siteUrl,
+    forceHost: siteHost,
+  });
+const canonical = generatedCanonical || String(new URL(Astro.url.pathname, siteUrl));
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
 const imageSource = typeof image === 'string' ? image : image?.src;
 const imageUrl = imageSource ? new URL(imageSource, siteUrl).toString() : undefined;
@@ -96,7 +93,7 @@ const seo: SeoData = {
   ogImage: imageSource,
   noindex: blogPostRobots?.index === false,
   nofollow: blogPostRobots?.follow === false,
-  canonicalOverride: post.metadata?.canonical,
+  canonicalOverride: canonical,
   schema: {
     mode: 'merge',
     includeBreadcrumbs: true,

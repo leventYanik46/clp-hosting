@@ -15,7 +15,7 @@ imageWidth: 612
 imageHeight: 408
 publishDate: 2025-07-28T01:05:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/businessimmigration
+  canonical: https://capitollawpartners.com/business-immigration
   description: >-
     Discover how to move to the U.S. through business immigration. Capitol Law
     Partners offers expert legal help for investors, startups, and
@@ -25,7 +25,7 @@ seo:
     Discover how to move to the U.S. through business immigration. Capitol Law
     Partners offers expert legal help for investors, startups, and
     professionals.
-  canonicalOverride: https://capitollawpartners.com/businessimmigration
+  canonicalOverride: https://capitollawpartners.com/business-immigration
   title: Business Immigration
 ---
 # Business Immigration 

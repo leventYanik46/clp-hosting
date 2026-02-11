@@ -11,7 +11,8 @@ imageWidth: 1280
 imageHeight: 720
 publishDate: 2025-08-18T14:35:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/b1-b2-visas-in-the-united-states
+  canonical: >-
+    https://capitollawpartners.com/b1-b2-visas-in-the-united-states-what-you-can-and-cannot-do
   description: >-
     B1/B2 visas in the U.S.: Discover what you can and cannot do, and get expert
     guidance from Capitol Law Partners. What is B1/ B2 Visa?..
@@ -19,7 +20,8 @@ seo:
   description: >-
     B1/B2 visas in the U.S.: Discover what you can and cannot do, and get expert
     guidance from Capitol Law Partners. What is B1/ B2 Visa?..
-  canonicalOverride: https://capitollawpartners.com/b1-b2-visas-in-the-united-states
+  canonicalOverride: >-
+    https://capitollawpartners.com/b1-b2-visas-in-the-united-states-what-you-can-and-cannot-do
   title: "B1/B2 Visas in the United States: What You Can and Cannot Do\_"
 ---
 ### **B1/B2 Visas in the United States: What You Can and Cannot Do** 

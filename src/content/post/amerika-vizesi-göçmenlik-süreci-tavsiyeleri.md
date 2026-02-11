@@ -12,7 +12,7 @@ imageHeight: 3938
 publishDate: 2025-12-14T02:05:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/amerika-vizesi-g%c3%b6%c3%a7menlik-s%c3%bcreci-tavsiyeleri
+    https://capitollawpartners.com/tr/amerika-vizesi-gocmenlik-sureci-tavsiyeleri
   description: >-
     ABD göçmenlik süreci. Vize başvuru adımları, sık yapılan hatalar ve
     göçmenlik avukatlarının ABD ve Türkiye'den başvuru sahiplerinin bilmesi
@@ -23,7 +23,7 @@ seo:
     göçmenlik avukatlarının ABD ve Türkiye'den başvuru sahiplerinin bilmesi
     gerekenler.
   canonicalOverride: >-
-    https://capitollawpartners.com/amerika-vizesi-g%c3%b6%c3%a7menlik-s%c3%bcreci-tavsiyeleri
+    https://capitollawpartners.com/tr/amerika-vizesi-gocmenlik-sureci-tavsiyeleri
   title: Amerika Vizesi | Göçmenlik Süreci Tavsiyeleri
 ---
 ## ABD Göçmenlik Süreci Tavsiyeleri

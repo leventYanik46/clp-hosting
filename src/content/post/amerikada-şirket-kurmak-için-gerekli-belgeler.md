@@ -12,7 +12,7 @@ imageHeight: 3376
 publishDate: 2025-12-11T11:15:00.000Z
 metadata:
   canonical: >-
-    https://capitollawpartners.com/amerikada-%c5%9firket-kurmak-i%c3%a7in-gerekli-belgeler
+    https://capitollawpartners.com/tr/amerikada-sirket-kurmak-icin-gerekli-belgeler
   description: >-
     Amerika'da Şirket Kurmak İçin Gerekli Belgeler. Amerika'da Vatandaşlık
     Sahibi Olmadan Şirket Kurmak. Şirket Türü ve Yapılandırma.
@@ -21,7 +21,7 @@ seo:
     Amerika'da Şirket Kurmak İçin Gerekli Belgeler. Amerika'da Vatandaşlık
     Sahibi Olmadan Şirket Kurmak. Şirket Türü ve Yapılandırma.
   canonicalOverride: >-
-    https://capitollawpartners.com/amerikada-%c5%9firket-kurmak-i%c3%a7in-gerekli-belgeler
+    https://capitollawpartners.com/tr/amerikada-sirket-kurmak-icin-gerekli-belgeler
   title: Amerika'da Şirket Kurmak İçin Gerekli Belgeler
 ---
 ## Amerika’da Şirket Kurmak

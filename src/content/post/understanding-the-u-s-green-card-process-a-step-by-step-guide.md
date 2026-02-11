@@ -13,7 +13,8 @@ imageWidth: 4040
 imageHeight: 3040
 publishDate: 2025-08-07T14:14:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/step-by-step-green-card-process
+  canonical: >-
+    https://capitollawpartners.com/understanding-the-u-s-green-card-process-a-step-by-step-guide
   description: >-
     Step-by-step U.S. Green Card guide by Capitol Law Partners. Expert legal
     help from eligibility to approval. Secure your permanent residency today.
@@ -21,7 +22,8 @@ seo:
   description: >-
     Step-by-step U.S. Green Card guide by Capitol Law Partners. Expert legal
     help from eligibility to approval. Secure your permanent residency today.
-  canonicalOverride: https://capitollawpartners.com/step-by-step-green-card-process
+  canonicalOverride: >-
+    https://capitollawpartners.com/understanding-the-u-s-green-card-process-a-step-by-step-guide
   title: 'Understanding the U.S. Green Card Process: A Step-by-Step Guide'
 ---
 **Understanding the U.S. Green Card Process: A Step-by-Step Guide**\

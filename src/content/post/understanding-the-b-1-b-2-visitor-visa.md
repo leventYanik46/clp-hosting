@@ -10,8 +10,7 @@ imageWidth: 6186
 imageHeight: 4124
 publishDate: 2025-10-03T16:42:00.000Z
 metadata:
-  canonical: >-
-    https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa-business-and-tourism-in-the-united-states
+  canonical: https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa
   description: >-
     Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United
     States. The B-1/B-2 visa allows short-term business and tourism visits..
@@ -19,8 +18,7 @@ seo:
   description: >-
     Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United
     States. The B-1/B-2 visa allows short-term business and tourism visits..
-  canonicalOverride: >-
-    https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa-business-and-tourism-in-the-united-states
+  canonicalOverride: https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa
   title: Understanding the B-1/B-2 Visitor Visa
 ---
 ## **Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United States** 

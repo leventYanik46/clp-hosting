@@ -13,7 +13,7 @@ imageWidth: 7222
 imageHeight: 3060
 publishDate: 2025-12-24T21:18:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/what-is-affirmative-asylum-process
+  canonical: https://capitollawpartners.com/affirmative-asylum
   description: >-
     The Affirmative Asylum Process in the U.S. offers protection to individuals
     fearing persecution in their home country. Learn eligibility criteria,
@@ -25,7 +25,7 @@ seo:
     fearing persecution in their home country. Learn eligibility criteria,
     step-by-step application procedures, timelines, and expert tips to
     strengthen your asylum case.
-  canonicalOverride: https://capitollawpartners.com/what-is-affirmative-asylum-process
+  canonicalOverride: https://capitollawpartners.com/affirmative-asylum
   title: What is Affirmative Asylum | Process
 ---
 ## **Navigating Hope: Your Guide to the Affirmative Asylum Process in the U.S.** 

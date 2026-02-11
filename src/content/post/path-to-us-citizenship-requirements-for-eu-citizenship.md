@@ -9,7 +9,8 @@ imageWidth: 1060
 imageHeight: 1055
 publishDate: 2025-07-07T20:38:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/requirements-for-eu-citizenship
+  canonical: >-
+    https://capitollawpartners.com/path-to-us-citizenship-requirements-for-eu-citizenship
   description: >-
     Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
     Citizen? What are the Necessary Requirements?..
@@ -17,7 +18,8 @@ seo:
   description: >-
     Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
     Citizen? What are the Necessary Requirements?..
-  canonicalOverride: https://capitollawpartners.com/requirements-for-eu-citizenship
+  canonicalOverride: >-
+    https://capitollawpartners.com/path-to-us-citizenship-requirements-for-eu-citizenship
   title: 'Path to US Citizenship: Requirements for EU Citizenship'
 ---
 
