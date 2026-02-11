@@ -2,11 +2,12 @@
 import merge from 'lodash.merge';
 import { AstroSeo } from '@astrolib/seo';
 import type { Props as AstroSeoProps } from '@astrolib/seo';
+import type { ImageMetadata } from 'astro';
 import { SITE, METADATA } from 'astrowind:config';
 
 import type { MetaData, SeoData } from '~/types';
 import type { HreflangAlternate } from '~/data/seo';
-import { adaptOpenGraphImages } from '~/utils/images';
+import { adaptOpenGraphImages, findImage } from '~/utils/images';
 import { getWebsiteSchema } from '~/js/schema/website';
 import { getOrganizationSchema, getLegalServiceSchema } from '~/js/schema/organizationLegalService';
 import { getBlogPostingSchema } from '~/js/schema/blogPosting';
@@ -87,6 +88,28 @@ const seoProps: AstroSeoProps = merge(
   }
 );
 
+const adaptedOpenGraph = await adaptOpenGraphImages(seoProps?.openGraph, Astro.site);
+const fallbackSchemaImage =
+  typeof adaptedOpenGraph?.images?.[0]?.url === 'string' && adaptedOpenGraph.images[0].url
+    ? adaptedOpenGraph.images[0].url
+    : undefined;
+
+const resolveSchemaImageUrl = async (value?: string) => {
+  if (!value) return undefined;
+
+  const resolvedImage = (await findImage(value)) as ImageMetadata | string | undefined | null;
+  if (!resolvedImage) return undefined;
+
+  const imageSource = typeof resolvedImage === 'string' ? resolvedImage : resolvedImage.src;
+  if (!imageSource) return undefined;
+
+  if (imageSource.startsWith('http://') || imageSource.startsWith('https://')) {
+    return imageSource;
+  }
+
+  return new URL(imageSource, siteUrl).toString();
+};
+
 const schemaMode = seo.schema?.mode ?? 'auto';
 const includeBreadcrumbs = seo.schema?.includeBreadcrumbs ?? true;
 const customSchemas = Array.isArray(seo.schema?.custom) ? seo.schema.custom : [];
@@ -146,12 +169,15 @@ if (schemaMode !== 'replace') {
 
   if (schemaEntity === 'person' && resolved.title) {
     const personSchema = seo.schema?.person ?? {};
+    const personImage =
+      (await resolveSchemaImageUrl(personSchema.image ?? seo.schema?.personImage)) ?? fallbackSchemaImage;
+
     pageSchemas.push(
       getPersonSchema({
         name: resolved.title,
         description: resolved.description,
         url: resolved.canonical,
-        image: personSchema.image ?? seo.schema?.personImage ?? resolved.ogImage,
+        image: personImage,
         jobTitle: personSchema.jobTitle ?? seo.schema?.personJobTitle,
         givenName: personSchema.givenName,
         familyName: personSchema.familyName,
@@ -191,7 +217,7 @@ const finalSchemas =
       : pageSchemas;
 ---
 
-<AstroSeo {...{ ...seoProps, openGraph: await adaptOpenGraphImages(seoProps?.openGraph, Astro.site) }} />
+<AstroSeo {...{ ...seoProps, openGraph: adaptedOpenGraph }} />
 {resolved.ogLocaleAlternates.map((locale) => <meta property="og:locale:alternate" content={locale} />)}
 
 {

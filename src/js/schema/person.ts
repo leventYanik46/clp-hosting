@@ -55,6 +55,15 @@ export const getPersonSchema = ({
   siteUrl,
 }: PersonSchemaInput) => {
   const origin = new URL(siteUrl).origin;
+  const normalizedImage =
+    typeof image === 'string'
+      ? image.startsWith('http://') || image.startsWith('https://')
+        ? image
+        : image.startsWith('/')
+          ? new URL(image, origin).toString()
+          : undefined
+      : undefined;
+
   const normalizedWorksFor =
     worksFor && (worksFor.id || worksFor.name || worksFor.url || worksFor.sameAs?.length)
       ? {
@@ -98,7 +107,7 @@ export const getPersonSchema = ({
     name,
     url,
     ...(description ? { description } : {}),
-    ...(image ? { image } : {}),
+    ...(normalizedImage ? { image: normalizedImage } : {}),
     ...(jobTitle ? { jobTitle } : {}),
     ...(inLanguage ? { inLanguage } : {}),
     ...(givenName ? { givenName } : {}),
