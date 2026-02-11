@@ -15,6 +15,12 @@ metadata:
     Need legal advice? How to find the right law firm for your case and get
     expert support tailored to your legal situation? Contact us..
   canonical: https://capitollawpartners.com/how-can-you-get-legal-advice-for-your-case
+seo:
+  description: >-
+    Need legal advice? How to find the right law firm for your case and get
+    expert support tailored to your legal situation? Contact us..
+  canonicalOverride: https://capitollawpartners.com/how-can-you-get-legal-advice-for-your-case
+  title: How Can You Get Legal Advice for Your Case?
 ---
 
 

@@ -13,6 +13,13 @@ metadata:
     nasıl alabilirim? ABD Yeşil Kart'ı almanın başlıca yollarını keşfedin...
   canonical: >-
     https://capitollawpartners.com/amerika-birle%c5%9fik-devletlerinde-ye%c5%9fil-kart-alman%c4%b1n-yollar%c4%b1
+seo:
+  description: >-
+    Amerika Birleşik Devletleri'nde Yeşil Kart Almanın Yolları. Yeşil Kart'ı
+    nasıl alabilirim? ABD Yeşil Kart'ı almanın başlıca yollarını keşfedin...
+  canonicalOverride: >-
+    https://capitollawpartners.com/amerika-birle%c5%9fik-devletlerinde-ye%c5%9fil-kart-alman%c4%b1n-yollar%c4%b1
+  title: 'Amerika Birleşik Devletleri''nde Yeşil Kart Almanın Yolları '
 ---
 ### Amerika Birleşik Devletleri'nde Yeşil Kart Almanın Yolları 
 

@@ -32,7 +32,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Derecho Inmobiliario
@@ -104,4 +104,14 @@ post:
     comprender sus metas, ya sea comprar, vender, arrendar o desarrollar una
     propiedad. Somos minuciosos, receptivos y estamos comprometidos con ayudarle
     a cerrar acuerdos sin problemas mientras minimizamos los riesgos.</p>
+seo:
+  title: Derecho Inmobiliario
+  description: >-
+    Asesoría en transacciones inmobiliarias comerciales y residenciales,
+    adquisiciones, arrendamientos, desarrollo y negociación de contratos para
+    operaciones sin contratiempos.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

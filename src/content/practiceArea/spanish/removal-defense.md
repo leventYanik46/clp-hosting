@@ -2,7 +2,8 @@
 metadata:
   title: Defensa Contra la Deportación
   description: >-
-    Defensa integral para personas en procesos de deportación, enfocada en la elegibilidad para alivio y la evidencia.
+    Defensa integral para personas en procesos de deportación, enfocada en la
+    elegibilidad para alivio y la evidencia.
 hero:
   tagline: Contáctenos
   title: ¡Conectemos!
@@ -12,13 +13,14 @@ hero:
 contactForm:
   title: ¡Envíenos un mensaje hoy!
   subtitle: >-
-    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos ahora para comenzar su camino!
+    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos
+    ahora para comenzar su camino!
   inputs:
     name: Nombre
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, acepta la recopilación de datos.'
+  disclaimer: Al enviar este formulario, acepta la recopilación de datos.
   description: Nuestro equipo normalmente responde dentro de las 24 horas hábiles.
   googleReview:
     label: Reseñas de Google
@@ -28,13 +30,15 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Defensa Contra la Deportación
   infoDescription: >-
-    Defensa integral para personas en procesos de deportación, enfocada en la elegibilidad para alivio y la evidencia.
+    Defensa integral para personas en procesos de deportación, enfocada en la
+    elegibilidad para alivio y la evidencia.
 post:
   title: Defensa Contra la Deportación
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>Defensa integral para personas en procesos de deportación, enfocada en la elegibilidad para alivio y la evidencia.</p>
+    <p>Defensa integral para personas en procesos de deportación, enfocada en la
+    elegibilidad para alivio y la evidencia.</p>
 
 
     <h3>Servicios Clave</h3>
@@ -48,5 +52,17 @@ post:
 
     <h3>Por Qué Es Importante</h3>
 
-    <p>Alineamos la estrategia, los documentos y la ejecución para que sus objetivos estén protegidos. Cada asunto se maneja con comunicación clara, asesoría pragmática y un enfoque en la rapidez y la reducción de riesgos.</p>
+    <p>Alineamos la estrategia, los documentos y la ejecución para que sus
+    objetivos estén protegidos. Cada asunto se maneja con comunicación clara,
+    asesoría pragmática y un enfoque en la rapidez y la reducción de
+    riesgos.</p>
+seo:
+  title: Defensa Contra la Deportación
+  description: >-
+    Defensa integral para personas en procesos de deportación, enfocada en la
+    elegibilidad para alivio y la evidencia.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

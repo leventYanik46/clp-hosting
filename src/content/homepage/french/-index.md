@@ -22,15 +22,15 @@ hero:
     - variant: primary
       text: Prendre rendez-vous
       href: /fr/schedule
-      class: 'w-full sm:mb-0'
+      class: w-full sm:mb-0
     - text: Évaluation gratuite
       href: /fr/evaluations
       variant: primary
-      class: 'w-full sm:mb-0 hidden lg:block'
+      class: w-full sm:mb-0 hidden lg:block
     - text: Contactez-nous
       href: /fr/contact
       variant: primary
-      class: 'w-full sm:mb-0 lg:hidden'
+      class: w-full sm:mb-0 lg:hidden
 practiceAreas:
   id: Practice Areas
   tagline: Domaines de pratique
@@ -45,44 +45,44 @@ practiceAreas:
       description: >-
         Conseil complet pour les entreprises de toutes tailles, de la création
         d'entités et des contrats aux fusions, acquisitions et litiges.
-      icon: 'tabler:briefcase'
+      icon: tabler:briefcase
       link: /fr/practice-area/business-corporate-law
     - title: Droit de l'immigration
       description: >-
         Accompagnement pour les visas d'affaires et de travail, l'asile, les
         demandes familiales et la défense contre l'expulsion—rendant les
         démarches d'immigration plus claires et accessibles.
-      icon: 'tabler:globe-filled'
+      icon: tabler:globe-filled
     - title: Successions et fiducies
       description: >-
         Plans successoraux personnalisés, testaments et fiducies pour protéger
         l'avenir de votre famille et préserver ce qui compte le plus.
-      icon: 'tabler:affiliate'
+      icon: tabler:affiliate
     - title: Conseil général externe et services de conseil
       description: >-
         Conseiller juridique de confiance pour les startups et entreprises en
         croissance, fournissant un accompagnement continu sur les contrats, la
         conformité, l'emploi, la gestion des risques et les opérations
         quotidiennes.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
     - title: Droit immobilier
       description: >-
         Accompagnement pour les transactions commerciales et résidentielles,
         garantissant la sécurité et la fluidité de vos opérations immobilières.
-      icon: 'tabler:home'
+      icon: tabler:home
       link: /fr/practice-area/real-estate
     - title: Propriété intellectuelle
       description: >-
         Protection de vos idées, marques et créations via marques, droits
         d’auteur et résolution efficace des litiges.
-      icon: 'tabler:file-certificate'
+      icon: tabler:file-certificate
       link: /fr/practice-area/ip-law
     - title: Dommages corporels
       description: >-
         Représentation des personnes blessées dans des accidents (auto, travail,
         responsabilité des locaux) pour obtenir l'indemnisation que vous
         méritez.
-      icon: 'tabler:ambulance'
+      icon: tabler:ambulance
 spotlights:
   - props:
       isReversed: true
@@ -182,7 +182,7 @@ testimonials:
   callToAction:
     variant: secondary
     text: Lire plus de témoignages
-    href: 'https://share.google/0tXbKda3cm96I5wwf'
+    href: https://share.google/0tXbKda3cm96I5wwf
     target: _blank
     rel: noreferrer
   items:
@@ -230,7 +230,7 @@ steps:
         Fournissez les détails de vos besoins juridiques via notre formulaire de
         contact. Notre équipe examinera votre demande et vous orientera vers le
         bon expert.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
     - title: >-
         Étape 2 : <span class="font-medium">Planifiez une <a
         href="/fr/evaluations" class="hover:text-primary underline font-bold">
@@ -240,7 +240,7 @@ steps:
         formulaire d’évaluation gratuite. Notre équipe juridique examinera les
         informations et pourra demander des éléments supplémentaires pour bien
         comprendre votre situation.
-      icon: 'tabler:calendar-event'
+      icon: tabler:calendar-event
     - title: >-
         Étape 3 : <span class="font-medium"><a href="/fr/schedule"
         class="hover:text-primary underline font-bold"> Réservez une
@@ -249,13 +249,13 @@ steps:
         Rencontrez nos avocats pour une consultation personnalisée. Que vous
         ayez besoin d’aide en droit des sociétés, contentieux, immigration ou
         planification successorale, nous vous guiderons dans vos options.
-      icon: 'tabler:scale'
+      icon: tabler:scale
     - title: Prêt !
       description: >-
         Avec une stratégie juridique claire, vous êtes en bonne voie pour
         résoudre votre dossier avec confiance. Notre équipe sera à vos côtés à
         chaque étape.
-      icon: 'tabler:check'
+      icon: tabler:check
   image:
     src: >-
       https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80
@@ -267,7 +267,7 @@ blog:
     des mises à jour ponctuelles qui transforment des questions complexes en
     décisions éclairées.
 cta:
-  titleHtml: 'Capitol <span class="sm:whitespace-nowrap">Law Partners</span>'
+  titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
   subtitleHtml: >-
     Découvrez la différence que notre expertise peut apporter à vos enjeux
     juridiques.<br class="hidden md:inline" />&nbsp;Contactez-nous dès
@@ -276,4 +276,10 @@ cta:
     - variant: primary
       text: Nous contacter
       href: /fr/contact
+seo:
+  title: Capitol Law Partners
+  description: >-
+    Capitol Law Partners propose des conseils juridiques de confiance en droit
+    des affaires, immigration, planification successorale et propriété
+    intellectuelle. Prenez rendez-vous dès aujourd'hui.
 ---

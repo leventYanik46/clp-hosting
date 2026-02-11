@@ -22,7 +22,7 @@ if (!contactPage || contactPage.length === 0 || !contactPage[0].data) {
   throw new Error("Contact content not found for language: " + lang);
 }
 
-const { metadata, hero, contactForm, features, locations } = contactPage[0].data;
+const { metadata, seo, hero, contactForm, features, locations } = contactPage[0].data;
 
 const defaultLocationImages = [
   {
@@ -58,7 +58,7 @@ const locationItems = Array.isArray(locations) ? locations : locations?.items ??
 
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   <!-- HeroText Widget ******************* -->
   <HeroText tagline={hero.tagline} title={hero.title} />
 

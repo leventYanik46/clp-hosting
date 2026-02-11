@@ -2,7 +2,8 @@
 metadata:
   title: Kurumsal Yönetişim ve İç Politikalar
   description: >-
-    Kuruluşunuz için hesap verebilirlik, şeffaflık ve uyumlu büyümeyi teşvik eden yönetişim çerçeveleri, kurul prosedürleri ve iç politikalar.
+    Kuruluşunuz için hesap verebilirlik, şeffaflık ve uyumlu büyümeyi teşvik
+    eden yönetişim çerçeveleri, kurul prosedürleri ve iç politikalar.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -14,7 +15,9 @@ contactForm:
   subtitle: İhtiyacınıza özel hukuki rehberlik için bizimle iletişime geçin.
   infoTitle: Kurumsal Yönetişim ve İç Politikalar
   infoDescription: >-
-    İşletmelerin yetkiyi netleştiren, çatışmayı azaltan ve düzenleyici uyumu destekleyen yönetişim çerçeveleri, kurul prosedürleri ve iç politikalar tasarlamasına ve geliştirmesine yardımcı oluyoruz.
+    İşletmelerin yetkiyi netleştiren, çatışmayı azaltan ve düzenleyici uyumu
+    destekleyen yönetişim çerçeveleri, kurul prosedürleri ve iç politikalar
+    tasarlamasına ve geliştirmesine yardımcı oluyoruz.
   googleReview:
     label: Google Yorumları
     rating: 5
@@ -33,10 +36,17 @@ post:
   image: ~/assets/images/precision-img.jpg
   content: >
 
-    <p>Kurumsal Yönetişim ve İç Politikalar hizmetimiz, kararların nasıl alındığı, belgelendiği ve uygulandığı konusunda netlik isteyen işletmeleri destekler. Sağlam yönetişim, anlaşmazlıkları azaltır, yatırımcı ve paydaş güvenini destekler ve liderliğin büyüme ve değişimi yönetmesine yardımcı olur.</p>
+    <p>Kurumsal Yönetişim ve İç Politikalar hizmetimiz, kararların nasıl
+    alındığı, belgelendiği ve uygulandığı konusunda netlik isteyen işletmeleri
+    destekler. Sağlam yönetişim, anlaşmazlıkları azaltır, yatırımcı ve paydaş
+    güvenini destekler ve liderliğin büyüme ve değişimi yönetmesine yardımcı
+    olur.</p>
 
 
-    <p>Kurucular, yönetim kurulları ve yönetim ekipleriyle birlikte çalışarak, organizasyon belgelerinizin, tüzüklerinizin ve politikalarınızın işin nasıl yürütüldüğünü ve büyüdükçe nasıl yürütülmesi gerektiğini doğru şekilde yansıtmasını sağlıyoruz.</p>
+    <p>Kurucular, yönetim kurulları ve yönetim ekipleriyle birlikte çalışarak,
+    organizasyon belgelerinizin, tüzüklerinizin ve politikalarınızın işin nasıl
+    yürütüldüğünü ve büyüdükçe nasıl yürütülmesi gerektiğini doğru şekilde
+    yansıtmasını sağlıyoruz.</p>
 
 
     <h3>Yönetişim ve Politika Desteği</h3>
@@ -51,16 +61,35 @@ post:
 
     <h3>Yönetişimi Gerçeklikle Uyumlandırmak</h3>
 
-    <p>Pek çok işletme belgelerinden daha hızlı evrilir. Resmi yönetişim yapınızı, kararların gerçekte nasıl alındığıyla uyumlu hale getirmenize, roller, oy oranları ve prosedürleri mevcut sahiplik ve liderlik dinamiklerinize göre ayarlamanıza yardımcı oluyoruz.</p>
+    <p>Pek çok işletme belgelerinden daha hızlı evrilir. Resmi yönetişim
+    yapınızı, kararların gerçekte nasıl alındığıyla uyumlu hale getirmenize,
+    roller, oy oranları ve prosedürleri mevcut sahiplik ve liderlik
+    dinamiklerinize göre ayarlamanıza yardımcı oluyoruz.</p>
 
 
-    <p>Gerektiğinde, liderliğin belirsiz sahiplik payları, gayri resmi düzenlemeler veya artık işletmeyi yansıtmayan eski yönetişim şartları gibi miras sorunlarını ele almasına da yardımcı oluyoruz.</p>
+    <p>Gerektiğinde, liderliğin belirsiz sahiplik payları, gayri resmi
+    düzenlemeler veya artık işletmeyi yansıtmayan eski yönetişim şartları gibi
+    miras sorunlarını ele almasına da yardımcı oluyoruz.</p>
 
 
     <h3>Paydaş Güvenini Desteklemek</h3>
 
-    <p>Açık yönetişim ve iyi hazırlanmış iç politikalar, yatırımcılara, kredi verenlere, ortaklara ve çalışanlara güçlü bir mesaj verir. Şirketinizin hesap verebilirlik, şeffaflık ve uzun vadeli istikrar konusunda ciddi olduğunu gösterir.</p>
+    <p>Açık yönetişim ve iyi hazırlanmış iç politikalar, yatırımcılara, kredi
+    verenlere, ortaklara ve çalışanlara güçlü bir mesaj verir. Şirketinizin
+    hesap verebilirlik, şeffaflık ve uzun vadeli istikrar konusunda ciddi
+    olduğunu gösterir.</p>
 
 
-    <p>Yalnızca hukuken sağlam değil, aynı zamanda uygulaması, sürdürülmesi ve ilgili kişilere açıklanması pratik olan yapı ve politikalara odaklanıyoruz.</p>
+    <p>Yalnızca hukuken sağlam değil, aynı zamanda uygulaması, sürdürülmesi ve
+    ilgili kişilere açıklanması pratik olan yapı ve politikalara
+    odaklanıyoruz.</p>
+seo:
+  title: Kurumsal Yönetişim ve İç Politikalar
+  description: >-
+    Kuruluşunuz için hesap verebilirlik, şeffaflık ve uyumlu büyümeyi teşvik
+    eden yönetişim çerçeveleri, kurul prosedürleri ve iç politikalar.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

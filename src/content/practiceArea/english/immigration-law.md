@@ -30,7 +30,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Immigration Law
@@ -164,4 +164,13 @@ post:
     against removal, or guiding you through family or employment-based
     petitions, we combine precision and compassion to help you reach your
     goals.</p>
+seo:
+  title: Immigration Law
+  description: >-
+    Immigration litigation, removal defense, asylum applications, family- and
+    business-based immigration solutions to support individuals and employers.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

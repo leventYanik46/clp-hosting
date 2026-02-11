@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Droit de l’immigration
@@ -194,4 +194,14 @@ post:
     ou de vous guider dans les pétitions familiales ou professionnelles, nous
     combinons précision et empathie pour vous aider à atteindre vos
     objectifs.</p>
+seo:
+  title: Droit de l’immigration
+  description: >-
+    Contentieux de l’immigration, défense contre l’éloignement, demandes d’asile
+    et solutions d’immigration familiale et professionnelle pour particuliers et
+    employeurs.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

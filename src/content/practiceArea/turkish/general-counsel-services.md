@@ -117,4 +117,14 @@ post:
     sunuyoruz. Avukatlarımız liderlik ekibinize sorunsuz entegre olarak hukuki
     ihtiyaçları öngörür ve hızlıca yanıt verir; böylece işinizi netlik ve
     güvenle ileriye taşıyabilirsiniz.</p>
+seo:
+  title: Genel Hukuk Müşavirliği ve Danışmanlık
+  description: >-
+    Şirket içi maliyet olmadan deneyimli hukuki rehberlik arayan işletmeler için
+    üst düzey hukuki danışmanlık, sözleşme incelemesi, kurumsal yönetim ve uyum
+    danışmanlığı.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

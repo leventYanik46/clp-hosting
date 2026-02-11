@@ -19,6 +19,13 @@ metadata:
   description: >-
     Göçmenlik Vizesi Kimlere Verilir | Vize Türleri Nelerdir? Green Card Kimlere
     Verilir? Statü değişikliği. Konsoloslukla Yazışma.
+seo:
+  description: >-
+    Göçmenlik Vizesi Kimlere Verilir | Vize Türleri Nelerdir? Green Card Kimlere
+    Verilir? Statü değişikliği. Konsoloslukla Yazışma.
+  canonicalOverride: >-
+    https://capitollawpartners.com/g%c3%b6%c3%a7menlik-vizesi-kimlere-verilir-vize-t%c3%bcrleri
+  title: Göçmenlik Vizesi Kimlere Verilir | Vize Türleri
 ---
 ### 
 Göçmen Vizesi Kimlere Verilir?

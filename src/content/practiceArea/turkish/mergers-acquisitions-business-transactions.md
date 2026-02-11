@@ -2,7 +2,8 @@
 metadata:
   title: Birleşme, Satın Alma ve Ticari İşlemler
   description: >-
-    Büyümeyi sağlayan alım-satım M&A, sermaye yatırımları, varlık alımları ve stratejik ortaklıklar için işlem stratejisi, inceleme ve dokümantasyon.
+    Büyümeyi sağlayan alım-satım M&A, sermaye yatırımları, varlık alımları ve
+    stratejik ortaklıklar için işlem stratejisi, inceleme ve dokümantasyon.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -14,7 +15,8 @@ contactForm:
   subtitle: İhtiyacınıza özel hukuki rehberlik için bizimle iletişime geçin.
   infoTitle: Birleşme, Satın Alma ve Ticari İşlemler
   infoDescription: >-
-    Büyümeyi sağlayan alım-satım M&A, sermaye yatırımları, varlık alımları ve stratejik ortaklıklar için işlem stratejisi, inceleme ve dokümantasyon.
+    Büyümeyi sağlayan alım-satım M&A, sermaye yatırımları, varlık alımları ve
+    stratejik ortaklıklar için işlem stratejisi, inceleme ve dokümantasyon.
   googleReview:
     label: Google Yorumları
     rating: 5
@@ -33,7 +35,9 @@ post:
   image: ~/assets/images/corporate-img.jpg
   content: >
 
-    <p>Şirketleri LOI'den kapanışa kadar karmaşık işlemlerde yönlendiriyoruz. Satın alma, satış veya ortaklık olsun, değeri koruyan, riski dağıtan ve zaman çizelgesini koruyan işlemler yapılandırıyoruz.</p>
+    <p>Şirketleri LOI'den kapanışa kadar karmaşık işlemlerde yönlendiriyoruz.
+    Satın alma, satış veya ortaklık olsun, değeri koruyan, riski dağıtan ve
+    zaman çizelgesini koruyan işlemler yapılandırıyoruz.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -49,15 +53,30 @@ post:
 
     <h3>Amaca Yönelik İnceleme</h3>
 
-    <p>İncelemeyi, fiyatı, tazminatları ve kapanış koşullarını etkileyen sözleşmeler, fikri mülkiyet, veri, insan ve uyum gibi konulara odaklıyoruz.</p>
+    <p>İncelemeyi, fiyatı, tazminatları ve kapanış koşullarını etkileyen
+    sözleşmeler, fikri mülkiyet, veri, insan ve uyum gibi konulara
+    odaklıyoruz.</p>
 
 
     <h3>Müzakere ve Dokümantasyon</h3>
 
-    <p>İş terimlerini, satın alma belgelerinden yardımcı atamalara ve geçiş desteğine kadar net anlaşmalara dönüştürüyoruz. Hedefimiz: riskinizi korurken sorunsuz bir devir sağlamak.</p>
+    <p>İş terimlerini, satın alma belgelerinden yardımcı atamalara ve geçiş
+    desteğine kadar net anlaşmalara dönüştürüyoruz. Hedefimiz: riskinizi
+    korurken sorunsuz bir devir sağlamak.</p>
 
 
     <h3>Kapanış Sonrası Hazırlık</h3>
 
-    <p>Entegrasyon imzadan önce başlar. Kapanıştan sonra sürtüşmeyi azaltmak için ekiplerinizle iletişim, anahtar sözleşmeler ve operasyonel geçişler konusunda koordinasyon sağlıyoruz.</p>
+    <p>Entegrasyon imzadan önce başlar. Kapanıştan sonra sürtüşmeyi azaltmak
+    için ekiplerinizle iletişim, anahtar sözleşmeler ve operasyonel geçişler
+    konusunda koordinasyon sağlıyoruz.</p>
+seo:
+  title: Birleşme, Satın Alma ve Ticari İşlemler
+  description: >-
+    Büyümeyi sağlayan alım-satım M&A, sermaye yatırımları, varlık alımları ve
+    stratejik ortaklıklar için işlem stratejisi, inceleme ve dokümantasyon.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

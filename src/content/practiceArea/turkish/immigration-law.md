@@ -185,4 +185,13 @@ post:
     Gecikmelerle mücadele, sınır dışı savunması veya aile/iş temelli
     başvurularda rehberlik olsun, hassasiyet ve kesinlikle hedeflerinize
     ulaşmanıza yardımcı oluyoruz.</p>
+seo:
+  title: Göçmenlik Hukuku
+  description: >-
+    Göçmenlik davaları, sınır dışı savunması, iltica başvuruları, aile ve iş
+    temelli göçmenlik çözümleriyle bireyleri ve işverenleri destekliyoruz.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

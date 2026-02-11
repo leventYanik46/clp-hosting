@@ -17,6 +17,14 @@ metadata:
     ABD göçmenlik süreci. Vize başvuru adımları, sık yapılan hatalar ve
     göçmenlik avukatlarının ABD ve Türkiye'den başvuru sahiplerinin bilmesi
     gerekenler.
+seo:
+  description: >-
+    ABD göçmenlik süreci. Vize başvuru adımları, sık yapılan hatalar ve
+    göçmenlik avukatlarının ABD ve Türkiye'den başvuru sahiplerinin bilmesi
+    gerekenler.
+  canonicalOverride: >-
+    https://capitollawpartners.com/amerika-vizesi-g%c3%b6%c3%a7menlik-s%c3%bcreci-tavsiyeleri
+  title: Amerika Vizesi | Göçmenlik Süreci Tavsiyeleri
 ---
 ## ABD Göçmenlik Süreci Tavsiyeleri
 

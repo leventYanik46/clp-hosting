@@ -2,9 +2,9 @@
 metadata:
   title: Risk Yönetimi ve Hukuki Uyum
   description: >-
-    İşletmelerin pahasına bir çok tuzaktan kaçınmalarına ve güvenle çalışmalarına 
-    yardımcı olmak için proaktif hukuki risk değerlendirmesi, uyum planlaması ve 
-    yasal destek.
+    İşletmelerin pahasına bir çok tuzaktan kaçınmalarına ve güvenle
+    çalışmalarına  yardımcı olmak için proaktif hukuki risk değerlendirmesi,
+    uyum planlaması ve  yasal destek.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -17,8 +17,9 @@ contactForm:
   infoTitle: Risk Yönetimi ve Hukuki Uyum
   infoDescription: >-
     İşletmelere operasyonlar genelinde hukuki riskleri tanımlamalarında, 
-    öncelik vermelerinde ve ele almalarında yardımcı olur, sektör standartlarına 
-    uygun olan pratik, sürdürülebilir ve uyum programları inşa ederiz.
+    öncelik vermelerinde ve ele almalarında yardımcı olur, sektör
+    standartlarına  uygun olan pratik, sürdürülebilir ve uyum programları inşa
+    ederiz.
   googleReview:
     label: Google Yorumları
     rating: 5
@@ -37,10 +38,11 @@ post:
   image: ~/assets/images/precision-img.jpg
   content: >
 
-    <p>Risk Yönetimi ve Hukuki Uyum hizmetimiz sorunları çözmek yerine bunlardan 
-    önce kalmak isteyen işletmeler için inşa edilmiştir. Risk ortamınızı 
-    belirlemek, kör noktaları tanımlamak ve operasyonlarınızı destekleyen pratik 
-    kontroller uygulamak için liderlik ve kilit paydaşlarla çalışırız.</p>
+    <p>Risk Yönetimi ve Hukuki Uyum hizmetimiz sorunları çözmek yerine
+    bunlardan  önce kalmak isteyen işletmeler için inşa edilmiştir. Risk
+    ortamınızı  belirlemek, kör noktaları tanımlamak ve operasyonlarınızı
+    destekleyen pratik  kontroller uygulamak için liderlik ve kilit paydaşlarla
+    çalışırız.</p>
 
 
     <p>Yasal yükümlülüklerden ve veri uygulamalarından satıcı ilişkilerine ve 
@@ -61,9 +63,9 @@ post:
     <h3>Proaktif Risk Yönetimi</h3>
 
     <p>Risk konusunda proaktif, sistem temelli bir yaklaşım benimseyiz. Bu, 
-    sözleşmeleriniz, politikalarınız, iş akışlarınız ve karar alma yapılarınızın 
-    pratikte nasıl etkileşim kurduğunu anlamak için izole sorunların ötesine 
-    bakmak anlamına gelir.</p>
+    sözleşmeleriniz, politikalarınız, iş akışlarınız ve karar alma
+    yapılarınızın  pratikte nasıl etkileşim kurduğunu anlamak için izole
+    sorunların ötesine  bakmak anlamına gelir.</p>
 
 
     <p>Yüksek riski gördüğümüzde somut öneriler sunuyoruz—sözleşmeleri revize 
@@ -79,7 +81,17 @@ post:
     koruma sağlarız.</p>
 
 
-    <p>Amacımız, operasyonlarınızın sağlam bir hukuki temel üzerine inşa edildiğine 
-    dair size güven vermektir, böylece müşteri hizmetine ve işletme büyümesine 
-    odaklanabilirsiniz.</p>
+    <p>Amacımız, operasyonlarınızın sağlam bir hukuki temel üzerine inşa
+    edildiğine  dair size güven vermektir, böylece müşteri hizmetine ve işletme
+    büyümesine  odaklanabilirsiniz.</p>
+seo:
+  title: Risk Yönetimi ve Hukuki Uyum
+  description: >-
+    İşletmelerin pahasına bir çok tuzaktan kaçınmalarına ve güvenle
+    çalışmalarına  yardımcı olmak için proaktif hukuki risk değerlendirmesi,
+    uyum planlaması ve  yasal destek.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

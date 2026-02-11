@@ -2,8 +2,8 @@
 metadata:
   title: Haksız Ölüm
   description: >-
-    Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için şefkatli
-    temsil sunuyoruz.
+    Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için
+    şefkatli temsil sunuyoruz.
   content: >
 
     <p>Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için 
@@ -21,10 +21,10 @@ metadata:
 
     <h3>Neden Önemli</h3>
 
-    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
-    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
-    azaltımına odaklanarak yürütürüz.</p>  Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için 
-    şefkatli temsil.
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin
+    korunduğundan  emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve
+    hız ile risk  azaltımına odaklanarak yürütürüz.</p>  Kayıptan sonra hesap
+    verebilirlik ve mali istikrar arayan aileler için  şefkatli temsil.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -74,4 +74,13 @@ post:
     <p>We align strategy, documents, and execution so your goals stay protected.
     Every matter is handled with clear communication, pragmatic advice, and a
     focus on speed and risk reduction.</p>
+seo:
+  title: Haksız Ölüm
+  description: >-
+    Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için
+    şefkatli temsil sunuyoruz.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

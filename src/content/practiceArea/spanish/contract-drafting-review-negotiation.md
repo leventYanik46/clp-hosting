@@ -2,7 +2,9 @@
 metadata:
   title: Redacción, Revisión y Negociación de Contratos
   description: >-
-    Acuerdos claros y exigibles para proveedores, clientes, empleados y socios, redactados y negociados para reducir riesgos y avanzar en sus objetivos comerciales.
+    Acuerdos claros y exigibles para proveedores, clientes, empleados y socios,
+    redactados y negociados para reducir riesgos y avanzar en sus objetivos
+    comerciales.
 hero:
   tagline: Contáctenos
   title: ¡Conectemos!
@@ -12,10 +14,13 @@ hero:
 contactForm:
   title: ¡Envíenos un mensaje hoy!
   subtitle: >-
-    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos ahora para comenzar su proceso!
+    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos
+    ahora para comenzar su proceso!
   infoTitle: Redacción, Revisión y Negociación de Contratos
   infoDescription: >-
-    Acuerdos claros y exigibles para proveedores, clientes, empleados y socios, redactados y negociados para reducir riesgos y avanzar en sus objetivos comerciales.
+    Acuerdos claros y exigibles para proveedores, clientes, empleados y socios,
+    redactados y negociados para reducir riesgos y avanzar en sus objetivos
+    comerciales.
   googleReview:
     label: Reseñas de Google
     rating: 5
@@ -27,14 +32,17 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: "Al enviar este formulario, acepta la recopilación de datos."
+  disclaimer: Al enviar este formulario, acepta la recopilación de datos.
   description: Nuestro equipo suele responder en un plazo de 24 horas hábiles.
 post:
   title: Redacción, Revisión y Negociación de Contratos
   image: ~/assets/images/precision-img.jpg
   content: >
 
-    <p>Los contratos definen sus relaciones comerciales. Redactamos, revisamos y negociamos acuerdos que sean prácticos, exigibles y alineados con sus realidades operativas. Desde proveedores comerciales hasta socios estratégicos, le ayudamos a cerrar acuerdos con confianza.</p>
+    <p>Los contratos definen sus relaciones comerciales. Redactamos, revisamos y
+    negociamos acuerdos que sean prácticos, exigibles y alineados con sus
+    realidades operativas. Desde proveedores comerciales hasta socios
+    estratégicos, le ayudamos a cerrar acuerdos con confianza.</p>
 
 
     <h3>Servicios Clave</h3>
@@ -50,15 +58,31 @@ post:
 
     <h3>Redacción Enfocada en el Riesgo</h3>
 
-    <p>Traducimos sus objetivos comerciales en lenguaje preciso: asignando riesgos, aclarando entregables y asegurando remedios para que tenga ventaja cuando surjan problemas.</p>
+    <p>Traducimos sus objetivos comerciales en lenguaje preciso: asignando
+    riesgos, aclarando entregables y asegurando remedios para que tenga ventaja
+    cuando surjan problemas.</p>
 
 
     <h3>Soporte en Negociación</h3>
 
-    <p>Ya sea que lideremos la negociación o apoyemos a su equipo, priorizamos los términos más importantes: alcance, plazos, responsabilidad, PI, datos y derechos de salida. Recibe orientación clara en cada paso.</p>
+    <p>Ya sea que lideremos la negociación o apoyemos a su equipo, priorizamos
+    los términos más importantes: alcance, plazos, responsabilidad, PI, datos y
+    derechos de salida. Recibe orientación clara en cada paso.</p>
 
 
     <h3>Alineación Operativa</h3>
 
-    <p>Los contratos deben ser funcionales. Nos aseguramos de que las obligaciones, niveles de servicio y gobernanza coincidan con la operación real de sus equipos, previniendo fricciones tras la firma.</p>
+    <p>Los contratos deben ser funcionales. Nos aseguramos de que las
+    obligaciones, niveles de servicio y gobernanza coincidan con la operación
+    real de sus equipos, previniendo fricciones tras la firma.</p>
+seo:
+  title: Redacción, Revisión y Negociación de Contratos
+  description: >-
+    Acuerdos claros y exigibles para proveedores, clientes, empleados y socios,
+    redactados y negociados para reducir riesgos y avanzar en sus objetivos
+    comerciales.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

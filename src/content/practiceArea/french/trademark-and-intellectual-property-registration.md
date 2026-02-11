@@ -2,7 +2,8 @@
 metadata:
   title: Enregistrement de Marques et de Propriété Intellectuelle
   description: >-
-    Protégez vos actifs de marque avec des recherches, dépôts et réponses qui réduisent les conflits et accélèrent les validations.
+    Protégez vos actifs de marque avec des recherches, dépôts et réponses qui
+    réduisent les conflits et accélèrent les validations.
 hero:
   tagline: Contactez-nous
   title: Entrons en contact !
@@ -12,13 +13,14 @@ hero:
 contactForm:
   title: Envoyez-nous un message aujourd'hui !
   subtitle: >-
-    Obtenez des conseils juridiques d'experts adaptés à vos besoins. Contactez-nous dès maintenant pour commencer votre démarche !
+    Obtenez des conseils juridiques d'experts adaptés à vos besoins.
+    Contactez-nous dès maintenant pour commencer votre démarche !
   inputs:
     name: Nom
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: "En soumettant ce formulaire, vous acceptez la collecte de données."
+  disclaimer: En soumettant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
   googleReview:
     label: Avis Google
@@ -28,13 +30,15 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Enregistrement de Marques et de Propriété Intellectuelle
   infoDescription: >-
-    Protégez vos actifs de marque avec des recherches, dépôts et réponses qui réduisent les conflits et accélèrent les validations.
+    Protégez vos actifs de marque avec des recherches, dépôts et réponses qui
+    réduisent les conflits et accélèrent les validations.
 post:
   title: Enregistrement de Marques et de Propriété Intellectuelle
   image: ~/assets/images/ip-law.jpg
   content: >
 
-    <p>Protégez vos actifs de marque avec des recherches, dépôts et réponses qui réduisent les conflits et accélèrent les validations.</p>
+    <p>Protégez vos actifs de marque avec des recherches, dépôts et réponses qui
+    réduisent les conflits et accélèrent les validations.</p>
 
 
     <h3>Services Clés</h3>
@@ -48,5 +52,17 @@ post:
 
     <h3>Pourquoi est-ce important ?</h3>
 
-    <p>Nous alignons la stratégie, les documents et l'exécution pour que vos objectifs restent protégés. Chaque dossier est traité avec une communication claire, des conseils pragmatiques et un accent sur la rapidité et la réduction des risques.</p>
+    <p>Nous alignons la stratégie, les documents et l'exécution pour que vos
+    objectifs restent protégés. Chaque dossier est traité avec une communication
+    claire, des conseils pragmatiques et un accent sur la rapidité et la
+    réduction des risques.</p>
+seo:
+  title: Enregistrement de Marques et de Propriété Intellectuelle
+  description: >-
+    Protégez vos actifs de marque avec des recherches, dépôts et réponses qui
+    réduisent les conflits et accélèrent les validations.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

@@ -1,4 +1,6 @@
 ---
-title:  " Felsefe: "
-text: "Zoru Kolaylastiriyoruz"
+title: ' Felsefe: '
+text: Zoru Kolaylastiriyoruz
+seo:
+  title: ' Felsefe: '
 ---

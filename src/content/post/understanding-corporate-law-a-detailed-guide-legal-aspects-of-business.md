@@ -24,6 +24,13 @@ metadata:
     Understanding Corporate Law A Detailed Guide to Legal Aspects of Business.
     Learn more about business. Corporate law is the backbone of the business
     world.. 
+seo:
+  description: >-
+    Understanding Corporate Law A Detailed Guide to Legal Aspects of Business.
+    Learn more about business. Corporate law is the backbone of the business
+    world.. 
+  canonicalOverride: https://capitollawpartners.com/detailed-guide-to-legal-aspects-of-business
+  title: "Understanding Corporate Law: A Detailed Guide - Legal Aspects of Business\_"
 ---
 ### **Understanding Corporate Law: A Detailed Guide to the Legal Aspects of Business** 
 

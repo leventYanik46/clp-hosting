@@ -2,25 +2,29 @@
 metadata:
   title: Visto P-2
   description: >-
-    Vistos de intercâmbio recíproco para artistas e entertainers em programas de troca.
+    Vistos de intercâmbio recíproco para artistas e entertainers em programas de
+    troca.
 hero:
   tagline: Fale Conosco
   title: Vamos conversar!
-
 image:
   src: ~/assets/images/high-resolution-photo-of-us-capitol-l.jpeg
   alt: Us capitol building image
 contactForm:
   title: Envie uma mensagem hoje mesmo!
-  subtitle: Receba orientação jurídica especializada adaptada às suas necessidades. Fale conosco para começar!
+  subtitle: >-
+    Receba orientação jurídica especializada adaptada às suas necessidades. Fale
+    conosco para começar!
   infoTitle: Visto P-2
   infoDescription: >-
-    Suporte completo para Visto P-2: elegibilidade, petição, provas e preparação para entrevista.
+    Suporte completo para Visto P-2: elegibilidade, petição, provas e preparação
+    para entrevista.
   googleReview:
     label: Google Reviews
     rating: 5
     count: 97
-    url: https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
+    url: >-
+      https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   inputs:
     name: Nome
     email: E-mail
@@ -33,9 +37,12 @@ post:
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>Nossos serviços de Visto P-2 orientam você na elegibilidade, estratégia de petição e preparação de provas, mantendo o caso nos trilhos.</p>
+    <p>Nossos serviços de Visto P-2 orientam você na elegibilidade, estratégia
+    de petição e preparação de provas, mantendo o caso nos trilhos.</p>
 
-    <p>Coordenamos formulários, cartas de apoio e documentação para atender aos padrões do USCIS e consulados, preparando você para cada etapa do envio à entrevista.</p>
+    <p>Coordenamos formulários, cartas de apoio e documentação para atender aos
+    padrões do USCIS e consulados, preparando você para cada etapa do envio à
+    entrevista.</p>
 
     <h3>Serviços Principais</h3>
 
@@ -48,15 +55,27 @@ post:
 
     <h3>Divisão do Serviço</h3>
 
-    <h3>Elegibilidade e Estratégia</h3>
-    <p>Alinhamos seu perfil aos critérios de Visto P-2, definindo prazos, riscos e próximos passos com um plano claro.</p>
+    <h3>Elegibilidade e Estratégia</h3> <p>Alinhamos seu perfil aos critérios de
+    Visto P-2, definindo prazos, riscos e próximos passos com um plano
+    claro.</p>
 
-    <h3>Protocolo e Provas</h3>
-    <p>Redigimos petições, reunimos documentos de apoio e estruturamos anexos conforme as expectativas do avaliador.</p>
+    <h3>Protocolo e Provas</h3> <p>Redigimos petições, reunimos documentos de
+    apoio e estruturamos anexos conforme as expectativas do avaliador.</p>
 
-    <h3>Entrevistas e Acompanhamento</h3>
-    <p>Preparamos você para entrevistas, gerenciamos agendamentos e respondemos rapidamente às solicitações do órgão para manter o caso em andamento.</p>
+    <h3>Entrevistas e Acompanhamento</h3> <p>Preparamos você para entrevistas,
+    gerenciamos agendamentos e respondemos rapidamente às solicitações do órgão
+    para manter o caso em andamento.</p>
 
-    <h3>Por que trabalhar conosco?</h3>
-    <p>Representação focada e estratégica que mantém você informado e pronto em cada etapa do seu processo de Visto P-2.</p>
+    <h3>Por que trabalhar conosco?</h3> <p>Representação focada e estratégica
+    que mantém você informado e pronto em cada etapa do seu processo de Visto
+    P-2.</p>
+seo:
+  title: Visto P-2
+  description: >-
+    Vistos de intercâmbio recíproco para artistas e entertainers em programas de
+    troca.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

@@ -13,14 +13,14 @@ hero:
 contactForm:
   title: ¡Envíenos un mensaje hoy!
   subtitle: >-
-    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos ahora
-    para comenzar su proceso!
+    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos
+    ahora para comenzar su proceso!
   inputs:
     name: Nombre
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, acepta la recopilación de datos.'
+  disclaimer: Al enviar este formulario, acepta la recopilación de datos.
   description: Nuestro equipo suele responder en un plazo de 24 horas hábiles.
   googleReview:
     label: Reseñas de Google
@@ -55,4 +55,13 @@ post:
     <p>Alineamos estrategia, documentos y ejecución para que sus objetivos estén
     protegidos. Cada asunto se gestiona con comunicación clara, asesoría
     pragmática y enfoque en la agilidad y reducción de riesgos.</p>
+seo:
+  title: Registro de Marcas y Propiedad Intelectual
+  description: >-
+    Proteja los activos de su marca con búsquedas, registros y respuestas que
+    reducen conflictos y aceleran las aprobaciones.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

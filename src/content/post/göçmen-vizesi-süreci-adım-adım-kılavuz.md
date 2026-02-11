@@ -25,6 +25,13 @@ metadata:
   description: >-
     Göçmen Vizesi Süreci - Adım Adım Kılavuz. Ödenmesi Gereken Ücretler. Dilekçe
     Örnekleri ve Süreç. 
+seo:
+  description: >-
+    Göçmen Vizesi Süreci - Adım Adım Kılavuz. Ödenmesi Gereken Ücretler. Dilekçe
+    Örnekleri ve Süreç. 
+  canonicalOverride: >-
+    https://capitollawpartners.com/abd-g%c3%b6%c3%a7men-vizesi-s%c3%bcreci-ad%c4%b1m-ad%c4%b1m
+  title: "Göçmen Vizesi Süreci: Adım Adım Kılavuz\_\_"
 ---
 # ABD Vizeleri – Göçmen Vizesi Süreci: Adım Adım Kılavuz  
 

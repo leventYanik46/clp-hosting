@@ -47,9 +47,14 @@ const metadata = {
     locale: getOgLocaleForLang(lang),
   },
 };
+const seo = {
+  title: metadata.title,
+  noindex: metadata.robots.index === false,
+  nofollow: metadata.robots.follow === false,
+};
 ---
 
-<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
+<Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline>{category.title}</Headline>
     <BlogList posts={page.data} lang={lang} />

@@ -17,6 +17,13 @@ metadata:
     Student Visa Attorney: A Comprehensive Step-by-Step Guide. What Is a U.S.
     Student Visa? The U.S. student visa is a legal document that allows
     international students to live and study in the United..
+seo:
+  description: >-
+    Student Visa Attorney: A Comprehensive Step-by-Step Guide. What Is a U.S.
+    Student Visa? The U.S. student visa is a legal document that allows
+    international students to live and study in the United..
+  canonicalOverride: https://capitollawpartners.com/student-visa-attorney-step-by-step
+  title: Student Visa Attorney
 ---
 ## **Student Visa Attorney: Step-by-Step**  
 

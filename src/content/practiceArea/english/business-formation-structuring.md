@@ -30,7 +30,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Business Formation and Structuring
@@ -71,4 +71,13 @@ post:
 
     <p>We design with the next milestone in mind, from banking and tax
     considerations to investor diligence and acquisition readiness.</p>
+seo:
+  title: Business Formation and Structuring
+  description: >-
+    Entity selection, operating agreements, equity splits, governance, and
+    compliance to launch and scale your company with a solid legal foundation.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

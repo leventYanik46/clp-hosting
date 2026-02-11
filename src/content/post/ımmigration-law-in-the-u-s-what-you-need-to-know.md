@@ -17,6 +17,13 @@ metadata:
     Discover the essentials of U.S. immigration law with Capitol Law Partners.
     Learn about visas, green cards, naturalization, and how our legal team can
     guide you through every step of the process.
+seo:
+  description: >-
+    Discover the essentials of U.S. immigration law with Capitol Law Partners.
+    Learn about visas, green cards, naturalization, and how our legal team can
+    guide you through every step of the process.
+  canonicalOverride: https://capitollawpartners.com/immigration-law-what-you-need-to-now
+  title: "Immigration Law in the U.S.: What You Need to Know\_"
 ---
 ### **Immigration Law in the U.S.: What You Need to Know** 
 

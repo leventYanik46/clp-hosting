@@ -2,7 +2,8 @@
 metadata:
   title: Contencioso de PI & Resolução de Disputas
   description: >-
-    Protegendo e fazendo valer os direitos de propriedade intelectual por meio de cartas de demanda direcionadas, negociações e litígios.
+    Protegendo e fazendo valer os direitos de propriedade intelectual por meio
+    de cartas de demanda direcionadas, negociações e litígios.
 hero:
   tagline: Fale Conosco
   title: Vamos conversar!
@@ -12,13 +13,14 @@ hero:
 contactForm:
   title: Envie uma mensagem hoje mesmo!
   subtitle: >-
-    Receba orientação jurídica especializada adaptada às suas necessidades. Fale conosco para começar!
+    Receba orientação jurídica especializada adaptada às suas necessidades. Fale
+    conosco para começar!
   inputs:
     name: Nome
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
   googleReview:
     label: Avaliações do Google
@@ -28,14 +30,15 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Contencioso de PI & Resolução de Disputas
   infoDescription: >-
-    Protegendo e fazendo valer os direitos de propriedade intelectual por meio de cartas de demanda direcionadas, negociações e litígios.
+    Protegendo e fazendo valer os direitos de propriedade intelectual por meio
+    de cartas de demanda direcionadas, negociações e litígios.
 post:
   title: Contencioso de PI & Resolução de Disputas
   image: ~/assets/images/ip-law.jpg
   content: >
 
-    <p>Protegendo e fazendo valer os direitos de propriedade intelectual por meio de cartas de demanda direcionadas,
-    negociações e litígios.</p>
+    <p>Protegendo e fazendo valer os direitos de propriedade intelectual por
+    meio de cartas de demanda direcionadas, negociações e litígios.</p>
 
 
     <h3>Principais Serviços</h3>
@@ -49,5 +52,16 @@ post:
 
     <h3>Por que isso é importante</h3>
 
-    <p>Alinhamos estratégia, documentos e execução para que seus objetivos estejam protegidos. Cada caso é tratado com comunicação clara, orientação pragmática e foco em agilidade e redução de riscos.</p>
+    <p>Alinhamos estratégia, documentos e execução para que seus objetivos
+    estejam protegidos. Cada caso é tratado com comunicação clara, orientação
+    pragmática e foco em agilidade e redução de riscos.</p>
+seo:
+  title: Contencioso de PI & Resolução de Disputas
+  description: >-
+    Protegendo e fazendo valer os direitos de propriedade intelectual por meio
+    de cartas de demanda direcionadas, negociações e litígios.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

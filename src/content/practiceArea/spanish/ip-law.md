@@ -30,7 +30,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Propiedad Intelectual
@@ -102,4 +102,13 @@ post:
     estrategia de PI sólida y duradera. Ya se trate de marcas, derechos de autor
     o defensa ante infracciones, estamos a su lado para resguardar su
     creatividad y ventaja competitiva.</p>
+seo:
+  title: Propiedad Intelectual
+  description: >-
+    Registro de marcas, derechos de autor, protección de secretos comerciales,
+    gestión de portafolios y litigios para resguardar su marca e innovaciones.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

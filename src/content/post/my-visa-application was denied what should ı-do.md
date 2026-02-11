@@ -17,6 +17,11 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/my-visa-application-was-denied-what-should-i-do
   description: "My Visa Application\_Was\_Denied\_—\_What\_Should\_I Do?\_Professional Help.  Learn what steps to take after your application is refused."
+seo:
+  description: "My Visa Application\_Was\_Denied\_—\_What\_Should\_I Do?\_Professional Help.  Learn what steps to take after your application is refused."
+  canonicalOverride: >-
+    https://capitollawpartners.com/my-visa-application-was-denied-what-should-i-do
+  title: "My Visa Application\_Was\_Denied\_What\_Should\_I Do?\_"
 ---
 ## **My Visa Application Was Denied — What Should I Do?** 
 

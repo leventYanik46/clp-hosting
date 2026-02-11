@@ -10,4 +10,7 @@ messages:
   secondary: But don't worry, you can find plenty of other things on our homepage.
 cta:
   text: Back to homepage
+seo:
+  title: Error 404
+  description: Sorry, we couldn't find this page.
 ---

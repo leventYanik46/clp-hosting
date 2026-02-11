@@ -2,8 +2,8 @@
 metadata:
   title: Risk Management & Legal Compliance
   description: >-
-    Proactive legal risk assessment, compliance planning, and regulatory
-    support to help businesses operate confidently and avoid costly pitfalls.
+    Proactive legal risk assessment, compliance planning, and regulatory support
+    to help businesses operate confidently and avoid costly pitfalls.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -31,7 +31,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Risk Management & Legal Compliance
@@ -83,4 +83,13 @@ post:
     <p>Our goal is to give you confidence that your operations are built on a
     solid legal foundation, so you can focus on serving customers and growing
     the business.</p>
+seo:
+  title: Risk Management & Legal Compliance
+  description: >-
+    Proactive legal risk assessment, compliance planning, and regulatory support
+    to help businesses operate confidently and avoid costly pitfalls.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

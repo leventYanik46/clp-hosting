@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Consultoria Jurídica Externa e Serviços de Assessoria
@@ -100,4 +100,14 @@ post:
     custos adicionais. Nossos advogados se integram à sua equipe de liderança
     para antecipar necessidades jurídicas e responder com decisão, capacitando
     você a conduzir sua empresa com clareza e confiança.</p>
+seo:
+  title: Consultoria Jurídica Externa e Serviços de Assessoria
+  description: >-
+    Assessoria jurídica executiva, revisão contratual, governança corporativa e
+    orientação em compliance para empresas que buscam experiência jurídica sem
+    os custos de uma equipe interna.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

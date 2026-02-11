@@ -56,6 +56,7 @@ const walkFiles = (dir, accumulator = []) => {
 
 const files = walkFiles(contentDir).sort((a, b) => a.localeCompare(b));
 const errors = [];
+const SEO_OPTIONAL_PREFIXES = ['src/content/announcement/', 'src/content/note/'];
 
 for (const filePath of files) {
   const raw = fs.readFileSync(filePath, 'utf8');
@@ -76,9 +77,69 @@ for (const filePath of files) {
   }
 
   const metadata = data?.metadata;
+  const seo = data?.seo;
   const isPost = relPath.startsWith('src/content/post/');
+  const seoOptional = SEO_OPTIONAL_PREFIXES.some((prefix) => relPath.startsWith(prefix));
 
-  if (metadata && typeof metadata === 'object') {
+  const hasSeo = seo && typeof seo === 'object';
+  const hasMetadata = metadata && typeof metadata === 'object';
+
+  if (hasSeo) {
+    if (!seoOptional && (!seo.title || typeof seo.title !== 'string' || !seo.title.trim())) {
+      errors.push(`${relPath}: seo.title is missing or empty`);
+    }
+    if (!seoOptional && (!seo.description || typeof seo.description !== 'string' || !seo.description.trim())) {
+      errors.push(`${relPath}: seo.description is missing or empty`);
+    }
+    if (typeof seo.noindex !== 'undefined' && typeof seo.noindex !== 'boolean') {
+      errors.push(`${relPath}: seo.noindex must be boolean`);
+    }
+    if (typeof seo.nofollow !== 'undefined' && typeof seo.nofollow !== 'boolean') {
+      errors.push(`${relPath}: seo.nofollow must be boolean`);
+    }
+    if (seo.canonicalOverride) {
+      const canonical = String(seo.canonicalOverride);
+      const sanitized = sanitizeCanonical(canonical);
+      if (!sanitized) {
+        errors.push(`${relPath}: seo.canonicalOverride is invalid (${canonical})`);
+      } else if (canonical !== sanitized) {
+        errors.push(`${relPath}: seo.canonicalOverride is not normalized. Expected: ${sanitized}`);
+      }
+    }
+    if (seo.schema?.mode && !['auto', 'merge', 'replace'].includes(seo.schema.mode)) {
+      errors.push(`${relPath}: seo.schema.mode must be one of auto|merge|replace`);
+    }
+    if (seo.schema?.entity && !['service', 'person'].includes(seo.schema.entity)) {
+      errors.push(`${relPath}: seo.schema.entity must be one of service|person`);
+    }
+    if (seo.schema?.person) {
+      const person = seo.schema.person;
+      if (person.sameAs && (!Array.isArray(person.sameAs) || person.sameAs.some((value) => typeof value !== 'string'))) {
+        errors.push(`${relPath}: seo.schema.person.sameAs must be an array of strings`);
+      }
+      if (
+        person.knowsAbout &&
+        (!Array.isArray(person.knowsAbout) || person.knowsAbout.some((value) => typeof value !== 'string'))
+      ) {
+        errors.push(`${relPath}: seo.schema.person.knowsAbout must be an array of strings`);
+      }
+      if (
+        person.knowsLanguage &&
+        (!Array.isArray(person.knowsLanguage) || person.knowsLanguage.some((value) => typeof value !== 'string'))
+      ) {
+        errors.push(`${relPath}: seo.schema.person.knowsLanguage must be an array of strings`);
+      }
+      if (person.alumniOf && !Array.isArray(person.alumniOf)) {
+        errors.push(`${relPath}: seo.schema.person.alumniOf must be an array`);
+      }
+      if (person.worksFor && typeof person.worksFor !== 'object') {
+        errors.push(`${relPath}: seo.schema.person.worksFor must be an object`);
+      }
+    }
+    if (typeof seo.schema?.custom !== 'undefined' && !Array.isArray(seo.schema.custom)) {
+      errors.push(`${relPath}: seo.schema.custom must be an array`);
+    }
+  } else if (hasMetadata) {
     const description = metadata.description;
     if (!description || typeof description !== 'string' || !description.trim()) {
       errors.push(`${relPath}: metadata.description is missing or empty`);
@@ -94,19 +155,29 @@ for (const filePath of files) {
         errors.push(`${relPath}: metadata.canonical is not normalized. Expected: ${sanitized}`);
       }
     }
+  } else if (!seoOptional) {
+    errors.push(`${relPath}: missing seo object (or legacy metadata during migration)`);
   }
 
   if (isPost) {
-    if (!metadata || typeof metadata !== 'object') {
-      errors.push(`${relPath}: post is missing metadata object`);
+    if (!hasSeo && !hasMetadata) {
+      errors.push(`${relPath}: post is missing seo object (or legacy metadata during migration)`);
       continue;
     }
 
-    if (!metadata.canonical || typeof metadata.canonical !== 'string') {
+    if (hasSeo && (!seo.canonicalOverride || typeof seo.canonicalOverride !== 'string')) {
+      errors.push(`${relPath}: post is missing seo.canonicalOverride`);
+    }
+
+    if (!hasSeo && hasMetadata && (!metadata.canonical || typeof metadata.canonical !== 'string')) {
       errors.push(`${relPath}: post is missing metadata.canonical`);
     }
 
-    if (!metadata.description || typeof metadata.description !== 'string' || !metadata.description.trim()) {
+    if (hasSeo && (!seo.description || typeof seo.description !== 'string' || !seo.description.trim())) {
+      errors.push(`${relPath}: post is missing seo.description`);
+    }
+
+    if (!hasSeo && hasMetadata && (!metadata.description || typeof metadata.description !== 'string' || !metadata.description.trim())) {
       errors.push(`${relPath}: post is missing metadata.description`);
     }
 

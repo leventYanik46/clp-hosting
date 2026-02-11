@@ -2,8 +2,8 @@
 metadata:
   title: Sınır Dışı Etme Savunması
   description: >-
-    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması, 
-    yardım uygunluğu ve delillere odaklanmıştır.
+    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması,  yardım
+    uygunluğu ve delillere odaklanmıştır.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -28,8 +28,8 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Sınır Dışı Etme Savunması
   infoDescription: >-
-    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması, 
-    yardım uygunluğu ve delillere odaklanmıştır.
+    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması,  yardım
+    uygunluğu ve delillere odaklanmıştır.
 post:
   title: Sınır Dışı Etme Savunması
   image: ~/assets/images/immigration-img.jpg
@@ -50,7 +50,16 @@ post:
 
     <h3>Neden Önemli</h3>
 
-    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
-    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
-    azaltımına odaklanarak yürütürüz.</p>
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin
+    korunduğundan  emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve
+    hız ile risk  azaltımına odaklanarak yürütürüz.</p>
+seo:
+  title: Sınır Dışı Etme Savunması
+  description: >-
+    Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması,  yardım
+    uygunluğu ve delillere odaklanmıştır.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

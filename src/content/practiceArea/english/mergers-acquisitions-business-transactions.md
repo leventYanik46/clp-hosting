@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: 'Mergers, Acquisitions, and Business Transactions'
+  title: Mergers, Acquisitions, and Business Transactions
   description: >-
     Deal strategy, diligence, and documentation for buy- and sell-side M&A,
     equity investments, asset purchases, and strategic partnerships that drive
@@ -16,7 +16,7 @@ contactForm:
   subtitle: >-
     Get expert legal guidance tailored to your needs. Contact us now to start
     your journey!
-  infoTitle: 'Mergers, Acquisitions, and Business Transactions'
+  infoTitle: Mergers, Acquisitions, and Business Transactions
   infoDescription: >-
     Deal strategy, diligence, and documentation for buy- and sell-side M&A,
     equity investments, asset purchases, and strategic partnerships that drive
@@ -32,10 +32,10 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
-  title: 'Mergers, Acquisitions, and Business Transactions'
+  title: Mergers, Acquisitions, and Business Transactions
   image: ~/assets/images/corporate-img.jpg
   content: >
 
@@ -74,4 +74,14 @@ post:
     <p>Integration starts before signature. We coordinate with your teams on
     communications, key contracts, and operational cutovers to reduce friction
     after closing.</p>
+seo:
+  title: Mergers, Acquisitions, and Business Transactions
+  description: >-
+    Deal strategy, diligence, and documentation for buy- and sell-side M&A,
+    equity investments, asset purchases, and strategic partnerships that drive
+    growth.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

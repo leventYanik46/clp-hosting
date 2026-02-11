@@ -1,0 +1,203 @@
+---
+import merge from 'lodash.merge';
+import { AstroSeo } from '@astrolib/seo';
+import type { Props as AstroSeoProps } from '@astrolib/seo';
+import { SITE, METADATA } from 'astrowind:config';
+
+import type { MetaData, SeoData } from '~/types';
+import type { HreflangAlternate } from '~/data/seo';
+import { adaptOpenGraphImages } from '~/utils/images';
+import { getWebsiteSchema } from '~/js/schema/website';
+import { getOrganizationSchema, getLegalServiceSchema } from '~/js/schema/organizationLegalService';
+import { getBlogPostingSchema } from '~/js/schema/blogPosting';
+import { getBreadcrumbSchema } from '~/js/schema/breadcrumb';
+import { getServiceSchema } from '~/js/schema/service';
+import { getPersonSchema } from '~/js/schema/person';
+import { resolveSeo, buildBreadcrumbItemsFromPath, type SeoPageType, type SeoArticleData } from '~/utils/seo/resolveSeo';
+
+interface Props {
+  metadata?: MetaData;
+  seo?: SeoData;
+  pageType?: SeoPageType;
+  article?: SeoArticleData;
+  languageAlternates?: HreflangAlternate[];
+  ogLocaleAlternates?: string[];
+}
+
+const {
+  metadata = {},
+  seo = {},
+  pageType = 'webpage',
+  article,
+  languageAlternates,
+  ogLocaleAlternates,
+} = Astro.props;
+
+const siteUrl = String(Astro.site ?? SITE?.site ?? 'https://capitollawpartners.com');
+const resolved = resolveSeo({
+  pathname: Astro.url.pathname,
+  siteUrl,
+  metadata,
+  seo,
+  pageType,
+  languageAlternates,
+  ogLocaleAlternates,
+});
+
+const seoProps: AstroSeoProps = merge(
+  {
+    title: '',
+    titleTemplate: '%s',
+    canonical: resolved.canonical,
+    noindex: false,
+    nofollow: false,
+    description: undefined,
+    openGraph: {
+      url: resolved.canonical,
+      site_name: SITE?.name,
+      images: [],
+      locale: resolved.ogLocale,
+      type: resolved.ogType,
+    },
+    twitter: {
+      cardType: resolved.ogImage ? 'summary_large_image' : 'summary',
+    },
+  },
+  {
+    title: METADATA?.title?.default,
+    titleTemplate: METADATA?.title?.template,
+    noindex: typeof METADATA?.robots?.index !== 'undefined' ? !METADATA.robots.index : undefined,
+    nofollow: typeof METADATA?.robots?.follow !== 'undefined' ? !METADATA.robots.follow : undefined,
+    description: METADATA?.description,
+    openGraph: METADATA?.openGraph,
+    twitter: METADATA?.twitter,
+  },
+  {
+    title: resolved.title,
+    noindex: resolved.noindex,
+    nofollow: resolved.nofollow,
+    description: resolved.description,
+    openGraph: {
+      url: resolved.canonical,
+      locale: resolved.ogLocale,
+      type: resolved.ogType,
+      ...(resolved.ogImage ? { images: [{ url: resolved.ogImage }] } : {}),
+    },
+    languageAlternates: resolved.languageAlternates,
+  }
+);
+
+const schemaMode = seo.schema?.mode ?? 'auto';
+const includeBreadcrumbs = seo.schema?.includeBreadcrumbs ?? true;
+const customSchemas = Array.isArray(seo.schema?.custom) ? seo.schema.custom : [];
+const schemaEntity = seo.schema?.entity ?? (pageType === 'service' ? 'service' : pageType === 'profile' ? 'person' : undefined);
+
+const pageSchemas: Record<string, unknown>[] = [];
+
+if (schemaMode !== 'replace') {
+  pageSchemas.push(
+    getOrganizationSchema(siteUrl),
+    getLegalServiceSchema(siteUrl),
+    getWebsiteSchema(siteUrl, resolved.lang),
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': resolved.canonical,
+      url: resolved.canonical,
+      name: resolved.title,
+      description: resolved.description,
+      inLanguage: resolved.lang,
+      isPartOf: { '@id': `${new URL(siteUrl).origin}/#website` },
+    }
+  );
+
+  if (pageType === 'article' && article?.title) {
+    pageSchemas.push(
+      getBlogPostingSchema({
+        title: article.title,
+        description: article.description ?? resolved.description,
+        url: resolved.canonical,
+        image: article.image ?? resolved.ogImage,
+        datePublished: article.datePublished,
+        dateModified: article.dateModified,
+        authorName: article.authorName,
+        articleSection: article.articleSection,
+        keywords: article.keywords,
+        inLanguage: resolved.lang,
+        siteUrl,
+      })
+    );
+  }
+
+  if (schemaEntity === 'service' && resolved.title) {
+    pageSchemas.push(
+      getServiceSchema({
+        name: resolved.title,
+        description: resolved.description,
+        url: resolved.canonical,
+        serviceType:
+          seo.schema?.serviceType ??
+          (Astro.url.pathname.includes('/key-services/') ? 'Key Legal Service' : 'Legal Service'),
+        inLanguage: resolved.lang,
+        siteUrl,
+      })
+    );
+  }
+
+  if (schemaEntity === 'person' && resolved.title) {
+    const personSchema = seo.schema?.person ?? {};
+    pageSchemas.push(
+      getPersonSchema({
+        name: resolved.title,
+        description: resolved.description,
+        url: resolved.canonical,
+        image: personSchema.image ?? seo.schema?.personImage ?? resolved.ogImage,
+        jobTitle: personSchema.jobTitle ?? seo.schema?.personJobTitle,
+        givenName: personSchema.givenName,
+        familyName: personSchema.familyName,
+        honorificPrefix: personSchema.honorificPrefix,
+        honorificSuffix: personSchema.honorificSuffix,
+        alternateName: personSchema.alternateName,
+        email: personSchema.email,
+        telephone: personSchema.telephone,
+        sameAs: personSchema.sameAs,
+        knowsAbout: personSchema.knowsAbout,
+        knowsLanguage: personSchema.knowsLanguage,
+        alumniOf: personSchema.alumniOf,
+        worksFor: personSchema.worksFor,
+        inLanguage: resolved.lang,
+        siteUrl,
+      })
+    );
+  }
+
+  if (includeBreadcrumbs) {
+    const breadcrumbItems = buildBreadcrumbItemsFromPath({
+      pathname: Astro.url.pathname,
+      siteUrl,
+      lastSegmentTitle: resolved.title,
+    });
+    if (breadcrumbItems.length > 1) {
+      pageSchemas.push(getBreadcrumbSchema(breadcrumbItems));
+    }
+  }
+}
+
+const finalSchemas =
+  schemaMode === 'replace'
+    ? customSchemas
+    : schemaMode === 'merge'
+      ? [...pageSchemas, ...customSchemas]
+      : pageSchemas;
+---
+
+<AstroSeo {...{ ...seoProps, openGraph: await adaptOpenGraphImages(seoProps?.openGraph, Astro.site) }} />
+{resolved.ogLocaleAlternates.map((locale) => <meta property="og:locale:alternate" content={locale} />)}
+
+{
+  finalSchemas.map((schema, index) => (
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} data-seo-schema={index} />
+  ))
+}
+
+<slot name="schema" />

@@ -32,12 +32,12 @@ if (lang === 'pt') langFolder = 'portuguese';
 if (lang === 'fr') langFolder = 'french';
 const entry = await getEntry('teamMember', `${langFolder}/kemal`);
 if (!entry) throw new Error('Team member not found for language: ' + lang);
-const { metadata, profile, steps, testimonials, cta, blog } = entry.data;
+const { metadata, seo, profile, steps, testimonials, cta, blog } = entry.data;
 
 const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? href : getPermalink(href));
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   <Content
     id={profile.id}
     columns={profile.columns}

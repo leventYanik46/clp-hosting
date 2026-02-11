@@ -22,6 +22,14 @@ metadata:
     visitor, student, work, and family reunification visas. Understand the
     requirements based on your purpose of travel, citizenship, and personal
     circumstances
+seo:
+  description: >-
+    Learn how to apply for a UK visa with this comprehensive guide covering
+    visitor, student, work, and family reunification visas. Understand the
+    requirements based on your purpose of travel, citizenship, and personal
+    circumstances
+  canonicalOverride: https://capitollawpartners.com/how-do-i-apply-for-a-visa-to-come-to-the-uk
+  title: How Do I Apply for a Visa to Come to the UK?
 ---
 ## How Do I Apply for a Visa to Come to the UK?
 

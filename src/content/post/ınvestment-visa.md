@@ -18,6 +18,12 @@ metadata:
   description: >-
     What is the EB-5 Visa? What is the E-2 Visa? Investment Visa (EB-5 / E-2):
     Pathways to U.S. Residency Through Investment..
+seo:
+  description: >-
+    What is the EB-5 Visa? What is the E-2 Visa? Investment Visa (EB-5 / E-2):
+    Pathways to U.S. Residency Through Investment..
+  canonicalOverride: https://capitollawpartners.com/investment-visa
+  title: Investment Visa
 ---
 
 

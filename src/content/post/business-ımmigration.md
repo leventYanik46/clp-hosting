@@ -20,6 +20,13 @@ metadata:
     Discover how to move to the U.S. through business immigration. Capitol Law
     Partners offers expert legal help for investors, startups, and
     professionals.
+seo:
+  description: >-
+    Discover how to move to the U.S. through business immigration. Capitol Law
+    Partners offers expert legal help for investors, startups, and
+    professionals.
+  canonicalOverride: https://capitollawpartners.com/businessimmigration
+  title: Business Immigration
 ---
 # Business Immigration 
 

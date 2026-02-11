@@ -15,6 +15,12 @@ metadata:
   description: >-
     What the M-1 visa is, who qualifies for vocational training in the U.S.,
     application requirements, duration, work limitations. Visa & Green Card.
+seo:
+  description: >-
+    What the M-1 visa is, who qualifies for vocational training in the U.S.,
+    application requirements, duration, work limitations. Visa & Green Card.
+  canonicalOverride: https://capitollawpartners.com/what-is-m-1-visa-step-by-step
+  title: 'What Is the M-1 Visa? Step by Step '
 ---
 # What Is the M-1 Visa? Explained Step by Step
 

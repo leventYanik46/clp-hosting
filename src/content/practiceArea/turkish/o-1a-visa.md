@@ -1,8 +1,7 @@
 ---
 metadata:
   title: O-1A Vizesi
-  description: >-
-    Bilim, eğitim, iş veya spor alanında olağanüstü yetenek vizeleri.
+  description: Bilim, eğitim, iş veya spor alanında olağanüstü yetenek vizeleri.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -14,12 +13,14 @@ contactForm:
   subtitle: İhtiyaçlarınıza özel hukuki rehberlik için bizimle iletişime geçin.
   infoTitle: O-1A Vizesi
   infoDescription: >-
-    O-1A Vizesi uygunluğu, dilekçe taslağı, kanıt ve mülakat hazırlığı için uçtan uca destek.
+    O-1A Vizesi uygunluğu, dilekçe taslağı, kanıt ve mülakat hazırlığı için
+    uçtan uca destek.
   googleReview:
     label: Google Yorumları
     rating: 5
     count: 97
-    url: https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
+    url: >-
+      https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   inputs:
     name: Ad
     email: E-posta
@@ -32,9 +33,12 @@ post:
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>O-1A Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt hazırlığında sizi yönlendirir, sürecin rayında kalmasını sağlar.</p>
+    <p>O-1A Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt
+    hazırlığında sizi yönlendirir, sürecin rayında kalmasını sağlar.</p>
 
-    <p>Formları, destek mektuplarını ve belgeleri koordine ediyor; başvuruların USCIS ve konsolosluk standartlarını karşılaması için başvurudan mülakata her aşamaya hazırlanmanızı sağlıyoruz.</p>
+    <p>Formları, destek mektuplarını ve belgeleri koordine ediyor; başvuruların
+    USCIS ve konsolosluk standartlarını karşılaması için başvurudan mülakata her
+    aşamaya hazırlanmanızı sağlıyoruz.</p>
 
     <h3>Temel Hizmetler</h3>
 
@@ -47,15 +51,25 @@ post:
 
     <h3>Hizmet Özeti</h3>
 
-    <h3>Uygunluk ve Strateji</h3>
-    <p>Arka planınızı O-1A Vizesi kriterleriyle eşleştiriyor, zaman çizelgesi, riskler ve sonraki adımları net bir planla belirliyoruz.</p>
+    <h3>Uygunluk ve Strateji</h3> <p>Arka planınızı O-1A Vizesi kriterleriyle
+    eşleştiriyor, zaman çizelgesi, riskler ve sonraki adımları net bir planla
+    belirliyoruz.</p>
 
-    <h3>Başvuru ve Kanıt</h3>
-    <p>Dilekçe taslakları hazırlıyor, destekleyici belgeleri topluyor ve dosyaları değerlendiricilerin beklentilerine göre kurguluyoruz.</p>
+    <h3>Başvuru ve Kanıt</h3> <p>Dilekçe taslakları hazırlıyor, destekleyici
+    belgeleri topluyor ve dosyaları değerlendiricilerin beklentilerine göre
+    kurguluyoruz.</p>
 
-    <h3>Mülakatlar ve Takip</h3>
-    <p>Mülakatlara hazırlanmanızı sağlıyor, randevu süreçlerini yönetiyor ve kurum taleplerine hızlı yanıt vererek dosyanızı ilerletiyoruz.</p>
+    <h3>Mülakatlar ve Takip</h3> <p>Mülakatlara hazırlanmanızı sağlıyor, randevu
+    süreçlerini yönetiyor ve kurum taleplerine hızlı yanıt vererek dosyanızı
+    ilerletiyoruz.</p>
 
-    <h3>Neden Bizimle Çalışmalısınız?</h3>
-    <p>Odaklı ve stratejik temsil; O-1A Vizesi sürecinizin her aşamasında sizi bilgilendirir ve hazır tutar.</p>
+    <h3>Neden Bizimle Çalışmalısınız?</h3> <p>Odaklı ve stratejik temsil; O-1A
+    Vizesi sürecinizin her aşamasında sizi bilgilendirir ve hazır tutar.</p>
+seo:
+  title: O-1A Vizesi
+  description: Bilim, eğitim, iş veya spor alanında olağanüstü yetenek vizeleri.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

@@ -32,7 +32,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Derecho Migratorio
@@ -51,8 +51,7 @@ post:
       <li><a href="/es/practice-area/key-services/affirmative-asylum-applications">Solicitudes de asilo afirmativo</a></li>
       <li><a href="/es/practice-area/key-services/family-based-immigration">Inmigración basada en la familia</a></li>
       <li><a href="/es/practice-area/key-services/business-employment-immigration-solutions">Soluciones de inmigración empresarial y laboral</a></li>
-    </ul>
-    como a empresas. Ya sea defendiendo a nuestros clientes en litigios de
+    </ul> como a empresas. Ya sea defendiendo a nuestros clientes en litigios de
     inmigración o en procesos de remoción, guiando a las familias a través de
     trámites complejos o ayudando a profesionales calificados y empleadores con
     visas de negocios, estamos aquí para ayudar.</p>
@@ -170,4 +169,14 @@ post:
     defendiendo contra la deportación o guiándolo en peticiones familiares o
     laborales, combinamos precisión y empatía para ayudarle a alcanzar sus
     metas.</p>
+seo:
+  title: Derecho Migratorio
+  description: >-
+    Litigios migratorios, defensa contra deportación, solicitudes de asilo y
+    soluciones de inmigración familiar, empresarial y laboral para apoyar a
+    personas y empleadores.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

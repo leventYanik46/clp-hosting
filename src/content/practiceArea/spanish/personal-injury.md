@@ -32,7 +32,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Lesiones Personales
@@ -86,4 +86,14 @@ post:
 
 
     <p>Permítanos luchar por la compensación y la tranquilidad que merece.</p>
+seo:
+  title: Lesiones Personales
+  description: >-
+    Nuestro equipo de Lesiones Personales protege a los clientes perjudicados
+    por negligencia, ayudándoles a buscar justicia, compensación y tranquilidad
+    en momentos difíciles.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

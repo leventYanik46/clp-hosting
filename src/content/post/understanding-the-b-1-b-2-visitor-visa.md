@@ -15,6 +15,13 @@ metadata:
   description: >-
     Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United
     States. The B-1/B-2 visa allows short-term business and tourism visits..
+seo:
+  description: >-
+    Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United
+    States. The B-1/B-2 visa allows short-term business and tourism visits..
+  canonicalOverride: >-
+    https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa-business-and-tourism-in-the-united-states
+  title: Understanding the B-1/B-2 Visitor Visa
 ---
 ## **Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United States** 
 

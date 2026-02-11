@@ -7,16 +7,13 @@ import Layout from '~/layouts/PageLayout.astro';
 import SinglePost from '~/components/blog/SinglePost.astro';
 import ToBlogLink from '~/components/blog/ToBlogLink.astro';
 
-import { BLOG_BASE, getCanonical, getPermalink } from '~/utils/permalinks';
+import { getCanonical, getPermalink } from '~/utils/permalinks';
 import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
 import { findImage } from '~/utils/images';
-import type { MetaData } from '~/types';
+import type { MetaData, SeoData } from '~/types';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
-import { getBlogPostingSchema } from '~/js/schema/blogPosting';
-import { getBreadcrumbSchema } from '~/js/schema/breadcrumb';
 import {
   buildLanguageAlternatesForLangs,
-  buildPathForLang,
   DEFAULT_SEO_LANG,
   getAlternateOgLocalesForLangs,
   getOgLocaleForLang,
@@ -93,33 +90,37 @@ const metadata = merge(
   sanitizedPostMetadata
 ) as MetaData;
 
-const blogPostingSchema = getBlogPostingSchema({
-  title: post.title,
-  description: (metadata.description || post.excerpt || '').trim(),
-  url: canonical,
-  image: imageUrl,
-  datePublished: post.publishDate?.toISOString?.(),
-  dateModified: (post.updateDate || post.publishDate)?.toISOString?.(),
-  authorName: post.author,
-  articleSection: post.category?.title,
-  keywords: post.tags?.map((tag) => tag.title),
-  inLanguage: seoLang,
-  siteUrl,
-});
-
-const homeUrl = new URL(buildPathForLang('/', seoLang), siteUrl).toString();
-const blogUrl = new URL(buildPathForLang(`/${BLOG_BASE}`, seoLang), siteUrl).toString();
-const breadcrumbSchema = getBreadcrumbSchema([
-  { name: 'Home', url: homeUrl },
-  { name: 'Blog', url: blogUrl },
-  { name: post.title, url: canonical },
-]);
+const seo: SeoData = {
+  title: post.metadata?.title ?? post.title,
+  description: post.metadata?.description ?? post.excerpt,
+  ogImage: imageSource,
+  noindex: blogPostRobots?.index === false,
+  nofollow: blogPostRobots?.follow === false,
+  canonicalOverride: post.metadata?.canonical,
+  schema: {
+    mode: 'merge',
+    includeBreadcrumbs: true,
+  },
+};
 ---
 
-<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
-  <script slot="schema" is:inline type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
-  <script slot="schema" is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-
+<Layout
+  metadata={metadata}
+  seo={seo}
+  pageType="article"
+  article={{
+    title: post.title,
+    description: (metadata.description || post.excerpt || '').trim(),
+    image: imageUrl,
+    datePublished: post.publishDate?.toISOString?.(),
+    dateModified: (post.updateDate || post.publishDate)?.toISOString?.(),
+    authorName: post.author,
+    articleSection: post.category?.title,
+    keywords: post.tags?.map((tag) => tag.title),
+  }}
+  languageAlternates={languageAlternates}
+  ogLocaleAlternates={ogLocaleAlternates}
+>
   <SinglePost post={{ ...post, image: image }} url={canonical}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>

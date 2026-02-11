@@ -20,9 +20,9 @@ if (!schedule || schedule.length === 0 || !schedule[0].data) {
 }
 
 
-const { metadata, attorneys } = schedule[0].data;
+const { metadata, seo, attorneys } = schedule[0].data;
 ---
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   {attorneys.map((attorney) => (
     <CallToAction {...attorney} />
   ))}

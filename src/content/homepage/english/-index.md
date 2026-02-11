@@ -20,15 +20,15 @@ hero:
     - variant: primary
       text: Schedule A Consultation
       href: /schedule
-      class: 'w-full sm:mb-0'
+      class: w-full sm:mb-0
     - text: Free Evaluation
       href: /evaluations
       variant: primary
-      class: 'w-full sm:mb-0 hidden lg:block'
+      class: w-full sm:mb-0 hidden lg:block
     - text: Contact Us
       href: /contact
       variant: primary
-      class: 'w-full sm:mb-0 lg:hidden'
+      class: w-full sm:mb-0 lg:hidden
 practiceAreas:
   id: Practice Areas
   tagline: Practice Areas
@@ -42,46 +42,46 @@ practiceAreas:
       description: >-
         Comprehensive counsel for businesses of all sizes, from entity formation
         and contracts to mergers, acquisitions, and disputes.
-      icon: 'tabler:briefcase'
+      icon: tabler:briefcase
       link: /practice-area/business-corporate-law
     - title: Immigration Law
       description: >-
         Guidance through business and employment visas, asylum, family
         petitions, and removal defense—making immigration processes clearer and
         more manageable.
-      icon: 'tabler:globe-filled'
+      icon: tabler:globe-filled
       link: /practice-area/immigration-law
     - title: Trusts and Estates
       description: >-
         Personalized estate plans, wills, and trusts to protect your family’s
         future and preserve what matters most.
-      icon: 'tabler:affiliate'
+      icon: tabler:affiliate
       link: /practice-area/estate-planning
     - title: Outside General Counsel & Advisory Services
       description: >-
         Serving as a trusted legal advisor to startups and growing businesses by
         providing ongoing counsel on contracts, compliance, employment issues,
         risk management, and day-to-day operations.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
       link: /practice-area/general-counsel-services
     - title: Real Estate Law
       description: >-
         Support for commercial and residential transactions, ensuring your
         property deals are secure and seamless.
-      icon: 'tabler:home'
+      icon: tabler:home
       link: /practice-area/real-estate
     - title: Intellectual Property Law
       description: >-
         Protection for your ideas, brands, and creative works through
         trademarks, copyrights, and effective dispute resolution.
-      icon: 'tabler:file-certificate'
+      icon: tabler:file-certificate
       link: /practice-area/ip-law
     - title: Personal Injury
       description: >-
         Representation for individuals injured in accidents, including auto,
         workplace, and premises liability claims—fighting for the compensation
         you deserve.
-      icon: 'tabler:ambulance'
+      icon: tabler:ambulance
       link: /practice-area/personal-injury-law
 spotlights:
   - props:
@@ -181,7 +181,7 @@ testimonials:
   callToAction:
     variant: secondary
     text: Read more testimonials
-    href: 'https://share.google/0tXbKda3cm96I5wwf'
+    href: https://share.google/0tXbKda3cm96I5wwf
     target: _blank
     rel: noreferrer
   items:
@@ -229,7 +229,7 @@ steps:
         Start by providing us with details about your legal concerns through our
         contact form. Our team will review your inquiry and connect you with the
         right legal expert.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
     - title: >-
         Step 2: <span class="font-medium">Schedule a <a href="/evaluations"
         class="hover:text-primary underline font-bold"> Free Evaluation
@@ -239,7 +239,7 @@ steps:
         our free evaluation form. Our legal team will carefully review the
         information provided and may contact you for additional details or
         documentation to ensure a thorough understanding of your situation.
-      icon: 'tabler:calendar-event'
+      icon: tabler:calendar-event
     - title: >-
         Step 3: <span class="font-medium"><a href="/schedule"
         class="hover:text-primary underline font-bold"> Book a Consultation
@@ -248,13 +248,13 @@ steps:
         Meet with our experienced attorneys for a personalized consultation.
         Whether you need assistance with corporate law, litigation, immigration,
         or estate planning, we’ll guide you through your legal options.
-      icon: 'tabler:scale'
+      icon: tabler:scale
     - title: Ready!
       description: >-
         With a clear legal strategy in place, you're on your way to resolving
         your case with confidence. Our team will be by your side every step of
         the way.
-      icon: 'tabler:check'
+      icon: tabler:check
   image:
     src: >-
       https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80
@@ -265,7 +265,7 @@ blog:
     Browse our blog for legal insights, practical tips, and timely updates for
     concise guidance that turns complex questions into confident decisions.
 cta:
-  titleHtml: 'Capitol <span class="sm:whitespace-nowrap">Law Partners</span>'
+  titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
   subtitleHtml: >-
     Discover the difference our expertise can make in your legal matters. <br
     class="hidden md:inline" />&nbsp;Contact us today!
@@ -273,4 +273,9 @@ cta:
     - variant: primary
       text: Contact Us
       href: /contact
+seo:
+  title: Capitol Law Partners
+  description: >-
+    Capitol Law Partners offers trusted legal counsel in business, immigration,
+    estate planning, and IP law. Schedule your consultation today.
 ---

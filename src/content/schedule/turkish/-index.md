@@ -27,4 +27,7 @@ attorneys:
     image:
       src: ~/assets/images/sena-profile-alternate-cta.png
       alt: Randevu planlayın
+seo:
+  title: Randevu Alın
+  description: Capitol Law Partners avukatlarından biriyle randevu planlayın.
 ---

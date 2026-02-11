@@ -31,7 +31,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Corporate Governance & Internal Policies
@@ -83,4 +83,13 @@ post:
     <p>We focus on structures and policies that are not only legally sound, but
     also practical to implement, maintain, and explain to the people who rely on
     them.</p>
+seo:
+  title: Corporate Governance & Internal Policies
+  description: >-
+    Governance frameworks, board procedures, and internal policies that promote
+    accountability, transparency, and compliant growth for your organization.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

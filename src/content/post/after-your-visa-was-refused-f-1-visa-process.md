@@ -19,6 +19,13 @@ metadata:
     After Your Visa Was Refused | F-1 Visa Process. Most common reasons for
     rejection. Timely scheduling, appointment management, strategic interview
     preparation.
+seo:
+  description: >-
+    After Your Visa Was Refused | F-1 Visa Process. Most common reasons for
+    rejection. Timely scheduling, appointment management, strategic interview
+    preparation.
+  canonicalOverride: https://capitollawpartners.com/after-your-visa-was-refused-f-1-visa-process
+  title: After Your Visa Was Refused | F-1 Visa Process
 ---
 ## After Your Visa Was Issued / Refused – What You Need to Know About the US Visa Process   
 

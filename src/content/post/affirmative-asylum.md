@@ -19,6 +19,14 @@ metadata:
     fearing persecution in their home country. Learn eligibility criteria,
     step-by-step application procedures, timelines, and expert tips to
     strengthen your asylum case.
+seo:
+  description: >-
+    The Affirmative Asylum Process in the U.S. offers protection to individuals
+    fearing persecution in their home country. Learn eligibility criteria,
+    step-by-step application procedures, timelines, and expert tips to
+    strengthen your asylum case.
+  canonicalOverride: https://capitollawpartners.com/what-is-affirmative-asylum-process
+  title: What is Affirmative Asylum | Process
 ---
 ## **Navigating Hope: Your Guide to the Affirmative Asylum Process in the U.S.** 
 

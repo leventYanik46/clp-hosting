@@ -5,16 +5,20 @@ import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import Chatbox from '~/components/widgets/Chatbox.astro'; // Import Chatbox
 import { headerData, headerDataTr, headerDataEs, headerDataPt, headerDataFr, footerData, footerDataTr, footerDataSpanish, footerDataPt, footerDataFr } from '~/navigation';
-import type { MetaData } from '~/types';
+import type { MetaData, SeoData } from '~/types';
 import type { HreflangAlternate } from '~/data/seo';
 import type { Props as HeaderProps } from '~/components/widgets/Header.astro';
+import type { SeoPageType, SeoArticleData } from '~/utils/seo/resolveSeo';
 export interface Props {
   metadata?: MetaData;
+  seo?: SeoData;
+  pageType?: SeoPageType;
+  article?: SeoArticleData;
   languageAlternates?: HreflangAlternate[];
   ogLocaleAlternates?: string[];
 }
 
-const { metadata, languageAlternates, ogLocaleAlternates } = Astro.props;
+const { metadata, seo, pageType, article, languageAlternates, ogLocaleAlternates } = Astro.props;
 // Extract language from URL path
 const pathSegments = new URL(Astro.url).pathname.split('/').filter(Boolean);
 const lang = pathSegments[0] && ['en','tr','es','pt','fr'].includes(pathSegments[0]) ? pathSegments[0] : 'en';
@@ -25,7 +29,14 @@ const footerlanguageData = { 'en': footerData, 'tr': footerDataTr, 'es': footerD
 const footer = footerlanguageData[lang] || footerlanguageData['en'];
 ---
 
-<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
+<Layout
+  metadata={metadata}
+  seo={seo}
+  pageType={pageType}
+  article={article}
+  languageAlternates={languageAlternates}
+  ogLocaleAlternates={ogLocaleAlternates}
+>
   <slot name="schema" slot="schema" />
   <slot name="announcement">
     <Announcement />

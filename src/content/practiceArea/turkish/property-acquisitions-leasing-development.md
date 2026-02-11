@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: 'Gayrimenkul Alımları, Kiralamalar ve Geliştirme'
+  title: Gayrimenkul Alımları, Kiralamalar ve Geliştirme
   description: >-
     Yatırımlarınızı doğru yolda tutmak için alımlar, kiralamalar ve geliştirme 
     projeleri için stratejik rehberlik.
@@ -26,17 +26,17 @@ contactForm:
     count: 97
     url: >-
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
-  infoTitle: 'Gayrimenkul Alımları, Kiralamalar ve Geliştirme'
+  infoTitle: Gayrimenkul Alımları, Kiralamalar ve Geliştirme
   infoDescription: >-
     Yatırımlarınızı doğru yolda tutmak için alımlar, kiralamalar ve geliştirme 
     projeleri için stratejik rehberlik.
 post:
-  title: 'Gayrimenkul Alımları, Kiralamalar ve Geliştirme'
+  title: Gayrimenkul Alımları, Kiralamalar ve Geliştirme
   image: ~/assets/images/real-estate.jpg
   content: >
 
-    <p>Yatırımlarınızı doğru yolda tutmak için alımlar, kiralamalar ve geliştirme 
-    projeleri için stratejik rehberlik sunuyoruz.</p>
+    <p>Yatırımlarınızı doğru yolda tutmak için alımlar, kiralamalar ve
+    geliştirme  projeleri için stratejik rehberlik sunuyoruz.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -50,7 +50,16 @@ post:
 
     <h3>Neden Önemli</h3>
 
-    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
-    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
-    azaltımına odaklanarak yürütürüz.</p>
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin
+    korunduğundan  emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve
+    hız ile risk  azaltımına odaklanarak yürütürüz.</p>
+seo:
+  title: Gayrimenkul Alımları, Kiralamalar ve Geliştirme
+  description: >-
+    Yatırımlarınızı doğru yolda tutmak için alımlar, kiralamalar ve geliştirme 
+    projeleri için stratejik rehberlik.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

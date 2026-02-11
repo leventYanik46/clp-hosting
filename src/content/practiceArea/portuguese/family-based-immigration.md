@@ -2,7 +2,8 @@
 metadata:
   title: Imigração Baseada em Família
   description: >-
-    Protocolos claros e ágeis que mantêm famílias unidas por meio de petições, dispensas e processamento consular.
+    Protocolos claros e ágeis que mantêm famílias unidas por meio de petições,
+    dispensas e processamento consular.
 hero:
   tagline: Fale Conosco
   title: Vamos conversar!
@@ -12,13 +13,14 @@ hero:
 contactForm:
   title: Envie uma mensagem hoje mesmo!
   subtitle: >-
-    Receba orientação jurídica especializada adaptada às suas necessidades. Fale conosco para começar!
+    Receba orientação jurídica especializada adaptada às suas necessidades. Fale
+    conosco para começar!
   inputs:
     name: Nome
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
   googleReview:
     label: Avaliações do Google
@@ -28,13 +30,15 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Imigração Baseada em Família
   infoDescription: >-
-    Protocolos claros e ágeis que mantêm famílias unidas por meio de petições, dispensas e processamento consular.
+    Protocolos claros e ágeis que mantêm famílias unidas por meio de petições,
+    dispensas e processamento consular.
 post:
   title: Imigração Baseada em Família
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>Protocolos claros e ágeis que mantêm famílias unidas por meio de petições, dispensas e processamento consular.</p>
+    <p>Protocolos claros e ágeis que mantêm famílias unidas por meio de
+    petições, dispensas e processamento consular.</p>
 
 
     <h3>Principais Serviços</h3>
@@ -48,5 +52,16 @@ post:
 
     <h3>Por que isso é importante</h3>
 
-    <p>Alinhamos estratégia, documentos e execução para que seus objetivos estejam protegidos. Cada caso é tratado com comunicação clara, orientação pragmática e foco em agilidade e redução de riscos.</p>
+    <p>Alinhamos estratégia, documentos e execução para que seus objetivos
+    estejam protegidos. Cada caso é tratado com comunicação clara, orientação
+    pragmática e foco em agilidade e redução de riscos.</p>
+seo:
+  title: Imigração Baseada em Família
+  description: >-
+    Protocolos claros e ágeis que mantêm famílias unidas por meio de petições,
+    dispensas e processamento consular.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

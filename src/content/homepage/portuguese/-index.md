@@ -22,15 +22,15 @@ hero:
     - variant: primary
       text: Agendar uma consulta
       href: /pt/schedule
-      class: 'w-full sm:mb-0'
+      class: w-full sm:mb-0
     - text: Avaliação gratuita
       href: pt/evaluations
       variant: primary
-      class: 'w-full sm:mb-0 hidden lg:block'
+      class: w-full sm:mb-0 hidden lg:block
     - text: Fale conosco
       href: pt/contact
       variant: primary
-      class: 'w-full sm:mb-0 lg:hidden'
+      class: w-full sm:mb-0 lg:hidden
 practiceAreas:
   id: Practice Areas
   tagline: Áreas de Atuação
@@ -44,45 +44,45 @@ practiceAreas:
       description: >-
         Consultoria abrangente para empresas de todos os portes, da constituição
         e contratos a fusões, aquisições e disputas.
-      icon: 'tabler:briefcase'
+      icon: tabler:briefcase
       link: /pt/practice-area/business-corporate-law
     - title: Direito de Imigração
       description: >-
         Orientação em vistos de negócios e trabalho, asilo, petições familiares
         e defesa contra remoção, tornando os processos de imigração mais claros
         e gerenciáveis.
-      icon: 'tabler:globe-filled'
+      icon: tabler:globe-filled
       link: /pt/practice-area/immigration-law
     - title: Trusts e Sucessões
       description: >-
         Planos sucessórios personalizados, testamentos e trusts para proteger o
         futuro da sua família e preservar o que mais importa.
-      icon: 'tabler:affiliate'
+      icon: tabler:affiliate
       link: /pt/practice-area/estate-planning
     - title: Consultoria Jurídica Externa e Serviços de Assessoria
       description: >-
         Atuação como conselheiro jurídico de confiança para startups e empresas
         em crescimento, com orientação contínua em contratos, conformidade,
         questões trabalhistas, gestão de riscos e operações diárias.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
       link: /pt/practice-area/general-counsel-services
     - title: Direito Imobiliário
       description: >-
         Suporte para transações comerciais e residenciais, garantindo que seus
         negócios imobiliários sejam seguros e tranquilos.
-      icon: 'tabler:home'
+      icon: tabler:home
       link: /pt/practice-area/real-estate
     - title: Direito de Propriedade Intelectual
       description: >-
         Proteção para suas ideias, marcas e criações por meio de marcas
         registradas, direitos autorais e resolução eficaz de disputas.
-      icon: 'tabler:file-certificate'
+      icon: tabler:file-certificate
     - title: Lesões Pessoais
       description: >-
         Representação de pessoas feridas em acidentes, incluindo acidentes de
         carro, trabalho e responsabilidade de propriedades, lutando pela
         compensação que você merece.
-      icon: 'tabler:ambulance'
+      icon: tabler:ambulance
 spotlights:
   - props:
       isReversed: true
@@ -183,7 +183,7 @@ testimonials:
   callToAction:
     variant: secondary
     text: Ler mais depoimentos
-    href: 'https://share.google/0tXbKda3cm96I5wwf'
+    href: https://share.google/0tXbKda3cm96I5wwf
     target: _blank
     rel: noreferrer
   items:
@@ -232,7 +232,7 @@ steps:
         Comece fornecendo detalhes sobre suas questões jurídicas em nosso
         formulário de contato. Nossa equipe analisará sua solicitação e a
         conectará ao especialista adequado.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
     - title: >-
         Etapa 2: <span class="font-medium">Agende uma <a href="/pt/evaluations"
         class="hover:text-primary underline font-bold"> Avaliação Gratuita
@@ -242,7 +242,7 @@ steps:
         formulário de avaliação gratuita. Nossa equipe jurídica analisará
         cuidadosamente as informações e poderá solicitar dados ou documentos
         adicionais para compreender totalmente sua situação.
-      icon: 'tabler:calendar-event'
+      icon: tabler:calendar-event
     - title: >-
         Etapa 3: <span class="font-medium"><a href="/pt/schedule"
         class="hover:text-primary underline font-bold"> Agende uma consulta
@@ -251,12 +251,12 @@ steps:
         Reúna-se com nossos advogados experientes para uma consulta
         personalizada. Seja para direito corporativo, contencioso, imigração ou
         planejamento sucessório, vamos orientar suas opções jurídicas.
-      icon: 'tabler:scale'
+      icon: tabler:scale
     - title: Pronto!
       description: >-
         Com uma estratégia jurídica clara, você estará no caminho para resolver
         seu caso com confiança. Nossa equipe estará ao seu lado em cada etapa.
-      icon: 'tabler:check'
+      icon: tabler:check
   image:
     src: >-
       https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80
@@ -268,7 +268,7 @@ blog:
     atualizações pontuais em orientações objetivas que transformam dúvidas
     complexas em decisões seguras.
 cta:
-  titleHtml: 'Capitol <span class="sm:whitespace-nowrap">Law Partners</span>'
+  titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
   subtitleHtml: >-
     Descubra a diferença que nossa expertise pode fazer em suas questões
     jurídicas.<br class="hidden md:inline" />&nbsp;Fale conosco hoje!
@@ -276,4 +276,10 @@ cta:
     - variant: primary
       text: Fale conosco
       href: pt/contact
+seo:
+  title: Capitol Law Partners
+  description: >-
+    A Capitol Law Partners oferece consultoria jurídica confiável em direito
+    empresarial, imigração, planejamento sucessório e propriedade intelectual.
+    Agende sua consulta hoje mesmo.
 ---

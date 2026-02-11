@@ -6,22 +6,25 @@ import { I18N } from 'astrowind:config';
 import CommonMeta from '~/components/common/CommonMeta.astro';
 import Favicons from '~/components/Favicons.astro';
 import CustomStyles from '~/components/CustomStyles.astro';
-import Metadata from '~/components/common/Metadata.astro';
-import StructuredData from '~/components/common/StructuredData.astro';
+import Seo from '~/components/common/Seo.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 
-import type { MetaData as MetaDataType } from '~/types';
+import type { MetaData as MetaDataType, SeoData } from '~/types';
 import { getLangFromPathname, type HreflangAlternate } from '~/data/seo';
+import type { SeoPageType, SeoArticleData } from '~/utils/seo/resolveSeo';
 
 export interface Props {
   metadata?: MetaDataType;
+  seo?: SeoData;
+  pageType?: SeoPageType;
+  article?: SeoArticleData;
   languageAlternates?: HreflangAlternate[];
   ogLocaleAlternates?: string[];
 }
 
-const { metadata = {}, languageAlternates, ogLocaleAlternates } = Astro.props;
+const { metadata = {}, seo = {}, pageType = 'webpage', article, languageAlternates, ogLocaleAlternates } = Astro.props;
 const { language, textDirection } = I18N;
 const htmlLang = getLangFromPathname(Astro.url.pathname, language as 'en' | 'tr' | 'es' | 'pt' | 'fr');
 ---
@@ -32,10 +35,16 @@ const htmlLang = getLangFromPathname(Astro.url.pathname, language as 'en' | 'tr'
     <CommonMeta />
     <Favicons />
     <CustomStyles />
-    <Metadata {...metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates} />
-    <StructuredData metadata={metadata}>
+    <Seo
+      metadata={metadata}
+      seo={seo}
+      pageType={pageType}
+      article={article}
+      languageAlternates={languageAlternates}
+      ogLocaleAlternates={ogLocaleAlternates}
+    >
       <slot name="schema" slot="schema" />
-    </StructuredData>
+    </Seo>
     <SiteVerification />
     <Analytics />
   </head>

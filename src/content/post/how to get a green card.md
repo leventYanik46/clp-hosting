@@ -13,6 +13,10 @@ publishDate: 2025-09-26T10:42:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/how-to-get-a-green-card
   description: "How\_to\_Get\_a\_Green\_Card? Employment-Based\_Green Card. Applying Through a Company. PERM Application. Can I include my family?.."
+seo:
+  description: "How\_to\_Get\_a\_Green\_Card? Employment-Based\_Green Card. Applying Through a Company. PERM Application. Can I include my family?.."
+  canonicalOverride: https://capitollawpartners.com/how-to-get-a-green-card
+  title: "How\_to\_Get\_a\_Green\_Card ?"
 ---
 ## **How to Get a Green Card?**
 

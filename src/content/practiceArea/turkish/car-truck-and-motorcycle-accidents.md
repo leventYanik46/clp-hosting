@@ -1,8 +1,9 @@
 ---
 metadata:
-  title: 'Otomobil, Kamyon ve Motosiklet Kazaları'
+  title: Otomobil, Kamyon ve Motosiklet Kazaları
   description: >-
-    Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız savunuculuk.
+    Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız
+    savunuculuk.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -25,15 +26,17 @@ contactForm:
     count: 97
     url: >-
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
-  infoTitle: 'Otomobil, Kamyon ve Motosiklet Kazaları'
+  infoTitle: Otomobil, Kamyon ve Motosiklet Kazaları
   infoDescription: >-
-    Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız savunuculuk.
+    Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız
+    savunuculuk.
 post:
-  title: 'Otomobil, Kamyon ve Motosiklet Kazaları'
+  title: Otomobil, Kamyon ve Motosiklet Kazaları
   image: ~/assets/images/personal-injury.jpg
   content: >
 
-    <p>Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız savunuculuk.</p>
+    <p>Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız
+    savunuculuk.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -47,5 +50,16 @@ post:
 
     <h3>Neden Önemli?</h3>
 
-    <p>Strateji, belgeler ve uygulamayı uyumlu hale getirerek hedeflerinizin korunmasını sağlıyoruz. Her konu, açık iletişim, pragmatik tavsiye ve hız ile risk azaltmaya odaklanılarak ele alınır.</p>
+    <p>Strateji, belgeler ve uygulamayı uyumlu hale getirerek hedeflerinizin
+    korunmasını sağlıyoruz. Her konu, açık iletişim, pragmatik tavsiye ve hız
+    ile risk azaltmaya odaklanılarak ele alınır.</p>
+seo:
+  title: Otomobil, Kamyon ve Motosiklet Kazaları
+  description: >-
+    Kaza mağdurları için soruşturmadan müzakereye ve davaya kadar amansız
+    savunuculuk.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

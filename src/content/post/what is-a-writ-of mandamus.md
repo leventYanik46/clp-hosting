@@ -14,6 +14,12 @@ metadata:
   description: >-
     What is a Writ of Mandamus? Filing requirements | Processing time | Eligible
     applications | The role of an attorney in mandamus cases.
+seo:
+  description: >-
+    What is a Writ of Mandamus? Filing requirements | Processing time | Eligible
+    applications | The role of an attorney in mandamus cases.
+  canonicalOverride: https://capitollawpartners.com/what-is-a-writ-of-mandamus
+  title: "What\_is a Writ of\_Mandamus?\_"
 ---
 ## What is a Writ of Mandamus? 
 

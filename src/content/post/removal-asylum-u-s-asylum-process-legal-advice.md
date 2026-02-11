@@ -20,6 +20,13 @@ metadata:
   description: >-
     Removal Asylum U.S. Asylum Process Legal Advice. Learn the U.S. asylum
     process, I-589 form, eligibility, and FAQs..
+seo:
+  description: >-
+    Removal Asylum U.S. Asylum Process Legal Advice. Learn the U.S. asylum
+    process, I-589 form, eligibility, and FAQs..
+  canonicalOverride: >-
+    https://capitollawpartners.com/removal-asylum-u-s-asylum-process-legal-advice
+  title: 'I-589 Form & U.S. Asylum Process Explained '
 ---
 # I-589 Form & U.S. Asylum Process Explained – Expert Immigration Consultation
 

@@ -50,7 +50,16 @@ post:
 
     <h3>Neden Önemli</h3>
 
-    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
-    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
-    azaltımına odaklanarak yürütürüz.</p>
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin
+    korunduğundan  emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve
+    hız ile risk  azaltımına odaklanarak yürütürüz.</p>
+seo:
+  title: Ticari Sır Koruması
+  description: >-
+    Politikalar, anlaşmalar ve uygulama planlarıyla gizli bilgi birikimini 
+    korunmuş tutun.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

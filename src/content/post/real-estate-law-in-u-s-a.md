@@ -17,6 +17,12 @@ metadata:
   description: >-
     "Learn how U.S. real estate law impacts buying, leasing, and developing
     property. Legal clarity for secure and profitable investments."
+seo:
+  description: >-
+    "Learn how U.S. real estate law impacts buying, leasing, and developing
+    property. Legal clarity for secure and profitable investments."
+  canonicalOverride: https://capitollawpartners.com/real-estate-law-in-usa
+  title: Real Estate Law in U.S.A
 ---
 ## **Real Estate Law: A Comprehensive Guide**
 

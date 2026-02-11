@@ -124,4 +124,13 @@ post:
     güçlü ve kalıcı bir IP stratejisi oluşturuyoruz. İster marka, ister telif
     hakkı, ister ihlale karşı savunma olsun, yaratıcılığınızı ve ticari
     avantajınızı korumaya odaklanıyoruz.</p>
+seo:
+  title: Fikri Mülkiyet Hukuku
+  description: >-
+    Markanızı ve yeniliklerinizi korumak için marka, telif hakkı, ticari sır
+    koruması, fikri mülkiyet portföy yönetimi ve dava hizmetleri.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

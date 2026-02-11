@@ -1,9 +1,9 @@
 ---
 metadata:
-  title: 'Sözleşme Taslağı, İnceleme ve Müzakere'
+  title: Sözleşme Taslağı, İnceleme ve Müzakere
   description: >-
-    Riski azaltmak ve işletme hedeflerinizi ilerletmek için satıcılar, müşteriler, 
-    çalışanlar ve ortaklar için net, uygulanabilir anlaşmalar.
+    Riski azaltmak ve işletme hedeflerinizi ilerletmek için satıcılar,
+    müşteriler,  çalışanlar ve ortaklar için net, uygulanabilir anlaşmalar.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -13,10 +13,10 @@ hero:
 contactForm:
   title: Hemen bize mesaj gönderin!
   subtitle: İhtiyaçlarınıza özel hukuki rehberlik için bizimle iletişime geçin.
-  infoTitle: 'Sözleşme Taslağı, İnceleme ve Müzakere'
+  infoTitle: Sözleşme Taslağı, İnceleme ve Müzakere
   infoDescription: >-
-    Riski azaltmak ve işletme hedeflerinizi ilerletmek için satıcılar, müşteriler, 
-    çalışanlar ve ortaklar için net, uygulanabilir anlaşmalar.
+    Riski azaltmak ve işletme hedeflerinizi ilerletmek için satıcılar,
+    müşteriler,  çalışanlar ve ortaklar için net, uygulanabilir anlaşmalar.
   googleReview:
     label: Google Yorumları
     rating: 5
@@ -31,7 +31,7 @@ contactForm:
   disclaimer: Bu formu göndererek verilerin toplanmasını kabul edersiniz.
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
-  title: 'Sözleşme Taslağı, İnceleme ve Müzakere'
+  title: Sözleşme Taslağı, İnceleme ve Müzakere
   image: ~/assets/images/precision-img.jpg
   content: >
 
@@ -71,4 +71,13 @@ post:
     <p>Sözleşmeler çalışabilir olmalıdır. Yükümlülüklerin, hizmet düzeylerinin 
     ve yönetişimin ekipleriniz gerçekte nasıl çalıştığı ile uyumlu olmasını 
     sağlayarak, imzadan sonra sürtüşmeyi önleriz.</p>
+seo:
+  title: Sözleşme Taslağı, İnceleme ve Müzakere
+  description: >-
+    Riski azaltmak ve işletme hedeflerinizi ilerletmek için satıcılar,
+    müşteriler,  çalışanlar ve ortaklar için net, uygulanabilir anlaşmalar.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

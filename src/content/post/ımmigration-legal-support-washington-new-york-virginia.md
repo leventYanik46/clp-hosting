@@ -14,6 +14,13 @@ metadata:
   description: >-
     Capitol Law Partners — Immigration Legal Support in Washington, New York,
     and Virginia. Our Immigration Law experience. Contact us now..
+seo:
+  description: >-
+    Capitol Law Partners — Immigration Legal Support in Washington, New York,
+    and Virginia. Our Immigration Law experience. Contact us now..
+  canonicalOverride: >-
+    https://capitollawpartners.com/immigration-legal-support-washington-new-york-virginia
+  title: "Immigration Legal Support | Washington | New York | Virginia\_"
 ---
 ### **Capitol Law Partners — Immigration Legal Support in Washington, New York, and Virginia** 
 

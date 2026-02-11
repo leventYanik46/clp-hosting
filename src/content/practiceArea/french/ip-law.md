@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Propriété intellectuelle
@@ -129,4 +129,14 @@ post:
     vous pour bâtir une stratégie de PI solide et durable. Qu’il s’agisse de
     marques, de droits d’auteur ou de défense contre une infraction, nous sommes
     à vos côtés pour protéger votre créativité et votre avantage commercial.</p>
+seo:
+  title: Propriété intellectuelle
+  description: >-
+    Services de dépôt de marques et droits d’auteur, protection des secrets
+    commerciaux, gestion de portefeuille de PI et contentieux pour protéger
+    votre marque et vos innovations.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

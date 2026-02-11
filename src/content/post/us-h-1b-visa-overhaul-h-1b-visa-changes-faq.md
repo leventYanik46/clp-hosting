@@ -14,6 +14,12 @@ metadata:
   description: >-
     US H-1B Visa Overhaul | H-1B Visa Changes. Will current H-1B visa holders be
     affected? Is this a one-time payment? What is an H-1 Visa?..
+seo:
+  description: >-
+    US H-1B Visa Overhaul | H-1B Visa Changes. Will current H-1B visa holders be
+    affected? Is this a one-time payment? What is an H-1 Visa?..
+  canonicalOverride: https://capitollawpartners.com/u-s-h-1b-visa-overhaul-visa-changes-faq
+  title: US H-1B Visa Overhaul | H-1B Visa Changes - FAQ
 ---
 ### US H-1B Visa Overhaul | H-1B Visa Changes - FAQ
 

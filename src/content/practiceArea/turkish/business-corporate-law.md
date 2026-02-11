@@ -34,7 +34,7 @@ post:
   title: İş ve Şirketler Hukuku
   image: ~/assets/images/corporate-img.jpg
   content: >
-    
+
     <ul>
       <li>
         <a href="/tr/practice-area/key-services/commercial-litigation-dispute-resolution">
@@ -113,4 +113,13 @@ post:
     ticari ortamı derinlemesine anlar. Yeni bir girişim başlatıyor veya büyük
     bir anlaşma müzakere ediyorsanız, çıkarlarınızı korumak ve güvenle
     ilerlemenizi sağlamak için buradayız.</p>
+seo:
+  title: İş ve Şirketler Hukuku
+  description: >-
+    Ticari davalar, uyuşmazlık çözümü, sözleşme hazırlama, birleşme &
+    devralmalar ve şirket kuruluşunda sürdürülebilir büyüme için rehberlik.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

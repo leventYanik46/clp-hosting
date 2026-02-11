@@ -53,6 +53,74 @@ const metadataDefinition = () =>
     })
     .optional();
 
+const seoDefinition = () =>
+  z
+    .object({
+      title: z.string().optional(),
+      description: z.string().optional(),
+      ogImage: z.string().optional(),
+      noindex: z.boolean().optional(),
+      nofollow: z.boolean().optional(),
+      canonicalOverride: z.string().url().optional(),
+      schema: z
+        .object({
+          mode: z.enum(['auto', 'merge', 'replace']).optional(),
+          includeBreadcrumbs: z.boolean().optional(),
+          entity: z.enum(['service', 'person']).optional(),
+          serviceType: z.string().optional(),
+          personJobTitle: z.string().optional(),
+          personImage: z.string().optional(),
+          person: z
+            .object({
+              givenName: z.string().optional(),
+              familyName: z.string().optional(),
+              honorificPrefix: z.string().optional(),
+              honorificSuffix: z.string().optional(),
+              alternateName: z.string().optional(),
+              jobTitle: z.string().optional(),
+              image: z.string().optional(),
+              email: z.string().optional(),
+              telephone: z.string().optional(),
+              sameAs: z.array(z.string().url()).optional(),
+              knowsAbout: z.array(z.string()).optional(),
+              knowsLanguage: z.array(z.string()).optional(),
+              alumniOf: z
+                .array(
+                  z.union([
+                    z.string(),
+                    z.object({
+                      name: z.string(),
+                      url: z.string().url().optional(),
+                      sameAs: z.string().url().optional(),
+                      type: z.enum(['EducationalOrganization', 'CollegeOrUniversity', 'School']).optional(),
+                    }),
+                  ])
+                )
+                .optional(),
+              worksFor: z
+                .object({
+                  id: z.string().url().optional(),
+                  name: z.string().optional(),
+                  url: z.string().url().optional(),
+                  sameAs: z.array(z.string().url()).optional(),
+                })
+                .optional(),
+            })
+            .optional(),
+          custom: z.array(z.record(z.string(), z.unknown())).optional(),
+        })
+        .optional(),
+      strategy: z
+        .object({
+          primaryIntent: z.string().optional(),
+          primaryQuery: z.string().optional(),
+          supportingQueries: z.array(z.string()).optional(),
+          internalLinks: z.array(z.string()).optional(),
+        })
+        .optional(),
+    })
+    .optional();
+
 const imageSchema = z.object({
   src: z.string(),
   alt: z.string().optional(),
@@ -258,6 +326,7 @@ const homepageCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/homepage' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     hero: heroWithHighlightSchema,
     practiceAreas: featureSectionSchema,
     spotlights: z.array(spotlightSchema).optional(),
@@ -272,6 +341,7 @@ const aboutCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/about' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     hero: heroBasicSchema.extend({
       title: z.string(),
     }),
@@ -287,6 +357,7 @@ const contactCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/contact' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     hero: heroBasicSchema.extend({
       title: z.string(),
     }),
@@ -309,6 +380,7 @@ const locationsCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/locations' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     hero: heroBasicSchema.extend({
       title: z.string(),
     }),
@@ -331,6 +403,7 @@ const scheduleCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/schedule' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     attorneys: z.array(teamCardSchema.extend({
       actions: z.array(actionSchema),
     })),
@@ -341,6 +414,7 @@ const evaluationsCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/evaluations' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     features: featureSectionSchema,
   }),
 });
@@ -349,6 +423,7 @@ const teamCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/team' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     sections: z.array(teamSectionSchema),
   }),
 });
@@ -357,6 +432,7 @@ const teamMemberCollection = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: 'src/content/teamMember' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     profile: teamMemberProfileSchema,
     steps: z.array(teamMemberStepSectionSchema).optional(),
     testimonials: testimonialsSchema.optional(),
@@ -369,6 +445,7 @@ const practiceAreaCollection = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: 'src/content/practiceArea' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     hero: heroBasicSchema.extend({ image: imageSchema.optional() }).optional(),
     post: z.object({
       title: z.string(),
@@ -383,6 +460,7 @@ const notFoundCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/notFound' }),
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     heading: z.object({
       label: z.string(),
       code: z.string(),
@@ -410,8 +488,9 @@ const postCollection = defineCollection({
     category: z.string().optional(),
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
-    lang: z.enum(['en', 'tr']).optional().default('en'),
+    lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']).optional().default('en'),
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
   }),
 });
 
@@ -439,6 +518,7 @@ const announcementCollection = defineCollection({
 const confirmationCollection = defineCollection({
   schema: z.object({
     metadata: metadataDefinition(),
+    seo: seoDefinition(),
     title: z.string(),
     lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']),
     info: z.string().optional(),

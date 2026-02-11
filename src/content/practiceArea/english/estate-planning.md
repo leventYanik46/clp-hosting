@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Trusts & Estates
@@ -125,4 +125,14 @@ post:
     what matters most to you. Whether you need to create a will, establish a
     trust, or navigate probate, we handle it with care and efficiency, so you
     can focus on your family and peace of mind.</p>
+seo:
+  title: Trusts & Estates
+  description: >-
+    Comprehensive estate planning, asset protection, wills, trusts, probate
+    administration, guardianship, and conservatorship services to secure your
+    legacy and loved ones.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

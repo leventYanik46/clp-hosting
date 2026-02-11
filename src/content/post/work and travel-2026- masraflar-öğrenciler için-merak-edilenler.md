@@ -16,6 +16,11 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/work-and-travel-2026-masraflar-%c3%b6%c4%9frenciler-i%c3%a7in-merak-edilenler
   description: "Work\_and\_Travel 2026:\_Masraflar,Öğrenciler\_İçin Merak Edilenler. WAT Nedir? Ücretler, Kayıt Vakitleri, Dil Yeterliliği.."
+seo:
+  description: "Work\_and\_Travel 2026:\_Masraflar,Öğrenciler\_İçin Merak Edilenler. WAT Nedir? Ücretler, Kayıt Vakitleri, Dil Yeterliliği.."
+  canonicalOverride: >-
+    https://capitollawpartners.com/work-and-travel-2026-masraflar-%c3%b6%c4%9frenciler-i%c3%a7in-merak-edilenler
+  title: "Work\_and\_Travel 2026:\_Masraflar, Öğrenciler\_İçin Merak Edilenler\_"
 ---
 ## **Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler** 
 

@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Trusts e Sucessões
@@ -106,4 +106,14 @@ post:
     estabelecer um trust ou conduzir um inventário, cuidamos de tudo com atenção
     e eficiência para que você se concentre na sua família e na
     tranquilidade.</p>
+seo:
+  title: Trusts e Sucessões
+  description: >-
+    Planejamento sucessório completo, proteção de patrimônio, testamentos,
+    trusts, inventário, tutela e curatela para resguardar seu legado e quem você
+    ama.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

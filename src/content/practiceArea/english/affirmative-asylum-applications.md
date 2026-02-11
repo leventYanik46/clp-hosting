@@ -20,7 +20,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
   googleReview:
     label: Google Reviews
@@ -55,4 +55,13 @@ post:
     <p>We align strategy, documents, and execution so your goals stay protected.
     Every matter is handled with clear communication, pragmatic advice, and a
     focus on speed and risk reduction.</p>
+seo:
+  title: Affirmative Asylum Applications
+  description: >-
+    Thoroughly prepared asylum filings with corroborating evidence and interview
+    readiness.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

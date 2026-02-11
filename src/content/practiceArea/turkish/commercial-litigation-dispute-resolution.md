@@ -3,8 +3,8 @@ metadata:
   title: Ticari Dava ve Uyuşmazlık Çözümü
   description: >-
     Sözleşme ihlalleri, ortaklık çatışmaları ve ticari haksız fiiller için 
-    stratejik temsil, şirketleri müzakere, arabuluculuk ve davaya rehberlik ederek 
-    çıkarlarını korur.
+    stratejik temsil, şirketleri müzakere, arabuluculuk ve davaya rehberlik
+    ederek  çıkarlarını korur.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -17,8 +17,8 @@ contactForm:
   infoTitle: Ticari Dava ve Uyuşmazlık Çözümü
   infoDescription: >-
     Sözleşme ihlalleri, ortaklık çatışmaları ve ticari haksız fiiller için 
-    stratejik temsil, şirketleri müzakere, arabuluculuk ve davaya rehberlik ederek 
-    çıkarlarını korur.
+    stratejik temsil, şirketleri müzakere, arabuluculuk ve davaya rehberlik
+    ederek  çıkarlarını korur.
   googleReview:
     label: Google Yorumları
     rating: 5
@@ -38,9 +38,9 @@ post:
   content: >
 
     <p>İşletme uyuşmazlıkları ivmeyi, itibarı ve kârlılığı tehdit eder. Ticari 
-    dava ekibimiz maruziyeti değerlendirmek, kaldıraç korumak ve en iyi ileri gidiş 
-    yolunu takip etmek için hızlı hareket eder—bu verimli anlaşma veya agresif 
-    mahkeme savunması olabilir.</p>
+    dava ekibimiz maruziyeti değerlendirmek, kaldıraç korumak ve en iyi ileri
+    gidiş  yolunu takip etmek için hızlı hareket eder—bu verimli anlaşma veya
+    agresif  mahkeme savunması olabilir.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -63,8 +63,8 @@ post:
     <h3>Arabuluculuk, Tahkim ve Duruşma</h3>
 
     <p>ADR'den mahkemesine kadar, kaydı inşa eder, keşfi yönetir ve açıklıkla 
-    savunma yaparız. Liderliği pratik güncellemelerle bilgilendirir ve sonuçlara, 
-    jargona değil odaklanırız.</p>
+    savunma yaparız. Liderliği pratik güncellemelerle bilgilendirir ve
+    sonuçlara,  jargona değil odaklanırız.</p>
 
 
     <h3>İşletme Değerini Korumak</h3>
@@ -72,4 +72,14 @@ post:
     <p>Her hamle bozulmayı azaltmak ve işletme değerini korumayı amaçlar. 
     Çabucak çöz veya karara kadar dava aç, stratejiyi işletmenizin ticari 
     gerçekliğiyle hizala.</p>
+seo:
+  title: Ticari Dava ve Uyuşmazlık Çözümü
+  description: >-
+    Sözleşme ihlalleri, ortaklık çatışmaları ve ticari haksız fiiller için 
+    stratejik temsil, şirketleri müzakere, arabuluculuk ve davaya rehberlik
+    ederek  çıkarlarını korur.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

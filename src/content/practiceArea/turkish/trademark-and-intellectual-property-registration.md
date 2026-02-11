@@ -50,7 +50,16 @@ post:
 
     <h3>Neden Önemli</h3>
 
-    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
-    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
-    azaltımına odaklanarak yürütürüz.</p>
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin
+    korunduğundan  emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve
+    hız ile risk  azaltımına odaklanarak yürütürüz.</p>
+seo:
+  title: Ticari Marka ve Fikri Mülkiyet Tescili
+  description: >-
+    Çatışmaları azaltan ve onayı hızlandıran ticari marka araştırmaları, 
+    dosyalamalar ve yanıtlarla marka varlıklarını koruyun.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

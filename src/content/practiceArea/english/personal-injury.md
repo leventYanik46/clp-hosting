@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Personal Injury
@@ -84,4 +84,14 @@ post:
 
 
     <p>Let us fight for the compensation and peace of mind you deserve.</p>
+seo:
+  title: Personal Injury
+  description: >-
+    Our Personal Injury team protects clients who have been harmed by
+    negligence, helping them pursue justice, compensation, and peace of mind
+    during challenging times.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

@@ -34,7 +34,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Direito Empresarial e Societário
@@ -99,4 +99,15 @@ post:
     entendimento do cenário jurídico e comercial. Seja lançando um novo
     empreendimento ou negociando um grande acordo, estamos aqui para proteger
     seus interesses e ajudá-lo a avançar com confiança.</p>
+seo:
+  title: Direito Empresarial e Societário
+  description: >-
+    Nossos especialistas em Direito Empresarial e Societário orientam empresas
+    em contencioso comercial e resolução de disputas, redação de contratos,
+    fusões e aquisições e constituição de negócios para um crescimento
+    sustentável.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

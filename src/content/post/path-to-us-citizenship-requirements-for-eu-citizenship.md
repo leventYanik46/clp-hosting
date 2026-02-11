@@ -13,6 +13,12 @@ metadata:
   description: >-
     Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
     Citizen? What are the Necessary Requirements?..
+seo:
+  description: >-
+    Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
+    Citizen? What are the Necessary Requirements?..
+  canonicalOverride: https://capitollawpartners.com/requirements-for-eu-citizenship
+  title: 'Path to US Citizenship: Requirements for EU Citizenship'
 ---
 
 

@@ -32,7 +32,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Fideicomisos y Sucesiones
@@ -97,4 +97,14 @@ post:
     Nuestro equipo ofrece una guía cercana, clara y profesional diseñada para
     proteger a su familia, su patrimonio y sus deseos, tanto hoy como en el
     futuro.</p>
+seo:
+  title: Fideicomisos y Sucesiones
+  description: >-
+    Planificación patrimonial integral, protección de activos, testamentos,
+    fideicomisos, administración testamentaria, tutela y curatela para asegurar
+    su legado y a sus seres queridos.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

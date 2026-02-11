@@ -2,7 +2,9 @@
 metadata:
   title: Constitución y Estructuración de Empresas
   description: >-
-    Selección de entidad, acuerdos operativos, distribución de acciones, gobernanza y cumplimiento para lanzar y escalar su empresa con una base legal sólida.
+    Selección de entidad, acuerdos operativos, distribución de acciones,
+    gobernanza y cumplimiento para lanzar y escalar su empresa con una base
+    legal sólida.
 hero:
   tagline: Contáctenos
   title: ¡Conectemos!
@@ -12,10 +14,13 @@ hero:
 contactForm:
   title: ¡Envíenos un mensaje hoy!
   subtitle: >-
-    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos ahora para comenzar su proceso!
+    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos
+    ahora para comenzar su proceso!
   infoTitle: Constitución y Estructuración de Empresas
   infoDescription: >-
-    Selección de entidad, acuerdos operativos, distribución de acciones, gobernanza y cumplimiento para lanzar y escalar su empresa con una base legal sólida.
+    Selección de entidad, acuerdos operativos, distribución de acciones,
+    gobernanza y cumplimiento para lanzar y escalar su empresa con una base
+    legal sólida.
   googleReview:
     label: Reseñas de Google
     rating: 5
@@ -27,14 +32,17 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: "Al enviar este formulario, acepta la recopilación de datos."
+  disclaimer: Al enviar este formulario, acepta la recopilación de datos.
   description: Nuestro equipo suele responder en un plazo de 24 horas hábiles.
 post:
   title: Constitución y Estructuración de Empresas
   image: ~/assets/images/corporate-img.jpg
   content: >
 
-    <p>Una estructura legal sólida prepara el escenario para el crecimiento. Ayudamos a fundadores y propietarios a elegir la entidad adecuada, organizar la gobernanza y documentar las reglas que previenen disputas a medida que la empresa crece.</p>
+    <p>Una estructura legal sólida prepara el escenario para el crecimiento.
+    Ayudamos a fundadores y propietarios a elegir la entidad adecuada, organizar
+    la gobernanza y documentar las reglas que previenen disputas a medida que la
+    empresa crece.</p>
 
 
     <h3>Servicios Clave</h3>
@@ -50,15 +58,31 @@ post:
 
     <h3>Alineación de Fundadores</h3>
 
-    <p>Planteamos expectativas desde el principio: roles, derechos de decisión, aportes de capital y escenarios de salida, para que sus documentos de gobierno mantengan al equipo alineado y resiliente.</p>
+    <p>Planteamos expectativas desde el principio: roles, derechos de decisión,
+    aportes de capital y escenarios de salida, para que sus documentos de
+    gobierno mantengan al equipo alineado y resiliente.</p>
 
 
     <h3>Gobernanza Escalable</h3>
 
-    <p>A medida que contrata, recauda capital o expande, adaptamos su estructura con políticas claras, procedimientos de junta y listas de verificación de cumplimiento que se ajustan a su etapa de crecimiento.</p>
+    <p>A medida que contrata, recauda capital o expande, adaptamos su estructura
+    con políticas claras, procedimientos de junta y listas de verificación de
+    cumplimiento que se ajustan a su etapa de crecimiento.</p>
 
 
     <h3>Estructuración con Visión de Futuro</h3>
 
-    <p>Diseñamos pensando en el siguiente hito, desde consideraciones bancarias y fiscales hasta la debida diligencia de inversores y preparación para adquisiciones.</p>
+    <p>Diseñamos pensando en el siguiente hito, desde consideraciones bancarias
+    y fiscales hasta la debida diligencia de inversores y preparación para
+    adquisiciones.</p>
+seo:
+  title: Constitución y Estructuración de Empresas
+  description: >-
+    Selección de entidad, acuerdos operativos, distribución de acciones,
+    gobernanza y cumplimiento para lanzar y escalar su empresa con una base
+    legal sólida.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

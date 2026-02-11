@@ -17,6 +17,11 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/tr/green-card-ba%c5%9fvurusu-nas%c4%b1l-yap%c4%b1l%c4%b1r
   description: "Green Card Başvurusu Nasıl Yapılır? Online Başvuru\_Nasıl Yapılır? Green\_Card'a\_birden fazla başvuru yapabilir miyim?\_Adım Adım Uzman Yardımı. "
+seo:
+  description: "Green Card Başvurusu Nasıl Yapılır? Online Başvuru\_Nasıl Yapılır? Green\_Card'a\_birden fazla başvuru yapabilir miyim?\_Adım Adım Uzman Yardımı. "
+  canonicalOverride: >-
+    https://capitollawpartners.com/tr/green-card-ba%c5%9fvurusu-nas%c4%b1l-yap%c4%b1l%c4%b1r
+  title: Green Card Başvurusu Nasıl Yapılır?
 ---
 1. Green Card Başvurusu Nasıl Yapılır? Online Başvuru 
 

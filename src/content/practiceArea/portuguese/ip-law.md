@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Direito de Propriedade Intelectual
@@ -103,4 +103,14 @@ post:
     de PI sólida e duradoura. Seja com marcas, direitos autorais ou defesa
     contra infração, estamos ao seu lado, focados em proteger sua criatividade e
     sua vantagem competitiva.</p>
+seo:
+  title: Direito de Propriedade Intelectual
+  description: >-
+    Serviços de registro de marcas e direitos autorais, proteção de segredos
+    comerciais, gestão de portfólio de PI e litígios para proteger sua marca e
+    inovações.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

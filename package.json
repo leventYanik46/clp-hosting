@@ -15,6 +15,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "validate:seo": "node ./scripts/validate-seo.mjs",
+    "migrate:seo": "node ./scripts/migrate-metadata-to-seo.mjs",
     "normalize:post-canonicals": "node ./scripts/normalize-post-canonicals.mjs",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",

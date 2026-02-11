@@ -1,9 +1,9 @@
 ---
 metadata:
-  title: 'Vasiyetnameler, Tröstler ve Miras Yönetimi'
+  title: Vasiyetnameler, Tröstler ve Miras Yönetimi
   description: >-
-    Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle desteklenen 
-    sade vasiyetnameler ve tröstler.
+    Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle
+    desteklenen  sade vasiyetnameler ve tröstler.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -26,17 +26,17 @@ contactForm:
     count: 97
     url: >-
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
-  infoTitle: 'Vasiyetnameler, Tröstler ve Miras Yönetimi'
+  infoTitle: Vasiyetnameler, Tröstler ve Miras Yönetimi
   infoDescription: >-
-    Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle desteklenen 
-    sade vasiyetnameler ve tröstler.
+    Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle
+    desteklenen  sade vasiyetnameler ve tröstler.
 post:
-  title: 'Vasiyetnameler, Tröstler ve Miras Yönetimi'
+  title: Vasiyetnameler, Tröstler ve Miras Yönetimi
   image: ~/assets/images/estate-img.jpg
   content: >
 
-    <p>Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle desteklenen 
-    sade vasiyetnameler ve tröstler sunuyoruz.</p>
+    <p>Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle
+    desteklenen  sade vasiyetnameler ve tröstler sunuyoruz.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -50,7 +50,16 @@ post:
 
     <h3>Neden Önemli</h3>
 
-    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin korunduğundan 
-    emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve hız ile risk 
-    azaltımına odaklanarak yürütürüz.</p>
+    <p>Strateji, belgeler ve uygulamayı hizalayarak hedeflerinizin
+    korunduğundan  emin oluruz. Her dosyayı net iletişim, pragmatik tavsiye ve
+    hız ile risk  azaltımına odaklanarak yürütürüz.</p>
+seo:
+  title: Vasiyetnameler, Tröstler ve Miras Yönetimi
+  description: >-
+    Amacı onurlayan ve mirasçıları koruyan verimli miras yönetimiyle
+    desteklenen  sade vasiyetnameler ve tröstler.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

@@ -20,6 +20,14 @@ metadata:
     The U.S. Chamber of Commerce has filed a lawsuit against the Trump
     administration, claiming the new $100,000 H-1B visa application fee violates
     federal immigration laws. 
+seo:
+  description: >-
+    The U.S. Chamber of Commerce has filed a lawsuit against the Trump
+    administration, claiming the new $100,000 H-1B visa application fee violates
+    federal immigration laws. 
+  canonicalOverride: >-
+    https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100,000-dollar-h-1b-visa-fee
+  title: Chamber of Commerce Sues Over Trump’s New $100,000 H-1B Visa Fee
 ---
 In **September 2025**, former President **Donald Trump** announced a new executive order requiring U.S. companies sponsoring foreign workers through the **H-1B visa program** to pay a **$100,000 application fee** for each petition. 
 

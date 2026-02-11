@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Trusts et successions
@@ -106,4 +106,14 @@ post:
     testament, établir un trust ou gérer un inventaire, nous nous en chargeons
     avec soin et efficacité afin que vous puissiez vous concentrer sur votre
     famille et votre sérénité.</p>
+seo:
+  title: Trusts et successions
+  description: >-
+    Planification successorale complète, protection du patrimoine, testaments,
+    trusts, inventaire, tutelle et curatelle pour sécuriser votre héritage et
+    vos proches.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

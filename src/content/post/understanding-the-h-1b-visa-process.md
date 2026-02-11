@@ -14,6 +14,12 @@ metadata:
   description: >-
     Step-by-step H-1B visa timeline and checklist. Learn key dates, lottery
     tips, and application steps to secure your U.S. work visa successfully.
+seo:
+  description: >-
+    Step-by-step H-1B visa timeline and checklist. Learn key dates, lottery
+    tips, and application steps to secure your U.S. work visa successfully.
+  canonicalOverride: https://capitollawpartners.com/understanding-the-h-1b-visa-process
+  title: Understanding the H-1B Visa Process
 ---
 ## **Understanding the H-1B Visa Process**
 

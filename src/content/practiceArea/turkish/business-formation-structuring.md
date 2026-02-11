@@ -2,7 +2,8 @@
 metadata:
   title: Şirket Kuruluşu ve Yapılandırma
   description: >-
-    Sağlam bir hukuki temel ile şirketinizi kurmak ve büyütmek için tüzel kişilik seçimi, işletme sözleşmeleri, pay dağılımı, yönetişim ve uyum.
+    Sağlam bir hukuki temel ile şirketinizi kurmak ve büyütmek için tüzel
+    kişilik seçimi, işletme sözleşmeleri, pay dağılımı, yönetişim ve uyum.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -14,7 +15,8 @@ contactForm:
   subtitle: İhtiyacınıza özel hukuki rehberlik için bizimle iletişime geçin.
   infoTitle: Şirket Kuruluşu ve Yapılandırma
   infoDescription: >-
-    Sağlam bir hukuki temel ile şirketinizi kurmak ve büyütmek için tüzel kişilik seçimi, işletme sözleşmeleri, pay dağılımı, yönetişim ve uyum.
+    Sağlam bir hukuki temel ile şirketinizi kurmak ve büyütmek için tüzel
+    kişilik seçimi, işletme sözleşmeleri, pay dağılımı, yönetişim ve uyum.
   googleReview:
     label: Google Yorumları
     rating: 5
@@ -33,7 +35,10 @@ post:
   image: ~/assets/images/corporate-img.jpg
   content: >
 
-    <p>Güçlü bir hukuki yapı büyümenin temelini oluşturur. Kuruculara ve sahiplerine doğru tüzel kişilik seçimi, yönetişim organizasyonu ve şirket büyüdükçe anlaşmazlıkları önleyen kuralların belgelenmesi konularında yardımcı oluyoruz.</p>
+    <p>Güçlü bir hukuki yapı büyümenin temelini oluşturur. Kuruculara ve
+    sahiplerine doğru tüzel kişilik seçimi, yönetişim organizasyonu ve şirket
+    büyüdükçe anlaşmazlıkları önleyen kuralların belgelenmesi konularında
+    yardımcı oluyoruz.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -49,15 +54,30 @@ post:
 
     <h3>Kurucu Uyumlandırması</h3>
 
-    <p>Beklentileri erken aşamada ortaya koyuyoruz—roller, karar hakları, sermaye katkıları ve çıkış senaryoları—böylece yönetim belgeleriniz ekibi uyumlu ve dirençli tutar.</p>
+    <p>Beklentileri erken aşamada ortaya koyuyoruz—roller, karar hakları,
+    sermaye katkıları ve çıkış senaryoları—böylece yönetim belgeleriniz ekibi
+    uyumlu ve dirençli tutar.</p>
 
 
     <h3>Ölçeklenebilir Yönetişim</h3>
 
-    <p>İşe alım, sermaye artırımı veya genişleme aşamalarında, yapınızı net politikalar, kurul prosedürleri ve büyüme aşamanıza uygun uyum kontrol listeleriyle uyarlıyoruz.</p>
+    <p>İşe alım, sermaye artırımı veya genişleme aşamalarında, yapınızı net
+    politikalar, kurul prosedürleri ve büyüme aşamanıza uygun uyum kontrol
+    listeleriyle uyarlıyoruz.</p>
 
 
     <h3>Geleceğe Odaklı Yapılandırma</h3>
 
-    <p>Banka ve vergi konularından yatırımcı incelemesine ve satın alma hazırlığına kadar bir sonraki kilometre taşını göz önünde bulundurarak tasarlıyoruz.</p>
+    <p>Banka ve vergi konularından yatırımcı incelemesine ve satın alma
+    hazırlığına kadar bir sonraki kilometre taşını göz önünde bulundurarak
+    tasarlıyoruz.</p>
+seo:
+  title: Şirket Kuruluşu ve Yapılandırma
+  description: >-
+    Sağlam bir hukuki temel ile şirketinizi kurmak ve büyütmek için tüzel
+    kişilik seçimi, işletme sözleşmeleri, pay dağılımı, yönetişim ve uyum.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

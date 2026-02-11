@@ -120,4 +120,14 @@ post:
     Vasiyetler ve Miras ekibimiz önce sizi dinler, en önemli olanı korumak için
     net tavsiyeler sunar. İster vasiyet hazırlayın, ister vakıf kurun, ister
     veraset sürecini yönetin; hepsini özen ve verimlilikle ele alıyoruz.</p>
+seo:
+  title: Vasiyetler ve Miras
+  description: >-
+    Kapsamlı miras planlaması, varlık koruma, vasiyet, vakıf, veraset işlemleri,
+    vasi ve kayyum hizmetleriyle mirasınızı ve sevdiklerinizi güvence altına
+    alın.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

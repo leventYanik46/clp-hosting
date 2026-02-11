@@ -21,6 +21,10 @@ publishDate: 2025-10-18T19:21:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/immigration-visa-process-in-us
   description: ' U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide.How can I obtain a US visa: what steps should I follow? Documents required to obtain a visa'
+seo:
+  description: ' U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide.How can I obtain a US visa: what steps should I follow? Documents required to obtain a visa'
+  canonicalOverride: https://capitollawpartners.com/immigration-visa-process-in-us
+  title: "Immigrant Visa Process - A Step by Step\_"
 ---
  **U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide** 
 

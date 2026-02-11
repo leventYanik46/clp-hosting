@@ -103,4 +103,13 @@ post:
 
 
     <p>Hak ettiğiniz tazminat ve huzur için savaşalım.</p>
+seo:
+  title: Kişisel Yaralanma
+  description: >-
+    Kişisel Yaralanma ekibimiz, ihmal sonucu zarar gören müvekkillerimizin
+    adalet, tazminat ve huzur arayışında yanlarında olur.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

@@ -22,15 +22,15 @@ hero:
     - variant: primary
       text: Danışmanlık Randevusu Alın
       href: /tr/schedule
-      class: 'w-full sm:mb-0'
+      class: w-full sm:mb-0
     - text: Ücretsiz Değerlendirme
       href: /tr/evaluations
       variant: primary
-      class: 'w-full sm:mb-0 hidden lg:block'
+      class: w-full sm:mb-0 hidden lg:block
     - text: Bize Ulaşın
       href: /tr/contact
       variant: primary
-      class: 'w-full sm:mb-0 lg:hidden'
+      class: w-full sm:mb-0 lg:hidden
 practiceAreas:
   id: Çalışma Alanları
   tagline: Çalışma Alanlarımız
@@ -45,42 +45,42 @@ practiceAreas:
         Şirket kuruluşundan sözleşmelere, birleşme ve devralmalardan
         uyuşmazlıkların çözümüne kadar her ölçekteki işletmeye kapsamlı
         danışmanlık.
-      icon: 'tabler:briefcase'
+      icon: tabler:briefcase
       link: /tr/practice-area/business-corporate-law
     - title: Göçmenlik Hukuku
       description: >-
         İş ve çalışma vizeleri, iltica, aile başvuruları ve sınır dışı
         savunmalarında rehberlik ederek göçmenlik süreçlerini daha anlaşılır ve
         yönetilebilir kılar.
-      icon: 'tabler:globe-filled'
+      icon: tabler:globe-filled
       link: /tr/practice-area/immigration-law
     - title: Vasiyetler ve Miras
       description: >-
         Ailenizin geleceğini korumak için kişiselleştirilmiş miras planları,
         vasiyetler ve vakıflar hazırlarız.
-      icon: 'tabler:affiliate'
+      icon: tabler:affiliate
     - title: Dış Genel Hukuk Müşavirliği ve Danışmanlık
       description: >-
         Gelişen işletmelere sözleşmeler, uyum, istihdam meseleleri, risk
         yönetimi ve günlük operasyonlarda güvenilir hukuki rehberlik sunar.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
     - title: Gayrimenkul Hukuku
       description: >-
         Ticari ve konut işlemlerinde destek vererek tüm gayrimenkul süreçlerinin
         güvenli ve sorunsuz ilerlemesini sağlar.
-      icon: 'tabler:home'
+      icon: tabler:home
       link: /tr/practice-area/real-estate
     - title: Fikri Mülkiyet Hukuku
       description: >-
         Fikirlerinizi, markalarınızı ve yaratıcı eserlerinizi marka tescili,
         telif hakları ve etkin uyuşmazlık çözümüyle korur.
-      icon: 'tabler:file-certificate'
+      icon: tabler:file-certificate
       link: /tr/practice-area/ip-law
     - title: Kişisel Yaralanma
       description: >-
         Trafik, iş kazaları ve işyeri/saha sorumluluğu da dahil kazalarda
         yaralanan bireyler için temsil; hak ettiğiniz tazminat için mücadele.
-      icon: 'tabler:ambulance'
+      icon: tabler:ambulance
 spotlights:
   - props:
       isReversed: true
@@ -176,7 +176,7 @@ testimonials:
   callToAction:
     variant: secondary
     text: Daha fazla yorum okuyun
-    href: 'https://share.google/0tXbKda3cm96I5wwf'
+    href: https://share.google/0tXbKda3cm96I5wwf
     target: _blank
     rel: noreferrer
   items:
@@ -223,7 +223,7 @@ steps:
       description: >-
         Hukuki ihtiyaçlarınızı iletişim formumuzdan paylaşın. Ekibimiz
         talebinizi inceleyip sizi doğru uzmanla buluşturur.
-      icon: 'tabler:file-text'
+      icon: tabler:file-text
     - title: >-
         Adım 2: <span class="font-medium"><a href="/tr/evaluations"
         class="hover:text-primary underline font-bold"> Ücretsiz Değerlendirme
@@ -232,7 +232,7 @@ steps:
         Dosyanız daha detaylı bir ön inceleme gerektiriyorsa ücretsiz
         değerlendirme formumuzu doldurun. Hukuk ekibimiz bilgileri dikkatle
         inceler ve gerekirse ek evrak talep eder.
-      icon: 'tabler:calendar-event'
+      icon: tabler:calendar-event
     - title: >-
         Adım 3: <span class="font-medium"><a href="/tr/schedule"
         class="hover:text-primary underline font-bold"> Danışmanlık Randevusu
@@ -241,12 +241,12 @@ steps:
         Deneyimli avukatlarımızla birebir görüşerek ister kurumsal hukuk, ister
         göçmenlik, dava veya miras planlaması olsun seçeneklerinizi birlikte
         değerlendirin.
-      icon: 'tabler:scale'
+      icon: tabler:scale
     - title: Hazırız!
       description: >-
         Net bir hukuk stratejisi ile davanızı güvenle çözüme taşırken ekibimiz
         her adımda yanınızda olur.
-      icon: 'tabler:check'
+      icon: tabler:check
   image:
     src: >-
       https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80
@@ -258,7 +258,7 @@ blog:
     ziyaret edin; karmaşık soruları güvenli kararlara dönüştürmenize yardımcı
     olalım.
 cta:
-  titleHtml: 'Capitol <span class="sm:whitespace-nowrap">Law Partners</span>'
+  titleHtml: Capitol <span class="sm:whitespace-nowrap">Law Partners</span>
   subtitleHtml: >-
     Uzmanlığımızın hukuki konularınızda yaratacağı farkı keşfedin. <br
     class="hidden md:inline" />&nbsp;Hemen bize ulaşın!
@@ -266,4 +266,10 @@ cta:
     - variant: primary
       text: Bize Ulaşın
       href: /tr/contact
+seo:
+  title: Capitol Law Partners
+  description: >-
+    Capitol Law Partners, iş, göçmenlik, miras planlaması ve fikri mülkiyet
+    hukukunda güvenilir hukuki danışmanlık sunar. Danışmanlığınızı bugün
+    planlayın.
 ---

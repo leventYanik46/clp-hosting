@@ -3,7 +3,8 @@ metadata:
   title: İşletmeler için Stratejik Hukuki Rehberlik
   description: >-
     İşletme stratejinizle uyumlu, liderlik kararlarını destekleyen ve büyümenin 
-    her aşamasında hukuki riskleri proaktif olarak ele alan üst düzey hukuki danışmanlık.
+    her aşamasında hukuki riskleri proaktif olarak ele alan üst düzey hukuki
+    danışmanlık.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -38,16 +39,17 @@ post:
 
     <p>İşletmeler için Stratejik Hukuki Rehberlik hizmetimiz, tek seferlik 
     cevaplardan daha fazlasına ihtiyaç duyan liderler için tasarlanmıştır. 
-    Sahip, yönetici ve yönetim ekipleriyle yakından çalışarak hukuki stratejimizi 
-    işletme hedefleriyle hizalayarak, büyüme, operasyonlar ve risk hakkında 
-    güvenli kararlar almanıza yardımcı oluruz.</p>
+    Sahip, yönetici ve yönetim ekipleriyle yakından çalışarak hukuki
+    stratejimizi  işletme hedefleriyle hizalayarak, büyüme, operasyonlar ve risk
+    hakkında  güvenli kararlar almanıza yardımcı oluruz.</p>
 
 
     <p>Hukuki sorunlara ortaya çıktıktan sonra tepki vermek yerine, zorlukları 
     önceden tahmin etmeye, anlaşmaları düşünceli bir şekilde yapılandırmaya ve 
-    uzun vadeli başarıyı destekleyen çerçeveler geliştirmeye yardımcı olmak için 
-    sizinle ortaklık kurarız. Erken aşama planlamadan olgun operasyonlara kadar, 
-    hareket edebileceğiniz pratik, iş açısından bilinçli hukuki tavsiye sunuyoruz.</p>
+    uzun vadeli başarıyı destekleyen çerçeveler geliştirmeye yardımcı olmak
+    için  sizinle ortaklık kurarız. Erken aşama planlamadan olgun operasyonlara
+    kadar,  hareket edebileceğiniz pratik, iş açısından bilinçli hukuki tavsiye
+    sunuyoruz.</p>
 
 
     <h3>Yaptıklarımız</h3>
@@ -63,25 +65,38 @@ post:
     <h3>Liderlik Ekibinizi Nasıl Destekleriz</h3>
 
     <p>Liderlik masasında güvenilir bir danışman olarak hareket ederek riski 
-    değerlendirmenize, seçenekleri değerlendirmenize ve hem hukuki gerçekliği hem de 
-    işletme önceliklerini yansıtan yolları seçmenize yardımcı oluruz. Avukatlarımız 
-    işletme dilini konuşur—sadece hukuk dilini değil—böylece ekibiniz soyut teori 
-    yerine net, uygulanabilir rehberlik alır.</p>
+    değerlendirmenize, seçenekleri değerlendirmenize ve hem hukuki gerçekliği
+    hem de  işletme önceliklerini yansıtan yolları seçmenize yardımcı oluruz.
+    Avukatlarımız  işletme dilini konuşur—sadece hukuk dilini değil—böylece
+    ekibiniz soyut teori  yerine net, uygulanabilir rehberlik alır.</p>
 
 
-    <p>Yeni pazarlara girseniz, ürün başlatsanız, yatırımcı getirseniz veya operasyonları 
-    yeniden yapılandırsanız, hukuki çıkarımları anlamanıza ve pozisyonunuzu korurken 
-    esnekliği koruyan stratejiler tasarlamanıza yardımcı oluruz.</p>
+    <p>Yeni pazarlara girseniz, ürün başlatsanız, yatırımcı getirseniz veya
+    operasyonları  yeniden yapılandırsanız, hukuki çıkarımları anlamanıza ve
+    pozisyonunuzu korurken  esnekliği koruyan stratejiler tasarlamanıza yardımcı
+    oluruz.</p>
 
 
     <h3>Neden Stratejik Hukuki Rehberlik Önemlidir</h3>
 
-    <p>Sağlam hukuki strateji anlaşma şartlarından ve yönetim yapılarından işe alım 
-    uygulamalarına ve satıcı ilişkilerine kadar her şeyi destekler. Hukuki düşünceyi 
-    planlama sürecinize yerleştirerek, sürprizleri azaltır, maliyetleri kontrol eder ve 
-    işletmenizi daha hızlı ve daha güvenle hareket etmeye hazırlarsınız.</p>
+    <p>Sağlam hukuki strateji anlaşma şartlarından ve yönetim yapılarından işe
+    alım  uygulamalarına ve satıcı ilişkilerine kadar her şeyi destekler. Hukuki
+    düşünceyi  planlama sürecinize yerleştirerek, sürprizleri azaltır,
+    maliyetleri kontrol eder ve  işletmenizi daha hızlı ve daha güvenle hareket
+    etmeye hazırlarsınız.</p>
 
 
-    <p>Amacımız başarınızda uzun vadeli bir ortak olmak—sorunlar ortaya çıktığında 
-    yanıt vermeye hazır olmak ve mümkün olduğu yerde bunları önlemeye yardımcı olmak.</p>
+    <p>Amacımız başarınızda uzun vadeli bir ortak olmak—sorunlar ortaya
+    çıktığında  yanıt vermeye hazır olmak ve mümkün olduğu yerde bunları
+    önlemeye yardımcı olmak.</p>
+seo:
+  title: İşletmeler için Stratejik Hukuki Rehberlik
+  description: >-
+    İşletme stratejinizle uyumlu, liderlik kararlarını destekleyen ve büyümenin 
+    her aşamasında hukuki riskleri proaktif olarak ele alan üst düzey hukuki
+    danışmanlık.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

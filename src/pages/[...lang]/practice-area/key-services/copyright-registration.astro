@@ -29,11 +29,11 @@ if (lang === 'fr') langFolder = 'french';
 const entry = await getEntry('practiceArea', `${langFolder}/copyright-registration`);
 if (!entry) throw new Error('Practice area not found for language: ' + lang);
 
-const { metadata, post, contactForm, hero } = entry.data;
+const { metadata, seo, post, contactForm, hero } = entry.data;
 
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   <section class="py-2 sm:py-6 lg:py-8 mx-auto">
     {contactForm && (
       <ContactUs

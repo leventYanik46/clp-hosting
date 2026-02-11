@@ -20,7 +20,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
   googleReview:
     label: Avaliações do Google
@@ -37,8 +37,8 @@ post:
   image: ~/assets/images/estate-img.jpg
   content: >
 
-    <p>Soluções de tutela que protegem menores ou adultos vulneráveis, respeitando
-    a dinâmica familiar.</p>
+    <p>Soluções de tutela que protegem menores ou adultos vulneráveis,
+    respeitando a dinâmica familiar.</p>
 
 
     <h3>Principais Serviços</h3>
@@ -52,7 +52,16 @@ post:
 
     <h3>Por que isso é importante</h3>
 
-    <p>Alinhamos estratégia, documentos e execução para que seus objetivos estejam
-    protegidos. Cada caso é tratado com comunicação clara, orientação pragmática e
-    foco em agilidade e redução de riscos.</p>
+    <p>Alinhamos estratégia, documentos e execução para que seus objetivos
+    estejam protegidos. Cada caso é tratado com comunicação clara, orientação
+    pragmática e foco em agilidade e redução de riscos.</p>
+seo:
+  title: Tutela Legal
+  description: >-
+    Soluções de tutela que protegem menores ou adultos vulneráveis, respeitando
+    a dinâmica familiar.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

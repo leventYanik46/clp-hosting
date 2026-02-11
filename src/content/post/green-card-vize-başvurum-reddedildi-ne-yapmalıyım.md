@@ -13,6 +13,13 @@ metadata:
   description: >-
     Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım Burada!
     Başvurunuz reddedildikten sonra atmanız gereken adımları öğrenin.
+seo:
+  description: >-
+    Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım Burada!
+    Başvurunuz reddedildikten sonra atmanız gereken adımları öğrenin.
+  canonicalOverride: >-
+    https://capitollawpartners.com/green-card-vize-ba%c5%9fvurum-reddedildi-ne-yapmal%c4%b1y%c4%b1m
+  title: Green Card - Vize Başvurum Reddedildi Ne Yapmalıyım?
 ---
 ## Vize Başvurum Reddedildi Ne Yapmalıyım? 
 

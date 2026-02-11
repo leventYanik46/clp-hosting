@@ -1,13 +1,14 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import type { MetaData } from '~/types';
+import type { MetaData, SeoData } from '~/types';
 import type { HreflangAlternate } from '~/data/seo';
 
 export interface Props {
   frontmatter: {
     title?: string;
     metadata?: MetaData;
+    seo?: SeoData;
   };
   languageAlternates?: HreflangAlternate[];
   ogLocaleAlternates?: string[];
@@ -28,9 +29,15 @@ const metadata: MetaData = {
       }
     : {}),
 };
+
+const seo: SeoData = {
+  ...frontmatter?.seo,
+  title: frontmatter?.seo?.title ?? frontmatter?.title ?? frontmatter?.metadata?.title,
+  description: frontmatter?.seo?.description ?? frontmatter?.metadata?.description,
+};
 ---
 
-<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
+<Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <slot name="schema" slot="schema" />
   <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
     <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter">{frontmatter.title}</h1>

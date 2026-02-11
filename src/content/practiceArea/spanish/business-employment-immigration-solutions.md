@@ -1,7 +1,9 @@
 ---
 metadata:
   title: Soluciones de Inmigración Empresarial y Laboral
-  description: Estrategias de inmigración laboral que trasladan talento de manera legal y puntual.
+  description: >-
+    Estrategias de inmigración laboral que trasladan talento de manera legal y
+    puntual.
 hero:
   tagline: Contáctenos
   title: ¡Conectemos!
@@ -11,13 +13,14 @@ hero:
 contactForm:
   title: ¡Envíenos un mensaje hoy!
   subtitle: >-
-    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos ahora para comenzar su proceso!
+    Obtenga asesoría legal experta adaptada a sus necesidades. ¡Contáctenos
+    ahora para comenzar su proceso!
   inputs:
     name: Nombre
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: "Al enviar este formulario, acepta la recopilación de datos."
+  disclaimer: Al enviar este formulario, acepta la recopilación de datos.
   description: Nuestro equipo suele responder en un plazo de 24 horas hábiles.
   googleReview:
     label: Reseñas de Google
@@ -26,13 +29,16 @@ contactForm:
     url: >-
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Soluciones de Inmigración Empresarial y Laboral
-  infoDescription: Estrategias de inmigración laboral que trasladan talento de manera legal y puntual.
+  infoDescription: >-
+    Estrategias de inmigración laboral que trasladan talento de manera legal y
+    puntual.
 post:
   title: Soluciones de Inmigración Empresarial y Laboral
   image: ~/assets/images/business-immigration-img.jpg
   content: >
 
-    <p>Estrategias de inmigración laboral que trasladan talento de manera legal y puntual.</p>
+    <p>Estrategias de inmigración laboral que trasladan talento de manera legal
+    y puntual.</p>
 
 
     <h3>Servicios Clave</h3>
@@ -46,5 +52,16 @@ post:
 
     <h3>Por Qué Importa</h3>
 
-    <p>Alineamos estrategia, documentos y ejecución para que sus objetivos permanezcan protegidos. Cada caso se maneja con comunicación clara, asesoría pragmática y un enfoque en la rapidez y reducción de riesgos.</p>
+    <p>Alineamos estrategia, documentos y ejecución para que sus objetivos
+    permanezcan protegidos. Cada caso se maneja con comunicación clara, asesoría
+    pragmática y un enfoque en la rapidez y reducción de riesgos.</p>
+seo:
+  title: Soluciones de Inmigración Empresarial y Laboral
+  description: >-
+    Estrategias de inmigración laboral que trasladan talento de manera legal y
+    puntual.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

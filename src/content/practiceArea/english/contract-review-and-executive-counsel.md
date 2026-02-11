@@ -31,7 +31,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Contract Review & Executive Counsel
@@ -83,4 +83,14 @@ post:
 
     <p>We aim to become your go-to partner for important contracts and the
     strategic decisions that surround them.</p>
+seo:
+  title: Contract Review & Executive Counsel
+  description: >-
+    Careful contract review, negotiation, and drafting, combined with direct
+    advisory support for executives on legal strategy and complex business
+    decisions.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

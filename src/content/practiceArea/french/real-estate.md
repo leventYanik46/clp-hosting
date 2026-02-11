@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Droit immobilier
@@ -116,4 +116,14 @@ post:
     <p>En immobilier, le détail compte. Nous prenons le temps de comprendre vos
     objectifs — achat, vente, location ou développement — et nous nous engageons
     à vous aider à conclure vos opérations en limitant les risques.</p>
+seo:
+  title: Droit immobilier
+  description: >-
+    Conseil pour les transactions immobilières commerciales et résidentielles,
+    acquisitions, location, développement et négociation contractuelle pour des
+    opérations sécurisées.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

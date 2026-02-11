@@ -18,6 +18,13 @@ metadata:
     trademarks, copyrights, patents, and trade secrets-crafted for U.S.-based
     legal advisory firms.
   canonical: https://capitollawpartners.com/intellectual-property-law
+seo:
+  description: >-
+    A practical guide to Intellectual Property Law for entrepreneurs, covering
+    trademarks, copyrights, patents, and trade secrets-crafted for U.S.-based
+    legal advisory firms.
+  canonicalOverride: https://capitollawpartners.com/intellectual-property-law
+  title: Intellectual Property Law
 ---
 
 

@@ -2,7 +2,8 @@
 metadata:
   title: Göçmenlik Davaları
   description: >-
-    Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari davalar.
+    Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari
+    davalar.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -27,13 +28,15 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Göçmenlik Davaları
   infoDescription: >-
-    Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari davalar.
+    Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari
+    davalar.
 post:
   title: Göçmenlik Davaları
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari davalar.</p>
+    <p>Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari
+    davalar.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -47,5 +50,16 @@ post:
 
     <h3>Neden Önemli?</h3>
 
-    <p>Strateji, belgeler ve uygulamayı uyumlu hale getirerek hedeflerinizin korunmasını sağlıyoruz. Her konu, açık iletişim, pragmatik tavsiye ve hız ile risk azaltmaya odaklanılarak ele alınır.</p>
+    <p>Strateji, belgeler ve uygulamayı uyumlu hale getirerek hedeflerinizin
+    korunmasını sağlıyoruz. Her konu, açık iletişim, pragmatik tavsiye ve hız
+    ile risk azaltmaya odaklanılarak ele alınır.</p>
+seo:
+  title: Göçmenlik Davaları
+  description: >-
+    Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari
+    davalar.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

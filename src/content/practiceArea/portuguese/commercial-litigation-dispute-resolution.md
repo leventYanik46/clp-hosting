@@ -2,7 +2,9 @@
 metadata:
   title: Contencioso Comercial e Resolução de Disputas
   description: >-
-    Representação estratégica para quebras de contrato, conflitos societários e ilícitos empresariais, orientando empresas em negociações, mediações e litígios para proteger seus interesses.
+    Representação estratégica para quebras de contrato, conflitos societários e
+    ilícitos empresariais, orientando empresas em negociações, mediações e
+    litígios para proteger seus interesses.
 hero:
   tagline: Fale Conosco
   title: Vamos conversar!
@@ -12,10 +14,13 @@ hero:
 contactForm:
   title: Envie uma mensagem hoje mesmo!
   subtitle: >-
-    Receba orientação jurídica especializada adaptada às suas necessidades. Fale conosco para começar!
+    Receba orientação jurídica especializada adaptada às suas necessidades. Fale
+    conosco para começar!
   infoTitle: Contencioso Comercial e Resolução de Disputas
   infoDescription: >-
-    Representação estratégica para quebras de contrato, conflitos societários e ilícitos empresariais, orientando empresas em negociações, mediações e litígios para proteger seus interesses.
+    Representação estratégica para quebras de contrato, conflitos societários e
+    ilícitos empresariais, orientando empresas em negociações, mediações e
+    litígios para proteger seus interesses.
   googleReview:
     label: Avaliações do Google
     rating: 5
@@ -27,14 +32,17 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Contencioso Comercial e Resolução de Disputas
   image: ~/assets/images/corporate-img.jpg
   content: >
 
-    <p>Conflitos empresariais ameaçam o ritmo, a reputação e a lucratividade do negócio. Nossa equipe de contencioso comercial atua rapidamente para avaliar riscos, preservar vantagem e buscar o melhor caminho — seja por acordo eficiente ou defesa firme em juízo.</p>
+    <p>Conflitos empresariais ameaçam o ritmo, a reputação e a lucratividade do
+    negócio. Nossa equipe de contencioso comercial atua rapidamente para avaliar
+    riscos, preservar vantagem e buscar o melhor caminho — seja por acordo
+    eficiente ou defesa firme em juízo.</p>
 
 
     <h3>Principais Serviços</h3>
@@ -49,15 +57,31 @@ post:
 
     <h3>Estratégia Pré-Litigiosa</h3>
 
-    <p>Analisamos fatos, contratos e riscos desde o início para posicionar você com vantagem. Cartas de cobrança, estratégias de preservação e planos de negociação são adaptados aos seus objetivos empresariais.</p>
+    <p>Analisamos fatos, contratos e riscos desde o início para posicionar você
+    com vantagem. Cartas de cobrança, estratégias de preservação e planos de
+    negociação são adaptados aos seus objetivos empresariais.</p>
 
 
     <h3>Mediação, Arbitragem e Julgamento</h3>
 
-    <p>Do ADR ao tribunal, construímos o processo, gerenciamos provas e defendemos com clareza. Mantemos a liderança informada com atualizações práticas e foco em resultados, sem juridiquês.</p>
+    <p>Do ADR ao tribunal, construímos o processo, gerenciamos provas e
+    defendemos com clareza. Mantemos a liderança informada com atualizações
+    práticas e foco em resultados, sem juridiquês.</p>
 
 
     <h3>Protegendo o Valor do Negócio</h3>
 
-    <p>Cada ação visa reduzir impactos e proteger o valor da empresa. Seja resolvendo rapidamente ou litigando até o fim, alinhamos a estratégia à realidade comercial do seu negócio.</p>
+    <p>Cada ação visa reduzir impactos e proteger o valor da empresa. Seja
+    resolvendo rapidamente ou litigando até o fim, alinhamos a estratégia à
+    realidade comercial do seu negócio.</p>
+seo:
+  title: Contencioso Comercial e Resolução de Disputas
+  description: >-
+    Representação estratégica para quebras de contrato, conflitos societários e
+    ilícitos empresariais, orientando empresas em negociações, mediações e
+    litígios para proteger seus interesses.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

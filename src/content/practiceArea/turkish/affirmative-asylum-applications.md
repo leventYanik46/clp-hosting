@@ -60,7 +60,16 @@ post:
 
     <h3>Neden Bizimle Çalışmalısınız?</h3>
 
-    <p>Her dosyayı, net iletişim, pragmatik tavsiye ve hız ile risk
-    azaltımına odaklanarak yürütürüz. Sığınma prosesi stres ve belirsizlikle
-    dolu olabilir, ancak siz yalnız değilsiniz—biz her adımda yanınızdayız.</p>
+    <p>Her dosyayı, net iletişim, pragmatik tavsiye ve hız ile risk azaltımına
+    odaklanarak yürütürüz. Sığınma prosesi stres ve belirsizlikle dolu olabilir,
+    ancak siz yalnız değilsiniz—biz her adımda yanınızdayız.</p>
+seo:
+  title: Olumlu Sığınma Başvuruları
+  description: >-
+    Destekleyici kanıtlar ve mülakat hazırlığıyla titizlikle hazırlanmış sığınma
+    başvuruları.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

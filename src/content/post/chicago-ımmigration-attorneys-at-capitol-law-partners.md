@@ -17,6 +17,13 @@ metadata:
     cards, citizenship — personalized legal solutions for your immigration
     journey
   canonical: https://capitollawpartners.com/immigration-attorneys
+seo:
+  description: >-
+    Expert Chicago immigration attorneys at Capitol Law Partners. Visas, green
+    cards, citizenship — personalized legal solutions for your immigration
+    journey
+  canonicalOverride: https://capitollawpartners.com/immigration-attorneys
+  title: Chicago Immigration Attorneys at Capitol Law Partners
 ---
 ## \
 Chicago Immigration Attorneys at Capitol Law Partners

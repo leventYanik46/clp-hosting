@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: 'Contract Drafting, Review, and Negotiation'
+  title: Contract Drafting, Review, and Negotiation
   description: >-
     Clear, enforceable agreements for vendors, clients, employees, and
     partners—crafted and negotiated to reduce risk and advance your business
@@ -16,7 +16,7 @@ contactForm:
   subtitle: >-
     Get expert legal guidance tailored to your needs. Contact us now to start
     your journey!
-  infoTitle: 'Contract Drafting, Review, and Negotiation'
+  infoTitle: Contract Drafting, Review, and Negotiation
   infoDescription: >-
     Clear, enforceable agreements for vendors, clients, employees, and
     partners—crafted and negotiated to reduce risk and advance your business
@@ -32,10 +32,10 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
-  title: 'Contract Drafting, Review, and Negotiation'
+  title: Contract Drafting, Review, and Negotiation
   image: ~/assets/images/precision-img.jpg
   content: >
 
@@ -75,4 +75,14 @@ post:
     <p>Contracts should be workable. We ensure obligations, service levels, and
     governance match how your teams actually operate, preventing friction after
     signature.</p>
+seo:
+  title: Contract Drafting, Review, and Negotiation
+  description: >-
+    Clear, enforceable agreements for vendors, clients, employees, and
+    partners—crafted and negotiated to reduce risk and advance your business
+    goals.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

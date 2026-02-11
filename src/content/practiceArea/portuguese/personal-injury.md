@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Direito de Lesões Pessoais
@@ -83,4 +83,14 @@ post:
 
 
     <p>Deixe-nos lutar pela compensação e tranquilidade que você merece.</p>
+seo:
+  title: Direito de Lesões Pessoais
+  description: >-
+    Nossa equipe de Lesões Pessoais protege clientes prejudicados por
+    negligência, ajudando-os a buscar justiça, compensação e tranquilidade em
+    momentos difíceis.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

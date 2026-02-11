@@ -30,7 +30,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Intellectual Property Law
@@ -102,4 +102,13 @@ post:
     lasting IP strategy. Whether it is trademarks, copyrights, or defending
     against infringement, we are in your corner, focused on safeguarding your
     creativity and business edge.</p>
+seo:
+  title: Intellectual Property Law
+  description: >-
+    Trademark, copyright, trade secret protection, IP portfolio management, and
+    litigation services to safeguard your brand and innovations.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

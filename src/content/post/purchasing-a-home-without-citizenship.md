@@ -13,6 +13,10 @@ publishDate: 2025-12-27T20:49:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/purchasing-a-home-without-citizenship
   description: "Purchasing a Home Without Citizenship. What Types of Properties Can Non-Citizens Buy?\_Buying\_Real\_Estate\_in\_the\_U.S.:\_Are\_There\_Any\_Restrictions\_for\_Foreign\_Nationals?\_Can\_you\_buy a\_house\_if\_you\_only\_have\_a\_work\_visa\_or\_a\_student\_visa?"
+seo:
+  description: "Purchasing a Home Without Citizenship. What Types of Properties Can Non-Citizens Buy?\_Buying\_Real\_Estate\_in\_the\_U.S.:\_Are\_There\_Any\_Restrictions\_for\_Foreign\_Nationals?\_Can\_you\_buy a\_house\_if\_you\_only\_have\_a\_work\_visa\_or\_a\_student\_visa?"
+  canonicalOverride: https://capitollawpartners.com/purchasing-a-home-without-citizenship
+  title: "Purchasing a Home Without Citizenship\_"
 ---
 ## **Purchasing a Home Without Citizenship** 
 

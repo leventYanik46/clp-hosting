@@ -12,6 +12,13 @@ metadata:
     Learn how U.S. Intellectual Property Law safeguards your ideas. Capitol Law
     Partners offers expert guidance on patents, trademarks, copyrights, and
     trade secrets.
+seo:
+  description: >-
+    Learn how U.S. Intellectual Property Law safeguards your ideas. Capitol Law
+    Partners offers expert guidance on patents, trademarks, copyrights, and
+    trade secrets.
+  canonicalOverride: https://capitollawpartners.com/intellectual-property-law-in-the-u-s
+  title: Intellectual Property Law in the U.S
 ---
 ### **Intellectual Property Law in the U.S.: Protecting Your Ideas and Innovations**  
 

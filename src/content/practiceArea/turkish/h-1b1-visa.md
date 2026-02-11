@@ -2,7 +2,8 @@
 metadata:
   title: H-1B1 Vizesi
   description: >-
-    ABD'de uzmanlık gerektiren pozisyonlara başvuran Şili ve Singapur vatandaşları için vizeler.
+    ABD'de uzmanlık gerektiren pozisyonlara başvuran Şili ve Singapur
+    vatandaşları için vizeler.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -14,12 +15,14 @@ contactForm:
   subtitle: İhtiyaçlarınıza özel hukuki rehberlik için bizimle iletişime geçin.
   infoTitle: H-1B1 Vizesi
   infoDescription: >-
-    H-1B1 Vizesi uygunluğu, dilekçe taslağı, kanıt ve mülakat hazırlığı için uçtan uca destek.
+    H-1B1 Vizesi uygunluğu, dilekçe taslağı, kanıt ve mülakat hazırlığı için
+    uçtan uca destek.
   googleReview:
     label: Google Yorumları
     rating: 5
     count: 97
-    url: https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
+    url: >-
+      https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   inputs:
     name: Ad
     email: E-posta
@@ -32,9 +35,12 @@ post:
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>H-1B1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt hazırlığında sizi yönlendirir, sürecin rayında kalmasını sağlar.</p>
+    <p>H-1B1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt
+    hazırlığında sizi yönlendirir, sürecin rayında kalmasını sağlar.</p>
 
-    <p>Formları, destek mektuplarını ve belgeleri koordine ediyor; başvuruların USCIS ve konsolosluk standartlarını karşılaması için başvurudan mülakata her aşamaya hazırlanmanızı sağlıyoruz.</p>
+    <p>Formları, destek mektuplarını ve belgeleri koordine ediyor; başvuruların
+    USCIS ve konsolosluk standartlarını karşılaması için başvurudan mülakata her
+    aşamaya hazırlanmanızı sağlıyoruz.</p>
 
     <h3>Temel Hizmetler</h3>
 
@@ -47,15 +53,27 @@ post:
 
     <h3>Hizmet Özeti</h3>
 
-    <h3>Uygunluk ve Strateji</h3>
-    <p>Arka planınızı H-1B1 Vizesi kriterleriyle eşleştiriyor, zaman çizelgesi, riskler ve sonraki adımları net bir planla belirliyoruz.</p>
+    <h3>Uygunluk ve Strateji</h3> <p>Arka planınızı H-1B1 Vizesi kriterleriyle
+    eşleştiriyor, zaman çizelgesi, riskler ve sonraki adımları net bir planla
+    belirliyoruz.</p>
 
-    <h3>Başvuru ve Kanıt</h3>
-    <p>Dilekçe taslakları hazırlıyor, destekleyici belgeleri topluyor ve dosyaları değerlendiricilerin beklentilerine göre kurguluyoruz.</p>
+    <h3>Başvuru ve Kanıt</h3> <p>Dilekçe taslakları hazırlıyor, destekleyici
+    belgeleri topluyor ve dosyaları değerlendiricilerin beklentilerine göre
+    kurguluyoruz.</p>
 
-    <h3>Mülakatlar ve Takip</h3>
-    <p>Mülakatlara hazırlanmanızı sağlıyor, randevu süreçlerini yönetiyor ve kurum taleplerine hızlı yanıt vererek dosyanızı ilerletiyoruz.</p>
+    <h3>Mülakatlar ve Takip</h3> <p>Mülakatlara hazırlanmanızı sağlıyor, randevu
+    süreçlerini yönetiyor ve kurum taleplerine hızlı yanıt vererek dosyanızı
+    ilerletiyoruz.</p>
 
-    <h3>Neden Bizimle Çalışmalısınız?</h3>
-    <p>Odaklı ve stratejik temsil; H-1B1 Vizesi sürecinizin her aşamasında sizi bilgilendirir ve hazır tutar.</p>
+    <h3>Neden Bizimle Çalışmalısınız?</h3> <p>Odaklı ve stratejik temsil; H-1B1
+    Vizesi sürecinizin her aşamasında sizi bilgilendirir ve hazır tutar.</p>
+seo:
+  title: H-1B1 Vizesi
+  description: >-
+    ABD'de uzmanlık gerektiren pozisyonlara başvuran Şili ve Singapur
+    vatandaşları için vizeler.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

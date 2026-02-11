@@ -20,6 +20,13 @@ metadata:
     Amerika Birleşik Devletleri'nde Oturma İzni Nasıl Alınır? Green Card Sahibi
     Olmadan Oturma İzni Alınır Mı? Çalışma Yoluyla Vatandaşlık Almak. En Yaygın
     Yöntem.
+seo:
+  description: >-
+    Amerika Birleşik Devletleri'nde Oturma İzni Nasıl Alınır? Green Card Sahibi
+    Olmadan Oturma İzni Alınır Mı? Çalışma Yoluyla Vatandaşlık Almak. En Yaygın
+    Yöntem.
+  canonicalOverride: https://capitollawpartners.com/amerikada-oturma-izni-nasil-alinir
+  title: Amerika’da Oturma İzni Nasıl Alınır?
 ---
 ## Amerika’da Oturma İzni Nasıl Alınır?
 

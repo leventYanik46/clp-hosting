@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Real Estate Law
@@ -102,4 +102,14 @@ post:
     truly understand your goals, whether you are buying, selling, leasing, or
     developing property. We are thorough, responsive, and committed to helping
     you close deals smoothly while minimizing risks along the way.</p>
+seo:
+  title: Real Estate Law
+  description: >-
+    Guidance in commercial and residential real estate transactions, property
+    acquisitions, leasing, development, and contract negotiation for seamless
+    property deals.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

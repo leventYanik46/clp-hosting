@@ -32,7 +32,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Asesoría General y Servicios Consultivos
@@ -101,4 +101,14 @@ post:
     general. Nuestros abogados se integran a su equipo directivo para anticipar
     necesidades legales y responder con rapidez, permitiéndole liderar su
     negocio con claridad y confianza.</p>
+seo:
+  title: Asesoría General y Servicios Consultivos
+  description: >-
+    Asesoría ejecutiva, revisión de contratos, gobernanza corporativa y
+    cumplimiento normativo para empresas que necesitan orientación legal
+    experimentada sin el costo de un equipo interno.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

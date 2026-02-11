@@ -18,6 +18,12 @@ metadata:
   description: >-
     Nasıl Amerika'da Üniversite Okunur? Amerika'da Üniversite Okuyabilmek İçin
     Girilmesi gereken Sınavlar. Dil Yeterliliği Gerekiyor Mu?
+seo:
+  description: >-
+    Nasıl Amerika'da Üniversite Okunur? Amerika'da Üniversite Okuyabilmek İçin
+    Girilmesi gereken Sınavlar. Dil Yeterliliği Gerekiyor Mu?
+  canonicalOverride: https://capitollawpartners.com/amerikada-nas%c4%b1l-%c3%bcniversite-okunur
+  title: Nasıl Amerika’da Üniversite Okunur?
 ---
 ## **Nasıl Amerika’da** **Üniversite Okunur? | Capitol Law Partners** 
 

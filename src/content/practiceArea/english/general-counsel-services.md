@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: General Counsel & Advisory Services
@@ -100,4 +100,14 @@ post:
     overhead. Our attorneys integrate seamlessly into your leadership team to
     anticipate legal needs and respond decisively, enabling you to lead your
     business forward with clarity and confidence.</p>
+seo:
+  title: General Counsel & Advisory Services
+  description: >-
+    Executive legal advisory, contract review, corporate governance, and
+    compliance counsel for businesses seeking experienced legal guidance without
+    in-house overhead.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

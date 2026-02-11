@@ -23,7 +23,7 @@ if (!confirmationPage || confirmationPage.length === 0 || !confirmationPage[0].d
 }
 
 const {
-  metadata,
+  metadata, seo,
   title,
   see_more_text,
   about_button_text,
@@ -70,7 +70,7 @@ const pageLinks = [
 ];
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   <!-- Hero Widget ******************* -->
 
   <Hero3

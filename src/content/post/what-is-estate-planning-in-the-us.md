@@ -15,6 +15,13 @@ metadata:
     guardianship, and conservatorship in the U.S. with expert insight from
     Capitol Law Partners.
   canonical: https://capitollawpartners.com/estate-planning
+seo:
+  description: >-
+    Comprehensive guide on estate planning, trusts, wills, probate,
+    guardianship, and conservatorship in the U.S. with expert insight from
+    Capitol Law Partners.
+  canonicalOverride: https://capitollawpartners.com/estate-planning
+  title: What is Estate Planning in the US
 ---
 
 

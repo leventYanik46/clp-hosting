@@ -15,6 +15,12 @@ metadata:
   description: >-
     Adım adım H-1B vize takvimi ve kontrol listesi. ABD çalışma vizesini
     başarıyla almak için önemli tarihler. Kura ipuçları.
+seo:
+  description: >-
+    Adım adım H-1B vize takvimi ve kontrol listesi. ABD çalışma vizesini
+    başarıyla almak için önemli tarihler. Kura ipuçları.
+  canonicalOverride: https://capitollawpartners.com/h-1-vize-s%c3%bcreci
+  title: 'H-1 Vize Süreci '
 ---
 ## H-1B Vize Sürecini Anlamak
 

@@ -14,8 +14,8 @@ hero:
 contactForm:
   title: Drop us a message today!
   subtitle: >-
-    Get strategic, business-focused legal guidance from attorneys who
-    understand growth, risk, and long-term planning.
+    Get strategic, business-focused legal guidance from attorneys who understand
+    growth, risk, and long-term planning.
   infoTitle: Strategic Legal Guidance for Businesses
   infoDescription: >-
     Holistic legal support that integrates with your business objectives,
@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Strategic Legal Guidance for Businesses
@@ -89,4 +89,14 @@ post:
     <p>Our goal is to become a long-term partner in your success—ready to
     respond when issues arise, and proactive in helping you prevent them where
     possible.</p>
+seo:
+  title: Strategic Legal Guidance for Businesses
+  description: >-
+    High-level legal counsel that aligns with your business strategy, supports
+    leadership decision-making, and proactively addresses legal risks at every
+    stage of growth.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

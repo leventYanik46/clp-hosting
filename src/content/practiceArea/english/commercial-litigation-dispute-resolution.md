@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Commercial Litigation & Dispute Resolution
@@ -74,4 +74,14 @@ post:
     <p>Every move aims to reduce disruption and protect enterprise value.
     Whether resolving quickly or litigating to verdict, we align strategy with
     the commercial realities of your business.</p>
+seo:
+  title: Commercial Litigation & Dispute Resolution
+  description: >-
+    Strategic representation for contract breaches, partnership conflicts, and
+    business torts, guiding companies through negotiation, mediation, and
+    litigation to protect their interests.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

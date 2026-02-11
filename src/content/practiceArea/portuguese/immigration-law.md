@@ -30,7 +30,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Direito de Imigração
@@ -163,4 +163,13 @@ post:
     Seja combatendo atrasos, defendendo contra remoção ou guiando petições
     familiares ou de trabalho, combinamos precisão e empatia para ajudar você a
     alcançar seus objetivos.</p>
+seo:
+  title: Direito de Imigração
+  description: >-
+    Contencioso de imigração, defesa contra remoção, pedidos de asilo e soluções
+    de imigração familiar e empresarial para apoiar pessoas e empregadores.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

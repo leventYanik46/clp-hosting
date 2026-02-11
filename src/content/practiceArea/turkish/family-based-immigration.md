@@ -2,7 +2,8 @@
 metadata:
   title: Aile Temelli Göçmenlik
   description: >-
-    Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan açık ve zamanında başvurular.
+    Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan
+    açık ve zamanında başvurular.
 hero:
   tagline: Bize Ulaşın
   title: Bağlanalım!
@@ -27,13 +28,15 @@ contactForm:
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Aile Temelli Göçmenlik
   infoDescription: >-
-    Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan açık ve zamanında başvurular.
+    Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan
+    açık ve zamanında başvurular.
 post:
   title: Aile Temelli Göçmenlik
   image: ~/assets/images/immigration-img.jpg
   content: >
 
-    <p>Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan açık ve zamanında başvurular.</p>
+    <p>Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada
+    tutan açık ve zamanında başvurular.</p>
 
 
     <h3>Temel Hizmetler</h3>
@@ -47,5 +50,16 @@ post:
 
     <h3>Neden Önemli?</h3>
 
-    <p>Strateji, belgeler ve uygulamayı uyumlu hale getirerek hedeflerinizin korunmasını sağlıyoruz. Her konu, açık iletişim, pragmatik tavsiye ve hız ile risk azaltmaya odaklanılarak ele alınır.</p>
+    <p>Strateji, belgeler ve uygulamayı uyumlu hale getirerek hedeflerinizin
+    korunmasını sağlıyoruz. Her konu, açık iletişim, pragmatik tavsiye ve hız
+    ile risk azaltmaya odaklanılarak ele alınır.</p>
+seo:
+  title: Aile Temelli Göçmenlik
+  description: >-
+    Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan
+    açık ve zamanında başvurular.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

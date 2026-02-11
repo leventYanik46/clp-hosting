@@ -18,6 +18,11 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/the-fastes-ways-to-get-a-green-card-in-the-u-s
   description: "The Fastest Ways to Get a Green Card in the U.S. How to Get a Green Card — and How to Do It Fast?\_Let’s find out. The quickest ways to get a Green Card is.."
+seo:
+  description: "The Fastest Ways to Get a Green Card in the U.S. How to Get a Green Card — and How to Do It Fast?\_Let’s find out. The quickest ways to get a Green Card is.."
+  canonicalOverride: >-
+    https://capitollawpartners.com/the-fastes-ways-to-get-a-green-card-in-the-u-s
+  title: "The Fastest Ways to Get a Green Card in the U.S.\_"
 ---
 ### **The Fastest Ways to Get a Green Card in the U.S.**
 

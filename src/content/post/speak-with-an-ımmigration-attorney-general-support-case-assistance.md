@@ -18,6 +18,14 @@ metadata:
     Get immigration case assistance at Capitol Law Partners. Speak with an
     attorney for trusted support in visas, green cards, citizenship, and
     deportation defense.
+seo:
+  description: >-
+    Get immigration case assistance at Capitol Law Partners. Speak with an
+    attorney for trusted support in visas, green cards, citizenship, and
+    deportation defense.
+  canonicalOverride: >-
+    https://capitollawpartners.com/speak-with-an-immigration-attorney-general-sport
+  title: "Speak with an Immigration Attorney: General Support & Case Assistance\_"
 ---
 ## **Speak with an Immigration Attorney: General Support & Case Assistance** 
 

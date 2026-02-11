@@ -97,4 +97,14 @@ post:
     overhead. Our attorneys integrate seamlessly into your leadership team to
     anticipate legal needs and respond decisively, enabling you to lead your
     business forward with clarity and confidence.</p>
+seo:
+  title: General Counsel & Advisory Services
+  description: >-
+    Executive legal advisory, contract review, corporate governance, and
+    compliance counsel for businesses seeking experienced legal guidance without
+    in-house overhead.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

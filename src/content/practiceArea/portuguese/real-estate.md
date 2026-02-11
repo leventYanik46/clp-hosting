@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Telefone
   textarea: Mensagem
-  disclaimer: 'Ao enviar este formulário, você concorda com a coleta de dados.'
+  disclaimer: Ao enviar este formulário, você concorda com a coleta de dados.
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Direito Imobiliário
@@ -104,4 +104,14 @@ post:
     ou desenvolvimento de imóveis. Somos minuciosos, ágeis e comprometidos em
     ajudar você a fechar negócios com tranquilidade, minimizando riscos pelo
     caminho.</p>
+seo:
+  title: Direito Imobiliário
+  description: >-
+    Orientação em transações imobiliárias comerciais e residenciais, aquisições
+    de imóveis, locação, desenvolvimento e negociação contratual para negócios
+    imobiliários seguros.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

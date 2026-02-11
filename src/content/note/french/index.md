@@ -1,4 +1,6 @@
 ---
-title:  "Philosophie:"
-text: "Nous rendons le complexe simple"
+title: 'Philosophie:'
+text: Nous rendons le complexe simple
+seo:
+  title: 'Philosophie:'
 ---

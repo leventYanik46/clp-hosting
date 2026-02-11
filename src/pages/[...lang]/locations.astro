@@ -22,10 +22,10 @@ if (!locationsPage || locationsPage.length === 0 || !locationsPage[0].data) {
   throw new Error("Locations content not found for language: " + lang);
 }
 
-const { metadata, hero, locations, callToAction, features } = locationsPage[0].data;
+const { metadata, seo, hero, locations, callToAction, features } = locationsPage[0].data;
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   <!-- HeroText Widget ******************* -->
   <HeroText tagline={hero.tagline} title={hero.title} />
 

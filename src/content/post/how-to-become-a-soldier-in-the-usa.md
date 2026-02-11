@@ -18,6 +18,13 @@ metadata:
     Learn how to become a soldier in the USA. Capitol Law Partners explains
     enlistment requirements, legal considerations, and pathways for citizens and
     non-citizens. 
+seo:
+  description: >-
+    Learn how to become a soldier in the USA. Capitol Law Partners explains
+    enlistment requirements, legal considerations, and pathways for citizens and
+    non-citizens. 
+  canonicalOverride: https://capitollawpartners.com/how-to-become-a-soldier-in-the-usa
+  title: 'How to Become a Soldier in the USA '
 ---
 ## **How to Become a Soldier in the USA**
 

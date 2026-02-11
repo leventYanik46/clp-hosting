@@ -13,6 +13,12 @@ metadata:
     What Is Form i-130? 2025 Update. Discover the latest October 2025 USCIS
     I-130 processing times for spouses parents, children, and siblings..
   canonical: https://capitollawpartners.com/what-is-form-i-130-2025-update
+seo:
+  description: >-
+    What Is Form i-130? 2025 Update. Discover the latest October 2025 USCIS
+    I-130 processing times for spouses parents, children, and siblings..
+  canonicalOverride: https://capitollawpartners.com/what-is-form-i-130-2025-update
+  title: "What\_is Form I-130? 2025 Update"
 ---
 ## What is Form I-130? 2025 Update
 

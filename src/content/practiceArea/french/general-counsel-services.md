@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Conseil juridique externe et services d’accompagnement
@@ -119,4 +119,14 @@ post:
     coûts associés. Nos avocats s’intègrent à votre équipe dirigeante pour
     anticiper les besoins juridiques et agir rapidement, vous permettant de
     piloter votre entreprise avec clarté et confiance.</p>
+seo:
+  title: Conseil juridique externe et services d’accompagnement
+  description: >-
+    Conseil juridique aux dirigeants, relecture contractuelle, gouvernance et
+    conformité pour les entreprises recherchant une expertise sans l’équipe
+    interne.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

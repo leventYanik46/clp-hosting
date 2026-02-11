@@ -34,7 +34,7 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: 'Al enviar este formulario, aceptas la recopilación de datos.'
+  disclaimer: Al enviar este formulario, aceptas la recopilación de datos.
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Derecho Empresarial y Corporativo
@@ -51,12 +51,11 @@ post:
       <li><a href="/es/practice-area/key-services/contract-drafting-review-negotiation">Redacción, revisión y negociación de contratos</a></li>
       <li><a href="/es/practice-area/key-services/mergers-acquisitions-business-transactions">Fusiones, adquisiciones y transacciones comerciales</a></li>
       <li><a href="/es/practice-area/key-services/business-formation-structuring">Constitución y estructuración de empresas</a></li>
-    </ul>
-    socio legal de confianza, listo para ofrecer asesoría diaria y orientación
-    estratégica que mantenga sus operaciones fluidas y en cumplimiento. Nos
-    encargamos de redactar, revisar y negociar contratos, y lo guiamos en
-    fusiones, adquisiciones y transacciones complejas siempre con sus intereses
-    como prioridad.</p>
+    </ul> socio legal de confianza, listo para ofrecer asesoría diaria y
+    orientación estratégica que mantenga sus operaciones fluidas y en
+    cumplimiento. Nos encargamos de redactar, revisar y negociar contratos, y lo
+    guiamos en fusiones, adquisiciones y transacciones complejas siempre con sus
+    intereses como prioridad.</p>
 
 
     <h3>Constitución y Estructuración de Empresas</h3>
@@ -102,4 +101,15 @@ post:
     comercial. Ya sea que lance un nuevo proyecto o negocie un acuerdo
     importante, estamos aquí para proteger sus intereses y ayudarle a avanzar
     con confianza.</p>
+seo:
+  title: Derecho Empresarial y Corporativo
+  description: >-
+    Nuestros especialistas en Derecho Empresarial y Corporativo guían a las
+    empresas en litigios comerciales, resolución de disputas, redacción de
+    contratos, fusiones, adquisiciones y constitución de negocios para lograr un
+    crecimiento sostenible.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

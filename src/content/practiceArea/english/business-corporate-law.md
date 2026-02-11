@@ -32,7 +32,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
 post:
   title: Business & Corporate Law
@@ -99,4 +99,14 @@ post:
     commercial landscape. Whether you’re launching a new venture or negotiating
     a major deal, we’re here to protect your interests and help you move forward
     with confidence.</p>
+seo:
+  title: Business & Corporate Law
+  description: >-
+    Our Business & Corporate Law experts guide companies through commercial
+    litigation & dispute resolution, contract drafting, M&A, and business
+    formation for sustainable growth.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

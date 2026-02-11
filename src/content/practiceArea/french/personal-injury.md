@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Préjudice Corporel
@@ -111,4 +111,14 @@ post:
 
     <p>Laissez-nous nous battre pour la compensation et la tranquillité d’esprit
     que vous méritez.</p>
+seo:
+  title: Préjudice Corporel
+  description: >-
+    Notre équipe de Préjudice Corporel protège les clients victimes de
+    négligence, les aidant à obtenir justice, indemnisation et sérénité dans les
+    moments difficiles.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

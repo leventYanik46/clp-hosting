@@ -32,6 +32,7 @@ export interface Post {
 
   /**  */
   metadata?: MetaData;
+  seo?: SeoData;
 
   /**  */
   draft?: boolean;
@@ -63,6 +64,66 @@ export interface MetaData {
 
   openGraph?: MetaDataOpenGraph;
   twitter?: MetaDataTwitter;
+}
+
+export interface SeoStrategy {
+  primaryIntent?: string;
+  primaryQuery?: string;
+  supportingQueries?: string[];
+  internalLinks?: string[];
+}
+
+export interface SeoSchemaControl {
+  mode?: 'auto' | 'merge' | 'replace';
+  custom?: Record<string, unknown>[];
+  includeBreadcrumbs?: boolean;
+  entity?: 'service' | 'person';
+  serviceType?: string;
+  personJobTitle?: string;
+  personImage?: string;
+  person?: SeoPersonSchemaData;
+}
+
+export interface SeoOrganizationReference {
+  id?: string;
+  name?: string;
+  url?: string;
+  sameAs?: string[];
+}
+
+export interface SeoPersonAlumniOf {
+  name: string;
+  url?: string;
+  sameAs?: string;
+  type?: 'EducationalOrganization' | 'CollegeOrUniversity' | 'School';
+}
+
+export interface SeoPersonSchemaData {
+  givenName?: string;
+  familyName?: string;
+  honorificPrefix?: string;
+  honorificSuffix?: string;
+  alternateName?: string;
+  jobTitle?: string;
+  image?: string;
+  email?: string;
+  telephone?: string;
+  sameAs?: string[];
+  knowsAbout?: string[];
+  knowsLanguage?: string[];
+  alumniOf?: Array<string | SeoPersonAlumniOf>;
+  worksFor?: SeoOrganizationReference;
+}
+
+export interface SeoData {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  noindex?: boolean;
+  nofollow?: boolean;
+  canonicalOverride?: string;
+  schema?: SeoSchemaControl;
+  strategy?: SeoStrategy;
 }
 
 export interface MetaDataRobots {

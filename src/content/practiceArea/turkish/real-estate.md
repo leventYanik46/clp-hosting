@@ -111,4 +111,13 @@ post:
     ister kiralama, ister geliştirme olsun, hedeflerinizi gerçekten anlamak için
     zaman ayırır. Titiz, hızlı ve çözüm odaklıyız; işlemlerinizi sorunsuz
     tamamlamanız ve riskleri en aza indirmeniz için yanınızdayız.</p>
+seo:
+  title: Gayrimenkul Hukuku
+  description: >-
+    Ticari ve konut gayrimenkul işlemlerinde, taşınmaz alım-satım, kiralama,
+    geliştirme ve sözleşme müzakerelerinde rehberlik.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

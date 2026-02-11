@@ -16,6 +16,13 @@ metadata:
     What is an immigration mandamus case, how is it filed, and in what
     circumstances is it useful? Learn about legal remedies against USCIS delays
     in this guide. Everything you need to know about mandamus cas..
+seo:
+  description: >-
+    What is an immigration mandamus case, how is it filed, and in what
+    circumstances is it useful? Learn about legal remedies against USCIS delays
+    in this guide. Everything you need to know about mandamus cas..
+  canonicalOverride: https://capitollawpartners.com/immigration-mandamus-lawsuits
+  title: ⁠Immigration Mandamus Lawsuits
 ---
 ## What are Immigration Mandamus Lawsuits ? 
 

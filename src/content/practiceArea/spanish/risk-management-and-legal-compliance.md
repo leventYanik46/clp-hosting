@@ -2,7 +2,9 @@
 metadata:
   title: Gestión de Riesgos y Cumplimiento Legal
   description: >-
-    Evaluación proactiva de riesgos legales, planificación de cumplimiento y apoyo regulatorio para ayudar a las empresas a operar con confianza y evitar problemas costosos.
+    Evaluación proactiva de riesgos legales, planificación de cumplimiento y
+    apoyo regulatorio para ayudar a las empresas a operar con confianza y evitar
+    problemas costosos.
 hero:
   tagline: Contáctenos
   title: ¡Conectemos!
@@ -12,10 +14,13 @@ hero:
 contactForm:
   title: ¡Envíenos un mensaje hoy!
   subtitle: >-
-    Manténgase a la vanguardia de los cambios regulatorios y los riesgos operativos con asesoría personalizada en cumplimiento y gestión de riesgos.
+    Manténgase a la vanguardia de los cambios regulatorios y los riesgos
+    operativos con asesoría personalizada en cumplimiento y gestión de riesgos.
   infoTitle: Gestión de Riesgos y Cumplimiento Legal
   infoDescription: >-
-    Ayudamos a las empresas a identificar, priorizar y abordar riesgos legales en sus operaciones, construyendo programas de cumplimiento prácticos, sostenibles y alineados con los estándares del sector.
+    Ayudamos a las empresas a identificar, priorizar y abordar riesgos legales
+    en sus operaciones, construyendo programas de cumplimiento prácticos,
+    sostenibles y alineados con los estándares del sector.
   googleReview:
     label: Reseñas de Google
     rating: 5
@@ -27,17 +32,23 @@ contactForm:
     email: Correo electrónico
     phone: Número de teléfono
   textarea: Mensaje
-  disclaimer: "Al enviar este formulario, acepta la recopilación de datos."
+  disclaimer: Al enviar este formulario, acepta la recopilación de datos.
   description: Nuestro equipo suele responder en un plazo de 24 horas hábiles.
 post:
   title: Gestión de Riesgos y Cumplimiento Legal
   image: ~/assets/images/precision-img.jpg
   content: >
 
-    <p>Nuestro servicio de Gestión de Riesgos y Cumplimiento Legal está diseñado para empresas que quieren anticiparse a los problemas, no solucionarlos después. Trabajamos con la dirección y las partes interesadas para mapear su panorama de riesgos, identificar puntos ciegos e implementar controles prácticos que respalden sus operaciones.</p>
+    <p>Nuestro servicio de Gestión de Riesgos y Cumplimiento Legal está diseñado
+    para empresas que quieren anticiparse a los problemas, no solucionarlos
+    después. Trabajamos con la dirección y las partes interesadas para mapear su
+    panorama de riesgos, identificar puntos ciegos e implementar controles
+    prácticos que respalden sus operaciones.</p>
 
 
-    <p>Desde obligaciones regulatorias y prácticas de datos hasta relaciones con proveedores y procesos internos, le ayudamos a entender dónde puede haber exposición legal y cómo abordarla sin frenar el negocio.</p>
+    <p>Desde obligaciones regulatorias y prácticas de datos hasta relaciones con
+    proveedores y procesos internos, le ayudamos a entender dónde puede haber
+    exposición legal y cómo abordarla sin frenar el negocio.</p>
 
 
     <h3>Áreas Clave de Enfoque</h3>
@@ -52,16 +63,36 @@ post:
 
     <h3>Gestión Proactiva de Riesgos</h3>
 
-    <p>Adoptamos un enfoque proactivo y sistémico del riesgo. Eso significa mirar más allá de los problemas aislados para entender cómo interactúan en la práctica sus contratos, políticas, flujos de trabajo y estructuras de toma de decisiones.</p>
+    <p>Adoptamos un enfoque proactivo y sistémico del riesgo. Eso significa
+    mirar más allá de los problemas aislados para entender cómo interactúan en
+    la práctica sus contratos, políticas, flujos de trabajo y estructuras de
+    toma de decisiones.</p>
 
 
-    <p>Donde vemos riesgo elevado, brindamos recomendaciones concretas, ya sea revisando acuerdos, reforzando aprobaciones internas, actualizando documentación o aclarando roles y responsabilidades.</p>
+    <p>Donde vemos riesgo elevado, brindamos recomendaciones concretas, ya sea
+    revisando acuerdos, reforzando aprobaciones internas, actualizando
+    documentación o aclarando roles y responsabilidades.</p>
 
 
     <h3>Cumplimiento a la Medida de su Empresa</h3>
 
-    <p>El cumplimiento solo funciona si se adapta a la realidad de su empresa. Nos enfocamos en crear marcos realistas para su tamaño, recursos y etapa de crecimiento, evitando complejidad innecesaria pero brindando protección significativa.</p>
+    <p>El cumplimiento solo funciona si se adapta a la realidad de su empresa.
+    Nos enfocamos en crear marcos realistas para su tamaño, recursos y etapa de
+    crecimiento, evitando complejidad innecesaria pero brindando protección
+    significativa.</p>
 
 
-    <p>Nuestro objetivo es darle la confianza de que sus operaciones se basan en una sólida base legal, para que pueda enfocarse en servir a sus clientes y hacer crecer su negocio.</p>
+    <p>Nuestro objetivo es darle la confianza de que sus operaciones se basan en
+    una sólida base legal, para que pueda enfocarse en servir a sus clientes y
+    hacer crecer su negocio.</p>
+seo:
+  title: Gestión de Riesgos y Cumplimiento Legal
+  description: >-
+    Evaluación proactiva de riesgos legales, planificación de cumplimiento y
+    apoyo regulatorio para ayudar a las empresas a operar con confianza y evitar
+    problemas costosos.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

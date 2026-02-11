@@ -32,7 +32,7 @@ contactForm:
     email: E-mail
     phone: Numéro de téléphone
   textarea: Message
-  disclaimer: 'En envoyant ce formulaire, vous acceptez la collecte de données.'
+  disclaimer: En envoyant ce formulaire, vous acceptez la collecte de données.
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Droit des affaires et des sociétés
@@ -116,4 +116,14 @@ post:
     par une compréhension fine du paysage juridique et business. Que vous
     lanciez un nouveau projet ou négociiez un deal majeur, nous sommes là pour
     protéger vos intérêts et vous aider à avancer avec assurance.</p>
+seo:
+  title: Droit des affaires et des sociétés
+  description: >-
+    Nos experts accompagnent les entreprises en contentieux commercial,
+    rédaction de contrats, fusions-acquisitions et création d’entreprise pour
+    une croissance durable.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

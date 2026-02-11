@@ -19,6 +19,13 @@ metadata:
     What Is Business Litigation? When Does Business Litigation Arise? How Does
     the Business Litigation Process Work? Legal advice and everything related to
     your case..
+seo:
+  description: >-
+    What Is Business Litigation? When Does Business Litigation Arise? How Does
+    the Business Litigation Process Work? Legal advice and everything related to
+    your case..
+  canonicalOverride: https://capitollawpartners.com/businnes-litigation
+  title: Businnes Litigation
 ---
 ## What is Business Litigation?
 

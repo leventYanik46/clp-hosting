@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: 'Wills, Trusts, and Probate Administration'
+  title: Wills, Trusts, and Probate Administration
   description: >-
     Plain-English wills and trusts backed by efficient probate administration to
     honor intent and protect heirs.
@@ -20,7 +20,7 @@ contactForm:
     email: Email
     phone: Phone Number
   textarea: Message
-  disclaimer: 'By submitting this form, you agree to collection of data.'
+  disclaimer: By submitting this form, you agree to collection of data.
   description: Our team typically responds within 24 business hours.
   googleReview:
     label: Google Reviews
@@ -28,12 +28,12 @@ contactForm:
     count: 97
     url: >-
       https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
-  infoTitle: 'Wills, Trusts, and Probate Administration'
+  infoTitle: Wills, Trusts, and Probate Administration
   infoDescription: >-
     Plain-English wills and trusts backed by efficient probate administration to
     honor intent and protect heirs.
 post:
-  title: 'Wills, Trusts, and Probate Administration'
+  title: Wills, Trusts, and Probate Administration
   image: ~/assets/images/estate-img.jpg
   content: >
 
@@ -55,4 +55,13 @@ post:
     <p>We align strategy, documents, and execution so your goals stay protected.
     Every matter is handled with clear communication, pragmatic advice, and a
     focus on speed and risk reduction.</p>
+seo:
+  title: Wills, Trusts, and Probate Administration
+  description: >-
+    Plain-English wills and trusts backed by efficient probate administration to
+    honor intent and protect heirs.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---

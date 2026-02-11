@@ -28,10 +28,10 @@ if (!homepage || homepage.length === 0 || !homepage[0].data) {
   throw new Error("Homepage content not found for language: " + lang);
 }
 
-const { metadata, hero, practiceAreas, spotlights, testimonials, steps, blog, cta } = homepage[0].data;
+const { metadata, seo, hero, practiceAreas, spotlights, testimonials, steps, blog, cta } = homepage[0].data;
 
 ---
-<Layout metadata={metadata}>
+<Layout metadata={metadata} seo={seo}>
   <!-- Hero Widget ******************* -->
 
   <Hero

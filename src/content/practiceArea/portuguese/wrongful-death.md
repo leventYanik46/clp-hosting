@@ -1,8 +1,9 @@
 ---
 metadata:
   title: Homicídio Culposo
-  description: Representação compassiva para famílias que buscam responsabilização
-    e estabilidade financeira após uma perda.
+  description: >-
+    Representação compassiva para famílias que buscam responsabilização e
+    estabilidade financeira após uma perda.
 hero:
   tagline: Fale Conosco
   title: Vamos conversar!
@@ -11,8 +12,9 @@ hero:
     alt: Imagem do edifício do Capitólio dos EUA
 contactForm:
   title: Envie uma mensagem hoje mesmo!
-  subtitle: Receba orientação jurídica especializada adaptada às suas necessidades.
-    Fale conosco para começar!
+  subtitle: >-
+    Receba orientação jurídica especializada adaptada às suas necessidades. Fale
+    conosco para começar!
   inputs:
     name: Nome
     email: E-mail
@@ -24,20 +26,42 @@ contactForm:
     label: Avaliações do Google
     rating: 5
     count: 97
-    url: https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
+    url: >-
+      https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   infoTitle: Homicídio Culposo
-  infoDescription: Representação compassiva para famílias que buscam responsabilização
-    e estabilidade financeira após uma perda.
+  infoDescription: >-
+    Representação compassiva para famílias que buscam responsabilização e
+    estabilidade financeira após uma perda.
 post:
   title: Homicídio Culposo
   image: ~/assets/images/personal-injury.jpg
-  content: "\n<p>Representação compassiva para famílias que buscam responsabilização\
-    \ e estabilidade financeira após uma perda.</p>\n\n<h3>Principais Serviços</h3>\n\
-    <ul>\n      <li>Investigação de negligência e causa</li>\n      <li>Desenvolvimento\
-    \ de danos econômicos e não econômicos</li>\n      <li>Coordenação com questões\
-    \ de inventário/patrimônio</li>\n      <li>Litígio e negociação guiados pelos\
-    \ objetivos da família</li>\n    </ul>\n\n<h3>Por que isso é importante</h3>\n\
-    <p>Alinhamos estratégia, documentos e execução para que seus objetivos estejam\
-    \ protegidos. Cada caso é tratado com comunicação clara, orientação pragmática\
-    \ e foco em agilidade e redução de riscos.</p>"
+  content: >-
+
+    <p>Representação compassiva para famílias que buscam responsabilização e
+    estabilidade financeira após uma perda.</p>
+
+
+    <h3>Principais Serviços</h3>
+
+    <ul>
+          <li>Investigação de negligência e causa</li>
+          <li>Desenvolvimento de danos econômicos e não econômicos</li>
+          <li>Coordenação com questões de inventário/patrimônio</li>
+          <li>Litígio e negociação guiados pelos objetivos da família</li>
+        </ul>
+
+    <h3>Por que isso é importante</h3>
+
+    <p>Alinhamos estratégia, documentos e execução para que seus objetivos
+    estejam protegidos. Cada caso é tratado com comunicação clara, orientação
+    pragmática e foco em agilidade e redução de riscos.</p>
+seo:
+  title: Homicídio Culposo
+  description: >-
+    Representação compassiva para famílias que buscam responsabilização e
+    estabilidade financeira após uma perda.
+  schema:
+    mode: merge
+    includeBreadcrumbs: true
+    entity: service
 ---
