@@ -13,7 +13,7 @@ imageWidth: 900
 imageHeight: 506
 publishDate: 2025-06-03T18:53:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/national-interest-waiver
+  canonical: https://capitollawpartners.com/national-interest-waiver-the-leading-green-card-choice-for-professionals
   description: The National Interest Waiver lets skilled professionals secure a
     U.S. Green Card without employer sponsorship by proving their work benefits
     the country.

@@ -14,6 +14,7 @@ import netlify from '@astrojs/netlify';
 import config from "./src/config/config.json";
 import languagesJSON from "./src/config/language.json";
 const { default_language } = config.settings;
+const enableAstroCompress = process.env.ASTRO_COMPRESS === 'true';
 
 const supportedLang = [...languagesJSON.map((lang) => lang.languageCode)];
 const disabledLanguages = config.settings.disable_languages;
@@ -76,18 +77,22 @@ export default defineConfig({
       })
     ),
 
-    compress({
-      CSS: true,
-      HTML: {
-        'html-minifier-terser': {
-          removeAttributeQuotes: false,
-        },
-      },
-      Image: false,
-      JavaScript: true,
-      SVG: false,
-      Logger: 1,
-    }),
+    ...(enableAstroCompress
+      ? [
+          compress({
+            CSS: true,
+            HTML: {
+              'html-minifier-terser': {
+                removeAttributeQuotes: false,
+              },
+            },
+            Image: false,
+            JavaScript: true,
+            SVG: false,
+            Logger: 1,
+          }),
+        ]
+      : []),
 
     astrowind({
       config: './src/config.yaml',
