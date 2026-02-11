@@ -1,19 +1,18 @@
 ---
-title: "Understanding Family-Based Immigration | Attorney "
-excerpt: "Family-based immigration is one of the most important paths to lawful
-  U.S. residency but is often slowed by complex legal rules, strict
-  documentation requirements, and lengthy backlogs. Capitol Law Partners
-  provides experienced legal guidance to help families avoid pitfalls, expedite
-  cases, and achieve reunification with confidence. "
-category: "Immigration "
+title: "Understanding Family-Based Immigration |\_Attorney "
+excerpt: >-
+  Family-based immigration is one of the most important paths to lawful U.S.
+  residency but is often slowed by complex legal rules, strict documentation
+  requirements, and lengthy backlogs. Capitol Law Partners provides experienced
+  legal guidance to help families avoid pitfalls, expedite cases, and achieve
+  reunification with confidence. 
+category: 'Immigration '
 image: /images/family-based-attorney.jpg
 imageWidth: 5472
 imageHeight: 3648
-publishDate: 2025-09-01T15:55:00.000+03:00
+publishDate: 2025-09-01T12:55:00.000Z
 metadata:
-  description: Understanding Family-Based Immigration. Capitol Law Partners’
-    family-based immigration attorneys help reunite families in the U.S. with
-    expert legal guidance..
+  description: "Understanding Family-Based Immigration.\_Capitol Law Partners’ family-based immigration attorneys help reunite families in the U.S. with expert legal guidance.."
   canonical: https://capitollawpartners.com/understanding-family-based-immigration
 ---
 ## **Understanding Family-Based Immigration** 

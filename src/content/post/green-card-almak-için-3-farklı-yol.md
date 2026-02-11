@@ -1,6 +1,7 @@
 ---
 title: Green Card Almak İçin 3 Farklı Yol
-excerpt: Green Card almak için aile birleşimi, çalışma sponsorluğu ve Green Card
+excerpt: >-
+  Green Card almak için aile birleşimi, çalışma sponsorluğu ve Green Card
   çekilişi olmak üzere üç temel yol bulunmaktadır. Başvuru sahibine en uygun
   yolun belirlenmesi, sürecin başarısı açısından kritik öneme sahiptir.
 category: Green Card
@@ -11,11 +12,12 @@ tags:
 image: /images/grencardusway.jpg
 imageWidth: 5908
 imageHeight: 3938
-publishDate: 2025-12-26T18:47:00.000+03:00
+publishDate: 2025-12-26T15:47:00.000Z
 metadata:
-  description: Green Card almak için 3 farklı yol. Aile birleşimi, çalışma
-    sponsorluğu ve Green Card çekilişi.
-  canonical: https://capitollawpartners.com/green-card-almak-için-3-farklı-yol
+  description: >-
+    Green Card almak için 3 farklı yol. Aile birleşimi, çalışma sponsorluğu ve
+    Green Card çekilişi.
+  canonical: https://capitollawpartners.com/green-card-almak-i%c3%a7in-3-farkl%c4%b1-yol
 ---
 # Green Card Almak İçin 3 Farklı Yol
 

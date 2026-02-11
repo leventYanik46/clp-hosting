@@ -1,18 +1,19 @@
 ---
 title: What Is Corporate Law?
-excerpt: This article explains the essentials of corporate law in the United
-  States, including business formation, governance, M&A, contracts, compliance,
-  and disputes. It highlights why corporate law matters for businesses of all
-  sizes and how Capitol Law Partners supports clients with tailored legal
-  strategies.
+excerpt: >-
+  This article explains the essentials of corporate law in the United States,
+  including business formation, governance, M&A, contracts, compliance, and
+  disputes. It highlights why corporate law matters for businesses of all sizes
+  and how Capitol Law Partners supports clients with tailored legal strategies.
 category: Corporate & Business Law
 image: /images/pexels-fauxels-3184430.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-08-29T00:22:00.000+03:00
+publishDate: 2025-08-28T21:22:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/what-is-corporate-law
-  description: Capitol Law Partners explains corporate law essentials—formation,
+  description: >-
+    Capitol Law Partners explains corporate law essentials—formation,
     governance, M&A, contracts, and compliance—to help businesses grow with
     legal confidence.
 ---

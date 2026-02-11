@@ -1,20 +1,22 @@
 ---
 title: Student Visa Attorney
-excerpt: "This step-by-step guide explains the U.S. student visa process, from
-  choosing the right visa type and preparing documents to consular interviews
-  and Green Card pathways. With insights from experienced student visa
-  attorneys, it highlights how legal guidance minimizes errors, reduces denial
-  risks, and secures long-term immigration opportunities. "
+excerpt: >-
+  This step-by-step guide explains the U.S. student visa process, from choosing
+  the right visa type and preparing documents to consular interviews and Green
+  Card pathways. With insights from experienced student visa attorneys, it
+  highlights how legal guidance minimizes errors, reduces denial risks, and
+  secures long-term immigration opportunities. 
 category: Student Visa
 image: /images/studentvisa-attorney.jpg
 imageWidth: 6720
 imageHeight: 4480
-publishDate: 2025-09-05T19:38:00.000+03:00
+publishDate: 2025-09-05T16:38:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/student-visa-attorney-step-by-step
-  description: "Student Visa Attorney: A Comprehensive Step-by-Step Guide. What Is
-    a U.S. Student Visa? The U.S. student visa is a legal document that allows
-    international students to live and study in the United.."
+  description: >-
+    Student Visa Attorney: A Comprehensive Step-by-Step Guide. What Is a U.S.
+    Student Visa? The U.S. student visa is a legal document that allows
+    international students to live and study in the United..
 ---
 ## **Student Visa Attorney: Step-by-Step**  
 

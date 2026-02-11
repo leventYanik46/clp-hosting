@@ -10,9 +10,12 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "npm run validate:seo",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "validate:seo": "node ./scripts/validate-seo.mjs",
+    "normalize:post-canonicals": "node ./scripts/normalize-post-canonicals.mjs",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",
     "check:eslint": "eslint .",

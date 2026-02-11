@@ -1,21 +1,24 @@
 ---
 title: Businnes Litigation
-excerpt: This article provides a comprehensive overview of business litigation,
+excerpt: >-
+  This article provides a comprehensive overview of business litigation,
   including what it entails, why it matters for business owners, and the most
   common types of legal disputes companies face—such as breach of contract,
   partnership disagreements, and employment-related claims. It also outlines key
   strategies to minimize litigation risk and explains when to consult a
   commercial litigation attorney. ..
 category: ⁠  ⁠Business Litigation
-image: /images/canva-partner-lawyers-or-attorneys-discussing-a-contract-agreement.-maev6ejcubo.jpg
+image: >-
+  /images/canva-partner-lawyers-or-attorneys-discussing-a-contract-agreement.-maev6ejcubo.jpg
 imageWidth: 1600
 imageHeight: 1067
-publishDate: 2025-07-18T17:22:00.000+03:00
+publishDate: 2025-07-18T14:22:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/businnes-litigation
-  description: What Is Business Litigation? When Does Business Litigation Arise?
-    How Does the Business Litigation Process Work? Legal advice and everything
-    related to your case..
+  description: >-
+    What Is Business Litigation? When Does Business Litigation Arise? How Does
+    the Business Litigation Process Work? Legal advice and everything related to
+    your case..
 ---
 ## What is Business Litigation?
 

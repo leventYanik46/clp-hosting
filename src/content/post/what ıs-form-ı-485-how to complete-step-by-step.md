@@ -1,10 +1,11 @@
 ---
-title: "What Is Form I-485? How to Complete? Step-by-Step "
-excerpt: "This guide explains how to accurately complete Form I-485 using clear,
+title: "What\_Is Form I-485? How\_to\_Complete? Step-by-Step "
+excerpt: >-
+  This guide explains how to accurately complete Form I-485 using clear,
   practical steps adapted from real applicant experiences. It highlights the
   strict requirement to enter information exactly as shown on your passport, use
   only English letters, and disclose any additional citizenships or prior
-  immigration filings. "
+  immigration filings. 
 category: Form Guide
 lang: en
 tags:
@@ -13,12 +14,12 @@ tags:
 image: /images/how-to-complete.-from-i-485.jpg
 imageWidth: 4240
 imageHeight: 2832
-publishDate: 2025-11-24T18:45:00.000+03:00
+publishDate: 2025-11-24T15:45:00.000Z
 metadata:
-  description: "Learn how to complete Form I-485 for Adjustment of Status.
-    Step-by-step guidance, required documents, common mistakes, and DS-160 tips.
-    "
-  canonical: https://capitollawpartners.com/what-is-form-i-485-how complate-step-by-step
+  description: >-
+    Learn how to complete Form I-485 for Adjustment of Status. Step-by-step
+    guidance, required documents, common mistakes, and DS-160 tips. 
+  canonical: https://capitollawpartners.com/what-is-form-i-485-how-complate-step-by-step
 ---
 ## What Is Form I-485? How to Complete? Step-by-Step
 

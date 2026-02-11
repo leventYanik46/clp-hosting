@@ -1,18 +1,21 @@
 ---
 title: Amerika'da Şirket Kurmak İçin Gerekli Belgeler
-excerpt: Yabancı uyruklu kişiler, ABD vatandaşı olmadan Amerika’da şirket
-  kurabilir. Gerekli belgelerin eksiksiz hazırlanması ve doğru şirket yapısının
-  seçilmesi, sürecin sorunsuz ilerlemesi açısından önemlidir.
+excerpt: >-
+  Yabancı uyruklu kişiler, ABD vatandaşı olmadan Amerika’da şirket kurabilir.
+  Gerekli belgelerin eksiksiz hazırlanması ve doğru şirket yapısının seçilmesi,
+  sürecin sorunsuz ilerlemesi açısından önemlidir.
 category: Corporate & Business Law
 lang: tr
 image: /images/capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 3376
-publishDate: 2025-12-11T14:15:00.000+03:00
+publishDate: 2025-12-11T11:15:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/amerikada-şirket-kurmak-için-gerekli-belgeler
-  description: Amerika'da Şirket Kurmak İçin Gerekli Belgeler. Amerika'da
-    Vatandaşlık Sahibi Olmadan Şirket Kurmak. Şirket Türü ve Yapılandırma.
+  canonical: >-
+    https://capitollawpartners.com/amerikada-%c5%9firket-kurmak-i%c3%a7in-gerekli-belgeler
+  description: >-
+    Amerika'da Şirket Kurmak İçin Gerekli Belgeler. Amerika'da Vatandaşlık
+    Sahibi Olmadan Şirket Kurmak. Şirket Türü ve Yapılandırma.
 ---
 ## Amerika’da Şirket Kurmak
 

@@ -1,20 +1,21 @@
 ---
-title: Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler 
-excerpt: "Work and Travel programı, üniversite öğrencilerine hem Amerika’da
-  çalışma deneyimi kazanma hem de kültürel değişim fırsatı sunan en popüler yaz
-  dönemi programlarından biridir. Bu rehberde başvuru şartlarından vize
-  sürecine, iş bulma ipuçlarından gider–gelir dengesine kadar öğrencilerin en
-  çok merak ettiği konular uzman bakışıyla ele alınıyor. "
+title: "Work\_and\_Travel 2026:\_Masraflar, Öğrenciler\_İçin Merak Edilenler\_"
+excerpt: >-
+  Work and Travel programı, üniversite öğrencilerine hem Amerika’da çalışma
+  deneyimi kazanma hem de kültürel değişim fırsatı sunan en popüler yaz dönemi
+  programlarından biridir. Bu rehberde başvuru şartlarından vize sürecine, iş
+  bulma ipuçlarından gider–gelir dengesine kadar öğrencilerin en çok merak
+  ettiği konular uzman bakışıyla ele alınıyor. 
 category: Work and Travel
 lang: tr
 image: /images/work-and-travel.jpg
 imageWidth: 5998
 imageHeight: 4000
-publishDate: 2025-12-08T14:59:00.000+03:00
+publishDate: 2025-12-08T11:59:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/work-and-travel-2026-masraflar-öğrenciler-için-merak-edilenler
-  description: Work and Travel 2026: Masraflar,Öğrenciler İçin Merak Edilenler.
-    WAT Nedir? Ücretler, Kayıt Vakitleri, Dil Yeterliliği..
+  canonical: >-
+    https://capitollawpartners.com/work-and-travel-2026-masraflar-%c3%b6%c4%9frenciler-i%c3%a7in-merak-edilenler
+  description: "Work\_and\_Travel 2026:\_Masraflar,Öğrenciler\_İçin Merak Edilenler. WAT Nedir? Ücretler, Kayıt Vakitleri, Dil Yeterliliği.."
 ---
 ## **Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler** 
 

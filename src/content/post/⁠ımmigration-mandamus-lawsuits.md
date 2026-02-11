@@ -12,7 +12,8 @@ imageHeight: 4016
 publishDate: 2025-06-26T19:34:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/immigration-mandamus-lawsuits
-  description: What is an immigration mandamus case, how is it filed, and in what
+  description: >-
+    What is an immigration mandamus case, how is it filed, and in what
     circumstances is it useful? Learn about legal remedies against USCIS delays
     in this guide. Everything you need to know about mandamus cas..
 ---

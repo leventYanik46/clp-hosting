@@ -1,19 +1,21 @@
 ---
 title: Chicago Immigration Attorneys at Capitol Law Partners
-excerpt: Capitol Law Partners provides trusted immigration legal services in
-  Chicago, offering expert guidance on visas, green cards, citizenship, and
-  complex immigration matters. Our attorneys combine in-depth knowledge of U.S.
+excerpt: >-
+  Capitol Law Partners provides trusted immigration legal services in Chicago,
+  offering expert guidance on visas, green cards, citizenship, and complex
+  immigration matters. Our attorneys combine in-depth knowledge of U.S.
   immigration law with personalized strategies to protect your rights and
   achieve your goalls.
 category: Law Partner
 image: /images/img_1321.jpeg
 imageWidth: 0
 imageHeight: 0
-publishDate: 2025-08-08T16:29:00.000+03:00
+publishDate: 2025-08-08T13:29:00.000Z
 metadata:
-  description: Expert Chicago immigration attorneys at Capitol Law Partners.
-    Visas, green cards, citizenship — personalized legal solutions for your
-    immigration journey
+  description: >-
+    Expert Chicago immigration attorneys at Capitol Law Partners. Visas, green
+    cards, citizenship — personalized legal solutions for your immigration
+    journey
   canonical: https://capitollawpartners.com/immigration-attorneys
 ---
 ## \

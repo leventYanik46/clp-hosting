@@ -1,17 +1,20 @@
 ---
 title: Amerika Vizesi | Göçmenlik Süreci Tavsiyeleri
-excerpt: ABD göçmenlik sürecine, temel başvuru adımlarına ve sık yapılan
-  hatalara dair net bir genel bakış sunan bu rehber, ABD veya Türkiye'den
-  başvuranlar için tasarlanmıştır.
+excerpt: >-
+  ABD göçmenlik sürecine, temel başvuru adımlarına ve sık yapılan hatalara dair
+  net bir genel bakış sunan bu rehber, ABD veya Türkiye'den başvuranlar için
+  tasarlanmıştır.
 category: Göçmenlik Hukuku
 lang: tr
 image: /images/grencardusway.jpg
 imageWidth: 5908
 imageHeight: 3938
-publishDate: 2025-12-14T05:05:00.000+03:00
+publishDate: 2025-12-14T02:05:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/amerika-vizesi-göçmenlik-süreci-tavsiyeleri
-  description: ABD göçmenlik süreci. Vize başvuru adımları, sık yapılan hatalar ve
+  canonical: >-
+    https://capitollawpartners.com/amerika-vizesi-g%c3%b6%c3%a7menlik-s%c3%bcreci-tavsiyeleri
+  description: >-
+    ABD göçmenlik süreci. Vize başvuru adımları, sık yapılan hatalar ve
     göçmenlik avukatlarının ABD ve Türkiye'den başvuru sahiplerinin bilmesi
     gerekenler.
 ---

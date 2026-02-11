@@ -1,19 +1,22 @@
 ---
 title: How the United States Immigration System Works
-excerpt: "This guide explains how the U.S. immigration system works, covering
-  temporary visas, green cards, and citizenship. With insight from Capitol Law
-  Partners, individuals and businesses gain practical strategies to navigate
-  legal requirements, avoid pitfalls, and achieve successful outcomes in their
-  immigration journey. "
-category: "Immigration "
+excerpt: >-
+  This guide explains how the U.S. immigration system works, covering temporary
+  visas, green cards, and citizenship. With insight from Capitol Law Partners,
+  individuals and businesses gain practical strategies to navigate legal
+  requirements, avoid pitfalls, and achieve successful outcomes in their
+  immigration journey. 
+category: 'Immigration '
 image: /images/imig.law.jpg
 imageWidth: 4152
 imageHeight: 2560
-publishDate: 2025-08-20T16:07:00.000+03:00
+publishDate: 2025-08-20T13:07:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/how-the-united-states-immigration-system-works
-  description: "Expert legal guidance on U.S. visas, green cards & citizenship.
-    Capitol Law Partners helps you navigate the U.S. immigration system. "
+  canonical: >-
+    https://capitollawpartners.com/how-the-united-states-immigration-system-works
+  description: >-
+    Expert legal guidance on U.S. visas, green cards & citizenship. Capitol Law
+    Partners helps you navigate the U.S. immigration system. 
 ---
 ## **Understanding How the U.S. Immigration System Works – A Practical Guide** 
 

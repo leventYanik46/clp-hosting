@@ -1,22 +1,23 @@
 ---
 title: Immigration Lawyers with Free Consultation
-excerpt: Choosing an immigration lawyer with a free consultation can be your
-  first smart step toward a successful U.S. immigration journey—but only if you
-  know what to look for. Not all “free” services offer real value. During your
+excerpt: >-
+  Choosing an immigration lawyer with a free consultation can be your first
+  smart step toward a successful U.S. immigration journey—but only if you know
+  what to look for. Not all “free” services offer real value. During your
   initial meeting, pay close attention to the attorney’s experience, fee
   transparency, and ability to explain your case. Avoid vague answers, pressure
   tactics, and unlicensed "consultants." At Capitol Law Partners, we combine
   expert legal strategy with a transparent, client-first approach—so you get the
   clarity and guidance you need from day one...
-category: "Immigration "
+category: 'Immigration '
 image: /images/immigrationlaw.jpg
 imageWidth: 5120
 imageHeight: 3840
-publishDate: 2025-08-04T16:59:00.000+03:00
+publishDate: 2025-08-04T13:59:00.000Z
 metadata:
-  description: Looking for immigration lawyers with free consultation? Discover
-    what to expect, avoid pitfalls, and get expert help from Capitol Law
-    Partners
+  description: >-
+    Looking for immigration lawyers with free consultation? Discover what to
+    expect, avoid pitfalls, and get expert help from Capitol Law Partners
   canonical: https://capitollawpartners.com/immigration-lawyers-with-free-consultation
 ---
 

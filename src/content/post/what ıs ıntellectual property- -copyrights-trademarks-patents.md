@@ -1,25 +1,24 @@
 ---
-title: What Is Intellectual Property? | Copyrights | Trademarks | Patents
-excerpt: "This article comprehensively addresses the importance of intellectual
-  property for businesses and the methods for protecting it. It explains the
-  four main types of intellectual property: copyrights, trademarks, trade
-  secrets, and patents, detailing the definition, protection period, and
-  registration process for each. The article emphasizes the impact of
-  intellectual property rights on business value, highlighting the critical role
-  of proper registration and legal protection in brand security and competitive
-  advantage."
+title: "What\_Is\_Intellectual\_Property?\_| Copyrights | Trademarks | Patents"
+excerpt: >-
+  This article comprehensively addresses the importance of intellectual property
+  for businesses and the methods for protecting it. It explains the four main
+  types of intellectual property: copyrights, trademarks, trade secrets, and
+  patents, detailing the definition, protection period, and registration process
+  for each. The article emphasizes the impact of intellectual property rights on
+  business value, highlighting the critical role of proper registration and
+  legal protection in brand security and competitive advantage.
 category: Intellectual Property Law
 tags:
   - Property Right for Business
 image: /images/trademarklw.jpg
 imageWidth: 6241
 imageHeight: 4161
-publishDate: 2025-10-06T14:15:00.000+03:00
+publishDate: 2025-10-06T11:15:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/what-is-intellectual-property-copyrights-trademarks-patents
-  description: Intellectual Property Law.
-    What Is Intellectual Property? The main points to know about copyrights.
-    Why Is Intellectual Property Important?
+  canonical: >-
+    https://capitollawpartners.com/what-is-intellectual-property-copyrights-trademarks-patents
+  description: "Intellectual Property Law. What\_Is\_Intellectual\_Property?\_The\_main\_points\_to\_know\_about\_copyrights. Why\_Is\_Intellectual\_Property\_Important?"
 ---
 ### **Intellectual Property Law**
 

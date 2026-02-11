@@ -1,6 +1,7 @@
 ---
 title: Investment Visa
-excerpt: The EB-5 and E-2 visas are two key U.S. immigration options for foreign
+excerpt: >-
+  The EB-5 and E-2 visas are two key U.S. immigration options for foreign
   investors. The EB-5 visa offers a direct path to a Green Card through a
   high-capital investment ($800,000–$1.05 million) that creates at least 10 U.S.
   jobs. In contrast, the E-2 visa is a faster, lower-cost option for nationals
@@ -14,8 +15,9 @@ imageHeight: 1000
 publishDate: 2025-07-03T19:22:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/investment-visa
-  description: "What is the EB-5 Visa? What is the E-2 Visa? Investment Visa (EB-5
-    / E-2): Pathways to U.S. Residency Through Investment.."
+  description: >-
+    What is the EB-5 Visa? What is the E-2 Visa? Investment Visa (EB-5 / E-2):
+    Pathways to U.S. Residency Through Investment..
 ---
 
 

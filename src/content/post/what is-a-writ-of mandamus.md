@@ -1,17 +1,19 @@
 ---
-title: What is a Writ of Mandamus? 
-excerpt: A practical guide to filing a Writ of Mandamus when U.S. immigration
-  agencies fail to act within reasonable processing times.
+title: "What\_is a Writ of\_Mandamus?\_"
+excerpt: >-
+  A practical guide to filing a Writ of Mandamus when U.S. immigration agencies
+  fail to act within reasonable processing times.
 category: Writ of Mandamus
 lang: en
 image: /images/pexels-sora-shimazaki-5668473.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-22T21:27:00.000+03:00
+publishDate: 2025-12-22T18:27:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/what-is-a-writ-of-mandamus
-  description: What is a Writ of Mandamus? Filing requirements | Processing time |
-    Eligible applications | The role of an attorney in mandamus cases.
+  description: >-
+    What is a Writ of Mandamus? Filing requirements | Processing time | Eligible
+    applications | The role of an attorney in mandamus cases.
 ---
 ## What is a Writ of Mandamus? 
 

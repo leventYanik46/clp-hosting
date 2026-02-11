@@ -1,19 +1,14 @@
 ---
-title: "How to Fill Out the DS-160 Form - A Step by Step "
-excerpt: The DS-160 Form, which is mandatory for US visa applications, is
-  a detailed electronic visa form that is filled out online. It is very important that the form
-  is completed accurately and in full for the application to proceed smoothly.
-  Here are the key points you need to know when filling out the form..
+title: "How\_to\_Fill\_Out\_the\_DS-160 Form - A Step by Step "
+excerpt: "The\_DS-160 Form,\_which\_is\_mandatory\_for\_US\_visa\_applications, is a\_detailed\_electronic\_visa\_form\_that\_is\_filled\_out\_online.\_It\_is\_very\_important\_that\_the\_form is\_completed\_accurately\_and\_in\_full\_for\_the\_application\_to\_proceed\_smoothly. Here\_are\_the\_key\_points\_you\_need\_to\_know\_when\_filling\_out\_the\_form.."
 category: Form Guide
 image: /images/ds-160-form-full-out.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-11-14T12:35:00.000+03:00
+publishDate: 2025-11-14T09:35:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-step-by-step
-  description: "How to Fill Out the DS-160 Form: A Step-by-Step Guide. DS-160
-    sample, DS-160 errors, U.S. visa application, DS-160 English characters,
-    passport information.."
+  description: "How\_to\_Fill\_Out\_the\_DS-160 Form: A Step-by-Step Guide. DS-160 sample, DS-160 errors, U.S. visa application, DS-160 English characters, passport information.."
 ---
 ### How to Fill Out the DS-160 Form: A Step-by-Step Guide 
 

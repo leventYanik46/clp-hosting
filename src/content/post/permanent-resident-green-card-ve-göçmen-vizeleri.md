@@ -1,20 +1,22 @@
 ---
 title: Permanent Resident (Green) Card ve Göçmen Vizeleri
-excerpt: Green Card ve göçmen vizeleri, bireylerin Amerika Birleşik
-  Devletleri’nde kalıcı olarak yaşamasına ve çalışmasına olanak tanır. Aile,
-  çalışma, yatırım ve özel kategoriler üzerinden ilerleyen bu süreçlerde, doğru
-  bilgilendirme ve hukuki destek başvurunun başarısı açısından kritik öneme
-  sahiptir.
+excerpt: >-
+  Green Card ve göçmen vizeleri, bireylerin Amerika Birleşik Devletleri’nde
+  kalıcı olarak yaşamasına ve çalışmasına olanak tanır. Aile, çalışma, yatırım
+  ve özel kategoriler üzerinden ilerleyen bu süreçlerde, doğru bilgilendirme ve
+  hukuki destek başvurunun başarısı açısından kritik öneme sahiptir.
 category: Green Card
 lang: tr
 image: /images/pexels-rdne-7997404.jpg
 imageWidth: 6720
 imageHeight: 4480
-publishDate: 2025-12-17T11:54:00.000+03:00
+publishDate: 2025-12-17T08:54:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/tr/permanent-resident-green-card-ve-göçmen-vizeleri
-  description: Green Card Nedir, Göçmen Vizeleri Nelerdir?  Amerika'da Kalıcı
-    Oturum Nasıl Alınır? Adım Adım Vize Türleri. Hangi Vize Türü Size Uygun?
+  canonical: >-
+    https://capitollawpartners.com/tr/permanent-resident-green-card-ve-g%c3%b6%c3%a7men-vizeleri
+  description: >-
+    Green Card Nedir, Göçmen Vizeleri Nelerdir?  Amerika'da Kalıcı Oturum Nasıl
+    Alınır? Adım Adım Vize Türleri. Hangi Vize Türü Size Uygun?
 ---
 ## Permanent Resident (Green) Card ve Göçmen Vizeleri
 

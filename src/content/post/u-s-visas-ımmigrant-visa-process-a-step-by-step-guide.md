@@ -1,6 +1,7 @@
 ---
-title: Immigrant Visa Process - A Step by Step 
-excerpt: "This guide provides a step-by-step overview of the U.S. immigrant visa
+title: "Immigrant Visa Process - A Step by Step\_"
+excerpt: >-
+  This guide provides a step-by-step overview of the U.S. immigrant visa
   process—from submitting your initial petition to preparing for the final
   interview. It explains how to navigate key stages such as paying required
   fees, submitting Form I-864, completing the DS-260, and gathering the
@@ -8,20 +9,18 @@ excerpt: "This guide provides a step-by-step overview of the U.S. immigrant visa
   materials correctly, monitor your case progress through CEAC, and prepare for
   your embassy interview. Whether you're just beginning or nearing the end of
   your journey, this guide helps ensure you stay informed, organized, and ready
-  for every stage of the process. "
-category: "Immigration "
+  for every stage of the process. 
+category: 'Immigration '
 tags:
   - Green card
   - Visa process
 image: /images/us.visa.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-10-18T22:21:00.000+03:00
+publishDate: 2025-10-18T19:21:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/immigration-visa-process-in-us
-  description: " U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide.How can
-    I obtain a US visa: what steps should I follow? Documents required to obtain
-    a visa"
+  description: ' U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide.How can I obtain a US visa: what steps should I follow? Documents required to obtain a visa'
 ---
  **U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide** 
 

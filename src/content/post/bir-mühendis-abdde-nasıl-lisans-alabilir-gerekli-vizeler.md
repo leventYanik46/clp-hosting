@@ -1,23 +1,26 @@
 ---
-title: "Bir Mühendis ABD'de Nasıl Lisans Alabilir? | Gerekli Vizeler "
-excerpt: Amerika Birleşik Devletleri'nde çalışmak isteyen yurtdışında eğitim
-  almış mühendisler, yeterlilik değerlendirmeleri, FE/PE sınavları, eyalet
-  kurulunun gereklilikleri ve uygun göçmenlik statüsü (genellikle uygunluğa
-  bağlı olarak H-1B, TN veya EB-2 kategorisi) gibi çok aşamalı bir lisans alma
-  sürecinden geçmelidir. Capitol Law Partners, adaylara yeterlilik doğrulama,
-  sınav planlama ve göçmenlik başvuruları boyunca destek sağlayarak, ABD
-  mühendislik lisansına uygun ve kolay bir yol sunar.  Translated with DeepL.com
-  (free version)
+title: 'Bir Mühendis ABD''de Nasıl Lisans Alabilir? | Gerekli Vizeler '
+excerpt: >-
+  Amerika Birleşik Devletleri'nde çalışmak isteyen yurtdışında eğitim almış
+  mühendisler, yeterlilik değerlendirmeleri, FE/PE sınavları, eyalet kurulunun
+  gereklilikleri ve uygun göçmenlik statüsü (genellikle uygunluğa bağlı olarak
+  H-1B, TN veya EB-2 kategorisi) gibi çok aşamalı bir lisans alma sürecinden
+  geçmelidir. Capitol Law Partners, adaylara yeterlilik doğrulama, sınav
+  planlama ve göçmenlik başvuruları boyunca destek sağlayarak, ABD mühendislik
+  lisansına uygun ve kolay bir yol sunar.  Translated with DeepL.com (free
+  version)
 category: Göçmenlik ve Mesleki Lisanslama
 lang: tr
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
-publishDate: 2025-12-10T16:14:00.000+03:00
+publishDate: 2025-12-10T13:14:00.000Z
 metadata:
-  description: Yabancı bir mühendis ABD'de nasıl lisans alabilir? | Adım adım.
-    Göçmenlik ve Mesleki Lisanslama. Capitol Law Partners.
-  canonical: https://capitollawpartners.com/bir-mühendis-abd-de-nasıl-lisans-alabilir-gerekli-vizeler
+  description: >-
+    Yabancı bir mühendis ABD'de nasıl lisans alabilir? | Adım adım. Göçmenlik ve
+    Mesleki Lisanslama. Capitol Law Partners.
+  canonical: >-
+    https://capitollawpartners.com/bir-m%c3%bchendis-abd-de-nas%c4%b1l-lisans-alabilir-gerekli-vizeler
 ---
 # Yabancı Bir Mühendis ABD'de Nasıl Lisans Alabilir? | Adım Adım 
 

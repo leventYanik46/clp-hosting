@@ -40,7 +40,15 @@ export default defineConfig({
     }),
     sitemap({
       filter: (page) => {
-        return !['/tag/', '/category', '/archive/'].some(excl => page.includes(excl));
+        const isPaginatedBlogPage = /\/blog\/\d+\/?$/.test(page);
+        const isExcludedSection = [
+          '/tag/',
+          '/category',
+          '/archive/',
+          '/terms/',
+          '/404',
+        ].some((excl) => page.includes(excl));
+        return !isExcludedSection && !isPaginatedBlogPage;
       }
     }),
 

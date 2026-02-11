@@ -1,18 +1,21 @@
 ---
 title: Amerika Vatandaşlık Süreci Başvuru Şartları | Hukuki Destek
-excerpt: Vatandaşlık başvuru sürecinde hukuki yardımın rolünü, başvuru
-  şartlarını, dikkat edilmesi gereken noktaları ve profesyonel desteğin
-  başvuruya nasıl katkı sağladığını öğrenin.
+excerpt: >-
+  Vatandaşlık başvuru sürecinde hukuki yardımın rolünü, başvuru şartlarını,
+  dikkat edilmesi gereken noktaları ve profesyonel desteğin başvuruya nasıl
+  katkı sağladığını öğrenin.
 category: Amerika Vizesi
 lang: tr
 image: /images/family-based-attorney.jpg
 imageWidth: 5472
 imageHeight: 3648
-publishDate: 2025-12-15T05:17:00.000+03:00
+publishDate: 2025-12-15T02:17:00.000Z
 metadata:
-  description: Vatandaşlık alma sürecinde hukuki destek. Gerekli Mi? Başvuru
-    Şartları Neler? Profesyonel Destek..
-  canonical: https://capitollawpartners.com/amerika-vatandaşlık-süreci-başvuru-şartları-hukuki-destek
+  description: >-
+    Vatandaşlık alma sürecinde hukuki destek. Gerekli Mi? Başvuru Şartları
+    Neler? Profesyonel Destek..
+  canonical: >-
+    https://capitollawpartners.com/amerika-vatanda%c5%9fl%c4%b1k-s%c3%bcreci-ba%c5%9fvuru-%c5%9fartlar%c4%b1-hukuki-destek
 ---
 # Amerika Vatandaşlık Süreci Başvuru Şartları | Hukuki Destek
 

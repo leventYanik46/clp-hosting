@@ -1,7 +1,8 @@
 ---
-title: "I-485 Formu Nedir? Nasıl Doldurulur? "
-excerpt: Bu kılavuz, gerçek başvuru sahiplerinin deneyimlerinden uyarlanmış açık
-  ve pratik adımlar kullanarak I-485 Formunu doğru bir şekilde nasıl
+title: 'I-485 Formu Nedir? Nasıl Doldurulur? '
+excerpt: >-
+  Bu kılavuz, gerçek başvuru sahiplerinin deneyimlerinden uyarlanmış açık ve
+  pratik adımlar kullanarak I-485 Formunu doğru bir şekilde nasıl
   dolduracağınızı açıklamaktadır. Pasaportunuzda gösterildiği gibi bilgileri tam
   olarak girme, yalnızca İngilizce harfler kullanma ve ek vatandaşlıklarınızı
   veya önceki göçmenlik başvurularınızı açıklama zorunluluğunu vurgulamaktadır.
@@ -10,12 +11,10 @@ lang: tr
 image: /images/ds-160-form-full-out.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-29T04:41:00.000+03:00
+publishDate: 2025-12-29T01:41:00.000Z
 metadata:
-  description: " 136 Statü Değişikliği için I-485 Formunu nasıl dolduracağınızı
-    öğrenin. Adım adım kılavuz, gerekli belgeler, sık yapılan hatalar ve DS-160
-    ipuçları."
-  canonical: https://capitollawpartners.com/i-485-formu-nedir-nasıl-doldurulur
+  description: ' 136 Statü Değişikliği için I-485 Formunu nasıl dolduracağınızı öğrenin. Adım adım kılavuz, gerekli belgeler, sık yapılan hatalar ve DS-160 ipuçları.'
+  canonical: https://capitollawpartners.com/i-485-formu-nedir-nas%c4%b1l-doldurulur
 ---
 # Form I-485 Nedir? Nasıl Doldurulur? Adım Adım
 

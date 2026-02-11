@@ -1,8 +1,9 @@
 ---
 title: Göçmenlik Vizesi Kimlere Verilir | Vize Türleri
-excerpt: Bu makale Amerika'da Vatandaşlık almak isteyen, göçmen vizesi hakkında
-  bilgi sahibi olmak isteyenler için vize türleri ve göçmenlik süreci hakkında
-  bilgi verir.
+excerpt: >-
+  Bu makale Amerika'da Vatandaşlık almak isteyen, göçmen vizesi hakkında bilgi
+  sahibi olmak isteyenler için vize türleri ve göçmenlik süreci hakkında bilgi
+  verir.
 category: Green Card
 lang: tr
 tags:
@@ -11,11 +12,13 @@ tags:
 image: /images/blogpost4.jpg
 imageWidth: 4000
 imageHeight: 5997
-publishDate: 2025-12-12T14:33:00.000+03:00
+publishDate: 2025-12-12T11:33:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/göçmenlik-vizesi-kimlere-verilir-vize-türleri
-  description: Göçmenlik Vizesi Kimlere Verilir | Vize Türleri Nelerdir? Green
-    Card Kimlere Verilir? Statü değişikliği. Konsoloslukla Yazışma.
+  canonical: >-
+    https://capitollawpartners.com/g%c3%b6%c3%a7menlik-vizesi-kimlere-verilir-vize-t%c3%bcrleri
+  description: >-
+    Göçmenlik Vizesi Kimlere Verilir | Vize Türleri Nelerdir? Green Card Kimlere
+    Verilir? Statü değişikliği. Konsoloslukla Yazışma.
 ---
 ### 
 Göçmen Vizesi Kimlere Verilir?

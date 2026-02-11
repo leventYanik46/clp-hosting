@@ -1,20 +1,16 @@
 ---
-title: "Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? "
-excerpt: Amerika’da Çalışma İzni Nasıl Alınır? Gerekli Vizeler Neler? H-1B
-  Vizesi ve EB-2 Vizesi Gibi Programlar ve Şartları. Vize, Çalışma İzni
-  ve Green Card Arasındaki Farklar Nelerdir? 
+title: 'Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? '
+excerpt: "Amerika’da Çalışma İzni Nasıl Alınır? Gerekli Vizeler Neler? H-1B Vizesi ve EB-2 Vizesi Gibi Programlar ve Şartları. Vize, Çalışma İzni ve\_Green\_Card\_Arasındaki Farklar Nelerdir?\_"
 category: Vize & Green Card
 lang: tr
 image: /images/amerika-da-nasil-calisma-vizesi-alinir.jpeg
 imageWidth: 1024
 imageHeight: 684
-publishDate: 2025-12-21T23:10:00.000+03:00
+publishDate: 2025-12-21T20:10:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/amerikada-calisma-vizesi-nasil-alinir-hangi-vizeler-gerekiyor
-  description: Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? Vize
-    İçin Gerekli Belgeler.  E-1 / E-2 mi, H-1B mi? Hangi Vize Kimler İçin Daha
-    Uygun? Capitol Law Partners ile Amerika’da Çalışma ve Göçmenlik Sürecinizi
-    Yönetmek..
+  canonical: >-
+    https://capitollawpartners.com/amerikada-calisma-vizesi-nasil-alinir-hangi-vizeler-gerekiyor
+  description: "Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? Vize İçin Gerekli Belgeler.  E-1 / E-2 mi, H-1B mi? Hangi Vize Kimler İçin Daha Uygun? Capitol\_Law\_Partners\_ile Amerika’da Çalışma ve Göçmenlik Sürecinizi Yönetmek.."
 ---
 # Amerika’da Çalışma İzni Nasıl Alınır? 
 

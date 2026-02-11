@@ -1,6 +1,7 @@
 ---
 title: What is Crimmigration?
-excerpt: Crimmigration combines criminal and immigration law, creating serious
+excerpt: >-
+  Crimmigration combines criminal and immigration law, creating serious
   consequences for non-citizens facing charges. At Capitol Law Partners, we
   guide clients through both systems—protecting immigration status, avoiding
   deportation, and securing future opportunities.
@@ -8,11 +9,11 @@ category: İmmigration
 image: /images/usa.jpg
 imageWidth: 4722
 imageHeight: 3062
-publishDate: 2025-08-22T17:11:00.000+03:00
+publishDate: 2025-08-22T14:11:00.000Z
 metadata:
-  description: Learn how criminal charges impact immigration status. Capitol Law
-    Partners offers expert crimmigration defense to protect your rights in the
-    U.S.
+  description: >-
+    Learn how criminal charges impact immigration status. Capitol Law Partners
+    offers expert crimmigration defense to protect your rights in the U.S.
   canonical: https://capitollawpartners.com/what-is-crimmigration
 ---
 ## **Crimmigration: Where Criminal Law Meets Immigration Law** 

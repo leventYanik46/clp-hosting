@@ -1,6 +1,7 @@
 ---
 title: Amerika’da Oturma İzni Nasıl Alınır?
-excerpt: Aile yoluyla oturma izni, çalışma yoluyla oturma izni ve yatırım gibi,
+excerpt: >-
+  Aile yoluyla oturma izni, çalışma yoluyla oturma izni ve yatırım gibi,
   Amerika'da oturma izni almak için birçok yol vardır. Bu makale size en uygun
   programı seçmenize yardımcı olmayı hedefler.
 category: Amerika'da Oturma İzni
@@ -12,12 +13,13 @@ tags:
 image: /images/pexels-tara-winstead-8850746.jpg
 imageWidth: 6720
 imageHeight: 4480
-publishDate: 2025-12-20T13:28:00.000+03:00
+publishDate: 2025-12-20T10:28:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/amerikada-oturma-izni-nasil-alinir
-  description: Amerika Birleşik Devletleri'nde Oturma İzni Nasıl Alınır? Green
-    Card Sahibi Olmadan Oturma İzni Alınır Mı? Çalışma Yoluyla Vatandaşlık
-    Almak. En Yaygın Yöntem.
+  description: >-
+    Amerika Birleşik Devletleri'nde Oturma İzni Nasıl Alınır? Green Card Sahibi
+    Olmadan Oturma İzni Alınır Mı? Çalışma Yoluyla Vatandaşlık Almak. En Yaygın
+    Yöntem.
 ---
 ## Amerika’da Oturma İzni Nasıl Alınır?
 

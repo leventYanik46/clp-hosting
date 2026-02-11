@@ -1,15 +1,16 @@
 ---
-title: "Göçmen Vizesi Süreci: Adım Adım Kılavuz  "
-excerpt: Bu kılavuz, ilk başvurunuzu yapmaktan son görüşmeye hazırlanmaya kadar
-  ABD göçmen vizesi sürecini adım adım özetlemektedir. Gerekli ücretlerin
-  ödenmesi, I-864 Formunun sunulması, DS-260 Formunun doldurulması ve gerekli
-  sivil ve mali belgelerin toplanması gibi önemli aşamaların nasıl
-  gerçekleştirileceğini açıklamaktadır. Ayrıca, belgelerinizi doğru şekilde
-  nasıl yükleyeceğinizi, CEAC aracılığıyla dosyanızın ilerleyişini nasıl takip
-  edeceğinizi ve büyükelçilik mülakatına nasıl hazırlanacağınızı da
-  öğreneceksiniz. Sürecin başlangıcında veya sonuna yaklaşmış olsanız da, bu
-  kılavuz sürecin her aşamasında bilgili, organize ve hazır olmanızı sağlar.
-category: "Immigration "
+title: "Göçmen Vizesi Süreci: Adım Adım Kılavuz\_\_"
+excerpt: >-
+  Bu kılavuz, ilk başvurunuzu yapmaktan son görüşmeye hazırlanmaya kadar ABD
+  göçmen vizesi sürecini adım adım özetlemektedir. Gerekli ücretlerin ödenmesi,
+  I-864 Formunun sunulması, DS-260 Formunun doldurulması ve gerekli sivil ve
+  mali belgelerin toplanması gibi önemli aşamaların nasıl gerçekleştirileceğini
+  açıklamaktadır. Ayrıca, belgelerinizi doğru şekilde nasıl yükleyeceğinizi,
+  CEAC aracılığıyla dosyanızın ilerleyişini nasıl takip edeceğinizi ve
+  büyükelçilik mülakatına nasıl hazırlanacağınızı da öğreneceksiniz. Sürecin
+  başlangıcında veya sonuna yaklaşmış olsanız da, bu kılavuz sürecin her
+  aşamasında bilgili, organize ve hazır olmanızı sağlar.
+category: 'Immigration '
 lang: tr
 tags:
   - Green Card
@@ -17,11 +18,13 @@ tags:
 image: /images/clp-kullanılmamış.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-13T13:54:00.000+03:00
+publishDate: 2025-12-13T10:54:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/abd-göçmen-vizesi-süreci-adım-adım
-  description: "Göçmen Vizesi Süreci - Adım Adım Kılavuz. Ödenmesi Gereken
-    Ücretler. Dilekçe Örnekleri ve Süreç. "
+  canonical: >-
+    https://capitollawpartners.com/abd-g%c3%b6%c3%a7men-vizesi-s%c3%bcreci-ad%c4%b1m-ad%c4%b1m
+  description: >-
+    Göçmen Vizesi Süreci - Adım Adım Kılavuz. Ödenmesi Gereken Ücretler. Dilekçe
+    Örnekleri ve Süreç. 
 ---
 # ABD Vizeleri – Göçmen Vizesi Süreci: Adım Adım Kılavuz  
 

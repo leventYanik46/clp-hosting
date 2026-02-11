@@ -1,21 +1,24 @@
 ---
-title: "Work and Travel 2026: Expenses, Things Students Want to Know "
-excerpt: "The Work and Travel program is one of the most popular summer programs
-  for university students, offering them both work experience in the United
-  States and cultural exchange opportunities. This guide covers the topics
-  students are most curious about, from application requirements to the visa
-  process, job-hunting tips, and balancing expenses and income, all from an
-  expert perspective. "
+title: 'Work and Travel 2026: Expenses, Things Students Want to Know '
+excerpt: >-
+  The Work and Travel program is one of the most popular summer programs for
+  university students, offering them both work experience in the United States
+  and cultural exchange opportunities. This guide covers the topics students are
+  most curious about, from application requirements to the visa process,
+  job-hunting tips, and balancing expenses and income, all from an expert
+  perspective. 
 category: Work and Travel
 lang: en
 image: /images/work-and-travel.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-02T19:53:00.000+03:00
+publishDate: 2025-12-02T16:53:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/work-and-travel-2026-expenses-things-students-want-to-know
-  description: "Work and Travel 2026: Costs, Things Students Want to Know. What is
-    WAT? Fees, Registration Dates, Language Proficiency..."
+  canonical: >-
+    https://capitollawpartners.com/work-and-travel-2026-expenses-things-students-want-to-know
+  description: >-
+    Work and Travel 2026: Costs, Things Students Want to Know. What is WAT?
+    Fees, Registration Dates, Language Proficiency...
 ---
 ## Work and Travel 2026: Expenses, What Students Want to Know 
 

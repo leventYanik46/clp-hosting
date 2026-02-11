@@ -1,20 +1,23 @@
 ---
 title: Small Business Intellectual Property Protection Types in US
-excerpt: "This guide provides small business owners with a comprehensive
-  overview of intellectual property protection, focusing on how trademarks,
-  copyrights, patents, and trade secrets safeguard brand value and
-  competitiveness. It explains why federal trademark registration with the USPTO
-  is essential, outlines the step-by-step application process, and highlights
-  the legal advantages of professional IP counsel. "
+excerpt: >-
+  This guide provides small business owners with a comprehensive overview of
+  intellectual property protection, focusing on how trademarks, copyrights,
+  patents, and trade secrets safeguard brand value and competitiveness. It
+  explains why federal trademark registration with the USPTO is essential,
+  outlines the step-by-step application process, and highlights the legal
+  advantages of professional IP counsel. 
 category: Intellectual Property Law
 image: /images/intellectual-property.jpg
 imageWidth: 5000
 imageHeight: 3337
-publishDate: 2025-10-10T10:56:00.000+03:00
+publishDate: 2025-10-10T07:56:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/small-business-intellectual-property-protection-types
-  description: Small Business Intellectual Property Protection Types. Trade mark ·
-    Trade secret · Copyright · Company name registration · Design · Patent.
+  canonical: >-
+    https://capitollawpartners.com/small-business-intellectual-property-protection-types
+  description: >-
+    Small Business Intellectual Property Protection Types. Trade mark · Trade
+    secret · Copyright · Company name registration · Design · Patent.
 ---
 ## Small Business Intellectual Property Protection Types
 

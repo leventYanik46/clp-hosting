@@ -1,20 +1,24 @@
 ---
-title: "U.S. Immigration Update 2025: How Proposed Rules Affect F-1 Students and
-  Scholars"
-excerpt: "The Trump Administration’s proposed rule seeks to end the “duration of
-  status” model for foreign students and exchange visitors, replacing it with
-  fixed admission periods of up to four years. This change would require
-  students to apply for extensions through USCIS, leading to stricter oversight
-  and regular vetting. "
-category: "Immigration "
+title: >-
+  U.S. Immigration Update 2025: How Proposed Rules Affect F-1 Students and
+  Scholars
+excerpt: >-
+  The Trump Administration’s proposed rule seeks to end the “duration of status”
+  model for foreign students and exchange visitors, replacing it with fixed
+  admission periods of up to four years. This change would require students to
+  apply for extensions through USCIS, leading to stricter oversight and regular
+  vetting. 
+category: 'Immigration '
 image: /images/pexels-rdne-7997404.jpg
 imageWidth: 6720
 imageHeight: 4480
-publishDate: 2025-08-30T18:23:00.000+03:00
+publishDate: 2025-08-30T15:23:00.000Z
 metadata:
-  description: U.S. Immigration Update 2025. Learn how Trump’s proposed rule on
-    student visas could impact international students..
-  canonical: https://capitollawpartners.com/u.s-immigration-update-2025-how-proposed-rules-affect-F-1-students-and-scholars
+  description: >-
+    U.S. Immigration Update 2025. Learn how Trump’s proposed rule on student
+    visas could impact international students..
+  canonical: >-
+    https://capitollawpartners.com/u.s-immigration-update-2025-how-proposed-rules-affect-f-1-students-and-scholars
 ---
 ## U.S. Immigration Update 2025: How Proposed Rules Affect F-1 Students and Scholars
 

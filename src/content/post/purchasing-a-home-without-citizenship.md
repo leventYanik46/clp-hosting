@@ -1,6 +1,6 @@
 ---
-title: Purchasing a Home Without Citizenship 
-excerpt: Buying property in the United States is fully accessible to non-citizens. With the right team of experts and careful financial planning, you can successfully purchase real estate for both personal use and investment purposes. 
+title: "Purchasing a Home Without Citizenship\_"
+excerpt: "Buying\_property\_in\_the\_United\_States\_is\_fully\_accessible\_to\_non-citizens.\_With\_the\_right\_team\_of\_experts\_and\_careful\_financial\_planning,\_you\_can\_successfully\_purchase\_real\_estate\_for\_both\_personal\_use\_and\_investment\_purposes.\_"
 category: Real Estate Law
 lang: en
 tags:
@@ -9,13 +9,10 @@ tags:
 image: /images/purchsasing-a-house-non-citizen.jpg
 imageWidth: 4000
 imageHeight: 2247
-publishDate: 2025-12-27T23:49:00.000+03:00
+publishDate: 2025-12-27T20:49:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/purchasing-a-home-without-citizenship
-  description: Purchasing a Home Without Citizenship. What Types of Properties Can
-    Non-Citizens
-    Buy? Buying Real Estate in the U.S.: Are There Any Restrictions for Foreign Nationals? Can you buy
-    a house if you only have a work visa or a student visa?
+  description: "Purchasing a Home Without Citizenship. What Types of Properties Can Non-Citizens Buy?\_Buying\_Real\_Estate\_in\_the\_U.S.:\_Are\_There\_Any\_Restrictions\_for\_Foreign\_Nationals?\_Can\_you\_buy a\_house\_if\_you\_only\_have\_a\_work\_visa\_or\_a\_student\_visa?"
 ---
 ## **Purchasing a Home Without Citizenship** 
 

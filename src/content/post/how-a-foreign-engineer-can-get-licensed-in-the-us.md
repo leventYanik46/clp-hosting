@@ -1,21 +1,24 @@
 ---
-title: "How a Foreign Engineer Can Get Licensed in the US "
-excerpt: Foreign-trained engineers who want to work in the United States must
-  navigate a multi-step licensing pathway that includes credential evaluations,
-  FE/PE exams, state board requirements, and the correct immigration
-  status—typically an H-1B, TN, or EB-2 category depending on
-  eligibility.Capitol Law Partners supports candidates throughout credential
-  verification, exam planning, and immigration filings, ensuring a compliant and
-  streamlined path to U.S. engineering licensure.
+title: 'How a Foreign Engineer Can Get Licensed in the US '
+excerpt: >-
+  Foreign-trained engineers who want to work in the United States must navigate
+  a multi-step licensing pathway that includes credential evaluations, FE/PE
+  exams, state board requirements, and the correct immigration status—typically
+  an H-1B, TN, or EB-2 category depending on eligibility.Capitol Law Partners
+  supports candidates throughout credential verification, exam planning, and
+  immigration filings, ensuring a compliant and streamlined path to U.S.
+  engineering licensure.
 category: Immigration & Professional Licensing
 lang: en
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
-publishDate: 2025-12-04T17:03:00.000+03:00
+publishDate: 2025-12-04T14:03:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/how-a-foreign-engineer-can-get-licensed-in-the-us
-  description: How a Foreign Engineer Can Get Licensed in the US | Step by Step.
+  canonical: >-
+    https://capitollawpartners.com/how-a-foreign-engineer-can-get-licensed-in-the-us
+  description: >-
+    How a Foreign Engineer Can Get Licensed in the US | Step by Step.
     Immigration & Professional Licensing. Capitol Law Partners.
 ---
 # How a Foreign Engineer Can Get Licensed in the US | Step by Step

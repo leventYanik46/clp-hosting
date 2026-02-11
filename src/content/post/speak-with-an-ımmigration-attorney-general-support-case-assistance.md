@@ -1,19 +1,22 @@
 ---
-title: "Speak with an Immigration Attorney: General Support & Case Assistance "
-excerpt: Capitol Law Partners offers direct immigration case assistance and
-  general support for individuals, families, and businesses. From visa
-  applications and green card petitions to deportation defense and
-  naturalization, our attorneys provide personalized guidance to help clients
-  achieve their immigration goals with confidence.
+title: "Speak with an Immigration Attorney: General Support & Case Assistance\_"
+excerpt: >-
+  Capitol Law Partners offers direct immigration case assistance and general
+  support for individuals, families, and businesses. From visa applications and
+  green card petitions to deportation defense and naturalization, our attorneys
+  provide personalized guidance to help clients achieve their immigration goals
+  with confidence.
 category: Law Partner
 image: /images/general-suppoırt.jpg
 imageWidth: 4290
 imageHeight: 2864
-publishDate: 2025-08-14T11:11:00.000+03:00
+publishDate: 2025-08-14T08:11:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/speak-with-an-immigration-attorney-general-sport
-  description: Get immigration case assistance at Capitol Law Partners. Speak with
-    an attorney for trusted support in visas, green cards, citizenship, and
+  canonical: >-
+    https://capitollawpartners.com/speak-with-an-immigration-attorney-general-sport
+  description: >-
+    Get immigration case assistance at Capitol Law Partners. Speak with an
+    attorney for trusted support in visas, green cards, citizenship, and
     deportation defense.
 ---
 ## **Speak with an Immigration Attorney: General Support & Case Assistance** 

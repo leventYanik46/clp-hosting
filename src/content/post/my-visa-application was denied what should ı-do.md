@@ -1,10 +1,10 @@
 ---
-title: My Visa Application Was Denied What Should I Do? 
-excerpt: Getting a U.S. visa denial doesn’t have to be the end of your
-  immigration journey. Learn what steps to take after your application is
-  refused and how the experienced attorneys at Capitol Law Partners in
-  Washington, D.C. and Chicago can guide you through reapplication or appeal for
-  a stronger case.
+title: "My Visa Application\_Was\_Denied\_What\_Should\_I Do?\_"
+excerpt: >-
+  Getting a U.S. visa denial doesn’t have to be the end of your immigration
+  journey. Learn what steps to take after your application is refused and how
+  the experienced attorneys at Capitol Law Partners in Washington, D.C. and
+  Chicago can guide you through reapplication or appeal for a stronger case.
 category: US Visa Denials, Refusals & Rejections
 tags:
   - visa rejections
@@ -12,11 +12,11 @@ tags:
 image: /images/pexels-steve-845246.jpg
 imageWidth: 4379
 imageHeight: 2919
-publishDate: 2025-11-06T12:28:00.000+03:00
+publishDate: 2025-11-06T09:28:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/my-visa-application-was-denied-what-should-i-do
-  description: My Visa Application Was Denied — What Should I Do? Professional
-    Help.  Learn what steps to take after your application is refused.
+  canonical: >-
+    https://capitollawpartners.com/my-visa-application-was-denied-what-should-i-do
+  description: "My Visa Application\_Was\_Denied\_—\_What\_Should\_I Do?\_Professional Help.  Learn what steps to take after your application is refused."
 ---
 ## **My Visa Application Was Denied — What Should I Do?** 
 

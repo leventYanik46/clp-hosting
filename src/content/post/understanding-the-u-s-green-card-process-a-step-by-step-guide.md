@@ -1,21 +1,22 @@
 ---
-title: "Understanding the U.S. Green Card Process: A Step-by-Step Guide"
-excerpt: Obtaining a U.S. Green Card — the official proof of lawful permanent
-  residency — is a major step toward building your life in the United States.
-  Whether your goal is to live, work, reunite with family, or eventually become
-  a U.S. citizen, understanding the process is essential to your success. At
-  Capitol Law Partners, our immigration attorneys guide clients through every
-  stage with precision and care.
-category: "Green Card Process "
+title: 'Understanding the U.S. Green Card Process: A Step-by-Step Guide'
+excerpt: >-
+  Obtaining a U.S. Green Card — the official proof of lawful permanent residency
+  — is a major step toward building your life in the United States. Whether your
+  goal is to live, work, reunite with family, or eventually become a U.S.
+  citizen, understanding the process is essential to your success. At Capitol
+  Law Partners, our immigration attorneys guide clients through every stage with
+  precision and care.
+category: 'Green Card Process '
 image: /images/img_1324.jpeg
 imageWidth: 4040
 imageHeight: 3040
-publishDate: 2025-08-07T17:14:00.000+03:00
+publishDate: 2025-08-07T14:14:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/step-by-step-green-card-process
-  description: Step-by-step U.S. Green Card guide by Capitol Law Partners. Expert
-    legal help from eligibility to approval. Secure your permanent residency
-    today.
+  description: >-
+    Step-by-step U.S. Green Card guide by Capitol Law Partners. Expert legal
+    help from eligibility to approval. Secure your permanent residency today.
 ---
 **Understanding the U.S. Green Card Process: A Step-by-Step Guide**\
 Obtaining a U.S. Green Card — the official proof of lawful permanent residency — is a major step toward building your life in the United States. Whether your goal is to live, work, reunite with family, or eventually become a U.S. citizen, understanding the process is essential to your success. At Capitol Law Partners, our immigration attorneys guide clients through every stage with precision and care.

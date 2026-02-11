@@ -1,8 +1,9 @@
 ---
 title: After Your Visa Was Refused | F-1 Visa Process
-excerpt: This article comprehensively covers how U.S. student visas (F-1) work,
-  the critical stages of the application process, and the most common reasons
-  for denial.
+excerpt: >-
+  This article comprehensively covers how U.S. student visas (F-1) work, the
+  critical stages of the application process, and the most common reasons for
+  denial.
 category: Visa Refused
 lang: en
 tags:
@@ -11,12 +12,13 @@ tags:
 image: /images/pexels-steve-845246.jpg
 imageWidth: 4379
 imageHeight: 2919
-publishDate: 2025-12-01T17:38:00.000+03:00
+publishDate: 2025-12-01T14:38:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/after-your-visa-was-refused-f-1-visa-process
-  description: After Your Visa Was Refused | F-1 Visa Process. Most common reasons
-    for rejection. Timely scheduling, appointment management, strategic
-    interview preparation.
+  description: >-
+    After Your Visa Was Refused | F-1 Visa Process. Most common reasons for
+    rejection. Timely scheduling, appointment management, strategic interview
+    preparation.
 ---
 ## After Your Visa Was Issued / Refused – What You Need to Know About the US Visa Process   
 

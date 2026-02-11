@@ -1,0 +1,114 @@
+---
+import type { MetaData } from '~/types';
+import {
+  buildPathForLang,
+  getLangFromPathname,
+  sanitizeCanonicalUrl,
+  stripLangPrefix,
+  titleCaseFromSlug,
+} from '~/data/seo';
+import { getOrganizationSchema, getLegalServiceSchema } from '~/js/schema/organizationLegalService';
+import { getWebsiteSchema } from '~/js/schema/website';
+import { getBreadcrumbSchema } from '~/js/schema/breadcrumb';
+import { getPersonSchema } from '~/js/schema/person';
+import { getServiceSchema } from '~/js/schema/service';
+
+interface Props {
+  metadata?: MetaData;
+}
+
+const { metadata = {} } = Astro.props;
+
+const siteUrl = String(Astro.site ?? Astro.url.origin);
+const siteHost = new URL(siteUrl).hostname;
+const routeLang = getLangFromPathname(Astro.url.pathname);
+const { routePath } = stripLangPrefix(Astro.url.pathname);
+
+const canonical =
+  sanitizeCanonicalUrl(metadata?.canonical ?? Astro.url.href, {
+    siteUrl,
+    forceHost: siteHost,
+  }) ?? String(Astro.url.href);
+
+const pageTitle = metadata?.title?.trim();
+const pageDescription = metadata?.description?.trim();
+const pageImage = metadata?.openGraph?.images?.[0]?.url
+  ? new URL(metadata.openGraph.images[0].url, siteUrl).toString()
+  : undefined;
+
+const schemas = [
+  getOrganizationSchema(siteUrl),
+  getLegalServiceSchema(siteUrl),
+  getWebsiteSchema(siteUrl, routeLang),
+];
+
+const segmentLabelMap: Record<string, string> = {
+  'practice-area': 'Practice Areas',
+  'key-services': 'Key Services',
+  'our-team': 'Our Team',
+};
+
+const buildBreadcrumbItems = (titleForLastSegment?: string) => {
+  const localizedHomePath = buildPathForLang('/', routeLang);
+  const breadcrumbItems = [
+    {
+      name: 'Home',
+      url: new URL(localizedHomePath, siteUrl).toString(),
+    },
+  ];
+
+  const segments = routePath.split('/').filter(Boolean);
+  let accPath = '';
+
+  segments.forEach((segment, index) => {
+    accPath += `/${segment}`;
+    const localizedPath = buildPathForLang(accPath, routeLang);
+    const isLastSegment = index === segments.length - 1;
+
+    breadcrumbItems.push({
+      name: isLastSegment && titleForLastSegment ? titleForLastSegment : segmentLabelMap[segment] ?? titleCaseFromSlug(segment),
+      url: new URL(localizedPath, siteUrl).toString(),
+    });
+  });
+
+  return breadcrumbItems;
+};
+
+if (routePath.startsWith('/practice-area/') && pageTitle) {
+  schemas.push(
+    getServiceSchema({
+      name: pageTitle,
+      description: pageDescription,
+      url: canonical,
+      serviceType: routePath.includes('/key-services/') ? 'Key Legal Service' : 'Legal Service',
+      inLanguage: routeLang,
+      siteUrl,
+    })
+  );
+
+  schemas.push(getBreadcrumbSchema(buildBreadcrumbItems(pageTitle)));
+}
+
+if (routePath.startsWith('/our-team/') && pageTitle) {
+  schemas.push(
+    getPersonSchema({
+      name: pageTitle,
+      description: pageDescription,
+      url: canonical,
+      image: pageImage,
+      inLanguage: routeLang,
+      siteUrl,
+    })
+  );
+
+  schemas.push(getBreadcrumbSchema(buildBreadcrumbItems(pageTitle)));
+}
+---
+
+{
+  schemas.map((schema, index) => (
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} data-schema={index} />
+  ))
+}
+
+<slot name="schema" />

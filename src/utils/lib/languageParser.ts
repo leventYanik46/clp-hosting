@@ -78,6 +78,10 @@ languagesJSON.forEach(({ languageCode }) => {
   if (disabledLanguages.includes(languageCode)) {
     return;
   }
+  // When the default language is served from root, skip its explicit subdir entry.
+  if (!defaultLanguageInSubdir && languageCode === defaultLanguageCode) {
+    return;
+  }
   if (!computedSupportedLang.includes(languageCode)) {
     computedSupportedLang.push(languageCode);
   }

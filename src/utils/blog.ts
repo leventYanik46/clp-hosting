@@ -327,6 +327,57 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
   });
 };
 
+const defaultBlogLanguage = config.settings.default_language;
+
+const getPostLanguageCodes = (post: Post): string[] => {
+  const postLang = post.lang;
+  if (Array.isArray(postLang) && postLang.length) return postLang;
+  if (typeof postLang === 'string' && postLang.length > 0) return [postLang];
+  return [defaultBlogLanguage];
+};
+
+const pageSize = Number(blogPostsPerPage) || 12;
+
+const getAvailableLanguageCodesForPage = (posts: Post[], pageNumber: number): string[] => {
+  const currentPage = Number.isFinite(pageNumber) && pageNumber > 0 ? Math.floor(pageNumber) : 1;
+  const minItemCount = (currentPage - 1) * pageSize + 1;
+
+  const countsByLanguage = new Map<string, number>();
+
+  posts.forEach((post) => {
+    getPostLanguageCodes(post).forEach((languageCode) => {
+      countsByLanguage.set(languageCode, (countsByLanguage.get(languageCode) || 0) + 1);
+    });
+  });
+
+  const available = Array.from(countsByLanguage.entries())
+    .filter(([, count]) => count >= minItemCount)
+    .map(([languageCode]) => languageCode);
+
+  if (available.length === 0) {
+    return [defaultBlogLanguage];
+  }
+
+  return available;
+};
+
+export const getBlogLanguageCodesForListPage = async (pageNumber = 1): Promise<string[]> => {
+  const posts = await fetchPosts();
+  return getAvailableLanguageCodesForPage(posts, pageNumber);
+};
+
+export const getBlogLanguageCodesForCategoryPage = async (categorySlug: string, pageNumber = 1): Promise<string[]> => {
+  const posts = await fetchPosts();
+  const categoryPosts = posts.filter((post) => post.category?.slug === categorySlug);
+  return getAvailableLanguageCodesForPage(categoryPosts, pageNumber);
+};
+
+export const getBlogLanguageCodesForTagPage = async (tagSlug: string, pageNumber = 1): Promise<string[]> => {
+  const posts = await fetchPosts();
+  const tagPosts = posts.filter((post) => Array.isArray(post.tags) && post.tags.some((tag) => tag.slug === tagSlug));
+  return getAvailableLanguageCodesForPage(tagPosts, pageNumber);
+};
+
 /** */
 export async function getRelatedPosts(originalPost: Post, maxResults: number = 4): Promise<Post[]> {
   const allPosts = await fetchPosts();

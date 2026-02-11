@@ -1,22 +1,24 @@
 ---
 title: Ailemi Amerikaya Nasıl Getirebilirim?
-excerpt: "ABD göçmenlik sürecinde en önemli unsurlar, doğru formları hazırlamak,
+excerpt: >-
+  ABD göçmenlik sürecinde en önemli unsurlar, doğru formları hazırlamak,
   eksiksiz bilgi sağlamak ve süreci zamanında başlatmaktır. Correct Forms,
   müşterilerine bu üç temel alanda profesyonel destek sağlayarak başvuruların
   hatasız bir şekilde ilerlemesini garanti eder. Eksik veya hatalı belgelerden
   kaynaklanan uzun bekleme sürelerini en aza indirerek, müşterilerinin
   Amerika'da yeni bir hayat kurma yolculuğunu güvenilir, hızlı ve stressiz hale
-  getirir. "
+  getirir. 
 category: Green Card Başvurusu
 lang: tr
 image: /images/how-can-i-bring-my-family-in-usa.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-11-30T18:17:00.000+03:00
+publishDate: 2025-11-30T15:17:00.000Z
 metadata:
-  description: "Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik
-    süreçlerinde yapılan en büyük hatalar. Ebeveyn Sponsorluğu. "
-  canonical: https://capitollawpartners.com/ailemi-amerikaya-nasıl-getirebilirim?
+  description: >-
+    Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik süreçlerinde yapılan
+    en büyük hatalar. Ebeveyn Sponsorluğu. 
+  canonical: https://capitollawpartners.com/ailemi-amerikaya-nas%c4%b1l-getirebilirim
 ---
 Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci 
 

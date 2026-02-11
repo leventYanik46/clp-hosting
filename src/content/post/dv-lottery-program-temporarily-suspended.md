@@ -1,21 +1,23 @@
 ---
 title: DV Lottery Program Temporarily Suspended!
-excerpt: "US Decision on Green Cards: Program Suspended Indefinitely. The US
+excerpt: >-
+  US Decision on Green Cards: Program Suspended Indefinitely. The US
   administration has indefinitely suspended the Diversity Visa (DV-1) program,
   publicly known as the Green Card lottery. The decision was communicated to
   USCIS by the US Department of Homeland Security, citing recent security
-  incidents as the reason."
+  incidents as the reason.
 category: USA News
 lang: en
 image: /images/trump-2546104_1280.jpg
 imageWidth: 1280
 imageHeight: 441
-publishDate: 2025-12-20T13:15:00.000+03:00
+publishDate: 2025-12-20T10:15:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/dv-lottery-program-temporarily-suspended
-  description: DV Lottery Program Temporarily Suspended. Is this a permanent
-    cancellation? Has the Green Card program been cancelled? Are Green Card
-    applications open this..
+  description: >-
+    DV Lottery Program Temporarily Suspended. Is this a permanent cancellation?
+    Has the Green Card program been cancelled? Are Green Card applications open
+    this..
 ---
 # DV Lottery Program Temporarily Suspended!
 

@@ -7,11 +7,21 @@ import Layout from '~/layouts/PageLayout.astro';
 import SinglePost from '~/components/blog/SinglePost.astro';
 import ToBlogLink from '~/components/blog/ToBlogLink.astro';
 
-import { getCanonical, getPermalink } from '~/utils/permalinks';
+import { BLOG_BASE, getCanonical, getPermalink } from '~/utils/permalinks';
 import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
 import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+import { getBlogPostingSchema } from '~/js/schema/blogPosting';
+import { getBreadcrumbSchema } from '~/js/schema/breadcrumb';
+import {
+  buildLanguageAlternatesForLangs,
+  buildPathForLang,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  getOgLocaleForLang,
+  sanitizeCanonicalUrl,
+} from '~/data/seo';
 
 export const prerender = true;
 
@@ -22,12 +32,47 @@ export const getStaticPaths = (async () => {
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { post, lang, pathPrefix } = Astro.props as Props;
-const ogLocaleMap: Record<string, string> = { en: 'en-US', tr: 'tr-TR', es: 'es-ES', pt: 'pt-PT', fr: 'fr-FR' };
+const seoLang = ['en', 'tr', 'es', 'pt', 'fr'].includes(lang) ? (lang as 'en' | 'tr' | 'es' | 'pt' | 'fr') : 'en';
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const siteHost = new URL(siteUrl).hostname;
 
 // build language-prefixed permalink when the route includes a prefix
 const prefixedPermalink = pathPrefix ? `${pathPrefix}/${post.permalink}` : post.permalink;
-const url = getCanonical(getPermalink(prefixedPermalink, 'post'));
+const generatedCanonical =
+  sanitizeCanonicalUrl(String(getCanonical(getPermalink(prefixedPermalink, 'post'))), {
+    siteUrl,
+    forceHost: siteHost,
+  }) ?? String(getCanonical(getPermalink(prefixedPermalink, 'post')));
+const canonicalOverride = sanitizeCanonicalUrl(post?.metadata?.canonical, {
+  siteUrl,
+  forceHost: siteHost,
+});
+const canonical = generatedCanonical || canonicalOverride || String(Astro.url.href);
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
+const imageSource = typeof image === 'string' ? image : image?.src;
+const imageUrl = imageSource ? new URL(imageSource, siteUrl).toString() : undefined;
+const postLangValues = Array.isArray(post.lang)
+  ? post.lang
+  : typeof post.lang === 'string'
+    ? [post.lang]
+    : [seoLang];
+const routePath = `/${post.permalink}`;
+const languageAlternates = buildLanguageAlternatesForLangs(
+  routePath,
+  siteUrl,
+  postLangValues,
+  DEFAULT_SEO_LANG,
+  false
+);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(seoLang, postLangValues, false);
+
+const sanitizedPostMetadata = post?.metadata
+  ? {
+      ...post.metadata,
+      ...(post.metadata.description ? { description: post.metadata.description.trim() } : {}),
+      canonical,
+    }
+  : { canonical };
 
 const metadata = merge(
   {
@@ -39,18 +84,43 @@ const metadata = merge(
     },
     openGraph: {
       type: 'article',
-      locale: ogLocaleMap[lang] || ogLocaleMap.en,
+      locale: getOgLocaleForLang(seoLang),
       ...(image
         ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] }
         : {}),
     },
   },
-  { ...(post?.metadata ? { ...post.metadata, canonical: post.metadata?.canonical || url } : {}) }
+  sanitizedPostMetadata
 ) as MetaData;
+
+const blogPostingSchema = getBlogPostingSchema({
+  title: post.title,
+  description: (metadata.description || post.excerpt || '').trim(),
+  url: canonical,
+  image: imageUrl,
+  datePublished: post.publishDate?.toISOString?.(),
+  dateModified: (post.updateDate || post.publishDate)?.toISOString?.(),
+  authorName: post.author,
+  articleSection: post.category?.title,
+  keywords: post.tags?.map((tag) => tag.title),
+  inLanguage: seoLang,
+  siteUrl,
+});
+
+const homeUrl = new URL(buildPathForLang('/', seoLang), siteUrl).toString();
+const blogUrl = new URL(buildPathForLang(`/${BLOG_BASE}`, seoLang), siteUrl).toString();
+const breadcrumbSchema = getBreadcrumbSchema([
+  { name: 'Home', url: homeUrl },
+  { name: 'Blog', url: blogUrl },
+  { name: post.title, url: canonical },
+]);
 ---
 
-<Layout metadata={metadata}>
-  <SinglePost post={{ ...post, image: image }} url={url}>
+<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
+  <script slot="schema" is:inline type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
+  <script slot="schema" is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <SinglePost post={{ ...post, image: image }} url={canonical}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>
   <ToBlogLink lang={lang} />

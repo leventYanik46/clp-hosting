@@ -1,16 +1,15 @@
 ---
-title: How To Establish a Sole Proprietorship? Step by Step
-excerpt: In this article, you will find the basic steps for setting up a company in the USA and the points to consider in
-  a simple and understandable way. .
+title: "How\_To\_Establish\_a Sole\_Proprietorship? Step by Step"
+excerpt: "In\_this\_article,\_you\_will\_find\_the\_basic\_steps\_for\_setting\_up\_a\_company\_in\_the\_USA\_and\_the\_points\_to\_consider\_in a\_simple\_and\_understandable\_way.\_."
 category: Corporate & Business Law
 image: /images/capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 3376
-publishDate: 2025-11-10T19:34:00.000+03:00
+publishDate: 2025-11-10T16:34:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/how-to-establish-a-sole-proprietorship?-step-by-step
-  description: How To Establish a Sole Proprietorship? Step by Step.How to
-    Set Up a Sole Proprietorship in the United States..
+  canonical: >-
+    https://capitollawpartners.com/how-to-establish-a-sole-proprietorship-step-by-step
+  description: "How\_To\_Establish\_a Sole\_Proprietorship? Step by Step.How to Set\_Up\_a Sole\_Proprietorship\_in\_the\_United\_States.."
 ---
 ## How to Set Up a Sole Proprietorship in the United States
 

@@ -1,6 +1,7 @@
 ---
 title: What is an EB-2 Visa? Application Process and Timeline
-excerpt: The EB-2 visa allows highly skilled professionals and individuals with
+excerpt: >-
+  The EB-2 visa allows highly skilled professionals and individuals with
   advanced degrees to apply for U.S. permanent residency at any time of the
   year. While applications are accepted continuously, the process depends on
   labor certification (PERM), I-140 petition approval, and visa availability
@@ -10,11 +11,13 @@ category: Immigrant Visas
 image: /images/pexels-travis-saylor-271738-951382.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-09-14T14:34:00.000+03:00
+publishDate: 2025-09-14T11:34:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/what-is-an-eb-2-visa-application-process-and-timeline
-  description: What is an EB-2 Visa? Application Process and Timeline. Learn when
-    and how to apply for the EB-2 visa.Year-round eligibility, key..
+  canonical: >-
+    https://capitollawpartners.com/what-is-an-eb-2-visa-application-process-and-timeline
+  description: >-
+    What is an EB-2 Visa? Application Process and Timeline. Learn when and how
+    to apply for the EB-2 visa.Year-round eligibility, key..
 ---
 ## What is an EB-2 Visa? Application Process and Timeline
 

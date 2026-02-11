@@ -1,6 +1,9 @@
 ---
 metadata:
   title: Haksız Ölüm
+  description: >-
+    Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için şefkatli
+    temsil sunuyoruz.
   content: >
 
     <p>Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için 

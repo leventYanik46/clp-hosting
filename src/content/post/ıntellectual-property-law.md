@@ -1,6 +1,7 @@
 ---
 title: Intellectual Property Law
-excerpt: This article provides a concise and actionable overview of Intellectual
+excerpt: >-
+  This article provides a concise and actionable overview of Intellectual
   Property Law, outlining the core IP types and their significance in business.
   Ideal for legal advisors, startups, and growing enterprises seeking to protect
   their innovations and brand identity.
@@ -10,11 +11,12 @@ tags:
 image: /images/intellectual-property-law.jpg
 imageWidth: 5611
 imageHeight: 3741
-publishDate: 2025-07-30T14:14:00.000+03:00
+publishDate: 2025-07-30T11:14:00.000Z
 metadata:
-  description: A practical guide to Intellectual Property Law for entrepreneurs,
-    covering trademarks, copyrights, patents, and trade secrets-crafted for
-    U.S.-based legal advisory firms.
+  description: >-
+    A practical guide to Intellectual Property Law for entrepreneurs, covering
+    trademarks, copyrights, patents, and trade secrets-crafted for U.S.-based
+    legal advisory firms.
   canonical: https://capitollawpartners.com/intellectual-property-law
 ---
 

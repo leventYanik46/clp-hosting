@@ -1,6 +1,4 @@
 ---
----
----
 title: 'Termos e Condições'
 layout: '~/layouts/MarkdownLayout.astro'
 ---

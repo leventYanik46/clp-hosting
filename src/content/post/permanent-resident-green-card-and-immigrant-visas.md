@@ -1,19 +1,22 @@
 ---
 title: Permanent Resident (Green) Card and Immigrant Visas
-excerpt: The Green Card and immigrant visa system allows individuals to live and
-  work permanently in the United States through family, employment, investment,
-  or special immigration pathways. Understanding visa types and legal
-  requirements is critical for a successful application.
+excerpt: >-
+  The Green Card and immigrant visa system allows individuals to live and work
+  permanently in the United States through family, employment, investment, or
+  special immigration pathways. Understanding visa types and legal requirements
+  is critical for a successful application.
 category: Green Card
 lang: en
 image: /images/imig.law.jpg
 imageWidth: 4152
 imageHeight: 2560
-publishDate: 2025-12-10T11:46:00.000+03:00
+publishDate: 2025-12-10T08:46:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/permanent-resident-green-card-and-immigrant-visas
-  description: What is a Green Card and what are immigrant visas? Types of
-    Immigrant Visas. Why Legal Guidance Matters ?
+  canonical: >-
+    https://capitollawpartners.com/permanent-resident-green-card-and-immigrant-visas
+  description: >-
+    What is a Green Card and what are immigrant visas? Types of Immigrant Visas.
+    Why Legal Guidance Matters ?
 ---
 ## Permanent Resident (Green) Card and Immigrant Visas
 

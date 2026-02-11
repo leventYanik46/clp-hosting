@@ -21,13 +21,9 @@ metadata:
         width: 1200
         height: 628
     type: website
-  instagram:
-    handle: 'capitollawpartners'
-    site: 'https://www.instagram.com/capitollawpartners/'
-    cardType: summary_large_image
-  facebook:
-    handle: 'CapitolLaw'
-    site: 'https://www.facebook.com/CapitolLaw/'
+  twitter:
+    handle: '@capitollawpartners'
+    site: '@capitollawpartners'
     cardType: summary_large_image
 
 i18n:

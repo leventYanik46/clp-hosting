@@ -11,8 +11,9 @@ imageHeight: 596
 publishDate: 2025-06-23T21:53:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/removal-proceedings
-  description: Removal proceedings, or deportation proceedings, are the process of
-    legally evaluating a person's right to remain in the United States...
+  description: >-
+    Removal proceedings, or deportation proceedings, are the process of legally
+    evaluating a person's right to remain in the United States...
 ---
 ### What are Removal Proceedings?
 

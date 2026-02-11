@@ -1,8 +1,9 @@
 ---
 title: Green Card Almanın En Hızlı Yolları | Hızlı Süreç
-excerpt: ABD'de Yeşil Kart almak için birkaç yol vardır, ancak tüm seçenekler
-  aynı derecede hızlı veya herkes için geçerli değildir. Hızlı ve etkili bir
-  süreç için yöntemleri sizinle birlikte gözden geçiriyoruz. En uygun stratejiyi
+excerpt: >-
+  ABD'de Yeşil Kart almak için birkaç yol vardır, ancak tüm seçenekler aynı
+  derecede hızlı veya herkes için geçerli değildir. Hızlı ve etkili bir süreç
+  için yöntemleri sizinle birlikte gözden geçiriyoruz. En uygun stratejiyi
   belirlemek için bir göçmenlik avukatına danışmak çok önemlidir..
 category: Green Card
 lang: tr
@@ -12,11 +13,11 @@ tags:
 image: /images/us.visa.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-12-22T22:17:00.000+03:00
+publishDate: 2025-12-22T19:17:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/green-card-almanın-en-hızlı-yolları
-  description: Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En
-    Hızlı Yolları | Green Card Nasıl Daha Hızlı Alınır ?
+  canonical: >-
+    https://capitollawpartners.com/green-card-alman%c4%b1n-en-h%c4%b1zl%c4%b1-yollar%c4%b1
+  description: "Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En Hızlı Yolları\_| Green Card Nasıl Daha Hızlı Alınır ?"
 ---
 # ABD'de Yeşil Kart Almanın En Hızlı Yolları | Green Card Nasıl Daha Hızlı Alınır ?
 

@@ -1,20 +1,22 @@
 ---
 title: B-1/B-2 Vizesi Nedir? Nasıl Alınır?
-excerpt: "B-1/B-2 vizesi, ABD'ye kısa süreli iş ve turizm ziyaretlerine izin
-  verir. Capitol Law Partners, başvuru sahiplerinin güçlü davalar hazırlamasına,
+excerpt: >-
+  B-1/B-2 vizesi, ABD'ye kısa süreli iş ve turizm ziyaretlerine izin verir.
+  Capitol Law Partners, başvuru sahiplerinin güçlü davalar hazırlamasına,
   hatalardan kaçınmasına ve seyahat ihtiyaçları için sorunsuz giriş yapmasına
-  yardımcı olur. "
+  yardımcı olur. 
 category: Green Card
 lang: tr
 image: /images/studentvisa-attorney.jpg
 imageWidth: 6720
 imageHeight: 4480
-publishDate: 2025-12-03T16:24:00.000+03:00
+publishDate: 2025-12-03T13:24:00.000Z
 metadata:
-  description: "B-1/B-2 Ziyaretçi Vizesini Anlamak: Amerika Birleşik
-    Devletleri'nde İş ve Turizm. B-1/B-2 vizesi, kısa süreli iş ve turizm
-    ziyaretlerine izin verir. "
-  canonical: https://capitollawpartners.com/tr/b-1-b-2-ziyaretçi-vizesi-nedir?-nasıl-alınır?
+  description: >-
+    B-1/B-2 Ziyaretçi Vizesini Anlamak: Amerika Birleşik Devletleri'nde İş ve
+    Turizm. B-1/B-2 vizesi, kısa süreli iş ve turizm ziyaretlerine izin verir. 
+  canonical: >-
+    https://capitollawpartners.com/tr/b-1-b-2-ziyaret%c3%a7i-vizesi-nedir-nas%c4%b1l-al%c4%b1n%c4%b1r
 ---
 ## **B-1/B-2 Ziyaretçi Vizesini Anlamak: Amerika Birleşik Devletleri'nde İş ve Turizm**  
 

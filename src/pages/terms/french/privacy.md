@@ -1,6 +1,4 @@
 ---
----
----
 title: 'Política de Privacidade'
 layout: '~/layouts/MarkdownLayout.astro'
 ---

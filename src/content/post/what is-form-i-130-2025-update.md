@@ -1,16 +1,17 @@
 ---
-title: What is Form I-130? 2025 Update
-excerpt: USCIS has released updated October 2025 I-130 processing times. Find
-  out how long approvals take, what’s causing delays, and where the backlog
-  stands
+title: "What\_is Form I-130? 2025 Update"
+excerpt: >-
+  USCIS has released updated October 2025 I-130 processing times. Find out how
+  long approvals take, what’s causing delays, and where the backlog stands
 category: i-130
 image: /images/what-is-form-i-.jpg
 imageWidth: 6016
 imageHeight: 4016
-publishDate: 2025-11-05T17:13:00.000+03:00
+publishDate: 2025-11-05T14:13:00.000Z
 metadata:
-  description: What Is Form i-130? 2025 Update. Discover the latest October 2025
-    USCIS I-130 processing times for spouses parents, children, and siblings..
+  description: >-
+    What Is Form i-130? 2025 Update. Discover the latest October 2025 USCIS
+    I-130 processing times for spouses parents, children, and siblings..
   canonical: https://capitollawpartners.com/what-is-form-i-130-2025-update
 ---
 ## What is Form I-130? 2025 Update

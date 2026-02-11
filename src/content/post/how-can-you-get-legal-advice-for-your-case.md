@@ -1,17 +1,19 @@
 ---
 title: How Can You Get Legal Advice for Your Case?
-excerpt: Need legal advice? Not sure where to start? Choose a law firm that
-  specializes in your case. Expertise matters. Trusted legal guidance.
-  Personalized strategy. Quick contact via our website. Reach out today and
-  protect your rights..
+excerpt: >-
+  Need legal advice? Not sure where to start? Choose a law firm that specializes
+  in your case. Expertise matters. Trusted legal guidance. Personalized
+  strategy. Quick contact via our website. Reach out today and protect your
+  rights..
 category: Legal Advice
 image: /images/pexels-ekaterina-bolovtsova-6077797.jpg
 imageWidth: 1000
 imageHeight: 1060
 publishDate: 2025-07-05T12:47:00.000Z
 metadata:
-  description: Need legal advice? How to find the right law firm for your case and
-    get expert support tailored to your legal situation? Contact us..
+  description: >-
+    Need legal advice? How to find the right law firm for your case and get
+    expert support tailored to your legal situation? Contact us..
   canonical: https://capitollawpartners.com/how-can-you-get-legal-advice-for-your-case
 ---
 

@@ -1,16 +1,19 @@
 ---
-title: Immigration Legal Support | Washington | New York | Virginia 
-excerpt: Capitol Law Partners — Immigration Legal Support in Washington, New
-  York, and Virginia..
+title: "Immigration Legal Support | Washington | New York | Virginia\_"
+excerpt: >-
+  Capitol Law Partners — Immigration Legal Support in Washington, New York, and
+  Virginia..
 category: Legal Advice
 image: /images/legal-support-capitol-law-partners.jpg
 imageWidth: 5472
 imageHeight: 3648
-publishDate: 2025-11-07T18:32:00.000+03:00
+publishDate: 2025-11-07T15:32:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/immigration-legal-support-washington-new-york-virginia 
-  description: Capitol Law Partners — Immigration Legal Support in Washington, New
-    York, and Virginia. Our Immigration Law experience. Contact us now..
+  canonical: >-
+    https://capitollawpartners.com/immigration-legal-support-washington-new-york-virginia
+  description: >-
+    Capitol Law Partners — Immigration Legal Support in Washington, New York,
+    and Virginia. Our Immigration Law experience. Contact us now..
 ---
 ### **Capitol Law Partners — Immigration Legal Support in Washington, New York, and Virginia** 
 

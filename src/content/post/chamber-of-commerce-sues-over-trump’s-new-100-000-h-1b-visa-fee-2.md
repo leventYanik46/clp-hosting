@@ -1,23 +1,25 @@
 ---
 title: Chamber of Commerce Sues Over Trump’s New $100,000 H-1B Visa Fee
-excerpt: The U.S. Chamber of Commerce filed a federal lawsuit on October 16,
-  2025, arguing that the Trump administration’s $100,000 H-1B visa fee is
-  “unlawful and economically damaging.” The Chamber says the fee exceeds the
-  limits allowed under the Immigration and Nationality Act (INA) and would
-  severely restrict U.S. companies’ access to skilled foreign talent —
-  especially in tech and engineering. The case, Chamber of Commerce v. DHS (No.
-  25-cv-3675), is currently before the U.S. District Court for the District of
-  Columbia.
+excerpt: >-
+  The U.S. Chamber of Commerce filed a federal lawsuit on October 16, 2025,
+  arguing that the Trump administration’s $100,000 H-1B visa fee is “unlawful
+  and economically damaging.” The Chamber says the fee exceeds the limits
+  allowed under the Immigration and Nationality Act (INA) and would severely
+  restrict U.S. companies’ access to skilled foreign talent — especially in tech
+  and engineering. The case, Chamber of Commerce v. DHS (No. 25-cv-3675), is
+  currently before the U.S. District Court for the District of Columbia.
 category: USA News
 image: /images/news.jpg
 imageWidth: 6912
 imageHeight: 4160
-publishDate: 2025-10-20T19:13:00.000+03:00
+publishDate: 2025-10-20T16:13:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100,000-dollar-H-1B-visa-fee
-  description: "The U.S. Chamber of Commerce has filed a lawsuit against the Trump
+  canonical: >-
+    https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100,000-dollar-h-1b-visa-fee
+  description: >-
+    The U.S. Chamber of Commerce has filed a lawsuit against the Trump
     administration, claiming the new $100,000 H-1B visa application fee violates
-    federal immigration laws. "
+    federal immigration laws. 
 ---
 In **September 2025**, former President **Donald Trump** announced a new executive order requiring U.S. companies sponsoring foreign workers through the **H-1B visa program** to pay a **$100,000 application fee** for each petition. 
 

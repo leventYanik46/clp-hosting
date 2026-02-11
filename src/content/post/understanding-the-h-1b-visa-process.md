@@ -1,18 +1,19 @@
 ---
 title: Understanding the H-1B Visa Process
-excerpt: An expert guide to the H-1B visa process, covering the annual timeline,
+excerpt: >-
+  An expert guide to the H-1B visa process, covering the annual timeline,
   lottery system, petition filing, and key preparation tips for applicants and
   employers.
 category: Visa
 image: /images/understanding-the-h-1b-visa-process.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-08-10T18:21:00.000+03:00
+publishDate: 2025-08-10T15:21:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/understanding-the-h-1b-visa-process
-  description: Step-by-step H-1B visa timeline and checklist. Learn key dates,
-    lottery tips, and application steps to secure your U.S. work visa
-    successfully.
+  description: >-
+    Step-by-step H-1B visa timeline and checklist. Learn key dates, lottery
+    tips, and application steps to secure your U.S. work visa successfully.
 ---
 ## **Understanding the H-1B Visa Process**
 

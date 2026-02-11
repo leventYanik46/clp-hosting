@@ -1,22 +1,25 @@
 ---
 title: How Can I Bring My Family to the USA? | Immigration Process
-excerpt: The most critical elements in the US immigration process are preparing
-  the correct forms, providing complete information, and starting the process on
+excerpt: >-
+  The most critical elements in the US immigration process are preparing the
+  correct forms, providing complete information, and starting the process on
   time. Correct Forms provides professional support to its clients in these
   three key areas, ensuring that applications proceed without error. By
   minimizing the long waiting times caused by incomplete or incorrect documents,
   they make their clients' journey to build a new life in America reliable,
   fast, and stress-free.
-category: "Immigration "
+category: 'Immigration '
 lang: en
 image: /images/bringg-fam.jpg
 imageWidth: 6016
 imageHeight: 4016
-publishDate: 2025-11-13T02:50:00.000+03:00
+publishDate: 2025-11-12T23:50:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/bringing-your-family-to-the-u-s-and-the-immigration-process
-  description: Bringing Your Family to the US and the Immigration Process. The
-    biggest mistakes in immigration processes. Parent Sponsorship..
+  canonical: >-
+    https://capitollawpartners.com/bringing-your-family-to-the-u-s-and-the-immigration-process
+  description: >-
+    Bringing Your Family to the US and the Immigration Process. The biggest
+    mistakes in immigration processes. Parent Sponsorship..
 ---
 ## Bringing Your Family to the US and the Immigration Process
 

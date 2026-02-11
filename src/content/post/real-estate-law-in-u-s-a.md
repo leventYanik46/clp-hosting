@@ -1,6 +1,7 @@
 ---
 title: Real Estate Law in U.S.A
-excerpt: At Capitol Law Partners, we go beyond legal representation. We act as
+excerpt: >-
+  At Capitol Law Partners, we go beyond legal representation. We act as
   strategic advisors, combining deep expertise in real estate law with practical
   know-how to ensure every transaction is smooth, compliant, and risk-free.
   Whether you’re buying a single-family home, signing a commercial lease, or
@@ -10,11 +11,12 @@ category: Real Estate
 image: /images/realestste.jpg
 imageWidth: 4608
 imageHeight: 3072
-publishDate: 2025-07-25T15:31:00.000+03:00
+publishDate: 2025-07-25T12:31:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/real-estate-law-in-usa
-  description: '"Learn how U.S. real estate law impacts buying, leasing, and
-    developing property. Legal clarity for secure and profitable investments."'
+  description: >-
+    "Learn how U.S. real estate law impacts buying, leasing, and developing
+    property. Legal clarity for secure and profitable investments."
 ---
 ## **Real Estate Law: A Comprehensive Guide**
 

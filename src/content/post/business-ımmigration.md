@@ -1,9 +1,10 @@
 ---
 title: Business Immigration
-excerpt: The Business Immigration process in the U.S. allows entrepreneurs,
-  investors, and skilled professionals to live and work legally. Learn about
-  L-1, E-2, EB-5 visas, common mistakes, and how Capitol Law Partners can guide
-  you every step of the way...
+excerpt: >-
+  The Business Immigration process in the U.S. allows entrepreneurs, investors,
+  and skilled professionals to live and work legally. Learn about L-1, E-2, EB-5
+  visas, common mistakes, and how Capitol Law Partners can guide you every step
+  of the way...
 category: Business Immigration
 tags:
   - law
@@ -15,8 +16,9 @@ imageHeight: 408
 publishDate: 2025-07-28T01:05:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/businessimmigration
-  description: Discover how to move to the U.S. through business immigration.
-    Capitol Law Partners offers expert legal help for investors, startups, and
+  description: >-
+    Discover how to move to the U.S. through business immigration. Capitol Law
+    Partners offers expert legal help for investors, startups, and
     professionals.
 ---
 # Business Immigration 

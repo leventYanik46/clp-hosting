@@ -21,6 +21,17 @@
 # Redirect outdated CLP routes → current site routes
 # ─────────────────────────────────────────────────────────────
 
+# Legacy English-prefixed URLs → root canonical URLs
+[[redirects]]
+  from = "/en"
+  to   = "/"
+  status = 301
+  
+[[redirects]]
+  from = "/en/*"
+  to   = "/:splat"
+  status = 301
+
 # Old “About” pages → /about
 [[redirects]]
   from = "/hakkimizda/"

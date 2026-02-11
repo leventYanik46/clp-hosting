@@ -1,22 +1,25 @@
 ---
-title: "I-589 Form & U.S. Asylum Process Explained "
-excerpt: This article provides a comprehensive overview of the U.S. asylum
-  process, focusing on the critical I-589 form, eligibility requirements,
-  disqualifying factors, and common FAQs. It explains how applicants can file
-  for asylum, the importance of proper documentation, processing times, and work
-  authorization while awaiting a decision. Emphasizing the complexity of
-  immigration procedures, the article highlights how Capitol Law Partners offers
-  expert legal guidance, ensuring accurate preparation and professional handling
-  of asylum and immigration cases in the United States.
+title: 'I-589 Form & U.S. Asylum Process Explained '
+excerpt: >-
+  This article provides a comprehensive overview of the U.S. asylum process,
+  focusing on the critical I-589 form, eligibility requirements, disqualifying
+  factors, and common FAQs. It explains how applicants can file for asylum, the
+  importance of proper documentation, processing times, and work authorization
+  while awaiting a decision. Emphasizing the complexity of immigration
+  procedures, the article highlights how Capitol Law Partners offers expert
+  legal guidance, ensuring accurate preparation and professional handling of
+  asylum and immigration cases in the United States.
 category: Removal Asylum
 image: /images/removalasylum.jpg
 imageWidth: 6912
 imageHeight: 4160
-publishDate: 2025-09-08T06:17:00.000+03:00
+publishDate: 2025-09-08T03:17:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/removal-asylum-u-s-asylum-process-legal-advice
-  description: Removal Asylum U.S. Asylum Process Legal Advice. Learn the U.S.
-    asylum process, I-589 form, eligibility, and FAQs..
+  canonical: >-
+    https://capitollawpartners.com/removal-asylum-u-s-asylum-process-legal-advice
+  description: >-
+    Removal Asylum U.S. Asylum Process Legal Advice. Learn the U.S. asylum
+    process, I-589 form, eligibility, and FAQs..
 ---
 # I-589 Form & U.S. Asylum Process Explained – Expert Immigration Consultation
 

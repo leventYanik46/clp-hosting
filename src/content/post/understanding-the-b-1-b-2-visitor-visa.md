@@ -1,18 +1,20 @@
 ---
 title: Understanding the B-1/B-2 Visitor Visa
-excerpt: The B-1/B-2 visa allows short-term business and tourism visits to the
-  U.S. Capitol Law Partners helps applicants prepare strong cases, avoid
-  mistakes, and secure smooth entry for their travel needs.
+excerpt: >-
+  The B-1/B-2 visa allows short-term business and tourism visits to the U.S.
+  Capitol Law Partners helps applicants prepare strong cases, avoid mistakes,
+  and secure smooth entry for their travel needs.
 category: Green Card
 image: /images/visa.jpg
 imageWidth: 6186
 imageHeight: 4124
-publishDate: 2025-10-03T19:42:00.000+03:00
+publishDate: 2025-10-03T16:42:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa-business-and-tourism-in-the-united-states
-  description: "Understanding the B-1/B-2 Visitor Visa: Business and Tourism in
-    the United States. The B-1/B-2 visa allows short-term business and tourism
-    visits.."
+  canonical: >-
+    https://capitollawpartners.com/understanding-the-b-1-b-2-visitor-visa-business-and-tourism-in-the-united-states
+  description: >-
+    Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United
+    States. The B-1/B-2 visa allows short-term business and tourism visits..
 ---
 ## **Understanding the B-1/B-2 Visitor Visa: Business and Tourism in the United States** 
 

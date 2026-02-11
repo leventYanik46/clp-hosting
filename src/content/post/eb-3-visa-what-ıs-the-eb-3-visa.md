@@ -1,10 +1,6 @@
 ---
-title: EB-3 Visa - What Is the EB-3 Visa? How to Apply ?
-excerpt: " The EB-3 visa offers a pathway to U.S. permanent residency for
-  skilled workers, professionals, and unskilled laborers with employer
-  sponsorship. Capitol Law Partners assists both applicants and employers
-  through labor certification, petition filings, and immigration strategy to
-  secure Green Card approval. "
+title: "EB-3 Visa - What Is the EB-3 Visa?\_How to Apply ?"
+excerpt: ' The EB-3 visa offers a pathway to U.S. permanent residency for skilled workers, professionals, and unskilled laborers with employer sponsorship. Capitol Law Partners assists both applicants and employers through labor certification, petition filings, and immigration strategy to secure Green Card approval. '
 category: Immigrant Visas
 tags:
   - eb3 visa
@@ -12,11 +8,10 @@ tags:
 image: /images/eb-1.jpg
 imageWidth: 6000
 imageHeight: 4000
-publishDate: 2025-09-02T18:13:00.000+03:00
+publishDate: 2025-09-02T15:13:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/what-is-the-EB-3-visa
-  description: " EB-3 Visa | What Is the EB-3 Visa? Learn how the EB-3 visa can
-    help you achieve U.S. permanent residency.."
+  canonical: https://capitollawpartners.com/what-is-the-eb-3-visa
+  description: " EB-3 Visa | What Is the EB-3 Visa?\_Learn how the EB-3 visa can help you achieve U.S. permanent residency.."
 ---
 ## **Understanding the EB-3 Visa**
 

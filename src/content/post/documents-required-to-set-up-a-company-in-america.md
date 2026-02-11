@@ -1,18 +1,21 @@
 ---
-title: " Documents Required to Set Up a Company in America"
-excerpt: Foreign nationals can establish a company in the United States without
-  being a US citizen. Preparing all necessary documents completely and choosing
-  the correct company structure are crucial for a smooth process.
+title: ' Documents Required to Set Up a Company in America'
+excerpt: >-
+  Foreign nationals can establish a company in the United States without being a
+  US citizen. Preparing all necessary documents completely and choosing the
+  correct company structure are crucial for a smooth process.
 category: Corporate & Business Law
 lang: en
 image: /images/capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 3376
-publishDate: 2025-12-16T14:20:00.000+03:00
+publishDate: 2025-12-16T11:20:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/documents-required-to-set-up-a-company-in-amerika
-  description: Documents Required to Set Up a Company in America. Establishing a
-    Company in America Without Being a Citizen. Company Type and Structure.
+  canonical: >-
+    https://capitollawpartners.com/documents-required-to-set-up-a-company-in-amerika
+  description: >-
+    Documents Required to Set Up a Company in America. Establishing a Company in
+    America Without Being a Citizen. Company Type and Structure.
 ---
 ## Establishing a Company in America
 

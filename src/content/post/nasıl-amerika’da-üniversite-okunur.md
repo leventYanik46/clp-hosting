@@ -1,21 +1,23 @@
 ---
 title: Nasıl Amerika’da Üniversite Okunur?
-excerpt: "Bu makale, Amerika’da üniversite okumak isteyen uluslararası
-  öğrenciler için başvuru sürecinin tüm aşamalarını kapsamlı şekilde açıklar.
-  ABD’de kabul süreçleri yalnızca sınav puanlarına değil; İngilizce
-  yeterliliğine (TOEFL/IELTS), SAT–ACT gibi akademik değerlendirme sınavlarına,
-  lise not ortalamasına, sosyal aktivitelere ve kişisel kompozisyonlara dayalı
-  bütüncül bir yaklaşım izler. "
+excerpt: >-
+  Bu makale, Amerika’da üniversite okumak isteyen uluslararası öğrenciler için
+  başvuru sürecinin tüm aşamalarını kapsamlı şekilde açıklar. ABD’de kabul
+  süreçleri yalnızca sınav puanlarına değil; İngilizce yeterliliğine
+  (TOEFL/IELTS), SAT–ACT gibi akademik değerlendirme sınavlarına, lise not
+  ortalamasına, sosyal aktivitelere ve kişisel kompozisyonlara dayalı bütüncül
+  bir yaklaşım izler. 
 category: Amerika'da Eğitim
 lang: tr
 image: /images/amerika-da-nasıl-üniversite-okunur-.jpg
 imageWidth: 4416
 imageHeight: 2488
-publishDate: 2025-12-09T19:13:00.000+03:00
+publishDate: 2025-12-09T16:13:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/amerikada-nasıl-üniversite-okunur?
-  description: Nasıl Amerika'da Üniversite Okunur? Amerika'da Üniversite
-    Okuyabilmek İçin Girilmesi gereken Sınavlar. Dil Yeterliliği Gerekiyor Mu?
+  canonical: https://capitollawpartners.com/amerikada-nas%c4%b1l-%c3%bcniversite-okunur
+  description: >-
+    Nasıl Amerika'da Üniversite Okunur? Amerika'da Üniversite Okuyabilmek İçin
+    Girilmesi gereken Sınavlar. Dil Yeterliliği Gerekiyor Mu?
 ---
 ## **Nasıl Amerika’da** **Üniversite Okunur? | Capitol Law Partners** 
 

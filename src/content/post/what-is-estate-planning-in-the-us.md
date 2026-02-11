@@ -1,15 +1,17 @@
 ---
 title: What is Estate Planning in the US
-excerpt: Comprehensive guide on estate planning, trusts, wills, probate,
-  guardianship, and conservatorship in the U.S. with expert insight from Capitol
-  Law Partners..
+excerpt: >-
+  Comprehensive guide on estate planning, trusts, wills, probate, guardianship,
+  and conservatorship in the U.S. with expert insight from Capitol Law
+  Partners..
 category: Estate Planning
 image: /images/estateplanning.jpg
 imageWidth: 5472
 imageHeight: 3648
-publishDate: 2025-08-02T10:51:00.000+03:00
+publishDate: 2025-08-02T07:51:00.000Z
 metadata:
-  description: Comprehensive guide on estate planning, trusts, wills, probate,
+  description: >-
+    Comprehensive guide on estate planning, trusts, wills, probate,
     guardianship, and conservatorship in the U.S. with expert insight from
     Capitol Law Partners.
   canonical: https://capitollawpartners.com/estate-planning

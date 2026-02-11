@@ -1,18 +1,20 @@
 ---
-title: "H-1 Vize Süreci "
-excerpt: H-1B vize sürecine ilişkin uzman rehberi; yıllık takvim, kura sistemi,
-  dilekçe başvurusu ve başvuru sahipleri ile işverenler için önemli hazırlık
-  ipuçlarını içermektedir.
-category: "Visa & Green Card "
+title: 'H-1 Vize Süreci '
+excerpt: >-
+  H-1B vize sürecine ilişkin uzman rehberi; yıllık takvim, kura sistemi, dilekçe
+  başvurusu ve başvuru sahipleri ile işverenler için önemli hazırlık ipuçlarını
+  içermektedir.
+category: 'Visa & Green Card '
 lang: tr
 image: /images/istockphoto-838825674-612x612.jpg
 imageWidth: 612
 imageHeight: 398
-publishDate: 2025-12-12T15:07:00.000+03:00
+publishDate: 2025-12-12T12:07:00.000Z
 metadata:
-  canonical: https://capitollawpartners.com/h-1-vize-süreci
-  description: Adım adım H-1B vize takvimi ve kontrol listesi. ABD çalışma
-    vizesini başarıyla almak için önemli tarihler. Kura ipuçları.
+  canonical: https://capitollawpartners.com/h-1-vize-s%c3%bcreci
+  description: >-
+    Adım adım H-1B vize takvimi ve kontrol listesi. ABD çalışma vizesini
+    başarıyla almak için önemli tarihler. Kura ipuçları.
 ---
 ## H-1B Vize Sürecini Anlamak
 

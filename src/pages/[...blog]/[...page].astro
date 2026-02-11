@@ -7,7 +7,14 @@ import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
 // import PostTags from "~/components/blog/Tags.astro";
 
-import { blogListRobots, getStaticPathsBlogList } from '~/utils/blog';
+import { blogListRobots, getBlogLanguageCodesForListPage, getStaticPathsBlogList } from '~/utils/blog';
+import {
+  buildLanguageAlternatesForLangs,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  getOgLocaleForLang,
+  stripLangPrefix,
+} from '~/data/seo';
 
 export const prerender = true;
 
@@ -19,6 +26,17 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { page, lang } = Astro.props as Props;
 const currentPage = page.currentPage ?? 1;
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const { routePath } = stripLangPrefix(Astro.url.pathname);
+const availableLanguageCodes = await getBlogLanguageCodesForListPage(currentPage);
+const languageAlternates = buildLanguageAlternatesForLangs(
+  routePath,
+  siteUrl,
+  availableLanguageCodes,
+  DEFAULT_SEO_LANG,
+  false
+);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, availableLanguageCodes, false);
 
 // const allCategories = await findCategories();
 // const allTags = await findTags();
@@ -31,12 +49,12 @@ const metadata = {
   },
   openGraph: {
     type: 'blog',
-    locale: lang === 'tr' ? 'tr-TR' : 'en-US',
+    locale: getOgLocaleForLang(lang),
   },
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline
       subtitle="Explore our latest insights and updates."
