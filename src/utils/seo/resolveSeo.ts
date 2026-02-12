@@ -56,6 +56,58 @@ const segmentLabelMap: Record<string, string> = {
   tag: 'Tag',
 };
 
+const HREFLANG_PATTERN = /^(x-default|[a-z]{2,3}(?:-[a-z0-9]{2,8})*)$/i;
+
+const sanitizeLanguageAlternates = ({
+  languageAlternates,
+  pathname,
+  siteUrl,
+}: {
+  languageAlternates?: HreflangAlternate[];
+  pathname: string;
+  siteUrl: string;
+}): HreflangAlternate[] => {
+  const fallbackAlternates = buildLanguageAlternates(pathname, siteUrl);
+  const fallbackByLang = new Map(fallbackAlternates.map((item) => [item.hreflang, item.href]));
+  const normalized = (languageAlternates ?? [])
+    .filter((item): item is HreflangAlternate => Boolean(item && typeof item === 'object'))
+    .map((item) => ({
+      hreflang: String(item.hreflang ?? '').trim().toLowerCase(),
+      href: String(item.href ?? '').trim(),
+    }))
+    .filter((item) => item.hreflang.length > 0 && item.href.length > 0 && HREFLANG_PATTERN.test(item.hreflang))
+    .map((item) => {
+      try {
+        return {
+          hreflang: item.hreflang,
+          href: new URL(item.href, siteUrl).toString(),
+        };
+      } catch {
+        return undefined;
+      }
+    })
+    .filter((item): item is HreflangAlternate => Boolean(item));
+
+  if (normalized.length === 0) {
+    return fallbackAlternates;
+  }
+
+  const dedupedByLang = new Map<string, string>();
+  for (const item of normalized) {
+    dedupedByLang.set(item.hreflang, item.href);
+  }
+
+  const routeLang = getLangFromPathname(pathname);
+  const requiredLangs = [routeLang, 'x-default'];
+  for (const required of requiredLangs) {
+    if (!dedupedByLang.has(required) && fallbackByLang.has(required)) {
+      dedupedByLang.set(required, fallbackByLang.get(required)!);
+    }
+  }
+
+  return Array.from(dedupedByLang.entries()).map(([hreflang, href]) => ({ hreflang, href }));
+};
+
 export const resolveSeo = ({
   pathname,
   siteUrl,
@@ -80,6 +132,11 @@ export const resolveSeo = ({
   const ogImage = seo.ogImage ?? metadata.openGraph?.images?.[0]?.url;
   const ogType = pageType === 'article' ? 'article' : 'website';
   const ogLocale = metadata.openGraph?.locale ?? getOgLocaleForLang(lang);
+  const resolvedLanguageAlternates = sanitizeLanguageAlternates({
+    languageAlternates: languageAlternates ?? buildLanguageAlternates(pathname, siteUrl),
+    pathname,
+    siteUrl,
+  });
 
   return {
     lang,
@@ -91,7 +148,7 @@ export const resolveSeo = ({
     ogImage,
     ogType,
     ogLocale,
-    languageAlternates: languageAlternates ?? buildLanguageAlternates(pathname, siteUrl),
+    languageAlternates: resolvedLanguageAlternates,
     ogLocaleAlternates: ogLocaleAlternates ?? getAlternateOgLocales(lang),
   };
 };

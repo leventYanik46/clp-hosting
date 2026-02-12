@@ -70,13 +70,13 @@ features:
       description: +1 (202) 440-2272
       link: https://wa.me/12024402272
 metadata:
-  title: contato
+  title: Nossos Escritórios | Capitol Law Partners
   description: >-
     Encontre nossos escritórios de imigração, direito empresarial e marcas perto
     de você. Veja endereços, horários e direções para agendar uma consulta
     presencial.
 seo:
-  title: contato
+  title: Nossos Escritórios | Capitol Law Partners
   description: >-
     Encontre nossos escritórios de imigração, direito empresarial e marcas perto
     de você. Veja endereços, horários e direções para agendar uma consulta

@@ -27,6 +27,17 @@
   to   = "/"
   status = 301
   
+# Specific legacy English slug should win before the generic /en/* rule
+[[redirects]]
+  from = "/en/family-based-immigration"
+  to   = "/understanding-family-based-immigration-attorney"
+  status = 301
+
+[[redirects]]
+  from = "/en/family-based-immigration/"
+  to   = "/understanding-family-based-immigration-attorney"
+  status = 301
+
 [[redirects]]
   from = "/en/*"
   to   = "/:splat"
@@ -63,6 +74,17 @@
 [[redirects]]
   from = "/practise_area/business-immigration-law/"
   to   = "/practice-area/immigration-law"
+  status = 301
+
+# Legacy blog slug for family-based immigration → current English post
+[[redirects]]
+  from = "/family-based-immigration"
+  to   = "/understanding-family-based-immigration-attorney"
+  status = 301
+
+[[redirects]]
+  from = "/family-based-immigration/"
+  to   = "/understanding-family-based-immigration-attorney"
   status = 301
 
 # Locations → /locations

@@ -71,13 +71,13 @@ features:
       description: +1 (202) 440-2272
       link: https://wa.me/12024402272
 metadata:
-  title: contact
+  title: Office Locations | Capitol Law Partners
   description: >-
     Find our immigration, business, and trademark law offices near you. View
     office addresses, hours, and directions to schedule an in-person
     consultation.
 seo:
-  title: contact
+  title: Office Locations | Capitol Law Partners
   description: >-
     Find our immigration, business, and trademark law offices near you. View
     office addresses, hours, and directions to schedule an in-person

@@ -97,9 +97,9 @@ After your interview, the Asylum Officer will make a decision on your case. 
 
 The affirmative asylum process can be complex and emotionally challenging, but it offers a vital pathway to safety and a new life. By understanding the requirements and carefully navigating each step, you can significantly strengthen your case for protection in the United States. 
 
-[Contact us for a consultation.](https://capitollawpartners.com/family-based-immigration)
+[Contact us for a consultation.](/practice-area/key-services/family-based-immigration)
 
-[Drop us a message now.](https://capitollawpartners.com/family-based-immigration)
+[Drop us a message now.](/practice-area/key-services/family-based-immigration)
 
 🟢Whatsapp [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
 

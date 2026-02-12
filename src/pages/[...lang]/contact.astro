@@ -7,6 +7,12 @@ import ItemGrid3 from '~/components/ui/ItemGrid3.astro';
 import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
+import {
+  buildLanguageAlternatesForLangs,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  stripLangPrefix,
+} from '~/data/seo';
 
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
@@ -23,6 +29,20 @@ if (!contactPage || contactPage.length === 0 || !contactPage[0].data) {
 }
 
 const { metadata, seo, hero, contactForm, features, locations } = contactPage[0].data;
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const supportedSeoLangs = ['en', 'tr', 'es', 'pt', 'fr'] as const;
+const currentLang = supportedSeoLangs.includes((lang ?? DEFAULT_SEO_LANG) as (typeof supportedSeoLangs)[number])
+  ? ((lang ?? DEFAULT_SEO_LANG) as (typeof supportedSeoLangs)[number])
+  : DEFAULT_SEO_LANG;
+const { routePath } = stripLangPrefix(Astro.url.pathname, DEFAULT_SEO_LANG);
+const languageAlternates = buildLanguageAlternatesForLangs(
+  routePath,
+  siteUrl,
+  supportedSeoLangs,
+  DEFAULT_SEO_LANG,
+  true
+);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(currentLang, supportedSeoLangs, true);
 
 const defaultLocationImages = [
   {
@@ -58,7 +78,7 @@ const locationItems = Array.isArray(locations) ? locations : locations?.items ??
 
 ---
 
-<Layout metadata={metadata} seo={seo}>
+<Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <!-- HeroText Widget ******************* -->
   <HeroText tagline={hero.tagline} title={hero.title} />
 

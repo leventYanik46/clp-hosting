@@ -71,13 +71,13 @@ features:
       description: +1 (202) 440-2272
       link: https://wa.me/12024402272
 metadata:
-  title: iletişim
+  title: Ofis Konumları | Capitol Law Partners
   description: >-
     Göçmenlik, ticaret ve marka hukuku ofislerimizi yakından keşfedin. Ofis
     adreslerimizi, çalışma saatlerimizi ve yol tariflerini görüntüleyerek yüz
     yüze danışmanlık randevusu alın.
 seo:
-  title: iletişim
+  title: Ofis Konumları | Capitol Law Partners
   description: >-
     Göçmenlik, ticaret ve marka hukuku ofislerimizi yakından keşfedin. Ofis
     adreslerimizi, çalışma saatlerimizi ve yol tariflerini görüntüleyerek yüz

@@ -46,4 +46,4 @@ The individual receives a court summons (Notice to Appear) and appears before an
 
 ### What is the Outcome?
 
-The judge may allow the individual to remain in the country or order their deportation. A deported individual is typically barred from re-entering the United States for a certain period of time.[](https://capitollawpartners.com/family-based-immigration)[](https://capitollawpartners.com/family-based-immigration)
+The judge may allow the individual to remain in the country or order their deportation. A deported individual is typically barred from re-entering the United States for a certain period of time.

@@ -77,13 +77,13 @@ locations:
       href: >-
         https://www.google.com/maps/place/5775+Wayzata+Blvd+Suite+700,+St+Louis+Park,+MN+55416/@44.9694331,-93.3824122,13.31z/data=!4m6!3m5!1s0x52b334bd9ceaaaab:0x6ad439e33864c71e!8m2!3d44.9688915!4d-93.3538241!16s%2Fg%2F11mhjvs72_?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D
 metadata:
-  title: contacto
+  title: Contacto | Capitol Law Partners
   description: >-
     Comuníquese con nuestros expertos en inmigración y derecho empresarial para
     recibir asesoría a la medida. Llame, escriba o complete el formulario en
     línea para una consulta personalizada.
 seo:
-  title: contacto
+  title: Contacto | Capitol Law Partners
   description: >-
     Comuníquese con nuestros expertos en inmigración y derecho empresarial para
     recibir asesoría a la medida. Llame, escriba o complete el formulario en
