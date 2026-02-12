@@ -1,6 +1,37 @@
 Site: https://capitollawpartners.com
 Name: Capitol Law Partners
+ORGANIZATION: Capitol Law Partners
+TYPE: Law Firm
 Description: U.S. law firm providing legal services in Immigration Law, Business & Corporate Law, Trusts & Estates, Real Estate, Intellectual Property Law, Personal Injury Law, and General Counsel & Advisory Services.
+
+PRIMARY PRACTICE AREAS:
+- General Counsel & Advisory Services
+  https://capitollawpartners.com/practice-area/general-counsel-services
+
+- Business & Corporate Law
+  https://capitollawpartners.com/practice-area/business-corporate-law
+
+- Trusts & Estates
+  https://capitollawpartners.com/practice-area/estate-planning
+
+- Real Estate
+  https://capitollawpartners.com/practice-area/real-estate
+
+- Intellectual Property Law
+  https://capitollawpartners.com/practice-area/ip-law
+
+- Immigration Law
+  https://capitollawpartners.com/practice-area/immigration-law
+
+- Personal Injury Law
+  https://capitollawpartners.com/practice-area/personal-injury-law
+
+LANGUAGES:
+- English (Primary)
+- Turkish
+- Spanish
+- Portuguese
+- French
 
 Preferred URLs:
 https://capitollawpartners.com/
@@ -15,6 +46,7 @@ https://capitollawpartners.com/blog
 https://capitollawpartners.com/our-team/sena
 https://capitollawpartners.com/our-team/cagatay
 https://capitollawpartners.com/our-team/shafeek
+https://capitollawpartners.com/contact
 
 Content Policy:
 Public content may be referenced or summarized.
