@@ -15,8 +15,6 @@ export const getServiceSchema = ({
   inLanguage,
   siteUrl,
 }: ServiceSchemaInput) => {
-  const origin = new URL(siteUrl).origin;
-
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -25,9 +23,6 @@ export const getServiceSchema = ({
     ...(description ? { description } : {}),
     ...(serviceType ? { serviceType } : {}),
     ...(inLanguage ? { inLanguage } : {}),
-    provider: {
-      '@id': `${origin}/#legal-service`,
-    },
     areaServed: ['US'],
   };
 };

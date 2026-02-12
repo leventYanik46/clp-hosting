@@ -25,6 +25,8 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths> & { category: Record
 const { page, category, lang } = Astro.props as Props;
 
 const currentPage = page.currentPage ?? 1;
+const categoryTitle = category.title.trim();
+const languageLabel = lang ? lang.toUpperCase() : 'EN';
 const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
 const { routePath } = stripLangPrefix(Astro.url.pathname);
 const availableLanguageCodes = await getBlogLanguageCodesForCategoryPage(category.slug, currentPage);
@@ -39,7 +41,8 @@ const languageAlternates = buildLanguageAlternatesForLangs(
 const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, alternateLanguageCodes, false);
 
 const metadata = {
-  title: `Category '${category.title}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Category '${categoryTitle}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description: `Browse ${categoryTitle} articles from Capitol Law Partners (${languageLabel})${currentPage > 1 ? `, page ${currentPage}` : ''}.`,
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
@@ -50,6 +53,7 @@ const metadata = {
 };
 const seo = {
   title: metadata.title,
+  description: metadata.description,
   noindex: metadata.robots.index === false,
   nofollow: metadata.robots.follow === false,
 };
@@ -57,7 +61,7 @@ const seo = {
 
 <Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline>{category.title}</Headline>
+    <Headline>{categoryTitle}</Headline>
     <BlogList posts={page.data} lang={lang} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
   </section>

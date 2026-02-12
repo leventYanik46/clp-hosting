@@ -26,6 +26,7 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { page, lang } = Astro.props as Props;
 const currentPage = page.currentPage ?? 1;
+const languageLabel = lang ? lang.toUpperCase() : 'EN';
 const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
 const { routePath } = stripLangPrefix(Astro.url.pathname);
 const availableLanguageCodes = await getBlogLanguageCodesForListPage(currentPage);
@@ -44,6 +45,7 @@ const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, alternateLanguage
 
 const metadata = {
   title: `Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description: `Latest legal insights from the Capitol Law Partners blog (${languageLabel})${currentPage > 1 ? `, page ${currentPage}` : ''}.`,
   robots: {
     index: blogListRobots?.index && currentPage === 1,
     follow: blogListRobots?.follow,
@@ -55,6 +57,7 @@ const metadata = {
 };
 const seo = {
   title: metadata.title,
+  description: metadata.description,
   noindex: metadata.robots.index === false,
   nofollow: metadata.robots.follow === false,
 };

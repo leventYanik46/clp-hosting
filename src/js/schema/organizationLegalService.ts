@@ -37,8 +37,5 @@ export const getLegalServiceSchema = (siteUrl: string) => {
       ...SEO_BUSINESS.address,
     },
     areaServed: ['US'],
-    provider: {
-      '@id': `${origin}/#organization`,
-    },
   };
 };
