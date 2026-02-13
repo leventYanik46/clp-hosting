@@ -19,10 +19,16 @@ if (!schedule || schedule.length === 0 || !schedule[0].data) {
   throw new Error("Schedule content not found for language: " + lang);
 }
 
-
 const { metadata, seo, attorneys } = schedule[0].data;
+const pageHeading = metadata?.title ?? seo?.title;
 ---
 <Layout metadata={metadata} seo={seo}>
+  {pageHeading && (
+    <section class="mx-auto max-w-6xl px-4 sm:px-6 pt-8 md:pt-12">
+      <h1 class="text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading">{pageHeading}</h1>
+    </section>
+  )}
+
   {attorneys.map((attorney) => (
     <CallToAction {...attorney} />
   ))}

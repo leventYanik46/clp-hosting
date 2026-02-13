@@ -13,7 +13,7 @@ attorneys:
         href: https://calendar.app.google/UGuCPvGbEV1b3acWA
         target: _blank
     image:
-      src: ~/assets/images/cagatay-appointment.png
+      src: ~/assets/images/cagatay-bio-new-team.jpeg
       alt: Prendre rendez-vous
   - title: Travaillons ensemble
     subtitle: Prenez rendez-vous avec Sena Sahin
@@ -25,7 +25,7 @@ attorneys:
         href: https://calendar.app.google/j5WDBFZPNocPCB7CA
         target: _blank
     image:
-      src: ~/assets/images/sena-profile-alternate-cta.png
+      src: ~/assets/images/sena-bio-new-team.jpeg
       alt: Prendre rendez-vous
 seo:
   title: Prendre rendez-vous
