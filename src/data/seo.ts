@@ -146,14 +146,6 @@ export interface HreflangAlternate {
   href: string;
 }
 
-const withTrailingSlashForNonDefaultLang = (path: string, lang: SeoLang, defaultLang: SeoLang): string => {
-  if (lang === defaultLang || path.endsWith('/')) {
-    return path;
-  }
-
-  return `${path}/`;
-};
-
 const toUniqueSeoLangs = (
   languages: readonly string[],
   defaultLang: SeoLang = DEFAULT_SEO_LANG,
@@ -187,10 +179,7 @@ export const buildLanguageAlternates = (
   }
   const links: HreflangAlternate[] = SEO_LANGS.map((lang) => ({
     hreflang: HREFLANG_BY_LANG[lang],
-    href: new URL(
-      withTrailingSlashForNonDefaultLang(buildPathForLang(routePath, lang, defaultLang), lang, defaultLang),
-      siteUrl
-    ).toString(),
+    href: new URL(buildPathForLang(routePath, lang, defaultLang), siteUrl).toString(),
   }));
 
   links.push({
@@ -213,22 +202,12 @@ export const buildLanguageAlternatesForLangs = (
 
   const links: HreflangAlternate[] = resolvedLangs.map((lang) => ({
     hreflang: HREFLANG_BY_LANG[lang],
-    href: new URL(
-      withTrailingSlashForNonDefaultLang(buildPathForLang(routePath, lang, defaultLang), lang, defaultLang),
-      siteUrl
-    ).toString(),
+    href: new URL(buildPathForLang(routePath, lang, defaultLang), siteUrl).toString(),
   }));
 
   links.push({
     hreflang: 'x-default',
-    href: new URL(
-      withTrailingSlashForNonDefaultLang(
-        buildPathForLang(routePath, xDefaultLang, defaultLang),
-        xDefaultLang,
-        defaultLang
-      ),
-      siteUrl
-    ).toString(),
+    href: new URL(buildPathForLang(routePath, xDefaultLang, defaultLang), siteUrl).toString(),
   });
 
   return links;
