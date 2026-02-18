@@ -17,9 +17,7 @@ metadata:
     National Interest Waiver (NIW) allows qualified individuals to self-petition
     for permanent residency if their work benefits the United States at a
     national level.
-  canonical: <link rel="canonical"
-    href="https://capitollawpartners.com/EB2-NIW-Green-Card-Permanent-Residency"
-    />
+  canonical: https://capitollawpartners.com/eb-2-niw-green-card-a-strategic-path-to-u-s-permanent-residency
 ---
 At Capitol Law Partners (CLP), we help professionals, researchers, physicians, engineers, entrepreneurs, and STEM experts successfully navigate the EB-2 NIW process with a strong legal strategy and carefully structured petitions.
 
