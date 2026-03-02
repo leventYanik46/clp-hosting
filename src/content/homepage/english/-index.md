@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Immigration, Business & Estate Attorneys
   description: >-
     Capitol Law Partners offers trusted legal counsel in business, immigration,
     estate planning, and IP law. Schedule your consultation today.
@@ -274,7 +274,7 @@ cta:
       text: Contact Us
       href: /contact
 seo:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Immigration, Business & Estate Attorneys
   description: >-
     Capitol Law Partners offers trusted legal counsel in business, immigration,
     estate planning, and IP law. Schedule your consultation today.

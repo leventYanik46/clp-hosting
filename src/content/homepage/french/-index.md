@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Immigration, Droit des affaires et successions
   description: >-
     Capitol Law Partners propose des conseils juridiques de confiance en droit
     des affaires, immigration, planification successorale et propriété
@@ -277,7 +277,7 @@ cta:
       text: Nous contacter
       href: /fr/contact
 seo:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Immigration, Droit des affaires et successions
   description: >-
     Capitol Law Partners propose des conseils juridiques de confiance en droit
     des affaires, immigration, planification successorale et propriété

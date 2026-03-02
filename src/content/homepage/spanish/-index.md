@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Abogados de Inmigración, Negocios y Sucesiones
   description: >-
     Capitol Law Partners ofrece asesoría legal confiable en negocios,
     inmigración, planificación patrimonial y propiedad intelectual. Agende su
@@ -278,7 +278,7 @@ cta:
       text: Contáctenos
       href: /es/contact
 seo:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Abogados de Inmigración, Negocios y Sucesiones
   description: >-
     Capitol Law Partners ofrece asesoría legal confiable en negocios,
     inmigración, planificación patrimonial y propiedad intelectual. Agende su

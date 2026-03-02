@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Imigração, Direito Empresarial e Sucessório
   description: >-
     A Capitol Law Partners oferece consultoria jurídica confiável em direito
     empresarial, imigração, planejamento sucessório e propriedade intelectual.
@@ -24,11 +24,11 @@ hero:
       href: /pt/schedule
       class: w-full sm:mb-0
     - text: Avaliação gratuita
-      href: pt/evaluations
+      href: /pt/evaluations
       variant: primary
       class: w-full sm:mb-0 hidden lg:block
     - text: Fale conosco
-      href: pt/contact
+      href: /pt/contact
       variant: primary
       class: w-full sm:mb-0 lg:hidden
 practiceAreas:
@@ -275,9 +275,9 @@ cta:
   actions:
     - variant: primary
       text: Fale conosco
-      href: pt/contact
+      href: /pt/contact
 seo:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Imigração, Direito Empresarial e Sucessório
   description: >-
     A Capitol Law Partners oferece consultoria jurídica confiável em direito
     empresarial, imigração, planejamento sucessório e propriedade intelectual.

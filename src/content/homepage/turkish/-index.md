@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Göçmenlik, İş ve Miras Avukatları
   description: >-
     Capitol Law Partners, iş, göçmenlik, miras planlaması ve fikri mülkiyet
     hukukunda güvenilir hukuki danışmanlık sunar. Danışmanlığınızı bugün
@@ -267,7 +267,7 @@ cta:
       text: Bize Ulaşın
       href: /tr/contact
 seo:
-  title: Capitol Law Partners
+  title: Capitol Law Partners | Göçmenlik, İş ve Miras Avukatları
   description: >-
     Capitol Law Partners, iş, göçmenlik, miras planlaması ve fikri mülkiyet
     hukukunda güvenilir hukuki danışmanlık sunar. Danışmanlığınızı bugün
