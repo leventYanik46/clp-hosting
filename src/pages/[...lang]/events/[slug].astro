@@ -3,7 +3,7 @@ import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 import merge from 'lodash.merge';
 import type { ImageMetadata } from 'astro';
 import Layout from '~/layouts/PageLayout.astro';
-import SinglePost from '~/components/blog/SinglePost.astro';
+import SingleEventPost from '~/components/events/SingleEventPost.astro';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
 import ToEventsLink from '~/components/events/ToEventsLink.astro';
 import { getStaticPathsEventPost, eventPostRobots } from '~/utils/events';
@@ -114,9 +114,9 @@ const seo: SeoData = {
   languageAlternates={languageAlternates}
   ogLocaleAlternates={ogLocaleAlternates}
 >
-  <SinglePost post={{ ...event, image: imageForPost }} url={canonical}>
+  <SingleEventPost post={{ ...event, image: imageForPost }} url={canonical} lang={lang}>
     {event.Content ? <event.Content /> : <Fragment set:html={event.content || ''} />}
-  </SinglePost>
+  </SingleEventPost>
   <RelatedPosts post={event} lang={lang} />
   <ToEventsLink lang={lang} />
 </Layout>

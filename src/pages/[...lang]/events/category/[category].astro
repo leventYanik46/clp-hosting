@@ -1,0 +1,77 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/blog/List.astro';
+import { fetchEvents, getEventLanguageCodes, eventsListRobots } from '~/utils/events';
+import { getPermalink } from '~/utils/permalinks';
+import type { MetaData } from '~/types';
+import config from '~/config/config.json';
+
+type Props = {
+  lang: string;
+  category: { slug: string; title: string };
+};
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  const events = await fetchEvents();
+  const defaultLang = config.settings.default_language;
+  const defaultLangInSubdir = config.settings.default_language_in_subdir;
+
+  const map = new Map<string, { lang: string; category: { slug: string; title: string } }>();
+
+  for (const event of events) {
+    if (!event.category?.slug || !event.category?.title) continue;
+    const langs = getEventLanguageCodes(event);
+    for (const code of langs) {
+      const key = `${code}|${event.category.slug}`;
+      if (!map.has(key)) {
+        map.set(key, {
+          lang: code,
+          category: {
+            slug: event.category.slug,
+            title: event.category.title,
+          },
+        });
+      }
+    }
+  }
+
+  return Array.from(map.values()).map((entry) => ({
+    params: {
+      lang: entry.lang === defaultLang && !defaultLangInSubdir ? undefined : entry.lang,
+      category: entry.category.slug,
+    },
+    props: entry,
+  }));
+}) satisfies GetStaticPaths;
+
+const { lang, category } = Astro.props as Props;
+const events = (await fetchEvents()).filter((event) => {
+  if (event.category?.slug !== category.slug) return false;
+  const eventLang = event.lang;
+  if (Array.isArray(eventLang)) return eventLang.includes(lang);
+  if (typeof eventLang === 'string') return eventLang === lang;
+  return lang === config.settings.default_language;
+});
+
+const categoryPath = `${lang === config.settings.default_language && !config.settings.default_language_in_subdir ? '' : `${lang}/`}events/category/${category.slug}`;
+
+const metadata: MetaData = {
+  title: `Events in ${category.title}`,
+  description: `Browse events in the ${category.title} category.`,
+  canonical: String(new URL(getPermalink(categoryPath, 'page'), Astro.site ?? 'https://capitollawpartners.com')),
+  robots: {
+    index: eventsListRobots.index,
+    follow: eventsListRobots.follow,
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="py-8 sm:py-16 lg:py-20 mx-auto max-w-4xl px-4 sm:px-6">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading mb-6">{category.title}</h1>
+    <BlogList posts={events} lang={lang} />
+  </section>
+</Layout>
