@@ -73,6 +73,6 @@ const seo = {
 <Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline subtitle={pageSubtitle}>{pageTitle}</Headline>
-    <BlogList posts={events} lang={lang} />
+    <BlogList posts={events} lang={lang} taxonomyBasePath="events" />
   </section>
 </Layout>

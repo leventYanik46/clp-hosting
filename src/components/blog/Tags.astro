@@ -9,9 +9,11 @@ export interface Props {
   class?: string;
   title?: string | undefined;
   isCategory?: boolean;
+  taxonomyBasePath?: string;
 }
 
-const { tags, class: className = 'text-sm', title = undefined, isCategory = false } = Astro.props;
+const { tags, class: className = 'text-sm', title = undefined, isCategory = false, taxonomyBasePath } = Astro.props;
+const shouldLink = taxonomyBasePath ? true : APP_BLOG?.tag?.isEnabled;
 ---
 
 {
@@ -25,10 +27,17 @@ const { tags, class: className = 'text-sm', title = undefined, isCategory = fals
       <ul class={className}>
         {tags.map((tag) => (
           <li class="bg-gray-100 inline-block mr-2 rtl:mr-0 rtl:ml-2 mb-2 py-0.5 px-2 lowercase font-medium">
-            {!APP_BLOG?.tag?.isEnabled ? (
+            {!shouldLink ? (
               tag.title
             ) : (
-              <a href={getPermalink(tag.slug, isCategory ? 'category' : 'tag')} class="text-muted hover:text-primary ">
+              <a
+                href={
+                  taxonomyBasePath
+                    ? getPermalink(`${taxonomyBasePath}/${isCategory ? 'category' : 'tag'}/${tag.slug}`, 'page')
+                    : getPermalink(tag.slug, isCategory ? 'category' : 'tag')
+                }
+                class="text-muted hover:text-primary "
+              >
                 {tag.title}
               </a>
             )}

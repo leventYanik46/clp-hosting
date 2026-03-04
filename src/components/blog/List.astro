@@ -5,16 +5,17 @@ import type { Post } from '~/types';
 export interface Props {
   posts: Array<Post>;
   lang?: string;
+  taxonomyBasePath?: string;
 }
 
-const { posts, lang } = Astro.props;
+const { posts, lang, taxonomyBasePath } = Astro.props;
 ---
 
 <ul>
   {
     posts.map((post) => (
       <li class="mb-12 md:mb-20">
-        <Item post={post} lang={lang} />
+        <Item post={post} lang={lang} taxonomyBasePath={taxonomyBasePath} />
       </li>
     ))
   }

@@ -15,19 +15,24 @@ import config from '~/config/config.json';
 export interface Props {
   post: Post;
   lang?: string;
+  taxonomyBasePath?: string;
 }
 
-const { post, lang } = Astro.props;
+const { post, lang, taxonomyBasePath } = Astro.props;
 const image = (await findImage(post.image)) as ImageMetadata | undefined;
 
 const { default_language, default_language_in_subdir } = config.settings;
 const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
 const pathPrefix = needsPrefix ? lang : '';
 const permalinkPath = pathPrefix ? `${pathPrefix}/${post.permalink}` : post.permalink;
-const categoryPath =
-  post.category?.slug && CATEGORY_BASE
-    ? [pathPrefix, CATEGORY_BASE, post.category.slug].filter(Boolean).join('/')
-    : undefined;
+const taxonomyRoot = taxonomyBasePath ? [pathPrefix, taxonomyBasePath].filter(Boolean).join('/') : undefined;
+const categoryPath = post.category?.slug
+  ? taxonomyRoot
+    ? `${taxonomyRoot}/category/${post.category.slug}`
+    : CATEGORY_BASE
+      ? [pathPrefix, CATEGORY_BASE, post.category.slug].filter(Boolean).join('/')
+      : undefined
+  : undefined;
 
 const link = APP_BLOG?.post?.isEnabled ? getPermalink(permalinkPath, 'post') : '';
 const categoryLink = categoryPath ? getPermalink(categoryPath, 'page') : undefined;
@@ -118,7 +123,7 @@ const categoryLink = categoryPath ? getPermalink(categoryPath, 'page') : undefin
     {
       post.tags && Array.isArray(post.tags) ? (
         <footer class="mt-5">
-          <PostTags tags={post.tags} />
+          <PostTags tags={post.tags} taxonomyBasePath={taxonomyRoot} />
         </footer>
       ) : (
         <Fragment />
