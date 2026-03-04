@@ -404,9 +404,11 @@ const scheduleCollection = defineCollection({
   schema: z.object({
     metadata: metadataDefinition(),
     seo: seoDefinition(),
-    attorneys: z.array(teamCardSchema.extend({
-      actions: z.array(actionSchema),
-    })),
+    attorneys: z.array(
+      teamCardSchema.extend({
+        actions: z.array(actionSchema),
+      })
+    ),
   }),
 });
 
@@ -494,6 +496,35 @@ const postCollection = defineCollection({
   }),
 });
 
+const eventCollection = defineCollection({
+  schema: z.object({
+    publishDate: z.date().optional(),
+    updateDate: z.date().optional(),
+    draft: z.boolean().optional(),
+
+    title: z.string(),
+    excerpt: z.string().optional(),
+    image: z.string().optional(),
+
+    category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    author: z.string().optional(),
+    lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']).optional().default('en'),
+    metadata: metadataDefinition(),
+    seo: seoDefinition(),
+  }),
+});
+
+const eventsCollection = defineCollection({
+  loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/events' }),
+  schema: z.object({
+    metadata: metadataDefinition(),
+    seo: seoDefinition(),
+    title: z.string(),
+    subtitle: z.string().optional(),
+  }),
+});
+
 const announcementCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/announcement' }),
   schema: z.object({
@@ -509,9 +540,15 @@ const announcementCollection = defineCollection({
     instagram: z.string().optional(),
     facebook: z.string().optional(),
     linkedin: z.string().optional(),
-  instagram_button_text: z.string().optional(),
-  facebook_button_text: z.string().optional(),
-  linkedin_button_text: z.string().optional(),
+    instagram_button_text: z.string().optional(),
+    facebook_button_text: z.string().optional(),
+    linkedin_button_text: z.string().optional(),
+    events_announcement_text: z.string().optional(),
+    events_link_text: z.string().optional(),
+    events_url: z.string().optional(),
+    anniversary_separator_text: z.string().optional(),
+    anniversary_link_text: z.string().optional(),
+    anniversary_url: z.string().optional(),
   }),
 });
 
@@ -542,6 +579,8 @@ const confirmationCollection = defineCollection({
 
 export const collections = {
   post: postCollection,
+  event: eventCollection,
+  events: eventsCollection,
   homepage: homepageCollection,
   about: aboutCollection,
   contact: contactCollection,

@@ -84,29 +84,17 @@ if (post.image) {
 
       {
         imageSrc ? (
-          typeof post.image === 'string' ? (
-            <img
-              src={imageSrc as string}
-              width={imageWidth}
-              height={imageHeight}
-              class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400"
-              alt={post.excerpt || ''}
-              loading="eager"
-              decoding="async"
-            />
-          ) : (
-            <Image
-              src={imageSrc}
-              class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400"
-              widths={[400, 900]}
-              sizes="(max-width: 900px) 400px, 900px"
-              alt={post.excerpt || ''}
-              width={imageWidth}
-              height={imageHeight}
-              loading="eager"
-              decoding="async"
-            />
-          )
+          <Image
+            src={imageSrc}
+            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400"
+            widths={[400, 900]}
+            sizes="(max-width: 900px) 400px, 900px"
+            alt={post.excerpt || ''}
+            width={imageWidth}
+            height={imageHeight}
+            loading="eager"
+            decoding="async"
+          />
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
             <div class="border-t" />

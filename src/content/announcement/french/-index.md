@@ -11,6 +11,12 @@ or_text: ou remplissez notre
 instagram: https://www.instagram.com/capitollawpartners/
 facebook: https://www.facebook.com/CapitolLaw/
 linkedin: https://www.linkedin.com/company/capitollawpartners
+events_announcement_text: Consultez notre
+events_link_text: Evenements
+events_url: /fr/events
+anniversary_separator_text: ''
+anniversary_link_text: USA 250
+anniversary_url: /fr/events/evenement-du-250e-anniversaire-des-etats-unis
 seo:
   title: Annonce
 ---

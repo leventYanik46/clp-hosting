@@ -31,3 +31,35 @@ collections:
           - { label: "Canonical URL", name: "canonical", widget: "string" }
           - { label: "Meta Description", name: "description", widget: "string" }
       - { label: "Content", name: "body", widget: "markdown" }
+  - name: "event"
+    label: "Event"
+    folder: "src/content/event"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Category", name: "category", widget: "string", required: false }
+      - { label: "Language", name: "lang", widget: "select", options: ["en", "tr", "es", "pt", "fr"], default: "en" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Publish Date", name: "publishDate", widget: "datetime", required: false }
+      - label: "Metadata"
+        name: "metadata"
+        widget: "object"
+        fields:
+          - { label: "Canonical URL", name: "canonical", widget: "string", required: false }
+          - { label: "Meta Description", name: "description", widget: "string", required: false }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "SEO Title", name: "title", widget: "string", required: false }
+          - { label: "SEO Description", name: "description", widget: "string", required: false }
+          - { label: "Canonical Override", name: "canonicalOverride", widget: "string", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }

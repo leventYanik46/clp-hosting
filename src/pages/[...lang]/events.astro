@@ -1,0 +1,78 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/blog/List.astro';
+import Headline from '~/components/blog/Headline.astro';
+import { getEventsForLanguage } from '~/utils/events';
+import { supportedLang } from '~/utils/lib/languageParser';
+import type { ContentEntryMap } from 'astro:content';
+import { getListPage } from '~/utils/lib/contentParser.astro';
+import {
+  buildLanguageAlternatesForLangs,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  getOgLocaleForLang,
+  stripLangPrefix,
+} from '~/data/seo';
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return supportedLang.map((langPrefix) => ({
+    params: { lang: langPrefix || undefined },
+  }));
+}
+
+const routeLang = Astro.params?.lang;
+const lang = typeof routeLang === 'string' && routeLang.length > 0 ? routeLang : 'en';
+const events = await getEventsForLanguage(lang);
+let eventsPage = await getListPage('events', lang as keyof ContentEntryMap);
+let eventsPageData = eventsPage?.[0]?.data;
+
+if (!eventsPageData) {
+  const fallback = await getListPage('events', 'en' as keyof ContentEntryMap);
+  eventsPageData = fallback?.[0]?.data;
+}
+
+const pageTitle = eventsPageData?.title || 'Events';
+const pageSubtitle = eventsPageData?.subtitle || 'Explore our upcoming events and announcements.';
+
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const supportedSeoLangs = ['en', 'tr', 'es', 'pt', 'fr'] as const;
+const { routePath } = stripLangPrefix(Astro.url.pathname, DEFAULT_SEO_LANG);
+const languageAlternates = buildLanguageAlternatesForLangs(
+  routePath,
+  siteUrl,
+  supportedSeoLangs,
+  DEFAULT_SEO_LANG,
+  true
+);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, supportedSeoLangs, true);
+
+const metadata = {
+  title: eventsPageData?.metadata?.title || pageTitle,
+  description: eventsPageData?.metadata?.description || pageSubtitle,
+  robots: {
+    index: eventsPageData?.metadata?.robots?.index ?? true,
+    follow: eventsPageData?.metadata?.robots?.follow ?? true,
+  },
+  openGraph: {
+    type: 'website',
+    locale: getOgLocaleForLang(lang),
+  },
+};
+
+const seo = {
+  title: eventsPageData?.seo?.title || metadata.title,
+  description: eventsPageData?.seo?.description || metadata.description,
+  noindex: eventsPageData?.seo?.noindex,
+  nofollow: eventsPageData?.seo?.nofollow,
+  canonicalOverride: eventsPageData?.seo?.canonicalOverride,
+};
+---
+
+<Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline subtitle={pageSubtitle}>{pageTitle}</Headline>
+    <BlogList posts={events} lang={lang} />
+  </section>
+</Layout>

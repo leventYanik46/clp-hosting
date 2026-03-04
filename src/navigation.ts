@@ -5,7 +5,16 @@ export const headerData = {
   links: [
     {
       text: 'About Us',
-      href: getPermalink('/about'),
+      links: [
+        {
+          text: 'About Us',
+          href: getPermalink('/about'),
+        },
+        {
+          text: 'Events',
+          href: getPermalink('/events'),
+        },
+      ],
     },
     {
       text: 'Practice Areas',
@@ -91,7 +100,16 @@ export const headerDataTr = {
   links: [
     {
       text: 'Hakkımızda',
-      href: getPermalink('/tr/about'),
+      links: [
+        {
+          text: 'Hakkımızda',
+          href: getPermalink('/tr/about'),
+        },
+        {
+          text: 'Etkinlikler',
+          href: getPermalink('/tr/events'),
+        },
+      ],
     },
     {
       text: 'Çalışma Alanları',
@@ -195,6 +213,10 @@ export const headerDataEs= {
           href: getPermalink('/es/locations'),
         },
         {
+          text: 'Eventos',
+          href: getPermalink('/es/events'),
+        },
+        {
           text: 'Blog',
           href: getPermalink('/es/blog'),
         },
@@ -292,6 +314,10 @@ export const headerDataFr = {
           text: 'Nos bureaux',
           href: getPermalink('/fr/locations'),
         },
+        {
+          text: 'Evenements',
+          href: getPermalink('/fr/events'),
+        },
       ],
     },
     {
@@ -378,6 +404,10 @@ export const headerDataPt = {
         {
           text: 'Nossos Escritórios',
           href: getPermalink('/pt/locations'),
+        },
+        {
+          text: 'Eventos',
+          href: getPermalink('/pt/events'),
         },
       ],
     },

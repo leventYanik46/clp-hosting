@@ -87,6 +87,28 @@
   to   = "/understanding-family-based-immigration-attorney"
   status = 301
 
+# Fix broken unicode slug variant used in legacy/internal links
+[[redirects]]
+  from = "/small-business-ıntellectual-property-protection-types"
+  to   = "/small-business-intellectual-property-protection-types"
+  status = 301
+
+[[redirects]]
+  from = "/small-business-ıntellectual-property-protection-types/"
+  to   = "/small-business-intellectual-property-protection-types"
+  status = 301
+
+# Legacy blog slug for green card page → current English post
+[[redirects]]
+  from = "/how-to-get-a-green-card"
+  to   = "/ways-to-get-a-green-card-in-the-united-states"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-get-a-green-card/"
+  to   = "/ways-to-get-a-green-card-in-the-united-states"
+  status = 301
+
 # Locations → /locations
 [[redirects]]
   from = "/global-presence/"

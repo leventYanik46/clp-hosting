@@ -1,0 +1,122 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+import merge from 'lodash.merge';
+import type { ImageMetadata } from 'astro';
+import Layout from '~/layouts/PageLayout.astro';
+import SinglePost from '~/components/blog/SinglePost.astro';
+import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+import ToEventsLink from '~/components/events/ToEventsLink.astro';
+import { getStaticPathsEventPost, eventPostRobots } from '~/utils/events';
+import { findImage } from '~/utils/images';
+import type { MetaData, SeoData } from '~/types';
+import {
+  buildLanguageAlternatesForLangs,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  getOgLocaleForLang,
+  sanitizeCanonicalUrl,
+} from '~/data/seo';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  return await getStaticPathsEventPost();
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { event, lang } = Astro.props as Props;
+const seoLang = ['en', 'tr', 'es', 'pt', 'fr'].includes(lang) ? (lang as 'en' | 'tr' | 'es' | 'pt' | 'fr') : 'en';
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const siteHost = new URL(siteUrl).hostname;
+
+const generatedCanonical =
+  sanitizeCanonicalUrl(Astro.url.pathname, {
+    siteUrl,
+    forceHost: siteHost,
+  }) ??
+  sanitizeCanonicalUrl(String(Astro.url.href), {
+    siteUrl,
+    forceHost: siteHost,
+  });
+const canonical = generatedCanonical || String(new URL(Astro.url.pathname, siteUrl));
+const image = (await findImage(event.image)) as ImageMetadata | string | undefined;
+const imageForPost =
+  image && typeof image === 'object' && 'src' in image
+    ? { ...image, width: 900, height: 506 }
+    : image;
+const imageSource = typeof image === 'string' ? image : image?.src;
+const imageUrl = imageSource ? new URL(imageSource, siteUrl).toString() : undefined;
+const eventLangValues = Array.isArray(event.lang)
+  ? event.lang
+  : typeof event.lang === 'string'
+    ? [event.lang]
+    : [seoLang];
+const routePath = `/${event.permalink}`;
+const languageAlternates = buildLanguageAlternatesForLangs(routePath, siteUrl, eventLangValues, DEFAULT_SEO_LANG, false);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(seoLang, eventLangValues, false);
+
+const sanitizedEventMetadata = event?.metadata
+  ? {
+      ...event.metadata,
+      ...(event.metadata.description ? { description: event.metadata.description.trim() } : {}),
+      canonical,
+    }
+  : { canonical };
+
+const metadata = merge(
+  {
+    title: event.title,
+    description: event.excerpt,
+    robots: {
+      index: eventPostRobots?.index,
+      follow: eventPostRobots?.follow,
+    },
+    openGraph: {
+      type: 'article',
+      locale: getOgLocaleForLang(seoLang),
+      ...(image
+        ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] }
+        : {}),
+    },
+  },
+  sanitizedEventMetadata
+) as MetaData;
+
+const seo: SeoData = {
+  title: event.metadata?.title ?? event.title,
+  description: event.metadata?.description ?? event.excerpt,
+  ogImage: imageSource,
+  noindex: eventPostRobots?.index === false,
+  nofollow: eventPostRobots?.follow === false,
+  canonicalOverride: canonical,
+  schema: {
+    mode: 'merge',
+    includeBreadcrumbs: true,
+  },
+};
+---
+
+<Layout
+  metadata={metadata}
+  seo={seo}
+  pageType="article"
+  article={{
+    title: event.title,
+    description: (metadata.description || event.excerpt || '').trim(),
+    image: imageUrl,
+    datePublished: event.publishDate?.toISOString?.(),
+    dateModified: (event.updateDate || event.publishDate)?.toISOString?.(),
+    authorName: event.author,
+    articleSection: event.category?.title,
+    keywords: event.tags?.map((tag) => tag.title),
+  }}
+  languageAlternates={languageAlternates}
+  ogLocaleAlternates={ogLocaleAlternates}
+>
+  <SinglePost post={{ ...event, image: imageForPost }} url={canonical}>
+    {event.Content ? <event.Content /> : <Fragment set:html={event.content || ''} />}
+  </SinglePost>
+  <RelatedPosts post={event} lang={lang} />
+  <ToEventsLink lang={lang} />
+</Layout>

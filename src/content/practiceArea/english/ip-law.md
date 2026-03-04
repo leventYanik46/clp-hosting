@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Intellectual Property Law
+  title: Intellectual Property Legal Services
   description: >-
     Trademark, copyright, trade secret protection, IP portfolio management, and
     litigation services to safeguard your brand and innovations.
@@ -103,7 +103,7 @@ post:
     against infringement, we are in your corner, focused on safeguarding your
     creativity and business edge.</p>
 seo:
-  title: Intellectual Property Law
+  title: Intellectual Property Legal Services
   description: >-
     Trademark, copyright, trade secret protection, IP portfolio management, and
     litigation services to safeguard your brand and innovations.

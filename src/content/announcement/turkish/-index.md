@@ -11,6 +11,12 @@ or_text: numarasından ulaşabilir veya
 instagram: https://www.instagram.com/capitollawpartners/
 facebook: https://www.facebook.com/CapitolLaw/
 linkedin: https://www.linkedin.com/company/capitollawpartners
+events_announcement_text: Etkinliklerimizi inceleyin
+events_link_text: Etkinlikler
+events_url: /tr/events
+anniversary_separator_text: ''
+anniversary_link_text: ABD 250
+anniversary_url: /tr/events/abd-250-yil-kutlamasi-etkinligi
 seo:
   title: Duyuru
 ---
