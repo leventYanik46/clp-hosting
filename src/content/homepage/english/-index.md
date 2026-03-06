@@ -14,7 +14,7 @@ hero:
     You with Commitment and Time-Honored Expertise in <strong>Business Growth,
     Immigration Success and Estate Planning.</strong>
   image:
-    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.jpeg
+    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.webp
     alt: Us capitol building image
   actions:
     - variant: primary

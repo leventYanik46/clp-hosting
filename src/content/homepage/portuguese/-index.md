@@ -16,7 +16,7 @@ hero:
     <strong>crescimento empresarial, sucesso em imigração e planejamento
     sucessório.</strong>
   image:
-    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.png
+    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.webp
     alt: Imagem do Capitólio dos EUA
   actions:
     - variant: primary

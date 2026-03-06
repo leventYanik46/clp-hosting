@@ -16,7 +16,7 @@ hero:
     planlamasında</strong> size zamanla kanıtlanmış uzmanlığımız ve sarsılmaz
     bağlılığımızla öncelik veriyoruz.
   image:
-    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.png
+    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.webp
     alt: ABD Kongre binası görseli
   actions:
     - variant: primary

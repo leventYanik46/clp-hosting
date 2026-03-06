@@ -16,7 +16,7 @@ hero:
     des affaires, réussite en immigration et planification
     successorale.</strong>
   image:
-    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.png
+    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.webp
     alt: Image du Capitole américain
   actions:
     - variant: primary

@@ -16,7 +16,7 @@ hero:
     <strong>crecimiento empresarial, éxito migratorio y planificación
     patrimonial.</strong>
   image:
-    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.png
+    src: ~/assets/images/high-resolution-photo-of-us-capitol-l.webp
     alt: Imagen del edificio del Capitolio de EE. UU.
   actions:
     - variant: primary
