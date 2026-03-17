@@ -3,9 +3,32 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { APP_BLOG } from 'astrowind:config';
-import { cleanSlug, trimSlash, BLOG_BASE, POST_PERMALINK_PATTERN, CATEGORY_BASE, TAG_BASE } from './permalinks';
+import {
+  cleanSlug,
+  trimSlash,
+  BLOG_BASE,
+  POST_PERMALINK_PATTERN,
+  CATEGORY_BASE,
+  TAG_BASE,
+  getPermalink,
+} from './permalinks';
 import { supportedLang } from '~/utils/lib/languageParser';
 import config from '~/config/config.json';
+
+export interface BlogSearchEntry {
+  id: string;
+  lang: string;
+  href: string;
+  slug: string;
+  title: string;
+  titleSearchText: string;
+  searchText: string;
+  excerpt?: string;
+  category?: string;
+  tags: string[];
+  publishDate: string;
+  image?: string;
+}
 
 const generatePermalink = async ({
   id,
@@ -43,7 +66,7 @@ const generatePermalink = async ({
 };
 
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
-  const { id, slug: rawSlug = '', data } = post;
+  const { id, slug: rawSlug = '', data, body = '' } = post;
   const { Content, remarkPluginFrontmatter } = await post.render();
 
   const {
@@ -98,7 +121,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     metadata,
 
     Content: Content,
-    // or 'content' in case you consume from API
+    // Preserve the raw entry body so the blog search index can match post content.
+    content: body,
 
     readingTime: remarkPluginFrontmatter?.readingTime,
     // normalize lang to either a string or array
@@ -133,6 +157,59 @@ export const blogCategoryRobots = APP_BLOG.category.robots;
 export const blogTagRobots = APP_BLOG.tag.robots;
 
 export const blogPostsPerPage = APP_BLOG?.postsPerPage;
+
+const defaultBlogLanguage = config.settings.default_language;
+const defaultBlogLanguageInSubdir = config.settings.default_language_in_subdir;
+
+const searchCharacterReplacements: Array<[string, string]> = [
+  ['ı', 'i'],
+  ['İ', 'i'],
+  ['ş', 's'],
+  ['Ş', 's'],
+  ['ç', 'c'],
+  ['Ç', 'c'],
+  ['ğ', 'g'],
+  ['Ğ', 'g'],
+  ['ü', 'u'],
+  ['Ü', 'u'],
+  ['ö', 'o'],
+  ['Ö', 'o'],
+];
+
+const normalizeTextForSearch = (value = ''): string => {
+  const replacedValue = searchCharacterReplacements.reduce((normalizedValue, [source, target]) => {
+    return normalizedValue.replaceAll(source, target);
+  }, value);
+
+  return replacedValue
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}\s/-]+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+};
+
+const prepareBodyTextForSearch = (value = ''): string =>
+  value
+    .replace(/^(import|export)\s.+$/gm, ' ')
+    .replace(/!\[([^\]]*)\]\([^)]+\)/g, ' $1 ')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, ' $1 ')
+    .replace(/<[^>]+>/g, ' ');
+
+const buildBlogSearchText = (post: Post): string => {
+  const tags = Array.isArray(post.tags) ? post.tags.map((tag) => tag.title).join(' ') : '';
+  const bodyText = typeof post.content === 'string' ? prepareBodyTextForSearch(post.content) : '';
+
+  return normalizeTextForSearch(
+    [post.title, post.excerpt, post.category?.title, tags, bodyText].filter(Boolean).join(' ')
+  );
+};
+
+const getLanguagePrefix = (languageCode: string): string => {
+  if (languageCode === defaultBlogLanguage && !defaultBlogLanguageInSubdir) return '';
+  return languageCode;
+};
 
 /** */
 export const fetchPosts = async (): Promise<Array<Post>> => {
@@ -177,6 +254,43 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
   const posts = await fetchPosts();
 
   return posts ? posts.slice(0, _count) : [];
+};
+
+const getPostLanguageCodes = (post: Post): string[] => {
+  const postLang = post.lang;
+  if (Array.isArray(postLang) && postLang.length) return postLang;
+  if (typeof postLang === 'string' && postLang.length > 0) return [postLang];
+  return [defaultBlogLanguage];
+};
+
+export const getBlogSearchIndex = async (): Promise<BlogSearchEntry[]> => {
+  const posts = await fetchPosts();
+
+  return posts.flatMap((post) => {
+    const tags = Array.isArray(post.tags) ? post.tags.map((tag) => tag.title) : [];
+    const titleSearchText = normalizeTextForSearch(post.title);
+    const searchText = buildBlogSearchText(post);
+
+    return getPostLanguageCodes(post).map((languageCode) => {
+      const prefix = getLanguagePrefix(languageCode);
+      const permalinkPath = prefix ? `${prefix}/${post.permalink}` : post.permalink;
+
+      return {
+        id: post.id,
+        lang: languageCode,
+        href: getPermalink(permalinkPath, 'post'),
+        slug: post.slug,
+        title: post.title,
+        titleSearchText,
+        searchText,
+        excerpt: post.excerpt,
+        category: post.category?.title,
+        tags,
+        publishDate: post.publishDate.toISOString(),
+        image: typeof post.image === 'string' ? post.image : undefined,
+      };
+    });
+  });
 };
 
 /** */
@@ -269,7 +383,10 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
           return code === defaultLang;
         }),
         {
-          params: { category: categorySlug, blog: CATEGORY_BASE ? (prefix ? `${prefix}/${CATEGORY_BASE}` : `${CATEGORY_BASE}`) : undefined },
+          params: {
+            category: categorySlug,
+            blog: CATEGORY_BASE ? (prefix ? `${prefix}/${CATEGORY_BASE}` : `${CATEGORY_BASE}`) : undefined,
+          },
           pageSize: blogPostsPerPage,
           props: { category: categories[categorySlug], lang: prefix === '' ? defaultLang : prefix },
         }
@@ -325,15 +442,6 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
       )
     );
   });
-};
-
-const defaultBlogLanguage = config.settings.default_language;
-
-const getPostLanguageCodes = (post: Post): string[] => {
-  const postLang = post.lang;
-  if (Array.isArray(postLang) && postLang.length) return postLang;
-  if (typeof postLang === 'string' && postLang.length > 0) return [postLang];
-  return [defaultBlogLanguage];
 };
 
 const pageSize = Number(blogPostsPerPage) || 12;

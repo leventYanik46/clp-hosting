@@ -13,9 +13,9 @@ const { posts, lang, taxonomyBasePath } = Astro.props;
 
 <ul>
   {
-    posts.map((post) => (
+    posts.map((post, index) => (
       <li class="mb-12 md:mb-20">
-        <Item post={post} lang={lang} taxonomyBasePath={taxonomyBasePath} />
+        <Item post={post} lang={lang} taxonomyBasePath={taxonomyBasePath} isPriority={index === 0} />
       </li>
     ))
   }

@@ -10,6 +10,7 @@ import Seo from '~/components/common/Seo.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
+import GlobalSearch from '~/components/search/GlobalSearch.astro';
 
 import type { MetaData as MetaDataType, SeoData } from '~/types';
 import { getLangFromPathname, type HreflangAlternate } from '~/data/seo';
@@ -51,21 +52,21 @@ const htmlLang = getLangFromPathname(Astro.url.pathname, language as 'en' | 'tr'
 
   <body class="antialiased text-default bg-page tracking-tight">
     <slot />
+    <GlobalSearch lang={htmlLang} />
 
     <BasicScripts />
     <!-- Load Netlify Identity widget -->
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>    
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script defer>
       const ni = window.netlifyIdentity;
       if (!ni) return;
-      ni.on("init", () => {
-        if (window.location.hash.includes("invite_token")) {
-          ni.open("signup");
-          window.history.replaceState(null, null, "/#");
+      ni.on('init', () => {
+        if (window.location.hash.includes('invite_token')) {
+          ni.open('signup');
+          window.history.replaceState(null, null, '/#');
         }
       });
       ni.init();
     </script>
-    
   </body>
 </html>

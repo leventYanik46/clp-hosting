@@ -16,9 +16,10 @@ export interface Props {
   post: Post;
   lang?: string;
   taxonomyBasePath?: string;
+  isPriority?: boolean;
 }
 
-const { post, lang, taxonomyBasePath } = Astro.props;
+const { post, lang, taxonomyBasePath, isPriority = false } = Astro.props;
 const image = (await findImage(post.image)) as ImageMetadata | undefined;
 
 const { default_language, default_language_in_subdir } = config.settings;
@@ -55,7 +56,8 @@ const categoryLink = categoryPath ? getPermalink(categoryPath, 'page') : undefin
                 sizes="(max-width: 900px) 400px, 900px"
                 alt={post.title}
                 aspectRatio="16:9"
-                loading="lazy"
+                loading={isPriority ? 'eager' : 'lazy'}
+                fetchpriority={isPriority ? 'high' : 'auto'}
                 decoding="async"
               />
             )}
@@ -72,7 +74,8 @@ const categoryLink = categoryPath ? getPermalink(categoryPath, 'page') : undefin
               sizes="(max-width: 900px) 400px, 900px"
               alt={post.title}
               aspectRatio="16:9"
-              loading="lazy"
+              loading={isPriority ? 'eager' : 'lazy'}
+              fetchpriority={isPriority ? 'high' : 'auto'}
               decoding="async"
             />
           )}

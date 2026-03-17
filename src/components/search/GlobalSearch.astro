@@ -1,0 +1,259 @@
+---
+import { SITE } from 'astrowind:config';
+
+import config from '~/config/config.json';
+import { getAsset } from '~/utils/permalinks';
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = config.settings.default_language } = Astro.props;
+const searchIndexUrl = getAsset('search-index.json');
+
+const copyByLang = {
+  en: {
+    title: 'Search',
+    label: 'Search the site',
+    placeholder: 'Search blog posts, events, practice areas, and team profiles',
+    loading: 'Loading search index...',
+    error: 'We could not load search right now.',
+    prompt: 'Type something to search.',
+    noResults: 'No results for "{query}".',
+    resultsOne: '1 result',
+    resultsMany: '{count} results',
+    inLabel: 'in',
+    shortcut: 'Ctrl or Cmd + K',
+    navigate: 'to navigate',
+    select: 'to select',
+    close: 'to close',
+    seconds: 'seconds',
+    categoriesLabel: 'Categories',
+    tagsLabel: 'Tags',
+    groupLabels: {
+      blog: 'Blog',
+      events: 'Events',
+      'practice-area': 'Practice Areas',
+      team: 'Team',
+    },
+  },
+  tr: {
+    title: 'Arama',
+    label: 'Sitede ara',
+    placeholder: 'Blog yazilari, etkinlikler, hizmet alanlari ve ekip profillerinde ara',
+    loading: 'Arama indeksi yukleniyor...',
+    error: 'Arama su anda yuklenemedi.',
+    prompt: 'Aramak icin bir sey yazin.',
+    noResults: '"{query}" icin sonuc bulunamadi.',
+    resultsOne: '1 sonuc',
+    resultsMany: '{count} sonuc',
+    inLabel: 'icinde',
+    shortcut: 'Ctrl veya Cmd + K',
+    navigate: 'gezinmek icin',
+    select: 'secmek icin',
+    close: 'kapatmak icin',
+    seconds: 'saniye',
+    categoriesLabel: 'Kategoriler',
+    tagsLabel: 'Etiketler',
+    groupLabels: {
+      blog: 'Blog',
+      events: 'Etkinlikler',
+      'practice-area': 'Hizmet Alanlari',
+      team: 'Ekip',
+    },
+  },
+  es: {
+    title: 'Buscar',
+    label: 'Buscar en el sitio',
+    placeholder: 'Buscar en blog, eventos, areas de practica y perfiles del equipo',
+    loading: 'Cargando el indice de busqueda...',
+    error: 'No pudimos cargar la busqueda en este momento.',
+    prompt: 'Escribe algo para buscar.',
+    noResults: 'No hay resultados para "{query}".',
+    resultsOne: '1 resultado',
+    resultsMany: '{count} resultados',
+    inLabel: 'en',
+    shortcut: 'Ctrl o Cmd + K',
+    navigate: 'para navegar',
+    select: 'para abrir',
+    close: 'para cerrar',
+    seconds: 'segundos',
+    categoriesLabel: 'Categorias',
+    tagsLabel: 'Etiquetas',
+    groupLabels: {
+      blog: 'Blog',
+      events: 'Eventos',
+      'practice-area': 'Areas de Practica',
+      team: 'Equipo',
+    },
+  },
+  pt: {
+    title: 'Pesquisar',
+    label: 'Pesquisar no site',
+    placeholder: 'Pesquise posts, eventos, areas de pratica e perfis da equipe',
+    loading: 'Carregando o indice de busca...',
+    error: 'Nao foi possivel carregar a busca agora.',
+    prompt: 'Digite algo para pesquisar.',
+    noResults: 'Nenhum resultado para "{query}".',
+    resultsOne: '1 resultado',
+    resultsMany: '{count} resultados',
+    inLabel: 'em',
+    shortcut: 'Ctrl ou Cmd + K',
+    navigate: 'para navegar',
+    select: 'para abrir',
+    close: 'para fechar',
+    seconds: 'segundos',
+    categoriesLabel: 'Categorias',
+    tagsLabel: 'Tags',
+    groupLabels: {
+      blog: 'Blog',
+      events: 'Eventos',
+      'practice-area': 'Areas de Pratica',
+      team: 'Equipe',
+    },
+  },
+  fr: {
+    title: 'Recherche',
+    label: 'Rechercher sur le site',
+    placeholder: 'Rechercher dans le blog, les evenements, les domaines et les profils de l equipe',
+    loading: 'Chargement de l index de recherche...',
+    error: 'Impossible de charger la recherche pour le moment.',
+    prompt: 'Tapez quelque chose pour lancer la recherche.',
+    noResults: 'Aucun resultat pour "{query}".',
+    resultsOne: '1 resultat',
+    resultsMany: '{count} resultats',
+    inLabel: 'en',
+    shortcut: 'Ctrl ou Cmd + K',
+    navigate: 'pour naviguer',
+    select: 'pour ouvrir',
+    close: 'pour fermer',
+    seconds: 'secondes',
+    categoriesLabel: 'Categories',
+    tagsLabel: 'Tags',
+    groupLabels: {
+      blog: 'Blog',
+      events: 'Evenements',
+      'practice-area': 'Domaines',
+      team: 'Equipe',
+    },
+  },
+} as const;
+
+const copy = copyByLang[(lang as keyof typeof copyByLang) ?? 'en'] ?? copyByLang.en;
+---
+
+<div
+  class="global-search"
+  data-global-search-root
+  data-open="false"
+  data-lang={lang}
+  data-default-language={config.settings.default_language}
+  data-default-language-in-subdir={String(config.settings.default_language_in_subdir)}
+  data-trailing-slash={String(SITE.trailingSlash)}
+  data-search-index-url={searchIndexUrl}
+  data-copy={JSON.stringify(copy)}
+  aria-hidden="true"
+>
+  <button type="button" class="global-search__backdrop" data-search-close aria-label={copy.title} tabindex="-1"
+  ></button>
+
+  <div
+    class="global-search__panel"
+    data-global-search-dialog
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="global-search-title"
+  >
+    <div class="flex items-center justify-between border-b border-gray-200 px-4 py-4 sm:px-6">
+      <div>
+        <p id="global-search-title" class="text-xl font-semibold text-gray-900" data-global-search-title>{copy.title}</p>
+        <p class="mt-1 text-sm text-gray-500">{copy.shortcut}</p>
+      </div>
+      <button
+        type="button"
+        class="rounded-full border border-gray-200 p-2 text-gray-500 transition hover:border-gray-300 hover:text-gray-900"
+        data-search-close
+        aria-label={copy.close}
+      >
+        <svg
+          aria-hidden="true"
+          class="h-5 w-5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+        >
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div class="border-b border-gray-200 px-4 py-4 sm:px-6">
+      <label class="block text-sm font-medium text-gray-700" data-global-search-label for="global-search-input"
+        >{copy.label}</label
+      >
+      <div class="relative mt-3">
+        <svg
+          aria-hidden="true"
+          class="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="global-search-input"
+          class="w-full rounded-2xl border border-gray-200 bg-gray-50 py-3 pl-12 pr-4 text-base text-gray-900 outline-none transition focus:border-gray-300 focus:bg-white"
+          data-global-search-input
+          type="search"
+          placeholder={copy.placeholder}
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+      <p class="mt-3 text-sm text-gray-600" data-global-search-status>{copy.prompt}</p>
+    </div>
+
+    <div class="global-search__results" data-global-search-results>
+      <div
+        class="rounded-2xl border border-dashed border-gray-300 bg-gray-50 px-6 py-10 text-center text-sm text-gray-600"
+      >
+        {copy.prompt}
+      </div>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-3 border-t border-gray-200 px-4 py-4 text-xs text-gray-500 sm:px-6">
+      <span class="flex items-center gap-1.5">
+        <kbd class="global-search__kbd">↑</kbd>
+        <kbd class="global-search__kbd">↓</kbd>
+        <span>{copy.navigate}</span>
+      </span>
+      <span class="flex items-center gap-1.5">
+        <kbd class="global-search__kbd">Enter</kbd>
+        <span>{copy.select}</span>
+      </span>
+      <span class="flex items-center gap-1.5">
+        <kbd class="global-search__kbd">Esc</kbd>
+        <span>{copy.close}</span>
+      </span>
+      <span class="ml-auto inline-flex items-center gap-1.5" data-global-search-summary hidden>
+        <strong data-global-search-summary-count>0 results</strong>
+        <span>{copy.inLabel}</span>
+        <strong data-global-search-summary-time>0.000</strong>
+        <span>{copy.seconds}</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { bootstrapGlobalSearch } from '~/components/search/global-search-loader';
+
+  bootstrapGlobalSearch();
+</script>

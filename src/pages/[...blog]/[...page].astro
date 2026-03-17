@@ -3,11 +3,17 @@ import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 
 import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
+import BlogSearch from '~/components/blog/Search.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
 // import PostTags from "~/components/blog/Tags.astro";
 
-import { blogListRobots, getBlogLanguageCodesForListPage, getStaticPathsBlogList } from '~/utils/blog';
+import {
+  blogListRobots,
+  getBlogLanguageCodesForListPage,
+  getStaticPathsBlogList,
+} from '~/utils/blog';
+import { getAsset } from '~/utils/permalinks';
 import {
   buildLanguageAlternatesForLangs,
   DEFAULT_SEO_LANG,
@@ -31,6 +37,98 @@ const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
 const { routePath } = stripLangPrefix(Astro.url.pathname);
 const availableLanguageCodes = await getBlogLanguageCodesForListPage(currentPage);
 const alternateLanguageCodes = Array.from(new Set([...(lang ? [lang] : []), ...availableLanguageCodes]));
+const blogPageCopyByLang = {
+  en: {
+    title: 'The Blog',
+    subtitle: 'Explore our latest insights and updates.',
+    search: {
+      label: 'Search blog posts',
+      placeholder: 'Search blog posts',
+      helper: 'Start typing to search blog titles, summaries, and content.',
+      loading: 'Loading blog search...',
+      error: 'We could not load the blog search right now.',
+      clear: 'Clear',
+      resultsLabelOne: '1 blog post found',
+      resultsLabelMany: '{count} blog posts found',
+      pageLabel: 'Page {current} of {total}',
+      prevPage: 'Newer results',
+      nextPage: 'Older results',
+      noResults: 'No blog posts matched "{term}".',
+    },
+  },
+  tr: {
+    title: 'Blog',
+    subtitle: 'En son icgorulerimizi ve guncellemelerimizi kesfedin.',
+    search: {
+      label: 'Blog yazilarinda ara',
+      placeholder: 'Blog yazilarinda ara',
+      helper: 'Baslik, ozet ve icerikte aramak icin yazmaya baslayin.',
+      loading: 'Blog aramasi yukleniyor...',
+      error: 'Blog aramasi su anda yuklenemedi.',
+      clear: 'Temizle',
+      resultsLabelOne: '1 blog yazisi bulundu',
+      resultsLabelMany: '{count} blog yazisi bulundu',
+      pageLabel: 'Sayfa {current} / {total}',
+      prevPage: 'Daha yeni sonuclar',
+      nextPage: 'Daha eski sonuclar',
+      noResults: '"{term}" icin eslesen blog yazisi bulunamadi.',
+    },
+  },
+  es: {
+    title: 'El Blog',
+    subtitle: 'Explora nuestros ultimos analisis y actualizaciones.',
+    search: {
+      label: 'Buscar en el blog',
+      placeholder: 'Buscar en articulos del blog',
+      helper: 'Empieza a escribir para buscar en titulos, resumenes y contenido.',
+      loading: 'Cargando la busqueda del blog...',
+      error: 'No pudimos cargar la busqueda del blog en este momento.',
+      clear: 'Borrar',
+      resultsLabelOne: '1 entrada del blog encontrada',
+      resultsLabelMany: '{count} entradas del blog encontradas',
+      pageLabel: 'Pagina {current} de {total}',
+      prevPage: 'Resultados mas nuevos',
+      nextPage: 'Resultados mas antiguos',
+      noResults: 'No se encontraron entradas del blog para "{term}".',
+    },
+  },
+  pt: {
+    title: 'O Blog',
+    subtitle: 'Explore nossos ultimos insights e atualizacoes.',
+    search: {
+      label: 'Pesquisar no blog',
+      placeholder: 'Pesquisar posts do blog',
+      helper: 'Comece a digitar para buscar em titulos, resumos e conteudo.',
+      loading: 'Carregando a busca do blog...',
+      error: 'Nao foi possivel carregar a busca do blog agora.',
+      clear: 'Limpar',
+      resultsLabelOne: '1 post do blog encontrado',
+      resultsLabelMany: '{count} posts do blog encontrados',
+      pageLabel: 'Pagina {current} de {total}',
+      prevPage: 'Resultados mais recentes',
+      nextPage: 'Resultados mais antigos',
+      noResults: 'Nenhum post do blog corresponde a "{term}".',
+    },
+  },
+  fr: {
+    title: 'Le Blog',
+    subtitle: 'Decouvrez nos dernieres analyses et mises a jour.',
+    search: {
+      label: 'Rechercher dans le blog',
+      placeholder: 'Rechercher dans les articles du blog',
+      helper: 'Commencez a taper pour rechercher dans les titres, resumes et le contenu.',
+      loading: 'Chargement de la recherche du blog...',
+      error: 'Impossible de charger la recherche du blog pour le moment.',
+      clear: 'Effacer',
+      resultsLabelOne: '1 article de blog trouve',
+      resultsLabelMany: '{count} articles de blog trouves',
+      pageLabel: 'Page {current} sur {total}',
+      prevPage: 'Resultats plus recents',
+      nextPage: 'Resultats plus anciens',
+      noResults: 'Aucun article de blog ne correspond a "{term}".',
+    },
+  },
+} as const;
 const languageAlternates = buildLanguageAlternatesForLangs(
   routePath,
   siteUrl,
@@ -39,6 +137,8 @@ const languageAlternates = buildLanguageAlternatesForLangs(
   false
 );
 const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, alternateLanguageCodes, false);
+const blogPageCopy = blogPageCopyByLang[(lang as keyof typeof blogPageCopyByLang) ?? 'en'] ?? blogPageCopyByLang.en;
+const blogSearchIndexUrl = getAsset('blog-search.json');
 
 // const allCategories = await findCategories();
 // const allTags = await findTags();
@@ -65,13 +165,20 @@ const seo = {
 
 <Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline
-      subtitle="Explore our latest insights and updates."
-    >
-      The Blog
+    <Headline subtitle={blogPageCopy.subtitle}>
+      {blogPageCopy.title}
     </Headline>
-    <BlogList posts={page.data} lang={lang} />
-    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    <BlogSearch
+      lang={lang}
+      searchIndexUrl={blogSearchIndexUrl}
+      copy={blogPageCopy.search}
+    />
+    <div id="blog-default-list">
+      <BlogList posts={page.data} lang={lang} />
+    </div>
+    <div id="blog-pagination">
+      <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    </div>
     <!--
       <PostTags tags={allCategories} class="mb-2" title="Search by Categories:" isCategory />
       <PostTags tags={allTags}  title="Search by Tags:" />
