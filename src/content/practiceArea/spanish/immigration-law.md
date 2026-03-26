@@ -170,7 +170,7 @@ post:
     laborales, combinamos precisión y empatía para ayudarle a alcanzar sus
     metas.</p>
 seo:
-  title: Derecho Migratorio
+  title: "Derecho Migratorio | Servicios Legales de Capitol Law Partners"
   description: >-
     Litigios migratorios, defensa contra deportación, solicitudes de asilo y
     soluciones de inmigración familiar, empresarial y laboral para apoyar a

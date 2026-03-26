@@ -7,8 +7,9 @@ excerpt: >-
   H-1B, TN veya EB-2 kategorisi) gibi çok aşamalı bir lisans alma sürecinden
   geçmelidir. Capitol Law Partners, adaylara yeterlilik doğrulama, sınav
   planlama ve göçmenlik başvuruları boyunca destek sağlayarak, ABD mühendislik
-  lisansına uygun ve kolay bir yol sunar.  Translated with DeepL.com (free
-  version)
+  lisansına uygun ve kolay bir yol sunar. Rehber, lisans planlaması ile
+  göçmenlik stratejisinin birlikte değerlendirilmesinin neden önemli olduğunu
+  da açıklar.
 category: Göçmenlik ve Mesleki Lisanslama
 lang: tr
 image: /images/engineering.jpg
@@ -21,13 +22,14 @@ metadata:
     Mesleki Lisanslama. Capitol Law Partners.
   canonical: >-
     https://capitollawpartners.com/tr/bir-muhendis-abdde-nasil-lisans-alabilir-gerekli-vizeler
+  title: "Bir Mühendis ABD'de Nasıl Lisans Alabilir? | Gerekli Vizeler | Capitol Law Partners Blog"
 seo:
   description: >-
     Yabancı bir mühendis ABD'de nasıl lisans alabilir? | Adım adım. Göçmenlik ve
     Mesleki Lisanslama. Capitol Law Partners.
   canonicalOverride: >-
     https://capitollawpartners.com/tr/bir-muhendis-abdde-nasil-lisans-alabilir-gerekli-vizeler
-  title: 'Bir Mühendis ABD''de Nasıl Lisans Alabilir? | Gerekli Vizeler '
+  title: "Bir Mühendis ABD'de Nasıl Lisans Alabilir? | Gerekli Vizeler | Capitol Law Partners Blog"
 ---
 # Yabancı Bir Mühendis ABD'de Nasıl Lisans Alabilir? | Adım Adım 
 

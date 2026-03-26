@@ -69,8 +69,50 @@ post:
 
     <h3>Why Work With Us?</h3> <p>Focused, strategic representation that keeps
     you informed and ready at every stage of your EB-1A Green Card matter.</p>
+
+    <h3>Permanent Residence Strategy</h3>
+
+    <p>EB-1A Green Card matters often involve more than a single filing. We look at eligibility, priority dates, supporting evidence, and the long-term path to permanent residence so the record is prepared for both the immediate petition and the next stage of the process.</p>
+
+    <h3>Documentation and Timing</h3>
+
+    <ul>
+
+      <li>Proof of qualifications, work history, or achievements</li>
+
+      <li>Employer, business, or self-petition support materials</li>
+
+      <li>Forms, translations, and consistency across filings</li>
+
+      <li>Adjustment of status or consular processing materials</li>
+
+    </ul>
+
+    <h3>How We Support the Case</h3>
+
+    <p>Employment-based and family-based green card filings can raise questions about sponsorship, admissibility, dependents, and travel. We help clients think through the record carefully so the petition, immigrant visa process, or adjustment filing is not undermined by avoidable gaps.</p>
+
+    <p>People searching for a eb-1a green card attorney usually want a practical answer about how to present the strongest possible case. We focus on clear communication, organized evidence, and a filing strategy that reflects the client’s long-term immigration goal.</p>
+
+    <h3>Next Steps</h3>
+
+    <p>We start by confirming the goal, organizing the facts, and identifying the documents that support the request. For someone searching for eb-1a green card legal help, the practical question is usually how to move forward without creating avoidable delays or gaps in the record. That means looking at timing, eligibility, missing evidence, and the long-term result the client wants to reach.</p>
+
+    <p>Good legal work is not just about filling out forms. It is also about spotting risk early, comparing the available options, and preparing the file so the next decision is easier. We focus on clear communication, realistic expectations, and a process that keeps the matter organized from the first consultation through filing, negotiation, or response.</p>
+
+    <ul>
+
+      <li>Confirm the legal issue and the outcome the client wants</li>
+
+      <li>Gather and organize the supporting documents and evidence</li>
+
+      <li>Check timing, deadlines, and follow-up steps</li>
+
+      <li>Address likely questions before they become problems</li>
+
+    </ul>
 seo:
-  title: EB-1A Green Card
+  title: "EB-1A Green Card Services | Capitol Law Partners"
   description: >-
     Extraordinary ability green card petitions highlighting sustained acclaim
     and national or international recognition.

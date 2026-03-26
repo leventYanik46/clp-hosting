@@ -7,7 +7,9 @@ excerpt: >-
   jobs. In contrast, the E-2 visa is a faster, lower-cost option for nationals
   of treaty countries who want to start and run a business in the U.S., though
   it doesn’t lead directly to permanent residency. Choosing between them depends
-  on your goals, investment capacity, and nationality...
+  on your goals, investment capacity, and nationality. This comparison also
+  addresses business planning, source-of-funds review, and long-term residency
+  strategy.
 category: Investment Visa
 image: /images/pexels-ekaterinabelinskaya-4922356.jpg
 imageWidth: 1060
@@ -18,12 +20,13 @@ metadata:
   description: >-
     What is the EB-5 Visa? What is the E-2 Visa? Investment Visa (EB-5 / E-2):
     Pathways to U.S. Residency Through Investment..
+  title: "Investment Visa | Capitol Law Partners Blog"
 seo:
   description: >-
     What is the EB-5 Visa? What is the E-2 Visa? Investment Visa (EB-5 / E-2):
     Pathways to U.S. Residency Through Investment..
   canonicalOverride: https://capitollawpartners.com/investment-visa
-  title: Investment Visa
+  title: "Investment Visa | Capitol Law Partners Blog"
 ---
 
 

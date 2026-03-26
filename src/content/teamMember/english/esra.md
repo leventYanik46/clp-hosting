@@ -123,7 +123,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Esra Nur Bulan
+  title: "Esra Nur Bulan - Immigration, Humanitarian Relief & Family Petition Attorney | Capitol Law Partners"
   description: >-
     Explore Esra Nur Bulan’s dedication to immigration law, humanitarian relief,
     and family-based petitions. Bilingual advocate fluent in Turkish and

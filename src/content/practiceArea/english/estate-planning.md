@@ -125,8 +125,30 @@ post:
     what matters most to you. Whether you need to create a will, establish a
     trust, or navigate probate, we handle it with care and efficiency, so you
     can focus on your family and peace of mind.</p>
+
+    <h3>Estate Planning Basics</h3>
+
+    <p>Trusts & Estates matters often involve deciding how assets should be managed during life and transferred after death. We help clients think through wills, trusts, incapacity planning, and probate concerns so the plan reflects the family’s goals and reduces uncertainty later.</p>
+
+    <h3>Common Planning Topics</h3>
+
+    <ul>
+
+      <li>Asset transfers, beneficiaries, and title review</li>
+
+      <li>Powers of attorney and health care directives</li>
+
+      <li>Trusts, probate, and administration issues</li>
+
+      <li>Guardianship or conservatorship planning where needed</li>
+
+    </ul>
+
+    <h3>Why the Details Matter</h3>
+
+    <p>A careful estate plan can reduce confusion, support family decision-making, and make later administration easier. We focus on practical drafting and regular review so the documents stay aligned with the client’s wishes and circumstances.</p>
 seo:
-  title: Trusts & Estates
+  title: "Trusts & Estates Services | Capitol Law Partners"
   description: >-
     Comprehensive estate planning, asset protection, wills, trusts, probate
     administration, guardianship, and conservatorship services to secure your

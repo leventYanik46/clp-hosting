@@ -17,13 +17,14 @@ metadata:
   description: >-
     Green Card Nedir, Göçmen Vizeleri Nelerdir?  Amerika'da Kalıcı Oturum Nasıl
     Alınır? Adım Adım Vize Türleri. Hangi Vize Türü Size Uygun?
+  title: "Permanent Resident (Green) Card ve Göçmen Vizeleri | Capitol Law Partners Blog"
 seo:
   description: >-
     Green Card Nedir, Göçmen Vizeleri Nelerdir?  Amerika'da Kalıcı Oturum Nasıl
     Alınır? Adım Adım Vize Türleri. Hangi Vize Türü Size Uygun?
   canonicalOverride: >-
     https://capitollawpartners.com/tr/permanent-resident-green-card-ve-gocmen-vizeleri
-  title: Permanent Resident (Green) Card ve Göçmen Vizeleri
+  title: "Permanent Resident (Green) Card ve Göçmen Vizeleri | Capitol Law Partners Blog"
 ---
 ## Permanent Resident (Green) Card ve Göçmen Vizeleri
 

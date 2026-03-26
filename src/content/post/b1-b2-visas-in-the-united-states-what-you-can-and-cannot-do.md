@@ -16,13 +16,14 @@ metadata:
   description: >-
     B1/B2 visas in the U.S.: Discover what you can and cannot do, and get expert
     guidance from Capitol Law Partners. What is B1/ B2 Visa?..
+  title: "B1/B2 Visas in the United States: What You Can and Cannot Do | Capitol Law Partners Blog"
 seo:
   description: >-
     B1/B2 visas in the U.S.: Discover what you can and cannot do, and get expert
     guidance from Capitol Law Partners. What is B1/ B2 Visa?..
   canonicalOverride: >-
     https://capitollawpartners.com/b1-b2-visas-in-the-united-states-what-you-can-and-cannot-do
-  title: "B1/B2 Visas in the United States: What You Can and Cannot Do\_"
+  title: "B1/B2 Visas in the United States: What You Can and Cannot Do | Capitol Law Partners Blog"
 ---
 ### **B1/B2 Visas in the United States: What You Can and Cannot Do** 
 

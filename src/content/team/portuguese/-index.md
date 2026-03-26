@@ -147,14 +147,20 @@ sections:
             target: _blank
   - wrapper: w-full grid grid-cols-1 md:grid-cols-2 gap-4
     members:
+      - title: Said Murat
+        subtitle: Chefe de marketing digital e branding
+        tagline: Diretor de Marketing
+      - title: Levent Yanik
+        subtitle: Desenvolvimento Web, Otimização de Busca e Engenharia de Sistemas
+        tagline: Líder Técnico
       - title: null
         subtitle: Dr. Burak C.
-        tagline: Gerente de Casos
-      - title: null
-        subtitle: Mikayil G.
-        tagline: Gerente de Casos
+        tagline: Gerente Sênior de Casos
       - title: null
         subtitle: Dr. Ahmet B.
+        tagline: Gerente Sênior de Casos
+      - title: null
+        subtitle: Mikayil G.
         tagline: Gerente de Casos
       - title: null
         subtitle: Yasin D.
@@ -163,11 +169,11 @@ sections:
         subtitle: Rana B.
         tagline: Gerente de Casos
       - title: null
-        subtitle: Ebrar T.
+        subtitle: Nurefsan L.
         tagline: Gerente de Casos
       - title: null
-        subtitle: Said M.
-        tagline: Diretor de Marketing
+        subtitle: Erdem S.
+        tagline: Gerente de Casos
   - wrapper: w-full
     members:
       - title: null
@@ -179,6 +185,6 @@ sections:
             href: https://wa.me/12024402272
             target: _blank
 seo:
-  title: Conheça Nossa Equipe
+  title: "Conheca a equipe da Capitol Law Partners"
   description: Conheça nossa equipe e agende uma consulta com nossos especialistas.
 ---

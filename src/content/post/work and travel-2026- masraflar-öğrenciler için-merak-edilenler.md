@@ -16,11 +16,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/tr/work-and-travel-2026-masraflar-ogrenciler-icin-merak-edilenler
   description: "Work\_and\_Travel 2026:\_Masraflar,Öğrenciler\_İçin Merak Edilenler. WAT Nedir? Ücretler, Kayıt Vakitleri, Dil Yeterliliği.."
+  title: "Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler | Capitol Law Partners Blog"
 seo:
   description: "Work\_and\_Travel 2026:\_Masraflar,Öğrenciler\_İçin Merak Edilenler. WAT Nedir? Ücretler, Kayıt Vakitleri, Dil Yeterliliği.."
   canonicalOverride: >-
     https://capitollawpartners.com/tr/work-and-travel-2026-masraflar-ogrenciler-icin-merak-edilenler
-  title: "Work\_and\_Travel 2026:\_Masraflar, Öğrenciler\_İçin Merak Edilenler\_"
+  title: "Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler | Capitol Law Partners Blog"
 ---
 ## **Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler** 
 

@@ -15,11 +15,12 @@ metadata:
   description: "Understanding Family-Based Immigration.\_Capitol Law Partners’ family-based immigration attorneys help reunite families in the U.S. with expert legal guidance.."
   canonical: >-
     https://capitollawpartners.com/understanding-family-based-immigration-attorney
+  title: "Understanding Family-Based Immigration | Attorney | Capitol Law Partners Blog"
 seo:
   description: "Understanding Family-Based Immigration.\_Capitol Law Partners’ family-based immigration attorneys help reunite families in the U.S. with expert legal guidance.."
   canonicalOverride: >-
     https://capitollawpartners.com/understanding-family-based-immigration-attorney
-  title: "Understanding Family-Based Immigration |\_Attorney "
+  title: "Understanding Family-Based Immigration | Attorney | Capitol Law Partners Blog"
 ---
 ## **Understanding Family-Based Immigration** 
 

@@ -7,7 +7,8 @@ excerpt: >-
   allowed under the Immigration and Nationality Act (INA) and would severely
   restrict U.S. companies’ access to skilled foreign talent — especially in tech
   and engineering. The case, Chamber of Commerce v. DHS (No. 25-cv-3675), is
-  currently before the U.S. District Court for the District of Columbia.
+  currently before the U.S. District Court for the District of Columbia, making
+  it a major development for employers tracking H-1B compliance and cost risk.
 category: USA News
 image: /images/news.jpg
 imageWidth: 6912
@@ -20,6 +21,7 @@ metadata:
     The U.S. Chamber of Commerce has filed a lawsuit against the Trump
     administration, claiming the new $100,000 H-1B visa application fee violates
     federal immigration laws. 
+  title: "Chamber of Commerce Sues Over Trump’s New $100,000 H-1B Visa Fee | Capitol Law Partners Blog"
 seo:
   description: >-
     The U.S. Chamber of Commerce has filed a lawsuit against the Trump
@@ -27,7 +29,7 @@ seo:
     federal immigration laws. 
   canonicalOverride: >-
     https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2
-  title: Chamber of Commerce Sues Over Trump’s New $100,000 H-1B Visa Fee
+  title: "Chamber of Commerce Sues Over Trump’s New $100,000 H-1B Visa Fee | Capitol Law Partners Blog"
 ---
 In **September 2025**, former President **Donald Trump** announced a new executive order requiring U.S. companies sponsoring foreign workers through the **H-1B visa program** to pay a **$100,000 application fee** for each petition. 
 

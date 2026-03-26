@@ -111,8 +111,31 @@ post:
 
     <p>Laissez-nous nous battre pour la compensation et la tranquillité d’esprit
     que vous méritez.</p>
+
+    <!-- seo-expanded -->
+    <h3>Quand consulter un avocat en Préjudice Corporel</h3>
+
+    <p>Les clients recherchent souvent un avocat en Préjudice Corporel ou en préjudice corporel après un accident ou un acte de négligence qui entraîne des soins médicaux, une perte de revenus, des échanges difficiles avec les assureurs et des questions sur les responsabilités. Les dossiers de blessures graves, de produits défectueux, d’accidents de la route, de faute médicale ou de décès injustifié dépendent fortement des faits et des preuves. Une intervention rapide aide à préserver les éléments essentiels et à évaluer l’ampleur réelle du préjudice.</p>
+
+    <h3>Ce qu’une représentation efficace peut inclure</h3>
+
+    <ul>
+      <li>Enquête sur les circonstances, collecte des dossiers, photographies, témoignages et analyses d’experts</li>
+      <li>Évaluation des assurances, des responsabilités de tiers, des frais médicaux, de la perte de revenus et des dommages futurs</li>
+      <li>Préparation d’une stratégie de réclamation et réponse aux arguments sur la faute, la causalité ou la valeur du dossier</li>
+      <li>Constitution d’un dossier prêt pour la négociation, le contentieux et le procès si nécessaire</li>
+    </ul>
+
+    <h3>Points qui influencent souvent ces dossiers</h3>
+
+    <p>Les personnes qui recherchent des services juridiques en Préjudice Corporel ont souvent besoin d’aide face aux contestations de responsabilité, aux arguments de faute partagée, aux lacunes dans les preuves médicales et à la pression pour accepter un règlement trop tôt. Dans les dossiers de responsabilité du fait des produits ou de négligence médicale, une analyse technique et des experts peuvent être essentiels. Une préparation sérieuse renforce la valeur du dossier.</p>
+
+    <h3>Pourquoi une préparation détaillée compte</h3>
+
+    <p>Une préparation détaillée permet de montrer ce qui s’est passé, comment la blessure a affecté la vie du client et quelle indemnisation peut être justifiée. Les clients qui comparent des avocats en Préjudice Corporel recherchent généralement une communication claire, une stratégie réaliste et une gestion rigoureuse du dossier.</p>
+
 seo:
-  title: Préjudice Corporel
+  title: "Préjudice Corporel | Services Juridiques de Capitol Law Partners"
   description: >-
     Notre équipe de Préjudice Corporel protège les clients victimes de
     négligence, les aidant à obtenir justice, indemnisation et sérénité dans les

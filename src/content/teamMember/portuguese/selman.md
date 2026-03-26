@@ -117,7 +117,7 @@ blog:
     corporativo e privacidade de dados.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: S. Selman Kilic
+  title: "S. Selman Kilic - Advogado de contencioso cível, imobiliário e governança corporativa | Capitol Law Partners"
   description: >-
     Descubra a expertise de S. Selman Kilic em litígios cíveis, transações
     imobiliárias, governança corporativa e desafios de plataformas digitais.

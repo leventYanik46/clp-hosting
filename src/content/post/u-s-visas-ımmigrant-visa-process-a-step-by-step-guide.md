@@ -22,11 +22,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/u-s-visas-immigrant-visa-process-a-step-by-step-guide
   description: ' U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide.How can I obtain a US visa: what steps should I follow? Documents required to obtain a visa'
+  title: "Immigrant Visa Process - A Step by Step | Capitol Law Partners Blog"
 seo:
   description: ' U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide.How can I obtain a US visa: what steps should I follow? Documents required to obtain a visa'
   canonicalOverride: >-
     https://capitollawpartners.com/u-s-visas-immigrant-visa-process-a-step-by-step-guide
-  title: "Immigrant Visa Process - A Step by Step\_"
+  title: "Immigrant Visa Process - A Step by Step | Capitol Law Partners Blog"
 ---
  **U.S. Visas – Immigrant Visa Process: A Step-by-Step Guide** 
 

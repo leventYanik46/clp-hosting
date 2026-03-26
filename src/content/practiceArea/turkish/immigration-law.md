@@ -186,7 +186,7 @@ post:
     başvurularda rehberlik olsun, hassasiyet ve kesinlikle hedeflerinize
     ulaşmanıza yardımcı oluyoruz.</p>
 seo:
-  title: Göçmenlik Hukuku
+  title: "Göçmenlik Hukuku | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Göçmenlik davaları, sınır dışı savunması, iltica başvuruları, aile ve iş
     temelli göçmenlik çözümleriyle bireyleri ve işverenleri destekliyoruz.

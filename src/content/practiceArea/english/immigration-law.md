@@ -165,7 +165,7 @@ post:
     petitions, we combine precision and compassion to help you reach your
     goals.</p>
 seo:
-  title: Immigration Law
+  title: "Immigration Law Services | Capitol Law Partners"
   description: >-
     Immigration litigation, removal defense, asylum applications, family- and
     business-based immigration solutions to support individuals and employers.

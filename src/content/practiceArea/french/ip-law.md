@@ -130,7 +130,7 @@ post:
     marques, de droits d’auteur ou de défense contre une infraction, nous sommes
     à vos côtés pour protéger votre créativité et votre avantage commercial.</p>
 seo:
-  title: Propriété intellectuelle
+  title: "Propriété intellectuelle | Services Juridiques de Capitol Law Partners"
   description: >-
     Services de dépôt de marques et droits d’auteur, protection des secrets
     commerciaux, gestion de portefeuille de PI et contentieux pour protéger

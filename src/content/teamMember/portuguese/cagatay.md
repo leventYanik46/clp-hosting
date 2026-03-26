@@ -142,7 +142,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: Cagatay Ersoy
+  title: "Cagatay Ersoy - Advogado de direito societário, imigração e marcas | Capitol Law Partners"
   description: >-
     Cagatay Ersoy, sócio da Capitol Law Partners e formado pela Columbia Law
     School, oferece estratégias jurídicas orientadas a resultados respaldadas

@@ -1,6 +1,6 @@
 ---
 title: 'Amerika Birleşik Devletleri''nde Yeşil Kart Almanın Yolları '
-excerpt: ' Yeşil Kart almak için birçok yol vardır: aile sponsorluğu (ebeveynler, kardeşler, nişanlı/eş), istihdam temelli vizeler (EB kategorileri), Çeşitlilik Vizesi Çekilişi ve diğer özel programlar. Capitol Law Partners, müşterilerin en uygun yolu seçmelerine yardımcı olur ve kalıcı oturma izni almaları için hukuki destek sağlar. '
+excerpt: ' Yeşil Kart almak için birçok yol vardır: aile sponsorluğu (ebeveynler, kardeşler, nişanlı/eş), istihdam temelli vizeler (EB kategorileri), Çeşitlilik Vizesi Çekilişi ve diğer özel programlar. Capitol Law Partners, müşterilerin en uygun yolu seçmelerine yardımcı olur ve kalıcı oturma izni almaları için hukuki destek sağlar. Rehber, her seçeneğin temel uygunluk şartlarını ve başvuru planlamasında nelere dikkat edilmesi gerektiğini de özetler. '
 category: Green Card Başvurusu
 lang: tr
 image: /images/blogpost4.jpg
@@ -13,13 +13,14 @@ metadata:
     nasıl alabilirim? ABD Yeşil Kart'ı almanın başlıca yollarını keşfedin...
   canonical: >-
     https://capitollawpartners.com/tr/amerika-birlesik-devletlerinde-yesil-kart-almanin-yollari
+  title: "Amerika Birleşik Devletleri'nde Yeşil Kart Almanın Yolları | Capitol Law Partners Blog"
 seo:
   description: >-
     Amerika Birleşik Devletleri'nde Yeşil Kart Almanın Yolları. Yeşil Kart'ı
     nasıl alabilirim? ABD Yeşil Kart'ı almanın başlıca yollarını keşfedin...
   canonicalOverride: >-
     https://capitollawpartners.com/tr/amerika-birlesik-devletlerinde-yesil-kart-almanin-yollari
-  title: 'Amerika Birleşik Devletleri''nde Yeşil Kart Almanın Yolları '
+  title: "Amerika Birleşik Devletleri'nde Yeşil Kart Almanın Yolları | Capitol Law Partners Blog"
 ---
 ### Amerika Birleşik Devletleri'nde Yeşil Kart Almanın Yolları 
 

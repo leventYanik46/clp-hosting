@@ -12,7 +12,8 @@ excerpt: >-
   article highlights the connection between legal compliance and sustainable
   business growth. It concludes with an introduction to Capitol Law Partners and
   the professional legal services they offer to support businesses throughout
-  every stage of their journey. 
+  every stage of their journey, from formation and contracts to governance and
+  dispute prevention.
 category: Business Law
 image: /images/company.jpg
 imageWidth: 5184
@@ -25,6 +26,7 @@ metadata:
     Understanding Corporate Law A Detailed Guide to Legal Aspects of Business.
     Learn more about business. Corporate law is the backbone of the business
     world.. 
+  title: "Understanding Corporate Law: A Detailed Guide - Legal Aspects of Business | Capitol Law Partners Blog"
 seo:
   description: >-
     Understanding Corporate Law A Detailed Guide to Legal Aspects of Business.
@@ -32,7 +34,7 @@ seo:
     world.. 
   canonicalOverride: >-
     https://capitollawpartners.com/understanding-corporate-law-a-detailed-guide-legal-aspects-of-business
-  title: "Understanding Corporate Law: A Detailed Guide - Legal Aspects of Business\_"
+  title: "Understanding Corporate Law: A Detailed Guide - Legal Aspects of Business | Capitol Law Partners Blog"
 ---
 ### **Understanding Corporate Law: A Detailed Guide to the Legal Aspects of Business** 
 

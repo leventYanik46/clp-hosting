@@ -83,8 +83,31 @@ post:
 
 
     <p>Deixe-nos lutar pela compensação e tranquilidade que você merece.</p>
+
+    <!-- seo-expanded -->
+    <h3>Quando falar com um advogado de Direito de Lesões Pessoais</h3>
+
+    <p>Muitas pessoas procuram um advogado de Direito de Lesões Pessoais ou de danos pessoais depois de um acidente ou de um ato negligente que gera tratamento médico, perda de renda, pressão de seguradoras e dúvidas sobre responsabilidade. Casos envolvendo lesões graves, produtos defeituosos, acidentes de trânsito, erro médico ou morte por negligência costumam depender fortemente de provas e documentação. Uma análise jurídica no início ajuda a preservar evidências e medir o impacto real do dano.</p>
+
+    <h3>O que uma representação eficaz costuma abranger</h3>
+
+    <ul>
+      <li>Investigação do ocorrido, coleta de prontuários, fotos, testemunhas e análises técnicas quando necessário</li>
+      <li>Avaliação de coberturas de seguro, responsabilidade de terceiros, despesas médicas, perda de renda e danos futuros</li>
+      <li>Preparação de estratégia de demanda e resposta a argumentos sobre culpa, causalidade ou valor do caso</li>
+      <li>Construção de um caso pronto para negociação, litígio e julgamento se um acordo justo não surgir</li>
+    </ul>
+
+    <h3>Fatores que costumam influenciar essas ações</h3>
+
+    <p>Clientes que buscam serviços jurídicos de Direito de Lesões Pessoais frequentemente precisam de ajuda com disputas sobre responsabilidade, alegações de culpa compartilhada, atrasos em tratamento, falhas na documentação e pressão para aceitar acordo antes de conhecer a extensão total dos prejuízos. Em casos de responsabilidade por produto ou negligência médica, análise técnica e peritos podem ser decisivos.</p>
+
+    <h3>Por que uma preparação detalhada fortalece o caso</h3>
+
+    <p>Uma preparação detalhada ajuda a mostrar o que aconteceu, como a lesão afetou a vida da pessoa e qual compensação pode ser adequada. Quem compara advogados de Direito de Lesões Pessoais normalmente procura comunicação direta, orientação prática e uma estratégia disciplinada para buscar responsabilização.</p>
+
 seo:
-  title: Direito de Lesões Pessoais
+  title: "Direito de Lesões Pessoais | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Nossa equipe de Lesões Pessoais protege clientes prejudicados por
     negligência, ajudando-os a buscar justiça, compensação e tranquilidade em

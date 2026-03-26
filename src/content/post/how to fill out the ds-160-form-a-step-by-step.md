@@ -1,6 +1,6 @@
 ---
 title: "How\_to\_Fill\_Out\_the\_DS-160 Form - A Step by Step "
-excerpt: "The\_DS-160 Form,\_which\_is\_mandatory\_for\_US\_visa\_applications, is a\_detailed\_electronic\_visa\_form\_that\_is\_filled\_out\_online.\_It\_is\_very\_important\_that\_the\_form is\_completed\_accurately\_and\_in\_full\_for\_the\_application\_to\_proceed\_smoothly. Here\_are\_the\_key\_points\_you\_need\_to\_know\_when\_filling\_out\_the\_form.."
+excerpt: "The\_DS-160 Form,\_which\_is\_mandatory\_for\_US\_visa\_applications, is a\_detailed\_electronic\_visa\_form\_that\_is\_filled\_out\_online.\_It\_is\_very\_important\_that\_the\_form is\_completed\_accurately\_and\_in\_full\_for\_the\_application\_to\_proceed\_smoothly. Here\_are\_the\_key\_points\_you\_need\_to\_know\_when\_filling\_out\_the\_form,\_including\_passport\_details,\_travel\_history,\_security\_questions,\_and\_common\_mistakes\_that\_can\_cause\_visa\_delays."
 category: Form Guide
 image: /images/ds-160-form-full-out.jpg
 imageWidth: 6000
@@ -10,11 +10,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-a-step-by-step
   description: "How\_to\_Fill\_Out\_the\_DS-160 Form: A Step-by-Step Guide. DS-160 sample, DS-160 errors, U.S. visa application, DS-160 English characters, passport information.."
+  title: "How to Fill Out the DS-160 Form - A Step by Step | Capitol Law Partners Blog"
 seo:
   description: "How\_to\_Fill\_Out\_the\_DS-160 Form: A Step-by-Step Guide. DS-160 sample, DS-160 errors, U.S. visa application, DS-160 English characters, passport information.."
   canonicalOverride: >-
     https://capitollawpartners.com/how-to-fill-out-the-ds-160-form-a-step-by-step
-  title: "How\_to\_Fill\_Out\_the\_DS-160 Form - A Step by Step "
+  title: "How to Fill Out the DS-160 Form - A Step by Step | Capitol Law Partners Blog"
 ---
 ### How to Fill Out the DS-160 Form: A Step-by-Step Guide 
 

@@ -11,8 +11,9 @@ publishDate: 2026-05-15T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/tr/events/abd-250-yil-kutlamasi-etkinligi
   description: Capitol Law Partners'in ABD'nin 250. yil donumu icin duzenledigi konuk konusmacili, topluluk odakli ve networking etkinligine katilin.
+  title: "ABD 250. Yil Donumu Kutlama Etkinligi | Capitol Law Partners Etkinligi"
 seo:
-  title: ABD 250. Yil Donumu Kutlama Etkinligi
+  title: "ABD 250. Yil Donumu Kutlama Etkinligi | Capitol Law Partners Etkinligi"
   description: Capitol Law Partners'in ABD'nin 250. yil donumu icin duzenledigi konuk konusmacili, topluluk odakli ve networking etkinligine katilin.
   canonicalOverride: https://capitollawpartners.com/tr/events/abd-250-yil-kutlamasi-etkinligi
 ---

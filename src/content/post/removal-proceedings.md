@@ -1,6 +1,9 @@
 ---
 title: Removal Proceedings
-excerpt: Removal Proceedings
+excerpt: >-
+  Learn what removal proceedings are, how immigration court hearings work, what
+  defenses may be available, and why early legal preparation can affect bond,
+  deportation risk, case strategy, and long-term immigration options.
 category: Removal Proceedings
 tags:
   - law
@@ -14,12 +17,13 @@ metadata:
   description: >-
     Removal proceedings, or deportation proceedings, are the process of legally
     evaluating a person's right to remain in the United States...
+  title: "Removal Proceedings | Capitol Law Partners Blog"
 seo:
   description: >-
     Removal proceedings, or deportation proceedings, are the process of legally
     evaluating a person's right to remain in the United States...
   canonicalOverride: https://capitollawpartners.com/removal-proceedings
-  title: Removal Proceedings
+  title: "Removal Proceedings | Capitol Law Partners Blog"
 ---
 ### What are Removal Proceedings?
 

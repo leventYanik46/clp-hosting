@@ -102,8 +102,30 @@ post:
     truly understand your goals, whether you are buying, selling, leasing, or
     developing property. We are thorough, responsive, and committed to helping
     you close deals smoothly while minimizing risks along the way.</p>
+
+    <h3>Transaction Planning</h3>
+
+    <p>Real Estate Law matters often involve purchases, leases, closings, and development decisions that need careful legal review. We help clients understand the documents, the deadlines, and the risk points so the transaction can move forward with fewer surprises.</p>
+
+    <h3>Key Issues We Review</h3>
+
+    <ul>
+
+      <li>Due diligence, title, and disclosure questions</li>
+
+      <li>Financing, closing, and contingency terms</li>
+
+      <li>Commercial and residential lease provisions</li>
+
+      <li>Development, zoning, and permit concerns</li>
+
+    </ul>
+
+    <h3>Why Legal Review Helps</h3>
+
+    <p>Real estate deals are often won or lost in the details. We focus on clear drafting, practical negotiation, and issue spotting that helps protect the client’s property interests and the larger business plan behind the deal.</p>
 seo:
-  title: Real Estate Law
+  title: "Real Estate Law Services | Capitol Law Partners"
   description: >-
     Guidance in commercial and residential real estate transactions, property
     acquisitions, leasing, development, and contract negotiation for seamless

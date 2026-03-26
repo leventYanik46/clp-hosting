@@ -15,12 +15,13 @@ metadata:
   description: >-
     How to Get a Green Card for Your Parents? Can I apply for a Green Card for
     my parents? What are the application requirements? 
+  title: "How to Get a Green Card for Your Parents | Capitol Law Partners Blog"
 seo:
   description: >-
     How to Get a Green Card for Your Parents? Can I apply for a Green Card for
     my parents? What are the application requirements? 
   canonicalOverride: https://capitollawpartners.com/how-to-get-a-green-card-for-your-parents
-  title: How to Get a Green Card for Your Parents
+  title: "How to Get a Green Card for Your Parents | Capitol Law Partners Blog"
 ---
 # How to Get a Green Card for Your Parents
 

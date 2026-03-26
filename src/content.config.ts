@@ -402,6 +402,7 @@ const locationsCollection = defineCollection({
 const scheduleCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/schedule' }),
   schema: z.object({
+    heading: z.string().optional(),
     metadata: metadataDefinition(),
     seo: seoDefinition(),
     attorneys: z.array(
@@ -424,6 +425,7 @@ const evaluationsCollection = defineCollection({
 const teamCollection = defineCollection({
   loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/team' }),
   schema: z.object({
+    heading: z.string().optional(),
     metadata: metadataDefinition(),
     seo: seoDefinition(),
     sections: z.array(teamSectionSchema),

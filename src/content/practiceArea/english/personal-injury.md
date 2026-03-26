@@ -84,8 +84,48 @@ post:
 
 
     <p>Let us fight for the compensation and peace of mind you deserve.</p>
+
+    <h3>Personal Injury Claims</h3>
+
+    <p>Personal Injury matters often involve proving negligence, documenting damages, and dealing with insurance carriers. We review the facts early so the claim can be built around the strongest evidence and the client can understand the available options.</p>
+
+    <h3>Common Claim Issues</h3>
+
+    <ul>
+
+      <li>Liability, causation, and damages questions</li>
+
+      <li>Medical treatment, records, and expense tracking</li>
+
+      <li>Insurance coverage and settlement discussions</li>
+
+      <li>Deadline and litigation planning</li>
+
+    </ul>
+
+    <h3>Why Legal Guidance Helps</h3>
+
+    <p>Injury matters can be stressful and time-sensitive. We focus on organized evidence, responsive communication, and practical legal strategy so the client can concentrate on recovery while the claim is being handled.</p>
+
+    <h3>Next Steps</h3>
+
+    <p>We start by confirming the goal, organizing the facts, and identifying the documents that support the request. For someone searching for personal injury legal help, the practical question is usually how to move forward without creating avoidable delays or gaps in the record. That means looking at timing, eligibility, missing evidence, and the long-term result the client wants to reach.</p>
+
+    <p>Good legal work is not just about filling out forms. It is also about spotting risk early, comparing the available options, and preparing the file so the next decision is easier. We focus on clear communication, realistic expectations, and a process that keeps the matter organized from the first consultation through filing, negotiation, or response.</p>
+
+    <ul>
+
+      <li>Confirm the legal issue and the outcome the client wants</li>
+
+      <li>Gather and organize the supporting documents and evidence</li>
+
+      <li>Check timing, deadlines, and follow-up steps</li>
+
+      <li>Address likely questions before they become problems</li>
+
+    </ul>
 seo:
-  title: Personal Injury
+  title: "Personal Injury Services | Capitol Law Partners"
   description: >-
     Our Personal Injury team protects clients who have been harmed by
     negligence, helping them pursue justice, compensation, and peace of mind

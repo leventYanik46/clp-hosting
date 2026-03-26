@@ -6,7 +6,9 @@ excerpt: >-
   common types of legal disputes companies face—such as breach of contract,
   partnership disagreements, and employment-related claims. It also outlines key
   strategies to minimize litigation risk and explains when to consult a
-  commercial litigation attorney. ..
+  commercial litigation attorney. It further highlights early case assessment,
+  evidence preservation, and negotiation strategies that can influence business
+  dispute outcomes.
 category: ⁠  ⁠Business Litigation
 image: >-
   /images/canva-partner-lawyers-or-attorneys-discussing-a-contract-agreement.-maev6ejcubo.jpg
@@ -19,13 +21,14 @@ metadata:
     What Is Business Litigation? When Does Business Litigation Arise? How Does
     the Business Litigation Process Work? Legal advice and everything related to
     your case..
+  title: "Businnes Litigation | Capitol Law Partners Blog"
 seo:
   description: >-
     What Is Business Litigation? When Does Business Litigation Arise? How Does
     the Business Litigation Process Work? Legal advice and everything related to
     your case..
   canonicalOverride: https://capitollawpartners.com/businnes-litigation
-  title: Businnes Litigation
+  title: "Businnes Litigation | Capitol Law Partners Blog"
 ---
 ## What is Business Litigation?
 

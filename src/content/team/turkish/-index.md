@@ -145,14 +145,20 @@ sections:
             target: _blank
   - wrapper: w-full grid grid-cols-1 md:grid-cols-2 gap-4
     members:
+      - title: Said Murat
+        subtitle: Dijital Pazarlama ve Marka Lideri
+        tagline: Pazarlama Direktörü
+      - title: Levent Yanik
+        subtitle: Web Geliştirme, Arama Optimizasyonu ve Sistem Mühendisliği
+        tagline: Teknik Lider
       - title: null
         subtitle: Dr. Burak C.
-        tagline: Dosya Yöneticisi
-      - title: null
-        subtitle: Mikayil G.
-        tagline: Dosya Yöneticisi
+        tagline: Kıdemli Dosya Yöneticisi
       - title: null
         subtitle: Dr. Ahmet B.
+        tagline: Kıdemli Dosya Yöneticisi
+      - title: null
+        subtitle: Mikayil G.
         tagline: Dosya Yöneticisi
       - title: null
         subtitle: Yasin D.
@@ -161,11 +167,11 @@ sections:
         subtitle: Rana B.
         tagline: Dosya Yöneticisi
       - title: null
-        subtitle: Ebrar T.
+        subtitle: Nurefsan L.
         tagline: Dosya Yöneticisi
       - title: null
-        subtitle: Said M.
-        tagline: Pazarlama Direktörü
+        subtitle: Erdem S.
+        tagline: Dosya Yöneticisi
   - wrapper: w-full
     members:
       - title: null
@@ -177,6 +183,6 @@ sections:
             href: https://wa.me/12024402272
             target: _blank
 seo:
-  title: Ekibimizle Tanışın
+  title: "Capitol Law Partners ekibiyle tanisin"
   description: Ekibimizle tanışın ve uzmanlarımızdan randevu alın.
 ---

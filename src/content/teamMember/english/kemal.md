@@ -124,7 +124,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Kemal Sahin
+  title: "Kemal Sahin - Estate Planning, Small Business & Immigration Attorney | Capitol Law Partners"
   description: >-
     Discover Kemal Sahin's extensive legal expertise in international law,
     constitutional rights, and human rights advocacy. Multilingual legal advisor

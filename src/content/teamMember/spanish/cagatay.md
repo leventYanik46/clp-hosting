@@ -141,7 +141,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: Cagatay Ersoy
+  title: "Cagatay Ersoy - Abogado de derecho corporativo, inmigración y marcas | Capitol Law Partners"
   description: >-
     Cagatay Ersoy, socio de Capitol Law Partners y graduado de Columbia Law,
     ofrece estrategias legales enfocadas en resultados respaldadas por

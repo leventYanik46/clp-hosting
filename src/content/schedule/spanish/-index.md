@@ -28,6 +28,6 @@ attorneys:
       src: ~/assets/images/sena-bio-new-team.jpeg
       alt: Agendar una cita
 seo:
-  title: Agendar una cita
+  title: "Agende una consulta con Capitol Law Partners"
   description: Agende una cita con un abogado de Capitol Law Partners.
 ---

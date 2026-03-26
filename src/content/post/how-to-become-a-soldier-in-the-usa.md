@@ -6,7 +6,8 @@ excerpt: >-
   procedures, and the role of legal considerations for immigrants and
   non-citizens. Written for informational purposes by Capitol Law Partners, this
   guide helps readers understand the process of becoming a soldier in the United
-  States. 
+  States. It also clarifies screening issues, citizenship questions, and how
+  military service may intersect with longer-term immigration planning.
 category: Citizenship & Military Service
 image: /images/htbs.jpg
 imageWidth: 6000
@@ -18,13 +19,14 @@ metadata:
     Learn how to become a soldier in the USA. Capitol Law Partners explains
     enlistment requirements, legal considerations, and pathways for citizens and
     non-citizens. 
+  title: "How to Become a Soldier in the USA | Capitol Law Partners Blog"
 seo:
   description: >-
     Learn how to become a soldier in the USA. Capitol Law Partners explains
     enlistment requirements, legal considerations, and pathways for citizens and
     non-citizens. 
   canonicalOverride: https://capitollawpartners.com/how-to-become-a-soldier-in-the-usa
-  title: 'How to Become a Soldier in the USA '
+  title: "How to Become a Soldier in the USA | Capitol Law Partners Blog"
 ---
 ## **How to Become a Soldier in the USA**
 

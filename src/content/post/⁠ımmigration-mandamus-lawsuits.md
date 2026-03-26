@@ -1,6 +1,9 @@
 ---
 title: ⁠Immigration Mandamus Lawsuits
-excerpt: Learn about the process of immigration mandamus cases...
+excerpt: >-
+  Learn how immigration mandamus lawsuits work, when delayed USCIS or consular
+  cases may qualify, what federal court filing involves, and why timing and
+  legal strategy matter in mandamus actions.
 category: ⁠Immigration Mandamus Lawsuits
 tags:
   - immigrationmandamuslawsuit
@@ -16,13 +19,14 @@ metadata:
     What is an immigration mandamus case, how is it filed, and in what
     circumstances is it useful? Learn about legal remedies against USCIS delays
     in this guide. Everything you need to know about mandamus cas..
+  title: "⁠Immigration Mandamus Lawsuits | Capitol Law Partners Blog"
 seo:
   description: >-
     What is an immigration mandamus case, how is it filed, and in what
     circumstances is it useful? Learn about legal remedies against USCIS delays
     in this guide. Everything you need to know about mandamus cas..
   canonicalOverride: https://capitollawpartners.com/immigration-mandamus-lawsuits
-  title: ⁠Immigration Mandamus Lawsuits
+  title: "⁠Immigration Mandamus Lawsuits | Capitol Law Partners Blog"
 ---
 ## What are Immigration Mandamus Lawsuits ? 
 

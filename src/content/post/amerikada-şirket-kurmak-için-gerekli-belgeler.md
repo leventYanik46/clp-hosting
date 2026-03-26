@@ -16,13 +16,14 @@ metadata:
   description: >-
     Amerika'da Şirket Kurmak İçin Gerekli Belgeler. Amerika'da Vatandaşlık
     Sahibi Olmadan Şirket Kurmak. Şirket Türü ve Yapılandırma.
+  title: "Amerika'da Şirket Kurmak İçin Gerekli Belgeler | Capitol Law Partners Blog"
 seo:
   description: >-
     Amerika'da Şirket Kurmak İçin Gerekli Belgeler. Amerika'da Vatandaşlık
     Sahibi Olmadan Şirket Kurmak. Şirket Türü ve Yapılandırma.
   canonicalOverride: >-
     https://capitollawpartners.com/tr/amerikada-sirket-kurmak-icin-gerekli-belgeler
-  title: Amerika'da Şirket Kurmak İçin Gerekli Belgeler
+  title: "Amerika'da Şirket Kurmak İçin Gerekli Belgeler | Capitol Law Partners Blog"
 ---
 ## Amerika’da Şirket Kurmak
 

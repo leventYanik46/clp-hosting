@@ -16,12 +16,13 @@ metadata:
     B-1/B-2 Ziyaretçi Vizesini Anlamak: Amerika Birleşik Devletleri'nde İş ve
     Turizm. B-1/B-2 vizesi, kısa süreli iş ve turizm ziyaretlerine izin verir. 
   canonical: https://capitollawpartners.com/tr/b-1-b-2-vizesi-nedir-nasil-alinir
+  title: "B-1/B-2 Vizesi Nedir? Nasıl Alınır? | Capitol Law Partners Blog"
 seo:
   description: >-
     B-1/B-2 Ziyaretçi Vizesini Anlamak: Amerika Birleşik Devletleri'nde İş ve
     Turizm. B-1/B-2 vizesi, kısa süreli iş ve turizm ziyaretlerine izin verir. 
   canonicalOverride: https://capitollawpartners.com/tr/b-1-b-2-vizesi-nedir-nasil-alinir
-  title: B-1/B-2 Vizesi Nedir? Nasıl Alınır?
+  title: "B-1/B-2 Vizesi Nedir? Nasıl Alınır? | Capitol Law Partners Blog"
 ---
 ## **B-1/B-2 Ziyaretçi Vizesini Anlamak: Amerika Birleşik Devletleri'nde İş ve Turizm**  
 

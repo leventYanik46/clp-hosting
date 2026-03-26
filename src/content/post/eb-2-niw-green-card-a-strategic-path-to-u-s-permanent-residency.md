@@ -18,6 +18,16 @@ metadata:
     for permanent residency if their work benefits the United States at a
     national level.
   canonical: https://capitollawpartners.com/eb-2-niw-green-card-a-strategic-path-to-u-s-permanent-residency
+  title: "EB-2 NIW Green Card: A Strategic Path to U.S. Permanent Residency | Capitol Law Partners Blog"
+seo:
+  title: "EB-2 NIW Green Card: A Strategic Path to U.S. Permanent Residency | Capitol Law Partners Blog"
+  description: For highly skilled professionals seeking a U.S. Green Card without
+    employer sponsorship, the EB-2 NIW Green Card offers one of the most
+    flexible and powerful immigration pathways available today. The EB-2
+    National Interest Waiver (NIW) allows qualified individuals to self-petition
+    for permanent residency if their work benefits the United States at a
+    national level.
+  canonicalOverride: https://capitollawpartners.com/eb-2-niw-green-card-a-strategic-path-to-u-s-permanent-residency
 ---
 At Capitol Law Partners (CLP), we help professionals, researchers, physicians, engineers, entrepreneurs, and STEM experts successfully navigate the EB-2 NIW process with a strong legal strategy and carefully structured petitions.
 

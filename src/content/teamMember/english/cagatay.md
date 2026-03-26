@@ -143,7 +143,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: Cagatay Ersoy
+  title: "Cagatay Ersoy - Business, Immigration & Trademark Attorney | Capitol Law Partners"
   description: >-
     Cagatay Ersoy, partner at Capitol Law Partners and Columbia Law graduate,
     delivers results-driven legal strategies backed by international litigation

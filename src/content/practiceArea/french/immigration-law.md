@@ -195,7 +195,7 @@ post:
     combinons précision et empathie pour vous aider à atteindre vos
     objectifs.</p>
 seo:
-  title: Droit de l’immigration
+  title: "Droit de l’immigration | Services Juridiques de Capitol Law Partners"
   description: >-
     Contentieux de l’immigration, défense contre l’éloignement, demandes d’asile
     et solutions d’immigration familiale et professionnelle pour particuliers et

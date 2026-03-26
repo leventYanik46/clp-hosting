@@ -12,12 +12,13 @@ metadata:
   description: >-
     Ways to Get a Green Card in the United States. How do I get a Green Card?
     Discover the main ways to get a U.S. Green Card...
+  title: "Ways to Get a Green Card in the United States | Capitol Law Partners Blog"
 seo:
   description: >-
     Ways to Get a Green Card in the United States. How do I get a Green Card?
     Discover the main ways to get a U.S. Green Card...
   canonicalOverride: https://capitollawpartners.com/ways-to-get-a-green-card-in-the-united-states
-  title: "Ways to Get a Green Card in the United States\_"
+  title: "Ways to Get a Green Card in the United States | Capitol Law Partners Blog"
 ---
 ## **Ways to Get a Green Card in the United States** 
 

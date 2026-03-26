@@ -1,6 +1,6 @@
 ---
 title: Green Card - Vize Başvurum Reddedildi Ne Yapmalıyım?
-excerpt: ' ABD vizesinin reddedilmesi, göçmenlik yolculuğunuzun sonu anlamına gelmez. Başvurunuz reddedildikten sonra atmanız gereken adımları ve Washington, D.C. ve Chicago''daki Capitol Law Partners''ın deneyimli avukatlarının, daha güçlü bir dava için yeniden başvuru veya itiraz sürecinde size nasıl rehberlik edebileceğini öğrenin.'
+excerpt: ' ABD vizesinin reddedilmesi, göçmenlik yolculuğunuzun sonu anlamına gelmez. Başvurunuz reddedildikten sonra atmanız gereken adımları, ret gerekçesini nasıl analiz edeceğinizi, hangi belgeleri güçlendirmeniz gerektiğini ve Washington, D.C. ile Chicago''daki Capitol Law Partners avukatlarının yeniden başvuru veya itiraz sürecinde size nasıl rehberlik edebileceğini öğrenin.'
 category: ABD Vize Reddi, Reddetme ve İade
 lang: tr
 image: /images/pexels-steve-845246.jpg
@@ -13,13 +13,14 @@ metadata:
   description: >-
     Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım Burada!
     Başvurunuz reddedildikten sonra atmanız gereken adımları öğrenin.
+  title: "Green Card - Vize Başvurum Reddedildi Ne Yapmalıyım? | Capitol Law Partners Blog"
 seo:
   description: >-
     Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım Burada!
     Başvurunuz reddedildikten sonra atmanız gereken adımları öğrenin.
   canonicalOverride: >-
     https://capitollawpartners.com/tr/green-card-vize-basvurum-reddedildi-ne-yapmaliyim
-  title: Green Card - Vize Başvurum Reddedildi Ne Yapmalıyım?
+  title: "Green Card - Vize Başvurum Reddedildi Ne Yapmalıyım? | Capitol Law Partners Blog"
 ---
 ## Vize Başvurum Reddedildi Ne Yapmalıyım? 
 

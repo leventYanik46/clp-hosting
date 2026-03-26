@@ -1,6 +1,6 @@
 ---
 title: "Purchasing a Home Without Citizenship\_"
-excerpt: "Buying\_property\_in\_the\_United\_States\_is\_fully\_accessible\_to\_non-citizens.\_With\_the\_right\_team\_of\_experts\_and\_careful\_financial\_planning,\_you\_can\_successfully\_purchase\_real\_estate\_for\_both\_personal\_use\_and\_investment\_purposes.\_"
+excerpt: "Buying\_property\_in\_the\_United\_States\_is\_fully\_accessible\_to\_non-citizens.\_With\_the\_right\_team\_of\_experts\_and\_careful\_financial\_planning,\_you\_can\_successfully\_purchase\_real\_estate\_for\_both\_personal\_use\_and\_investment\_purposes.\_This guide also covers financing questions, title issues, closing risks, and legal planning for foreign buyers."
 category: Real Estate Law
 lang: en
 tags:
@@ -13,10 +13,11 @@ publishDate: 2025-12-27T20:49:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/purchasing-a-home-without-citizenship
   description: "Purchasing a Home Without Citizenship. What Types of Properties Can Non-Citizens Buy?\_Buying\_Real\_Estate\_in\_the\_U.S.:\_Are\_There\_Any\_Restrictions\_for\_Foreign\_Nationals?\_Can\_you\_buy a\_house\_if\_you\_only\_have\_a\_work\_visa\_or\_a\_student\_visa?"
+  title: "Purchasing a Home Without Citizenship | Capitol Law Partners Blog"
 seo:
   description: "Purchasing a Home Without Citizenship. What Types of Properties Can Non-Citizens Buy?\_Buying\_Real\_Estate\_in\_the\_U.S.:\_Are\_There\_Any\_Restrictions\_for\_Foreign\_Nationals?\_Can\_you\_buy a\_house\_if\_you\_only\_have\_a\_work\_visa\_or\_a\_student\_visa?"
   canonicalOverride: https://capitollawpartners.com/purchasing-a-home-without-citizenship
-  title: "Purchasing a Home Without Citizenship\_"
+  title: "Purchasing a Home Without Citizenship | Capitol Law Partners Blog"
 ---
 ## **Purchasing a Home Without Citizenship** 
 

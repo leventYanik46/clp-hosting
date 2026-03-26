@@ -28,6 +28,6 @@ attorneys:
       src: ~/assets/images/sena-bio-new-team.jpeg
       alt: Randevu planlayın
 seo:
-  title: Randevu Alın
+  title: "Capitol Law Partners ile gorusme planlayin"
   description: Capitol Law Partners avukatlarından biriyle randevu planlayın.
 ---

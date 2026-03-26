@@ -29,7 +29,7 @@ metadata:
 i18n:
   defaultLanguage: 'en'
   disabledLanguages: []
-  default_language_in_subdir: false,
+  default_language_in_subdir: false
   textDirection: ltr
 
 apps:
@@ -67,7 +67,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: 'G-7YV9JCGHPY'
 
 ui:
   theme: 'light' # Values: "light"

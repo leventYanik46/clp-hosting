@@ -3,7 +3,8 @@ title: 'What Is the M-1 Visa? Step by Step '
 excerpt: >-
   What Is the M-1 Visa? Explained Step by Step. Who Can Apply for an M-1 Visa?Is
   the M-1 Visa an Immigrant Visa? Difference Between M-1 and F-1 Visas. What Is
-  Form I-20? M-1 Visa and Green Card.
+  Form I-20? M-1 Visa and Green Card. The guide also covers vocational school
+  eligibility, financial proof, interview preparation, and status limitations.
 category: 'Visa & Green Card '
 lang: en
 image: /images/amerika-da-nasil-calisma-vizesi-alinir.jpeg
@@ -15,12 +16,13 @@ metadata:
   description: >-
     What the M-1 visa is, who qualifies for vocational training in the U.S.,
     application requirements, duration, work limitations. Visa & Green Card.
+  title: "What Is the M-1 Visa? Step by Step | Capitol Law Partners Blog"
 seo:
   description: >-
     What the M-1 visa is, who qualifies for vocational training in the U.S.,
     application requirements, duration, work limitations. Visa & Green Card.
   canonicalOverride: https://capitollawpartners.com/what-is-the-m-1-visa-step-by-step
-  title: 'What Is the M-1 Visa? Step by Step '
+  title: "What Is the M-1 Visa? Step by Step | Capitol Law Partners Blog"
 ---
 # What Is the M-1 Visa? Explained Step by Step
 

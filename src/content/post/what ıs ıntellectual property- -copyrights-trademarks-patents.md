@@ -19,11 +19,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/what-is-intellectual-property-copyrights-trademarks-patents
   description: "Intellectual Property Law. What\_Is\_Intellectual\_Property?\_The\_main\_points\_to\_know\_about\_copyrights. Why\_Is\_Intellectual\_Property\_Important?"
+  title: "What Is Intellectual Property? | Copyrights | Trademarks | Patents | Capitol Law Partners Blog"
 seo:
   description: "Intellectual Property Law. What\_Is\_Intellectual\_Property?\_The\_main\_points\_to\_know\_about\_copyrights. Why\_Is\_Intellectual\_Property\_Important?"
   canonicalOverride: >-
     https://capitollawpartners.com/what-is-intellectual-property-copyrights-trademarks-patents
-  title: "What\_Is\_Intellectual\_Property?\_| Copyrights | Trademarks | Patents"
+  title: "What Is Intellectual Property? | Copyrights | Trademarks | Patents | Capitol Law Partners Blog"
 ---
 ### **Intellectual Property Law**
 

@@ -130,7 +130,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: Mehmet Y. Turkoglu
+  title: "Mehmet Y. Turkoglu - Immigration, Asylum & Family Petition Attorney | Capitol Law Partners"
   description: >-
     Mehmet Y. Turkoglu, immigration attorney at Capitol Law Partners, provides
     dedicated and strategic representation across asylum, family-based

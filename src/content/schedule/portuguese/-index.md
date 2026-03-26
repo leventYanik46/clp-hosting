@@ -28,6 +28,6 @@ attorneys:
       src: ~/assets/images/sena-bio-new-team.jpeg
       alt: Agendar uma consulta
 seo:
-  title: Agendar consulta
+  title: "Agende uma consulta com a Capitol Law Partners"
   description: Agende uma consulta com um advogado da Capitol Law Partners.
 ---

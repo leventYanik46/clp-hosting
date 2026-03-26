@@ -104,8 +104,31 @@ post:
     ou desenvolvimento de imóveis. Somos minuciosos, ágeis e comprometidos em
     ajudar você a fechar negócios com tranquilidade, minimizando riscos pelo
     caminho.</p>
+
+    <!-- seo-expanded -->
+    <h3>Quando clientes procuram ajuda jurídica em Direito Imobiliário</h3>
+
+    <p>Compradores, vendedores, investidores, incorporadores, locadores, locatários e empresários costumam procurar um advogado de Direito Imobiliário quando uma operação imobiliária envolve valores relevantes, pressão de prazo, dúvidas sobre título ou negociações complexas. Transações e disputas imobiliárias podem avançar rapidamente, mas os documentos criam obrigações de longo prazo. Uma revisão antecipada ajuda a entender riscos e evitar surpresas custosas.</p>
+
+    <h3>O que a assessoria imobiliária normalmente cobre</h3>
+
+    <ul>
+      <li>Revisão de contratos de compra e venda, locações, aditivos, divulgações, questões de título e obrigações de fechamento</li>
+      <li>Orientação sobre due diligence, financiamento, desenvolvimento e responsabilidades entre locador e locatário</li>
+      <li>Negociação de cláusulas compatíveis com metas, cronograma e tolerância a risco do cliente</li>
+      <li>Tratamento de disputas sobre cumprimento, posse, reparos, depósitos ou obrigações pós-fechamento</li>
+    </ul>
+
+    <h3>Por que a revisão detalhada de documentos importa</h3>
+
+    <p>Quem busca serviços jurídicos de Direito Imobiliário geralmente quer entender o que os documentos realmente exigem, onde estão os pontos de negociação e como evitar problemas depois da assinatura. Uma análise cuidadosa ajuda a esclarecer direitos, distribuir riscos e criar um caminho mais seguro para fechamento ou execução.</p>
+
+    <h3>Valor de uma estratégia prática</h3>
+
+    <p>Uma estratégia prática ajuda a fechar negócios com mais eficiência, resolver problemas mais cedo e proteger ocupação, desenvolvimento, financiamento ou rentabilidade. Clientes que comparam advogados de Direito Imobiliário costumam valorizar orientação clara, redação forte e boa negociação.</p>
+
 seo:
-  title: Direito Imobiliário
+  title: "Direito Imobiliário | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Orientação em transações imobiliárias comerciais e residenciais, aquisições
     de imóveis, locação, desenvolvimento e negociação contratual para negócios

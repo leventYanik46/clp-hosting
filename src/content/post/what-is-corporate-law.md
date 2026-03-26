@@ -16,13 +16,14 @@ metadata:
     Capitol Law Partners explains corporate law essentials—formation,
     governance, M&A, contracts, and compliance—to help businesses grow with
     legal confidence.
+  title: "What Is Corporate Law? | Capitol Law Partners Blog"
 seo:
   description: >-
     Capitol Law Partners explains corporate law essentials—formation,
     governance, M&A, contracts, and compliance—to help businesses grow with
     legal confidence.
   canonicalOverride: https://capitollawpartners.com/what-is-corporate-law
-  title: What Is Corporate Law?
+  title: "What Is Corporate Law? | Capitol Law Partners Blog"
 ---
 # Understanding Corporate Law: A Comprehensive Guide by Capitol Law Partners
 

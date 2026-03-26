@@ -11,8 +11,9 @@ publishDate: 2026-06-01T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/tr/events/fifa-dunya-kupasi-2026-topluluk-etkinligi
   description: FIFA Dunya Kupasi 2026 topluluk etkinligimize katilarak mac izleme, networking ve pratik hukuki bilgilerden yararlanin.
+  title: "FIFA Dunya Kupasi 2026 Topluluk Etkinligi | Capitol Law Partners Etkinligi"
 seo:
-  title: FIFA Dunya Kupasi 2026 Topluluk Etkinligi
+  title: "FIFA Dunya Kupasi 2026 Topluluk Etkinligi | Capitol Law Partners Etkinligi"
   description: FIFA Dunya Kupasi 2026 topluluk etkinligimize katilarak mac izleme, networking ve pratik hukuki bilgilerden yararlanin.
   canonicalOverride: https://capitollawpartners.com/tr/events/fifa-dunya-kupasi-2026-topluluk-etkinligi
 ---

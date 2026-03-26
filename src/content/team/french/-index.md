@@ -147,14 +147,20 @@ sections:
             target: _blank
   - wrapper: w-full grid grid-cols-1 md:grid-cols-2 gap-4
     members:
+      - title: Said Murat
+        subtitle: Responsable du marketing digital et de l'image de marque
+        tagline: Directeur marketing
+      - title: Levent Yanik
+        subtitle: Développement web, optimisation de recherche et ingénierie des systèmes
+        tagline: Responsable technique
       - title: null
         subtitle: Dr. Burak C.
-        tagline: Responsable de dossiers
-      - title: null
-        subtitle: Mikayil G.
-        tagline: Responsable de dossiers
+        tagline: Responsable senior de dossiers
       - title: null
         subtitle: Dr. Ahmet B.
+        tagline: Responsable senior de dossiers
+      - title: null
+        subtitle: Mikayil G.
         tagline: Responsable de dossiers
       - title: null
         subtitle: Yasin D.
@@ -163,11 +169,11 @@ sections:
         subtitle: Rana B.
         tagline: Responsable de dossiers
       - title: null
-        subtitle: Ebrar T.
+        subtitle: Nurefsan L.
         tagline: Responsable de dossiers
       - title: null
-        subtitle: Said M.
-        tagline: Directeur marketing
+        subtitle: Erdem S.
+        tagline: Responsable de dossiers
   - wrapper: w-full
     members:
       - title: null
@@ -179,6 +185,6 @@ sections:
             href: https://wa.me/12024402272
             target: _blank
 seo:
-  title: Rencontrez notre équipe
+  title: "Rencontrez l'equipe de Capitol Law Partners"
   description: Rencontrez notre équipe et prenez rendez-vous avec nos experts.
 ---

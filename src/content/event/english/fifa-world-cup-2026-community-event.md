@@ -1,6 +1,6 @@
 ---
 title: FIFA World Cup 2026 Community Event
-excerpt: Join Capitol Law Partners for a FIFA World Cup 2026 community event with match viewing, networking, and legal insights.
+excerpt: Join Capitol Law Partners for a FIFA World Cup 2026 community event with match viewing, networking, legal insights, and a welcoming space for local families, professionals, and business owners to connect.
 lang: en
 image: ~/assets/images/world-cup.jpg
 category: World Cup Event
@@ -11,8 +11,9 @@ publishDate: 2026-06-01T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/events/fifa-world-cup-2026-community-event
   description: Join our FIFA World Cup 2026 community event for match viewing, networking, and practical legal guidance.
+  title: "FIFA World Cup 2026 Community Event | Capitol Law Partners Event"
 seo:
-  title: FIFA World Cup 2026 Community Event
+  title: "FIFA World Cup 2026 Community Event | Capitol Law Partners Event"
   description: Join our FIFA World Cup 2026 community event for match viewing, networking, and practical legal guidance.
   canonicalOverride: https://capitollawpartners.com/events/fifa-world-cup-2026-community-event
 ---

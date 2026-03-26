@@ -5,6 +5,8 @@ excerpt: >-
   journey. Learn what steps to take after your application is refused and how
   the experienced attorneys at Capitol Law Partners in Washington, D.C. and
   Chicago can guide you through reapplication or appeal for a stronger case.
+  The article also explains refusal grounds, document review, and how to build
+  a more persuasive visa strategy after denial.
 category: US Visa Denials, Refusals & Rejections
 tags:
   - visa rejections
@@ -17,11 +19,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/my-visa-application-was-denied-what-should-i-do
   description: "My Visa Application\_Was\_Denied\_—\_What\_Should\_I Do?\_Professional Help.  Learn what steps to take after your application is refused."
+  title: "My Visa Application Was Denied What Should I Do? | Capitol Law Partners Blog"
 seo:
   description: "My Visa Application\_Was\_Denied\_—\_What\_Should\_I Do?\_Professional Help.  Learn what steps to take after your application is refused."
   canonicalOverride: >-
     https://capitollawpartners.com/my-visa-application-was-denied-what-should-i-do
-  title: "My Visa Application\_Was\_Denied\_What\_Should\_I Do?\_"
+  title: "My Visa Application Was Denied What Should I Do? | Capitol Law Partners Blog"
 ---
 ## **My Visa Application Was Denied — What Should I Do?** 
 

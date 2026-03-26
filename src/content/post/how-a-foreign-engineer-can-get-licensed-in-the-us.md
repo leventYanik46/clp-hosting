@@ -7,7 +7,8 @@ excerpt: >-
   an H-1B, TN, or EB-2 category depending on eligibility.Capitol Law Partners
   supports candidates throughout credential verification, exam planning, and
   immigration filings, ensuring a compliant and streamlined path to U.S.
-  engineering licensure.
+  engineering licensure. The guide also helps readers understand timing,
+  reciprocity issues, and how licensing strategy can support career mobility.
 category: Immigration & Professional Licensing
 lang: en
 image: /images/engineering.jpg
@@ -20,13 +21,14 @@ metadata:
   description: >-
     How a Foreign Engineer Can Get Licensed in the US | Step by Step.
     Immigration & Professional Licensing. Capitol Law Partners.
+  title: "How a Foreign Engineer Can Get Licensed in the US | Capitol Law Partners Blog"
 seo:
   description: >-
     How a Foreign Engineer Can Get Licensed in the US | Step by Step.
     Immigration & Professional Licensing. Capitol Law Partners.
   canonicalOverride: >-
     https://capitollawpartners.com/how-a-foreign-engineer-can-get-licensed-in-the-us
-  title: 'How a Foreign Engineer Can Get Licensed in the US '
+  title: "How a Foreign Engineer Can Get Licensed in the US | Capitol Law Partners Blog"
 ---
 # How a Foreign Engineer Can Get Licensed in the US | Step by Step
 

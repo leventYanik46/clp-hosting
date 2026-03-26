@@ -18,13 +18,14 @@ metadata:
     DV Lottery Program Temporarily Suspended. Is this a permanent cancellation?
     Has the Green Card program been cancelled? Are Green Card applications open
     this..
+  title: "DV Lottery Program Temporarily Suspended! | Capitol Law Partners Blog"
 seo:
   description: >-
     DV Lottery Program Temporarily Suspended. Is this a permanent cancellation?
     Has the Green Card program been cancelled? Are Green Card applications open
     this..
   canonicalOverride: https://capitollawpartners.com/dv-lottery-program-temporarily-suspended
-  title: DV Lottery Program Temporarily Suspended!
+  title: "DV Lottery Program Temporarily Suspended! | Capitol Law Partners Blog"
 ---
 # DV Lottery Program Temporarily Suspended!
 

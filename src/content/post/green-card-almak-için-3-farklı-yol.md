@@ -18,12 +18,13 @@ metadata:
     Green Card almak için 3 farklı yol. Aile birleşimi, çalışma sponsorluğu ve
     Green Card çekilişi.
   canonical: https://capitollawpartners.com/tr/green-card-almak-icin-3-farkli-yol
+  title: "Green Card Almak İçin 3 Farklı Yol | Capitol Law Partners Blog"
 seo:
   description: >-
     Green Card almak için 3 farklı yol. Aile birleşimi, çalışma sponsorluğu ve
     Green Card çekilişi.
   canonicalOverride: https://capitollawpartners.com/tr/green-card-almak-icin-3-farkli-yol
-  title: Green Card Almak İçin 3 Farklı Yol
+  title: "Green Card Almak İçin 3 Farklı Yol | Capitol Law Partners Blog"
 ---
 # Green Card Almak İçin 3 Farklı Yol
 

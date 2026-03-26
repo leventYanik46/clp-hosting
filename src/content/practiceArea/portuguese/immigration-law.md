@@ -164,7 +164,7 @@ post:
     familiares ou de trabalho, combinamos precisão e empatia para ajudar você a
     alcançar seus objetivos.</p>
 seo:
-  title: Direito de Imigração
+  title: "Direito de Imigração | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Contencioso de imigração, defesa contra remoção, pedidos de asilo e soluções
     de imigração familiar e empresarial para apoiar pessoas e empregadores.

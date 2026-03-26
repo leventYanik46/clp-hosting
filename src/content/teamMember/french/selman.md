@@ -120,7 +120,7 @@ blog:
     des sociétés et la protection des données.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: S. Selman Kilic
+  title: "S. Selman Kilic - Avocat en contentieux civil, immobilier et gouvernance d’entreprise | Capitol Law Partners"
   description: >-
     Découvrez l’expertise de S. Selman Kilic en contentieux civil, transactions
     immobilières, gouvernance d’entreprise et enjeux des plateformes numériques.

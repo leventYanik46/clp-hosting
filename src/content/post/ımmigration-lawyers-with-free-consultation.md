@@ -19,12 +19,13 @@ metadata:
     Looking for immigration lawyers with free consultation? Discover what to
     expect, avoid pitfalls, and get expert help from Capitol Law Partners
   canonical: https://capitollawpartners.com/immigration-lawyers-with-free-consultation
+  title: "Immigration Lawyers with Free Consultation | Capitol Law Partners Blog"
 seo:
   description: >-
     Looking for immigration lawyers with free consultation? Discover what to
     expect, avoid pitfalls, and get expert help from Capitol Law Partners
   canonicalOverride: https://capitollawpartners.com/immigration-lawyers-with-free-consultation
-  title: Immigration Lawyers with Free Consultation
+  title: "Immigration Lawyers with Free Consultation | Capitol Law Partners Blog"
 ---
 
 

@@ -120,8 +120,31 @@ post:
     Vasiyetler ve Miras ekibimiz önce sizi dinler, en önemli olanı korumak için
     net tavsiyeler sunar. İster vasiyet hazırlayın, ister vakıf kurun, ister
     veraset sürecini yönetin; hepsini özen ve verimlilikle ele alıyoruz.</p>
+
+    <!-- seo-expanded -->
+    <h3>Aileler neden Vasiyetler ve Miras hukuki hizmetlerini arar?</h3>
+
+    <p>Bireyler ve aileler, malvarlığını korumak, ehliyetsizlik ihtimaline hazırlanmak, miras sürecini yönetmek veya önemli kişisel kararları hukuken belgelemek istediklerinde sıklıkla Vasiyetler ve Miras avukatı arar. Miras planlaması, probate, vesayet ve kayyımlık dosyaları hem teknik hem de duygusal olabilir. Açık hukuki yönlendirme, belirsizliği ve gereksiz aile içi çatışmayı azaltmaya yardımcı olur.</p>
+
+    <h3>Dikkatli planlama veya idare neleri içerebilir?</h3>
+
+    <ul>
+      <li>Aile hedeflerinin, malvarlığı yapısının, lehtarların ve gerekli belgelerin gözden geçirilmesi</li>
+      <li>Vasiyetname, trust, vekaletname, sağlık direktifleri, yasal atamalar ve mahkeme başvurularının hazırlanması veya incelenmesi</li>
+      <li>Probate adımları, malvarlığı devri, fiduciary görevler ve kayıt düzeni konusunda rehberlik sağlanması</li>
+      <li>Ehliyet, aile iletişimi, uyuşmazlıklar ve vasi veya kayyım sorumluluklarının ele alınması</li>
+    </ul>
+
+    <h3>Müvekkillerin sık sorduğu sorular</h3>
+
+    <p>Vasiyetler ve Miras alanında yardım arayan kişiler çoğu zaman malvarlığının nasıl devredileceğini, kimin yetkiyle hareket edeceğini, ne zaman mahkeme sürecine ihtiyaç duyulacağını ve gecikme veya uyuşmazlıkların nasıl azaltılacağını öğrenmek ister. Belgeler güncel olmadığında veya aile beklentileri hiç netleştirilmediğinde sorunlar büyüyebilir.</p>
+
+    <h3>Neden yapılandırılmış yaklaşım önemlidir?</h3>
+
+    <p>Yapılandırılmış hukuki yaklaşım, uzun vadeli planlamayı daha etkili ve idare sürecini daha yönetilebilir hale getirebilir. Vasiyetler ve Miras avukatlarını karşılaştıran müvekkiller genellikle açık açıklamalar, somut sonraki adımlar ve güvenilir belgeler arar.</p>
+
 seo:
-  title: Vasiyetler ve Miras
+  title: "Vasiyetler ve Miras | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Kapsamlı miras planlaması, varlık koruma, vasiyet, vakıf, veraset işlemleri,
     vasi ve kayyum hizmetleriyle mirasınızı ve sevdiklerinizi güvence altına

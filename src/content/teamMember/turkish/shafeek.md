@@ -123,7 +123,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Shafeek Seddiq
+  title: "Shafeek Seddiq - Miras Planlaması, Şirket Danışmanlığı ve Sağlık Uyumu Avukatı | Capitol Law Partners"
   description: >-
     Shafeek Seddiq’in miras planlaması, ticari danışmanlık ve uluslararası hukuk
     alanlarındaki onlarca yıllık deneyimini keşfedin.

@@ -122,7 +122,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Omar Bississo
+  title: "Omar Bississo - Ceza Savunması, Duruşma ve Temyiz Avukatı | Capitol Law Partners"
   description: >-
     Omar Bississo, Bississo Law, P.C.'nin kurucusu ve yöneticisi olarak Virginia
     ve Washington, D.C.'de ceza savunması yürütür; duruşma ve istinaf deneyimine

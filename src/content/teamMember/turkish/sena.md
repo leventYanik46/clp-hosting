@@ -132,7 +132,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Sena Şahin
+  title: "Sena Şahin - Medeni Dava, Kurumsal Danışmanlık ve Veri Gizliliği Avukatı | Capitol Law Partners"
   description: >-
     Sena Şahin’in medeni davalar, kurumsal danışmanlık ve veri gizliliği
     konularında iki dilli ve sonuç odaklı hukuki desteğiyle müvekkillerine nasıl

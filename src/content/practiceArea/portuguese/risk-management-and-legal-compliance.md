@@ -85,8 +85,25 @@ post:
     <p>Nosso objetivo é dar confiança de que suas operações estão sobre uma base
     jurídica sólida, para que você possa focar em atender clientes e
     crescer.</p>
+
+    <!-- seo-topoff -->
+    <h3>O que clientes costumam buscar na atuação em Gestão de Riscos & Conformidade Legal</h3>
+
+    <p>Quem pesquisa serviços jurídicos de Gestão de Riscos & Conformidade Legal normalmente compara muito mais do que o nome do serviço. A pessoa quer entender como o assunto jurídico pode afetar prazo, custo, risco, documentação e o resultado prático que pretende alcançar. Uma estratégia útil deve explicar o que precisa de atenção imediata, o que pode esperar, quais provas devem ser reunidas primeiro e quais decisões podem alterar o rumo do caso. Esse tipo de planejamento ajuda a evitar atrasos desnecessários, inconsistências no expediente e despesas evitáveis.</p>
+
+    <p>Uma boa atuação em assuntos de Gestão de Riscos & Conformidade Legal também depende de comunicação clara. Os clientes geralmente querem respostas objetivas sobre próximos passos, expectativas realistas sobre o processo e uma explicação clara de quais documentos ou fatos terão maior peso. Mesmo quando o tema é urgente ou sensível, um processo organizado torna o trabalho mais administrável e reduz a incerteza. Isso é especialmente importante quando o caso envolve órgãos públicos, seguradoras, partes contrárias, parceiros comerciais ou familiares.</p>
+
+    <ul>
+      <li>Esclarecer o objetivo do assunto e o caminho mais sólido para alcançá-lo</li>
+      <li>Identificar cedo documentos, prazos e fatos que exigem atenção prioritária</li>
+      <li>Preparar o expediente para responder com eficiência a perguntas ou negociações futuras</li>
+      <li>Manter a estratégia focada em resultado prático, e não em complexidade desnecessária</li>
+    </ul>
+
+    <p>Quem compara advogados de Gestão de Riscos & Conformidade Legal costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
+
 seo:
-  title: Gestão de Riscos & Conformidade Legal
+  title: "Gestão de Riscos & Conformidade Legal | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Ajudamos empresas a identificar, priorizar e tratar riscos jurídicos em
     todas as operações, construindo programas de conformidade práticos,

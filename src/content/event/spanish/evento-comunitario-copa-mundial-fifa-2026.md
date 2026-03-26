@@ -11,8 +11,9 @@ publishDate: 2026-06-01T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/es/events/evento-comunitario-copa-mundial-fifa-2026
   description: Participe en nuestro evento comunitario de la Copa Mundial FIFA 2026 con partido en vivo, networking y consejos legales practicos.
+  title: "Evento Comunitario Copa Mundial FIFA 2026 | Evento de Capitol Law Partners"
 seo:
-  title: Evento Comunitario Copa Mundial FIFA 2026
+  title: "Evento Comunitario Copa Mundial FIFA 2026 | Evento de Capitol Law Partners"
   description: Participe en nuestro evento comunitario de la Copa Mundial FIFA 2026 con partido en vivo, networking y consejos legales practicos.
   canonicalOverride: https://capitollawpartners.com/es/events/evento-comunitario-copa-mundial-fifa-2026
 ---

@@ -15,12 +15,13 @@ metadata:
     Learn how criminal charges impact immigration status. Capitol Law Partners
     offers expert crimmigration defense to protect your rights in the U.S.
   canonical: https://capitollawpartners.com/what-is-crimmigration
+  title: "What is Crimmigration? | Capitol Law Partners Blog"
 seo:
   description: >-
     Learn how criminal charges impact immigration status. Capitol Law Partners
     offers expert crimmigration defense to protect your rights in the U.S.
   canonicalOverride: https://capitollawpartners.com/what-is-crimmigration
-  title: What is Crimmigration?
+  title: "What is Crimmigration? | Capitol Law Partners Blog"
 ---
 ## **Crimmigration: Where Criminal Law Meets Immigration Law** 
 

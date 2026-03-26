@@ -19,13 +19,14 @@ metadata:
   description: >-
     Work and Travel 2026: Costs, Things Students Want to Know. What is WAT?
     Fees, Registration Dates, Language Proficiency...
+  title: "Work and Travel 2026: Expenses, Things Students Want to Know | Capitol Law Partners Blog"
 seo:
   description: >-
     Work and Travel 2026: Costs, Things Students Want to Know. What is WAT?
     Fees, Registration Dates, Language Proficiency...
   canonicalOverride: >-
     https://capitollawpartners.com/work-and-travel-2026-expenses-things-students-want-to-know
-  title: 'Work and Travel 2026: Expenses, Things Students Want to Know '
+  title: "Work and Travel 2026: Expenses, Things Students Want to Know | Capitol Law Partners Blog"
 ---
 ## Work and Travel 2026: Expenses, What Students Want to Know 
 

@@ -3,7 +3,9 @@ title: What is Estate Planning in the US
 excerpt: >-
   Comprehensive guide on estate planning, trusts, wills, probate, guardianship,
   and conservatorship in the U.S. with expert insight from Capitol Law
-  Partners..
+  Partners. It also explains how proactive estate planning can reduce family
+  conflict, protect assets, and make future healthcare and inheritance
+  decisions easier to manage.
 category: Estate Planning
 image: /images/estateplanning.jpg
 imageWidth: 5472
@@ -15,13 +17,14 @@ metadata:
     guardianship, and conservatorship in the U.S. with expert insight from
     Capitol Law Partners.
   canonical: https://capitollawpartners.com/what-is-estate-planning-in-the-us
+  title: "What is Estate Planning in the US | Capitol Law Partners Blog"
 seo:
   description: >-
     Comprehensive guide on estate planning, trusts, wills, probate,
     guardianship, and conservatorship in the U.S. with expert insight from
     Capitol Law Partners.
   canonicalOverride: https://capitollawpartners.com/what-is-estate-planning-in-the-us
-  title: What is Estate Planning in the US
+  title: "What is Estate Planning in the US | Capitol Law Partners Blog"
 ---
 
 

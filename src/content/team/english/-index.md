@@ -145,14 +145,20 @@ sections:
             target: _blank
   - wrapper: w-full grid grid-cols-1 md:grid-cols-2 gap-4
     members:
+      - title: Said Murat
+        subtitle: Head of Digital Marketing & Branding
+        tagline: Marketing Director
+      - title: Levent Yanik
+        subtitle: Web Development, Search Optimization & Systems Engineering
+        tagline: Technical Lead
       - title: null
         subtitle: Dr. Burak C.
-        tagline: Case Manager
-      - title: null
-        subtitle: Mikayil G.
-        tagline: Case Manager
+        tagline: Senior Case Manager
       - title: null
         subtitle: Dr. Ahmet B.
+        tagline: Senior Case Manager
+      - title: null
+        subtitle: Mikayil G.
         tagline: Case Manager
       - title: null
         subtitle: Yasin D.
@@ -161,11 +167,11 @@ sections:
         subtitle: Rana B.
         tagline: Case Manager
       - title: null
-        subtitle: Ebrar T.
+        subtitle: Nurefsan L.
         tagline: Case Manager
       - title: null
-        subtitle: Said M.
-        tagline: Marketing Director
+        subtitle: Erdem S.
+        tagline: Case Manager
   - wrapper: w-full
     members:
       - title: null
@@ -177,6 +183,6 @@ sections:
             href: https://wa.me/12024402272
             target: _blank
 seo:
-  title: Meet Our Team
+  title: "Meet the Capitol Law Partners Team"
   description: Meet our team and schedule an appointment with our experts.
 ---

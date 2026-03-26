@@ -3,7 +3,9 @@ title: Green Card Başvurusu Nasıl Yapılır?
 excerpt: >-
   Green Card olarak bilinen DV-2027 (Diversity Visa) için başvuru süreci için
   adım adım rehber. Her yıl düzenlenen bu çekilişe yapacağınız başvuru süreci
-  DV-2027 (Green Card) hakkında bilinmesi gerekenleri ele alacağız. 
+  DV-2027 (Green Card) hakkında bilinmesi gerekenleri ele alacağız. Uygunluk,
+  online form doldurma, fotoğraf kuralları ve diskalifiye riskleri gibi önemli
+  ayrıntılar da rehberde açıklanır.
 category: Green Card Başvurusu
 lang: tr
 tags:
@@ -16,10 +18,11 @@ publishDate: 2025-11-26T17:48:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/tr/green-card-basvurusu-nasil-yapilir
   description: "Green Card Başvurusu Nasıl Yapılır? Online Başvuru\_Nasıl Yapılır? Green\_Card'a\_birden fazla başvuru yapabilir miyim?\_Adım Adım Uzman Yardımı. "
+  title: "Green Card Başvurusu Nasıl Yapılır? | Capitol Law Partners Blog"
 seo:
   description: "Green Card Başvurusu Nasıl Yapılır? Online Başvuru\_Nasıl Yapılır? Green\_Card'a\_birden fazla başvuru yapabilir miyim?\_Adım Adım Uzman Yardımı. "
   canonicalOverride: https://capitollawpartners.com/tr/green-card-basvurusu-nasil-yapilir
-  title: Green Card Başvurusu Nasıl Yapılır?
+  title: "Green Card Başvurusu Nasıl Yapılır? | Capitol Law Partners Blog"
 ---
 1. Green Card Başvurusu Nasıl Yapılır? Online Başvuru 
 

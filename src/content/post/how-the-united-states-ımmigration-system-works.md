@@ -17,13 +17,14 @@ metadata:
   description: >-
     Expert legal guidance on U.S. visas, green cards & citizenship. Capitol Law
     Partners helps you navigate the U.S. immigration system. 
+  title: "How the United States Immigration System Works | Capitol Law Partners Blog"
 seo:
   description: >-
     Expert legal guidance on U.S. visas, green cards & citizenship. Capitol Law
     Partners helps you navigate the U.S. immigration system. 
   canonicalOverride: >-
     https://capitollawpartners.com/how-the-united-states-immigration-system-works
-  title: How the United States Immigration System Works
+  title: "How the United States Immigration System Works | Capitol Law Partners Blog"
 ---
 ## **Understanding How the U.S. Immigration System Works – A Practical Guide** 
 

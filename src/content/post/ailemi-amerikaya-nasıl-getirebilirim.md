@@ -7,7 +7,9 @@ excerpt: >-
   hatasız bir şekilde ilerlemesini garanti eder. Eksik veya hatalı belgelerden
   kaynaklanan uzun bekleme sürelerini en aza indirerek, müşterilerinin
   Amerika'da yeni bir hayat kurma yolculuğunu güvenilir, hızlı ve stressiz hale
-  getirir. 
+  getirir. Yazı ayrıca aile temelli Green Card başvurularında sponsorluk,
+  uygunluk ve işlem süreleri açısından hangi adımların öncelikli olduğunu ele
+  alır.
 category: Green Card Başvurusu
 lang: tr
 image: /images/how-can-i-bring-my-family-in-usa.jpg
@@ -19,12 +21,13 @@ metadata:
     Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik süreçlerinde yapılan
     en büyük hatalar. Ebeveyn Sponsorluğu. 
   canonical: https://capitollawpartners.com/tr/ailemi-amerikaya-nasil-getirebilirim
+  title: "Ailemi Amerikaya Nasıl Getirebilirim? | Capitol Law Partners Blog"
 seo:
   description: >-
     Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci. Göçmenlik süreçlerinde yapılan
     en büyük hatalar. Ebeveyn Sponsorluğu. 
   canonicalOverride: https://capitollawpartners.com/tr/ailemi-amerikaya-nasil-getirebilirim
-  title: Ailemi Amerikaya Nasıl Getirebilirim?
+  title: "Ailemi Amerikaya Nasıl Getirebilirim? | Capitol Law Partners Blog"
 ---
 Ailenizi ABD'ye Getirmek ve Göçmenlik Süreci 
 

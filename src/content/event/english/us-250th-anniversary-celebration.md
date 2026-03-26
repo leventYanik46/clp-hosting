@@ -1,6 +1,6 @@
 ---
 title: U.S. 250th Anniversary Celebration Event
-excerpt: Join Capitol Law Partners for our U.S. 250th Anniversary celebration and legal community networking event.
+excerpt: Join Capitol Law Partners for our U.S. 250th Anniversary celebration and legal community networking event featuring guest speakers, practical legal insight, civic discussion, and connections with local professionals and families.
 lang: en
 image: ~/assets/images/business-immigration-img.jpg
 category: Anniversary Event
@@ -11,8 +11,9 @@ publishDate: 2026-05-15T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/events/us-250th-anniversary-celebration
   description: Join Capitol Law Partners for our U.S. 250th Anniversary celebration event with guest speakers, community discussion, and networking.
+  title: "U.S. 250th Anniversary Celebration Event | Capitol Law Partners Event"
 seo:
-  title: U.S. 250th Anniversary Celebration Event
+  title: "U.S. 250th Anniversary Celebration Event | Capitol Law Partners Event"
   description: Join Capitol Law Partners for our U.S. 250th Anniversary celebration event with guest speakers, community discussion, and networking.
   canonicalOverride: https://capitollawpartners.com/events/us-250th-anniversary-celebration
 ---

@@ -132,7 +132,7 @@ blog:
     corporativo e privacidade de dados.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Sena Sahin
+  title: "Sena Sahin - Advogada de contencioso cível, consultoria corporativa e privacidade de dados | Capitol Law Partners"
   description: >-
     Saiba como Sena Sahin apoia clientes em litígios cíveis, consultoria
     corporativa e questões de privacidade de dados com orientação bilíngue e

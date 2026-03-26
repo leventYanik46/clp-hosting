@@ -122,7 +122,7 @@ blog:
     des sociétés et la protection des données.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Omar Bississo
+  title: "Omar Bississo - Avocat en défense pénale, procès et appels | Capitol Law Partners"
   description: >-
     Omar Bississo, principal et fondateur de Bississo Law, P.C., assure la
     défense pénale en Virginie et à Washington, D.C., avec une solide expérience

@@ -4,7 +4,8 @@ excerpt: >-
   In this article, our estate planning attorneys at Capitol Law Partners explain
   exactly what makes a Will valid in Texas, whether it needs to be notarized,
   and why working with a professional lawyer helps ensure your estate plan
-  stands the test of time.
+  stands the test of time. It also reviews signing formalities, witness rules,
+  and common drafting mistakes that can create probate disputes later.
 category: Valid Will
 tags:
   - make a will
@@ -18,13 +19,14 @@ metadata:
   description: >-
     What Makes a Will Valid in Texas? What are the Requirements? How can
     notarization simplify inheritance procedures? Including age, signatures. 
+  title: "What Makes a Will Valid in Texas? What are the Requirements? | Capitol Law Partners Blog"
 seo:
   description: >-
     What Makes a Will Valid in Texas? What are the Requirements? How can
     notarization simplify inheritance procedures? Including age, signatures. 
   canonicalOverride: >-
     https://capitollawpartners.com/what-makes-a-will-valid-in-texas-what-are-the-requirements
-  title: What Makes a Will Valid in Texas? What are the Requirements?
+  title: "What Makes a Will Valid in Texas? What are the Requirements? | Capitol Law Partners Blog"
 ---
 # **What Makes a Will Valid in Texas? What are the Requirements?**
 

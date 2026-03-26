@@ -3,6 +3,9 @@
   functions = "netlify/functions"
   publish = "dist"
 
+[build.environment]
+  NODE_VERSION = "20.12.2"
+
 [dev]
   command = "npm run dev"
   targetPort = 4321

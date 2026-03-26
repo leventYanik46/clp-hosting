@@ -3,7 +3,9 @@ title: US H-1B Visa Overhaul | H-1B Visa Changes - FAQ
 excerpt: >-
   The new executive order concerning H-1B visas has introduced a mandatory
   $100,000 payment, but its scope and implementation remain unclear and
-  inconsistent across agencies. 
+  inconsistent across agencies. This FAQ also reviews employer risk, compliance
+  concerns, litigation updates, and what skilled workers should watch before
+  making filing or job-change decisions.
 category: Green Card & Immigration & Visa News
 image: /images/h-1b-visa-100.000-.jpg
 imageWidth: 6720
@@ -14,12 +16,13 @@ metadata:
   description: >-
     US H-1B Visa Overhaul | H-1B Visa Changes. Will current H-1B visa holders be
     affected? Is this a one-time payment? What is an H-1 Visa?..
+  title: "US H-1B Visa Overhaul | H-1B Visa Changes - FAQ | Capitol Law Partners Blog"
 seo:
   description: >-
     US H-1B Visa Overhaul | H-1B Visa Changes. Will current H-1B visa holders be
     affected? Is this a one-time payment? What is an H-1 Visa?..
   canonicalOverride: https://capitollawpartners.com/us-h-1b-visa-overhaul-h-1b-visa-changes-faq
-  title: US H-1B Visa Overhaul | H-1B Visa Changes - FAQ
+  title: "US H-1B Visa Overhaul | H-1B Visa Changes - FAQ | Capitol Law Partners Blog"
 ---
 ### US H-1B Visa Overhaul | H-1B Visa Changes - FAQ
 

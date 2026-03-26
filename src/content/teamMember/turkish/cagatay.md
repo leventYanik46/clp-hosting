@@ -141,7 +141,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: Cagatay Ersoy
+  title: "Cagatay Ersoy - Şirketler Hukuku, Göçmenlik ve Marka Avukatı | Capitol Law Partners"
   description: >-
     Columbia Hukuk Fakültesi mezunu ve Capitol Law Partners ortağı Cagatay
     Ersoy, uluslararası dava tecrübesiyle desteklenen sonuç odaklı hukuki

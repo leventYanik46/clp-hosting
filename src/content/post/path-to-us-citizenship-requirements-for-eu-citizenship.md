@@ -2,7 +2,9 @@
 title: 'Path to US Citizenship: Requirements for EU Citizenship'
 excerpt: >-
   Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
-  Citizen? What are the Necessary Requirements?..
+  Citizen? What are the Necessary Requirements? This guide also reviews dual
+  citizenship questions, residency expectations, and legal planning issues that
+  often affect cross-border families and professionals.
 category: EU Citizenship
 image: /images/law.jpg
 imageWidth: 1060
@@ -14,13 +16,14 @@ metadata:
   description: >-
     Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
     Citizen? What are the Necessary Requirements?..
+  title: "Path to US Citizenship: Requirements for EU Citizenship | Capitol Law Partners Blog"
 seo:
   description: >-
     Path to US Citizenship: Requirements for EU Citizenship. How to Become an EU
     Citizen? What are the Necessary Requirements?..
   canonicalOverride: >-
     https://capitollawpartners.com/path-to-us-citizenship-requirements-for-eu-citizenship
-  title: 'Path to US Citizenship: Requirements for EU Citizenship'
+  title: "Path to US Citizenship: Requirements for EU Citizenship | Capitol Law Partners Blog"
 ---
 
 

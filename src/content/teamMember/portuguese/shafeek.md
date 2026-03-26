@@ -121,7 +121,7 @@ blog:
     corporativo e privacidade de dados.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: Shafeek Seddiq
+  title: "Shafeek Seddiq - Advogado de planejamento sucessório, consultoria empresarial e compliance em saúde | Capitol Law Partners"
   description: >-
     Conheça as décadas de experiência de Shafeek Seddiq em planejamento
     sucessório, consultoria empresarial e atuação como consultor internacional.

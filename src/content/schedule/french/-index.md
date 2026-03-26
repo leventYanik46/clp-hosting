@@ -28,6 +28,6 @@ attorneys:
       src: ~/assets/images/sena-bio-new-team.jpeg
       alt: Prendre rendez-vous
 seo:
-  title: Prendre rendez-vous
+  title: "Planifiez une consultation avec Capitol Law Partners"
   description: Prenez rendez-vous avec un avocat de Capitol Law Partners.
 ---

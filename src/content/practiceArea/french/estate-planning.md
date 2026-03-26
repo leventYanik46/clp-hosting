@@ -106,8 +106,31 @@ post:
     testament, établir un trust ou gérer un inventaire, nous nous en chargeons
     avec soin et efficacité afin que vous puissiez vous concentrer sur votre
     famille et votre sérénité.</p>
+
+    <!-- seo-expanded -->
+    <h3>Pourquoi les familles recherchent des services juridiques en Trusts et successions</h3>
+
+    <p>Les particuliers et les familles recherchent souvent un avocat en Trusts et successions lorsqu’ils veulent protéger leur patrimoine, anticiper une incapacité, organiser une transmission ou encadrer des décisions importantes. Les dossiers de planification patrimoniale, de succession, de tutelle ou de curatelle sont souvent techniques et émotionnels. Un accompagnement clair peut réduire les conflits et faciliter la prise de décision.</p>
+
+    <h3>Ce qu’une planification ou administration sérieuse peut inclure</h3>
+
+    <ul>
+      <li>Analyse des objectifs familiaux, de la propriété des biens, des bénéficiaires et des documents nécessaires</li>
+      <li>Préparation ou revue de testaments, trusts, procurations, directives médicales et actes fiduciaires</li>
+      <li>Conseil sur la succession, les transferts d’actifs, les obligations des fiduciaires et la tenue des dossiers</li>
+      <li>Gestion des questions de capacité, des tensions familiales et des responsabilités des tuteurs ou curateurs</li>
+    </ul>
+
+    <h3>Questions fréquentes des clients</h3>
+
+    <p>Les clients qui recherchent une aide en Trusts et successions veulent souvent comprendre comment les biens seront transmis, qui aura le pouvoir d’agir et comment limiter les retards ou les contestations. Les problèmes augmentent lorsque les documents sont anciens, que la propriété des biens est incohérente ou que les attentes familiales n’ont jamais été clarifiées.</p>
+
+    <h3>Pourquoi une approche structurée aide</h3>
+
+    <p>Une approche structurée peut rendre la planification à long terme plus efficace et l’administration plus gérable. Les clients qui comparent des avocats en Trusts et successions recherchent en général des explications claires, des étapes concrètes et des documents fiables.</p>
+
 seo:
-  title: Trusts et successions
+  title: "Trusts et successions | Services Juridiques de Capitol Law Partners"
   description: >-
     Planification successorale complète, protection du patrimoine, testaments,
     trusts, inventaire, tutelle et curatelle pour sécuriser votre héritage et

@@ -116,7 +116,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: S. Selman Kilic
+  title: "S. Selman Kilic - Civil Litigation, Real Estate & Corporate Governance Attorney | Capitol Law Partners"
   description: >-
     Discover S. Selman Kilic’s expertise in civil litigation, real estate
     transactions, corporate governance, and digital platform challenges.

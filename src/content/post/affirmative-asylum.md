@@ -1,6 +1,9 @@
 ---
 title: What is Affirmative Asylum | Process
-excerpt: Affirmative Asylum
+excerpt: >-
+  Learn how affirmative asylum works in the United States, who may qualify,
+  what Form I-589 requires, which evidence strengthens a case, and how USCIS
+  interviews, deadlines, and legal strategy affect asylum approval.
 category: Affirmative Asylum
 lang: en
 tags:
@@ -19,6 +22,7 @@ metadata:
     fearing persecution in their home country. Learn eligibility criteria,
     step-by-step application procedures, timelines, and expert tips to
     strengthen your asylum case.
+  title: "What is Affirmative Asylum | Process | Capitol Law Partners Blog"
 seo:
   description: >-
     The Affirmative Asylum Process in the U.S. offers protection to individuals
@@ -26,7 +30,7 @@ seo:
     step-by-step application procedures, timelines, and expert tips to
     strengthen your asylum case.
   canonicalOverride: https://capitollawpartners.com/affirmative-asylum
-  title: What is Affirmative Asylum | Process
+  title: "What is Affirmative Asylum | Process | Capitol Law Partners Blog"
 ---
 ## **Navigating Hope: Your Guide to the Affirmative Asylum Process in the U.S.** 
 

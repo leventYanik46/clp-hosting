@@ -5,7 +5,8 @@ excerpt: >-
   advance the type of visa you need to apply for, depending on the purpose of
   your trip and your citizenship status. This guide clearly and simply explains
   which visas you can apply for as a visitor, student, worker, or family member,
-  the application requirements, and important points to consider...
+  the application requirements, and important points to consider, including
+  supporting documents, timelines, and common reasons for refusal.
 category: Visa Application
 tags:
   - UK
@@ -22,6 +23,7 @@ metadata:
     visitor, student, work, and family reunification visas. Understand the
     requirements based on your purpose of travel, citizenship, and personal
     circumstances
+  title: "How Do I Apply for a Visa to Come to the UK? | Capitol Law Partners Blog"
 seo:
   description: >-
     Learn how to apply for a UK visa with this comprehensive guide covering
@@ -29,7 +31,7 @@ seo:
     requirements based on your purpose of travel, citizenship, and personal
     circumstances
   canonicalOverride: https://capitollawpartners.com/how-do-i-apply-for-a-visa-to-come-to-the-uk
-  title: How Do I Apply for a Visa to Come to the UK?
+  title: "How Do I Apply for a Visa to Come to the UK? | Capitol Law Partners Blog"
 ---
 ## How Do I Apply for a Visa to Come to the UK?
 

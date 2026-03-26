@@ -99,8 +99,30 @@ post:
     commercial landscape. Whether you’re launching a new venture or negotiating
     a major deal, we’re here to protect your interests and help you move forward
     with confidence.</p>
+
+    <h3>Business Law Support</h3>
+
+    <p>Business & Corporate Law matters often benefit from careful drafting, practical deal review, and a legal strategy that reflects the business goals behind the paperwork. We focus on the issues that affect control, risk, timing, and enforceability so the client can move forward with more confidence.</p>
+
+    <h3>Common Business Concerns</h3>
+
+    <ul>
+
+      <li>Entity formation and ownership questions</li>
+
+      <li>Contract terms, obligations, and negotiation points</li>
+
+      <li>Risk management and regulatory compliance</li>
+
+      <li>Dispute prevention and resolution planning</li>
+
+    </ul>
+
+    <h3>Why the Details Matter</h3>
+
+    <p>Well-prepared legal documents can reduce confusion later, especially when a company is growing or facing a dispute. We help clients protect the transaction, preserve relationships where possible, and make sure the legal work supports the commercial objective instead of slowing it down.</p>
 seo:
-  title: Business & Corporate Law
+  title: "Business & Corporate Law Services | Capitol Law Partners"
   description: >-
     Our Business & Corporate Law experts guide companies through commercial
     litigation & dispute resolution, contract drafting, M&A, and business
