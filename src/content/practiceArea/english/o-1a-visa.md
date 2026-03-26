@@ -112,7 +112,7 @@ post:
 
     </ul>
 seo:
-  title: "O-1A Visa Lawyer for Extraordinary Ability Professionals – Capitol Law Partners"
+  title: "O-1A Visa | Capitol Law Partners"
   description: >-
     Extraordinary ability visas for science, education, business, or athletics
     professionals.

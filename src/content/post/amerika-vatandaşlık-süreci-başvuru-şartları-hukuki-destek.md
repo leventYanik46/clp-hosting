@@ -18,14 +18,14 @@ metadata:
     Neler? Profesyonel Destek..
   canonical: >-
     https://capitollawpartners.com/tr/amerika-vatandaslik-sureci-basvuru-sartlari-hukuki-destek
-  title: "Amerika Vatandaşlık Süreci Başvuru Şartları | Hukuki Destek | Capitol Law Partners Blog"
+  title: "Amerika Vatandaşlık Süreci Başvuru Şartları| Hukuki Destek"
 seo:
   description: >-
     Vatandaşlık alma sürecinde hukuki destek. Gerekli Mi? Başvuru Şartları
     Neler? Profesyonel Destek..
   canonicalOverride: >-
     https://capitollawpartners.com/tr/amerika-vatandaslik-sureci-basvuru-sartlari-hukuki-destek
-  title: "Amerika Vatandaşlık Süreci Başvuru Şartları | Hukuki Destek | Capitol Law Partners Blog"
+  title: "Amerika Vatandaşlık Süreci Başvuru Şartları| Hukuki Destek"
 ---
 # Amerika Vatandaşlık Süreci Başvuru Şartları | Hukuki Destek
 

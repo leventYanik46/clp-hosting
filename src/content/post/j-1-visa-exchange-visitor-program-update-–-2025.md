@@ -11,13 +11,13 @@ metadata:
   description: >-
     J-1 Visa: Exchange Visitor Program Participants Update – 2025. This guide,
     prepared by Capitol Law Partners, provides a comprehensive breakdown..
-  title: "J-1 Visa - Exchange Visitor Program Update – 2025 | Capitol Law Partners Blog"
+  title: "J-1 Visa - Exchange Visitor Program Update – 2025"
 seo:
   description: >-
     J-1 Visa: Exchange Visitor Program Participants Update – 2025. This guide,
     prepared by Capitol Law Partners, provides a comprehensive breakdown..
   canonicalOverride: https://capitollawpartners.com/j-1-visa-exchange-visitor-program-update-2025
-  title: "J-1 Visa - Exchange Visitor Program Update – 2025 | Capitol Law Partners Blog"
+  title: "J-1 Visa - Exchange Visitor Program Update – 2025"
 ---
 ### J-1 Visa: Exchange Visitor Program Participants Update – 2025
 

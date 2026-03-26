@@ -11,9 +11,9 @@ publishDate: 2026-05-15T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/pt/events/evento-do-250-aniversario-dos-eua
   description: Junte-se a Capitol Law Partners no evento de 250 anos dos EUA com palestrantes convidados e networking para a comunidade.
-  title: "Evento de Celebracao do 250 Aniversario dos EUA | Evento da Capitol Law Partners"
+  title: "Evento de Celebracao do 250 Aniversario dos EUA"
 seo:
-  title: "Evento de Celebracao do 250 Aniversario dos EUA | Evento da Capitol Law Partners"
+  title: "Evento de Celebracao do 250 Aniversario dos EUA"
   description: Junte-se a Capitol Law Partners no evento de 250 anos dos EUA com palestrantes convidados e networking para a comunidade.
   canonicalOverride: https://capitollawpartners.com/pt/events/evento-do-250-aniversario-dos-eua
 ---

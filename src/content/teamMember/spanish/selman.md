@@ -115,7 +115,7 @@ blog:
     corporativo y privacidad de datos.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "S. Selman Kilic - Abogado de litigios civiles, bienes raíces y gobierno corporativo | Capitol Law Partners"
+  title: "S. Selman Kilic | Capitol Law Partners"
   description: >-
     Descubra la experiencia de S. Selman Kilic en litigios civiles,
     transacciones inmobiliarias, gobierno corporativo y desafíos de plataformas

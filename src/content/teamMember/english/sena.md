@@ -126,7 +126,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Sena Sahin - Civil Litigation, Corporate Advisory & Data Privacy Attorney | Capitol Law Partners"
+  title: "Sena Sahin | Capitol Law Partners"
   description: >-
     Learn how Sena Sahin supports clients across civil litigation, corporate
     advisory, and data privacy matters with bilingual, results-driven counsel.

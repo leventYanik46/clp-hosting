@@ -14,7 +14,7 @@ metadata:
     U.S. visas..
   canonical: >-
     https://capitollawpartners.com/how-healthcare-professionals-can-work-in-the-u-s
-  title: "Apply for a US Visa As a Healthcare Professionals | Capitol Law Partners Blog"
+  title: "Apply for a US Visa As a Healthcare Professionals"
 seo:
   description: >-
     How Healthcare Professionals Can Work in the U.S.: Visa, Licensing, and
@@ -22,7 +22,7 @@ seo:
     U.S. visas..
   canonicalOverride: >-
     https://capitollawpartners.com/how-healthcare-professionals-can-work-in-the-u-s
-  title: "Apply for a US Visa As a Healthcare Professionals | Capitol Law Partners Blog"
+  title: "Apply for a US Visa As a Healthcare Professionals"
 ---
 ## How Healthcare Professionals Can Work in the U.S.: Visa, Licensing, and Equivalency Guide
 

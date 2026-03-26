@@ -119,7 +119,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Shafeek Seddiq - Estate Planning, Business Counsel & Healthcare Compliance Attorney | Capitol Law Partners"
+  title: "Shafeek Seddiq | Capitol Law Partners"
   description: >-
     Read about Shafeek Seddiq’s decades of experience in estate planning,
     business counsel, and international advisory work.

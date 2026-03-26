@@ -112,7 +112,7 @@ post:
 
     </ul>
 seo:
-  title: "I Visa Lawyer for Journalists and Media Professionals – Capitol Law Partners"
+  title: "I Visa | Capitol Law Partners"
   description: >-
     Media and press visas for representatives of foreign media entering the U.S.
     on assignment.

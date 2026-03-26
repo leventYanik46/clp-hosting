@@ -17,9 +17,9 @@ metadata:
   description: The National Interest Waiver lets skilled professionals secure a
     U.S. Green Card without employer sponsorship by proving their work benefits
     the country.
-  title: "National Interest Waiver: The Leading Green Card Choice for Professionals | Capitol Law Partners Blog"
+  title: "National Interest Waiver for Professionals | Capitol Law Partners"
 seo:
-  title: "National Interest Waiver: The Leading Green Card Choice for Professionals | Capitol Law Partners Blog"
+  title: "National Interest Waiver for Professionals | Capitol Law Partners"
   description: The National Interest Waiver lets skilled professionals secure a
     U.S. Green Card without employer sponsorship by proving their work benefits
     the country.

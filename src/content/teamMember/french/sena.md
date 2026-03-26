@@ -131,7 +131,7 @@ blog:
     des sociétés et la protection des données.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Sena Sahin - Avocate en contentieux civil, conseil aux entreprises et protection des données | Capitol Law Partners"
+  title: "Sena Sahin | Capitol Law Partners"
   description: >-
     Découvrez comment Sena Sahin accompagne ses clients en contentieux civil,
     conseil aux entreprises et confidentialité des données avec un

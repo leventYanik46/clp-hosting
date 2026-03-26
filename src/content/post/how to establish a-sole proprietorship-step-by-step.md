@@ -10,12 +10,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/how-to-establish-a-sole-proprietorship-step-by-step
   description: "How\_To\_Establish\_a Sole\_Proprietorship? Step by Step.How to Set\_Up\_a Sole\_Proprietorship\_in\_the\_United\_States.."
-  title: "How To Establish a Sole Proprietorship? Step by Step | Capitol Law Partners Blog"
+  title: "How To Establish a Sole Proprietorship? Step by Step"
 seo:
   description: "How\_To\_Establish\_a Sole\_Proprietorship? Step by Step.How to Set\_Up\_a Sole\_Proprietorship\_in\_the\_United\_States.."
   canonicalOverride: >-
     https://capitollawpartners.com/how-to-establish-a-sole-proprietorship-step-by-step
-  title: "How To Establish a Sole Proprietorship? Step by Step | Capitol Law Partners Blog"
+  title: "How To Establish a Sole Proprietorship? Step by Step"
 ---
 ## How to Set Up a Sole Proprietorship in the United States
 

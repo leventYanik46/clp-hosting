@@ -124,7 +124,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Esra Nur Bulan - Göçmenlik, İnsani Koruma ve Aile Temelli Başvurular Avukatı | Capitol Law Partners"
+  title: "Esra Nur Bulan | Capitol Law Partners"
   description: >-
     Esra Nur Bulan’ın göçmenlik hukuku, insani yardım ve aile temelli
     başvurulara olan bağlılığını keşfedin. Türkçe ve İngilizce bilen iki dilli

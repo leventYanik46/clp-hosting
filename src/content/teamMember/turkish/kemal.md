@@ -124,7 +124,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Kemal Sahin - Miras Planlaması, Küçük İşletme Uyuşmazlıkları ve Göçmenlik Avukatı | Capitol Law Partners"
+  title: "Kemal Sahin | Capitol Law Partners"
   description: >-
     Kemal Şahin’in uluslararası hukuk, anayasal haklar ve insan hakları
     savunuculuğundaki geniş hukuk bilgilerini keşfedin. 20 yılı aşkın küresel

@@ -14,12 +14,12 @@ metadata:
   description: "What is the easiest way that someone can immigrate to the US? \_Discover the easiest ways to immigrate to the United States—from family sponsorship and student visas to investor and professional options.."
   canonical: >-
     https://capitollawpartners.com/what-is-the-easiest-way-that-someone-can-immigrate-to-the-usa
-  title: "What Is the Easiest Way That Someone Can Immigrate To the USA? | Capitol Law Partners Blog"
+  title: "What Is the Easiest Way That Someone Can Immigrate To the USA?"
 seo:
   description: "What is the easiest way that someone can immigrate to the US? \_Discover the easiest ways to immigrate to the United States—from family sponsorship and student visas to investor and professional options.."
   canonicalOverride: >-
     https://capitollawpartners.com/what-is-the-easiest-way-that-someone-can-immigrate-to-the-usa
-  title: "What Is the Easiest Way That Someone Can Immigrate To the USA? | Capitol Law Partners Blog"
+  title: "What Is the Easiest Way That Someone Can Immigrate To the USA?"
 ---
 ## What is the easiest way that someone can immigrate to the USA?  
 

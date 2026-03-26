@@ -18,9 +18,9 @@ metadata:
     for permanent residency if their work benefits the United States at a
     national level.
   canonical: https://capitollawpartners.com/eb-2-niw-green-card-a-strategic-path-to-u-s-permanent-residency
-  title: "EB-2 NIW Green Card: A Strategic Path to U.S. Permanent Residency | Capitol Law Partners Blog"
+  title: "EB-2 NIW Green Card: A Strategic Path to U.S. Permanent Residency"
 seo:
-  title: "EB-2 NIW Green Card: A Strategic Path to U.S. Permanent Residency | Capitol Law Partners Blog"
+  title: "EB-2 NIW Green Card: A Strategic Path to U.S. Permanent Residency"
   description: For highly skilled professionals seeking a U.S. Green Card without
     employer sponsorship, the EB-2 NIW Green Card offers one of the most
     flexible and powerful immigration pathways available today. The EB-2

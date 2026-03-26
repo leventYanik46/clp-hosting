@@ -119,7 +119,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "S. Selman Kılıç - Medeni Dava, Gayrimenkul ve Kurumsal Yönetim Avukatı | Capitol Law Partners"
+  title: "S. Selman Kılıç | Capitol Law Partners"
   description: >-
     S. Selman Kılıç’ın medeni dava, gayrimenkul işlemleri, kurumsal yönetim ve
     dijital platformlarla ilgili hukuki konulardaki uzmanlığını keşfedin.

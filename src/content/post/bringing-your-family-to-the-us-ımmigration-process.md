@@ -20,14 +20,14 @@ metadata:
   description: >-
     Bringing Your Family to the US and the Immigration Process. The biggest
     mistakes in immigration processes. Parent Sponsorship..
-  title: "How Can I Bring My Family to the USA? | Immigration Process | Capitol Law Partners Blog"
+  title: "How Can I Bring My Family to the USA?| Immigration Process"
 seo:
   description: >-
     Bringing Your Family to the US and the Immigration Process. The biggest
     mistakes in immigration processes. Parent Sponsorship..
   canonicalOverride: >-
     https://capitollawpartners.com/bringing-your-family-to-the-us-immigration-process
-  title: "How Can I Bring My Family to the USA? | Immigration Process | Capitol Law Partners Blog"
+  title: "How Can I Bring My Family to the USA?| Immigration Process"
 ---
 ## Bringing Your Family to the US and the Immigration Process
 

@@ -120,7 +120,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Omar Bississo - Criminal Defense Trial & Appellate Attorney | Capitol Law Partners"
+  title: "Omar Bississo | Capitol Law Partners"
   description: >-
     Omar Bississo, principal and founder of Bississo Law, P.C., provides
     criminal defense across Virginia and Washington, D.C., with trial and

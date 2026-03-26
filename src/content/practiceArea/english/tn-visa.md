@@ -110,7 +110,7 @@ post:
 
     </ul>
 seo:
-  title: "TN Visa Lawyer for Canadian and Mexican Professionals – Capitol Law Partners"
+  title: "TN Visa | Capitol Law Partners"
   description: NAFTA/USMCA professional visas for qualified Canadian and Mexican citizens.
   schema:
     mode: merge

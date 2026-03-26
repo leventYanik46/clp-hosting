@@ -132,7 +132,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: "Mehmet Y. Turkoglu - Avocat en immigration, asile et pétitions familiales | Capitol Law Partners"
+  title: "Mehmet Y. Turkoglu | Capitol Law Partners"
   description: >-
     Mehmet Y. Turkoglu, avocat en immigration chez Capitol Law Partners, offre
     une représentation dévouée et stratégique dans les domaines de l’asile, des

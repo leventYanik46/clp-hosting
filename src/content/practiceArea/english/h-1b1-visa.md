@@ -112,7 +112,7 @@ post:
 
     </ul>
 seo:
-  title: "H-1B1 Visa Lawyer for Chilean and Singaporean Professionals – Capitol Law Partners"
+  title: "H-1B1 Visa | Capitol Law Partners"
   description: >-
     Professionals from Chile and Singapore seeking specialty occupation roles in
     the United States.

@@ -117,7 +117,7 @@ blog:
     corporativo y privacidad de datos.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Shafeek Seddiq - Abogado de planificación patrimonial, asesoría empresarial y cumplimiento sanitario | Capitol Law Partners"
+  title: "Shafeek Seddiq | Capitol Law Partners"
   description: >-
     Conozca las décadas de experiencia de Shafeek Seddiq en planificación
     patrimonial, asesoría empresarial y trabajo consultivo internacional.

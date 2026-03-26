@@ -124,7 +124,7 @@ blog:
   bgClass: absolute inset-0 bg-blue-50
   id: blog
 seo:
-  title: "Mehmet Y. Turkoglu - Göçmenlik, İltica ve Aile Temelli Başvurular Avukatı | Capitol Law Partners"
+  title: "Mehmet Y. Turkoglu | Capitol Law Partners"
   description: >-
     Mehmet Y. Turkoglu, Capitol Law Partners’ta göçmenlik avukatı olarak,
     sığınma, aile temelli başvurular, vatandaşlık ve çalışma temelli göçmenlik

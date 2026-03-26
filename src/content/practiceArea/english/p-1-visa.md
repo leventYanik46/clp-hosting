@@ -110,7 +110,7 @@ post:
 
     </ul>
 seo:
-  title: "P-1 Visa Lawyer for Athletes and Entertainment Groups – Capitol Law Partners"
+  title: "P-1 Visa | Capitol Law Partners"
   description: Visas for internationally recognized athletes and entertainment groups.
   schema:
     mode: merge

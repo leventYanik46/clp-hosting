@@ -17,14 +17,14 @@ metadata:
     visas could impact international students.
   canonical: >-
     https://capitollawpartners.com/u-s-immigration-update-2025-how-proposed-rules-affect-f-1-students-and-scholars
-  title: "U.S. Immigration Update 2025: How Proposed Rules Affect F-1 Students and Scholars | Capitol Law Partners Blog"
+  title: "2025 U.S. Immigration Rule Changes Affecting F-1 Students"
 seo:
   description: >-
     U.S. Immigration Update 2025. Learn how Trump's proposed rule on student
     visas could impact international students.
   canonicalOverride: >-
     https://capitollawpartners.com/u-s-immigration-update-2025-how-proposed-rules-affect-f-1-students-and-scholars
-  title: "U.S. Immigration Update 2025: How Proposed Rules Affect F-1 Students and Scholars | Capitol Law Partners Blog"
+  title: "2025 U.S. Immigration Rule Changes Affecting F-1 Students"
 ---
 ## U.S. Immigration Update 2025: How Proposed Rules Affect F-1 Students and Scholars
 

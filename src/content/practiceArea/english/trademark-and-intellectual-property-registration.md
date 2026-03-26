@@ -113,7 +113,7 @@ post:
     <p>People comparing Trademark and Intellectual Property Registration attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
-  title: "Trademark and Intellectual Property Registration Services | Capitol Law Partners"
+  title: "Trademark and Intellectual Property Registration"
   description: >-
     Protect brand assets with trademark searches, filings, and responses that
     reduce conflicts and speed approvals.

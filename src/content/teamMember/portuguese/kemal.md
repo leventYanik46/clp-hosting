@@ -121,7 +121,7 @@ blog:
     corporativo e privacidade de dados.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Kemal Sahin - Advogado de planejamento sucessório, pequenas empresas e imigração | Capitol Law Partners"
+  title: "Kemal Sahin | Capitol Law Partners"
   description: >-
     Descubra a ampla experiência jurídica de Kemal Sahin em direito
     internacional, direitos constitucionais e defesa dos direitos humanos.

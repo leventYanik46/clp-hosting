@@ -113,7 +113,7 @@ post:
     <p>People comparing Property Acquisitions, Leasing, and Development attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
-  title: "Property Acquisitions, Leasing, and Development Services | Capitol Law Partners"
+  title: "Property Acquisitions, Leasing, and Development | Capitol Law Partners"
   description: >-
     Strategic guidance for acquisitions, leasing, and development projects to
     keep investments on track.

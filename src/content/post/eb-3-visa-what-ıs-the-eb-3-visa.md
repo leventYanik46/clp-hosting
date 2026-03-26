@@ -12,11 +12,11 @@ publishDate: 2025-09-02T15:13:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/eb-3-visa-what-is-the-eb-3-visa
   description: " EB-3 Visa | What Is the EB-3 Visa?\_Learn how the EB-3 visa can help you achieve U.S. permanent residency.."
-  title: "EB-3 Visa - What Is the EB-3 Visa? How to Apply ? | Capitol Law Partners Blog"
+  title: "EB-3 Visa - What Is the EB-3 Visa? How to Apply?"
 seo:
   description: " EB-3 Visa | What Is the EB-3 Visa?\_Learn how the EB-3 visa can help you achieve U.S. permanent residency.."
   canonicalOverride: https://capitollawpartners.com/eb-3-visa-what-is-the-eb-3-visa
-  title: "EB-3 Visa - What Is the EB-3 Visa? How to Apply ? | Capitol Law Partners Blog"
+  title: "EB-3 Visa - What Is the EB-3 Visa? How to Apply?"
 ---
 ## **Understanding the EB-3 Visa**
 

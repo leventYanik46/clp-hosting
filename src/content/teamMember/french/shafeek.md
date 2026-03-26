@@ -120,7 +120,7 @@ blog:
     des sociétés et la protection des données.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Shafeek Seddiq - Avocat en planification successorale, conseil aux entreprises et conformité en santé | Capitol Law Partners"
+  title: "Shafeek Seddiq | Capitol Law Partners"
   description: >-
     Découvrez les décennies d’expérience de Shafeek Seddiq en planification
     successorale, conseil aux entreprises et accompagnement international.

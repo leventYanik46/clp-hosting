@@ -20,14 +20,14 @@ metadata:
   description: >-
     Small Business Intellectual Property Protection Types. Trade mark · Trade
     secret · Copyright · Company name registration · Design · Patent.
-  title: "Small Business Intellectual Property Protection Types in US | Capitol Law Partners Blog"
+  title: "Small Business Intellectual Property Protection Types in US"
 seo:
   description: >-
     Small Business Intellectual Property Protection Types. Trade mark · Trade
     secret · Copyright · Company name registration · Design · Patent.
   canonicalOverride: >-
     https://capitollawpartners.com/small-business-intellectual-property-protection-types
-  title: "Small Business Intellectual Property Protection Types in US | Capitol Law Partners Blog"
+  title: "Small Business Intellectual Property Protection Types in US"
 ---
 ## Small Business Intellectual Property Protection Types
 

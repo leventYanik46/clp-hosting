@@ -122,7 +122,7 @@ blog:
     corporativo y privacidad de datos.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Esra Nur Bulan - Abogada de inmigración, alivio humanitario y peticiones familiares | Capitol Law Partners"
+  title: "Esra Nur Bulan | Capitol Law Partners"
   description: >-
     Conozca la dedicación de Esra Nur Bulan al derecho migratorio, el alivio
     humanitario y las peticiones basadas en la familia. Defensora bilingüe

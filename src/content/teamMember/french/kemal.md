@@ -123,7 +123,7 @@ blog:
     des sociétés et la protection des données.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Kemal Sahin - Avocat en planification successorale, litiges de petites entreprises et immigration | Capitol Law Partners"
+  title: "Kemal Sahin | Capitol Law Partners"
   description: >-
     Découvrez la vaste expertise juridique de Kemal Sahin en droit
     international, droits constitutionnels et défense des droits humains.

@@ -18,12 +18,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/tr/green-card-almanin-en-hizli-yollari-yesil-kart-nasil-daha-hizli-alinir
   description: "Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En Hızlı Yolları\_| Green Card Nasıl Daha Hızlı Alınır ?"
-  title: "Green Card Almanın En Hızlı Yolları | Hızlı Süreç | Capitol Law Partners Blog"
+  title: "Green Card Almanın En Hızlı Yolları| Hızlı Süreç"
 seo:
   description: "Green Card Almanın En Hızlı Yolları. ABD'de Yeşil Kart Almanın En Hızlı Yolları\_| Green Card Nasıl Daha Hızlı Alınır ?"
   canonicalOverride: >-
     https://capitollawpartners.com/tr/green-card-almanin-en-hizli-yollari-yesil-kart-nasil-daha-hizli-alinir
-  title: "Green Card Almanın En Hızlı Yolları | Hızlı Süreç | Capitol Law Partners Blog"
+  title: "Green Card Almanın En Hızlı Yolları| Hızlı Süreç"
 ---
 # ABD'de Yeşil Kart Almanın En Hızlı Yolları | Green Card Nasıl Daha Hızlı Alınır ?
 

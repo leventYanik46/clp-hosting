@@ -126,7 +126,7 @@ blog:
     des sociétés et la protection des données.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Esra Nur Bulan - Avocate en immigration, protection humanitaire et pétitions familiales | Capitol Law Partners"
+  title: "Esra Nur Bulan | Capitol Law Partners"
   description: >-
     Découvrez l’engagement d’Esra Nur Bulan pour le droit de l’immigration,
     l’aide humanitaire et les demandes familiales. Avocate bilingue, fluente en
