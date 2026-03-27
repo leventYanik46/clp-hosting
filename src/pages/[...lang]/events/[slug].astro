@@ -84,8 +84,8 @@ const metadata = merge(
 ) as MetaData;
 
 const seo: SeoData = {
-  title: event.metadata?.title ?? event.title,
-  description: event.metadata?.description ?? event.excerpt,
+  title: event.seo?.title ?? event.metadata?.title ?? event.title,
+  description: event.seo?.description ?? event.metadata?.description ?? event.excerpt,
   ogImage: imageSource,
   noindex: eventPostRobots?.index === false,
   nofollow: eventPostRobots?.follow === false,

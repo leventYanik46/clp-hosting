@@ -83,6 +83,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // allow editors to set a language or array of languages on the post frontmatter
     lang: rawLang = undefined,
     metadata = {},
+    seo = {},
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
@@ -120,6 +121,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     draft: draft,
 
     metadata,
+    seo,
 
     Content: Content,
     // Preserve the raw entry body so the blog search index can match post content.

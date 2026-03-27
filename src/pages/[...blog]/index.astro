@@ -88,8 +88,8 @@ const metadata = merge(
 ) as MetaData;
 
 const seo: SeoData = {
-  title: post.metadata?.title ?? post.title,
-  description: post.metadata?.description ?? post.excerpt,
+  title: post.seo?.title ?? post.metadata?.title ?? post.title,
+  description: post.seo?.description ?? post.metadata?.description ?? post.excerpt,
   ogImage: imageSource,
   noindex: blogPostRobots?.index === false,
   nofollow: blogPostRobots?.follow === false,

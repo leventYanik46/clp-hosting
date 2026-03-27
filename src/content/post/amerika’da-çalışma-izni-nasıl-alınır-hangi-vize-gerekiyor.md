@@ -16,7 +16,7 @@ seo:
   description: "Amerika’da Çalışma İzni Nasıl Alınır? Hangi Vize Gerekiyor? Vize İçin Gerekli Belgeler.  E-1 / E-2 mi, H-1B mi? Hangi Vize Kimler İçin Daha Uygun? Capitol\_Law\_Partners\_ile Amerika’da Çalışma ve Göçmenlik Sürecinizi Yönetmek.."
   canonicalOverride: >-
     https://capitollawpartners.com/tr/amerikada-calisma-izni-nasil-alinir-hangi-vize-gerekiyor
-  title: "ABD çalışma izni için hangi vize gerekir?"
+  title: "Amerika’da çalışma izni için hangi vize gerekir?"
 ---
 # Amerika’da Çalışma İzni Nasıl Alınır? 
 

@@ -22,6 +22,7 @@ const getNormalizedEvent = async (event: CollectionEntry<'event'>): Promise<Post
     draft = false,
     lang: rawLang = undefined,
     metadata = {},
+    seo = {},
   } = data;
 
   const slug = cleanSlug(rawSlug.split('/').pop() || rawSlug);
@@ -54,6 +55,7 @@ const getNormalizedEvent = async (event: CollectionEntry<'event'>): Promise<Post
     author,
     draft,
     metadata,
+    seo,
     Content,
     readingTime: remarkPluginFrontmatter?.readingTime,
     lang: rawLang,
