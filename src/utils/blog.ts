@@ -12,6 +12,7 @@ import {
   TAG_BASE,
   getPermalink,
 } from './permalinks';
+import { shouldGenerateBlogCategoryRoute } from './archiveRoutes';
 import { supportedLang } from '~/utils/lib/languageParser';
 import config from '~/config/config.json';
 
@@ -300,7 +301,6 @@ export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateF
 
   const defaultLang = config.settings.default_language;
   const languages = supportedLang; // e.g. ["", "en", "tr"] when default is root
-  console.log('getStaticPathsBlogList languages', languages);
 
   return languages.flatMap((langPrefix) => {
     const langCode = langPrefix === '' ? defaultLang : langPrefix;
@@ -310,6 +310,8 @@ export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateF
       if (typeof postLang === 'string') return postLang === langCode;
       return langCode === defaultLang;
     });
+
+    if (filtered.length === 0) return [];
 
     const blogParam = BLOG_BASE ? (langPrefix ? `${langPrefix}/${BLOG_BASE}` : `${BLOG_BASE}`) : undefined;
 
@@ -356,42 +358,27 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
     }
   });
 
-  const defaultLang = config.settings.default_language;
   return Array.from(Object.keys(categories)).flatMap((categorySlug) => {
-    // derive set of language codes present in posts, fallback to default
-    const langCodes = Array.from(
-      new Set(
-        posts.flatMap((p) => {
-          const pl = p.lang;
-          if (Array.isArray(pl)) return pl;
-          if (typeof pl === 'string') return [pl];
-          return [defaultLang];
-        })
-      )
-    );
+    const categoryPosts = posts.filter((post) => post.category?.slug === categorySlug);
+    const langCodes = Array.from(new Set(categoryPosts.flatMap((post) => getPostLanguageCodes(post))));
 
-    const prefixes = langCodes.map((code) => (code === defaultLang ? '' : code));
+    return langCodes.flatMap((code) => {
+      if (!shouldGenerateBlogCategoryRoute(categorySlug, code)) return [];
 
-    return prefixes.flatMap((prefix) =>
-      paginate(
-        posts.filter((post) => {
-          if (!post.category?.slug || categorySlug !== post.category.slug) return false;
-          const postLang = post.lang;
-          const code = prefix === '' ? defaultLang : prefix;
-          if (Array.isArray(postLang)) return postLang.includes(code);
-          if (typeof postLang === 'string') return postLang === code;
-          return code === defaultLang;
-        }),
-        {
-          params: {
-            category: categorySlug,
-            blog: CATEGORY_BASE ? (prefix ? `${prefix}/${CATEGORY_BASE}` : `${CATEGORY_BASE}`) : undefined,
-          },
-          pageSize: blogPostsPerPage,
-          props: { category: categories[categorySlug], lang: prefix === '' ? defaultLang : prefix },
-        }
-      )
-    );
+      const filtered = categoryPosts.filter((post) => getPostLanguageCodes(post).includes(code));
+      if (filtered.length === 0) return [];
+
+      const prefix = getLanguagePrefix(code);
+
+      return paginate(filtered, {
+        params: {
+          category: categorySlug,
+          blog: CATEGORY_BASE ? (prefix ? `${prefix}/${CATEGORY_BASE}` : `${CATEGORY_BASE}`) : undefined,
+        },
+        pageSize: blogPostsPerPage,
+        props: { category: categories[categorySlug], lang: code },
+      });
+    });
   });
 };
 
@@ -409,38 +396,22 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
     }
   });
 
-  const defaultLang = config.settings.default_language;
   return Array.from(Object.keys(tags)).flatMap((tagSlug) => {
-    const langCodes = Array.from(
-      new Set(
-        posts.flatMap((p) => {
-          const pl = p.lang;
-          if (Array.isArray(pl)) return pl;
-          if (typeof pl === 'string') return [pl];
-          return [defaultLang];
-        })
-      )
-    );
+    const taggedPosts = posts.filter((post) => Array.isArray(post.tags) && post.tags.some((tag) => tag.slug === tagSlug));
+    const langCodes = Array.from(new Set(taggedPosts.flatMap((post) => getPostLanguageCodes(post))));
 
-    const prefixes = langCodes.map((code) => (code === defaultLang ? '' : code));
+    return langCodes.flatMap((code) => {
+      const filtered = taggedPosts.filter((post) => getPostLanguageCodes(post).includes(code));
+      if (filtered.length === 0) return [];
 
-    return prefixes.flatMap((prefix) =>
-      paginate(
-        posts.filter((post) => {
-          if (!Array.isArray(post.tags) || !post.tags.find((elem) => elem.slug === tagSlug)) return false;
-          const postLang = post.lang;
-          const code = prefix === '' ? defaultLang : prefix;
-          if (Array.isArray(postLang)) return postLang.includes(code);
-          if (typeof postLang === 'string') return postLang === code;
-          return code === defaultLang;
-        }),
-        {
-          params: { tag: tagSlug, blog: TAG_BASE ? (prefix ? `${prefix}/${TAG_BASE}` : `${TAG_BASE}`) : undefined },
-          pageSize: blogPostsPerPage,
-          props: { tag: tags[tagSlug], lang: prefix === '' ? defaultLang : prefix },
-        }
-      )
-    );
+      const prefix = getLanguagePrefix(code);
+
+      return paginate(filtered, {
+        params: { tag: tagSlug, blog: TAG_BASE ? (prefix ? `${prefix}/${TAG_BASE}` : `${TAG_BASE}`) : undefined },
+        pageSize: blogPostsPerPage,
+        props: { tag: tags[tagSlug], lang: code },
+      });
+    });
   });
 };
 
@@ -461,56 +432,35 @@ const getLanguageCounts = (posts: Post[]): Map<string, number> => {
   return countsByLanguage;
 };
 
-const getLanguageCodesForPage = (
-  countsByLanguage: Map<string, number>,
-  pageNumber: number,
-  routeLanguageCodes: string[]
-): string[] => {
+const getLanguageCodesForPage = (countsByLanguage: Map<string, number>, pageNumber: number): string[] => {
   const currentPage = normalizePageNumber(pageNumber);
-  const resolvedRouteLanguageCodes =
-    routeLanguageCodes.length > 0 ? Array.from(new Set(routeLanguageCodes)) : [defaultBlogLanguage];
-
-  // Page 1 exists for every generated language route, even if there are no posts for that language.
-  if (currentPage === 1) {
-    return resolvedRouteLanguageCodes;
-  }
-
   const minItemCount = (currentPage - 1) * pageSize + 1;
 
-  const available = resolvedRouteLanguageCodes.filter((languageCode) => {
-    return (countsByLanguage.get(languageCode) || 0) >= minItemCount;
-  });
-
-  if (available.length === 0) {
-    return [defaultBlogLanguage];
-  }
-
-  return available;
+  return Array.from(countsByLanguage.entries())
+    .filter(([, count]) => count >= minItemCount)
+    .map(([languageCode]) => languageCode);
 };
 
 export const getBlogLanguageCodesForListPage = async (pageNumber = 1): Promise<string[]> => {
   const posts = await fetchPosts();
-  const routeLanguageCodes = Array.from(
-    new Set(supportedLang.map((langPrefix) => (langPrefix === '' ? defaultBlogLanguage : langPrefix)))
-  );
   const countsByLanguage = getLanguageCounts(posts);
-  return getLanguageCodesForPage(countsByLanguage, pageNumber, routeLanguageCodes);
+  return getLanguageCodesForPage(countsByLanguage, pageNumber);
 };
 
 export const getBlogLanguageCodesForCategoryPage = async (categorySlug: string, pageNumber = 1): Promise<string[]> => {
   const posts = await fetchPosts();
   const categoryPosts = posts.filter((post) => post.category?.slug === categorySlug);
-  const routeLanguageCodes = Array.from(new Set(posts.flatMap((post) => getPostLanguageCodes(post))));
   const countsByLanguage = getLanguageCounts(categoryPosts);
-  return getLanguageCodesForPage(countsByLanguage, pageNumber, routeLanguageCodes);
+  return getLanguageCodesForPage(countsByLanguage, pageNumber).filter((languageCode) =>
+    shouldGenerateBlogCategoryRoute(categorySlug, languageCode)
+  );
 };
 
 export const getBlogLanguageCodesForTagPage = async (tagSlug: string, pageNumber = 1): Promise<string[]> => {
   const posts = await fetchPosts();
   const tagPosts = posts.filter((post) => Array.isArray(post.tags) && post.tags.some((tag) => tag.slug === tagSlug));
-  const routeLanguageCodes = Array.from(new Set(posts.flatMap((post) => getPostLanguageCodes(post))));
   const countsByLanguage = getLanguageCounts(tagPosts);
-  return getLanguageCodesForPage(countsByLanguage, pageNumber, routeLanguageCodes);
+  return getLanguageCodesForPage(countsByLanguage, pageNumber);
 };
 
 /** */

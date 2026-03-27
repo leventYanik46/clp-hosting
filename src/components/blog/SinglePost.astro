@@ -4,15 +4,22 @@ import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 import { getPermalink } from '~/utils/permalinks';
+import { resolveBlogCategoryArchivePath } from '~/utils/archiveRoutes';
 import { getFormattedDate } from '~/utils/utils';
 import type { Post } from '~/types';
+import config from '~/config/config.json';
 
 export interface Props {
   post: Post;
   url: string | URL;
+  lang?: string;
 }
 
-const { post, url } = Astro.props;
+const { post, url, lang } = Astro.props;
+const resolvedLang =
+  lang || (Array.isArray(post.lang) ? post.lang[0] : typeof post.lang === 'string' ? post.lang : config.settings.default_language);
+const categoryPath = post.category?.slug ? resolveBlogCategoryArchivePath(post.category.slug, resolvedLang) : undefined;
+const categoryHref = categoryPath ? getPermalink(categoryPath, 'page') : undefined;
 
 // Determine image source and dimensions, with sensible defaults if not provided
 let imageSrc: string | URL | undefined = undefined;
@@ -56,9 +63,13 @@ if (post.image) {
               <>
                 {' '}
                 ·{' '}
-                <a class="hover:underline inline-block" href={getPermalink(post.category.slug, 'category')}>
-                  {post.category.title}
-                </a>
+                {categoryHref ? (
+                  <a class="hover:underline inline-block" href={categoryHref}>
+                    {post.category.title}
+                  </a>
+                ) : (
+                  <span class="inline-block">{post.category.title}</span>
+                )}
               </>
             )
           }
@@ -108,7 +119,7 @@ if (post.image) {
       <slot />
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
-      <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
+      <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" lang={resolvedLang} />
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500" />
     </div>
   </article>

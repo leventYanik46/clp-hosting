@@ -46,6 +46,518 @@
   to   = "/:splat"
   status = 301
 
+# Remove root taxonomy pages that should resolve to localized or canonical destinations
+[[redirects]]
+  from = "/category/abd-vize-reddi-reddetme-ve-iade"
+  to   = "/tr/category/abd-vize-reddi-reddetme-ve-iade"
+  status = 301
+
+[[redirects]]
+  from = "/category/abd-vize-reddi-reddetme-ve-iade/"
+  to   = "/tr/category/abd-vize-reddi-reddetme-ve-iade"
+  status = 301
+
+[[redirects]]
+  from = "/category/affirmative-asylum"
+  to   = "/affirmative-asylum"
+  status = 301
+
+[[redirects]]
+  from = "/category/affirmative-asylum/"
+  to   = "/affirmative-asylum"
+  status = 301
+
+[[redirects]]
+  from = "/category/amerika-vizesi"
+  to   = "/tr/category/amerika-vizesi"
+  status = 301
+
+[[redirects]]
+  from = "/category/amerika-vizesi/"
+  to   = "/tr/category/amerika-vizesi"
+  status = 301
+
+[[redirects]]
+  from = "/category/amerikada-egitim"
+  to   = "/tr/blog"
+  status = 301
+
+[[redirects]]
+  from = "/category/amerikada-egitim/"
+  to   = "/tr/blog"
+  status = 301
+
+[[redirects]]
+  from = "/category/amerikada-oturma-izni"
+  to   = "/tr/blog"
+  status = 301
+
+[[redirects]]
+  from = "/category/amerikada-oturma-izni/"
+  to   = "/tr/blog"
+  status = 301
+
+[[redirects]]
+  from = "/category/estate-planning"
+  to   = "/what-is-estate-planning-in-the-us"
+  status = 301
+
+[[redirects]]
+  from = "/category/estate-planning/"
+  to   = "/what-is-estate-planning-in-the-us"
+  status = 301
+
+[[redirects]]
+  from = "/category/eu-citizenship"
+  to   = "/path-to-us-citizenship-requirements-for-eu-citizenship"
+  status = 301
+
+[[redirects]]
+  from = "/category/eu-citizenship/"
+  to   = "/path-to-us-citizenship-requirements-for-eu-citizenship"
+  status = 301
+
+[[redirects]]
+  from = "/category/form-kilavuzu"
+  to   = "/tr/blog"
+  status = 301
+
+[[redirects]]
+  from = "/category/form-kilavuzu/"
+  to   = "/tr/blog"
+  status = 301
+
+[[redirects]]
+  from = "/category/gocmenlik-hukuku"
+  to   = "/tr/category/gocmenlik-hukuku"
+  status = 301
+
+[[redirects]]
+  from = "/category/gocmenlik-hukuku/"
+  to   = "/tr/category/gocmenlik-hukuku"
+  status = 301
+
+[[redirects]]
+  from = "/category/gocmenlik-ve-mesleki-lisanslama"
+  to   = "/tr/category/gocmenlik-ve-mesleki-lisanslama"
+  status = 301
+
+[[redirects]]
+  from = "/category/gocmenlik-ve-mesleki-lisanslama/"
+  to   = "/tr/category/gocmenlik-ve-mesleki-lisanslama"
+  status = 301
+
+[[redirects]]
+  from = "/category/green-card-basvurusu"
+  to   = "/tr/category/green-card-basvurusu"
+  status = 301
+
+[[redirects]]
+  from = "/category/green-card-basvurusu/"
+  to   = "/tr/category/green-card-basvurusu"
+  status = 301
+
+[[redirects]]
+  from = "/category/i-130"
+  to   = "/whatis-form-i-130-2025-update"
+  status = 301
+
+[[redirects]]
+  from = "/category/i-130/"
+  to   = "/whatis-form-i-130-2025-update"
+  status = 301
+
+[[redirects]]
+  from = "/category/immigration-mandamus-lawsuits"
+  to   = "/immigration-mandamus-lawsuits"
+  status = 301
+
+[[redirects]]
+  from = "/category/immigration-mandamus-lawsuits/"
+  to   = "/immigration-mandamus-lawsuits"
+  status = 301
+
+[[redirects]]
+  from = "/category/removal-proceedings"
+  to   = "/removal-proceedings"
+  status = 301
+
+[[redirects]]
+  from = "/category/removal-proceedings/"
+  to   = "/removal-proceedings"
+  status = 301
+
+[[redirects]]
+  from = "/category/visa"
+  to   = "/understanding-the-h-1b-visa-process"
+  status = 301
+
+[[redirects]]
+  from = "/category/visa/"
+  to   = "/understanding-the-h-1b-visa-process"
+  status = 301
+
+[[redirects]]
+  from = "/category/vize-and-green-card"
+  to   = "/tr/category/vize-and-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/category/vize-and-green-card/"
+  to   = "/tr/category/vize-and-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/category/writ-of-mandamus"
+  to   = "/whatis-a-writ-ofmandamus"
+  status = 301
+
+[[redirects]]
+  from = "/category/writ-of-mandamus/"
+  to   = "/whatis-a-writ-ofmandamus"
+  status = 301
+
+# Turkish category URLs that belong to the English/root archive set
+[[redirects]]
+  from = "/tr/category/affirmative-asylum"
+  to   = "/affirmative-asylum"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/affirmative-asylum/"
+  to   = "/affirmative-asylum"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/business-immigration"
+  to   = "/category/business-immigration"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/business-immigration/"
+  to   = "/category/business-immigration"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/business-law"
+  to   = "/category/business-law"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/business-law/"
+  to   = "/category/business-law"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/business-litigation"
+  to   = "/category/business-litigation"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/business-litigation/"
+  to   = "/category/business-litigation"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/citizenship-and-military-service"
+  to   = "/category/citizenship-and-military-service"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/citizenship-and-military-service/"
+  to   = "/category/citizenship-and-military-service"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/estate-planning"
+  to   = "/what-is-estate-planning-in-the-us"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/estate-planning/"
+  to   = "/what-is-estate-planning-in-the-us"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/eu-citizenship"
+  to   = "/path-to-us-citizenship-requirements-for-eu-citizenship"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/eu-citizenship/"
+  to   = "/path-to-us-citizenship-requirements-for-eu-citizenship"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/form-guide"
+  to   = "/category/form-guide"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/form-guide/"
+  to   = "/category/form-guide"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/green-card-and-immigration-and-visa-news"
+  to   = "/category/green-card-and-immigration-and-visa-news"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/green-card-and-immigration-and-visa-news/"
+  to   = "/category/green-card-and-immigration-and-visa-news"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/green-card-process"
+  to   = "/category/green-card-process"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/green-card-process/"
+  to   = "/category/green-card-process"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/i-130"
+  to   = "/whatis-form-i-130-2025-update"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/i-130/"
+  to   = "/whatis-form-i-130-2025-update"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/immigrant-visas"
+  to   = "/category/immigrant-visas"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/immigrant-visas/"
+  to   = "/category/immigrant-visas"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/immigration-and-professional-licensing"
+  to   = "/category/immigration-and-professional-licensing"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/immigration-and-professional-licensing/"
+  to   = "/category/immigration-and-professional-licensing"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/immigration-mandamus-lawsuits"
+  to   = "/immigration-mandamus-lawsuits"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/immigration-mandamus-lawsuits/"
+  to   = "/immigration-mandamus-lawsuits"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/intellectual-property"
+  to   = "/category/intellectual-property"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/intellectual-property/"
+  to   = "/category/intellectual-property"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/intellectual-property-law"
+  to   = "/category/intellectual-property-law"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/intellectual-property-law/"
+  to   = "/category/intellectual-property-law"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/investment-visa"
+  to   = "/category/investment-visa"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/investment-visa/"
+  to   = "/category/investment-visa"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/law-partner"
+  to   = "/category/law-partner"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/law-partner/"
+  to   = "/category/law-partner"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/legal-advice"
+  to   = "/category/legal-advice"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/legal-advice/"
+  to   = "/category/legal-advice"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/real-estate"
+  to   = "/category/real-estate"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/real-estate/"
+  to   = "/category/real-estate"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/real-estate-law"
+  to   = "/category/real-estate-law"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/real-estate-law/"
+  to   = "/category/real-estate-law"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/removal-asylum"
+  to   = "/category/removal-asylum"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/removal-asylum/"
+  to   = "/category/removal-asylum"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/removal-proceedings"
+  to   = "/removal-proceedings"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/removal-proceedings/"
+  to   = "/removal-proceedings"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/student-visa"
+  to   = "/category/student-visa"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/student-visa/"
+  to   = "/category/student-visa"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/us-visa-denials-refusals-and-rejections"
+  to   = "/category/us-visa-denials-refusals-and-rejections"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/us-visa-denials-refusals-and-rejections/"
+  to   = "/category/us-visa-denials-refusals-and-rejections"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/usa-news"
+  to   = "/category/usa-news"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/usa-news/"
+  to   = "/category/usa-news"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/valid-will"
+  to   = "/category/valid-will"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/valid-will/"
+  to   = "/category/valid-will"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/visa"
+  to   = "/understanding-the-h-1b-visa-process"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/visa/"
+  to   = "/understanding-the-h-1b-visa-process"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/visa-application"
+  to   = "/category/visa-application"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/visa-application/"
+  to   = "/category/visa-application"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/visa-refused"
+  to   = "/category/visa-refused"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/visa-refused/"
+  to   = "/category/visa-refused"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/writ-of-mandamus"
+  to   = "/whatis-a-writ-ofmandamus"
+  status = 301
+
+[[redirects]]
+  from = "/tr/category/writ-of-mandamus/"
+  to   = "/whatis-a-writ-ofmandamus"
+  status = 301
+
+[[redirects]]
+  from = "/events/category/anniversary-event"
+  to   = "/events/us-250th-anniversary-celebration"
+  status = 301
+
+[[redirects]]
+  from = "/events/category/anniversary-event/"
+  to   = "/events/us-250th-anniversary-celebration"
+  status = 301
+
+[[redirects]]
+  from = "/events/category/world-cup-event"
+  to   = "/events/fifa-world-cup-2026-community-event"
+  status = 301
+
+[[redirects]]
+  from = "/events/category/world-cup-event/"
+  to   = "/events/fifa-world-cup-2026-community-event"
+  status = 301
+
+[[redirects]]
+  from = "/events/tag/world-cup-2026"
+  to   = "/events/fifa-world-cup-2026-community-event"
+  status = 301
+
+[[redirects]]
+  from = "/events/tag/world-cup-2026/"
+  to   = "/events/fifa-world-cup-2026-community-event"
+  status = 301
+
 # Old “About” pages → /about
 [[redirects]]
   from = "/hakkimizda/"

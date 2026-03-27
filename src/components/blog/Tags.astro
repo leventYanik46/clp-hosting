@@ -1,5 +1,11 @@
 ---
 import { getPermalink } from '~/utils/permalinks';
+import {
+  resolveBlogCategoryArchivePath,
+  resolveBlogTagArchivePath,
+  resolveEventCategoryArchivePath,
+  resolveEventTagArchivePath,
+} from '~/utils/archiveRoutes';
 
 import { APP_BLOG } from 'astrowind:config';
 import type { Post } from '~/types';
@@ -10,9 +16,10 @@ export interface Props {
   title?: string | undefined;
   isCategory?: boolean;
   taxonomyBasePath?: string;
+  lang?: string;
 }
 
-const { tags, class: className = 'text-sm', title = undefined, isCategory = false, taxonomyBasePath } = Astro.props;
+const { tags, class: className = 'text-sm', title = undefined, isCategory = false, taxonomyBasePath, lang } = Astro.props;
 const shouldLink = taxonomyBasePath ? true : APP_BLOG?.tag?.isEnabled;
 ---
 
@@ -31,11 +38,16 @@ const shouldLink = taxonomyBasePath ? true : APP_BLOG?.tag?.isEnabled;
               tag.title
             ) : (
               <a
-                href={
-                  taxonomyBasePath
-                    ? getPermalink(`${taxonomyBasePath}/${isCategory ? 'category' : 'tag'}/${tag.slug}`, 'page')
-                    : getPermalink(tag.slug, isCategory ? 'category' : 'tag')
-                }
+                href={getPermalink(
+                  taxonomyBasePath === 'events'
+                    ? isCategory
+                      ? resolveEventCategoryArchivePath(tag.slug, lang)
+                      : resolveEventTagArchivePath(tag.slug, lang)
+                    : isCategory
+                      ? resolveBlogCategoryArchivePath(tag.slug, lang)
+                      : resolveBlogTagArchivePath(tag.slug, lang),
+                  'page'
+                )}
                 class="text-muted hover:text-primary "
               >
                 {tag.title}

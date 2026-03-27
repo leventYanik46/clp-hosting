@@ -3,8 +3,16 @@ import type { GetStaticPaths } from 'astro';
 import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
 import { fetchEvents, getEventLanguageCodes, eventsListRobots } from '~/utils/events';
+import { resolveEventTagArchivePath, shouldGenerateEventTagRoute } from '~/utils/archiveRoutes';
 import { getPermalink } from '~/utils/permalinks';
 import type { MetaData } from '~/types';
+import {
+  buildLanguageAlternatesForLangs,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  getOgLocaleForLang,
+  stripLangPrefix,
+} from '~/data/seo';
 import config from '~/config/config.json';
 
 type Props = {
@@ -40,13 +48,15 @@ export const getStaticPaths = (async () => {
     }
   }
 
-  return Array.from(map.values()).map((entry) => ({
-    params: {
-      lang: entry.lang === defaultLang && !defaultLangInSubdir ? undefined : entry.lang,
-      tag: entry.tag.slug,
-    },
-    props: entry,
-  }));
+  return Array.from(map.values())
+    .filter((entry) => shouldGenerateEventTagRoute(entry.tag.slug, entry.lang))
+    .map((entry) => ({
+      params: {
+        lang: entry.lang === defaultLang && !defaultLangInSubdir ? undefined : entry.lang,
+        tag: entry.tag.slug,
+      },
+      props: entry,
+    }));
 }) satisfies GetStaticPaths;
 
 const { lang, tag } = Astro.props as Props;
@@ -60,7 +70,25 @@ const events = (await fetchEvents()).filter((event) => {
   return lang === config.settings.default_language;
 });
 
-const tagPath = `${lang === config.settings.default_language && !config.settings.default_language_in_subdir ? '' : `${lang}/`}events/tag/${tag.slug}`;
+const tagPath = resolveEventTagArchivePath(tag.slug, lang);
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const { routePath } = stripLangPrefix(Astro.url.pathname);
+const availableLanguageCodes = Array.from(
+  new Set(
+    (await fetchEvents())
+      .filter((event) => Array.isArray(event.tags) && event.tags.some((eventTag) => eventTag.slug === tag.slug))
+      .flatMap((event) => getEventLanguageCodes(event))
+      .filter((languageCode) => shouldGenerateEventTagRoute(tag.slug, languageCode))
+  )
+);
+const languageAlternates = buildLanguageAlternatesForLangs(
+  routePath,
+  siteUrl,
+  availableLanguageCodes,
+  DEFAULT_SEO_LANG,
+  false
+);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, availableLanguageCodes, false);
 
 const metadata: MetaData = {
   title: `Events tagged ${tag.title}`,
@@ -70,10 +98,13 @@ const metadata: MetaData = {
     index: eventsListRobots.index,
     follow: eventsListRobots.follow,
   },
+  openGraph: {
+    locale: getOgLocaleForLang(lang),
+  },
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
   <section class="py-8 sm:py-16 lg:py-20 mx-auto max-w-4xl px-4 sm:px-6">
     <h1 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading mb-6">{tag.title}</h1>
     <BlogList posts={events} lang={lang} taxonomyBasePath="events" />

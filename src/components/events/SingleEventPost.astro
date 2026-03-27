@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 import { getPermalink } from '~/utils/permalinks';
+import { resolveEventCategoryArchivePath, resolveEventTagArchivePath } from '~/utils/archiveRoutes';
 import { getFormattedDate } from '~/utils/utils';
 import type { Post } from '~/types';
 import config from '~/config/config.json';
@@ -28,10 +29,9 @@ if (post.image) {
   }
 }
 
-const { default_language, default_language_in_subdir } = config.settings;
-const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
-const prefix = needsPrefix ? `${lang}/` : '';
-const categoryHref = post.category ? getPermalink(`${prefix}events/category/${post.category.slug}`, 'page') : undefined;
+const { default_language } = config.settings;
+const categoryPath = post.category?.slug ? resolveEventCategoryArchivePath(post.category.slug, lang || default_language) : undefined;
+const categoryHref = categoryPath ? getPermalink(categoryPath, 'page') : undefined;
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -105,7 +105,12 @@ const categoryHref = post.category ? getPermalink(`${prefix}events/category/${po
           <ul class="mr-5 rtl:mr-0 rtl:ml-5">
             {post.tags.map((tag) => (
               <li class="bg-gray-100 inline-block mr-2 rtl:mr-0 rtl:ml-2 mb-2 py-0.5 px-2 lowercase font-medium">
-                <a href={getPermalink(`${prefix}events/tag/${tag.slug}`, 'page')} class="text-muted hover:text-primary ">{tag.title}</a>
+                <a
+                  href={getPermalink(resolveEventTagArchivePath(tag.slug, lang || default_language), 'page')}
+                  class="text-muted hover:text-primary "
+                >
+                  {tag.title}
+                </a>
               </li>
             ))}
           </ul>

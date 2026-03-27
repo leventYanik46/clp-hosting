@@ -118,7 +118,7 @@ const seo: SeoData = {
   languageAlternates={languageAlternates}
   ogLocaleAlternates={ogLocaleAlternates}
 >
-  <SinglePost post={{ ...post, image: image }} url={canonical}>
+  <SinglePost post={{ ...post, image: image }} url={canonical} lang={lang}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>
   <ToBlogLink lang={lang} />

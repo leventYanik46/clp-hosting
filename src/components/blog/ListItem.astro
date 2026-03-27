@@ -7,7 +7,8 @@ import PostTags from '~/components/blog/Tags.astro';
 import { APP_BLOG } from 'astrowind:config';
 import type { Post } from '~/types';
 
-import { getPermalink, CATEGORY_BASE } from '~/utils/permalinks';
+import { getPermalink } from '~/utils/permalinks';
+import { resolveBlogCategoryArchivePath, resolveEventCategoryArchivePath } from '~/utils/archiveRoutes';
 import { findImage } from '~/utils/images';
 import { getFormattedDate } from '~/utils/utils';
 import config from '~/config/config.json';
@@ -23,16 +24,14 @@ const { post, lang, taxonomyBasePath, isPriority = false } = Astro.props;
 const image = (await findImage(post.image)) as ImageMetadata | undefined;
 
 const { default_language, default_language_in_subdir } = config.settings;
-const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
-const pathPrefix = needsPrefix ? lang : '';
+const resolvedLang = lang || default_language;
+const needsPrefix = resolvedLang !== default_language || default_language_in_subdir;
+const pathPrefix = needsPrefix ? resolvedLang : '';
 const permalinkPath = pathPrefix ? `${pathPrefix}/${post.permalink}` : post.permalink;
-const taxonomyRoot = taxonomyBasePath ? [pathPrefix, taxonomyBasePath].filter(Boolean).join('/') : undefined;
 const categoryPath = post.category?.slug
-  ? taxonomyRoot
-    ? `${taxonomyRoot}/category/${post.category.slug}`
-    : CATEGORY_BASE
-      ? [pathPrefix, CATEGORY_BASE, post.category.slug].filter(Boolean).join('/')
-      : undefined
+  ? taxonomyBasePath === 'events'
+    ? resolveEventCategoryArchivePath(post.category.slug, resolvedLang)
+    : resolveBlogCategoryArchivePath(post.category.slug, resolvedLang)
   : undefined;
 
 const link = APP_BLOG?.post?.isEnabled ? getPermalink(permalinkPath, 'post') : '';
@@ -102,9 +101,13 @@ const categoryLink = categoryPath ? getPermalink(categoryPath, 'page') : undefin
               <>
                 {' '}
                 ·{' '}
-                <a class="hover:underline" href={categoryLink || getPermalink(post.category.slug, 'category')}>
-                  {post.category.title}
-                </a>
+                {categoryLink ? (
+                  <a class="hover:underline" href={categoryLink}>
+                    {post.category.title}
+                  </a>
+                ) : (
+                  <span>{post.category.title}</span>
+                )}
               </>
             )
           }
@@ -126,7 +129,7 @@ const categoryLink = categoryPath ? getPermalink(categoryPath, 'page') : undefin
     {
       post.tags && Array.isArray(post.tags) ? (
         <footer class="mt-5">
-          <PostTags tags={post.tags} taxonomyBasePath={taxonomyRoot} />
+          <PostTags tags={post.tags} taxonomyBasePath={taxonomyBasePath} lang={resolvedLang} />
         </footer>
       ) : (
         <Fragment />
