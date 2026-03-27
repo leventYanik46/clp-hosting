@@ -16,14 +16,14 @@ metadata:
   description: >-
     Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir? Anne ve babam
     için Green Card başvurusu yapabilir miyim? Başvuru Şartları Neler?
-  title: "Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?"
+  title: "Anne ve Baba İçin Green Card Başvurusu"
 seo:
   description: >-
     Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir? Anne ve babam
     için Green Card başvurusu yapabilir miyim? Başvuru Şartları Neler?
   canonicalOverride: >-
     https://capitollawpartners.com/tr/kimler-anne-ve-babasi-icin-green-card-basvurusu-yapabilir
-  title: "Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?"
+  title: "Kimler ebeveynleri için green card başvurusu yapabilir?"
 ---
 # Kimler Anne ve Babası İçin Green Card Başvurusu Yapabilir?
 

@@ -17,14 +17,14 @@ metadata:
   description: >-
     What is a Green Card and what are immigrant visas? Types of Immigrant Visas.
     Why Legal Guidance Matters ?
-  title: "Permanent Resident (Green) Card and Immigrant Visas"
+  title: "Green Card and Immigrant Visa Options"
 seo:
   description: >-
     What is a Green Card and what are immigrant visas? Types of Immigrant Visas.
     Why Legal Guidance Matters ?
   canonicalOverride: >-
     https://capitollawpartners.com/permanent-resident-green-card-and-immigrant-visas
-  title: "Permanent Resident (Green) Card and Immigrant Visas"
+  title: "Permanent Resident Green Card and Immigrant Visa Guide"
 ---
 ## Permanent Resident (Green) Card and Immigrant Visas
 

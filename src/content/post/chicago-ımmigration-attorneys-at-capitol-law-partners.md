@@ -20,7 +20,7 @@ metadata:
     journey
   canonical: >-
     https://capitollawpartners.com/chicago-immigration-attorneys-at-capitol-law-partners
-  title: "Chicago Immigration Attorneys at Capitol Law Partners"
+  title: "Chicago Immigration Attorneys"
 seo:
   description: >-
     Expert Chicago immigration attorneys at Capitol Law Partners. Visas, green
@@ -28,7 +28,7 @@ seo:
     journey
   canonicalOverride: >-
     https://capitollawpartners.com/chicago-immigration-attorneys-at-capitol-law-partners
-  title: "Chicago Immigration Attorneys at Capitol Law Partners"
+  title: "Chicago Immigration Lawyers for Visas and Green Cards"
 ---
 ## \
 Chicago Immigration Attorneys at Capitol Law Partners

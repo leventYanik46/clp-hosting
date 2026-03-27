@@ -16,14 +16,14 @@ metadata:
   description: >-
     Documents Required to Set Up a Company in America. Establishing a Company in
     America Without Being a Citizen. Company Type and Structure.
-  title: "Documents Required to Set Up a Company in America"
+  title: "Documents Needed to Start a Company in the U.S."
 seo:
   description: >-
     Documents Required to Set Up a Company in America. Establishing a Company in
     America Without Being a Citizen. Company Type and Structure.
   canonicalOverride: >-
     https://capitollawpartners.com/documents-required-to-set-up-a-company-in-america
-  title: "Documents Required to Set Up a Company in America"
+  title: "How to Set Up a Company in America: Required Documents"
 ---
 ## Establishing a Company in America
 

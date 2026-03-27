@@ -20,7 +20,7 @@ metadata:
     you want.. 
   canonical: >-
     https://capitollawpartners.com/how-to-choose-the-right-legal-advisor-for-your-immigration-needs
-  title: "How to Choose the Right Legal Advisor for Your Immigration Needs"
+  title: "Choosing the Right Immigration Legal Advisor"
 seo:
   description: >-
     How to Choose the Right Legal Advisor for Your Immigration Needs. The Best
@@ -28,7 +28,7 @@ seo:
     you want.. 
   canonicalOverride: >-
     https://capitollawpartners.com/how-to-choose-the-right-legal-advisor-for-your-immigration-needs
-  title: "How to Choose the Right Legal Advisor for Your Immigration Needs"
+  title: "How to Choose an Immigration Lawyer for Your Case"
 ---
 **How to Choose the Right Legal Advisor for Your Immigration Needs** 
 

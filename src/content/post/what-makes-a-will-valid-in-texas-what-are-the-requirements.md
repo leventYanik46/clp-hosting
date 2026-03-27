@@ -19,14 +19,14 @@ metadata:
   description: >-
     What Makes a Will Valid in Texas? What are the Requirements? How can
     notarization simplify inheritance procedures? Including age, signatures. 
-  title: "What Makes a Will Valid in Texas? What are the Requirements?"
+  title: "What Makes a Will Valid in Texas?"
 seo:
   description: >-
     What Makes a Will Valid in Texas? What are the Requirements? How can
     notarization simplify inheritance procedures? Including age, signatures. 
   canonicalOverride: >-
     https://capitollawpartners.com/what-makes-a-will-valid-in-texas-what-are-the-requirements
-  title: "What Makes a Will Valid in Texas? What are the Requirements?"
+  title: "Texas Will Requirements: What Makes a Will Legal"
 ---
 # **What Makes a Will Valid in Texas? What are the Requirements?**
 

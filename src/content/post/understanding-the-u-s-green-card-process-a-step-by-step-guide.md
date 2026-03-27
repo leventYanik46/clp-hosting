@@ -19,14 +19,14 @@ metadata:
   description: >-
     Step-by-step U.S. Green Card guide by Capitol Law Partners. Expert legal
     help from eligibility to approval. Secure your permanent residency today.
-  title: "Understanding the U.S. Green Card Process: A Step-by-Step Guide"
+  title: "Understanding the U.S. Green Card Process"
 seo:
   description: >-
     Step-by-step U.S. Green Card guide by Capitol Law Partners. Expert legal
     help from eligibility to approval. Secure your permanent residency today.
   canonicalOverride: >-
     https://capitollawpartners.com/understanding-the-u-s-green-card-process-a-step-by-step-guide
-  title: "Understanding the U.S. Green Card Process: A Step-by-Step Guide"
+  title: "U.S. Green Card Process Guide: Step by Step"
 ---
 **Understanding the U.S. Green Card Process: A Step-by-Step Guide**\
 Obtaining a U.S. Green Card — the official proof of lawful permanent residency — is a major step toward building your life in the United States. Whether your goal is to live, work, reunite with family, or eventually become a U.S. citizen, understanding the process is essential to your success. At Capitol Law Partners, our immigration attorneys guide clients through every stage with precision and care.

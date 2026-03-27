@@ -18,14 +18,14 @@ metadata:
   description: >-
     What is an EB-2 Visa? Application Process and Timeline. Learn when and how
     to apply for the EB-2 visa.Year-round eligibility, key..
-  title: "What is an EB-2 Visa? Application Process and Timeline"
+  title: "What Is an EB-2 Visa?"
 seo:
   description: >-
     What is an EB-2 Visa? Application Process and Timeline. Learn when and how
     to apply for the EB-2 visa.Year-round eligibility, key..
   canonicalOverride: >-
     https://capitollawpartners.com/what-is-an-eb-2-visa-application-process-and-timeline
-  title: "What is an EB-2 Visa? Application Process and Timeline"
+  title: "EB-2 Visa Process and Timeline Explained"
 ---
 ## What is an EB-2 Visa? Application Process and Timeline
 

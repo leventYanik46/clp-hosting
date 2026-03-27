@@ -11,9 +11,9 @@ publishDate: 2026-05-15T14:00:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/fr/events/evenement-du-250e-anniversaire-des-etats-unis
   description: Participez a l'evenement du 250e anniversaire des Etats-Unis organise par Capitol Law Partners avec intervenants invites et networking.
-  title: "Evenement du 250e Anniversaire des Etats-Unis"
+  title: "Evenement du 250e anniversaire des Etats-Unis"
 seo:
-  title: "Evenement du 250e Anniversaire des Etats-Unis"
+  title: "Celebration du 250e anniversaire des Etats-Unis"
   description: Participez a l'evenement du 250e anniversaire des Etats-Unis organise par Capitol Law Partners avec intervenants invites et networking.
   canonicalOverride: https://capitollawpartners.com/fr/events/evenement-du-250e-anniversaire-des-etats-unis
 ---

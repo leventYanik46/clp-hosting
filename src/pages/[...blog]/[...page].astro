@@ -39,6 +39,8 @@ const availableLanguageCodes = await getBlogLanguageCodesForListPage(currentPage
 const alternateLanguageCodes = Array.from(new Set([...(lang ? [lang] : []), ...availableLanguageCodes]));
 const blogPageCopyByLang = {
   en: {
+    metadataTitle: 'Legal Blog',
+    seoTitle: 'Immigration and Business Law Blog',
     title: 'The Blog',
     subtitle: 'Explore our latest insights and updates.',
     search: {
@@ -57,6 +59,8 @@ const blogPageCopyByLang = {
     },
   },
   tr: {
+    metadataTitle: 'Hukuk Blogu',
+    seoTitle: 'ABD gocmenlik blogu ve hukuki guncellemeler',
     title: 'Blog',
     subtitle: 'En son icgorulerimizi ve guncellemelerimizi kesfedin.',
     search: {
@@ -75,6 +79,8 @@ const blogPageCopyByLang = {
     },
   },
   es: {
+    metadataTitle: 'Blog Legal',
+    seoTitle: 'Blog de inmigracion y derecho empresarial',
     title: 'El Blog',
     subtitle: 'Explora nuestros ultimos analisis y actualizaciones.',
     search: {
@@ -93,6 +99,8 @@ const blogPageCopyByLang = {
     },
   },
   pt: {
+    metadataTitle: 'Blog Juridico',
+    seoTitle: 'Blog de imigracao e direito empresarial',
     title: 'O Blog',
     subtitle: 'Explore nossos ultimos insights e atualizacoes.',
     search: {
@@ -111,6 +119,8 @@ const blogPageCopyByLang = {
     },
   },
   fr: {
+    metadataTitle: 'Blog Juridique',
+    seoTitle: 'Blog immigration et droit des affaires',
     title: 'Le Blog',
     subtitle: 'Decouvrez nos dernieres analyses et mises a jour.',
     search: {
@@ -144,7 +154,7 @@ const blogSearchIndexUrl = getAsset('blog-search.json');
 // const allTags = await findTags();
 
 const metadata = {
-  title: `Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `${blogPageCopy.metadataTitle}${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description: `Latest legal insights from the Capitol Law Partners blog (${languageLabel})${currentPage > 1 ? `, page ${currentPage}` : ''}.`,
   robots: {
     index: blogListRobots?.index && currentPage === 1,
@@ -156,7 +166,7 @@ const metadata = {
   },
 };
 const seo = {
-  title: metadata.title,
+  title: `${blogPageCopy.seoTitle}${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description: metadata.description,
   noindex: metadata.robots.index === false,
   nofollow: metadata.robots.follow === false,

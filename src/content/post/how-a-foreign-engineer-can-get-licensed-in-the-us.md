@@ -21,14 +21,14 @@ metadata:
   description: >-
     How a Foreign Engineer Can Get Licensed in the US | Step by Step.
     Immigration & Professional Licensing. Capitol Law Partners.
-  title: "How a Foreign Engineer Can Get Licensed in the US"
+  title: "How Foreign Engineers Get Licensed in the U.S."
 seo:
   description: >-
     How a Foreign Engineer Can Get Licensed in the US | Step by Step.
     Immigration & Professional Licensing. Capitol Law Partners.
   canonicalOverride: >-
     https://capitollawpartners.com/how-a-foreign-engineer-can-get-licensed-in-the-us
-  title: "How a Foreign Engineer Can Get Licensed in the US"
+  title: "Foreign Engineer License in the U.S.: Steps and Requirements"
 ---
 # How a Foreign Engineer Can Get Licensed in the US | Step by Step
 
