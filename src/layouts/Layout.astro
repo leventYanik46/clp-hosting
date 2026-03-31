@@ -28,6 +28,7 @@ export interface Props {
 const { metadata = {}, seo = {}, pageType = 'webpage', article, languageAlternates, ogLocaleAlternates } = Astro.props;
 const { language, textDirection } = I18N;
 const htmlLang = getLangFromPathname(Astro.url.pathname, language as 'en' | 'tr' | 'es' | 'pt' | 'fr');
+const shouldLoadNetlifyIdentity = Astro.url.pathname === '/';
 ---
 
 <!doctype html>
@@ -55,18 +56,23 @@ const htmlLang = getLangFromPathname(Astro.url.pathname, language as 'en' | 'tr'
     <GlobalSearch lang={htmlLang} />
 
     <BasicScripts />
-    <!-- Load Netlify Identity widget -->
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script defer>
-      const ni = window.netlifyIdentity;
-      if (!ni) return;
-      ni.on('init', () => {
-        if (window.location.hash.includes('invite_token')) {
-          ni.open('signup');
-          window.history.replaceState(null, null, '/#');
-        }
-      });
-      ni.init();
-    </script>
+    {
+      shouldLoadNetlifyIdentity && (
+        <>
+          <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+          <script defer>
+            const ni = window.netlifyIdentity;
+            if (!ni) return;
+            ni.on('init', () => {
+              if (window.location.hash.includes('invite_token')) {
+                ni.open('signup');
+                window.history.replaceState(null, null, '/#');
+              }
+            });
+            ni.init();
+          </script>
+        </>
+      )
+    }
   </body>
 </html>
