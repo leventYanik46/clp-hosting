@@ -9,6 +9,7 @@ import CustomStyles from '~/components/CustomStyles.astro';
 import Seo from '~/components/common/Seo.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
+import TrackingEvents from '~/components/common/TrackingEvents.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 import GlobalSearch from '~/components/search/GlobalSearch.astro';
 
@@ -49,6 +50,7 @@ const shouldLoadNetlifyIdentity = Astro.url.pathname === '/';
     </Seo>
     <SiteVerification />
     <Analytics />
+    <TrackingEvents />
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">

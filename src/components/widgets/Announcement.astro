@@ -24,7 +24,11 @@ if (!announcement) {
       <div class="font-semibold truncate whitespace-nowrap ml-[5rem] mr-0.5 rtl:mr-0 rtl:ml-0.5">
         {announcement.intro_text}&nbsp;
         {announcement.call_text}&nbsp;
-        <a href={`tel:${announcement.phone}`} class="hover:text-primary font-bold underline">
+        <a
+          href={`tel:${announcement.phone}`}
+          data-analytics-announcement-phone
+          class="hover:text-primary font-bold underline"
+        >
           {announcement.phone_display}
         </a>
         &nbsp;{announcement.or_text}&nbsp;

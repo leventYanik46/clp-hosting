@@ -194,6 +194,33 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 <script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
   const forms = document.querySelectorAll('form[data-contact-form]');
   const confirmationSlug = 'confirmation';
+  const pendingLeadStorageKey = 'pending_generate_lead';
+
+  const normalizePath = (pathname = '/') => {
+    if (!pathname) {
+      return '/';
+    }
+
+    const normalizedPath = pathname.startsWith('/') ? pathname : `/${pathname}`;
+
+    return normalizedPath.length > 1 && normalizedPath.endsWith('/')
+      ? normalizedPath.slice(0, -1)
+      : normalizedPath;
+  };
+
+  const contactPaths = (() => {
+    const localizedContactPaths = supportedLangs
+      .filter((languageCode) => languageCode !== defaultLanguage || defaultLanguageInSubdir)
+      .map((languageCode) => `/${languageCode}/contact`);
+
+    if (!defaultLanguageInSubdir) {
+      localizedContactPaths.push('/contact');
+    } else if (!localizedContactPaths.includes(`/${defaultLanguage}/contact`)) {
+      localizedContactPaths.push(`/${defaultLanguage}/contact`);
+    }
+
+    return localizedContactPaths.map((path) => normalizePath(path));
+  })();
 
   const buildConfirmationPath = () => {
     const pathParts = window.location.pathname.split('/').filter(Boolean);
@@ -211,6 +238,17 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
   };
 
   const resolveSourcePage = () => window.location.href;
+  const resolveSourcePagePath = () => normalizePath(window.location.pathname);
+
+  const resolveLanguage = () => {
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    const maybeLang = pathParts[0];
+
+    return supportedLangs.includes(maybeLang) ? maybeLang : defaultLanguage;
+  };
+
+  const resolveFormLocation = () =>
+    contactPaths.includes(resolveSourcePagePath()) ? 'contact_page' : 'embedded_contact_form';
 
   forms.forEach((form) => {
     if (form.dataset.contactFormBound === 'true') {
@@ -238,6 +276,36 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
         const result = await response.json();
         if (result.success) {
+          const leadEventPayload = {
+            event: 'conversion',
+            params: {
+              send_to: 'AW-16834458308/aY2ICMWr15McEMTlpds-',
+              value: 1.0,
+              currency: 'USD',
+              form_name: 'contact_form',
+              form_location: resolveFormLocation(),
+              source_page_path: resolveSourcePagePath(),
+              source_page_url: resolveSourcePage(),
+              language: resolveLanguage(),
+            },
+          };
+
+          try {
+            window.sessionStorage.setItem(
+              pendingLeadStorageKey,
+              JSON.stringify({
+                createdAt: Date.now(),
+                payload: leadEventPayload,
+              })
+            );
+          } catch (storageError) {
+            console.warn('Unable to persist pending lead event payload.', storageError);
+
+            if (typeof window.trackGoogleEvent === 'function') {
+              window.trackGoogleEvent(leadEventPayload.event, leadEventPayload.params);
+            }
+          }
+
           window.location.assign(buildConfirmationPath());
           return;
         }
