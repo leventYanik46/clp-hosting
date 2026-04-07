@@ -1,189 +1,30 @@
 ---
-import { ANALYTICS, SITE } from 'astrowind:config';
-import config from '~/config/config.json';
-import languages from '~/config/language.json';
+import { ANALYTICS } from 'astrowind:config';
 
-const googleAnalyticsId = ANALYTICS?.vendors?.googleAnalytics?.id;
-const disabledLanguages = new Set(config.settings?.disable_languages ?? []);
-const supportedLangs = languages
-  .map((language) => language.languageCode)
-  .filter((languageCode) => !disabledLanguages.has(languageCode));
-const defaultLanguage = config.settings?.default_language ?? 'en';
-const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? false;
-const canonicalSiteUrl = SITE?.site ?? '';
+const enabled = !!ANALYTICS?.vendors?.googleAnalytics?.id;
 ---
 
-{
-  googleAnalyticsId ? (
-    <script
-      is:inline
-      define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir, canonicalSiteUrl }}
-    >
-      (() => {
-        window.dataLayer = window.dataLayer || [];
-        window.gtag =
-          window.gtag ||
-          function gtag() {
-            window.dataLayer.push(arguments);
-          };
+{enabled && (
+  <script>
+    document.addEventListener('click', (event) => {
+      const link = (event.target instanceof Element)
+        ? event.target.closest('a[href]')
+        : null;
+      if (!(link instanceof HTMLAnchorElement) || typeof window.gtag !== 'function') return;
 
-        const pendingLeadStorageKey = 'pending_generate_lead';
-        const maxPendingLeadAgeMs = 15 * 60 * 1000;
+      const href = link.getAttribute('href') ?? '';
 
-        const normalizePath = (pathname = '/') => {
-          if (!pathname) {
-            return '/';
-          }
-
-          const normalizedPath = pathname.startsWith('/') ? pathname : `/${pathname}`;
-
-          return normalizedPath.length > 1 && normalizedPath.endsWith('/')
-            ? normalizedPath.slice(0, -1)
-            : normalizedPath;
-        };
-
-        const resolveLanguage = (pathname = window.location.pathname) => {
-          const [maybeLang] = normalizePath(pathname).split('/').filter(Boolean);
-          return supportedLangs.includes(maybeLang) ? maybeLang : defaultLanguage;
-        };
-
-        const allowedOrigins = new Set([window.location.origin, canonicalSiteUrl].filter(Boolean));
-        const contactPaths = (() => {
-          const localizedContactPaths = supportedLangs
-            .filter((languageCode) => languageCode !== defaultLanguage || defaultLanguageInSubdir)
-            .map((languageCode) => `/${languageCode}/contact`);
-
-          if (!defaultLanguageInSubdir) {
-            localizedContactPaths.push('/contact');
-          } else if (!localizedContactPaths.includes(`/${defaultLanguage}/contact`)) {
-            localizedContactPaths.push(`/${defaultLanguage}/contact`);
-          }
-
-          return new Set(localizedContactPaths.map((path) => normalizePath(path)));
-        })();
-
-        const isTrackableContactLink = (url) => {
-          if (!url || !/^https?:$/.test(url.protocol)) {
-            return false;
-          }
-
-          if (!allowedOrigins.has(url.origin)) {
-            return false;
-          }
-
-          return contactPaths.has(normalizePath(url.pathname));
-        };
-
-        window.trackGoogleEvent =
-          window.trackGoogleEvent ||
-          function trackGoogleEvent(eventName, params = {}) {
-            if (!eventName) {
-              return;
-            }
-
-            window.gtag('event', eventName, params);
-          };
-
-        const trimText = (value) => (value || '').replace(/\s+/g, ' ').trim();
-
-        const buildPageContext = (pathname = window.location.pathname, href = window.location.href) => ({
-          source_page_path: normalizePath(pathname),
-          source_page_url: href,
-          language: resolveLanguage(pathname),
+      if (link.hasAttribute('data-analytics-announcement-phone') && href.startsWith('tel:')) {
+        window.gtag('event', 'phone_call_click', {
+          phone_number: href.replace(/^tel:/i, ''),
+          source_component: 'announcement_bar',
         });
-
-        const flushPendingLeadEvent = () => {
-          let rawPayload = null;
-
-          try {
-            rawPayload = window.sessionStorage.getItem(pendingLeadStorageKey);
-          } catch (error) {
-            console.warn('Unable to read pending lead event payload.', error);
-            return;
-          }
-
-          if (!rawPayload) {
-            return;
-          }
-
-          try {
-            const parsedPayload = JSON.parse(rawPayload);
-            const isFresh =
-              typeof parsedPayload?.createdAt === 'number' &&
-              Date.now() - parsedPayload.createdAt <= maxPendingLeadAgeMs;
-
-            window.sessionStorage.removeItem(pendingLeadStorageKey);
-
-            if (!isFresh || !parsedPayload?.payload) {
-              return;
-            }
-
-            window.trackGoogleEvent(parsedPayload.payload.event, parsedPayload.payload.params || {});
-          } catch (error) {
-            window.sessionStorage.removeItem(pendingLeadStorageKey);
-            console.warn('Unable to process pending lead event payload.', error);
-          }
-        };
-
-        const handleDocumentClick = (event) => {
-          if (!(event.target instanceof Element)) {
-            return;
-          }
-
-          const link = event.target.closest('a[href]');
-          if (!(link instanceof HTMLAnchorElement)) {
-            return;
-          }
-
-          const href = link.getAttribute('href') || '';
-          const linkText = trimText(link.textContent);
-          const pageContext = buildPageContext();
-
-          if (link.hasAttribute('data-analytics-announcement-phone') && href.startsWith('tel:')) {
-            window.trackGoogleEvent('announcement_phone_click', {
-              phone_number: href.replace(/^tel:/i, ''),
-              link_url: href,
-              link_text: linkText,
-              source_component: 'announcement',
-              ...pageContext,
-            });
-            return;
-          }
-
-          let destinationUrl;
-          try {
-            destinationUrl = new URL(link.href, window.location.origin);
-          } catch {
-            return;
-          }
-
-          if (!isTrackableContactLink(destinationUrl)) {
-            return;
-          }
-
-          const destinationPath = normalizePath(destinationUrl.pathname);
-
-          window.trackGoogleEvent('contact_page_click', {
-            destination_path: destinationPath,
-            destination_url: destinationUrl.toString(),
-            link_url: destinationUrl.toString(),
-            link_text: linkText,
-            ...pageContext,
-          });
-        };
-
-        if (!window.googleEventTrackingBound) {
-          document.addEventListener('click', handleDocumentClick);
-          window.googleEventTrackingBound = true;
-        }
-
-        if (!window.googleEventTrackingAfterSwapBound) {
-          document.addEventListener('astro:after-swap', flushPendingLeadEvent);
-          window.googleEventTrackingAfterSwapBound = true;
-        }
-
-        flushPendingLeadEvent();
-      })();
-    </script>
-  ) : null
-}
+      } else if (link.hasAttribute('data-analytics-whatsapp')) {
+        window.gtag('event', 'whatsapp_click', {
+          link_url: href,
+          source_component: 'chat_button',
+        });
+      }
+    });
+  </script>
+)}

@@ -36,6 +36,7 @@ const shouldLoadNetlifyIdentity = Astro.url.pathname === '/';
 <html lang={htmlLang} dir={textDirection} class="2xl:text-[20px]">
   <head>
     <Analytics />
+    <TrackingEvents />
     <CommonMeta />
     <Favicons />
     <CustomStyles />
@@ -50,7 +51,6 @@ const shouldLoadNetlifyIdentity = Astro.url.pathname === '/';
       <slot name="schema" slot="schema" />
     </Seo>
     <SiteVerification />
-    <TrackingEvents />
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">

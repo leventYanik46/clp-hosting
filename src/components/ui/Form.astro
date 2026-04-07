@@ -192,131 +192,106 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 </form>
 
 <script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
-  const forms = document.querySelectorAll('form[data-contact-form]');
-  const confirmationSlug = 'confirmation';
-  const pendingLeadStorageKey = 'pending_generate_lead';
+  (() => {
+    const confirmationSlug = 'confirmation';
+    const googleAdsSendTo = 'AW-16834458308/aY2ICMWr15McEMTlpds-';
 
-  const normalizePath = (pathname = '/') => {
-    if (!pathname) {
-      return '/';
-    }
+    const buildConfirmationPath = () => {
+      const pathParts = window.location.pathname.split('/').filter(Boolean);
+      const maybeLang = pathParts[0];
 
-    const normalizedPath = pathname.startsWith('/') ? pathname : `/${pathname}`;
+      if (maybeLang && supportedLangs.includes(maybeLang)) {
+        return `/${maybeLang}/${confirmationSlug}`;
+      }
 
-    return normalizedPath.length > 1 && normalizedPath.endsWith('/')
-      ? normalizedPath.slice(0, -1)
-      : normalizedPath;
-  };
+      if (defaultLanguageInSubdir) {
+        return `/${defaultLanguage}/${confirmationSlug}`;
+      }
 
-  const contactPaths = (() => {
-    const localizedContactPaths = supportedLangs
-      .filter((languageCode) => languageCode !== defaultLanguage || defaultLanguageInSubdir)
-      .map((languageCode) => `/${languageCode}/contact`);
+      return `/${confirmationSlug}`;
+    };
 
-    if (!defaultLanguageInSubdir) {
-      localizedContactPaths.push('/contact');
-    } else if (!localizedContactPaths.includes(`/${defaultLanguage}/contact`)) {
-      localizedContactPaths.push(`/${defaultLanguage}/contact`);
-    }
+    const resolveLanguage = () => {
+      const [maybeLang] = window.location.pathname.split('/').filter(Boolean);
+      return supportedLangs.includes(maybeLang) ? maybeLang : defaultLanguage;
+    };
 
-    return localizedContactPaths.map((path) => normalizePath(path));
-  })();
+    const trackLead = () => {
+      if (typeof window.gtag !== 'function') {
+        return;
+      }
 
-  const buildConfirmationPath = () => {
-    const pathParts = window.location.pathname.split('/').filter(Boolean);
-    const maybeLang = pathParts[0];
+      const pageLocation = window.location.href;
+      const language = resolveLanguage();
 
-    if (maybeLang && supportedLangs.includes(maybeLang)) {
-      return `/${maybeLang}/${confirmationSlug}`;
-    }
+      window.gtag('event', 'generate_lead', {
+        event_category: 'form',
+        event_label: 'Contact Form',
+        form_name: 'contact_form',
+        language,
+        page_location: pageLocation,
+      });
 
-    if (defaultLanguageInSubdir) {
-      return `/${defaultLanguage}/${confirmationSlug}`;
-    }
+      window.gtag('event', 'conversion', {
+        send_to: googleAdsSendTo,
+        value: 1.0,
+        currency: 'USD',
+        language,
+        page_location: pageLocation,
+      });
+    };
 
-    return `/${confirmationSlug}`;
-  };
-
-  const resolveSourcePage = () => window.location.href;
-  const resolveSourcePagePath = () => normalizePath(window.location.pathname);
-
-  const resolveLanguage = () => {
-    const pathParts = window.location.pathname.split('/').filter(Boolean);
-    const maybeLang = pathParts[0];
-
-    return supportedLangs.includes(maybeLang) ? maybeLang : defaultLanguage;
-  };
-
-  const resolveFormLocation = () =>
-    contactPaths.includes(resolveSourcePagePath()) ? 'contact_page' : 'embedded_contact_form';
-
-  forms.forEach((form) => {
-    if (form.dataset.contactFormBound === 'true') {
-      return;
-    }
-
-    form.dataset.contactFormBound = 'true';
-    form.addEventListener('submit', async function (event) {
-      event.preventDefault();
-
-      const submitButton = form.querySelector('button[type="submit"]');
-      if (!submitButton) return;
-      submitButton.disabled = true;
-
-      const formData = new FormData(form);
-      const formObject = Object.fromEntries(formData.entries());
-      formObject.sourcePage = resolveSourcePage();
-
-      try {
-        const response = await fetch('/api/contact', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formObject),
-        });
-
-        const result = await response.json();
-        if (result.success) {
-          const leadEventPayload = {
-            event: 'conversion',
-            params: {
-              send_to: 'AW-16834458308/aY2ICMWr15McEMTlpds-',
-              value: 1.0,
-              currency: 'USD',
-              form_name: 'contact_form',
-              form_location: resolveFormLocation(),
-              source_page_path: resolveSourcePagePath(),
-              source_page_url: resolveSourcePage(),
-              language: resolveLanguage(),
-            },
-          };
-
-          try {
-            window.sessionStorage.setItem(
-              pendingLeadStorageKey,
-              JSON.stringify({
-                createdAt: Date.now(),
-                payload: leadEventPayload,
-              })
-            );
-          } catch (storageError) {
-            console.warn('Unable to persist pending lead event payload.', storageError);
-
-            if (typeof window.trackGoogleEvent === 'function') {
-              window.trackGoogleEvent(leadEventPayload.event, leadEventPayload.params);
-            }
-          }
-
-          window.location.assign(buildConfirmationPath());
+    const bindContactForms = () => {
+      document.querySelectorAll('form[data-contact-form]').forEach((form) => {
+        if (!(form instanceof HTMLFormElement) || form.dataset.contactFormBound === 'true') {
           return;
         }
 
-        alert('Error sending message: ' + result.error);
-      } catch (error) {
-        alert('An error occurred while sending your message.');
-        console.error(error);
-      } finally {
-        submitButton.disabled = false;
-      }
-    });
-  });
+        form.dataset.contactFormBound = 'true';
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+
+          const submitButton = form.querySelector('button[type="submit"]');
+          if (!(submitButton instanceof HTMLButtonElement)) {
+            return;
+          }
+
+          submitButton.disabled = true;
+
+          const formData = new FormData(form);
+          const formObject = Object.fromEntries(formData.entries());
+          formObject.sourcePage = window.location.href;
+
+          try {
+            const response = await fetch('/api/contact', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(formObject),
+            });
+
+            const result = await response.json();
+            if (result.success) {
+              trackLead();
+              window.location.assign(buildConfirmationPath());
+              return;
+            }
+
+            alert('Error sending message: ' + result.error);
+          } catch (error) {
+            alert('An error occurred while sending your message.');
+            console.error(error);
+          } finally {
+            submitButton.disabled = false;
+          }
+        });
+      });
+    };
+
+    bindContactForms();
+
+    if (!window.contactFormAfterSwapBound) {
+      document.addEventListener('astro:after-swap', bindContactForms);
+      window.contactFormAfterSwapBound = true;
+    }
+  })();
 </script>
