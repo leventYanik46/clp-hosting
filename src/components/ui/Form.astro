@@ -232,6 +232,15 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
       const language = resolveLanguage();
       const routeSlug = resolveRouteSlug();
 
+      // Fallback: redirect regardless after 1.5s if gtag callback never fires
+      let completed = false;
+      const finish = () => {
+        if (completed) return;
+        completed = true;
+        onComplete();
+      };
+      const fallback = setTimeout(finish, 1500);
+
       gtag('event', 'generate_lead', {
         currency: 'USD',
         value: 1.0,
@@ -242,8 +251,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
         send_to: googleAdsSendTo,
         value: 1.0,
         currency: 'USD',
-        event_callback: onComplete,
-        event_timeout: 2000,
+        event_callback: () => { clearTimeout(fallback); finish(); },
       });
     };
 
