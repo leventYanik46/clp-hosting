@@ -1,22 +1,19 @@
 ---
-import { GoogleAnalytics } from '@astrolib/analytics';
 import { ANALYTICS } from 'astrowind:config';
 
-const googleAdsId = ANALYTICS?.vendors?.googleAds?.id;
+const gaId = ANALYTICS?.vendors?.googleAnalytics?.id;
+const adsId = ANALYTICS?.vendors?.googleAds?.id;
+
+const initScript = gaId ? `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${gaId}');
+${adsId ? `gtag('config', '${adsId}');` : ''}` : '';
 ---
 
-{
-  ANALYTICS?.vendors?.googleAnalytics?.id ? (
-    <GoogleAnalytics
-      id={String(ANALYTICS.vendors.googleAnalytics.id)}
-      partytown={ANALYTICS?.vendors?.googleAnalytics?.partytown}
-    />
-  ) : null
-}
-{
-  googleAdsId ? (
-    <script is:inline define:vars={{ googleAdsId }}>
-      gtag('config', googleAdsId);
-    </script>
-  ) : null
-}
+{gaId && (
+  <>
+    <script is:inline src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} async />
+    <script is:inline set:html={initScript} />
+  </>
+)}
