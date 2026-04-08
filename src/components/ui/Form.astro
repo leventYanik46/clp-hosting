@@ -223,24 +223,27 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
       return pathParts[pathParts.length - 1] || 'home';
     };
 
-    const trackLead = () => {
-      if (typeof window.gtag !== 'function') {
+    const trackLead = (onComplete) => {
+      if (typeof gtag !== 'function') {
+        onComplete();
         return;
       }
 
       const language = resolveLanguage();
       const routeSlug = resolveRouteSlug();
 
-      window.gtag('event', 'generate_lead', {
+      gtag('event', 'generate_lead', {
         currency: 'USD',
         value: 1.0,
         lead_source: `contact_form_${language}_${routeSlug}`,
       });
 
-      window.gtag('event', 'conversion', {
+      gtag('event', 'conversion', {
         send_to: googleAdsSendTo,
         value: 1.0,
         currency: 'USD',
+        event_callback: onComplete,
+        event_timeout: 2000,
       });
     };
 
@@ -274,8 +277,9 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
             const result = await response.json();
             if (result.success) {
-              trackLead();
-              window.location.assign(buildConfirmationPath());
+              trackLead(() => {
+                window.location.assign(buildConfirmationPath());
+              });
               return;
             }
 
