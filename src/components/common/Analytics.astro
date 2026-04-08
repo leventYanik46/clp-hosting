@@ -1,6 +1,8 @@
 ---
 import { GoogleAnalytics } from '@astrolib/analytics';
 import { ANALYTICS } from 'astrowind:config';
+
+const googleAdsId = ANALYTICS?.vendors?.googleAds?.id;
 ---
 
 {
@@ -9,5 +11,12 @@ import { ANALYTICS } from 'astrowind:config';
       id={String(ANALYTICS.vendors.googleAnalytics.id)}
       partytown={ANALYTICS?.vendors?.googleAnalytics?.partytown}
     />
+  ) : null
+}
+{
+  googleAdsId ? (
+    <script is:inline define:vars={{ googleAdsId }}>
+      window.gtag('config', googleAdsId);
+    </script>
   ) : null
 }

@@ -194,7 +194,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 <script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
   (() => {
     const confirmationSlug = 'confirmation';
-    const googleAdsSendTo = 'AW-16834458308/aY2ICMWr15McEMTlpds-';
+    const googleAdsSendTo = 'AW-16834458308/GUCDCMr_2N8aEMTlpds-';
 
     const buildConfirmationPath = () => {
       const pathParts = window.location.pathname.split('/').filter(Boolean);
@@ -216,28 +216,31 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
       return supportedLangs.includes(maybeLang) ? maybeLang : defaultLanguage;
     };
 
+    const resolveRouteSlug = () => {
+      const parts = window.location.pathname.split('/').filter(Boolean);
+      const maybeLang = parts[0];
+      const pathParts = supportedLangs.includes(maybeLang) ? parts.slice(1) : parts;
+      return pathParts[pathParts.length - 1] || 'home';
+    };
+
     const trackLead = () => {
       if (typeof window.gtag !== 'function') {
         return;
       }
 
-      const pageLocation = window.location.href;
       const language = resolveLanguage();
+      const routeSlug = resolveRouteSlug();
 
       window.gtag('event', 'generate_lead', {
-        event_category: 'form',
-        event_label: 'Contact Form',
-        form_name: 'contact_form',
-        language,
-        page_location: pageLocation,
+        currency: 'USD',
+        value: 1.0,
+        lead_source: `contact_form_${language}_${routeSlug}`,
       });
 
       window.gtag('event', 'conversion', {
         send_to: googleAdsSendTo,
         value: 1.0,
         currency: 'USD',
-        language,
-        page_location: pageLocation,
       });
     };
 
