@@ -16,7 +16,7 @@ const googleAdsId = ANALYTICS?.vendors?.googleAds?.id;
 {
   googleAdsId ? (
     <script is:inline define:vars={{ googleAdsId }}>
-      window.gtag('config', googleAdsId);
+      gtag('config', googleAdsId);
     </script>
   ) : null
 }

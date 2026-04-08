@@ -10,17 +10,17 @@ const enabled = !!ANALYTICS?.vendors?.googleAnalytics?.id;
       const link = (event.target instanceof Element)
         ? event.target.closest('a[href]')
         : null;
-      if (!(link instanceof HTMLAnchorElement) || typeof window.gtag !== 'function') return;
+      if (!(link instanceof HTMLAnchorElement) || typeof gtag !== 'function') return;
 
       const href = link.getAttribute('href') ?? '';
 
       if (link.hasAttribute('data-analytics-announcement-phone') && href.startsWith('tel:')) {
-        window.gtag('event', 'phone_call_click', {
+        gtag('event', 'phone_call_click', {
           phone_number: href.replace(/^tel:/i, ''),
           source_component: 'announcement_bar',
         });
       } else if (link.hasAttribute('data-analytics-whatsapp')) {
-        window.gtag('event', 'whatsapp_click', {
+        gtag('event', 'whatsapp_click', {
           link_url: href,
           source_component: 'chat_button',
         });
