@@ -241,7 +241,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
       };
       const fallback = setTimeout(finish, 1500);
 
-      gtag('event', 'generate_lead', {
+      gtag('event', 'form_submit', {
         currency: 'USD',
         value: 1.0,
         lead_source: `contact_form_${language}_${routeSlug}`,
