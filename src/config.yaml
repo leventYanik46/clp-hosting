@@ -69,8 +69,6 @@ analytics:
     googleAnalytics:
       id: 'G-7YV9JCGHPY'
       partytown: false
-    googleAds:
-      id: 'AW-16834458308'
 
 ui:
   theme: 'light' # Values: "light"

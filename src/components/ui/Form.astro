@@ -194,9 +194,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 <script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
   (() => {
     const confirmationSlug = 'confirmation';
-    const googleAdsSendTo = 'AW-16834458308/GUCDCMr_2N8aEMTlpds-';
-
-    const buildConfirmationPath = () => {
+const buildConfirmationPath = () => {
       const pathParts = window.location.pathname.split('/').filter(Boolean);
       const maybeLang = pathParts[0];
 
@@ -239,19 +237,14 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
         completed = true;
         onComplete();
       };
-      const fallback = setTimeout(finish, 1500);
+      setTimeout(finish, 1500);
 
       gtag('event', 'form_submit', {
         currency: 'USD',
         value: 1.0,
         lead_source: `contact_form_${language}_${routeSlug}`,
-      });
-
-      gtag('event', 'conversion', {
-        send_to: googleAdsSendTo,
-        value: 1.0,
-        currency: 'USD',
-        event_callback: () => { clearTimeout(fallback); finish(); },
+        event_callback: finish,
+        event_timeout: 1500,
       });
     };
 
