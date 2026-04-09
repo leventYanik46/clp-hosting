@@ -209,44 +209,7 @@ const buildConfirmationPath = () => {
       return `/${confirmationSlug}`;
     };
 
-    const resolveLanguage = () => {
-      const [maybeLang] = window.location.pathname.split('/').filter(Boolean);
-      return supportedLangs.includes(maybeLang) ? maybeLang : defaultLanguage;
-    };
 
-    const resolveRouteSlug = () => {
-      const parts = window.location.pathname.split('/').filter(Boolean);
-      const maybeLang = parts[0];
-      const pathParts = supportedLangs.includes(maybeLang) ? parts.slice(1) : parts;
-      return pathParts[pathParts.length - 1] || 'home';
-    };
-
-    const trackLead = (onComplete) => {
-      if (typeof gtag !== 'function') {
-        onComplete();
-        return;
-      }
-
-      const language = resolveLanguage();
-      const routeSlug = resolveRouteSlug();
-
-      // Fallback: redirect regardless after 1.5s if gtag callback never fires
-      let completed = false;
-      const finish = () => {
-        if (completed) return;
-        completed = true;
-        onComplete();
-      };
-      setTimeout(finish, 1500);
-
-      gtag('event', 'form_submit', {
-        currency: 'USD',
-        value: 1.0,
-        lead_source: `contact_form_${language}_${routeSlug}`,
-        event_callback: finish,
-        event_timeout: 1500,
-      });
-    };
 
     const bindContactForms = () => {
       document.querySelectorAll('form[data-contact-form]').forEach((form) => {
@@ -278,9 +241,13 @@ const buildConfirmationPath = () => {
 
             const result = await response.json();
             if (result.success) {
-              trackLead(() => {
-                window.location.assign(buildConfirmationPath());
-              });
+              if (typeof gtag === 'function') {
+                gtag('event', 'generate_lead', {
+                  lead_source: 'contact_form',
+                  form_name: 'capitol law partners',
+                });
+              }
+              window.location.assign(buildConfirmationPath());
               return;
             }
 
