@@ -242,7 +242,7 @@ const buildConfirmationPath = () => {
             const result = await response.json();
             if (result.success) {
               if (typeof gtag === 'function') {
-                gtag('event', 'generate_lead', {
+                gtag('event', 'new_lead', {
                   lead_source: 'contact_form',
                   form_name: 'capitol law partners',
                 });
