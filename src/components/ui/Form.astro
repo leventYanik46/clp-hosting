@@ -35,7 +35,6 @@ const disclaimerCheckboxClass = compact
 const textareaRows = textarea?.rows ?? (compact ? 3 : 4);
 const supportedLangs = languages.map((language) => language.languageCode);
 const defaultLanguage = config.settings?.default_language ?? 'en';
-const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? false;
 ---
 
 <form
@@ -191,22 +190,13 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
   }
 </form>
 
-<script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
+<script is:inline define:vars={{ supportedLangs, defaultLanguage }}>
   (() => {
-    const confirmationSlug = 'confirmation';
-const buildConfirmationPath = () => {
+    const buildConfirmationPath = () => {
       const pathParts = window.location.pathname.split('/').filter(Boolean);
       const maybeLang = pathParts[0];
-
-      if (maybeLang && supportedLangs.includes(maybeLang)) {
-        return `/${maybeLang}/${confirmationSlug}`;
-      }
-
-      if (defaultLanguageInSubdir) {
-        return `/${defaultLanguage}/${confirmationSlug}`;
-      }
-
-      return `/${confirmationSlug}`;
+      const lang = (maybeLang && supportedLangs.includes(maybeLang)) ? maybeLang : defaultLanguage;
+      return `/${lang}/confirmation`;
     };
 
 
@@ -241,7 +231,10 @@ const buildConfirmationPath = () => {
 
             const result = await response.json();
             if (result.success) {
-              const redirect = () => window.location.assign(buildConfirmationPath());
+              const redirect = () => {
+                console.log('GA event_callback fired');
+                window.location.assign(buildConfirmationPath());
+              };
               if (typeof gtag === 'function') {
                 gtag('event', 'new_lead', {
                   'send_to': 'G-7YV9JCGHPY',
