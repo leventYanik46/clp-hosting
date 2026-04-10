@@ -239,6 +239,7 @@ const defaultLanguage = config.settings?.default_language ?? 'en';
                 gtag('event', 'new_lead', {
                   'send_to': 'G-7YV9JCGHPY',
                   'event_callback': redirect,
+                  'event_timeout': 2000,
                 });
               } else {
                 redirect();
