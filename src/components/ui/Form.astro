@@ -223,6 +223,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
           }
 
           submitButton.disabled = true;
+          let keepSubmitButtonDisabled = false;
 
           const formData = new FormData(form);
           const formObject = Object.fromEntries(formData.entries());
@@ -237,16 +238,40 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
             const result = await response.json();
             if (result.success) {
+              keepSubmitButtonDisabled = true;
+
+              const redirectTimeoutMs = 2000;
+              const confirmationPath = buildConfirmationPath();
+              let hasRedirected = false;
+              let fallbackTimerId = 0;
+
+              // Redirect once even if GA never invokes the callback.
               const redirect = () => {
-                console.log('GA event_callback fired');
-                window.location.assign(buildConfirmationPath());
+                if (hasRedirected) {
+                  return;
+                }
+
+                hasRedirected = true;
+                if (fallbackTimerId) {
+                  window.clearTimeout(fallbackTimerId);
+                }
+
+                window.location.assign(confirmationPath);
               };
+
+              fallbackTimerId = window.setTimeout(redirect, redirectTimeoutMs);
+
               if (typeof gtag === 'function') {
-                gtag('event', 'new_lead', {
-                  'send_to': 'G-7YV9JCGHPY',
-                  'event_callback': redirect,
-                  'event_timeout': 2000,
-                });
+                try {
+                  gtag('event', 'new_lead', {
+                    'send_to': 'G-7YV9JCGHPY',
+                    'event_callback': redirect,
+                    'event_timeout': redirectTimeoutMs,
+                  });
+                } catch (trackingError) {
+                  console.error('Failed to send the GA event; redirecting without waiting for a callback.', trackingError);
+                  redirect();
+                }
               } else {
                 redirect();
               }
@@ -258,7 +283,9 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
             alert('An error occurred while sending your message.');
             console.error(error);
           } finally {
-            submitButton.disabled = false;
+            if (!keepSubmitButtonDisabled) {
+              submitButton.disabled = false;
+            }
           }
         });
       });
