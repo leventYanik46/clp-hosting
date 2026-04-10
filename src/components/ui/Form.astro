@@ -194,7 +194,9 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 <script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
   (() => {
     const confirmationSlug = 'confirmation';
-const buildConfirmationPath = () => {
+    const trackingTimeoutMs = 2000;
+
+    const buildConfirmationPath = () => {
       const pathParts = window.location.pathname.split('/').filter(Boolean);
       const maybeLang = pathParts[0];
 
@@ -209,7 +211,27 @@ const buildConfirmationPath = () => {
       return `/${confirmationSlug}`;
     };
 
+    const sendContactForm = async (form) => {
+      const formData = new FormData(form);
+      const formObject = Object.fromEntries(formData.entries());
+      formObject.sourcePage = window.location.href;
 
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formObject),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        form.dataset.contactFormStage = 'redirecting';
+        window.location.assign(buildConfirmationPath());
+        return true;
+      }
+
+      alert('Error sending message: ' + result.error);
+      return false;
+    };
 
     const bindContactForms = () => {
       document.querySelectorAll('form[data-contact-form]').forEach((form) => {
@@ -219,49 +241,89 @@ const buildConfirmationPath = () => {
 
         form.dataset.contactFormBound = 'true';
         form.addEventListener('submit', async (event) => {
-          event.preventDefault();
-
           const submitButton = form.querySelector('button[type="submit"]');
           if (!(submitButton instanceof HTMLButtonElement)) {
             return;
           }
 
-          submitButton.disabled = true;
+          const submissionStage = form.dataset.contactFormStage ?? 'idle';
+          if (submissionStage !== 'submitting') {
+            event.preventDefault();
 
-          const formData = new FormData(form);
-          const formObject = Object.fromEntries(formData.entries());
-          formObject.sourcePage = window.location.href;
-
-          try {
-            const response = await fetch('/api/contact', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(formObject),
-            });
-
-            const result = await response.json();
-            if (result.success) {
-              const confirmationPath = buildConfirmationPath();
-
-              if (typeof gtag === 'function') {
-                gtag('event', 'new_lead', {
-                  event_callback: () => {
-                    window.location.assign(confirmationPath);
-                  },
-                  event_timeout: 2000,
-                });
-              } else {
-                window.location.assign(confirmationPath);
-              }
+            if (submissionStage === 'tracking') {
               return;
             }
 
-            alert('Error sending message: ' + result.error);
+            submitButton.disabled = true;
+            form.dataset.contactFormStage = 'tracking';
+
+            let hasResumedSubmission = false;
+            let trackingTimerId = 0;
+            const resumeSubmission = () => {
+              if (hasResumedSubmission) {
+                return;
+              }
+
+              hasResumedSubmission = true;
+              if (trackingTimerId) {
+                window.clearTimeout(trackingTimerId);
+              }
+
+              form.dataset.contactFormStage = 'submitting';
+              if (typeof form.requestSubmit === 'function') {
+                form.requestSubmit();
+                return;
+              }
+
+              void sendContactForm(form)
+                .catch((error) => {
+                  alert('An error occurred while sending your message.');
+                  console.error(error);
+                })
+                .finally(() => {
+                  if (form.dataset.contactFormStage !== 'redirecting') {
+                    form.dataset.contactFormStage = 'idle';
+                    submitButton.disabled = false;
+                  }
+                });
+            };
+
+            trackingTimerId = window.setTimeout(resumeSubmission, trackingTimeoutMs);
+
+            if (typeof gtag === 'function') {
+              try {
+                gtag('event', 'new_lead', {
+                  event_callback: resumeSubmission,
+                  event_timeout: trackingTimeoutMs,
+                });
+              } catch (error) {
+                console.error('Failed to send the GA event.', error);
+                resumeSubmission();
+              }
+            } else {
+              resumeSubmission();
+            }
+
+            return;
+          }
+
+          event.preventDefault();
+
+          try {
+            form.dataset.contactFormStage = 'submitting';
+
+            const submitted = await sendContactForm(form);
+            if (!submitted) {
+              form.dataset.contactFormStage = 'idle';
+            }
           } catch (error) {
+            form.dataset.contactFormStage = 'idle';
             alert('An error occurred while sending your message.');
             console.error(error);
           } finally {
-            submitButton.disabled = false;
+            if (form.dataset.contactFormStage !== 'redirecting') {
+              submitButton.disabled = false;
+            }
           }
         });
       });
