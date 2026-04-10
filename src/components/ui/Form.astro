@@ -35,6 +35,7 @@ const disclaimerCheckboxClass = compact
 const textareaRows = textarea?.rows ?? (compact ? 3 : 4);
 const supportedLangs = languages.map((language) => language.languageCode);
 const defaultLanguage = config.settings?.default_language ?? 'en';
+const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? false;
 ---
 
 <form
@@ -190,13 +191,18 @@ const defaultLanguage = config.settings?.default_language ?? 'en';
   }
 </form>
 
-<script is:inline define:vars={{ supportedLangs, defaultLanguage }}>
+<script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
   (() => {
     const buildConfirmationPath = () => {
       const pathParts = window.location.pathname.split('/').filter(Boolean);
       const maybeLang = pathParts[0];
-      const lang = (maybeLang && supportedLangs.includes(maybeLang)) ? maybeLang : defaultLanguage;
-      return `/${lang}/confirmation`;
+      if (maybeLang && supportedLangs.includes(maybeLang)) {
+        return `/${maybeLang}/confirmation`;
+      }
+      if (defaultLanguageInSubdir) {
+        return `/${defaultLanguage}/confirmation`;
+      }
+      return '/confirmation';
     };
 
 
