@@ -224,7 +224,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
       const result = await response.json();
       if (result.success) {
-20        window.location.assign(buildConfirmationPath());
+        window.location.assign(buildConfirmationPath());
         return true;
       }
 
