@@ -145,37 +145,6 @@ spotlights:
       elle guide ses clients dans les litiges complexes et les cadres
       réglementaires avec clarté et précision.
     backgroundClass: absolute inset-0 bg-blue-50
-  - props:
-      isReversed: true
-    items:
-      - title: Planification des entreprises et successions
-        description: >-
-          Conseille en testaments, trusts, partenariats et constitutions
-          d’entités. Offre un accompagnement complet en planification
-          successorale et gestion des risques pour entreprises et familles.
-      - title: Droit immobilier
-        description: >-
-          Gère une large palette de dossiers immobiliers commerciaux, notamment
-          acquisitions, locations, financements et projets de développement, en
-          protégeant les intérêts des clients et en structurant efficacement les
-          opérations.
-      - title: Conformité en santé
-        description: >-
-          Accompagne les organisations de santé sur la conformité
-          opérationnelle, la gestion et les questions réglementaires, grâce à
-          une solide expertise en droit et régulation du secteur.
-    image:
-      src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Photo de profil de Shafeek Seddiq
-    contentHtml: >-
-      <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
-      Seddiq</h3>Avocat expérimenté avec plus de <strong>20 ans de
-      pratique</strong>, il fournit un conseil stratégique en
-      <strong>planification successorale, immobilier commercial et conformité en
-      santé</strong>. Admis en Virginie et à Washington, D.C., il accompagne
-      particuliers, entreprises et organisations de santé sur des dossiers
-      juridiques complexes.
-    backgroundClass: absolute inset-0 bg-blue-50
 testimonials:
   title: Témoignages clients
   subtitle: Découvrez ce que les clients disent de Capitol Law Partners.

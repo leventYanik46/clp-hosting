@@ -37,22 +37,6 @@ sections:
         image:
           src: ~/assets/images/sena-bio-new-team.jpeg
           alt: Agendar una cita
-      - title: Shafeek Seddiq
-        tagline: Asesor Jurídico
-        subtitle: Trabajemos juntos
-        bottomtag: Fideicomisos y Sucesiones | Derecho Empresarial | Asesoría General
-        actions:
-          - variant: primary
-            text: Contácteme
-            href: /es/contact
-            target: _blank
-          - variant: primary
-            text: Ver biografía →
-            href: /es/our-team/shafeek
-            target: _blank
-        image:
-          src: ~/assets/images/shafeek-bio-new-team.jpeg
-          alt: Imagen de plano
       - title: Esra Nur Bulan
         tagline: Abogada
         subtitle: Trabajemos juntas

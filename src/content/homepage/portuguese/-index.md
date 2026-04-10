@@ -147,36 +147,6 @@ spotlights:
       Pensilvânia e Texas, guia clientes em disputas complexas e cenários
       regulatórios com clareza e precisão.
     backgroundClass: absolute inset-0 bg-blue-50
-  - props:
-      isReversed: true
-    items:
-      - title: Planejamento Empresarial e Sucessório
-        description: >-
-          Orienta clientes em testamentos, trusts, parcerias e constituição de
-          empresas. Oferece orientação abrangente sobre planejamento sucessório
-          e gestão de riscos para negócios e famílias.
-      - title: Direito Imobiliário
-        description: >-
-          Atua em uma ampla gama de temas imobiliários comerciais, incluindo
-          aquisições, locação, financiamento e projetos de desenvolvimento,
-          garantindo que os interesses dos clientes sejam protegidos e os
-          negócios estruturados com eficiência.
-      - title: Compliance em Saúde
-        description: >-
-          Orienta organizações de saúde em conformidade operacional, gestão e
-          questões regulatórias, aproveitando profunda experiência em direito e
-          regulamentação do setor.
-    image:
-      src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Foto de perfil de Shafeek Seddiq
-    contentHtml: >-
-      <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
-      Seddiq</h3>Advogado experiente com mais de <strong>20 anos de
-      atuação</strong>, oferece consultoria estratégica em <strong>planejamento
-      sucessório, imóveis comerciais e compliance em saúde</strong>. Licenciado
-      na Virgínia e em Washington, D.C., assessora pessoas físicas, empresas e
-      organizações de saúde em questões jurídicas complexas.
-    backgroundClass: absolute inset-0 bg-blue-50
 testimonials:
   title: Depoimentos de clientes
   subtitle: Descubra o que os clientes dizem sobre a Capitol Law Partners.

@@ -148,36 +148,6 @@ spotlights:
       a los clientes a través de disputas complejas y entornos regulatorios con
       claridad y precisión.
     backgroundClass: absolute inset-0 bg-blue-50
-  - props:
-      isReversed: true
-    items:
-      - title: Derecho Empresarial y Planificación Patrimonial
-        description: >-
-          Asesora a clientes sobre testamentos, fideicomisos, sociedades y
-          constitución de entidades. Ofrece orientación integral sobre
-          planificación sucesoria y gestión de riesgos para empresas y familias.
-      - title: Derecho Inmobiliario
-        description: >-
-          Atiende una amplia gama de asuntos inmobiliarios comerciales,
-          incluidas adquisiciones, arrendamientos, financiamiento y proyectos de
-          desarrollo, protegiendo los intereses de los clientes y estructurando
-          acuerdos de forma eficiente.
-      - title: Cumplimiento en Salud
-        description: >-
-          Asesora a organizaciones de salud en cumplimiento operativo,
-          administración y regulaciones, aprovechando su amplio conocimiento en
-          derecho sanitario.
-    image:
-      src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Foto de perfil de Shafeek Seddiq
-    contentHtml: >-
-      <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
-      Seddiq</h3>Abogado con más de <strong>20 años de experiencia
-      legal</strong>, brinda asesoría estratégica en <strong>planificación
-      patrimonial, bienes raíces comerciales y cumplimiento en salud</strong>.
-      Con licencia en Virginia y Washington D. C., asesora a particulares,
-      empresas y organizaciones sanitarias en asuntos legales complejos.
-    backgroundClass: absolute inset-0 bg-blue-50
 testimonials:
   title: Testimonios de clientes
   subtitle: Descubra lo que dicen los clientes sobre Capitol Law Partners.

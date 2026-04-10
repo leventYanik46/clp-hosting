@@ -37,22 +37,6 @@ sections:
         image:
           src: ~/assets/images/sena-bio-new-team.jpeg
           alt: Randevu planlayın
-      - title: Shafeek Seddiq
-        tagline: Danışman Avukat
-        subtitle: Birlikte Çalışalım
-        bottomtag: Vasiyetler & Miras | İş Hukuku | Genel Hukuk Müşavirliği
-        actions:
-          - variant: primary
-            text: İletişime Geç
-            href: /tr/contact
-            target: _blank
-          - variant: primary
-            text: Biyografiyi Gör →
-            href: /tr/our-team/shafeek
-            target: _blank
-        image:
-          src: ~/assets/images/shafeek-bio-new-team.jpeg
-          alt: Plan görseli
       - title: Esra Nur Bulan
         tagline: Avukat
         subtitle: Birlikte Çalışalım

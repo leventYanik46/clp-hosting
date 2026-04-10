@@ -142,34 +142,6 @@ spotlights:
       Pensilvanya ve Teksas barolarında lisanslıdır; karmaşık uyuşmazlık ve
       düzenleyici süreçleri netlikle yönetir.
     backgroundClass: absolute inset-0 bg-blue-50
-  - props:
-      isReversed: true
-    items:
-      - title: İş ve Miras Planlaması
-        description: >-
-          Vasiyetler, vakıflar, ortaklıklar ve şirket kuruluşlarında danışmanlık
-          yapar; işletmeler ve aileler için kapsamlı ardıl planlama ve risk
-          yönetimi sunar.
-      - title: Gayrimenkul Hukuku
-        description: >-
-          Ticari gayrimenkul alım satım, kiralama, finansman ve geliştirme
-          projelerini yöneterek müvekkillerin çıkarlarını korur ve işlemleri
-          verimli kılar.
-      - title: Sağlık Hukuku ve Uyum
-        description: >-
-          Sağlık kuruluşlarına operasyonel uyum, yönetim ve düzenleyici
-          gereklilikler hakkında derin hukuk bilgisiyle rehberlik eder.
-    image:
-      src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Shafeek Seddiq profil fotoğrafı
-    contentHtml: >-
-      <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
-      Seddiq</h3><strong>20 yılı aşkın hukuki deneyime</strong> sahip olan
-      Seddiq, <strong>miras planlaması, ticari gayrimenkul ve sağlık
-      uyumu</strong> alanlarında stratejik danışmanlık sunar. Virginia ve
-      Washington, D.C. barolarına kayıtlıdır; bireyleri, işletmeleri ve sağlık
-      kuruluşlarını karmaşık hukuki konularda yönlendirir.
-    backgroundClass: absolute inset-0 bg-blue-50
 testimonials:
   title: Müvekkil yorumları
   subtitle: Capitol Law Partners hakkında müvekkillerimizin görüşlerini keşfedin.

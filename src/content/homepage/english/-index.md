@@ -146,35 +146,6 @@ spotlights:
       she guides clients through complex disputes and regulatory landscapes with
       clarity and precision.
     backgroundClass: absolute inset-0 bg-blue-50
-  - props:
-      isReversed: true
-    items:
-      - title: Business & Estate Planning
-        description: >-
-          Advises clients on wills, trusts, partnerships, and entity formation.
-          Offers comprehensive guidance on succession planning and risk
-          management for businesses and families.
-      - title: Real Estate Law
-        description: >-
-          Handles a wide range of commercial real estate matters, including
-          acquisitions, leasing, financing, and development projects, ensuring
-          clients’ interests are protected and deals are structured efficiently.
-      - title: Healthcare Compliance
-        description: >-
-          Counsels healthcare organizations on operational compliance,
-          management, and regulatory issues, leveraging deep expertise in
-          healthcare law and regulations.
-    image:
-      src: ~/assets/images/shafeek-profile-prefered.png
-      alt: Shafeek Seddiq profile picture
-    contentHtml: >-
-      <h3 class="text-2xl font-bold tracking-tight sm:text-3xl mb-2">Shafeek
-      Seddiq</h3>A seasoned attorney with over <strong>20 years of legal
-      experience</strong>, he provides strategic legal counsel in <strong>estate
-      planning, commercial real estate, and healthcare compliance</strong>.
-      Licensed in Virginia and Washington, D.C., he advises individuals,
-      businesses, and healthcare organizations on complex legal matters.
-    backgroundClass: absolute inset-0 bg-blue-50
 testimonials:
   title: Client testimonials
   subtitle: Discover what clients have to say about Capitol Law Partners.

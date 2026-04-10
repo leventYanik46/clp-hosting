@@ -37,22 +37,6 @@ sections:
         image:
           src: ~/assets/images/sena-bio-new-team.jpeg
           alt: Agendar uma consulta
-      - title: Shafeek Seddiq
-        tagline: Consultor Jurídico
-        subtitle: Vamos trabalhar juntos
-        bottomtag: Trusts e Sucessões | Direito Empresarial | Consultor Jurídico Geral
-        actions:
-          - variant: primary
-            text: Fale comigo
-            href: /pt/contact
-            target: _blank
-          - variant: primary
-            text: Ver bio →
-            href: /pt/our-team/shafeek
-            target: _blank
-        image:
-          src: ~/assets/images/shafeek-bio-new-team.jpeg
-          alt: Imagem de projeto
       - title: Esra Nur Bulan
         tagline: Advogada
         subtitle: Vamos trabalhar juntos

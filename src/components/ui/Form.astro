@@ -241,13 +241,15 @@ const buildConfirmationPath = () => {
 
             const result = await response.json();
             if (result.success) {
+              const redirect = () => window.location.assign(buildConfirmationPath());
               if (typeof gtag === 'function') {
                 gtag('event', 'new_lead', {
-                  lead_source: 'contact_form',
-                  form_name: 'capitol law partners',
+                  'send_to': 'G-7YV9JCGHPY',
+                  'event_callback': redirect,
                 });
+              } else {
+                redirect();
               }
-              window.location.assign(buildConfirmationPath());
               return;
             }
 

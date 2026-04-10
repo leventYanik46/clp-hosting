@@ -37,22 +37,6 @@ sections:
         image:
           src: ~/assets/images/sena-bio-new-team.jpeg
           alt: Prendre rendez-vous
-      - title: Shafeek Seddiq
-        tagline: Avocat Conseil
-        subtitle: Travaillons ensemble
-        bottomtag: Trusts et successions | Droit des affaires | Conseil juridique externe
-        actions:
-          - variant: primary
-            text: Me contacter
-            href: /fr/contact
-            target: _blank
-          - variant: primary
-            text: Voir la bio →
-            href: /fr/our-team/shafeek
-            target: _blank
-        image:
-          src: ~/assets/images/shafeek-bio-new-team.jpeg
-          alt: Image illustrative
       - title: Esra Nur Bulan
         tagline: Avocate
         subtitle: Travaillons ensemble

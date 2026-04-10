@@ -37,22 +37,6 @@ sections:
         image:
           src: ~/assets/images/sena-bio-new-team.jpeg
           alt: Schedule an appointment
-      - title: Shafeek Seddiq
-        tagline: Of Counsel
-        subtitle: Let's Work Together
-        bottomtag: Trusts & Estates | Business Law | General Counsel
-        actions:
-          - variant: primary
-            text: Contact Me
-            href: /contact
-            target: _blank
-          - variant: primary
-            text: See Bio →
-            href: /our-team/shafeek
-            target: _blank
-        image:
-          src: ~/assets/images/shafeek-bio-new-team.jpeg
-          alt: Blueprint Image
       - title: Esra Nur Bulan
         tagline: Attorney at Law
         subtitle: Let's Work Together
