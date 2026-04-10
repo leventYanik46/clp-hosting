@@ -38,6 +38,7 @@
         "npm:astro-icon@^1.1.1",
         "npm:astro@^5.2.6",
         "npm:baseline-browser-mapping@^2.10.11",
+        "npm:decap-cms-app@^3.6.3",
         "npm:dotenv@^16.4.7",
         "npm:eslint-plugin-astro@^1.2.4",
         "npm:eslint@^9.12.0",
