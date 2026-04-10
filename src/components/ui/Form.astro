@@ -224,13 +224,64 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
 
       const result = await response.json();
       if (result.success) {
-        form.dataset.contactFormStage = 'redirecting';
-        window.location.assign(buildConfirmationPath());
+20        window.location.assign(buildConfirmationPath());
         return true;
       }
 
       alert('Error sending message: ' + result.error);
       return false;
+    };
+
+    const submitContactForm = (form, submitButton) => {
+      submitButton.disabled = true;
+      form.dataset.contactFormPending = 'true';
+
+      let hasStartedSubmission = false;
+      let trackingTimerId = 0;
+
+      const resetFormState = () => {
+        delete form.dataset.contactFormPending;
+        submitButton.disabled = false;
+      };
+
+      const startSubmission = () => {
+        if (hasStartedSubmission) {
+          return;
+        }
+
+        hasStartedSubmission = true;
+        if (trackingTimerId) {
+          window.clearTimeout(trackingTimerId);
+        }
+
+        void sendContactForm(form)
+          .then((submitted) => {
+            if (!submitted) {
+              resetFormState();
+            }
+          })
+          .catch((error) => {
+            resetFormState();
+            alert('An error occurred while sending your message.');
+            console.error(error);
+          });
+      };
+
+      trackingTimerId = window.setTimeout(startSubmission, trackingTimeoutMs);
+
+      if (typeof gtag === 'function') {
+        try {
+          gtag('event', 'new_lead', {
+            event_callback: startSubmission,
+            event_timeout: trackingTimeoutMs,
+          });
+          return;
+        } catch (error) {
+          console.error('Failed to send the GA event.', error);
+        }
+      }
+
+      startSubmission();
     };
 
     const bindContactForms = () => {
@@ -240,91 +291,18 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
         }
 
         form.dataset.contactFormBound = 'true';
-        form.addEventListener('submit', async (event) => {
+        form.addEventListener('submit', (event) => {
           const submitButton = form.querySelector('button[type="submit"]');
           if (!(submitButton instanceof HTMLButtonElement)) {
             return;
           }
 
-          const submissionStage = form.dataset.contactFormStage ?? 'idle';
-          if (submissionStage !== 'submitting') {
-            event.preventDefault();
-
-            if (submissionStage === 'tracking') {
-              return;
-            }
-
-            submitButton.disabled = true;
-            form.dataset.contactFormStage = 'tracking';
-
-            let hasResumedSubmission = false;
-            let trackingTimerId = 0;
-            const resumeSubmission = () => {
-              if (hasResumedSubmission) {
-                return;
-              }
-
-              hasResumedSubmission = true;
-              if (trackingTimerId) {
-                window.clearTimeout(trackingTimerId);
-              }
-
-              form.dataset.contactFormStage = 'submitting';
-              if (typeof form.requestSubmit === 'function') {
-                form.requestSubmit();
-                return;
-              }
-
-              void sendContactForm(form)
-                .catch((error) => {
-                  alert('An error occurred while sending your message.');
-                  console.error(error);
-                })
-                .finally(() => {
-                  if (form.dataset.contactFormStage !== 'redirecting') {
-                    form.dataset.contactFormStage = 'idle';
-                    submitButton.disabled = false;
-                  }
-                });
-            };
-
-            trackingTimerId = window.setTimeout(resumeSubmission, trackingTimeoutMs);
-
-            if (typeof gtag === 'function') {
-              try {
-                gtag('event', 'new_lead', {
-                  event_callback: resumeSubmission,
-                  event_timeout: trackingTimeoutMs,
-                });
-              } catch (error) {
-                console.error('Failed to send the GA event.', error);
-                resumeSubmission();
-              }
-            } else {
-              resumeSubmission();
-            }
-
+          event.preventDefault();
+          if (form.dataset.contactFormPending === 'true') {
             return;
           }
 
-          event.preventDefault();
-
-          try {
-            form.dataset.contactFormStage = 'submitting';
-
-            const submitted = await sendContactForm(form);
-            if (!submitted) {
-              form.dataset.contactFormStage = 'idle';
-            }
-          } catch (error) {
-            form.dataset.contactFormStage = 'idle';
-            alert('An error occurred while sending your message.');
-            console.error(error);
-          } finally {
-            if (form.dataset.contactFormStage !== 'redirecting') {
-              submitButton.disabled = false;
-            }
-          }
+          submitContactForm(form, submitButton);
         });
       });
     };
