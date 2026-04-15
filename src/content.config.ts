@@ -8,118 +8,123 @@ const noteCollection = defineCollection({
 import { glob } from 'astro/loaders';
 import { z, defineCollection } from 'astro:content';
 
-const metadataDefinition = () =>
-  z
+const metadataShape = {
+  title: z.string().optional(),
+  ignoreTitleTemplate: z.boolean().optional(),
+  robots: z
     .object({
-      title: z.string().optional(),
-      ignoreTitleTemplate: z.boolean().optional(),
-
-      canonical: z.string().url().optional(),
-
-      robots: z
-        .object({
-          index: z.boolean().optional(),
-          follow: z.boolean().optional(),
-        })
+      index: z.boolean().optional(),
+      follow: z.boolean().optional(),
+    })
+    .optional(),
+  description: z.string().optional(),
+  openGraph: z
+    .object({
+      url: z.string().optional(),
+      siteName: z.string().optional(),
+      images: z
+        .array(
+          z.object({
+            url: z.string(),
+            width: z.number().optional(),
+            height: z.number().optional(),
+          })
+        )
         .optional(),
+      locale: z.string().optional(),
+      type: z.string().optional(),
+    })
+    .optional(),
+  twitter: z
+    .object({
+      handle: z.string().optional(),
+      site: z.string().optional(),
+      cardType: z.string().optional(),
+    })
+    .optional(),
+};
 
-      description: z.string().optional(),
+const metadataDefinition = ({ allowCanonical = true }: { allowCanonical?: boolean } = {}) =>
+  (allowCanonical
+    ? z.object({
+        canonical: z.string().url().optional(),
+        ...metadataShape,
+      })
+    : z.object(metadataShape)
+  ).optional();
 
-      openGraph: z
+const seoShape = {
+  title: z.string().optional(),
+  description: z.string().optional(),
+  ogImage: z.string().optional(),
+  noindex: z.boolean().optional(),
+  nofollow: z.boolean().optional(),
+  schema: z
+    .object({
+      mode: z.enum(['auto', 'merge', 'replace']).optional(),
+      includeBreadcrumbs: z.boolean().optional(),
+      entity: z.enum(['service', 'person']).optional(),
+      serviceType: z.string().optional(),
+      personJobTitle: z.string().optional(),
+      personImage: z.string().optional(),
+      person: z
         .object({
-          url: z.string().optional(),
-          siteName: z.string().optional(),
-          images: z
+          givenName: z.string().optional(),
+          familyName: z.string().optional(),
+          honorificPrefix: z.string().optional(),
+          honorificSuffix: z.string().optional(),
+          alternateName: z.string().optional(),
+          jobTitle: z.string().optional(),
+          image: z.string().optional(),
+          email: z.string().optional(),
+          telephone: z.string().optional(),
+          sameAs: z.array(z.string().url()).optional(),
+          knowsAbout: z.array(z.string()).optional(),
+          knowsLanguage: z.array(z.string()).optional(),
+          alumniOf: z
             .array(
-              z.object({
-                url: z.string(),
-                width: z.number().optional(),
-                height: z.number().optional(),
-              })
+              z.union([
+                z.string(),
+                z.object({
+                  name: z.string(),
+                  url: z.string().url().optional(),
+                  sameAs: z.string().url().optional(),
+                  type: z.enum(['EducationalOrganization', 'CollegeOrUniversity', 'School']).optional(),
+                }),
+              ])
             )
             .optional(),
-          locale: z.string().optional(),
-          type: z.string().optional(),
-        })
-        .optional(),
-
-      twitter: z
-        .object({
-          handle: z.string().optional(),
-          site: z.string().optional(),
-          cardType: z.string().optional(),
-        })
-        .optional(),
-    })
-    .optional();
-
-const seoDefinition = () =>
-  z
-    .object({
-      title: z.string().optional(),
-      description: z.string().optional(),
-      ogImage: z.string().optional(),
-      noindex: z.boolean().optional(),
-      nofollow: z.boolean().optional(),
-      canonicalOverride: z.string().url().optional(),
-      schema: z
-        .object({
-          mode: z.enum(['auto', 'merge', 'replace']).optional(),
-          includeBreadcrumbs: z.boolean().optional(),
-          entity: z.enum(['service', 'person']).optional(),
-          serviceType: z.string().optional(),
-          personJobTitle: z.string().optional(),
-          personImage: z.string().optional(),
-          person: z
+          worksFor: z
             .object({
-              givenName: z.string().optional(),
-              familyName: z.string().optional(),
-              honorificPrefix: z.string().optional(),
-              honorificSuffix: z.string().optional(),
-              alternateName: z.string().optional(),
-              jobTitle: z.string().optional(),
-              image: z.string().optional(),
-              email: z.string().optional(),
-              telephone: z.string().optional(),
+              id: z.string().url().optional(),
+              name: z.string().optional(),
+              url: z.string().url().optional(),
               sameAs: z.array(z.string().url()).optional(),
-              knowsAbout: z.array(z.string()).optional(),
-              knowsLanguage: z.array(z.string()).optional(),
-              alumniOf: z
-                .array(
-                  z.union([
-                    z.string(),
-                    z.object({
-                      name: z.string(),
-                      url: z.string().url().optional(),
-                      sameAs: z.string().url().optional(),
-                      type: z.enum(['EducationalOrganization', 'CollegeOrUniversity', 'School']).optional(),
-                    }),
-                  ])
-                )
-                .optional(),
-              worksFor: z
-                .object({
-                  id: z.string().url().optional(),
-                  name: z.string().optional(),
-                  url: z.string().url().optional(),
-                  sameAs: z.array(z.string().url()).optional(),
-                })
-                .optional(),
             })
             .optional(),
-          custom: z.array(z.record(z.string(), z.unknown())).optional(),
         })
         .optional(),
-      strategy: z
-        .object({
-          primaryIntent: z.string().optional(),
-          primaryQuery: z.string().optional(),
-          supportingQueries: z.array(z.string()).optional(),
-          internalLinks: z.array(z.string()).optional(),
-        })
-        .optional(),
+      custom: z.array(z.record(z.string(), z.unknown())).optional(),
     })
-    .optional();
+    .optional(),
+  strategy: z
+    .object({
+      primaryIntent: z.string().optional(),
+      primaryQuery: z.string().optional(),
+      supportingQueries: z.array(z.string()).optional(),
+      internalLinks: z.array(z.string()).optional(),
+    })
+    .optional(),
+};
+
+const seoDefinition = ({ allowCanonicalOverride = true }: { allowCanonicalOverride?: boolean } = {}) =>
+  (allowCanonicalOverride
+    ? z.object({
+        canonicalOverride: z.string().url().optional(),
+        ...seoShape,
+      })
+    : z.object(seoShape)
+  ).optional();
 
 const imageSchema = z.object({
   src: z.string(),
@@ -493,8 +498,8 @@ const postCollection = defineCollection({
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
     lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']).optional().default('en'),
-    metadata: metadataDefinition(),
-    seo: seoDefinition(),
+    metadata: metadataDefinition({ allowCanonical: false }),
+    seo: seoDefinition({ allowCanonicalOverride: false }),
   }),
 });
 

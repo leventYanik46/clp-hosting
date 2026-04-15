@@ -1,88 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
-import slugify from 'limax';
 
 const rootDir = process.cwd();
 const postsDir = path.join(rootDir, 'src/content/post');
-const configPath = path.join(rootDir, 'src/config.yaml');
-
-const config = yaml.load(fs.readFileSync(configPath, 'utf8'));
-const siteUrl = String(config?.site?.site || 'https://capitollawpartners.com');
-const siteHost = new URL(siteUrl).hostname;
-const defaultLanguage = String(config?.i18n?.defaultLanguage || 'en')
-  .trim()
-  .toLowerCase();
-const defaultLanguageInSubdirRaw = config?.i18n?.default_language_in_subdir;
-
-const parseBooleanLike = (value, fallback = false) => {
-  if (typeof value === 'boolean') return value;
-  if (typeof value === 'string') {
-    const normalized = value
-      .trim()
-      .replace(/,+$/g, '')
-      .toLowerCase();
-    if (normalized === 'true') return true;
-    if (normalized === 'false') return false;
-  }
-  return fallback;
-};
-
-const defaultLanguageInSubdir = parseBooleanLike(defaultLanguageInSubdirRaw, false);
-
-const normalizePathname = (pathname = '/') => {
-  let value = String(pathname || '/').trim();
-  if (!value.startsWith('/')) value = `/${value}`;
-  value = value.replace(/\/+/g, '/');
-  if (value.length > 1 && value.endsWith('/')) value = value.slice(0, -1);
-  return value || '/';
-};
-
-const sanitizeCanonical = (rawCanonical) => {
-  if (!rawCanonical || typeof rawCanonical !== 'string') return undefined;
-
-  const trimmedCanonical = rawCanonical
-    .trim()
-    .replace(/\u00a0/g, '')
-    .replace(/\s+/g, '-');
-
-  if (!trimmedCanonical) return undefined;
-
-  try {
-    const url = new URL(trimmedCanonical, siteUrl);
-    url.protocol = 'https:';
-    url.hostname = siteHost;
-    url.search = '';
-    url.hash = '';
-    url.pathname = normalizePathname(url.pathname).toLowerCase();
-    return url.toString();
-  } catch {
-    return undefined;
-  }
-};
-
-const cleanSlug = (text = '') =>
-  String(text)
-    .trim()
-    .replace(/^\/+|\/+$/g, '')
-    .split('/')
-    .map((segment) => slugify(segment))
-    .join('/');
-
-const getExpectedCanonical = (fileName, data) => {
-  const slug = cleanSlug(fileName.replace(/\.(md|mdx)$/i, ''));
-  const rawLang = data?.lang;
-  const languageCodes = Array.isArray(rawLang)
-    ? rawLang.filter((language) => typeof language === 'string' && language.trim().length > 0)
-    : typeof rawLang === 'string' && rawLang.trim().length > 0
-      ? [rawLang.trim()]
-      : [defaultLanguage];
-  const primaryLanguage = String(languageCodes[0] || defaultLanguage).toLowerCase();
-  const languagePrefix = primaryLanguage === defaultLanguage && !defaultLanguageInSubdir ? '' : primaryLanguage;
-  const pathname = languagePrefix ? `/${languagePrefix}/${slug}` : `/${slug}`;
-
-  return new URL(pathname, siteUrl).toString();
-};
 
 const files = fs
   .readdirSync(postsDir)
@@ -111,12 +32,8 @@ for (const fileName of files) {
     data.seo = {};
   }
 
-  const expectedCanonical = sanitizeCanonical(getExpectedCanonical(fileName, data));
-
-  if (expectedCanonical) {
-    data.metadata.canonical = expectedCanonical;
-    data.seo.canonicalOverride = expectedCanonical;
-  }
+  delete data.metadata.canonical;
+  delete data.seo.canonicalOverride;
 
   if (fileName === 'dummy.md') {
     data.draft = true;
@@ -124,6 +41,14 @@ for (const fileName of files) {
       index: false,
       follow: false,
     };
+  }
+
+  if (Object.keys(data.metadata).length === 0) {
+    delete data.metadata;
+  }
+
+  if (Object.keys(data.seo).length === 0) {
+    delete data.seo;
   }
 
   const updatedFrontmatter = yaml.dump(data, {
@@ -140,4 +65,4 @@ for (const fileName of files) {
   }
 }
 
-console.log(`Normalized canonicals in ${changed} file(s).`);
+console.log(`Removed stored post canonicals in ${changed} file(s).`);

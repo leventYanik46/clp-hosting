@@ -12,7 +12,6 @@ image: /images/gemini_generated_image_giyi6rgiyi6rgiyi.png
 imageWidth: 1408
 imageHeight: 768
 metadata:
-  canonical: world-cup-usa-investment-opportunity
   description: Discover how attending the FIFA World Cup in the U.S. can help you
     explore investment opportunities, understand the market, and choose the
     right visa strategy.

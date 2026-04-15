@@ -38,6 +38,9 @@ for (const filePath of files) {
     continue;
   }
 
+  const relPath = path.relative(rootDir, filePath).replace(/\\/g, '/');
+  const isPost = relPath.startsWith('src/content/post/');
+
   const metadata = data?.metadata && typeof data.metadata === 'object' ? data.metadata : {};
   const topLevelTitle = typeof data?.title === 'string' ? data.title : undefined;
   const topLevelDescription = typeof data?.excerpt === 'string' ? data.excerpt : undefined;
@@ -50,7 +53,7 @@ for (const filePath of files) {
     ...(metadata.openGraph?.images?.[0]?.url ? { ogImage: metadata.openGraph.images[0].url } : {}),
     ...(typeof metadata.robots?.index === 'boolean' ? { noindex: metadata.robots.index === false } : {}),
     ...(typeof metadata.robots?.follow === 'boolean' ? { nofollow: metadata.robots.follow === false } : {}),
-    ...(metadata.canonical ? { canonicalOverride: metadata.canonical } : {}),
+    ...(!isPost && metadata.canonical ? { canonicalOverride: metadata.canonical } : {}),
   };
 
   if (Object.keys(nextSeo).length === 0) continue;

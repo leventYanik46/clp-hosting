@@ -28,7 +28,6 @@ collections:
         name: "metadata"
         widget: "object"
         fields:
-          - { label: "Canonical URL", name: "canonical", widget: "string" }
           - { label: "Meta Description", name: "description", widget: "string" }
       - { label: "Content", name: "body", widget: "markdown" }
   - name: "event"

@@ -1,7 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
-import slugify from 'limax';
 
 const rootDir = process.cwd();
 const contentDir = path.join(rootDir, 'src/content');
@@ -10,25 +9,6 @@ const configPath = path.join(rootDir, 'src/config.yaml');
 const config = yaml.load(fs.readFileSync(configPath, 'utf8'));
 const siteUrl = String(config?.site?.site || 'https://capitollawpartners.com');
 const siteHost = new URL(siteUrl).hostname;
-const defaultLanguage = String(config?.i18n?.defaultLanguage || 'en')
-  .trim()
-  .toLowerCase();
-const defaultLanguageInSubdirRaw = config?.i18n?.default_language_in_subdir;
-
-const parseBooleanLike = (value, fallback = false) => {
-  if (typeof value === 'boolean') return value;
-  if (typeof value === 'string') {
-    const normalized = value
-      .trim()
-      .replace(/,+$/g, '')
-      .toLowerCase();
-    if (normalized === 'true') return true;
-    if (normalized === 'false') return false;
-  }
-  return fallback;
-};
-
-const defaultLanguageInSubdir = parseBooleanLike(defaultLanguageInSubdirRaw, false);
 
 const normalizePathname = (pathname = '/') => {
   let value = String(pathname || '/').trim();
@@ -59,28 +39,6 @@ const sanitizeCanonical = (rawCanonical) => {
   } catch {
     return undefined;
   }
-};
-
-const cleanSlug = (text = '') =>
-  String(text)
-    .trim()
-    .replace(/^\/+|\/+$/g, '')
-    .split('/')
-    .map((segment) => slugify(segment))
-    .join('/');
-
-const getExpectedCanonicalForPost = (fileName, data) => {
-  const slug = cleanSlug(fileName.replace(/\.(md|mdx)$/i, ''));
-  const rawLang = data?.lang;
-  const languageCodes = Array.isArray(rawLang)
-    ? rawLang.filter((language) => typeof language === 'string' && language.trim().length > 0)
-    : typeof rawLang === 'string' && rawLang.trim().length > 0
-      ? [rawLang.trim()]
-      : [defaultLanguage];
-  const primaryLanguage = String(languageCodes[0] || defaultLanguage).toLowerCase();
-  const languagePrefix = primaryLanguage === defaultLanguage && !defaultLanguageInSubdir ? '' : primaryLanguage;
-  const pathname = languagePrefix ? `/${languagePrefix}/${slug}` : `/${slug}`;
-  return new URL(pathname, siteUrl).toString();
 };
 
 const walkFiles = (dir, accumulator = []) => {
@@ -139,7 +97,7 @@ for (const filePath of files) {
     if (typeof seo.nofollow !== 'undefined' && typeof seo.nofollow !== 'boolean') {
       errors.push(`${relPath}: seo.nofollow must be boolean`);
     }
-    if (seo.canonicalOverride) {
+    if (!isPost && seo.canonicalOverride) {
       const canonical = String(seo.canonicalOverride);
       const sanitized = sanitizeCanonical(canonical);
       if (!sanitized) {
@@ -187,7 +145,7 @@ for (const filePath of files) {
       errors.push(`${relPath}: metadata.description is missing or empty`);
     }
 
-    if (metadata.canonical) {
+    if (!isPost && metadata.canonical) {
       const canonical = String(metadata.canonical);
       const sanitized = sanitizeCanonical(canonical);
 
@@ -202,19 +160,9 @@ for (const filePath of files) {
   }
 
   if (isPost) {
-    const expectedCanonical = sanitizeCanonical(getExpectedCanonicalForPost(path.basename(filePath), data));
-
     if (!hasSeo && !hasMetadata) {
       errors.push(`${relPath}: post is missing seo object (or legacy metadata during migration)`);
       continue;
-    }
-
-    if (hasSeo && (!seo.canonicalOverride || typeof seo.canonicalOverride !== 'string')) {
-      errors.push(`${relPath}: post is missing seo.canonicalOverride`);
-    }
-
-    if (!hasSeo && hasMetadata && (!metadata.canonical || typeof metadata.canonical !== 'string')) {
-      errors.push(`${relPath}: post is missing metadata.canonical`);
     }
 
     if (hasSeo && (!seo.description || typeof seo.description !== 'string' || !seo.description.trim())) {
@@ -223,22 +171,6 @@ for (const filePath of files) {
 
     if (!hasSeo && hasMetadata && (!metadata.description || typeof metadata.description !== 'string' || !metadata.description.trim())) {
       errors.push(`${relPath}: post is missing metadata.description`);
-    }
-
-    if (expectedCanonical) {
-      if (hasSeo && typeof seo.canonicalOverride === 'string') {
-        const canonical = sanitizeCanonical(String(seo.canonicalOverride));
-        if (canonical && canonical !== expectedCanonical) {
-          errors.push(`${relPath}: seo.canonicalOverride does not match generated route. Expected: ${expectedCanonical}`);
-        }
-      }
-
-      if (hasMetadata && typeof metadata.canonical === 'string') {
-        const canonical = sanitizeCanonical(String(metadata.canonical));
-        if (canonical && canonical !== expectedCanonical) {
-          errors.push(`${relPath}: metadata.canonical does not match generated route. Expected: ${expectedCanonical}`);
-        }
-      }
     }
 
     if (path.basename(filePath).toLowerCase() === 'dummy.md' && data?.draft !== true) {

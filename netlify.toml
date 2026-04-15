@@ -624,6 +624,17 @@
   to   = "/ways-to-get-a-green-card-in-the-united-states"
   status = 301
 
+# Legacy blog slug for FIFA World Cup investment post → current English post
+[[redirects]]
+  from = "/world-cup-usa-investment-opportunity"
+  to   = "/why-visiting-the-u-s-for-the-fifa-world-cup-could-be-a-smart-investment-move"
+  status = 301
+
+[[redirects]]
+  from = "/world-cup-usa-investment-opportunity/"
+  to   = "/why-visiting-the-u-s-for-the-fifa-world-cup-could-be-a-smart-investment-move"
+  status = 301
+
 # Locations → /locations
 [[redirects]]
   from = "/global-presence/"
