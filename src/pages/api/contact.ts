@@ -15,6 +15,30 @@ export async function POST({ request }) {
     return new Response(JSON.stringify({ error: 'Missing required fields' }), { status: 400 });
   }
 
+  // Send to Make webhook first so the lead is always captured before email is attempted
+  const WEBHOOK_URL = process.env.PUBLIC_MAKE_WEBHOOK_URL ?? '';
+  if (WEBHOOK_URL) {
+    try {
+      const webhookResponse = await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, phone, message, sourcePage: resolvedSourcePage }),
+      });
+      if (!webhookResponse.ok) {
+        return new Response(
+          JSON.stringify({ error: 'Failed to record your inquiry. Please try again.' }),
+          { status: 500 }
+        );
+      }
+    } catch (webhookError) {
+      console.error('Webhook request failed', webhookError);
+      return new Response(
+        JSON.stringify({ error: 'Failed to record your inquiry. Please try again.' }),
+        { status: 500 }
+      );
+    }
+  }
+
   // OAuth2 Credentials (Set these in your environment variables)
   const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
   const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;

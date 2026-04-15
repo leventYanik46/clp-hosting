@@ -13,8 +13,6 @@ const {
   compact = false,
 } = Astro.props;
 
-const webhookUrl = import.meta.env.PUBLIC_MAKE_WEBHOOK_URL ?? '';
-
 const nameField = inputs?.find(({ name }) => name === 'name');
 const phoneField = inputs?.find(({ name }) => name === 'phone');
 const remainingInputs = inputs?.filter(
@@ -184,6 +182,14 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
     </Button>
   </div>
 
+  <p
+    data-contact-form-loading
+    hidden
+    class:list={[compact && 'col-span-10', 'mt-3 text-center text-sm text-gray-500']}
+  >
+    Please wait while we send your message&hellip;
+  </p>
+
   {
     description && (
       <div class={`${compact ? 'mt-2 col-span-10' : 'mt-3'} text-center`}>
@@ -193,7 +199,7 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
   }
 </form>
 
-<script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir, webhookUrl }}>
+<script is:inline define:vars={{ supportedLangs, defaultLanguage, defaultLanguageInSubdir }}>
   (() => {
     const confirmationSlug = 'confirmation';
     const trackingTimeoutMs = 2000;
@@ -218,25 +224,13 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
       const formObject = Object.fromEntries(formData.entries());
       formObject.sourcePage = window.location.href;
 
-      const fetchOptions = {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formObject),
-      };
+      });
 
-      const promises = [fetch('/api/contact', fetchOptions)];
-      if (webhookUrl) {
-        promises.push(fetch(webhookUrl, fetchOptions));
-      }
-
-      const [contactResponse, webhookResponse] = await Promise.all(promises);
-
-      if (webhookResponse && !webhookResponse.ok) {
-        alert('Error sending message. Please try again.');
-        return false;
-      }
-
-      const result = await contactResponse.json();
+      const result = await response.json();
       if (result.success) {
         window.location.assign(buildConfirmationPath());
         return true;
@@ -247,8 +241,13 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
     };
 
     const submitContactForm = (form, submitButton) => {
+      const originalButtonText = submitButton.textContent;
       submitButton.disabled = true;
+      submitButton.textContent = 'Sending\u2026';
       form.dataset.contactFormPending = 'true';
+
+      const loadingMsg = form.querySelector('[data-contact-form-loading]');
+      if (loadingMsg) loadingMsg.hidden = false;
 
       let hasStartedSubmission = false;
       let trackingTimerId = 0;
@@ -256,6 +255,8 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
       const resetFormState = () => {
         delete form.dataset.contactFormPending;
         submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+        if (loadingMsg) loadingMsg.hidden = true;
       };
 
       const startSubmission = () => {
