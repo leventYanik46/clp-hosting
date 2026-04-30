@@ -138,9 +138,6 @@ sections:
         subtitle: Développement web, optimisation de recherche et ingénierie des systèmes
         tagline: Responsable technique
       - title: null
-        subtitle: Dr. Burak C.
-        tagline: Responsable senior de dossiers
-      - title: null
         subtitle: Dr. Ahmet B.
         tagline: Responsable senior de dossiers
       - title: null

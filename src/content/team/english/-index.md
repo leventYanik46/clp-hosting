@@ -136,9 +136,6 @@ sections:
         subtitle: Web Development, Search Optimization & Systems Engineering
         tagline: Technical Lead
       - title: null
-        subtitle: Dr. Burak C.
-        tagline: Senior Case Manager
-      - title: null
         subtitle: Dr. Ahmet B.
         tagline: Senior Case Manager
       - title: null

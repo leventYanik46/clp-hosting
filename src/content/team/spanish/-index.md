@@ -140,9 +140,6 @@ sections:
         subtitle: Desarrollo Web, Optimización de Búsqueda e Ingeniería de Sistemas
         tagline: Líder Técnico
       - title: null
-        subtitle: Dr. Burak C.
-        tagline: Gestor sénior de casos
-      - title: null
         subtitle: Dr. Ahmet B.
         tagline: Gestor sénior de casos
       - title: null
