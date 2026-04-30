@@ -10,6 +10,7 @@ lang: en
 image: /images/clp-linkedin-article-11-feb-2026-1.png
 imageWidth: 788
 imageHeight: 438
+publishDate: 2026-02-13T19:06:32.000Z
 metadata:
   description: For highly skilled professionals seeking a U.S. Green Card without
     employer sponsorship, the EB-2 NIW Green Card offers one of the most

@@ -11,6 +11,7 @@ tags:
 image: /images/gemini_generated_image_giyi6rgiyi6rgiyi.png
 imageWidth: 1408
 imageHeight: 768
+publishDate: 2026-04-13T20:49:40.000Z
 metadata:
   description: Discover how attending the FIFA World Cup in the U.S. can help you
     explore investment opportunities, understand the market, and choose the

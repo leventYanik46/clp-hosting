@@ -165,6 +165,10 @@ for (const filePath of files) {
       continue;
     }
 
+    if (data?.draft !== true && !data?.publishDate) {
+      errors.push(`${relPath}: post is missing publishDate`);
+    }
+
     if (hasSeo && (!seo.description || typeof seo.description !== 'string' || !seo.description.trim())) {
       errors.push(`${relPath}: post is missing seo.description`);
     }

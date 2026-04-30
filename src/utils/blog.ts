@@ -135,10 +135,15 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
 const load = async function (): Promise<Array<Post>> {
   const posts = await getCollection('post');
-  const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
+  const normalizedPosts = posts.map(async (post) => ({
+    post: await getNormalizedPost(post),
+    // Posts without an explicit publishDate should not float to the top of the blog.
+    sortTime: new Date(post.data.publishDate ?? 0).valueOf(),
+  }));
 
   const results = (await Promise.all(normalizedPosts))
-    .sort((a, b) => b.publishDate.valueOf() - a.publishDate.valueOf())
+    .sort((a, b) => b.sortTime - a.sortTime)
+    .map(({ post }) => post)
     .filter((post) => !post.draft);
 
   return results;
