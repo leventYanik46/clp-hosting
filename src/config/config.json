@@ -3,5 +3,8 @@
         "default_language": "en",
         "disable_languages": [],
         "default_language_in_subdir": false
-  }
+    },
+    "site": {
+        "trailing_slash": false
+    }
 }

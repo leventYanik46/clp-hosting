@@ -1,8 +1,6 @@
 ---
-import config from "@/config/config.json";
-import languages from "@/config/language.json";
-import { slugify } from "@/lib/utils/textConverter";
-import type { ContentEntryMap } from "astro:content";
+import config from "~/config/config.json";
+import languages from "~/config/language.json";
 import { getCollection } from "astro:content";
 
 // get taxonomy from frontmatter
@@ -24,7 +22,7 @@ export const getTaxonomy = async (collection: string, name: string) => {
   }
 
   const singlePages = await getCollection(
-    "blog" as keyof ContentEntryMap,
+    "post" as any,
     ({ id }: any) => {
       return id.startsWith(actualCollection) && !id.endsWith("-index.md");
     },
@@ -33,8 +31,10 @@ export const getTaxonomy = async (collection: string, name: string) => {
   let taxonomies: string[] = [];
   for (let i = 0; i < taxonomyPages.length; i++) {
     const categoryArray = taxonomyPages[i];
-    for (let j = 0; j < categoryArray.length; j++) {
-      taxonomies.push(slugify(categoryArray[j]));
+    if (Array.isArray(categoryArray)) {
+      for (let j = 0; j < categoryArray.length; j++) {
+        taxonomies.push(String(categoryArray[j]).toLowerCase());
+      }
     }
   }
   const taxonomy = [...new Set(taxonomies)];
@@ -60,7 +60,7 @@ export const getAllTaxonomy = async (collection: string, name: string) => {
   }
 
   const singlePages = await getCollection(
-    "blog" as keyof ContentEntryMap,
+    "post" as any,
     ({ id }: any) => {
       return id.startsWith(actualCollection) && !id.endsWith("-index.md");
     },
@@ -69,11 +69,12 @@ export const getAllTaxonomy = async (collection: string, name: string) => {
   let taxonomies: string[] = [];
   for (let i = 0; i < taxonomyPages.length; i++) {
     const categoryArray = taxonomyPages[i];
-    for (let j = 0; j < categoryArray.length; j++) {
-      taxonomies.push(slugify(categoryArray[j]));
+    if (Array.isArray(categoryArray)) {
+      for (let j = 0; j < categoryArray.length; j++) {
+        taxonomies.push(String(categoryArray[j]).toLowerCase());
+      }
     }
   }
   return taxonomies;
 };
 ---
-    

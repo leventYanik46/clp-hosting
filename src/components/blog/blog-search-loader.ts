@@ -45,7 +45,7 @@ export const bootstrapBlogSearch = (): void => {
       { timeout: 3500 }
     );
   } else {
-    idleTimer = window.setTimeout(() => {
+    idleTimer = (window as Window).setTimeout(() => {
       void initializeSearch();
     }, 3500);
   }

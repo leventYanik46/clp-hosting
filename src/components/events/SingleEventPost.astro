@@ -16,7 +16,7 @@ export interface Props {
 
 const { post, url, lang } = Astro.props;
 
-let imageSrc: string | URL | undefined = undefined;
+let imageSrc: string | undefined = undefined;
 let imageWidth = 900;
 let imageHeight = 506;
 if (post.image) {

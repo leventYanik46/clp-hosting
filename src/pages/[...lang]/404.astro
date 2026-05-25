@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/Layout.astro';
 import { getHomePermalink } from '~/utils/permalinks';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 import type { MetaData } from '~/types';
@@ -15,7 +14,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const data = await getListPage("notFound", lang as keyof ContentEntryMap);
+const data = await getListPage("notFound", lang);
 if (!data || data.length === 0 || !data[0].data) {
   throw new Error("Not Found content not found for language: " + lang);
 }

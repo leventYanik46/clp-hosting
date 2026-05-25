@@ -7,7 +7,6 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import { getPermalink } from '~/utils/permalinks';
-import { getPermalink } from '~/utils/permalinks';
 import { getEntry} from 'astro:content';
 import { supportedLang } from '~/utils/lib/languageParser';
 
@@ -87,7 +86,7 @@ const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? hr
     />
   )}
 
-  {cta && <CallToAction {...cta} />}
+  {cta && <CallToAction {...(cta as any)} />}
 
   {blog && (
     <BlogLatestPosts

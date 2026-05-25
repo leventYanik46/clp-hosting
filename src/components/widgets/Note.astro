@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon/components';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 export function getStaticPaths() {
@@ -12,7 +11,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const notePage = await getListPage("note", lang as keyof ContentEntryMap);
+const notePage = await getListPage("note", lang);
 if (!notePage || notePage.length === 0 || !notePage[0].data) {
   throw new Error("Note content not found for language: " + lang);
 }

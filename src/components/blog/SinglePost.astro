@@ -22,7 +22,7 @@ const categoryPath = post.category?.slug ? resolveBlogCategoryArchivePath(post.c
 const categoryHref = categoryPath ? getPermalink(categoryPath, 'page') : undefined;
 
 // Determine image source and dimensions, with sensible defaults if not provided
-let imageSrc: string | URL | undefined = undefined;
+let imageSrc: string | undefined = undefined;
 let imageWidth = 900;
 let imageHeight = 506;
 if (post.image) {

@@ -8,7 +8,6 @@ import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 
@@ -20,10 +19,10 @@ export function getStaticPaths() {
 }
 
 const routeLang = Astro.params?.lang;
-const propLang = Astro.props?.lang;
+const propLang = (Astro.props as { lang?: string })?.lang;
 const lang = (typeof routeLang !== 'undefined' ? routeLang : propLang) ?? '';
 
-const homepage = await getListPage("homepage", (lang || undefined) as keyof ContentEntryMap);
+const homepage = await getListPage("homepage", lang || undefined);
 if (!homepage || homepage.length === 0 || !homepage[0].data) {
   throw new Error("Homepage content not found for language: " + lang);
 }
@@ -36,7 +35,7 @@ const { metadata, seo, hero, practiceAreas, spotlights, testimonials, steps, blo
 
   <Hero
     image={hero.image}
-    actions={hero.actions}
+    actions={hero.actions as any}
   >
     <Fragment slot="title">
       <span class="text-blue-700 highlight">{hero.title.highlight}</span>
@@ -63,7 +62,7 @@ const { metadata, seo, hero, practiceAreas, spotlights, testimonials, steps, blo
   />
 
   <!-- Content Widget **************** -->
-  {spotlights.map((spotlight) => (
+  {spotlights && spotlights.map((spotlight) => (
     <Content {...spotlight.props} items={spotlight.items} image={spotlight.image}>
       <Fragment slot="content">
         <Fragment set:html={spotlight.contentHtml} />
@@ -78,24 +77,27 @@ const { metadata, seo, hero, practiceAreas, spotlights, testimonials, steps, blo
   ))}
 
   <!-- Testimonials Widget ********** -->
+  {testimonials && (
   <Testimonials
     title={testimonials.title}
     subtitle={testimonials.subtitle}
     testimonials={testimonials.items}
-    callToAction={testimonials.callToAction}
+    callToAction={testimonials.callToAction as any}
   />
+  )}
 
   <!-- Steps Widget ****************** -->
 
-  <Steps title={steps.title} items={steps.items} image={steps.image} />
+  {steps && <Steps title={steps.title} items={steps.items} image={steps.image} />}
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts title={blog.title} information={blog.information} lang={lang || undefined} />
+  {blog && <BlogLatestPosts title={blog.title} information={blog.information} lang={lang || undefined} />}
 
-  
+
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction actions={cta.actions}>
+  {cta && (
+  <CallToAction actions={cta.actions as any}>
     <Fragment slot="title">
       <Fragment set:html={cta.titleHtml} />
     </Fragment>
@@ -104,4 +106,5 @@ const { metadata, seo, hero, practiceAreas, spotlights, testimonials, steps, blo
       <Fragment set:html={cta.subtitleHtml} />
     </Fragment>
   </CallToAction>
+  )}
 </Layout>

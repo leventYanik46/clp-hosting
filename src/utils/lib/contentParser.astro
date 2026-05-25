@@ -3,7 +3,6 @@ import {
   getCollection,
   type CollectionEntry,
   type CollectionKey,
-  type ContentEntryMap,
 } from "astro:content";
 
 import config from "~/config/config.json";
@@ -11,7 +10,7 @@ import languages from "~/config/language.json";
 
 export const getSP = async <C extends CollectionKey>(
   collectionName: C,
-  lang: keyof ContentEntryMap | undefined
+  lang: string | undefined
 ): Promise<CollectionEntry<C>[]> => {
   const { default_language } = config.settings;
 
@@ -34,14 +33,14 @@ export const getSP = async <C extends CollectionKey>(
     }
   )) as CollectionEntry<C>[];
 
-  const removeDrafts = pages.filter((data) => !data.data.draft);
+  const removeDrafts = pages.filter((data) => !(data.data as any).draft);
 
   return removeDrafts;
 };
 
 export const getLP = async <C extends CollectionKey>(
   collectionName: C,
-  lang: keyof ContentEntryMap | undefined
+  lang: string | undefined
 ): Promise<CollectionEntry<C>[]> => {
   const { default_language } = config.settings;
 
@@ -69,7 +68,7 @@ export const getLP = async <C extends CollectionKey>(
 
 export const getSinglePage = async <C extends CollectionKey>(
   collectionName: C,
-  lang: keyof ContentEntryMap | undefined,
+  lang: string | undefined,
   subCollectionName?: string
 ): Promise<CollectionEntry<C>[]> => {
   const { default_language } = config.settings;
@@ -105,7 +104,7 @@ export const getSinglePage = async <C extends CollectionKey>(
 
 export const getListPage = async <C extends CollectionKey>(
   collectionName: C,
-  lang: keyof ContentEntryMap | undefined
+  lang: string | undefined
 ): Promise<CollectionEntry<C>[]> => {
   const { default_language } = config.settings;
   const selectedLanguageCode = lang || default_language;

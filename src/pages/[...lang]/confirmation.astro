@@ -3,7 +3,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero3 from '~/components/widgets/hero3.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import ItemGrid3 from '~/components/ui/ItemGrid3.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 import { Icon } from 'astro-icon/components';
@@ -17,7 +16,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const confirmationPage = await getListPage("confirmation", lang as keyof ContentEntryMap);
+const confirmationPage = await getListPage("confirmation", lang);
 if (!confirmationPage || confirmationPage.length === 0 || !confirmationPage[0].data) {
   throw new Error("Confirmation content not found for language: " + lang);
 }
@@ -103,7 +102,7 @@ const pageLinks = [
   />  
   <!-- ItemGrid3 Widget ******************* -->
   <ItemGrid3
-    items={pageLinks}
+    items={pageLinks as any}
     columns={3}
     classes={{
       container: 'gap-4 md:gap-6 mt-2 mb-8 md:mt-3 md:mb-8',

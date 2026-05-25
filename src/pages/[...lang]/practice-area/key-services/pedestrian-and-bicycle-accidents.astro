@@ -43,9 +43,9 @@ const { metadata, seo, post, contactForm, hero } = entry.data;
         infoDescription={contactForm.infoDescription ?? contactForm.subtitle}
         googleReview={contactForm.googleReview}
         inputs={[
-          { type: 'text', name: 'name', label: contactForm.inputs.name },
-          { type: 'email', name: 'email', label: contactForm.inputs.email },
-          { type: 'tel', name: 'phone', label: contactForm.inputs.phone },
+          { type: 'text', name: 'name', label: contactForm.inputs?.name },
+          { type: 'email', name: 'email', label: contactForm.inputs?.email },
+          { type: 'tel', name: 'phone', label: contactForm.inputs?.phone },
         ]}
         textarea={{ label: contactForm.textarea }}
         disclaimer={{ label: contactForm.disclaimer }}

@@ -4,7 +4,6 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import ItemGrid3 from '~/components/ui/ItemGrid3.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 import {
@@ -23,7 +22,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const contactPage = await getListPage("contact", lang as keyof ContentEntryMap);
+const contactPage = await getListPage("contact", lang);
 if (!contactPage || contactPage.length === 0 || !contactPage[0].data) {
   throw new Error("Contact content not found for language: " + lang);
 }
@@ -88,9 +87,9 @@ const locationItems = Array.isArray(locations) ? locations : locations?.items ??
     title={contactForm.title}
     subtitle={contactForm.subtitle}
     inputs={[
-      { type: 'text', name: 'name', label: contactForm.inputs.name },
-      { type: 'email', name: 'email', label: contactForm.inputs.email },
-      { type: 'tel', name: 'phone', label: contactForm.inputs.phone },
+      { type: 'text', name: 'name', label: contactForm.inputs?.name },
+      { type: 'email', name: 'email', label: contactForm.inputs?.email },
+      { type: 'tel', name: 'phone', label: contactForm.inputs?.phone },
     ]}
     textarea={{ label: contactForm.textarea }}
     disclaimer={{ label: contactForm.disclaimer }}

@@ -68,8 +68,8 @@ export const getTranslations = async (lang: string) => {
 const {
   default_language: defaultLanguageCode,
   default_language_in_subdir: defaultLanguageInSubdir,
-  disable_languages: disabledLanguages = [],
 } = config.settings;
+const disabledLanguages: string[] = config.settings.disable_languages as string[];
 
 // Include root path when the default language lives at the site root; otherwise start empty.
 const computedSupportedLang: string[] = defaultLanguageInSubdir ? [] : [""];

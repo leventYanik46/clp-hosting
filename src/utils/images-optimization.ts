@@ -229,10 +229,11 @@ export const astroAsseetsOptimizer: ImagesOptimizer = async (
 
   return Promise.all(
     breakpoints.map(async (w: number) => {
+      const h = _width && _height ? Math.round((w / _width) * _height) : undefined;
       const result = await getImage({
         src: image,
         width: w,
-        inferSize: true,
+        ...(h !== undefined ? { height: h } : { inferSize: true }),
         ...(format ? { format: format } : {}),
         ...(quality ? { quality: quality } : {}),
       });

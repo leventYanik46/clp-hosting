@@ -82,7 +82,7 @@ const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? hr
     />
   )}
 
-  {cta && <CallToAction {...cta} />}
+  {cta && <CallToAction {...(cta as any)} />}
 
   {blog && (
     <BlogLatestPosts id={blog.id} title={blog.title} information={blog.information} lang={lang}>

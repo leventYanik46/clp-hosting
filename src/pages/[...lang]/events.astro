@@ -4,7 +4,6 @@ import BlogList from '~/components/blog/List.astro';
 import Headline from '~/components/blog/Headline.astro';
 import { getEventsForLanguage } from '~/utils/events';
 import { supportedLang } from '~/utils/lib/languageParser';
-import type { ContentEntryMap } from 'astro:content';
 import { getListPage } from '~/utils/lib/contentParser.astro';
 import {
   buildLanguageAlternatesForLangs,
@@ -25,11 +24,11 @@ export function getStaticPaths() {
 const routeLang = Astro.params?.lang;
 const lang = typeof routeLang === 'string' && routeLang.length > 0 ? routeLang : 'en';
 const events = await getEventsForLanguage(lang);
-let eventsPage = await getListPage('events', lang as keyof ContentEntryMap);
+let eventsPage = await getListPage('events', lang);
 let eventsPageData = eventsPage?.[0]?.data;
 
 if (!eventsPageData) {
-  const fallback = await getListPage('events', 'en' as keyof ContentEntryMap);
+  const fallback = await getListPage('events', 'en');
   eventsPageData = fallback?.[0]?.data;
 }
 
@@ -66,7 +65,7 @@ const seo = {
   description: eventsPageData?.seo?.description || metadata.description,
   noindex: eventsPageData?.seo?.noindex,
   nofollow: eventsPageData?.seo?.nofollow,
-  canonicalOverride: eventsPageData?.seo?.canonicalOverride,
+  canonicalOverride: (eventsPageData?.seo as any)?.canonicalOverride,
 };
 ---
 

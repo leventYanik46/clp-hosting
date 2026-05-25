@@ -10,6 +10,7 @@ const enabled = !!ANALYTICS?.vendors?.googleAnalytics?.id;
       const link = (event.target instanceof Element)
         ? event.target.closest('a[href]')
         : null;
+      const gtag = (window as any).gtag as ((...args: unknown[]) => void) | undefined;
       if (!(link instanceof HTMLAnchorElement) || typeof gtag !== 'function') return;
 
       const href = link.getAttribute('href') ?? '';

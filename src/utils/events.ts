@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { cleanSlug } from './permalinks';
@@ -7,8 +7,9 @@ import config from '~/config/config.json';
 const EVENTS_BASE = 'events';
 
 const getNormalizedEvent = async (event: CollectionEntry<'event'>): Promise<Post> => {
-  const { id, slug: rawSlug = '', data } = event;
-  const { Content, remarkPluginFrontmatter } = await event.render();
+  const { id, data } = event;
+  const rawSlug = id.split('/').pop()?.replace(/\.(mdx?)$/, '') ?? id;
+  const { Content, remarkPluginFrontmatter } = await render(event);
 
   const {
     publishDate: rawPublishDate = new Date(),

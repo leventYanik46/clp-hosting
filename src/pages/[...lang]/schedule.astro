@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 
@@ -14,7 +13,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const schedule = await getListPage("schedule", lang as keyof ContentEntryMap);
+const schedule = await getListPage("schedule", lang);
 if (!schedule || schedule.length === 0 || !schedule[0].data) {
   throw new Error("Schedule content not found for language: " + lang);
 }
@@ -30,6 +29,6 @@ const pageHeading = metadata?.title ?? seo?.title;
   )}
 
   {attorneys.map((attorney) => (
-    <CallToAction {...attorney} />
+    <CallToAction {...(attorney as any)} />
   ))}
 </Layout>

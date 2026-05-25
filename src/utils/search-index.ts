@@ -124,8 +124,8 @@ const getPostSearchItems = async (): Promise<SearchItem[]> => {
 
   const searchItems = await Promise.all(
     publishedPosts.map(async (post) => {
-      const { id, slug: rawSlug = '', data, body = '' } = post as CollectionEntry<'post'> & { body?: string };
-      const slug = cleanSlug(rawSlug || id.split('/').pop() || id);
+      const { id, data, body = '' } = post as CollectionEntry<'post'> & { body?: string };
+      const slug = cleanSlug(id.split('/').pop()?.replace(/\.(mdx?)$/, '') || id);
       const publishDate = new Date(data.publishDate ?? new Date());
       const categoryTitle = typeof data.category === 'string' ? data.category : undefined;
       const categorySlug = categoryTitle ? cleanSlug(categoryTitle) : undefined;
@@ -169,8 +169,8 @@ const getEventSearchItems = async (): Promise<SearchItem[]> => {
 
   const searchItems = await Promise.all(
     publishedEvents.map(async (event) => {
-      const { id, slug: rawSlug = '', data, body = '' } = event as CollectionEntry<'event'> & { body?: string };
-      const slug = cleanSlug((rawSlug || id).split('/').pop() || rawSlug || id);
+      const { id, data, body = '' } = event as CollectionEntry<'event'> & { body?: string };
+      const slug = cleanSlug(id.split('/').pop()?.replace(/\.(mdx?)$/, '') || id);
       const categoryTitle = typeof data.category === 'string' ? data.category : undefined;
       const image = await resolveImagePath(data.image);
       const description = data.metadata?.description?.trim() || data.excerpt?.trim() || undefined;

@@ -68,6 +68,22 @@ const { inputs, textareas = [], disclaimer, button = 'Contact us', description =
     )
   }
 
+  <div class="mt-3 flex items-start">
+    <div class="flex mt-0.5">
+      <input
+        id="sms-consent"
+        name="smsConsent"
+        type="checkbox"
+        class="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 bg-white"
+      />
+    </div>
+    <div class="ml-3">
+      <label for="sms-consent" class="cursor-pointer select-none text-sm text-gray-600">
+        I agree to receive text messages from Capitol Law Partners regarding my inquiry. Message &amp; data rates may apply. Reply STOP to opt out anytime.
+      </label>
+    </div>
+  </div>
+
   {
     button && (
       <div class="mt-10 grid place-items-center">

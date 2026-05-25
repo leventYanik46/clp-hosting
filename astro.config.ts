@@ -17,7 +17,7 @@ const { default_language } = config.settings;
 const enableAstroCompress = process.env.ASTRO_COMPRESS === 'true';
 
 const supportedLang = [...languagesJSON.map((lang) => lang.languageCode)];
-const disabledLanguages = config.settings.disable_languages;
+const disabledLanguages = config.settings.disable_languages as string[];
 const filteredSupportedLang = supportedLang.filter(
   (lang) => !disabledLanguages.includes(lang)
 );

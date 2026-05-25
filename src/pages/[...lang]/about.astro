@@ -5,7 +5,6 @@ import ItemGrid3 from '~/components/ui/ItemGrid3.astro';
 import Hero3 from '~/components/widgets/hero3.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 
@@ -18,7 +17,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const aboutPage = await getListPage("about", lang as keyof ContentEntryMap);
+const aboutPage = await getListPage("about", lang);
 if (!aboutPage || aboutPage.length === 0 || !aboutPage[0].data) {
   throw new Error("About content not found for language: " + lang);
 }

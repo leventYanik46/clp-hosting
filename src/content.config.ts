@@ -171,7 +171,7 @@ const stepsSectionSchema = z.object({
   title: z.string(),
   subtitle: z.string().optional(),
   items: z.array(stepItemSchema),
-  classes: z.record(z.string()).optional(),
+  classes: z.record(z.string(), z.string()).optional(),
   image: imageSchema.optional(),
 });
 
@@ -324,7 +324,7 @@ const teamMemberStepSectionSchema = z.object({
   id: z.string().optional(),
   title: z.string(),
   items: z.array(stepItemSchema),
-  classes: z.record(z.string()).optional(),
+  classes: z.record(z.string(), z.string()).optional(),
 });
 
 const homepageCollection = defineCollection({
@@ -485,6 +485,7 @@ const notFoundCollection = defineCollection({
   }),
 });
 const postCollection = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: 'src/content/post' }),
   schema: z.object({
     publishDate: z.date().optional(),
     updateDate: z.date().optional(),
@@ -504,6 +505,7 @@ const postCollection = defineCollection({
 });
 
 const eventCollection = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: 'src/content/event' }),
   schema: z.object({
     publishDate: z.date().optional(),
     updateDate: z.date().optional(),
@@ -560,6 +562,7 @@ const announcementCollection = defineCollection({
 });
 
 const confirmationCollection = defineCollection({
+  loader: glob({ pattern: '**/-index.{md,mdx}', base: 'src/content/confirmation' }),
   schema: z.object({
     metadata: metadataDefinition(),
     seo: seoDefinition(),

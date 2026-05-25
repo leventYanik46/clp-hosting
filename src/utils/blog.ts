@@ -1,5 +1,5 @@
 import type { PaginateFunction } from 'astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { APP_BLOG } from 'astrowind:config';
@@ -67,8 +67,9 @@ const generatePermalink = async ({
 };
 
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
-  const { id, slug: rawSlug = '', data, body = '' } = post;
-  const { Content, remarkPluginFrontmatter } = await post.render();
+  const { id, data, body = '' } = post;
+  const rawSlug = id.split('/').pop()?.replace(/\.(mdx?)$/, '') ?? id;
+  const { Content, remarkPluginFrontmatter } = await render(post);
 
   const {
     publishDate: rawPublishDate = new Date(),

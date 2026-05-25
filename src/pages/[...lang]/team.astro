@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import TeamCard from '~/components/widgets/teamcard.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 
@@ -14,7 +13,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const teampage = await getListPage("team", lang as keyof ContentEntryMap);
+const teampage = await getListPage("team", lang);
 if (!teampage || teampage.length === 0 || !teampage[0].data) {
   throw new Error("Team content not found for language: " + lang);
 }
@@ -45,7 +44,7 @@ const isTwoColumnTeamSection = (wrapper?: string) => wrapper?.includes('md:grid-
 
           return (
             <div class:list={[isCenteredLastCard && 'md:col-span-2', isCenteredLastCard && 'flex justify-center']}>
-              <TeamCard {...member} />
+              <TeamCard {...(member as any)} />
             </div>
           );
         })}

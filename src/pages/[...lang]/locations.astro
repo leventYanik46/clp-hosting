@@ -4,7 +4,6 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import ItemGrid3 from '~/components/ui/ItemGrid3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import type { ContentEntryMap } from "astro:content";
 import { getListPage } from "~/utils/lib/contentParser.astro";
 import { supportedLang } from "~/utils/lib/languageParser";
 import {
@@ -23,7 +22,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const locationsPage = await getListPage("locations", lang as keyof ContentEntryMap);
+const locationsPage = await getListPage("locations", lang);
 if (!locationsPage || locationsPage.length === 0 || !locationsPage[0].data) {
   throw new Error("Locations content not found for language: " + lang);
 }

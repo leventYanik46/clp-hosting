@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon/components';
-import type { ContentEntryMap } from 'astro:content';
 import { getListPage } from '~/utils/lib/contentParser.astro';
 import { supportedLang } from '~/utils/lib/languageParser';
 
@@ -8,12 +7,12 @@ import { supportedLang } from '~/utils/lib/languageParser';
 const pathSegments = new URL(Astro.url).pathname.split('/').filter(Boolean);
 const lang = pathSegments[0] && supportedLang.includes(pathSegments[0]) ? pathSegments[0] : '';
 
-let announcementPages = await getListPage('announcement', lang as keyof ContentEntryMap);
+let announcementPages = await getListPage('announcement', lang);
 let announcement = announcementPages && announcementPages[0]?.data;
 
 // Fallback to English if not found
 if (!announcement) {
-  const fallbackPages = await getListPage('announcement', 'en' as keyof ContentEntryMap);
+  const fallbackPages = await getListPage('announcement', 'en');
   announcement = fallbackPages && fallbackPages[0]?.data;
 }
 ---
