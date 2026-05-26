@@ -1,6 +1,7 @@
 ---
 import config from '~/config/config.json';
 import HomePage from './[...lang]/index.astro';
+import '~/assets/styles/tailwind.css';
 
 const shouldRedirect = config.settings.default_language_in_subdir;
 const redirectTarget = `/${config.settings.default_language}`;
