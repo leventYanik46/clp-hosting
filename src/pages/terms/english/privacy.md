@@ -85,6 +85,16 @@ If you subscribe to our email list, you will receive periodic updates or an elec
 
 ---
 
+## 5. SMS / Text Messaging Terms
+
+By providing your mobile number and checking the SMS consent box on our contact or intake forms, you agree to receive text messages from Capitol Law Partners regarding your inquiry, your active legal matter, appointment reminders, and document requests. Consent is not a condition of receiving our services.
+
+Message frequency varies. Message and data rates may apply. Reply STOP at any time to opt out, or reply HELP for assistance.
+
+No mobile information (including phone numbers collected for SMS) will be shared with third parties or affiliates for marketing or promotional purposes. Mobile opt-in data and consent will not be shared with any third party under any circumstances. This SMS provision overrides any general data-sharing language elsewhere in this Privacy Policy.
+
+---
+
 ## Contact Us
 
 If you have any further questions about our Terms of Use, Disclaimer, or Privacy Policy, please contact us at:

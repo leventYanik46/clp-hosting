@@ -85,6 +85,16 @@ Se estiver inscrito em nossa lista de e‑mail, receberá atualizações periód
 
 ---
 
+## 5. Termos de Mensagens SMS / Texto
+
+Ao fornecer seu número de celular e marcar a caixa de consentimento de SMS em nossos formulários de contato ou de admissão, você concorda em receber mensagens de texto da Capitol Law Partners sobre sua consulta, seu processo jurídico ativo, lembretes de compromissos e solicitações de documentos. O consentimento não é uma condição para receber nossos serviços.
+
+A frequência das mensagens pode variar. Podem ser aplicadas tarifas de mensagens e dados. Responda STOP a qualquer momento para cancelar, ou HELP para obter assistência.
+
+Nenhuma informação de celular (incluindo números de telefone coletados para SMS) será compartilhada com terceiros ou afiliados para fins de marketing ou promocionais. Os dados de adesão ao SMS e o consentimento não serão compartilhados com nenhum terceiro em nenhuma circunstância. Esta disposição sobre SMS prevalece sobre qualquer linguagem geral de compartilhamento de dados nesta Política de Privacidade.
+
+---
+
 ## Contato
 
 Se tiver mais perguntas sobre nossos Termos de Uso, Aviso de Isenção ou Política de Privacidade, entre em contato conosco em:

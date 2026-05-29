@@ -85,6 +85,16 @@ E-posta listemize abone olursanız, **Capitol Law Partners, PLLC**’den periyod
 
 ---
 
+## 5. SMS / Metin Mesajlaşma Koşulları
+
+İletişim veya kabul formlarımızdaki SMS onay kutusunu işaretleyerek cep telefonu numaranızı sağladığınızda, Capitol Law Partners'tan sorgunuz, aktif hukuki davanız, randevu hatırlatmaları ve belge talepleri hakkında kısa mesaj almayı kabul etmiş olursunuz. Onay, hizmetlerimizi almanın bir koşulu değildir.
+
+Mesaj sıklığı değişebilir. Mesaj ve veri ücretleri uygulanabilir. Abonelikten çıkmak için istediğiniz zaman STOP, yardım için HELP yazarak yanıt verebilirsiniz.
+
+SMS için toplanan telefon numaraları dahil olmak üzere hiçbir mobil bilgi, pazarlama veya promosyon amaçlı olarak üçüncü taraflarla veya bağlı kuruluşlarla paylaşılmayacaktır. SMS kayıt verileri ve onayı hiçbir koşulda herhangi bir üçüncü tarafla paylaşılmayacaktır. Bu SMS hükmü, bu Gizlilik Politikası'ndaki genel veri paylaşım ifadelerinin önüne geçer.
+
+---
+
 ## Bize Ulaşın
 
 Kullanım Şartları, Feragatname veya Gizlilik Politikamız hakkında başka sorularınız varsa, bizimle iletişime geçebilirsiniz:
