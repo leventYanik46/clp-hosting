@@ -20,13 +20,6 @@ if (!announcement) {
 {
   announcement && (
     <>
-      {announcement.turknetwork_feature_text && announcement.turknetwork_feature_url && (
-        <div class="text-[#0D1B2A] text-sm bg-[#dcf0fa] px-3 py-2 text-center md:hidden">
-          <a href={announcement.turknetwork_feature_url} class="hover:text-primary font-bold underline">
-            {announcement.turknetwork_feature_text}
-          </a>
-        </div>
-      )}
       <div class="text-[#0D1B2A] text-sm bg-[#dcf0fa] hidden md:grid grid-cols-[1fr_auto] items-center gap-1 overflow-hidden px-3 py-2">
         <div class="font-semibold truncate whitespace-nowrap ml-[5rem] mr-0.5 rtl:mr-0 rtl:ml-0.5">
           {announcement.intro_text}&nbsp;
