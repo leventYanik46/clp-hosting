@@ -19,50 +19,59 @@ if (!announcement) {
 
 {
   announcement && (
-    <div class="text-[#0D1B2A] text-sm bg-[#dcf0fa] hidden md:grid grid-cols-[1fr_auto] items-center gap-1 overflow-hidden px-3 py-2">
-      <div class="font-semibold truncate whitespace-nowrap ml-[5rem] mr-0.5 rtl:mr-0 rtl:ml-0.5">
-        {announcement.intro_text}&nbsp;
-        {announcement.call_text}&nbsp;
-        <a
-          href={`tel:${announcement.phone}`}
-          data-analytics-announcement-phone
-          class="hover:text-primary font-bold underline"
-        >
-          {announcement.phone_display}
-        </a>
-        &nbsp;{announcement.or_text}&nbsp;
-        <a href={announcement.contact_url} class="hover:text-primary font-bold underline">
-          {announcement.contact_text}
-        </a>
-      </div>
-
-      <div class="flex gap-4 items-center justify-end mr-8">
-        <div class="hidden min-[970px]:block font-semibold whitespace-nowrap">
-          {announcement.events_link_text &&
-            announcement.events_url &&
-            announcement.anniversary_link_text &&
-            announcement.anniversary_url && (
-              <>
-                <a href={announcement.events_url} class="hover:text-primary font-bold underline">
-                  {announcement.events_link_text}
-                </a>
-                &nbsp;|&nbsp;
-                <a href={announcement.anniversary_url} class="hover:text-primary font-bold underline">
-                  {announcement.anniversary_link_text}
-                </a>
-              </>
-            )}
+    <>
+      {announcement.turknetwork_feature_text && announcement.turknetwork_feature_url && (
+        <div class="text-[#0D1B2A] text-sm bg-[#dcf0fa] px-3 py-2 text-center md:hidden">
+          <a href={announcement.turknetwork_feature_url} class="hover:text-primary font-bold underline">
+            {announcement.turknetwork_feature_text}
+          </a>
         </div>
-        <a href={announcement.instagram} target="_blank" rel="noopener noreferrer">
-          <Icon name="tabler:brand-instagram" class="w-6 h-6  text-[#0D1B2A] hover:text-primary" />
-        </a>
-        <a href={announcement.facebook} target="_blank" rel="noopener noreferrer">
-          <Icon name="tabler:brand-facebook" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
-        </a>
-        <a href={announcement.linkedin} target="_blank" rel="noopener noreferrer">
-          <Icon name="tabler:brand-linkedin" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
-        </a>
+      )}
+      <div class="text-[#0D1B2A] text-sm bg-[#dcf0fa] hidden md:grid grid-cols-[1fr_auto] items-center gap-1 overflow-hidden px-3 py-2">
+        <div class="font-semibold truncate whitespace-nowrap ml-[5rem] mr-0.5 rtl:mr-0 rtl:ml-0.5">
+          {announcement.intro_text}&nbsp;
+          {announcement.call_text}&nbsp;
+          <a
+            href={`tel:${announcement.phone}`}
+            data-analytics-announcement-phone
+            class="hover:text-primary font-bold underline"
+          >
+            {announcement.phone_display}
+          </a>
+          &nbsp;{announcement.or_text}&nbsp;
+          <a href={announcement.contact_url} class="hover:text-primary font-bold underline">
+            {announcement.contact_text}
+          </a>
+        </div>
+
+        <div class="flex gap-4 items-center justify-end mr-8">
+          <div class="hidden min-[970px]:block font-semibold whitespace-nowrap">
+            {announcement.events_link_text &&
+              announcement.events_url &&
+              announcement.turknetwork_feature_text &&
+              announcement.turknetwork_feature_url && (
+                <>
+                  <a href={announcement.events_url} class="hover:text-primary font-bold underline">
+                    {announcement.events_link_text}
+                  </a>
+                  &nbsp;|&nbsp;
+                  <a href={announcement.turknetwork_feature_url} class="hover:text-primary font-bold underline">
+                    {announcement.turknetwork_feature_text}
+                  </a>
+                </>
+              )}
+          </div>
+          <a href={announcement.instagram} target="_blank" rel="noopener noreferrer">
+            <Icon name="tabler:brand-instagram" class="w-6 h-6  text-[#0D1B2A] hover:text-primary" />
+          </a>
+          <a href={announcement.facebook} target="_blank" rel="noopener noreferrer">
+            <Icon name="tabler:brand-facebook" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
+          </a>
+          <a href={announcement.linkedin} target="_blank" rel="noopener noreferrer">
+            <Icon name="tabler:brand-linkedin" class="w-6 h-6 text-[#0D1B2A] hover:text-primary" />
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   )
 }

@@ -1,6 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { defineConfig } from 'astro/config';
+import { defineConfig, sharpImageService } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
@@ -101,6 +101,7 @@ export default defineConfig({
 
   image: {
     domains: ['capitollawpartners.com'],
+    service: sharpImageService(),
   },
 
   markdown: {

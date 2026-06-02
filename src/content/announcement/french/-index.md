@@ -14,9 +14,8 @@ linkedin: https://www.linkedin.com/company/capitollawpartners
 events_announcement_text: Consultez notre
 events_link_text: Evenements
 events_url: /fr/events
-anniversary_separator_text: ''
-anniversary_link_text: USA 250
-anniversary_url: /fr/events/evenement-du-250e-anniversaire-des-etats-unis
+turknetwork_feature_text: Dans TurkNetwork
+turknetwork_feature_url: /fr/events/capitol-law-partners-dans-le-magazine-turknetwork
 seo:
   title: Annonce
 ---

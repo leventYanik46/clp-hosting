@@ -14,9 +14,8 @@ linkedin: https://www.linkedin.com/company/capitollawpartners
 events_announcement_text: Check our
 events_link_text: Events
 events_url: /events
-anniversary_separator_text: ''
-anniversary_link_text: US 250
-anniversary_url: /events/us-250th-anniversary-celebration
+turknetwork_feature_text: TurkNetwork Feature
+turknetwork_feature_url: /events/turknetwork-magazine-feature
 seo:
   title: Announcement
 ---

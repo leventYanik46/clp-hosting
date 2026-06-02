@@ -555,9 +555,8 @@ const announcementCollection = defineCollection({
     events_announcement_text: z.string().optional(),
     events_link_text: z.string().optional(),
     events_url: z.string().optional(),
-    anniversary_separator_text: z.string().optional(),
-    anniversary_link_text: z.string().optional(),
-    anniversary_url: z.string().optional(),
+    turknetwork_feature_text: z.string().optional(),
+    turknetwork_feature_url: z.string().optional(),
   }),
 });
 

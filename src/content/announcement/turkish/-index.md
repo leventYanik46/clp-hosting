@@ -14,9 +14,8 @@ linkedin: https://www.linkedin.com/company/capitollawpartners
 events_announcement_text: Etkinliklerimizi inceleyin
 events_link_text: Etkinlikler
 events_url: /tr/events
-anniversary_separator_text: ''
-anniversary_link_text: ABD 250
-anniversary_url: /tr/events/abd-250-yil-kutlamasi-etkinligi
+turknetwork_feature_text: TurkNetwork’te Yer Aldık
+turknetwork_feature_url: /tr/events/turknetwork-dergisi-capitol-law-partners
 seo:
   title: Duyuru
 ---

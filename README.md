@@ -1,10 +1,13 @@
 # 🚀 AstroWind
-!!!!!!!!!!!!!!!!!!!!!!!!
+
 After each git pull run:
 ./ignore-blog-posts.sh
 
 Decap cms is being used in this website. The images added by decap cms cause an error in local dev environments because astro can't infer size of a url. src/content/post file is gitignored. 
-!!!!!!!!!!!!!!!!!!!!!!!!
+
+To run dev environment:
+npx netlify dev
+
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
