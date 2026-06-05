@@ -153,6 +153,9 @@ sections:
       - title: null
         subtitle: Erdem S.
         tagline: Dosya Yöneticisi
+      - title: null
+        subtitle: Busra S.
+        tagline: Dosya Yöneticisi
   - wrapper: w-full
     members:
       - title: null

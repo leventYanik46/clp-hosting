@@ -157,6 +157,9 @@ sections:
       - title: null
         subtitle: Erdem S.
         tagline: Gestor de casos
+      - title: null
+        subtitle: Busra S.
+        tagline: Gestor de casos
   - wrapper: w-full
     members:
       - title: null

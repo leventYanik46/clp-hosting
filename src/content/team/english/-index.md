@@ -153,6 +153,9 @@ sections:
       - title: null
         subtitle: Erdem S.
         tagline: Case Manager
+      - title: null
+        subtitle: Busra S.
+        tagline: Case Manager
   - wrapper: w-full
     members:
       - title: null

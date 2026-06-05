@@ -155,6 +155,9 @@ sections:
       - title: null
         subtitle: Erdem S.
         tagline: Responsable de dossiers
+      - title: null
+        subtitle: Busra S.
+        tagline: Responsable de dossiers
   - wrapper: w-full
     members:
       - title: null
