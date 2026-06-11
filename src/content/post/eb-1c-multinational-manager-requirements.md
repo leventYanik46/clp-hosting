@@ -8,7 +8,7 @@ tags:
   - Immigration
   - Green Card
   - Business law
-publishDate: 2026-06-07T15:32:49.127-04:00
+publishDate: 2026-06-11T17:27:53.254-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/eb-1c-multinational-manager-requirements
   description: >-
