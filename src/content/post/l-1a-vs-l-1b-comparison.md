@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-11T19:00:37.398-04:00
+image: /images/l-1a-vs-l-1b-comparison.jpg
+publishDate: 2026-06-11T19:26:05.312-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/l-1a-vs-l-1b-comparison
   description: >-
