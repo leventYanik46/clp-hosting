@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Green Card
-publishDate: 2026-06-11T18:55:45.593-04:00
+image: /images/self-petition-green-card-without-employer.jpg
+publishDate: 2026-06-11T19:26:52.663-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/self-petition-green-card-without-employer
   description: >-
