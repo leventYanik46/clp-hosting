@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-11T17:27:48.009-04:00
+publishDate: 2026-06-11T18:55:46.944-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/e-2-investor-visa-requirements
   description: >-
