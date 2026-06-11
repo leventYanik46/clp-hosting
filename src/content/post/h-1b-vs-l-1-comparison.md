@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - H-1B
-publishDate: 2026-06-11T18:55:33.767-04:00
+publishDate: 2026-06-11T18:56:52.672-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/h-1b-vs-l-1-comparison
   description: >-
