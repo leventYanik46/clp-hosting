@@ -8,7 +8,7 @@ tags:
   - Immigration
   - Green Card
   - PERM
-publishDate: 2026-06-07T15:32:43.228-04:00
+publishDate: 2026-06-11T17:27:51.006-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/how-to-sponsor-employee-green-card
   description: >-
