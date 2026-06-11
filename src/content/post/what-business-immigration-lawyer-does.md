@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-11T18:55:48.411-04:00
+image: /images/what-business-immigration-lawyer-does.jpg
+publishDate: 2026-06-11T19:18:40.224-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/what-business-immigration-lawyer-does
   description: >-
