@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-11T18:55:42.126-04:00
+image: /images/e-2-visa-minimum-investment-2026.jpg
+publishDate: 2026-06-11T19:26:33.290-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/e-2-visa-minimum-investment-2026
   description: >-
