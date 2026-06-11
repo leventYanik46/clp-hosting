@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Green Card
-publishDate: 2026-06-11T19:01:08.339-04:00
+image: /images/employment-based-green-cards-guide.jpg
+publishDate: 2026-06-11T19:25:29.297-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/employment-based-green-cards-guide
   description: >-
