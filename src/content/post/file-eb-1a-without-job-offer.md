@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Green Card
-publishDate: 2026-06-11T19:00:35.738-04:00
+image: /images/file-eb-1a-without-job-offer.jpg
+publishDate: 2026-06-11T19:25:57.396-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/file-eb-1a-without-job-offer
   description: >-
