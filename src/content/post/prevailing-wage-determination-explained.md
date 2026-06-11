@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - PERM
-publishDate: 2026-06-11T18:55:38.712-04:00
+publishDate: 2026-06-11T19:00:38.153-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/prevailing-wage-determination-explained
   description: >-
