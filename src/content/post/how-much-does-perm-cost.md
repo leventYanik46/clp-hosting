@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - PERM
-publishDate: 2026-06-07T15:32:38.319-04:00
+publishDate: 2026-06-11T18:55:42.775-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/how-much-does-perm-cost
   description: >-
