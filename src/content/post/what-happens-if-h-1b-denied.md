@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - H-1B
-publishDate: 2026-06-07T15:32:33.901-04:00
+publishDate: 2026-06-11T18:55:39.381-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/what-happens-if-h-1b-denied
   description: >-
