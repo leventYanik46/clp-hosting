@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - PERM
-publishDate: 2026-06-11T18:56:51.272-04:00
+publishDate: 2026-06-11T19:00:30.669-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/how-long-does-perm-take-2026
   description: >-
