@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Green Card
-publishDate: 2026-06-11T18:55:44.937-04:00
+image: /images/eb-2-niw-eligibility-three-prongs.jpg
+publishDate: 2026-06-11T19:26:48.802-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/eb-2-niw-eligibility-three-prongs
   description: >-
