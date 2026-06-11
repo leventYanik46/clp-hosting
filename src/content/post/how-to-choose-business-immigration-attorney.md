@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-07T15:32:35.544-04:00
+publishDate: 2026-06-11T18:55:40.773-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/how-to-choose-business-immigration-attorney
   description: >-
