@@ -8,7 +8,7 @@ tags:
   - Immigration
   - Green Card
   - Business law
-publishDate: 2026-06-07T15:32:31.299-04:00
+publishDate: 2026-06-11T17:27:47.222-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/e-2-vs-eb-5-comparison
   description: >-
