@@ -8,7 +8,7 @@ tags:
   - Immigration
   - H-1B
   - Green Card
-publishDate: 2026-06-07T15:32:36.424-04:00
+publishDate: 2026-06-11T18:55:41.438-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/can-you-change-h-1b-to-green-card
   description: >-
