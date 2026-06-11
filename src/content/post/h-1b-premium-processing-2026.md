@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - H-1B
-publishDate: 2026-06-11T18:55:44.219-04:00
+image: /images/h-1b-premium-processing-2026.jpg
+publishDate: 2026-06-11T19:26:45.591-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/h-1b-premium-processing-2026
   description: >-
