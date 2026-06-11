@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - PERM
-publishDate: 2026-06-11T19:00:34.090-04:00
+image: /images/perm-labor-certification-process.jpg
+publishDate: 2026-06-11T19:25:49.404-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/perm-labor-certification-process
   description: >-
