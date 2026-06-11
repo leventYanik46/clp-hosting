@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-11T19:00:31.557-04:00
+image: /images/can-startup-founder-get-o-1-visa.jpg
+publishDate: 2026-06-11T19:25:39.322-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/can-startup-founder-get-o-1-visa
   description: >-
