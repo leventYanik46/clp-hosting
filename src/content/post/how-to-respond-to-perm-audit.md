@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - PERM
-publishDate: 2026-06-11T18:55:40.007-04:00
+image: /images/how-to-respond-to-perm-audit.jpg
+publishDate: 2026-06-11T19:26:16.322-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/how-to-respond-to-perm-audit
   description: >-
