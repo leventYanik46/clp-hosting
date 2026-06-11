@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-07T15:32:50.880-04:00
+publishDate: 2026-06-11T18:55:47.709-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/business-immigration-lawyer-virginia
   description: >-
