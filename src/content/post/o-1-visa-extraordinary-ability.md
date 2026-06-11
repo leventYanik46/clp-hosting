@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-11T19:00:33.290-04:00
+image: /images/o-1-visa-extraordinary-ability.jpg
+publishDate: 2026-06-11T19:25:46.288-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/o-1-visa-extraordinary-ability
   description: >-
