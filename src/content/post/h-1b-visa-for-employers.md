@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - H-1B
-publishDate: 2026-06-11T18:55:43.478-04:00
+image: /images/h-1b-visa-for-employers.jpg
+publishDate: 2026-06-11T19:26:42.229-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/h-1b-visa-for-employers
   description: >-
