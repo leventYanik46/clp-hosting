@@ -105,22 +105,6 @@ sections:
         image:
           src: ~/assets/images/omar-bio-new-team.jpeg
           alt: Omar Bississo
-      - title: Kemal Sahin
-        tagline: Pasante Jurídico
-        subtitle: Trabajemos juntos
-        bottomtag: Asesoría General | Propiedad Intelectual
-        actions:
-          - variant: primary
-            text: Contácteme
-            href: https://wa.me/12024402272
-            target: _blank
-          - variant: primary
-            text: Ver biografía →
-            href: /es/our-team/kemal
-            target: _blank
-        image:
-          src: ~/assets/images/kemal.jpeg
-          alt: Kemal Sahin
   - wrapper: w-full
     members:
       - title: null

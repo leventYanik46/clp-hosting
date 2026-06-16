@@ -40,7 +40,7 @@ sections:
       - title: Esra Nur Bulan
         tagline: Attorney at Law
         subtitle: Let's Work Together
-        bottomtag: Humanitarian Law | Immigration Law
+        bottomtag: ` Humanitarian Law | Immigration Law <br/>`
         actions:
           - variant: primary
             text: Contact Me
@@ -56,7 +56,7 @@ sections:
       - title: Mehmet Y. Turkoglu
         tagline: Attorney At Law
         subtitle: Let's Work Together
-        bottomtag: Asylum | Family-Based | Naturalization | Employment-Based Immigration
+        bottomtag: Asylum | Naturalization | Family & Employment Based Immigration
         actions:
           - variant: primary
             text: Contact Me
@@ -101,22 +101,6 @@ sections:
         image:
           src: ~/assets/images/omar-bio-new-team.jpeg
           alt: Omar Bississo
-      - title: Kemal Sahin
-        tagline: Attorney at Law
-        subtitle: Let's Work Together
-        bottomtag: General Counsel Advisory | Intellectual Property Law
-        actions:
-          - variant: primary
-            text: Contact Me
-            href: https://wa.me/12024402272
-            target: _blank
-          - variant: primary
-            text: See Bio →
-            href: /our-team/kemal
-            target: _blank
-        image:
-          src: ~/assets/images/kemal.jpeg
-          alt: Kemal Sahin
   - wrapper: w-full
     members:
       - title: null
