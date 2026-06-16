@@ -63,7 +63,7 @@ const {
       </div>
     )}
     {bottomtag && (
-      <div class="text-xl text-muted mt-4 break-words">{bottomtag}</div>
+      <div class="text-xl text-muted mt-4 break-words" set:html={bottomtag} />
     )}
     {actions && (
       <div class="flex flex-wrap justify-center gap-2 mt-3">

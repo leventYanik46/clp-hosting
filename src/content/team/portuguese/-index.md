@@ -101,24 +101,6 @@ sections:
         image:
           src: ~/assets/images/omar-bio-new-team.jpeg
           alt: Omar Bississo
-      - title: Kemal Sahin
-        tagline: Assistente jurídico
-        subtitle: Vamos trabalhar juntos
-        bottomtag: >-
-          Consultoria de Assessoria Jurídica | Direito de Propriedade
-          Intelectual
-        actions:
-          - variant: primary
-            text: Fale comigo
-            href: https://wa.me/12024402272
-            target: _blank
-          - variant: primary
-            text: Ver bio →
-            href: /pt/our-team/kemal
-            target: _blank
-        image:
-          src: ~/assets/images/kemal.jpeg
-          alt: Kemal Sahin
   - wrapper: w-full
     members:
       - title: null

@@ -103,22 +103,6 @@ sections:
         image:
           src: ~/assets/images/omar-bio-new-tean.jpeg
           alt: Omar Bississo
-      - title: Kemal Sahin
-        tagline: Assistant juridique
-        subtitle: Travaillons ensemble
-        bottomtag: Conseil juridique général | Propriété intellectuelle
-        actions:
-          - variant: primary
-            text: Me contacter
-            href: https://wa.me/12024402272
-            target: _blank
-          - variant: primary
-            text: Voir la bio →
-            href: /fr/our-team/kemal
-            target: _blank
-        image:
-          src: ~/assets/images/kemal.jpeg
-          alt: Kemal Sahin
   - wrapper: w-full
     members:
       - title: null
