@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Green Card
-publishDate: 2026-06-07T15:32:47.430-04:00
+image: /images/eb-1a-visa-do-you-qualify.jpg
+publishDate: 2026-06-30T16:40:32.231-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/eb-1a-visa-do-you-qualify
   description: >-
