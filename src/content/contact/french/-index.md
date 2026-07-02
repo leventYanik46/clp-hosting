@@ -31,7 +31,7 @@ features:
     - title: Aide pour les dossiers d’immigration
       description: >-
         Besoin d’aide pour votre dossier d’immigration ? Visa, green card,
-        naturalisation ou autres défis — notre équipe vous guide dans le
+        naturalisation ou autres défis. Notre équipe vous guide dans le
         processus.
     - title: Téléphone
       description: +1 (202) 440-2272

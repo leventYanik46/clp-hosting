@@ -97,6 +97,6 @@ For companies hiring foreign talent, immigration compliance is critical. Employe
 
 Immigration issues often involve delays, denials, or deportation proceedings. Professional legal representation can make a significant difference in achieving a favorable outcome. At **[Capitol Law Partners](https://capitollawpartners.com/)**, we represent clients before immigration courts, appeals boards, and federal courts when necessary.  
 
-The U.S. immigration system is complex, but with the right legal guidance, individuals and businesses can achieve their goals—whether that means visiting the U.S. temporarily, building a career, uniting with family, or becoming a citizen. 
+The U.S. immigration system is complex, but with the right legal guidance, individuals and businesses can achieve their goals, whether that means visiting the U.S. temporarily, building a career, uniting with family, or becoming a citizen. 
 
 **[Capitol Law Partners](https://capitollawpartners.com/)** stands ready to provide expert advice, strategic planning, and dedicated representation to help you succeed in your immigration journey.

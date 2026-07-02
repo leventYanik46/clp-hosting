@@ -10,7 +10,7 @@ hero:
   title: Tornamos o complexo simples
   subtitleHtml: >-
     Na <strong>Capitol Law Partners</strong>, nossa missão é simples: tornamos o
-    complexo simples. Sabemos que lidar com o direito pode ser intimidante —
+    complexo simples. Sabemos que lidar com o direito pode ser intimidante,
     seja ao lançar uma startup, administrar uma pequena empresa ou enfrentar uma
     questão jurídica pessoal. Por isso, nossa equipe se dedica a guiá-lo em cada
     desafio jurídico com clareza, <strong>confiança</strong> e soluções
@@ -40,7 +40,7 @@ practiceAreas:
     - title: Direito de Imigração
       description: >-
         Orientação em vistos de negócios e trabalho, asilo, petições familiares
-        e defesa contra remoção — tornando os processos de imigração mais claros
+        e defesa contra remoção, tornando os processos de imigração mais claros
         e gerenciáveis.
       icon: tabler:globe-filled
     - title: Trusts e Sucessões
@@ -69,7 +69,7 @@ values:
   subtitle: >-
     Na Capitol Law Partners, temos orgulho de oferecer uma experiência jurídica
     ágil, personalizada e fundada na confiança. Cada cliente se sente amparado e
-    fortalecido — não importa a complexidade do assunto.
+    fortalecido, não importa a complexidade do assunto.
   items:
     - title: Soluções Centradas no Cliente
       description: >-
@@ -79,7 +79,7 @@ values:
     - title: Comunicação Clara e Acessível
       description: >-
         Falamos a sua língua. Nossos advogados deixam o juridiquês de lado para
-        explicar questões complexas em termos simples e compreensíveis —
+        explicar questões complexas em termos simples e compreensíveis,
         mantendo você informado e confiante em cada etapa.
     - title: Integridade e Conexão Pessoal
       description: >-

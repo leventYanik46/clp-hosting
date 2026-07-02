@@ -89,7 +89,7 @@ Each protects a different aspect of your business and provides a competitive edg
 
 ### Why Should You Register a Trademark?
 
-If you’re already using a name or logo, you might have common law protection — but only as long as you’re not infringing on someone else’s prior trademark.
+If you’re already using a name or logo, you might have common law protection, but only as long as you’re not infringing on someone else’s prior trademark.
 
 Before filing an application, you should always conduct a comprehensive trademark clearance search.
 
@@ -145,7 +145,7 @@ Your goods and services must be clearly defined.
 
 If you are already selling products, include photos of them at their point of sale.
 
-If you’re not yet selling, you’ll need to submit these documents later — failing to do so may result in cancellation of your application for that class.
+If you’re not yet selling, you’ll need to submit these documents later; failing to do so may result in cancellation of your application for that class.
 
 
 
@@ -153,7 +153,7 @@ If you’re not yet selling, you’ll need to submit these documents later — f
 
 These can usually be resolved with minor adjustments.
 
-Sometimes, an examining attorney may even call you directly to discuss a solution — don’t miss those calls!
+Sometimes, an examining attorney may even call you directly to discuss a solution, so don’t miss those calls!
 
 
 
@@ -165,7 +165,7 @@ This can involve your logo, brand name, software, or even images used on your we
 
 Infringement can damage your business reputation and lead to serious financial liability.
 
-That’s why it’s essential to seek legal guidance — both to protect your own IP assets and to avoid violating others’ rights.
+That’s why it’s essential to seek legal guidance, both to protect your own IP assets and to avoid violating others’ rights.
 
 Some types of IP must be registered before legal protection applies. These include:
 
@@ -183,7 +183,7 @@ However, copyright and circuit layout rights do not require registration; protec
 
 #### Legal Support
 
-Intellectual property rights present both opportunities and risks — especially for small businesses.
+Intellectual property rights present both opportunities and risks, especially for small businesses.
 
 From trademark searches to filing processes, infringement disputes to licensing agreements, professional legal guidance makes all the difference.
 

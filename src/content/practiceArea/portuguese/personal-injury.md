@@ -55,13 +55,13 @@ post:
     <h3>O Que Esperar da Nossa Equipe</h3>
 
 
-    <p><strong>Orientação clara — sem juridiquês</strong><br />
+    <p><strong>Orientação clara, sem juridiquês</strong><br />
 
     Explicamos seus direitos de forma clara para que você sempre saiba como está
     o processo.</p>
 
 
-    <p><strong>Nós lidamos com as seguradoras — você foca na
+    <p><strong>Nós lidamos com as seguradoras: você foca na
     recuperação</strong><br />
 
     Da coleta de provas à negociação do acordo, cuidamos da pressão jurídica e
@@ -70,7 +70,7 @@ post:
 
     <p><strong>Sem honorários advocatícios se não ganharmos</strong><br />
 
-    Atendemos a maioria dos casos de lesão pessoal em regime de contingência —
+    Atendemos a maioria dos casos de lesão pessoal em regime de contingência:
     você não paga nada adiantado.</p>
 
 
@@ -78,7 +78,7 @@ post:
 
 
     <p>Seja sua lesão leve ou grave, ouvimos sua história e montamos uma
-    estratégia personalizada. Se não tiver certeza se tem um caso, pergunte — a
+    estratégia personalizada. Se não tiver certeza se tem um caso, pergunte, a
     consulta é gratuita e confidencial.</p>
 
 

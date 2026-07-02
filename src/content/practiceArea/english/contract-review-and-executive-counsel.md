@@ -46,7 +46,7 @@ post:
 
     <p>From vendor agreements and customer contracts to partnership deals,
     licensing arrangements, and executive employment terms, we focus on what
-    matters most to your business—allocation of risk, economic terms, exit
+    matters most to your business: allocation of risk, economic terms, exit
     rights, and long-term implications.</p>
 
 
@@ -69,8 +69,8 @@ post:
     business realities.</p>
 
 
-    <p>Our goal is to help leadership see the full picture—legal, financial, and
-    operational—before committing to a course of action.</p>
+    <p>Our goal is to help leadership see the full picture, legal, financial, and
+    operational, before committing to a course of action.</p>
 
 
     <h3>Supporting Better Deals and Fewer Surprises</h3>

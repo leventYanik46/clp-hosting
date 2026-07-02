@@ -90,7 +90,7 @@ post:
 
     <p><strong>Kazanmadan ücret yok</strong><br />
 
-    Çoğu yaralanma dosyasında vekalet ücretimizi kazanırsak alıyoruz — ön ödeme
+    Çoğu yaralanma dosyasında vekalet ücretimizi kazanırsak alıyoruz: ön ödeme
     yok.</p>
 
 
@@ -98,7 +98,7 @@ post:
 
 
     <p>Yaralarınız hafif ya da ağır olsun, hikayenizi dinleyip size özel bir
-    strateji oluşturuyoruz. Davanız olup olmadığından emin değilseniz sorun —
+    strateji oluşturuyoruz. Davanız olup olmadığından emin değilseniz sorun:
     ilk danışmanlık ücretsiz ve gizlidir.</p>
 
 

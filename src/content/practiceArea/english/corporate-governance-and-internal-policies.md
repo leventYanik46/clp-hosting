@@ -46,7 +46,7 @@ post:
 
     <p>We work with founders, boards, and management teams to ensure that your
     organizational documents, charters, and policies accurately reflect how the
-    business is run—and how it should be run as you scale.</p>
+    business is run, and how it should be run as you scale.</p>
 
 
     <h3>Governance and Policy Support</h3>
@@ -67,7 +67,7 @@ post:
     ownership and leadership dynamics.</p>
 
 
-    <p>Where needed, we also help leadership address legacy issues—such as
+    <p>Where needed, we also help leadership address legacy issues, such as
     unclear ownership interests, informal arrangements, or outdated governance
     terms that no longer reflect the business.</p>
 

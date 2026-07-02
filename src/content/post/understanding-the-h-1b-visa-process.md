@@ -31,7 +31,7 @@ seo:
 
 The H-1B visa is one of the most sought-after work permits for skilled professionals aiming to build their careers in the United States. Reserved for specialty occupations in fields like technology, engineering, finance, and healthcare, it allows U.S. employers to hire foreign talent when specialized expertise is required. 
 
-While the opportunities are significant, the process is competitive, with a strict annual cap and a lottery system to determine who may apply. Understanding the timeline is essential for a smooth application — and avoiding missed deadlines. 
+While the opportunities are significant, the process is competitive, with a strict annual cap and a lottery system to determine who may apply. Understanding the timeline is essential for a smooth application and for avoiding missed deadlines. 
 
 
 
@@ -42,7 +42,7 @@ The U.S. government’s fiscal year runs from **October 1 to September 30**, wit
 
 ##### **January – February: Preparation** 
 
-This is when candidates and employers set the groundwork. The employer confirms sponsorship, and the applicant gathers essential documents such as diplomas, transcripts, and — if necessary — credential evaluations to confirm U.S. degree equivalency. 
+This is when candidates and employers set the groundwork. The employer confirms sponsorship, and the applicant gathers essential documents such as diplomas, transcripts, and, if necessary, credential evaluations to confirm U.S. degree equivalency. 
 
 ##### **March: Online Lottery Registration** 
 
@@ -90,4 +90,4 @@ Employment start date -- Oct 1, 2025 
 * Attend consular interview or request status change 
 * Be ready to begin work on October 1 
 
-At **[Capitol Law Partners](<>)**, we guide clients through every step of the H-1B process — from employer sponsorship to visa issuance — ensuring deadlines are met and documentation is flawless. With the right preparation and guidance, your path to working in the United States can be a clear and confident one.
+At **[Capitol Law Partners](<>)**, we guide clients through every step of the H-1B process, from employer sponsorship to visa issuance, ensuring deadlines are met and documentation is flawless. With the right preparation and guidance, your path to working in the United States can be a clear and confident one.

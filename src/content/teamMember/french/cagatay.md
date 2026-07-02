@@ -39,7 +39,7 @@ profile:
       En plus du travail corporatif et en immigration, M. Ersoy aide les
       titulaires de marques à protéger leur propriété intellectuelle grâce à des
       services complets en marques. Il conseille sur la recherche d’antériorité,
-      l’enregistrement et les stratégies d’exécution — aidant ses clients à
+      l’enregistrement et les stratégies d’exécution, aidant ses clients à
       sécuriser et développer la valeur de leur marque sur le long terme aux
       États-Unis.
     - >-
@@ -48,7 +48,7 @@ profile:
       tels que la technologie, la logistique, la construction et le commerce de
       détail en Asie centrale et au Moyen-Orient. Son travail a couvert la
       conformité réglementaire, le droit du travail et administratif, des
-      litiges complexes et des recours internationaux — y compris devant la Cour
+      litiges complexes et des recours internationaux, y compris devant la Cour
       européenne des droits de l’homme et la Cour constitutionnelle de Turquie.
     - >-
       Maîtrisant les traditions de civil law et de common law, M. Ersoy apporte

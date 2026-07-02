@@ -5,7 +5,7 @@ excerpt: >-
   arguing that the Trump administration’s $100,000 H-1B visa fee is “unlawful
   and economically damaging.” The Chamber says the fee exceeds the limits
   allowed under the Immigration and Nationality Act (INA) and would severely
-  restrict U.S. companies’ access to skilled foreign talent — especially in tech
+  restrict U.S. companies’ access to skilled foreign talent, especially in tech
   and engineering. The case, Chamber of Commerce v. DHS (No. 25-cv-3675), is
   currently before the U.S. District Court for the District of Columbia, making
   it a major development for employers tracking H-1B compliance and cost risk.
@@ -65,7 +65,7 @@ The lawsuit seeks to **block enforcement** of the policy and declare 
 
 (Al Jazeera, Washington Post) 
 
-Officials say the fee aims to discourage companies from “over-relying” on foreign labor in sectors like tech, finance, and healthcare — a major point in Trump’s broader “America First” labor policy. 
+Officials say the fee aims to discourage companies from “over-relying” on foreign labor in sectors like tech, finance, and healthcare, a major point in Trump’s broader “America First” labor policy. 
 
 ### **Legal Framework** 
 
@@ -97,7 +97,7 @@ Analysts also warn that: 
 
  The H-1B program is a cornerstone of the U.S. skilled immigration system, used heavily by tech firms such as Google, Microsoft, and Amazon. 
 
-Many foreign professionals — including engineers and developers from **India, China, and Turkey** — rely on this visa to work legally in the U.S. 
+Many foreign professionals, including engineers and developers from **India, China, and Turkey**, rely on this visa to work legally in the U.S. 
 
 If the $100,000 fee remains in place, experts say: 
 
@@ -113,7 +113,7 @@ The Chamber has requested an **injunction** to freeze implementation wh
 
 A ruling in favor of the Chamber could suspend or overturn the $100,000 fee entirely. 
 
-If the Trump administration prevails, the policy could reshape how — and whether — U.S. companies hire foreign tech talent. 
+If the Trump administration prevails, the policy could reshape how, and whether, U.S. companies hire foreign tech talent. 
 
  The lawsuit marks one of the most consequential challenges to Trump’s immigration and labor policies since his return to office. 
 

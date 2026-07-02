@@ -154,7 +154,7 @@ const blogSearchIndexUrl = getAsset('blog-search.json');
 // const allTags = await findTags();
 
 const metadata = {
-  title: `${blogPageCopy.metadataTitle}${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `${blogPageCopy.metadataTitle}${currentPage > 1 ? ` - Page ${currentPage}` : ''}`,
   description: `Latest legal insights from the Capitol Law Partners blog (${languageLabel})${currentPage > 1 ? `, page ${currentPage}` : ''}.`,
   robots: {
     index: blogListRobots?.index && currentPage === 1,
@@ -166,7 +166,7 @@ const metadata = {
   },
 };
 const seo = {
-  title: `${blogPageCopy.seoTitle}${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `${blogPageCopy.seoTitle}${currentPage > 1 ? ` - Page ${currentPage}` : ''}`,
   description: metadata.description,
   noindex: metadata.robots.index === false,
   nofollow: metadata.robots.follow === false,

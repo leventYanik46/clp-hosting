@@ -33,7 +33,7 @@ ABD'de belgesiz olarak bulunan ve hızlı bir şekilde Yeşil Kart almak isteyen
 
 Tüm başvuru yolları aynı hızda işlenmez; bazı yöntemler 1-2 yıl içinde Yeşil Kart almayı sağlarken, diğerleri 10 yıldan fazla sürebilir. Bu kılavuzda, ABD'de Yeşil Kart almanın en hızlı yollarını adım adım açıklıyor ve hangi seçenekten kimlerin yararlanabileceğini ayrıntılı olarak anlatıyoruz.  
 
-## Yeşil Kart Nasıl Alınır — ve Nasıl Hızlı Alınır?  
+## Yeşil Kart Nasıl Alınır ve Nasıl Hızlı Alınır?  
 
 Sizin için adım adım inceleyelim, 
 
@@ -85,7 +85,7 @@ Not: Eskiden nispeten hızlı bir seçenekti, ancak şu anda 1 milyondan fazla b
 * Sadece kadınlar için değil, erkekler, çocuklar ve ebeveynler için de geçerlidir.  
 * ABD vatandaşı eş, ebeveyn veya çocuktan (fiziksel veya duygusal) istismara uğrayanlar başvurabilir.  
 * Süreç ortalama olarak yaklaşık 3,5 yıl sürer.  
-* Yasal giriş veya göçmenlik statüsü gerekmez — başvurular ABD içinden yapılabilir.  
+* Yasal giriş veya göçmenlik statüsü gerekmez; başvurular ABD içinden yapılabilir.  
 
 Sizin için en uygun yolun hangisi olduğunu belirlemek için bir göçmenlik avukatına danışmanız çok önemlidir.   
 

@@ -20,8 +20,8 @@ profile:
     - >-
       Mehmet Y. Turkoglu est avocat en immigration chez Capitol Law Partners
       PLLC. Défenseur passionné des droits des immigrés, il représente ses
-      clients dans tous les domaines de l’immigration — y compris l’asile, les
-      demandes familiales, la naturalisation et les visas professionnels — et
+      clients dans tous les domaines de l’immigration, y compris l’asile, les
+      demandes familiales, la naturalisation et les visas professionnels, et
       plaide régulièrement devant l’USCIS et les tribunaux d’immigration.
     - >-
       M. Turkoglu a obtenu un LL.M. à la faculté de droit de l’Université du

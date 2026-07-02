@@ -3,7 +3,7 @@ metadata:
   title: Contract Drafting, Review, and Negotiation
   description: >-
     Clear, enforceable agreements for vendors, clients, employees, and
-    partners—crafted and negotiated to reduce risk and advance your business
+    partners, crafted and negotiated to reduce risk and advance your business
     goals.
 hero:
   tagline: Contact Us
@@ -19,7 +19,7 @@ contactForm:
   infoTitle: Contract Drafting, Review, and Negotiation
   infoDescription: >-
     Clear, enforceable agreements for vendors, clients, employees, and
-    partners—crafted and negotiated to reduce risk and advance your business
+    partners, crafted and negotiated to reduce risk and advance your business
     goals.
   googleReview:
     label: Google Reviews
@@ -58,7 +58,7 @@ post:
 
     <h3>Risk-Focused Drafting</h3>
 
-    <p>We translate your business goals into tight language—allocating risk,
+    <p>We translate your business goals into tight language: allocating risk,
     clarifying deliverables, and locking in remedies so you have leverage when
     issues arise.</p>
 
@@ -119,7 +119,7 @@ seo:
   title: "Contract Drafting, Review, and Negotiation Services | Capitol Law Partners"
   description: >-
     Clear, enforceable agreements for vendors, clients, employees, and
-    partners—crafted and negotiated to reduce risk and advance your business
+    partners, crafted and negotiated to reduce risk and advance your business
     goals.
   schema:
     mode: merge

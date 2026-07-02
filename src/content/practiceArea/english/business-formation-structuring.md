@@ -55,8 +55,8 @@ post:
 
     <h3>Founder Alignment</h3>
 
-    <p>We surface expectations early—roles, decision rights, capital
-    contributions, and exit scenarios—so your governing documents keep the team
+    <p>We surface expectations early, including roles, decision rights, capital
+    contributions, and exit scenarios, so your governing documents keep the team
     aligned and resilient.</p>
 
 

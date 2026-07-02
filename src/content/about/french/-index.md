@@ -10,7 +10,7 @@ hero:
   title: Nous rendons le complexe simple
   subtitleHtml: >-
     Chez <strong>Capitol Law Partners</strong>, notre mission est simple : nous
-    rendons le complexe simple. Nous savons que le droit peut intimider — que
+    rendons le complexe simple. Nous savons que le droit peut intimider, que
     vous lanciez une startup, dirigiez une petite entreprise ou gériez un
     dossier personnel. C’est pourquoi notre équipe s’engage à vous accompagner
     dans chaque défi juridique avec clarté, <strong>confiance</strong> et
@@ -39,7 +39,7 @@ practiceAreas:
     - title: Droit de l’immigration
       description: >-
         Accompagnement sur les visas d’affaires et de travail, l’asile, les
-        demandes familiales et la défense contre l’éloignement — pour rendre
+        demandes familiales et la défense contre l’éloignement, pour rendre
         l’immigration plus claire et gérable.
       icon: tabler:globe-filled
     - title: Successions et fiducies
@@ -78,7 +78,7 @@ values:
     - title: Communication claire et accessible
       description: >-
         Nous parlons votre langue. Nos avocats dépassent le jargon pour
-        expliquer les enjeux complexes en termes simples et compréhensibles — en
+        expliquer les enjeux complexes en termes simples et compréhensibles, en
         vous tenant informé et confiant à chaque étape.
     - title: Intégrité et lien humain
       description: >-

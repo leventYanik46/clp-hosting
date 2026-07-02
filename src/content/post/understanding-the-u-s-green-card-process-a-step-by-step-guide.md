@@ -1,8 +1,8 @@
 ---
 title: 'Understanding the U.S. Green Card Process: A Step-by-Step Guide'
 excerpt: >-
-  Obtaining a U.S. Green Card — the official proof of lawful permanent residency
-  — is a major step toward building your life in the United States. Whether your
+  Obtaining a U.S. Green Card, the official proof of lawful permanent residency,
+  is a major step toward building your life in the United States. Whether your
   goal is to live, work, reunite with family, or eventually become a U.S.
   citizen, understanding the process is essential to your success. At Capitol
   Law Partners, our immigration attorneys guide clients through every stage with
@@ -29,7 +29,7 @@ seo:
   title: "U.S. Green Card Process Guide: Step by Step"
 ---
 **Understanding the U.S. Green Card Process: A Step-by-Step Guide**\
-Obtaining a U.S. Green Card — the official proof of lawful permanent residency — is a major step toward building your life in the United States. Whether your goal is to live, work, reunite with family, or eventually become a U.S. citizen, understanding the process is essential to your success. At Capitol Law Partners, our immigration attorneys guide clients through every stage with precision and care.
+Obtaining a U.S. Green Card, the official proof of lawful permanent residency, is a major step toward building your life in the United States. Whether your goal is to live, work, reunite with family, or eventually become a U.S. citizen, understanding the process is essential to your success. At Capitol Law Partners, our immigration attorneys guide clients through every stage with precision and care.
 
 
 **Step 1**: Determine Your Eligibility Green Cards can be obtained through multiple pathways, including: 

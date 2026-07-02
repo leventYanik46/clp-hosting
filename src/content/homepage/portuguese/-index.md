@@ -11,8 +11,7 @@ hero:
     highlight: Seu Parceiro de Confiança
     rest: em Soluções Jurídicas
   subtitleHtml: >-
-    <span class="hidden sm:inline">Seus advogados de confiança
-    —</span>Priorizamos você com dedicação e experiência consagrada em
+    <span class="hidden sm:inline">Seus advogados de confiança. </span>Priorizamos você com dedicação e experiência consagrada em
     <strong>crescimento empresarial, sucesso em imigração e planejamento
     sucessório.</strong>
   image:

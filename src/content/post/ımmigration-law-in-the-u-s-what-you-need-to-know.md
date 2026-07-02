@@ -1,7 +1,7 @@
 ---
 title: "Immigration Law in the U.S.: What You Need to Know\_"
 excerpt: >-
-  Immigration law affects individuals, families, and businesses in many ways —
+  Immigration law affects individuals, families, and businesses in many ways,
   from family petitions to employment-based visas and citizenship applications.
   The system is often confusing and subject to change, which makes professional
   guidance essential. Capitol Law Partners provides trusted immigration

@@ -114,7 +114,7 @@ post:
     <h3>Pourquoi nous choisir ?</h3>
 
     <p>En immobilier, le détail compte. Nous prenons le temps de comprendre vos
-    objectifs — achat, vente, location ou développement — et nous nous engageons
+    objectifs, achat, vente, location ou développement, et nous nous engageons
     à vous aider à conclure vos opérations en limitant les risques.</p>
 
     <!-- seo-expanded -->

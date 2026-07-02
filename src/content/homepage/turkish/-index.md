@@ -12,7 +12,7 @@ hero:
     rest: Güvenilir Ortağınız
   subtitleHtml: >-
     <span class="hidden sm:inline">Alanında saygın
-    savunucularınız—</span><strong>İş büyümesi, göçmenlik başarısı ve miras
+    savunucularınız. </span><strong>İş büyümesi, göçmenlik başarısı ve miras
     planlamasında</strong> size zamanla kanıtlanmış uzmanlığımız ve sarsılmaz
     bağlılığımızla öncelik veriyoruz.
   image:

@@ -33,7 +33,7 @@ seo:
 ### **Why Having a Valid Will in Texas Matters**
 
 Creating a legally valid Will in Texas is one of the most important steps to protect your loved ones and ensure your assets are distributed according to your wishes.
-Texas law outlines specific requirements for a valid Will, and failing to follow them could mean your property is divided under Texas intestacy laws—not how you intended.
+Texas law outlines specific requirements for a valid Will, and failing to follow them could mean your property is divided under Texas intestacy laws, not how you intended.
 
  In this article, our estate planning attorneys at Capitol Law Partners explain exactly what makes a Will valid in Texas, whether it needs to be notarized, and why working with a professional lawyer helps ensure your estate plan stands the test of time.
 
@@ -79,7 +79,7 @@ Adding one saves time, cost, and stress during the probate process.
 
 ## **What Happens If a Will Is Not Valid in Texas?**
 
-If a Will fails to meet Texas legal standards, it cannot be admitted to probate. Instead, the estate will be distributed according to Texas intestacy laws—a rigid, court-determined formula that often ignores personal wishes.
+If a Will fails to meet Texas legal standards, it cannot be admitted to probate. Instead, the estate will be distributed according to Texas intestacy laws: a rigid, court-determined formula that often ignores personal wishes.
 
 Without a valid Will, you lose the ability to:
 
@@ -89,7 +89,7 @@ Without a valid Will, you lose the ability to:
 * Direct how taxes, debts, and expenses are paid
 * Control who receives your property
 
-⚠️ *Dying without a valid Will in Texas means your property could go to relatives you didn’t intend—or exclude loved ones you meant to provide for.*
+⚠️ *Dying without a valid Will in Texas means your property could go to relatives you didn’t intend, or exclude loved ones you meant to provide for.*
 
 ## **Do You Need a Lawyer to Create a Will in Texas?**
 
@@ -116,7 +116,7 @@ Our services include:
 * Guardianship designations
 * Comprehensive estate planning strategies
 
-We’re here to make sure your estate plan reflects your true wishes—and stands up in court.
+We’re here to make sure your estate plan reflects your true wishes and stands up in court.
 
 ## **Schedule a Texas Will Consultation Today**
 

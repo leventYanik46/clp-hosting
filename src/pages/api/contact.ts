@@ -27,7 +27,7 @@ export async function POST({ request }: { request: Request }) {
     return json({ error: 'Missing required fields' }, 400);
   }
 
-  // 1. Send to Make webhook first — if this fails the user can safely retry (no email sent yet)
+  // 1. Send to Make webhook first, if this fails the user can safely retry (no email sent yet)
   const WEBHOOK_URL = process.env.PUBLIC_MAKE_WEBHOOK_URL ?? '';
   console.log('[contact] WEBHOOK_URL set:', Boolean(WEBHOOK_URL));
 

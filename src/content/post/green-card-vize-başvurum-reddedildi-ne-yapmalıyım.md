@@ -11,12 +11,12 @@ metadata:
   canonical: >-
     https://capitollawpartners.com/tr/green-card-vize-basvurum-reddedildi-ne-yapmaliyim
   description: >-
-    Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım Burada!
+    Vize Başvurum Reddedildi, Ne Yapmalıyım? Profesyonel Yardım Burada!
     Başvurunuz reddedildikten sonra atmanız gereken adımları öğrenin.
   title: "Vize Başvurum Reddedildi: Ne Yapmalıyım?"
 seo:
   description: >-
-    Vize Başvurum Reddedildi — Ne Yapmalıyım? Profesyonel Yardım Burada!
+    Vize Başvurum Reddedildi, Ne Yapmalıyım? Profesyonel Yardım Burada!
     Başvurunuz reddedildikten sonra atmanız gereken adımları öğrenin.
   canonicalOverride: >-
     https://capitollawpartners.com/tr/green-card-vize-basvurum-reddedildi-ne-yapmaliyim

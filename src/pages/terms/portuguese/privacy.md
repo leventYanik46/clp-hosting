@@ -1,5 +1,5 @@
 ---
-title: 'Termos e Condições'
+title: 'Política de Privacidade'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
@@ -51,7 +51,7 @@ Coletamos informações de três maneiras principais, para melhor atender nossos
 
 Ao nos contatar por um formulário online, você pode fornecer informações pessoais (por exemplo, nome, e‑mail ou telefone).
 
-- **Por favor, não envie informações sensíveis** — por exemplo: data de nascimento, número do Social Security, carteira de motorista, número de cartão de crédito, contas bancárias ou outros dados financeiros.
+- **Por favor, não envie informações sensíveis**, por exemplo: data de nascimento, número do Social Security, carteira de motorista, número de cartão de crédito, contas bancárias ou outros dados financeiros.
 - Utilizamos as informações que você fornece para analisar sua solicitação e, possivelmente, contatá‑lo para uma consulta ou comunicação futura.
 - Se desejar parar de receber comunicações, entre em contato conosco em [info@capitollawpartners.com](mailto:info@capitollawpartners.com) ou ligue para (**202**) 440‑2272 para solicitar a remoção.
 
@@ -81,7 +81,7 @@ Se suas informações pessoais mudarem ou se tiver dúvidas sobre os dados que m
 
 ## 4. Cancelamento de assinatura
 
-Se você estiver inscrito em nossa lista de e‑mail, receberá atualizações periódicas ou boletins eletrônicos da **Capitol Law Partners, PLLC**. Você pode cancelar a inscrição a qualquer momento clicando no link “Abonelikten Çıkma” (ou “Unsubscribe”) em nossos e‑mails ou entrando em contato conosco em [info@capitollawpartners.com](mailto:info@capitollawpartners.com) para solicitar a remoção do seu endereço.
+Se você estiver inscrito em nossa lista de e‑mail, receberá atualizações periódicas ou boletins eletrônicos da **Capitol Law Partners, PLLC**. Você pode cancelar a inscrição a qualquer momento clicando no link “Cancelar inscrição” (ou “Unsubscribe”) em nossos e‑mails ou entrando em contato conosco em [info@capitollawpartners.com](mailto:info@capitollawpartners.com) para solicitar a remoção do seu endereço.
 
 ---
 
@@ -105,102 +105,3 @@ Telefone: (**202**) 440‑2272
 E‑mail: [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
 
 _Última atualização: 27 de maio de 2025_
-```// filepath: /media/mugiwara/ssd/code files/clp-hosting/src/pages/terms/turkish/terms.md
-// ...existing code...
----
-title: 'Hüküm ve Koşullar'
-layout: '~/layouts/MarkdownLayout.astro'
----
-
-Son güncelleme: 27 Mayıs 2025
-
-## Capitol Law Partners Web Sitesine Hoş Geldiniz
-
-Web sitemizi ziyaret eden herkesi (“siz”) memnuniyetle karşılıyoruz ve güveninizi korumaya kararlıyız. Bu nedenle, bu web sitesini ziyaret ettiğinizde burada okuduğunuz, bize gönderdiğiniz veya ziyaretiniz sırasında toplanan bilgilerle ilgili olarak neler olacağını açıklayan aşağıdaki hüküm ve koşulları oluşturduk.
-
-Ayrıca bu web sitesinin sahibi olan **Capitol Law Partners, PLLC** olduğunu ve bu alan adına uygulanacak olan Aşağıdaki Kullanım Şartları, Feragatname ve Gizlilik Politikası'nın geçerli olduğunu bilmelisiniz. Ziyaretçiler (“siz”), Kullanım Şartları, Feragatname ve Gizlilik Politikası ile yönetilir ve bu web sitesini kullanarak bu hüküm ve koşulları tamamen kabul etmiş olursunuz. Bu hüküm ve koşulların herhangi bir kısmına katılmıyorsanız, lütfen Capitol Law Partners web sitesini kullanmayı bırakın.
-
----
-
-## Kullanım Şartları
-
-Bu web sitesi için Kullanım Şartları, ziyaretçi (“siz”) ile **Capitol Law Partners, PLLC** arasında bir anlaşma niteliğindedir. Web sitemizi ziyaret etmekten çekinmeyin, ancak bununla birlikte burada belirtilen Feragatname, Kullanım Şartları ve Gizlilik Politikası'nı kabul etmiş olduğunuzu unutmayın. **Capitol Law Partners, PLLC** bu politika, feragatname ve şartları önceden haber vermeksizin değiştirme ve güncelleme hakkını saklı tutar. Lütfen bunları dikkatle inceleyin; çünkü son ziyaretinizden bu yana değişmiş olabilirler.
-
----
-
-## Feragatname
-
-### Hukuki Tavsiye Değildir
-
-Bu web sitesinde okuduğunuz ve edindiğiniz bilgiler genel niteliktedir ve sizin için hukuki tavsiye değildir. Bireysel durumunuz hakkında tavsiye almak için bir avukata danışın.
-
-### Avukat–Müvekkil İlişkisi
-
-Bu web sitesi üzerinden bizimle iletişime geçmeniz avukat–müvekkil ilişkisi oluşturmaz. Sadece bilgi göndermeniz bizi sizin avukatınız yapmaz.
-
-### Gizli Bilgiler
-
-Bir avukat–müvekkil ilişkisi kurmayı kabul etmeden önce lütfen bu web sitesi aracılığıyla herhangi bir gizli bilgi göndermeyin.
-
-### Garanti Verilmemesi
-
-Web sitesini mümkün olduğunca güncel tutmayı amaçlasak da, **Capitol Law Partners, PLLC** burada sunulan bilgilerin doğruluğu veya eksiksizliği konusunda herhangi bir garanti veya beyan vermez.
-
----
-
-## Gizlilik Politikası
-
-Bu gizlilik politikası, bu web sitesinin kullanıcılarından çevrimiçi olarak toplanan bilgiler için uygulanır. Burada hangi tür bilgilerin toplandığını, ne zaman ve nasıl kullanabileceğimizi, nasıl koruduğumuzu ve kişisel bilgilerinizle ilgili seçeneklerinizi öğrenebilirsiniz.
-
-### 1. Bu web sitesi aracılığıyla hangi kişisel bilgiler toplanır ve nasıl kullanılır?
-
-Bilgileri üç ana yolla toplarız; bu, ziyaretçilerimize daha iyi hizmet vermemize yardımcı olur:
-
-#### Doğrudan Sizden
-
-Çevrimiçi formlardan biri aracılığıyla bizimle iletişime geçmeye karar verdiğinizde, adınız, e-posta adresiniz veya telefon numaranız gibi kişisel bilgiler sağlayabilirsiniz.
-
-- Lütfen herhangi bir hassas bilgi göndermeyin—örneğin doğum tarihi, Sosyal Güvenlik numarası, ehliyet, kredi kartı veya banka hesapları ya da diğer finansal veriler.
-- Sağladığınız bilgileri, talebinizi incelemek ve olası bir danışma veya ileride iletişim kurmak amacıyla kullanırız.
-- Gelecekte ileti almak istemiyorsanız, istediğiniz zaman [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresine e-posta göndererek veya (**202**) 440-2272 numaralı telefonu arayarak aboneliğinizi iptal etme talebinde bulunabilirsiniz.
-
-#### Web Sunucu Kayıtları
-
-Capitol Law Partners web sitesini ziyaret ettiğinizde, ziyaretinizle ilgili bilgileri (web sunucumuzda saklanan) izleyebiliriz. Bu, IP adresinizi, ziyaret zamanınızı, yönlendiren web sitesini ve hangi sayfaları görüntülediğinizi içerebilir.
-
-- Bu bilgileri, web sitemizin nasıl kullanıldığını daha iyi anlamak ve daha iyi bilgi sağlamak için iyileştirmek amacıyla kullanırız.
-
-#### Çerezler
-
-Web sitemiz, daha kolay gezinme ve kullanıcı tercihlerini hatırlamak için çerezler kullanır (örneğin bir formda girdiğiniz bilgileri tekrar girmenize gerek kalmaması gibi). Çerezler bilgisayarınızdan veya siteye erişmek için kullandığınız herhangi bir cihazdan kişisel veri üretmez veya okumaz.
-
----
-
-## 2. Güvenlik
-
-Bilgileri öncelikle size kişiselleştirilmiş bir internet deneyimi sunmak, en alakalı bilgi, kaynak ve hizmetleri sağlamak için kullanıyoruz. Sağladığınız bilgileri, bu Gizlilik Politikası'nda belirtilen durumlar dışında kimseyle paylaşmıyoruz; ancak kanunen gerekli olduğunu düşündüğümüz durumlarda veya haklarımızı veya mülkümüzü korumak için paylaşabiliriz. Toplanan bilgilere yalnızca personelimiz, yetkilendirilmiş acentelerimiz, web sitesi tedarikçilerimiz ve/veya bizim adımıza bunu kullanabilecek müteahhitler erişebilir. Yardım edemeyeceğimiz hukuki bir durumla karşılaşırsak, sizi daha iyi yardımcı olabilecek başka bir avukata yönlendirebiliriz.
-
----
-
-## 3. Kişisel Bilgilerin Düzeltilmesi/Güncellenmesi
-
-Kişisel bilgileriniz değişirse veya sakladığımız kişisel bilgiler hakkında sorularınız varsa, lütfen [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresiyle iletişime geçin. Sağladığınız bilgilerin güncel ve doğru olmasını sağlamak sizin sorumluluğunuzdadır. Yasalarca yasaklanmadıkça bu bilgileri istediğimiz zaman silebiliriz; bu nedenle kendi kayıtlarınızı saklamanızı öneririz.
-
----
-
-## 4. Abonelikten Çıkma
-
-E-posta listemize abone olursanız, **Capitol Law Partners, PLLC** tarafından periyodik güncellemeler veya elektronik bülten alabilirsiniz. Bu mesajları istediğiniz zaman e-postalarımızda bulunan “Aboneliği İptal Et” bağlantısına tıklayarak veya [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresine bir e-posta göndererek abonelikten çıkabilirsiniz.
-
----
-
-## İletişim
-
-Kullanım Şartları, Feragatname veya Gizlilik Politikamız hakkında daha fazla sorunuz varsa, lütfen bizimle iletişime geçin:
-
-**Capitol Law Partners, PLLC**  
-13873 Park Center Rd STE 152, Herndon, VA 20171  
-Telefon: (**202**) 440-2272  
-E-posta: [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
-
-_Son güncelleme: 27 Mayıs 2025_

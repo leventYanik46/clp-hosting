@@ -39,7 +39,7 @@ post:
   content: >
 
     <p>Our Risk Management & Legal Compliance service is built for businesses
-    that want to stay ahead of problems—not clean them up after the fact. We
+    that want to stay ahead of problems, not clean them up after the fact. We
     work with leadership and key stakeholders to map out your risk landscape,
     identify blind spots, and implement practical controls that support your
     operations.</p>
@@ -67,7 +67,7 @@ post:
     workflows, and decision-making structures interact in practice.</p>
 
 
-    <p>Where we see elevated risk, we provide concrete recommendations—whether
+    <p>Where we see elevated risk, we provide concrete recommendations, whether
     that means revising agreements, tightening internal approvals, updating
     documentation, or clarifying roles and responsibilities.</p>
 
@@ -76,7 +76,7 @@ post:
 
     <p>Compliance only works if it fits how your business actually runs. We
     focus on creating frameworks that are realistic for your size, resources,
-    and growth stage—avoiding unnecessary complexity while still providing
+    and growth stage, avoiding unnecessary complexity while still providing
     meaningful protection.</p>
 
 

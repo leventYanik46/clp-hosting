@@ -54,8 +54,8 @@ post:
 
     <h3>Kurucu Uyumlandırması</h3>
 
-    <p>Beklentileri erken aşamada ortaya koyuyoruz—roller, karar hakları,
-    sermaye katkıları ve çıkış senaryoları—böylece yönetim belgeleriniz ekibi
+    <p>Beklentileri erken aşamada ortaya koyuyoruz, roller, karar hakları,
+    sermaye katkıları ve çıkış senaryoları, böylece yönetim belgeleriniz ekibi
     uyumlu ve dirençli tutar.</p>
 
 

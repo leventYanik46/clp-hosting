@@ -41,7 +41,7 @@ const languageAlternates = buildLanguageAlternatesForLangs(
 const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, alternateLanguageCodes, false);
 
 const metadata = {
-  title: `Category '${categoryTitle}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Category '${categoryTitle}' ${currentPage > 1 ? ` - Page ${currentPage}` : ''}`,
   description: `Browse ${categoryTitle} articles from Capitol Law Partners (${languageLabel})${currentPage > 1 ? `, page ${currentPage}` : ''}.`,
   robots: {
     index: blogCategoryRobots?.index,

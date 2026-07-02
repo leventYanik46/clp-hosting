@@ -11,7 +11,7 @@ hero:
     highlight: Su Socio de Confianza
     rest: en Soluciones Legales
   subtitleHtml: >-
-    <span class="hidden sm:inline">Sus abogados de prestigio—</span>Lo
+    <span class="hidden sm:inline">Sus abogados de prestigio. </span>Lo
     priorizamos con compromiso y una experiencia reconocida en
     <strong>crecimiento empresarial, éxito migratorio y planificación
     patrimonial.</strong>

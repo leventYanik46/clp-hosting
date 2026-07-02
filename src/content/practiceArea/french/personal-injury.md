@@ -81,13 +81,13 @@ post:
     <h3>Ce Que Vous Pouvez Attendre de Notre Équipe</h3>
 
 
-    <p><strong>Des conseils clairs — pas de jargon juridique</strong><br />
+    <p><strong>Des conseils clairs, pas de jargon juridique</strong><br />
 
     Nous expliquons vos droits clairement afin que vous sachiez toujours où vous
     en êtes.</p>
 
 
-    <p><strong>Nous gérons les assurances — vous vous concentrez sur votre
+    <p><strong>Nous gérons les assurances : vous vous concentrez sur votre
     rétablissement</strong><br />
 
     De la collecte des preuves à la négociation de votre indemnisation, nous
@@ -97,7 +97,7 @@ post:
     <p><strong>Pas de frais juridiques sauf en cas de succès</strong><br />
 
     Nous représentons la plupart des clients en préjudice corporel sur la base
-    du résultat — aucun paiement à l’avance.</p>
+    du résultat : aucun paiement à l’avance.</p>
 
 
     <h3>Votre Rétablissement Commence par une Conversation</h3>
@@ -105,7 +105,7 @@ post:
 
     <p>Que vos blessures soient mineures ou graves, nous prenons le temps de
     comprendre votre histoire et d’élaborer une stratégie adaptée à vos besoins.
-    Si vous ne savez pas si vous avez un dossier, demandez — la consultation est
+    Si vous ne savez pas si vous avez un dossier, demandez, la consultation est
     gratuite et confidentielle.</p>
 
 

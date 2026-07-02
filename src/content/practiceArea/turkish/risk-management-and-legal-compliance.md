@@ -68,7 +68,7 @@ post:
     sorunların ötesine  bakmak anlamına gelir.</p>
 
 
-    <p>Yüksek riski gördüğümüzde somut öneriler sunuyoruz—sözleşmeleri revize 
+    <p>Yüksek riski gördüğümüzde somut öneriler sunuyoruz: sözleşmeleri revize 
     etmek, iç onayları sıklaştırmak, belgeleri güncellemek veya rolleri ve 
     sorumlulukları netleştirmek anlamına gelebilir.</p>
 
@@ -77,7 +77,7 @@ post:
 
     <p>Uyum yalnızca işletmeniz gerçekte nasıl çalışıyorsa uyuyorsa işe yarar. 
     Büyüklüğünüz, kaynakların ve büyüme aşamasına gerçekçi olan çerçeveler 
-    oluşturmaya odaklanırız—gereksiz karmaşıklığı kaçınırken yine de anlamlı 
+    oluşturmaya odaklanırız; gereksiz karmaşıklığı kaçınırken yine de anlamlı 
     koruma sağlarız.</p>
 
 

@@ -51,7 +51,7 @@ Bilgileri üç ana şekilde toplarız; bu da ziyaretçilerimize daha iyi hizmet 
 
 Web sitemizdeki çevrimiçi formlardan birini kullanarak bizimle iletişime geçmeye karar verdiğinizde, kişisel bilgilerinizi (örneğin isim, e-posta adresi veya telefon numarası) verebilirsiniz.
 
-- **Lütfen hassas bilgilerinizi sağlamayın veya göndermeyin** — örneğin doğum tarihi, Sosyal Güvenlik numarası, ehliyet, kredi kartı, banka hesap bilgileri veya diğer finansal veriler.
+- **Lütfen hassas bilgilerinizi sağlamayın veya göndermeyin**, örneğin doğum tarihi, Sosyal Güvenlik numarası, ehliyet, kredi kartı, banka hesap bilgileri veya diğer finansal veriler.
 - Gönüllü olarak sağladığınız bilgileri, talebinizi değerlendirmek ve sizinle danışma veya gelecekteki iletişim için irtibata geçmek amacıyla kullanırız.
 - Gelecekteki iletişimleri almak istemiyorsanız, istediğiniz zaman [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresinden veya (**202**) 440-2272 numaralı telefondan bizimle iletişime geçebilir ve abonelikten çıkmak istediğinizi belirtebilirsiniz.
 

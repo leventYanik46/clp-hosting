@@ -52,13 +52,13 @@ post:
     day-to-day advice and strategic guidance to help you run your business
     smoothly and stay compliant. We handle everything from drafting, reviewing,
     and negotiating contracts to steering you through complex mergers,
-    acquisitions, and major transactions—always with your interests front and
+    acquisitions, and major transactions, always with your interests front and
     center.</p>
 
 
     <h3>Business Formation and Structuring</h3>
 
-    <p>Starting a business is exciting—but getting the legal structure right is
+    <p>Starting a business is exciting, but getting the legal structure right is
     crucial. We help you select the right entity, draft formation documents, and
     set up governance frameworks that suit your goals. For established
     companies, we assist with restructuring to adapt to growth or changing

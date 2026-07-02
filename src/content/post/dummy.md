@@ -55,7 +55,7 @@ The EB-2 National Interest Waiver (NIW) is a second-preference employment-based 
 
 ## Eligibility Criteria
 
-To qualify, you must first satisfy EB-2 requirements—either an advanced degree or exceptional ability—and then pass the three-prong Dhanasar test:
+To qualify, you must first satisfy EB-2 requirements, either an advanced degree or exceptional ability, and then pass the three-prong Dhanasar test:
 
 <dl>
   <DListItem dt="Advanced Degree Professionals">
@@ -81,7 +81,7 @@ To qualify, you must first satisfy EB-2 requirements—either an advanced degree
     Show intrinsic value of your work (e.g., awards, publications, patents).
   </DListItem>
   <DListItem dt="National Importance">
-    Demonstrate broader U.S. impact—addressing national issues or goals.
+    Demonstrate broader U.S. impact: addressing national issues or goals.
   </DListItem>
 </dl>
 

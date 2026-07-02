@@ -11,7 +11,7 @@ hero:
   subtitleHtml: >-
     At <strong>Capitol Law Partners</strong>, our mission is simple: we make the
     complex simple. We know that dealing with the law can feel
-    intimidating—whether you're launching a startup, running a small business,
+    intimidating, whether you're launching a startup, running a small business,
     or facing a personal legal matter. That's why our team is dedicated to
     guiding you through every legal challenge with clarity,
     <strong>confidence</strong>, and practical solutions. We combine a friendly,
@@ -39,7 +39,7 @@ practiceAreas:
     - title: Immigration Law
       description: >-
         Guidance through business and employment visas, asylum, family
-        petitions, and removal defense—making immigration processes clearer and
+        petitions, and removal defense, making immigration processes clearer and
         more manageable.
       icon: tabler:globe-filled
     - title: Trusts and Estates
@@ -66,7 +66,7 @@ practiceAreas:
     - title: Personal Injury
       description: >-
         Representation for individuals injured in accidents, including auto,
-        workplace, and premises liability claims—fighting for the compensation
+        workplace, and premises liability claims, fighting for the compensation
         you deserve.
       icon: tabler:ambulance
 values:
@@ -74,7 +74,7 @@ values:
   subtitle: >-
     At Capitol Law Partners, we take pride in offering a legal experience that
     is responsive, personalized, and rooted in trust. Every client feels
-    supported and empowered—no matter how complex the issue at hand.
+    supported and empowered, no matter how complex the issue at hand.
   items:
     - title: Client-Focused Solutions
       description: >-
@@ -84,7 +84,7 @@ values:
     - title: Clear, Accessible Communication
       description: >-
         We speak your language. Our attorneys cut through legal jargon to
-        explain complex issues in plain, understandable terms—keeping you
+        explain complex issues in plain, understandable terms, keeping you
         informed and confident every step of the way.
     - title: Integrity and Personal Connection
       description: >-

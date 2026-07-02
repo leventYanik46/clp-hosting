@@ -73,7 +73,7 @@ post:
 
     <h3>Şirket Kuruluşu ve Yapılandırma</h3>
 
-    <p>Bir iş kurmak heyecan verici—ancak doğru hukuki yapıyı oluşturmak çok
+    <p>Bir iş kurmak heyecan vericidir. Ancak doğru hukuki yapıyı oluşturmak çok
     önemlidir. Size uygun şirket türünü seçmenize, kuruluş belgelerini
     hazırlamanıza ve hedeflerinize uygun yönetişim çerçeveleri kurmanıza
     yardımcı oluyoruz. Mevcut şirketler için ise büyümeye veya değişen

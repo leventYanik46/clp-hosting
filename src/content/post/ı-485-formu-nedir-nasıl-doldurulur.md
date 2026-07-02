@@ -53,7 +53,7 @@ Birçok başvuru sahibi bunu DS-160 ile karşılaştırır çünkü her ikisi de
 
 
 
-Tüm isimlerin pasaportunuzda göründüğü gibi tam olarak eşleştiğinden emin olun—tıpkı DS-160 kuralında olduğu gibi, yalnızca İngilizce alfabe harfleri kullanılabilir.
+Tüm isimlerin pasaportunuzda göründüğü gibi tam olarak eşleştiğinden emin olun; tıpkı DS-160 kuralında olduğu gibi, yalnızca İngilizce alfabe harfleri kullanılabilir.
 
 
 
@@ -152,7 +152,7 @@ DS-160 hazırlığınız aslında I-485 başvurusunu kolaylaştırır çünkü k
 
 
 
-\*Her şeyin kopyasını saklayın—USCIS, mülakatınız sırasında DS-160, I-130 ve önceki vizelerinize başvurabilir.
+\*Her şeyin kopyasını saklayın; USCIS, mülakatınız sırasında DS-160, I-130 ve önceki vizelerinize başvurabilir.
 
 I-485 Formunu doldurmak imkansız bir iş değildir. Bilgilerinizin DS-160 ve pasaportunuzla eşleştiğinden emin olun, doğru belgeleri ekleyin ve göndermeden önce her bölümü gözden geçirin.
 

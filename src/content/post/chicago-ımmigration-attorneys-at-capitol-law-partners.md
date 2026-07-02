@@ -16,7 +16,7 @@ publishDate: 2025-08-08T13:29:00.000Z
 metadata:
   description: >-
     Expert Chicago immigration attorneys at Capitol Law Partners. Visas, green
-    cards, citizenship — personalized legal solutions for your immigration
+    cards, citizenship, personalized legal solutions for your immigration
     journey
   canonical: >-
     https://capitollawpartners.com/chicago-immigration-attorneys-at-capitol-law-partners
@@ -24,7 +24,7 @@ metadata:
 seo:
   description: >-
     Expert Chicago immigration attorneys at Capitol Law Partners. Visas, green
-    cards, citizenship — personalized legal solutions for your immigration
+    cards, citizenship, personalized legal solutions for your immigration
     journey
   canonicalOverride: >-
     https://capitollawpartners.com/chicago-immigration-attorneys-at-capitol-law-partners
@@ -33,7 +33,7 @@ seo:
 ## \
 Chicago Immigration Attorneys at Capitol Law Partners
 
-Navigating the U.S. immigration system can be challenging, whether you are seeking a temporary visa, permanent residency, or U.S. citizenship. At Capitol Law Partners, our Chicago-based immigration attorneys bring years of experience and a client-centered approach to every case. We understand that immigration is not just a legal process — it’s a life-changing journey. 
+Navigating the U.S. immigration system can be challenging, whether you are seeking a temporary visa, permanent residency, or U.S. citizenship. At Capitol Law Partners, our Chicago-based immigration attorneys bring years of experience and a client-centered approach to every case. We understand that immigration is not just a legal process. It’s a life-changing journey. 
 
 \
 Our team assists individuals, families, and businesses with a full spectrum of immigration matters, including:
@@ -44,8 +44,8 @@ Our team assists individuals, families, and businesses with a full spectrum of i
 * Deportation Defense & Appeals – Aggressive representation to protect your rights and fight for your stay in the U.S.
 * Business Immigration Solutions – Legal strategies for companies hiring foreign talent or expanding operations in the U.S.
 
-At Capitol Law Partners, we go beyond filing paperwork — we provide strategic legal advice, clear communication, and dedicated representation at every stage. Whether you’re in the early stages of planning or facing urgent immigration challenges, our attorneys offer tailored solutions that align with your personal and professional goals.
+At Capitol Law Partners, we go beyond filing paperwork. We provide strategic legal advice, clear communication, and dedicated representation at every stage. Whether you’re in the early stages of planning or facing urgent immigration challenges, our attorneys offer tailored solutions that align with your personal and professional goals.
 
 Located in Chicago, we represent clients locally and across the United States, using advanced technology to communicate effectively and keep your case moving forward. Our commitment is simple: protect your rights, secure your future, and help you achieve the American dream.
 
-If you need trusted immigration counsel, Capitol Law Partners is here to stand by your side — every step of the way.
+If you need trusted immigration counsel, Capitol Law Partners is here to stand by your side, every step of the way.

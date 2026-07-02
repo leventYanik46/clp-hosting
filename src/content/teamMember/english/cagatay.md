@@ -37,7 +37,7 @@ profile:
       In addition to his corporate and immigration work, Mr. Ersoy assists brand
       owners in safeguarding their intellectual property through comprehensive
       trademark services. He advises clients on trademark clearance,
-      registration, and enforcement strategies—helping them secure and build
+      registration, and enforcement strategies, helping them secure and build
       long-term brand value in the U.S. market.
     - >-
       Before founding Capitol Law Partners, Mr. Ersoy practiced as a litigation
@@ -45,12 +45,12 @@ profile:
       technology, logistics, construction, and retail across Central Asia and
       the Middle East. His work spanned regulatory compliance, labor and
       administrative law, complex trial litigation, and international
-      appeals—including matters before the European Court of Human Rights and
+      appeals, including matters before the European Court of Human Rights and
       the Constitutional Court of Turkey.
     - >-
       Fluent in both civil law and common law traditions, Mr. Ersoy brings a
       global perspective and a meticulous approach to every matter he handles.
-      His clients benefit from a truly international legal lens—paired with the
+      His clients benefit from a truly international legal lens, paired with the
       practical insight needed to get deals done and resolve disputes
       efficiently.
   actions:

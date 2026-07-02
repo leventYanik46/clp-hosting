@@ -11,7 +11,7 @@ hero:
     highlight: Votre partenaire de confiance
     rest: en solutions juridiques
   subtitleHtml: >-
-    <span class="hidden sm:inline">Vos avocats de confiance—</span>Vous
+    <span class="hidden sm:inline">Vos avocats de confiance. </span>Vous
     accompagner avec engagement et expertise reconnue en <strong>développement
     des affaires, réussite en immigration et planification
     successorale.</strong>
@@ -50,7 +50,7 @@ practiceAreas:
     - title: Droit de l'immigration
       description: >-
         Accompagnement pour les visas d'affaires et de travail, l'asile, les
-        demandes familiales et la défense contre l'expulsion—rendant les
+        demandes familiales et la défense contre l'expulsion, rendant les
         démarches d'immigration plus claires et accessibles.
       icon: tabler:globe-filled
     - title: Successions et fiducies

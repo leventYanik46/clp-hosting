@@ -39,7 +39,7 @@ post:
 
     <p>İşletme uyuşmazlıkları ivmeyi, itibarı ve kârlılığı tehdit eder. Ticari 
     dava ekibimiz maruziyeti değerlendirmek, kaldıraç korumak ve en iyi ileri
-    gidiş  yolunu takip etmek için hızlı hareket eder—bu verimli anlaşma veya
+    gidiş  yolunu takip etmek için hızlı hareket eder: bu verimli anlaşma veya
     agresif  mahkeme savunması olabilir.</p>
 
 

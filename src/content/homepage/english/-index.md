@@ -10,7 +10,7 @@ hero:
     highlight: Your Trusted Partner
     rest: In Legal Solutions
   subtitleHtml: >-
-    <span class="hidden sm:inline">Your Esteemed Advocates—</span>Prioritizing
+    <span class="hidden sm:inline">Your Esteemed Advocates. </span>Prioritizing
     You with Commitment and Time-Honored Expertise in <strong>Business Growth,
     Immigration Success and Estate Planning.</strong>
   image:
@@ -47,7 +47,7 @@ practiceAreas:
     - title: Immigration Law
       description: >-
         Guidance through business and employment visas, asylum, family
-        petitions, and removal defense—making immigration processes clearer and
+        petitions, and removal defense, making immigration processes clearer and
         more manageable.
       icon: tabler:globe-filled
       link: /practice-area/immigration-law
@@ -79,7 +79,7 @@ practiceAreas:
     - title: Personal Injury
       description: >-
         Representation for individuals injured in accidents, including auto,
-        workplace, and premises liability claims—fighting for the compensation
+        workplace, and premises liability claims, fighting for the compensation
         you deserve.
       icon: tabler:ambulance
       link: /practice-area/personal-injury-law

@@ -1,97 +1,97 @@
 ---
-title: 'Terms and Conditions'
+title: 'Hüküm ve Koşullar'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-Last updated: May 27, 2025
+Son güncelleme: 27 Mayıs 2025
 
-## Welcome to the Capitol Law Partners Website
+## Capitol Law Partners Web Sitesine Hoş Geldiniz
 
-We welcome everyone (“you”) to visit our website and are committed to maintaining your trust. This is why we have created the following terms and conditions to explain what happens when you visit this website with respect to information you read here, send to us, or that is collected during your visit.
+Herkesi (“siz”) web sitemizi ziyaret etmeye davet ediyoruz ve güveninizi korumaya kararlıyız. Bu nedenle, bu web sitesini ziyaret ettiğinizde okuduğunuz, bize gönderdiğiniz veya ziyaretiniz sırasında toplanan bilgilerle ilgili olarak neler olduğunu açıklamak için aşağıdaki hüküm ve koşulları oluşturduk.
 
-You should also know that this website is owned by **Capitol Law Partners, PLLC** and that the following Terms of Use, Disclaimer, and Privacy Policy apply to this domain. Visitors (“you”) are governed by the Terms of Use, Disclaimer, and Privacy Policy, and by using this website, you agree to these terms and conditions in full. If you disagree with any part of these terms and conditions, please stop using the Capitol Law Partners website.
-
----
-
-## Terms of Use
-
-The Terms of Use for this website are intended as an agreement between the visitor (“you”) and **Capitol Law Partners, PLLC**. Feel free to visit our website, [www.capitollawpartners.com](#), with the understanding that you have agreed to the Disclaimer, Terms of Use, and Privacy Policy outlined in these pages. Please note that **Capitol Law Partners, PLLC** reserves the right to change and update these policies, disclaimers, and terms at any time without notice. Review them carefully, as they may have changed since your last visit.
+Ayrıca bu web sitesinin **Capitol Law Partners, PLLC**'ye ait olduğunu ve aşağıdaki Kullanım Şartları, Feragatname ve Gizlilik Politikasının bu alan adı için geçerli olduğunu bilmelisiniz. Ziyaretçiler (“siz”), Kullanım Şartları, Feragatname ve Gizlilik Politikası hükümlerine tabidir ve bu web sitesini kullanarak bu şartları tamamen kabul etmiş olursunuz. Bu şartların herhangi bir bölümünü kabul etmiyorsanız, lütfen Capitol Law Partners web sitesini kullanmayı bırakın.
 
 ---
 
-## Disclaimer
+## Kullanım Şartları
 
-### No Legal Advice
-
-The information you read and obtain on this website is general information and is **not** legal advice for you. Please consult an attorney for advice about your individual situation.
-
-### Attorney-Client Relationship
-
-Contacting us through this website does **not** create an attorney-client relationship. Simply sending us information does not make us your lawyer.
-
-### Confidential Information
-
-Do **not** send any confidential information through this website until we both agree to establish an attorney-client relationship.
-
-### No Warranties
-
-While we aim to keep the website as updated as possible, **Capitol Law Partners, PLLC** makes no warranties or representations about the accuracy or completeness of the information presented here.
+Bu web sitesine ilişkin Kullanım Şartları, ziyaretçi (“siz”) ile **Capitol Law Partners, PLLC** arasında bir anlaşma niteliğindedir. [www.capitollawpartners.com](#) adresindeki web sitemizi ziyaret ederken, burada belirtilen Feragatname, Kullanım Şartları ve Gizlilik Politikası hükümlerini kabul etmiş olursunuz. Lütfen unutmayın ki **Capitol Law Partners, PLLC**, bu politikaları, feragatnameleri ve şartları önceden bildirimde bulunmaksızın değiştirme hakkını saklı tutar. Lütfen düzenli olarak gözden geçirin, çünkü son ziyaretinizden sonra değişmiş olabilirler.
 
 ---
 
-## Privacy Policy
+## Feragatname
 
-This privacy policy applies to information collected online from users of this website. Here, you can learn what kind of information is collected, when and how we might use that information, how we protect it, and the choices you have with respect to your personal information.
+### Hukuki Tavsiye Değildir
 
-### 1. What personal information is collected through this website and how is it used?
+Bu web sitesinde okuduğunuz bilgiler genel bilgilerdir ve size özel **hukuki tavsiye değildir**. Lütfen kendi durumunuzla ilgili tavsiye almak için bir avukata danışın.
 
-We collect information in three main ways, which help us better serve our visitors:
+### Avukat-Müvekkil İlişkisi
 
-#### Directly from You
+Bu web sitesi üzerinden bizimle iletişime geçmeniz **avukat-müvekkil ilişkisi oluşturmaz**. Yalnızca bize bilgi göndermek sizi müvekkilimiz yapmaz.
 
-When you decide to contact us using one of the online forms, you may supply personal information (such as name, email address, or phone number).
+### Gizli Bilgi
 
-- **Please do not provide or submit any sensitive information**—for example, date of birth, Social Security number, driver’s license, credit card, bank accounts, or other financial data.
-- We use the information you voluntarily provide to review your inquiry and possibly contact you for a consultation or future communication.
-- If you wish to stop receiving future communications, you can contact us anytime at [info@capitollawpartners.com](mailto:info@capitollawpartners.com) or call us at (**202**) 440-2272 and request to unsubscribe.
+Bir avukat-müvekkil ilişkisi kurmayı karşılıklı olarak kabul edene kadar **herhangi bir gizli bilgi göndermeyin**.
 
-#### Web Server Logs
+### Garanti Yoktur
 
-When you visit the Capitol Law Partners website, we may track information about your visit (stored on our web server). This can include your IP address, time of visit, referring website, and which pages you viewed.
-
-- We use this information to better understand how our website is being used and how we can improve it to provide better information.
-
-#### Cookies
-
-Our website uses cookies for easier navigation and to remember user preferences (for example, remembering what you entered in a form so you don’t have to re-enter it). Cookies do **not** generate or read personal data from your computer or any device used to access our site.
+Web sitemizi olabildiğince güncel tutmaya çalışsak da, **Capitol Law Partners, PLLC** burada sunulan bilgilerin doğruluğu veya eksiksizliği konusunda herhangi bir garanti vermez veya taahhütte bulunmaz.
 
 ---
 
-## 2. Security
+## Gizlilik Politikası
 
-We use the information primarily to give you a personalized internet experience, delivering the information, resources, and services that are most relevant to you. We do **not** share any of the information you provide with others, except where stated in this Privacy Policy or when we believe in good faith that the law requires it. The information collected is only accessible to our staff, agents, website vendors, and/or contractors who may use it on our behalf. We may also share it if required by law or to protect our rights or property. If we cannot assist with your legal matter, we may refer you to another lawyer outside the firm who might be better able to assist you.
+Bu gizlilik politikası, bu web sitesinin çevrimiçi kullanıcılarından toplanan bilgiler için geçerlidir. Burada hangi tür bilgilerin toplandığını, bu bilgilerin ne zaman ve nasıl kullanılabileceğini, nasıl korunduğunu ve kişisel bilgilerinizle ilgili hangi haklara sahip olduğunuzu öğrenebilirsiniz.
+
+### 1. Bu web sitesi üzerinden hangi kişisel bilgiler toplanır ve nasıl kullanılır?
+
+Bilgileri üç ana şekilde toplarız; bu da ziyaretçilerimize daha iyi hizmet etmemize yardımcı olur:
+
+#### Sizden Doğrudan
+
+Web sitemizdeki çevrimiçi formlardan birini kullanarak bizimle iletişime geçmeye karar verdiğinizde, kişisel bilgilerinizi (örneğin isim, e-posta adresi veya telefon numarası) verebilirsiniz.
+
+- **Lütfen hassas bilgilerinizi sağlamayın veya göndermeyin**, örneğin doğum tarihi, Sosyal Güvenlik numarası, ehliyet, kredi kartı, banka hesap bilgileri veya diğer finansal veriler.
+- Gönüllü olarak sağladığınız bilgileri, talebinizi değerlendirmek ve sizinle danışma veya gelecekteki iletişim için irtibata geçmek amacıyla kullanırız.
+- Gelecekteki iletişimleri almak istemiyorsanız, istediğiniz zaman [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresinden veya (**202**) 440-2272 numaralı telefondan bizimle iletişime geçebilir ve abonelikten çıkmak istediğinizi belirtebilirsiniz.
+
+#### Web Sunucusu Günlükleri
+
+Capitol Law Partners web sitesini ziyaret ettiğinizde, ziyaretinizle ilgili bazı bilgileri (web sunucumuzda saklanmak üzere) toplayabiliriz. Bu, IP adresinizi, ziyaret saatini, yönlendiren web sitesini ve hangi sayfaları görüntülediğinizi içerebilir.
+
+- Bu bilgileri, web sitemizin nasıl kullanıldığını daha iyi anlamak ve size daha iyi bilgi sunabilmek için geliştirmeler yapmak amacıyla kullanırız.
+
+#### Çerezler (Cookies)
+
+Web sitemiz, gezinmeyi kolaylaştırmak ve kullanıcı tercihlerini hatırlamak için çerezler kullanır (örneğin, bir formda girdiğiniz bilgileri tekrar girmek zorunda kalmamanız için). Çerezler, bilgisayarınızdan veya web sitemize eriştiğiniz cihazdan kişisel veri oluşturmaz veya okumaz.
 
 ---
 
-## 3. Correcting/Updating Personal Information
+## 2. Güvenlik
 
-If your personal information changes or you have questions about the personal information we retain about you, please contact us at [info@capitollawpartners.com](mailto:info@capitollawpartners.com). It is your responsibility to ensure the information you provide is current and accurate. We may delete this information at any time, unless prohibited by law, so please maintain your own records.
-
----
-
-## 4. Opt-Out
-
-If you subscribe to our email list, you will receive periodic updates or an electronic newsletter from **Capitol Law Partners, PLLC**. You can opt out of these messages at any time by clicking the “Unsubscribe” link provided in our emails, or by contacting us at [info@capitollawpartners.com](mailto:info@capitollawpartners.com) with a request to remove your email address from our list.
+Toplanan bilgileri öncelikle size kişiselleştirilmiş bir internet deneyimi sunmak, size en uygun bilgi, kaynak ve hizmetleri sağlamak amacıyla kullanırız. Sağladığınız hiçbir bilgiyi, bu Gizlilik Politikasında belirtilen durumlar dışında veya yasaların gerektirdiği haller haricinde üçüncü kişilerle paylaşmayız. Toplanan bilgiler yalnızca çalışanlarımız, temsilcilerimiz, web sitesi sağlayıcılarımız ve/veya bizim adımıza çalışabilecek yükleniciler tarafından erişilebilir. Ayrıca yasalar gerektirdiğinde veya haklarımızı ya da mülkiyetimizi korumak amacıyla da paylaşabiliriz. Hukuki konunuzda yardımcı olamayacağımızı düşünürsek, size yardımcı olabilecek başka bir avukata yönlendirebiliriz.
 
 ---
 
-## Contact Us
+## 3. Kişisel Bilgilerin Düzeltilmesi/Güncellenmesi
 
-If you have any further questions about our Terms of Use, Disclaimer, or Privacy Policy, please contact us at:
+Kişisel bilgileriniz değişirse veya hakkınızda tuttuğumuz bilgilerle ilgili sorularınız varsa, lütfen [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresinden bizimle iletişime geçin. Sağladığınız bilgilerin güncel ve doğru olmasını sağlamak sizin sorumluluğunuzdadır. Bu bilgileri, yasa gereği aksi belirtilmediği sürece istediğimiz zaman silebiliriz; bu nedenle kendi kayıtlarınızı da saklamanızı öneririz.
+
+---
+
+## 4. İletişimden Çıkış (Opt-Out)
+
+E-posta listemize abone olursanız, **Capitol Law Partners, PLLC**’den periyodik güncellemeler veya elektronik bültenler alabilirsiniz. Bu mesajları istediğiniz zaman, e-postalarımızda yer alan “Abonelikten Çık” bağlantısına tıklayarak veya [info@capitollawpartners.com](mailto:info@capitollawpartners.com) adresine e-posta göndererek listemizden çıkabilirsiniz.
+
+---
+
+## Bize Ulaşın
+
+Kullanım Şartları, Feragatname veya Gizlilik Politikamız hakkında başka sorularınız varsa, bizimle iletişime geçebilirsiniz:
 
 **Capitol Law Partners, PLLC**  
 13873 Park Center Rd STE 152, Herndon, VA 20171  
-Phone: (**202**) 440-2272  
-Email: [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
+Telefon: (**202**) 440-2272  
+E-posta: [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
 
-_Last updated: May 27, 2025_
+_Son güncelleme: 27 Mayıs 2025_

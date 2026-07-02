@@ -44,7 +44,7 @@ Choosing the correct visa type is critical because each has its own rules, right
 
 ### **Planning the Process Together** 
 
-Applying for a student visa involves several steps, each requiring accuracy and attention to detail. From preparing the right documents to proving your financial ability and academic purpose, the process can be overwhelming. Many students underestimate the importance of **strategic planning**—for example, deciding whether to apply directly from their home country or adjust status from within the U.S. 
+Applying for a student visa involves several steps, each requiring accuracy and attention to detail. From preparing the right documents to proving your financial ability and academic purpose, the process can be overwhelming. Many students underestimate the importance of **strategic planning**, for example, deciding whether to apply directly from their home country or adjust status from within the U.S. 
 
 Working with a student visa attorney ensures that your case is personalized. Attorneys not only guide you through the paperwork but also help prepare you for the consular interview, anticipate possible red flags, and align your visa strategy with your long-term immigration goals. 
 
@@ -119,7 +119,7 @@ Navigating immigration law without guidance can be risky. Working with a student
 
 At **Capitol Law Partners**, we specialize in guiding international students through every stage of the visa process. Our attorneys combine deep knowledge of U.S. immigration law with a personalized approach tailored to your unique academic and professional goals. 
 
-We don’t just help you secure a student visa—we help you plan for your future, whether that includes Optional Practical Training (OPT), H-1B sponsorship, or permanent residency through a Green Card. 
+We don’t just help you secure a student visa; we help you plan for your future, whether that includes Optional Practical Training (OPT), H-1B sponsorship, or permanent residency through a Green Card. 
 
 #### **Conclusion: Take the Next Step** 
 

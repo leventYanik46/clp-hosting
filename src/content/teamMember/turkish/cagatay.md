@@ -43,8 +43,8 @@ profile:
       görev yapmıştır. Teknoloji, lojistik, inşaat ve perakende gibi çeşitli
       sektörlerdeki müvekkillerini Orta Asya ve Orta Doğu’da temsil etmiştir.
       Çalışmaları, düzenleyici uyumluluk, iş ve idare hukuku, karmaşık dava
-      süreçleri ve uluslararası temyizleri — Avrupa İnsan Hakları Mahkemesi ve
-      Türkiye Anayasa Mahkemesi önündeki davalar dahil — kapsamıştır.
+      süreçleri ve uluslararası temyizleri, Avrupa İnsan Hakları Mahkemesi ve
+      Türkiye Anayasa Mahkemesi önündeki davalar dahil, kapsamıştır.
     - >-
       Hem medeni hukuk hem de common law geleneklerinde yetkin olan Ersoy, her
       davaya küresel bir bakış açısı ve titiz bir yaklaşım getirir.

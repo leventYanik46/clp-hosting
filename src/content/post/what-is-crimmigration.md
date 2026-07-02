@@ -3,7 +3,7 @@ title: What is Crimmigration?
 excerpt: >-
   Crimmigration combines criminal and immigration law, creating serious
   consequences for non-citizens facing charges. At Capitol Law Partners, we
-  guide clients through both systems—protecting immigration status, avoiding
+  guide clients through both systems, protecting immigration status, avoiding
   deportation, and securing future opportunities.
 category: İmmigration
 image: /images/usa.jpg
@@ -27,7 +27,7 @@ seo:
 
 #### **Understanding the Complex Intersection of Crime and Immigration in the United States** 
 
-Crimmigration—short for *criminal law + immigration law*—has become one of the fastest-growing areas of U.S. legal practice. It describes the overlap between criminal charges and their immigration consequences. For non-citizens, even a seemingly minor criminal matter can lead to deportation, denial of a green card, or loss of immigration benefits. 
+Crimmigration, short for *criminal law + immigration law*, has become one of the fastest-growing areas of U.S. legal practice. It describes the overlap between criminal charges and their immigration consequences. For non-citizens, even a seemingly minor criminal matter can lead to deportation, denial of a green card, or loss of immigration benefits. 
 
 At **[Capitol Law Partners](https://capitollawpartners.com/)**, we provide guidance and representation to individuals, families, and businesses facing these complex issues. Our goal is to protect your rights, secure your status, and help you move forward. 
 
@@ -35,7 +35,7 @@ At **[Capitol Law Partners](https://capitollawpartners.com/)**, we provide guida
 
 #### **What Is Crimmigration?** 
 
-Crimmigration arises when a non-citizen is accused of or convicted of a crime that may affect their immigration status. U.S. immigration law treats certain offenses—sometimes even misdemeanors—as grounds for removal (deportation). 
+Crimmigration arises when a non-citizen is accused of or convicted of a crime that may affect their immigration status. U.S. immigration law treats certain offenses, sometimes even misdemeanors, as grounds for removal (deportation). 
 
 **Examples include:** 
 
@@ -49,7 +49,7 @@ While in criminal court, a defendant may focus on avoiding jail time, in immigra
 
 #### **Why It Matters** 
 
-Many immigrants believe that once a criminal matter is resolved in state court, the issue is behind them. Unfortunately, this is not always true. Immigration authorities can use past arrests, pleas, or convictions against you—even if you received probation or a suspended sentence. 
+Many immigrants believe that once a criminal matter is resolved in state court, the issue is behind them. Unfortunately, this is not always true. Immigration authorities can use past arrests, pleas, or convictions against you, even if you received probation or a suspended sentence. 
 
 For example: 
 
@@ -100,7 +100,7 @@ We: 
 
 Imagine a lawful permanent resident who has lived in the U.S. for 15 years. They are charged with shoplifting a $50 item. In state court, this may appear to be a minor matter resulting in probation. But in immigration law, it could be treated as a crime involving moral turpitude, making the individual deportable. 
 
-With skilled legal counsel, it may be possible to negotiate a plea to a lesser, non-deportable offense—protecting both their record and their immigration status. 
+With skilled legal counsel, it may be possible to negotiate a plea to a lesser, non-deportable offense, protecting both their record and their immigration status. 
 
  
 

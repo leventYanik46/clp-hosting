@@ -63,13 +63,13 @@ When we talk about copyrights, there are common law copyrights and fe
 
 A work is protected by copyright under common law as soon as it is created. 
 
-That means, without doing anything else — when you paint a painting, make a movie, or record a song — as soon as these works are created, they are protected under common law copyright. 
+That means, without doing anything else, when you paint a painting, make a movie, or record a song, as soon as these works are created, they are protected under common law copyright. 
 
 This means that no one else has the right to copy that work. 
 
 Copyright means the right to copy the work. 
 
-Copying, distributing, modifying, or using it in other ways — these rights belong to the copyright holder. 
+Copying, distributing, modifying, or using it in other ways: these rights belong to the copyright holder. 
 
  
 
@@ -93,7 +93,7 @@ The second type of intellectual property right is trademarks. 
 
 A trademark is any word, symbol, design, device, or any combination of these used to identify the source of goods or services. 
 
-When we think of trademarks, business names or logos usually come to mind — things we immediately recognize as the source of a product or service. 
+When we think of trademarks, business names or logos usually come to mind, things we immediately recognize as the source of a product or service. 
 
 These are trademarks. 
 
@@ -111,13 +111,13 @@ Having trademark rights prevents competitors from using the same or si
 
 A common misconception is that a trademark gives you ownership of a word or design in general. 
 
-This is only partly true — your rights apply specifically to how you use the trademark for your goods or services. 
+This is only partly true; your rights apply specifically to how you use the trademark for your goods or services. 
 
  
 
 If someone uses a similar trademark for unrelated products or services, your rights may not cover that use. 
 
-Trademarks are specific to use — they do not grant general ownership of a word or design. 
+Trademarks are specific to use; they do not grant general ownership of a word or design. 
 
  
 
@@ -137,7 +137,7 @@ However, they are not as strong as federal registration with the U.S. Pa
 
 Trademarks cover words, symbols, and designs used to identify the source of a product or service. 
 
-Sometimes there may be overlap between copyrights and trademarks — for example, a logo can be both copyrighted and trademarked — but fundamentally, they protect different things. 
+Sometimes there may be overlap between copyrights and trademarks, for example, a logo can be both copyrighted and trademarked, but fundamentally, they protect different things. 
 
  
 
@@ -183,7 +183,7 @@ To protect trade secrets, limit access to them and use confidentiality�
 
 Finally, the last type of intellectual property is patents. 
 
-I am not a patent attorney — I don’t deal with patents and know little about patent law. 
+I am not a patent attorney; I don’t deal with patents and know little about patent law. 
 
 But the basic idea is this: a patent is a property right granted by the U.S. Patent and Trademark Office (USPTO). 
 
@@ -191,7 +191,7 @@ There are no common law patent rights like there are with copyrights�
 
  
 
-A patent can be obtained by anyone who invents or discovers a new and useful process, machine, or manufacture — essentially, an invention or new development. 
+A patent can be obtained by anyone who invents or discovers a new and useful process, machine, or manufacture, essentially, an invention or new development. 
 
 There are two main types: utility patents (covering how something works) and design patents (covering how something looks).  
 
@@ -207,7 +207,7 @@ A patent gives its owner the exclusive right to make, use, sell, lice
 
  
 
-\*There is a myth about mailing something to yourself for copyright protection — this is false. 
+\*There is a myth about mailing something to yourself for copyright protection, but this is false. 
 
 There is no law stating that mailing something to yourself provides copyright protection. 
 
@@ -231,7 +231,7 @@ If you are seeking a loan, looking for investors, or planning to sel
 
 Failing to protect your intellectual property (for example, not registering your trademarks or not enforcing your rights) reduces that value. 
 
-Intellectual property also plays a major role in licensing — for example, when you license courses or trainings, you are typically licensing your intellectual property. 
+Intellectual property also plays a major role in licensing. For example, when you license courses or trainings, you are typically licensing your intellectual property. 
 
 Registering and protecting your intellectual property strengthens your business’s value and security. 
 

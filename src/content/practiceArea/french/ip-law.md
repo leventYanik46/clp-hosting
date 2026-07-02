@@ -94,8 +94,8 @@ post:
 
     <h3>Enregistrement des droits d’auteur</h3>
 
-    <p>Vos œuvres créatives — qu’elles soient écrites, artistiques ou numériques
-    — méritent protection. Nous accompagnons vos dépôts de droits d’auteur pour
+    <p>Vos œuvres créatives, qu’elles soient écrites, artistiques ou numériques,
+    méritent protection. Nous accompagnons vos dépôts de droits d’auteur pour
     sécuriser vos droits et éviter les utilisations non autorisées.</p>
 
 

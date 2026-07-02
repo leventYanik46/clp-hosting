@@ -41,7 +41,7 @@ post:
 
     <p>Business disputes threaten momentum, reputation, and profitability. Our
     commercial litigation team steps in quickly to assess exposure, preserve
-    leverage, and pursue the best path forward—whether that is efficient
+    leverage, and pursue the best path forward, whether that is efficient
     settlement or aggressive courtroom advocacy.</p>
 
 

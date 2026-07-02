@@ -37,21 +37,21 @@ profile:
       Além do trabalho corporativo e de imigração, o Sr. Ersoy auxilia
       proprietários de marcas na proteção de sua propriedade intelectual por
       meio de serviços completos de marcas. Ele orienta clientes sobre buscas de
-      disponibilidade, registro e estratégias de enforcement — ajudando-os a
+      disponibilidade, registro e estratégias de enforcement, ajudando-os a
       assegurar e construir valor de marca de longo prazo no mercado dos EUA.
     - >-
       Antes de fundar a Capitol Law Partners, o Sr. Ersoy atuou como advogado de
       contencioso na Turquia. Representou clientes em setores diversos, como
       tecnologia, logística, construção e varejo na Ásia Central e no Oriente
       Médio. Seu trabalho abrangeu conformidade regulatória, direito trabalhista
-      e administrativo, litígios complexos e recursos internacionais — incluindo
+      e administrativo, litígios complexos e recursos internacionais, incluindo
       casos perante a Corte Europeia de Direitos Humanos e o Tribunal
       Constitucional da Turquia.
     - >-
       Fluente nas tradições de civil law e common law, o Sr. Ersoy traz uma
       perspectiva global e uma abordagem meticulosa a cada assunto que conduz.
       Seus clientes se beneficiam de um olhar jurídico verdadeiramente
-      internacional — aliado à visão prática necessária para fechar negócios e
+      internacional, aliado à visão prática necessária para fechar negócios e
       resolver disputas com eficiência.
   actions:
     - text: Agendar uma consulta

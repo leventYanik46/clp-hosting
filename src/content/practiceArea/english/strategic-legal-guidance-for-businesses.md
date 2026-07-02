@@ -67,8 +67,8 @@ post:
 
     <p>We act as a trusted advisor at the leadership table, helping you assess
     risk, evaluate options, and choose paths that reflect both legal realities
-    and business priorities. Our attorneys speak the language of business—not
-    just the language of law—so your team receives clear, actionable guidance
+    and business priorities. Our attorneys speak the language of business, not
+    just the language of law, so your team receives clear, actionable guidance
     instead of abstract theory.</p>
 
 
@@ -86,7 +86,7 @@ post:
     and position your business to move faster and more confidently.</p>
 
 
-    <p>Our goal is to become a long-term partner in your success—ready to
+    <p>Our goal is to become a long-term partner in your success, ready to
     respond when issues arise, and proactive in helping you prevent them where
     possible.</p>
 

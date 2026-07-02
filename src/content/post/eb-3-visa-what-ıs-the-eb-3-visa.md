@@ -74,7 +74,7 @@ Processing times can vary, and in some countries, visa backlogs can lead to wait
 
 **How Capitol Law Partners Can Help** 
 
-At *[Capitol Law Partners](https://capitollawpartners.com/)*, we understand that immigration is not just about paperwork — it’s about building lives, careers, and futures. Our legal team provides: 
+At *[Capitol Law Partners](https://capitollawpartners.com/)*, we understand that immigration is not just about paperwork. It’s about building lives, careers, and futures. Our legal team provides: 
 
 **\-Comprehensive case evaluation** to determine EB-3 eligibility. 
 

@@ -51,7 +51,7 @@ Coletamos informações de três maneiras principais, que nos ajudam a atender m
 
 Quando você decide nos contatar usando um dos formulários online, pode fornecer informações pessoais (como nome, endereço de e‑mail ou número de telefone).
 
-- **Por favor, não forneça ou envie informações sensíveis** — por exemplo: data de nascimento, número do Social Security, carteira de motorista, número de cartão de crédito, contas bancárias ou outros dados financeiros.
+- **Por favor, não forneça ou envie informações sensíveis**, por exemplo: data de nascimento, número do Social Security, carteira de motorista, número de cartão de crédito, contas bancárias ou outros dados financeiros.
 - Utilizamos as informações que você fornece voluntariamente para analisar sua solicitação e possivelmente contatá‑lo para uma consulta ou comunicação futura.
 - Se desejar deixar de receber comunicações futuras, você pode nos contatar a qualquer momento em [info@capitollawpartners.com](mailto:info@capitollawpartners.com) ou ligar para (**202**) 440‑2272 e solicitar a remoção da lista.
 

@@ -279,7 +279,7 @@ A Green Card path may become possible under a different status.
 Navigating the U.S. immigration system can be complex, especially when it comes to student visas, status changes, and long-term planning. Capitol Law Partners provides comprehensive legal guidance for individuals seeking vocational education in the United States, including M-1 visa applications, compliance requirements, and post-education immigration strategies. Our team focuses on delivering clear, structured, and legally sound solutions tailored to each client’s background and goals.
 
 
-With experience in U.S. immigration law and cross-border matters, Capitol Law Partners supports clients from different countries through every stage of the process—from initial visa strategy to future work visa and permanent residence pathways when applicable. Our firm works closely with clients to ensure their applications are prepared accurately, strategically, and in full compliance with U.S. immigration regulations.
+With experience in U.S. immigration law and cross-border matters, Capitol Law Partners supports clients from different countries through every stage of the process, from initial visa strategy to future work visa and permanent residence pathways when applicable. Our firm works closely with clients to ensure their applications are prepared accurately, strategically, and in full compliance with U.S. immigration regulations.
 
 [Contact Us Now.](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
 

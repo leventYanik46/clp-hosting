@@ -42,7 +42,7 @@ You can file it if you: 
 * Entered lawfully and meet eligibility under your category 
 * Are not barred by immigration violations 
 
-Many applicants compare it to DS-160 because both are detailed and ask for personal history—but unlike DS-160, **I-485 determines your eligibility for a green card**, not just a visa interview. 
+Many applicants compare it to DS-160 because both are detailed and ask for personal history, but unlike DS-160, **I-485 determines your eligibility for a green card**, not just a visa interview. 
 
 ### Required Documents (Quick Checklist) 
 
@@ -54,7 +54,7 @@ Many applicants compare it to DS-160 because both are detailed and as
 * Two passport-style photos 
 * Any immigration documents from previous stays (EADs, visas, approvals) 
 
-Make sure all names match **exactly** as they appear on your passport—just like the DS-160 rule that only English alphabet letters can be used. 
+Make sure all names match **exactly** as they appear on your passport, just like the DS-160 rule that only English alphabet letters can be used. 
 
 ### How to Fill Out Form I-485 (Section by Section) 
 
@@ -62,7 +62,7 @@ Make sure all names match **exactly** as they appear on your passport�
 
  Provide your legal name, mailing address, physical address, and other personal identifiers. 
 
-If your name has ever changed, list every variation—this mirrors the DS-160 principle of “full transparency of identity history.” 
+If your name has ever changed, list every variation; this mirrors the DS-160 principle of “full transparency of identity history.” 
 
 2 – Application Type 
 
@@ -77,7 +77,7 @@ If your name has ever changed, list every variation—this mirrors the 
 
 3 – Additional Information About You 
 
- This part covers your **immigration history**—entries, exits, previous visas, and violations. 
+ This part covers your **immigration history**: entries, exits, previous visas, and violations. 
 
 Think of it like the DS-160 travel history section, but more detailed. 
 
@@ -129,7 +129,7 @@ Your DS-160 preparation actually makes I-485 easier because you already
 * **Interview (most family-based applications)** 
 * **Decision** 
 
-\*Keep copies of everything—USCIS may refer to your DS-160, I-130, and previous visas during your interview. 
+\*Keep copies of everything; USCIS may refer to your DS-160, I-130, and previous visas during your interview. 
 
 Filling out Form I-485 is not an impossible task. Make sure your information matches your DS-160 and passport, attach the correct documents, and review each section before submitting. 
 

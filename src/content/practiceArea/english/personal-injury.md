@@ -56,12 +56,12 @@ post:
     <h3>What You Can Expect From Our Team</h3>
 
 
-    <p><strong>Straightforward guidance — not legal jargon</strong><br />
+    <p><strong>Straightforward guidance, not legal jargon</strong><br />
 
     We explain your rights clearly so you always know where things stand.</p>
 
 
-    <p><strong>We deal with the insurance companies — you focus on
+    <p><strong>We deal with the insurance companies so you can focus on
     healing</strong><br />
 
     From gathering evidence to negotiating your settlement, we handle the legal
@@ -70,7 +70,7 @@ post:
 
     <p><strong>No legal fees unless we win</strong><br />
 
-    We represent most injury clients on a contingency basis — meaning you pay
+    We represent most injury clients on a contingency basis, meaning you pay
     nothing upfront.</p>
 
 
@@ -79,7 +79,7 @@ post:
 
     <p>Whether your injuries are minor or life-changing, we take the time to
     understand your story and build a strategy tailored to your needs. If you’re
-    unsure whether you have a case, just ask — your consultation is free and
+    unsure whether you have a case, just ask. Your consultation is free and
     confidential.</p>
 
 

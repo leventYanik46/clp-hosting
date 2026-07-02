@@ -26,7 +26,7 @@ seo:
 ---
 ## How Healthcare Professionals Can Work in the U.S.: Visa, Licensing, and Equivalency Guide
 
-The United States faces a growing demand for qualified healthcare professionals. For doctors, nurses, and other medical specialists abroad, pursuing a career in the U.S. requires more than just a job offer—it involves navigating visa categories, credential evaluations, licensing exams, and compliance with state regulations. At **[Capitol Law Partners](https://capitollawpartners.com)**, we provide tailored legal guidance to healthcare workers who want to transition their careers to the United States. 
+The United States faces a growing demand for qualified healthcare professionals. For doctors, nurses, and other medical specialists abroad, pursuing a career in the U.S. requires more than just a job offer. It involves navigating visa categories, credential evaluations, licensing exams, and compliance with state regulations. At **[Capitol Law Partners](https://capitollawpartners.com)**, we provide tailored legal guidance to healthcare workers who want to transition their careers to the United States. 
 
 ### **Step 1: Credential Evaluation and Equivalency** 
 

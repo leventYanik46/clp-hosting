@@ -60,7 +60,7 @@ After submission, the Department of Labor may either: 
 
 If an audit is issued, the process will take longer and requires a response. In such cases, the total duration may extend up to **8 months**. 
 
-Once the PERM form is approved—proving that no U.S. citizen or Green Card holder could fill this position—you can proceed to the second stage. 
+Once the PERM form is approved, proving that no U.S. citizen or Green Card holder could fill this position, you can proceed to the second stage. 
 
  
 

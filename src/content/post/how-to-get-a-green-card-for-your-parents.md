@@ -29,7 +29,7 @@ One of the most common questions U.S. citizens ask after obtaining their citizen
 
 ## *Can I apply for a Green Card for my parents?*
 
-The answer is yes—but only under specific conditions, and the process needs to be handled carefully.
+The answer is yes, but only under specific conditions, and the process needs to be handled carefully.
 
 When managed correctly, the process of obtaining a Green Card for your parents can be fairly straightforward. However, there are many common misunderstandings about who is eligible to apply, where the application should be filed, and how the process actually works.
 
@@ -73,7 +73,7 @@ If this is not clearly discussed beforehand, parents may feel unexpectedly “st
 
 Finally, it is important to clarify that Green Card applications filed for parents do not include siblings. Minor siblings are not covered under a parent sponsorship case. Sponsoring siblings requires a separate immigration process, which typically involves significantly longer waiting times.
 
-In summary, sponsoring parents for a Green Card is a powerful benefit of U.S. citizenship—but it is not automatically the right option for every family. Both the legal requirements and the practical, long-term consequences must be carefully considered before moving forward.
+In summary, sponsoring parents for a Green Card is a powerful benefit of U.S. citizenship, but it is not automatically the right option for every family. Both the legal requirements and the practical, long-term consequences must be carefully considered before moving forward.
 
 
 

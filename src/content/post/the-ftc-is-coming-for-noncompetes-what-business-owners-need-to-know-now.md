@@ -36,7 +36,7 @@ Foreign investors and business owners operating in the US should also take note 
 
 ## **Practical Steps for Business Owners**
 
-Now is a smart time to audit your existing employment and contractor agreements. Ask whether each noncompete is narrowly tailored to protect a real business interest — trade secrets, client relationships, proprietary processes — and whether it’s reasonable in scope, geography, and duration. Agreements that fail that test are increasingly difficult to enforce and may now attract regulatory attention.
+Now is a smart time to audit your existing employment and contractor agreements. Ask whether each noncompete is narrowly tailored to protect a real business interest, such as trade secrets, client relationships, or proprietary processes, and whether it’s reasonable in scope, geography, and duration. Agreements that fail that test are increasingly difficult to enforce and may now attract regulatory attention.
 
 State law still governs much of noncompete enforceability, and states like California, Minnesota, and others have already moved to ban or severely restrict them. If your workforce spans multiple states, a one-size-fits-all noncompete almost certainly has gaps.
 

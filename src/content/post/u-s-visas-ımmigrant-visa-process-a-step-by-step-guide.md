@@ -2,7 +2,7 @@
 title: "Immigrant Visa Process - A Step by Step\_"
 excerpt: >-
   This guide provides a step-by-step overview of the U.S. immigrant visa
-  process—from submitting your initial petition to preparing for the final
+  process, from submitting your initial petition to preparing for the final
   interview. It explains how to navigate key stages such as paying required
   fees, submitting Form I-864, completing the DS-260, and gathering the
   necessary civil and financial documents. You’ll also learn how to upload your
@@ -182,6 +182,6 @@ Police certificates are valid for **two years** from the date of issue. 
 
 **Final Thoughts** 
 
-Navigating the U.S. immigrant visa process can be complex and overwhelming — but you don’t have to do it alone. At **Capitol Law Partners**, we are committed to guiding you through each stage of your immigration journey with clarity, confidence, and care. From the moment you submit your petition to the day you receive your visa, our legal team ensures no detail is overlooked. 
+Navigating the U.S. immigrant visa process can be complex and overwhelming, but you don’t have to do it alone. At **Capitol Law Partners**, we are committed to guiding you through each stage of your immigration journey with clarity, confidence, and care. From the moment you submit your petition to the day you receive your visa, our legal team ensures no detail is overlooked. 
 
 **Need help preparing your case or documents?** Contact us today to schedule a consultation and move forward with peace of mind.

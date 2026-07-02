@@ -68,7 +68,7 @@ The location of the beneficiaries is also important. The complexity of
 
 ### How can you check your I-130 processing time?   
 
-You can check the estimated time for your case directly from your USCIS online account. After logging in, go to your case summary and click on “processing times.” You will see an estimated time frame, for example, “2 months for a case decision.” However, not all applicants will see an estimated time. Immediate relatives of U.S. citizens may see a message stating that USCIS does not currently provide estimates for this category. This does not mean your case is not moving forward — it simply means that processing times vary so much that USCIS cannot publish an average.   
+You can check the estimated time for your case directly from your USCIS online account. After logging in, go to your case summary and click on “processing times.” You will see an estimated time frame, for example, “2 months for a case decision.” However, not all applicants will see an estimated time. Immediate relatives of U.S. citizens may see a message stating that USCIS does not currently provide estimates for this category. This does not mean your case is not moving forward; it simply means that processing times vary so much that USCIS cannot publish an average.   
 
 Those without an online account can also check on the USCIS official website. Enter your form type (I-130) and the service center processing your file. Since USCIS frequently updates service center processing times, always read the notice at the top of the page. In 2025, many family-based petitions will be processed under a new Service Center Processing framework, a consolidated system that combines multiple centers to improve consistency and speed.   
 
@@ -112,7 +112,7 @@ For context, employment-based petitions tend to move faster due to str
 
 While family-based applications do not have premium options, these comparisons highlight the efficiency gap USCIS faces between employment and family visa categories. 
 
-For now, the best thing you can do is stay informed, follow up on your case regularly, and ensure all documents you submit are complete and accurate. Family reunification can take time, but understanding the process and the reasons for delays brings you one step closer to your loved ones — andthat's where things stand in October 2025. 
+For now, the best thing you can do is stay informed, follow up on your case regularly, and ensure all documents you submit are complete and accurate. Family reunification can take time, but understanding the process and the reasons for delays brings you one step closer to your loved ones. And that's where things stand in October 2025. 
 
 The hardest part for families awaiting I-130 approvals is the wait. However, progress, even if slow, is still a step toward reuniting. 
 

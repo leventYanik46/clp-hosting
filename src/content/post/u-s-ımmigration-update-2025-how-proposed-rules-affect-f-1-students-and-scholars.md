@@ -74,7 +74,7 @@ For U.S. institutions, the rule may create additional compliance responsibilitie
 
 ### **How Capitol Law Partners Can Help** 
 
-Navigating U.S. immigration regulations can be daunting—especially when rules shift with each administration. At **[Capitol Law Partners](https://capitollawpartners.com/)**, our attorneys: 
+Navigating U.S. immigration regulations can be daunting, especially when rules shift with each administration. At **[Capitol Law Partners](https://capitollawpartners.com/)**, our attorneys: 
 
 \-Advise students, scholars, and professionals on their visa options. 
 

@@ -69,8 +69,8 @@ post:
 
     <h3>Copyright Registration</h3>
 
-    <p>Your creative works—whether they are written, artistic, or
-    digital—deserve protection. We assist with copyright filings to secure your
+    <p>Your creative works, whether they are written, artistic, or
+    digital, deserve protection. We assist with copyright filings to secure your
     rights and prevent unauthorized use.</p>
 
 

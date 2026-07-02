@@ -57,8 +57,8 @@ post:
 
     <h3>Diligence with Purpose</h3>
 
-    <p>We focus diligence on what moves the needle—contracts, IP, data, people,
-    and compliance—surfacing the issues that impact price, indemnities, and
+    <p>We focus diligence on what moves the needle, such as contracts, IP, data, people,
+    and compliance, surfacing the issues that impact price, indemnities, and
     closing conditions.</p>
 
 

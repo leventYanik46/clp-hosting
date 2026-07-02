@@ -9,7 +9,7 @@ hero:
   title: Zor olanı kolaylaştırıyoruz
   subtitleHtml: >-
     <strong>Capitol Law Partners</strong> olarak misyonumuz basit: Zor olanı
-    kolaylaştırmak. Hukukla uğraşmak göz korkutucu gelebilir—ister bir girişim
+    kolaylaştırmak. Hukukla uğraşmak göz korkutucu gelebilir, ister bir girişim
     başlatıyor, ister küçük bir işletme yönetiyor, ister kişisel bir hukuki
     meseleyle karşı karşıya olun. Bu yüzden ekibimiz, her hukuki zorluğu netlik,
     <strong>özgüven</strong> ve pratik çözümlerle aşmanız için size rehberlik
@@ -76,7 +76,7 @@ values:
     - title: Açık ve Erişilebilir İletişim
       description: >-
         Sizin dilinizden konuşuruz. Avukatlarımız, hukuki jargonun ötesine
-        geçerek karmaşık konuları sade ve anlaşılır bir şekilde açıklar—her
+        geçerek karmaşık konuları sade ve anlaşılır bir şekilde açıklar; her
         adımda sizi bilgilendirir ve güven verir.
     - title: Dürüstlük ve Kişisel Bağ
       description: >-

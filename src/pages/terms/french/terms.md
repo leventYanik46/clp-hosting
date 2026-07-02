@@ -1,97 +1,97 @@
 ---
-title: 'Termos e Condições'
+title: 'Conditions Générales d''Utilisation'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-Última atualização: 27 de maio de 2025
+Dernière mise à jour : 27 mai 2025
 
-## Bem‑vindo ao site da Capitol Law Partners
+## Bienvenue sur le site de Capitol Law Partners
 
-Recebemos com prazer a visita de todos (“você”) ao nosso site e estamos comprometidos em preservar sua confiança. Por isso, elaboramos os termos e condições abaixo para explicar o que acontece quando você visita este site em relação às informações que lê aqui, nos envia ou que são coletadas durante sua visita.
+Nous accueillons volontiers chaque personne (« vous ») qui visite notre site et nous engageons à préserver votre confiance. C'est pourquoi nous avons rédigé les conditions générales ci-dessous, afin d'expliquer ce qu'il advient, lorsque vous visitez ce site, des informations que vous lisez ici, que vous nous transmettez ou qui sont recueillies au cours de votre visite.
 
-Este site é propriedade da **Capitol Law Partners, PLLC** e os Termos de Uso, Aviso de Isenção e Política de Privacidade a seguir se aplicam a este domínio. Os visitantes (“você”) são regidos por esses documentos e, ao usar este site, você concorda integralmente com estes termos e condições. Se discordar de qualquer parte destes termos, pare de usar o site da Capitol Law Partners.
-
----
-
-## Termos de Uso
-
-Os Termos de Uso deste site destinam‑se a estabelecer um acordo entre o visitante (“você”) e a **Capitol Law Partners, PLLC**. Sinta‑se à vontade para visitar nosso site, [www.capitollawpartners.com](#), entendendo que você aceitou o Aviso de Isenção, os Termos de Uso e a Política de Privacidade descritos nestas páginas. Observe que a **Capitol Law Partners, PLLC** reserva‑se o direito de alterar e atualizar essas políticas, avisos e termos a qualquer momento, sem aviso prévio. Revise‑os com atenção, pois podem ter sido alterados desde sua última visita.
+Sachez également que ce site est la propriété de **Capitol Law Partners, PLLC** et que les Conditions d'Utilisation, l'Avis de Non-Responsabilité et la Politique de Confidentialité qui suivent s'appliquent à ce domaine. Les visiteurs (« vous ») sont régis par ces documents et, en utilisant ce site, vous acceptez pleinement ces conditions. Si vous n'êtes pas d'accord avec une partie quelconque de ces conditions, veuillez cesser d'utiliser le site de Capitol Law Partners.
 
 ---
 
-## Aviso de Isenção
+## Conditions d'Utilisation
 
-### Não é aconselhamento jurídico
-
-As informações que você lê e obtém neste site são de caráter geral e **não** constituem aconselhamento jurídico personalizado. Consulte um advogado para obter orientação sobre sua situação individual.
-
-### Relação advogado‑cliente
-
-Entrar em contato conosco por meio deste site **não** cria uma relação advogado‑cliente. Simplesmente nos enviar informações não nos torna seu advogado.
-
-### Informações confidenciais
-
-Não envie informações confidenciais por este site até que ambas as partes concordem em estabelecer uma relação advogado‑cliente.
-
-### Ausência de garantias
-
-Embora nos esforcemos para manter o site o mais atualizado possível, a **Capitol Law Partners, PLLC** não oferece garantias ou declarações quanto à precisão ou completude das informações aqui apresentadas.
+Les Conditions d'Utilisation de ce site constituent un accord entre le visiteur (« vous ») et **Capitol Law Partners, PLLC**. N'hésitez pas à consulter notre site, [www.capitollawpartners.com](#), étant entendu que vous avez accepté l'Avis de Non-Responsabilité, les Conditions d'Utilisation et la Politique de Confidentialité décrits sur ces pages. Veuillez noter que **Capitol Law Partners, PLLC** se réserve le droit de modifier et de mettre à jour ces politiques, avis et conditions à tout moment et sans préavis. Consultez-les attentivement, car ils peuvent avoir changé depuis votre dernière visite.
 
 ---
 
-## Política de Privacidade
+## Avis de Non-Responsabilité
 
-Esta política de privacidade aplica‑se às informações coletadas online dos usuários deste site. Aqui você pode saber que tipo de informações são coletadas, quando e como podemos usar essas informações, como as protegemos e quais opções você possui em relação às suas informações pessoais.
+### Aucun conseil juridique
 
-### 1. Quais informações pessoais são coletadas por este site e como são usadas?
+Les informations que vous lisez et obtenez sur ce site sont d'ordre général et ne constituent **pas** un conseil juridique qui vous serait propre. Veuillez consulter un avocat pour obtenir des conseils adaptés à votre situation particulière.
 
-Coletamos informações de três maneiras principais, que nos ajudam a atender melhor nossos visitantes:
+### Relation avocat-client
 
-#### Diretamente de você
+Nous contacter par l'intermédiaire de ce site ne crée **pas** de relation avocat-client. Le simple fait de nous envoyer des informations ne fait pas de nous votre avocat.
 
-Quando você decide nos contatar usando um dos formulários online, pode fornecer informações pessoais (como nome, endereço de e‑mail ou número de telefone).
+### Informations confidentielles
 
-- **Por favor, não envie informações sensíveis** — por exemplo: data de nascimento, número do Social Security, carteira de motorista, número de cartão de crédito, contas bancárias ou outros dados financeiros.
-- Utilizamos as informações que você fornece voluntariamente para analisar sua solicitação e possivelmente contatá‑lo para uma consulta ou comunicação futura.
-- Se desejar parar de receber comunicações futuras, você pode nos contatar a qualquer momento em [info@capitollawpartners.com](mailto:info@capitollawpartners.com) ou ligar para (**202**) 440‑2272 e solicitar a remoção da lista.
+N'envoyez **aucune** information confidentielle par l'intermédiaire de ce site tant que nous n'avons pas convenu, l'un et l'autre, d'établir une relation avocat-client.
 
-#### Registros do servidor web
+### Absence de garanties
 
-Quando você visita o site da Capitol Law Partners, podemos registrar informações sobre sua visita (armazenadas em nosso servidor web). Isso pode incluir seu endereço IP, horário da visita, site de referência e quais páginas foram visualizadas.
+Bien que nous nous efforcions de tenir le site aussi à jour que possible, **Capitol Law Partners, PLLC** ne donne aucune garantie ni ne fait aucune déclaration quant à l'exactitude ou à l'exhaustivité des informations présentées ici.
 
-- Usamos essas informações para entender melhor como nosso site está sendo utilizado e como podemos melhorá‑lo para fornecer informações mais relevantes.
+---
+
+## Politique de Confidentialité
+
+Cette politique de confidentialité s'applique aux informations recueillies en ligne auprès des utilisateurs de ce site. Vous y apprendrez quels types d'informations sont recueillis, quand et comment nous pouvons les utiliser, comment nous les protégeons et quels choix s'offrent à vous concernant vos informations personnelles.
+
+### 1. Quelles informations personnelles sont recueillies sur ce site et comment sont-elles utilisées ?
+
+Nous recueillons des informations de trois manières principales, ce qui nous aide à mieux servir nos visiteurs :
+
+#### Directement auprès de vous
+
+Lorsque vous décidez de nous contacter au moyen de l'un des formulaires en ligne, vous pouvez fournir des informations personnelles (telles que votre nom, votre adresse e-mail ou votre numéro de téléphone).
+
+- **Veuillez ne pas fournir ni transmettre d'informations sensibles**, par exemple : date de naissance, numéro de sécurité sociale, permis de conduire, carte de crédit, comptes bancaires ou autres données financières.
+- Nous utilisons les informations que vous fournissez volontairement pour étudier votre demande et, éventuellement, vous contacter en vue d'une consultation ou d'une communication ultérieure.
+- Si vous souhaitez ne plus recevoir de communications, vous pouvez nous contacter à tout moment à [info@capitollawpartners.com](mailto:info@capitollawpartners.com) ou nous appeler au (**202**) 440-2272 pour demander votre désinscription.
+
+#### Journaux du serveur web
+
+Lorsque vous visitez le site de Capitol Law Partners, nous pouvons enregistrer des informations relatives à votre visite (stockées sur notre serveur web). Cela peut comprendre votre adresse IP, l'heure de votre visite, le site référent et les pages que vous avez consultées.
+
+- Nous utilisons ces informations pour mieux comprendre la façon dont notre site est utilisé et comment nous pouvons l'améliorer afin de fournir de meilleures informations.
 
 #### Cookies
 
-Nosso site utiliza cookies para facilitar a navegação e lembrar preferências do usuário (por exemplo, reter dados inseridos em um formulário para que não precisem ser digitados novamente). Cookies **não** geram nem leem dados pessoais do seu computador ou de qualquer dispositivo usado para acessar o site.
+Notre site utilise des cookies pour faciliter la navigation et mémoriser les préférences des utilisateurs (par exemple, retenir ce que vous avez saisi dans un formulaire afin de vous éviter de le ressaisir). Les cookies ne génèrent ni ne lisent **aucune** donnée personnelle depuis votre ordinateur ou tout appareil utilisé pour accéder à notre site.
 
 ---
 
-## 2. Segurança
+## 2. Sécurité
 
-Usamos as informações principalmente para oferecer uma experiência personalizada na internet, fornecendo as informações, recursos e serviços mais relevantes para você. Não compartilhamos as informações que você fornece com terceiros, exceto conforme declarado nesta Política de Privacidade ou quando acreditarmos, de boa‑fé, que a lei o exige. As informações coletadas são acessíveis apenas ao nosso pessoal, agentes, fornecedores do site e/ou contratados que possam usá‑las em nosso nome. Também podemos compartilhá‑las se exigido por lei ou para proteger nossos direitos ou propriedade. Se não pudermos ajudar com seu assunto jurídico, poderemos encaminhá‑lo a outro advogado fora do escritório que talvez possa assisti‑lo melhor.
-
----
-
-## 3. Correção/Atualização de Informações Pessoais
-
-Se suas informações pessoais mudarem ou se você tiver dúvidas sobre as informações pessoais que mantemos sobre você, entre em contato conosco em [info@capitollawpartners.com](mailto:info@capitollawpartners.com). É sua responsabilidade garantir que as informações fornecidas sejam atuais e precisas. Podemos excluir essas informações a qualquer momento, salvo quando proibido por lei; por isso, mantenha seus próprios registros.
+Nous utilisons ces informations principalement pour vous offrir une expérience Internet personnalisée, en vous proposant les informations, ressources et services les plus pertinents pour vous. Nous ne partageons **aucune** des informations que vous fournissez, sauf dans les cas prévus par la présente Politique de Confidentialité ou lorsque nous estimons de bonne foi que la loi l'exige. Les informations recueillies ne sont accessibles qu'à notre personnel, à nos agents, aux prestataires de notre site et/ou aux sous-traitants susceptibles de les utiliser pour notre compte. Nous pouvons également les partager si la loi l'exige ou pour protéger nos droits ou nos biens. Si nous ne pouvons pas vous aider dans votre affaire juridique, nous pouvons vous orienter vers un autre avocat, extérieur au cabinet, qui serait mieux à même de vous assister.
 
 ---
 
-## 4. Cancelamento de Inscrição
+## 3. Correction/Mise à jour des informations personnelles
 
-Se você assinar nossa lista de e‑mail, receberá atualizações periódicas ou um boletim eletrônico da **Capitol Law Partners, PLLC**. Você pode cancelar a inscrição a qualquer momento clicando no link “Unsubscribe” presente em nossos e‑mails ou entrando em contato conosco em [info@capitollawpartners.com](mailto:info@capitollawpartners.com) com um pedido para remover seu endereço de e‑mail da lista.
+Si vos informations personnelles changent ou si vous avez des questions sur les informations personnelles que nous conservons à votre sujet, veuillez nous contacter à [info@capitollawpartners.com](mailto:info@capitollawpartners.com). Il vous appartient de veiller à ce que les informations que vous fournissez soient à jour et exactes. Nous pouvons supprimer ces informations à tout moment, sauf interdiction légale ; nous vous invitons donc à conserver vos propres archives.
 
 ---
 
-## Contato
+## 4. Désinscription
 
-Se tiver mais perguntas sobre nossos Termos de Uso, Aviso de Isenção ou Política de Privacidade, entre em contato conosco em:
+Si vous vous inscrivez à notre liste de diffusion, vous recevrez des mises à jour périodiques ou une lettre d'information électronique de **Capitol Law Partners, PLLC**. Vous pouvez vous désinscrire de ces messages à tout moment en cliquant sur le lien « Se désinscrire » (ou « Unsubscribe ») figurant dans nos e-mails, ou en nous contactant à [info@capitollawpartners.com](mailto:info@capitollawpartners.com) pour demander le retrait de votre adresse de notre liste.
+
+---
+
+## Nous Contacter
+
+Si vous avez d'autres questions concernant nos Conditions d'Utilisation, notre Avis de Non-Responsabilité ou notre Politique de Confidentialité, veuillez nous contacter :
 
 **Capitol Law Partners, PLLC**  
 13873 Park Center Rd STE 152, Herndon, VA 20171  
-Telefone: (**202**) 440‑2272  
-E‑mail: [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
+Téléphone : (**202**) 440-2272  
+E-mail : [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
 
-_Última atualização: 27 de maio de 2025_
+_Dernière mise à jour : 27 mai 2025_

@@ -56,13 +56,13 @@ post:
     <h3>Qué Puede Esperar de Nuestro Equipo</h3>
 
 
-    <p><strong>Orientación clara — sin jerga legal</strong><br />
+    <p><strong>Orientación clara, sin jerga legal</strong><br />
 
     Explicamos sus derechos claramente para que siempre sepa en qué punto se
     encuentra.</p>
 
 
-    <p><strong>Nosotros tratamos con las aseguradoras — usted concéntrese en
+    <p><strong>Nosotros tratamos con las aseguradoras para que usted se concentre en
     recuperarse</strong><br />
 
     Desde la recopilación de pruebas hasta la negociación de su acuerdo, nos
@@ -73,7 +73,7 @@ post:
     <p><strong>No cobramos honorarios legales a menos que ganemos</strong><br />
 
     Representamos a la mayoría de los clientes de lesiones en base a
-    contingencia — usted no paga nada por adelantado.</p>
+    contingencia, lo que significa que usted no paga nada por adelantado.</p>
 
 
     <h3>Su Recuperación Comienza con una Conversación</h3>
@@ -81,7 +81,7 @@ post:
 
     <p>Ya sean lesiones leves o graves, nos tomamos el tiempo para entender su
     historia y construir una estrategia adaptada a sus necesidades. Si no está
-    seguro de si tiene un caso, pregunte — su consulta es gratuita y
+    seguro de si tiene un caso, pregunte. Su consulta es gratuita y
     confidencial.</p>
 
 

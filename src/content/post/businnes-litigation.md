@@ -3,7 +3,7 @@ title: Businnes Litigation
 excerpt: >-
   This article provides a comprehensive overview of business litigation,
   including what it entails, why it matters for business owners, and the most
-  common types of legal disputes companies face—such as breach of contract,
+  common types of legal disputes companies face, such as breach of contract,
   partnership disagreements, and employment-related claims. It also outlines key
   strategies to minimize litigation risk and explains when to consult a
   commercial litigation attorney. It further highlights early case assessment,
@@ -97,7 +97,7 @@ Once the court renders a judgment, the losing party may choose to appeal. If the
 
 * **Keep Detailed Records**
 
-Maintain comprehensive documentation—emails, invoices, contracts, and notes—that may support your case. 
+Maintain comprehensive documentation, emails, invoices, contracts, and notes, that may support your case. 
 
 * **Hire an Experienced Commercial Lawyer** 
 

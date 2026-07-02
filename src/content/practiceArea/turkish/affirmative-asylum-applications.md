@@ -62,7 +62,7 @@ post:
 
     <p>Her dosyayı, net iletişim, pragmatik tavsiye ve hız ile risk azaltımına
     odaklanarak yürütürüz. Sığınma prosesi stres ve belirsizlikle dolu olabilir,
-    ancak siz yalnız değilsiniz—biz her adımda yanınızdayız.</p>
+    ancak siz yalnız değilsiniz; biz her adımda yanınızdayız.</p>
 
     <!-- seo-expanded -->
     <h3>İnsanlar Olumlu Sığınma Başvuruları hukuki hizmetlerini ne zaman arar?</h3>
