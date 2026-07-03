@@ -8,7 +8,7 @@ tags:
   - Immigration
   - H-1B
 image: /images/h-1b-vs-l-1-comparison.jpg
-publishDate: 2026-06-11T19:25:43.100-04:00
+publishDate: 2026-07-03T15:24:08.278-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/h-1b-vs-l-1-comparison
   description: >-
@@ -20,10 +20,10 @@ seo:
   canonicalOverride: https://capitollawpartners.com/blog/h-1b-vs-l-1-comparison
   title: "H-1B vs L-1: Which Visa Should You Use?"
 ---
-H-1B and L-1 both bring foreign professionals to work in the U.S., but they suit different situations. The H-1B is for specialty occupation hires from anywhere; the L-1 is only for transferring existing employees within a multinational company. For employers, the practical differences come down to the cap, timing, and who's eligible.
+H-1B and L-1 both bring foreign professionals to work in the U.S., but they suit different situations. The H-1B is for specialty occupation hires from anywhere. The L-1 is only for transferring existing employees within a multinational company. For employers, the practical differences come down to the cap, timing, and who's eligible.
 
 ## The cap and lottery
-The H-1B has an annual cap and a lottery — most employers must register and hope to be selected, which introduces uncertainty and a fixed seasonal window. The L-1 has no cap and no lottery, so it can be filed any time of year.
+The H-1B has an annual cap and a lottery. Most employers have to register and hope to be selected, which introduces uncertainty and a fixed seasonal window. The L-1 has no cap and no lottery, so it can be filed any time of year.
 
 ## Who's eligible
 H-1B is open to any qualifying specialty-occupation worker you want to hire. L-1 is limited to employees who've worked for a related foreign entity for at least a year. If the person isn't already inside your company abroad, L-1 isn't an option.
@@ -38,4 +38,4 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
-*Attorney Cagatay Ersoy — Practical strategy for founders, investors, and growing companies.*
+*Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
