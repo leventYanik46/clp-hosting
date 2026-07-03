@@ -7,7 +7,7 @@ lang: tr
 tags:
   - Immigration
 image: /images/dogustan-vatandaslik-karari.jpg
-publishDate: 2026-07-03T12:41:35.951-04:00
+publishDate: 2026-07-03T15:23:58.651-04:00
 metadata:
   canonical: https://capitollawpartners.com/tr/blog/dogustan-vatandaslik-karari
   description: >-
