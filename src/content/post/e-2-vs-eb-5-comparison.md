@@ -9,7 +9,7 @@ tags:
   - Green Card
   - Business law
 image: /images/e-2-vs-eb-5-comparison.jpg
-publishDate: 2026-07-03T15:24:15.167-04:00
+publishDate: 2026-07-03T15:25:45.629-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/e-2-vs-eb-5-comparison
   description: >-
