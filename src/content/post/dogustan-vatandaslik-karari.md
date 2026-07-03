@@ -7,7 +7,7 @@ lang: tr
 tags:
   - Immigration
 image: /images/dogustan-vatandaslik-karari.jpg
-publishDate: 2026-07-01T17:35:25.295-04:00
+publishDate: 2026-07-03T12:39:07.663-04:00
 metadata:
   canonical: https://capitollawpartners.com/tr/blog/dogustan-vatandaslik-karari
   description: >-
@@ -21,59 +21,63 @@ seo:
 ---
 ## Amerika'da Doğan Bebekler İçin Doğuştan Vatandaşlık Hakkı Devam Ediyor
 
-ABD Yüksek Mahkemesi, doğuştan vatandaşlığı düzenleyen köklü anayasal çerçeveyi yeniden teyit etti. Amerika Birleşik Devletleri'nde doğan ve ABD yargı yetkisine tabi olan çocuklar, 14. Anayasa Değişikliği uyarınca doğumla birlikte ABD vatandaşlığı kazanmaya devam ediyor. Bebek bekleyen ya da ABD'de doğmuş çocuk yetiştiren aileler için pratik cevap açık: çocuğunuzun vatandaşlık statüsünde herhangi bir değişiklik yok.
+30 Haziran 2026'da ABD Yüksek Mahkemesi, doğuştan vatandaşlığı sona erdirmeye çalışan başkanlık kararnamesini iptal etti ve Trump v. Barbara davasında 6-3 oyla, 14. Anayasa Değişikliği'nin ABD topraklarında doğan hemen hemen her çocuğa vatandaşlık güvencesi verdiğine hükmetti. Bebek bekliyorsanız ya da ABD'de doğmuş bir çocuk yetiştiriyorsanız, pratik cevap açık: çocuğunuzun vatandaşlık statüsünde hiçbir değişiklik yok.
+
+## Mahkeme Neye Karar Verdi?
+
+20 Ocak 2025'te imzalanan kararname, ülkede yasa dışı olarak bulunan veya çalışma, öğrenci ya da ziyaretçi vizesi gibi geçici statüdeki ebeveynlerin ABD'de doğan bebeklerine vatandaşlık belgesi verilmesini engelleyecekti. Kararname hiçbir zaman yürürlüğe girmedi. Alt mahkemeler onu durdurdu, Yüksek Mahkeme de şimdi onlarla aynı görüşte olduğunu açıkladı. Çoğunluk görüşünü yazan Baş Yargıç John Roberts, ülkede yasa dışı veya geçici olarak bulunan ebeveynlerin çocuklarının Vatandaşlık Maddesi'nin her iki koşulunu da karşıladığını ve doğumla birlikte vatandaş olduğunu belirtti.
 
 ## 14. Anayasa Değişikliği Ne Diyor?
 
-14. Anayasa Değişikliği'nin Vatandaşlık Maddesi, Amerika Birleşik Devletleri'nde doğan ve ABD yargı yetkisine tabi olan herkesin ABD vatandaşı olduğunu belirtir. Bu, bir asrı aşkın süredir yerleşik bir anayasal kural olarak uygulanmaktadır ve Mahkeme'nin son kararı bu köklü yorumu değiştirmek yerine koruma altına almıştır. Pratikte bu, ABD topraklarında doğan bir çocuğun, ebeveynlerinin göçmenlik statüsünden bağımsız olarak, doğduğu anda otomatik olarak ABD vatandaşı olması anlamına gelir.
+Vatandaşlık Maddesi, Amerika Birleşik Devletleri'nde doğan veya vatandaşlığa kabul edilen ve ABD yargı yetkisine tabi olan herkesin ABD vatandaşı olduğunu belirtir. 1868'de kabul edilen bu madde, 150 yılı aşkın süredir bu şekilde yorumlanmış ve ABD'de göçmen ebeveynlerden doğan bir çocuğun vatandaş olduğunu teyit eden 1898 tarihli Wong Kim Ark kararına dayanmaktadır. Mahkeme, "yargı yetkisine tabi olma" ifadesinin ebeveynin ikametgahına veya bağlılığına dayandığı yönündeki argümanı reddetti. ABD topraklarında doğan bir çocuk, ebeveynlerinin göçmenlik statüsünden bağımsız olarak, doğduğu anda otomatik olarak vatandaş olur.
 
 ## Bu Kural Kimleri Kapsıyor?
 
-Doğuştan vatandaşlık çerçevesi, Amerika Birleşik Devletleri'nde doğan çocukları geniş kapsamda içerir. Buna şu ebeveynlerin çocukları da dahildir:
+Karar, doğuştan vatandaşlığın ABD'de doğan çocukları kapsadığını teyit eder. Buna şu ebeveynlerin çocukları da dahildir:
 
 - Geçici vize sahibi ebeveynler (çalışma, öğrenci veya ziyaretçi vizesi)
 - Yasal göçmenlik statüsü bulunmayan ebeveynler
 - Yasal daimi ikamet sahibi (green card) ebeveynler
 - Çocuğun doğum anında belgesiz olan ebeveynler
 
-## Sınırlı İstisnalar Kimleri Kapsıyor?
+## Sınırlı İstisnalar
 
-Doğuştan vatandaşlığın uzun süredir tanınan az sayıda istisnası bulunmaktadır. Bunların en bilineni, diplomatik dokunulmazlıkları nedeniyle anayasal anlamda "ABD yargı yetkisine tabi" sayılmayan akredite yabancı diplomatların çocuklarıdır. Bu istisnalar dardır ve bu karar sonucunda genişletilmemiştir. Amerika Birleşik Devletleri'nde doğum yapan ailelerin büyük çoğunluğu için doğuştan vatandaşlık, her zaman olduğu gibi aynen uygulanmaya devam etmektedir.
+Uzun süredir tanınan az sayıda istisna geçerliliğini koruyor. Başlıcası, diplomatik dokunulmazlıkları nedeniyle ABD yargı yetkisine tabi sayılmayan akredite yabancı diplomatların çocuklarıdır. Bu istisnalar dardır ve bu dava sonucunda genişlemedi. ABD'de doğum yapan ailelerin neredeyse tamamı için doğuştan vatandaşlık, her zaman olduğu gibi aynen uygulanmaya devam eder.
 
 ## Bu Karar Şu Anda Neden Önemli?
 
-Son yıllarda göçmenlik politikası sık sık değişkenlik gösterdi ve özellikle doğuştan vatandaşlık, kamuoyu tartışmalarının ve hukuki itirazların konusu oldu. Bu karar önemlidir çünkü belirsizliği ortadan kaldırıyor: aileler özel bir hukuki adım atmak, ek evrak sunmak veya politika değişikliğinin daha önce doğmuş bir çocuğu geriye dönük olarak etkileyeceğinden endişelenmek zorunda değildir. Anayasal güvence, nesillerdir olduğu gibi geçerliliğini korumaktadır.
+Kararnameden bu yana doğuştan vatandaşlık aktif bir tartışma konusuydu ve aileler haklı olarak endişeliydi. Bu karar o belirsizliği ortadan kaldırıyor. Özel bir hukuki adım atmanıza, ek evrak sunmanıza veya bir politika değişikliğinin daha önce doğmuş bir çocuğu geriye dönük etkileyeceğinden endişelenmenize gerek yok. Yine de Başkan, konuyla ilgili yasa çıkarması için Kongre'ye başvuracağını söyledi; dolayısıyla bu, siyaseten son söz olmayabilir. Böyle bir yasa derhal anayasal itirazlarla karşılaşır, çünkü bir yasa Mahkeme'nin şimdi yorumladığı haliyle 14. Anayasa Değişikliği'nin üzerine geçemez.
 
 ## Bu Durum Belgeler Açısından Ne Anlama Geliyor?
 
-ABD'de doğan bir çocuğun vatandaşlığı, bir belgenin düzenlendiği anda değil, doğduğu anda kazanılır. Yine de ebeveynlerin çocuklarının vatandaşlığını belgelemek için alışılmış adımları izlemesi önerilir:
+ABD'de doğan bir çocuğun vatandaşlığı, bir belgenin düzenlendiği anda değil, doğduğu anda kazanılır. Yine de vatandaşlığı alışılmış adımlarla belgeleyin:
 
-1. **Doğum belgesi alın** — çocuğun doğduğu eyaletteki hastane veya nüfus kayıt dairesinden.
-2. **Sosyal Güvenlik numarası (SSN) başvurusu yapın** — genellikle aynı hastane evraklarıyla birlikte mümkündür.
-3. **ABD pasaportu başvurusu yapın** — aile uluslararası seyahat planlıyorsa, doğum belgesini vatandaşlık kanıtı olarak kullanarak.
+1. **Doğum belgesi alın**: çocuğun doğduğu eyaletteki hastane veya nüfus kayıt dairesinden.
+2. **Sosyal Güvenlik numarası (SSN) başvurusu yapın**: genellikle aynı hastane evraklarıyla birlikte mümkündür.
+3. **ABD pasaportu başvurusu yapın**: uluslararası seyahat planlıyorsanız, doğum belgesini vatandaşlık kanıtı olarak kullanarak.
 
-Bu adımların hiçbiri bu kararla değişmemiştir; ailelerin her zaman izlediği süreç aynen devam etmektedir.
+Bu adımların hiçbiri kararla değişmedi. Ailelerin her zaman izlediği sürecin aynısıdır.
 
 ## Bu Durum Sizin Göçmenlik Dosyanız İçin Ne Anlama Geliyor?
 
-Çocuğunuzun vatandaşlığı tartışma konusu olmasa da, ABD vatandaşı bir çocuğun varlığı, bir ebeveynin kendi göçmenlik statüsünü veya sürecini otomatik olarak değiştirmez. Aile temelli göçmenlik seçenekleri, statü düzeltme ve diğer yollar hâlâ her davanın kendine özgü koşullarına bağlıdır. ABD vatandaşı bir çocuğun ailenizin genel göçmenlik planlamasını nasıl etkilediğini merak ediyorsanız, bu ayrı ve kişiye özel bir hukuki değerlendirme gerektiren bir konudur.
+Çocuğunuzun vatandaşlığı tartışma konusu değil, ancak ABD vatandaşı bir çocuğa sahip olmak, ebeveynin kendi statüsünü veya sürecini otomatik olarak değiştirmez. Aile temelli başvurular, statü düzeltme ve diğer yollar hâlâ davanızın kendine özgü koşullarına bağlıdır ve ABD vatandaşı bir çocuk genellikle 21 yaşını doldurana kadar bir ebeveyni için başvuru yapamaz. Vatandaş bir çocuğun ailenizin genel planına nasıl uyduğunu öğrenmek isterseniz, bu bir avukatla görüşülmesi gereken ayrı ve kişiye özel bir konudur.
 
 ## Sıkça Sorulan Sorular
 
-**Çocuğumun ebeveynlerinin göçmenlik statüsü önemli mi?** Hayır. 14. Anayasa Değişikliği uyarınca çocuğun vatandaşlığı, doğduğu yere ve ABD yargı yetkisine tabi olup olmadığına göre belirlenir — ebeveynlerin vize türüne, green card statüsüne veya statüsüzlüğüne göre değil.
+**Çocuğumun ebeveynlerinin göçmenlik statüsü önemli mi?** Hayır. 14. Anayasa Değişikliği uyarınca vatandaşlık, çocuğun doğduğu yere ve ABD yargı yetkisine tabi olup olmadığına bağlıdır; ebeveynlerin vize türüne, green card statüsüne veya statüsüzlüğüne değil.
 
-**Çocuğumun vatandaşlığını "onaylatmak" için göçmenlik makamlarına başvuru yapmam gerekiyor mu?** Hayır. Vatandaşlık, doğumla birlikte otomatik olarak kazanılır. Daha sonra alacağınız doğum belgesi, SSN ve pasaport gibi belgeler vatandaşlığın kanıtıdır, kaynağı değildir.
+**Çocuğumun vatandaşlığını onaylatmak için başvuru yapmam gerekiyor mu?** Hayır. Vatandaşlık doğumla birlikte otomatik olarak kazanılır. Sonradan aldığınız doğum belgesi, SSN ve pasaport vatandaşlığın kanıtıdır, kaynağı değildir.
 
-**Bu durum ileride yeniden değişebilir mi?** Anayasal güvenceler yalnızca anayasa değişikliği süreci veya Yüksek Mahkeme içtihadındaki köklü bir değişiklikle değiştirilebilir; her ikisi de oldukça kapsamlı süreçlerdir. Mahkeme'nin son kararı mevcut çerçeveyi daraltmak yerine yeniden teyit etmektedir, bu nedenle aileler zaten doğmuş bir çocuğun statüsünde geriye dönük bir değişiklik beklememelidir.
+**Bu durum ileride değişebilir mi?** Mahkeme mevcut çerçeveyi daraltmak yerine yeniden teyit etti, dolayısıyla zaten doğmuş bir çocuk için geriye dönük bir değişiklik beklenmemelidir. Doğuştan vatandaşlığı değiştirmek bir anayasa değişikliği veya Yüksek Mahkeme içtihadının tersine çevrilmesini gerektirir; her ikisi de çok zordur. Önerilen bir yasa ise büyük olasılıkla itiraza uğrar ve bu karara göre değerlendirilir.
 
-**ABD vatandaşı bir çocuk, ebeveynin kendi göçmenlik dosyasına yardımcı olur mu?** Belirli aile temelli başvurularda dikkate alınan faktörlerden biri olabilir, ancak ebeveyne otomatik olarak statü kazandırmaz ve genellikle yaş ve zamanlama şartları söz konusudur. Bu konu, kendi özel durumunuza göre bir avukatla değerlendirilmesi gereken bir konudur.
+**ABD vatandaşı bir çocuk, ebeveynin kendi dosyasına yardımcı olur mu?** Belirli aile temelli başvurularda dikkate alınan bir faktör olabilir, ancak ebeveyne otomatik olarak statü kazandırmaz ve çocuk 21 yaşını doldurana kadar bir ebeveyni için başvuru yapamaz. Durumunuzu bir avukatla değerlendirin.
 
 ## Bir Göçmenlik Avukatıyla Görüşün
 
-Göçmenlik hukuku gelişmeye devam ediyor ve bilgi sahibi olmak önemli — özellikle kamuoyundaki tartışmalar her zaman hukukun gerçek durumunu yansıtmadığında. Bu kararın ailenizi, göçmenlik dosyanızı veya atacağınız adımları nasıl etkileyebileceğine dair sorularınız varsa, Capitol Law Partners ekibi olarak yardımcı olmaya hazırız.
+Göçmenlik hukuku değişmeye devam ediyor ve kamuoyundaki tartışmalar her zaman hukukun gerçek durumunu yansıtmıyor. Bu kararın ailenizi, dosyanızı veya atacağınız adımları nasıl etkilediğine dair sorularınız varsa, Capitol Law Partners ekibi olarak yardımcı olmaya hazırız.
 
 Durumunuzu ekibimizle konuşmak için [randevu alın](https://capitollawpartners.com/tr/schedule).
 
 *Bu makale yalnızca genel bilgilendirme amaçlıdır ve hukuki danışmanlık niteliği taşımamaktadır. Bu iletişim yoluyla avukat-müvekkil ilişkisi kurulmamaktadır.*
 
-*Attorney Sena Sahin — Bireyler, aileler ve işletme sahipleri için açık ve net hukuki rehberlik.*
+*Attorney Sena Sahin. Bireyler, aileler ve işletme sahipleri için açık ve net hukuki rehberlik.*
