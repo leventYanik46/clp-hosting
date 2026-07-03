@@ -1,14 +1,14 @@
 ---
 title: "How Much Does PERM Labor Certification Cost?"
 excerpt: >-
-  A breakdown of PERM costs: government fees, mandatory recruitment expenses, attorney fees, and crucially, who is legally required to pay each.
+  A breakdown of PERM costs: government fees, mandatory recruitment expenses, attorney fees, and who is legally required to pay each.
 category: Business Immigration Law
 lang: en
 tags:
   - Immigration
   - PERM
 image: /images/how-much-does-perm-cost.jpg
-publishDate: 2026-06-11T19:26:37.886-04:00
+publishDate: 2026-07-03T15:26:04.554-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/how-much-does-perm-cost
   description: >-
@@ -20,7 +20,7 @@ seo:
   canonicalOverride: https://capitollawpartners.com/blog/how-much-does-perm-cost
   title: "How Much Does PERM Labor Certification Cost?"
 ---
-PERM has no government filing fee for the ETA-9089 itself, but it's not free — the real costs are recruitment and attorney fees, and the law dictates who must pay them. Understanding the split matters because charging the employee for costs the employer must bear can invalidate the case.
+PERM has no government filing fee for the ETA-9089 itself, but it's not free. The real costs are recruitment and attorney fees, and the law dictates who must pay them. Understanding the split matters because charging the employee for costs the employer must bear can invalidate the case.
 
 ## Who must pay
 By regulation, the employer must pay all costs of the PERM labor certification, including recruitment advertising and the attorney fees tied to the PERM process. The employee cannot reimburse these. This is a compliance issue, not a preference.
@@ -38,4 +38,4 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
-*Attorney Cagatay Ersoy — Practical strategy for founders, investors, and growing companies.*
+*Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
