@@ -7,7 +7,7 @@ lang: en
 tags:
   - Immigration
 image: /images/birthright-citizenship-ruling-explained.jpg
-publishDate: 2026-07-03T15:24:01.254-04:00
+publishDate: 2026-07-03T15:25:31.147-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/birthright-citizenship-ruling-explained
   description: >-
