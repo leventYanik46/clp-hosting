@@ -8,7 +8,7 @@ tags:
   - Immigration
   - Green Card
 image: /images/priority-date-vs-filing-date.jpg
-publishDate: 2026-07-03T15:24:12.883-04:00
+publishDate: 2026-07-03T15:25:42.951-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/priority-date-vs-filing-date
   description: >-
