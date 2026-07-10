@@ -93,7 +93,7 @@ Ao fornecer seu número de celular e marcar a caixa de consentimento de SMS em n
 
 A frequência das mensagens pode variar. Podem ser aplicadas tarifas de mensagens e dados. Responda STOP a qualquer momento para cancelar, ou HELP para obter assistência.
 
-Nenhuma informação de celular (incluindo números de telefone coletados para SMS) será compartilhada com terceiros ou afiliados para fins de marketing ou promocionais. Os dados de adesão ao SMS e o consentimento não serão compartilhados com nenhum terceiro em nenhuma circunstância. Esta disposição sobre SMS prevalece sobre qualquer linguagem geral de compartilhamento de dados nesta Política de Privacidade.
+**Nenhuma informação de celular (incluindo números de telefone coletados para SMS) será compartilhada com terceiros ou afiliados para fins de marketing ou promocionais. Os dados de adesão ao SMS e o consentimento não serão compartilhados com nenhum terceiro em nenhuma circunstância.** Esta disposição sobre SMS prevalece sobre qualquer linguagem geral de compartilhamento de dados nesta Política de Privacidade.
 
 ---
 

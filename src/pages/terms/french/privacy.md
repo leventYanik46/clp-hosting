@@ -93,7 +93,7 @@ En fournissant votre numéro de téléphone mobile et en cochant la case de cons
 
 La fréquence des messages peut varier. Des frais de messages et de données peuvent s'appliquer. Répondez STOP à tout moment pour vous désabonner, ou HELP pour obtenir de l'aide.
 
-Aucune information mobile (y compris les numéros de téléphone recueillis pour les SMS) ne sera communiquée à des tiers ou à des sociétés affiliées à des fins de marketing ou de promotion. Les données d'adhésion aux SMS et le consentement ne seront communiqués à aucun tiers, en aucune circonstance. Cette disposition relative aux SMS prévaut sur toute clause générale de partage de données figurant ailleurs dans la présente Politique de Confidentialité.
+**Aucune information mobile (y compris les numéros de téléphone recueillis pour les SMS) ne sera communiquée à des tiers ou à des sociétés affiliées à des fins de marketing ou de promotion. Les données d'adhésion aux SMS et le consentement ne seront communiqués à aucun tiers, en aucune circonstance.** Cette disposition relative aux SMS prévaut sur toute clause générale de partage de données figurant ailleurs dans la présente Politique de Confidentialité.
 
 ---
 

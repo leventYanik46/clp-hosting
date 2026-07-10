@@ -93,7 +93,7 @@ Al proporcionar su número de teléfono móvil y marcar la casilla de consentimi
 
 La frecuencia de los mensajes puede variar. Pueden aplicarse tarifas de mensajes y datos. Responda STOP en cualquier momento para darse de baja, o HELP para obtener ayuda.
 
-Ninguna información móvil (incluidos los números de teléfono recopilados para SMS) será compartida con terceros o afiliados para fines de marketing o promocionales. Los datos de inscripción por SMS y el consentimiento no se compartirán con ningún tercero bajo ninguna circunstancia. Esta disposición sobre SMS prevalece sobre cualquier lenguaje general de intercambio de datos en esta Política de Privacidad.
+**Ninguna información móvil (incluidos los números de teléfono recopilados para SMS) será compartida con terceros o afiliados para fines de marketing o promocionales. Los datos de inscripción por SMS y el consentimiento no se compartirán con ningún tercero bajo ninguna circunstancia.** Esta disposición sobre SMS prevalece sobre cualquier lenguaje general de intercambio de datos en esta Política de Privacidad.
 
 ---
 

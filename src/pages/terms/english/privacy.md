@@ -93,7 +93,7 @@ By providing your mobile number and checking the SMS consent box on our contact 
 
 Message frequency varies. Message and data rates may apply. Reply STOP at any time to opt out, or reply HELP for assistance.
 
-No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+**No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.**
 
 This SMS provision, including phone numbers collected for SMS, overrides any general data-sharing language elsewhere in this Privacy Policy.
 

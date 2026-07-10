@@ -93,7 +93,7 @@ E-posta listemize abone olursanız, **Capitol Law Partners, PLLC**’den periyod
 
 Mesaj sıklığı değişebilir. Mesaj ve veri ücretleri uygulanabilir. Abonelikten çıkmak için istediğiniz zaman STOP, yardım için HELP yazarak yanıt verebilirsiniz.
 
-SMS için toplanan telefon numaraları dahil olmak üzere hiçbir mobil bilgi, pazarlama veya promosyon amaçlı olarak üçüncü taraflarla veya bağlı kuruluşlarla paylaşılmayacaktır. SMS kayıt verileri ve onayı hiçbir koşulda herhangi bir üçüncü tarafla paylaşılmayacaktır. Bu SMS hükmü, bu Gizlilik Politikası'ndaki genel veri paylaşım ifadelerinin önüne geçer.
+**SMS için toplanan telefon numaraları dahil olmak üzere hiçbir mobil bilgi, pazarlama veya promosyon amaçlı olarak üçüncü taraflarla veya bağlı kuruluşlarla paylaşılmayacaktır. SMS kayıt verileri ve onayı hiçbir koşulda herhangi bir üçüncü tarafla paylaşılmayacaktır.** Bu SMS hükmü, bu Gizlilik Politikası'ndaki genel veri paylaşım ifadelerinin önüne geçer.
 
 ---
 
