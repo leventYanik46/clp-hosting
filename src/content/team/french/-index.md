@@ -71,22 +71,6 @@ sections:
         image:
           src: ~/assets/images/mehmet-bio-new-team.jpeg
           alt: Mehmet Y. Turkoglu
-      - title: S. Selman Kilic
-        tagline: Avocat
-        subtitle: Travaillons ensemble
-        bottomtag: Contentieux | Droit des sociétés | Droit de l’immigration
-        actions:
-          - variant: primary
-            text: Me contacter
-            href: https://wa.me/12024402272
-            target: _blank
-          - variant: primary
-            text: Voir la bio →
-            href: /fr/our-team/selman
-            target: _blank
-        image:
-          src: ~/assets/images/selman-bio-new-team.jpeg
-          alt: S. Selman Kilic
       - title: Omar Bississo
         tagline: Avocat en défense pénale
         subtitle: Travaillons ensemble

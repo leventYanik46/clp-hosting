@@ -69,22 +69,6 @@ sections:
         image:
           src: ~/assets/images/mehmet-bio-new-team.jpeg
           alt: Mehmet Y. Turkoglu
-      - title: S. Selman Kilic
-        tagline: Advogado
-        subtitle: Vamos trabalhar juntos
-        bottomtag: Defesa contra Deportação | Litígio de Imigração | Direito Corporativo
-        actions:
-          - variant: primary
-            text: Fale comigo
-            href: /pt/contact
-            target: _blank
-          - variant: primary
-            text: Ver bio →
-            href: /pt/our-team/selman
-            target: _blank
-        image:
-          src: ~/assets/images/selman-bio-new-team.jpeg
-          alt: S. Selman Kilic
       - title: Omar Bississo
         tagline: Advogado de Defesa Criminal
         subtitle: Vamos trabalhar juntos

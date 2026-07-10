@@ -69,22 +69,6 @@ sections:
         image:
           src: ~/assets/images/mehmet-bio-new-team.jpeg
           alt: Mehmet Y. Turkoglu
-      - title: S. Selman Kilic
-        tagline: Attorney at Law
-        subtitle: Let's Work Together
-        bottomtag: Removal Defense | Immigration Litigation | Corporate Law
-        actions:
-          - variant: primary
-            text: Contact Me
-            href: /contact
-            target: _blank
-          - variant: primary
-            text: See Bio →
-            href: /our-team/selman
-            target: _blank
-        image:
-          src: ~/assets/images/selman-bio-new-team.jpeg
-          alt: Selman Kilic
       - title: Omar Bississo
         tagline: Criminal Defense Attorney
         subtitle: Let's Work Together

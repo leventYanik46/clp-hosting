@@ -69,22 +69,6 @@ sections:
         image:
           src: ~/assets/images/mehmet-bio-new-team.jpeg
           alt: Mehmet Y. Turkoglu
-      - title: S. Selman Kılıç
-        tagline: Avukat
-        subtitle: Birlikte Çalışalım
-        bottomtag: Sınır Dışı Savunması | Göçmenlik Davası | Şirketler Hukuku
-        actions:
-          - variant: primary
-            text: İletişime Geç
-            href: /tr/contact
-            target: _blank
-          - variant: primary
-            text: Biyografiyi Gör →
-            href: /tr/our-team/selman
-            target: _blank
-        image:
-          src: ~/assets/images/selman-bio-new-team.jpeg
-          alt: S. Selman Kılıç
       - title: Omar Bississo
         tagline: Ceza Savunma Avukatı
         subtitle: Birlikte Çalışalım
