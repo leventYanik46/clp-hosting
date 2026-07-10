@@ -71,6 +71,8 @@ Nuestro sitio utiliza cookies para facilitar la navegación y recordar las prefe
 
 Usamos la información principalmente para ofrecerle una experiencia personalizada en línea, entregándole la información, recursos y servicios más relevantes para usted. **No** compartimos la información que proporcione con terceros, salvo lo indicado en esta Política de Privacidad o cuando creamos de buena fe que la ley así lo exige. La información recopilada solo es accesible para nuestro personal, agentes, proveedores del sitio y/o contratistas que puedan utilizarla en nuestro nombre. También podemos compartirla si la ley lo requiere o para proteger nuestros derechos o bienes. Si no podemos ayudarle con su asunto legal, podemos referirlo a otro abogado fuera de la firma que pueda asistirle mejor.
 
+**Ninguna información móvil se compartirá con terceros/afiliados con fines de marketing o promocionales. Todas las demás categorías excluyen los datos de suscripción (opt-in) y el consentimiento de mensajería de texto; esta información no se compartirá con ningún tercero.**
+
 ---
 
 ## 3. Corrección/actualización de la información personal

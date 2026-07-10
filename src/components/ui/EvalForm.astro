@@ -68,7 +68,7 @@ const { inputs, textareas = [], disclaimer, button = 'Contact us', description =
     )
   }
 
-  <div class="mt-3 flex items-start">
+  <div class="mt-4 flex items-start">
     <div class="flex mt-0.5">
       <input
         id="sms-consent"
@@ -79,10 +79,18 @@ const { inputs, textareas = [], disclaimer, button = 'Contact us', description =
     </div>
     <div class="ml-3">
       <label for="sms-consent" class="cursor-pointer select-none text-sm text-gray-600">
-        I agree to receive text messages from Capitol Law Partners regarding my inquiry. Message &amp; data rates may apply. Reply STOP to opt out anytime.
+        I agree to receive SMS text messages from Capitol Law Partners. (optional)
       </label>
     </div>
   </div>
+
+  <p class="mt-2 text-sm text-gray-600">
+    By providing a telephone number and submitting the form, you are consenting to be
+    contacted by SMS text message and agreeing to our
+    <a href="/terms/english/privacy" class="underline hover:no-underline">Privacy Policy</a>.
+    Message frequency may vary. Message and data rates may apply. Reply STOP to opt out of
+    further messaging. Reply HELP for more information.
+  </p>
 
   {
     button && (

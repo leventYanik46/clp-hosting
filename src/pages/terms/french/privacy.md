@@ -71,6 +71,8 @@ Notre site utilise des cookies pour faciliter la navigation et mémoriser les pr
 
 Nous utilisons ces informations principalement pour vous offrir une expérience Internet personnalisée, en vous proposant les informations, ressources et services les plus pertinents pour vous. Nous ne partageons **aucune** des informations que vous fournissez, sauf dans les cas prévus par la présente Politique de Confidentialité ou lorsque nous estimons de bonne foi que la loi l'exige. Les informations recueillies ne sont accessibles qu'à notre personnel, à nos agents, aux prestataires de notre site et/ou aux sous-traitants susceptibles de les utiliser pour notre compte. Nous pouvons également les partager si la loi l'exige ou pour protéger nos droits ou nos biens. Si nous ne pouvons pas vous aider dans votre affaire juridique, nous pouvons vous orienter vers un autre avocat, extérieur au cabinet, qui serait mieux à même de vous assister.
 
+**Aucune information mobile ne sera communiquée à des tiers/sociétés affiliées à des fins de marketing ou de promotion. Toutes les autres catégories excluent les données d'adhésion (opt-in) et le consentement relatifs aux messages texte ; ces informations ne seront communiquées à aucun tiers.**
+
 ---
 
 ## 3. Correction/Mise à jour des informations personnelles

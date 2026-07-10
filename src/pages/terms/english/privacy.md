@@ -71,6 +71,8 @@ Our website uses cookies for easier navigation and to remember user preferences 
 
 We use the information primarily to give you a personalized internet experience, delivering the information, resources, and services that are most relevant to you. We do **not** share any of the information you provide with others, except where stated in this Privacy Policy or when we believe in good faith that the law requires it. The information collected is only accessible to our staff, agents, website vendors, and/or contractors who may use it on our behalf. We may also share it if required by law or to protect our rights or property. If we cannot assist with your legal matter, we may refer you to another lawyer outside the firm who might be better able to assist you.
 
+**No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.**
+
 ---
 
 ## 3. Correcting/Updating Personal Information
@@ -91,7 +93,9 @@ By providing your mobile number and checking the SMS consent box on our contact 
 
 Message frequency varies. Message and data rates may apply. Reply STOP at any time to opt out, or reply HELP for assistance.
 
-No mobile information (including phone numbers collected for SMS) will be shared with third parties or affiliates for marketing or promotional purposes. Mobile opt-in data and consent will not be shared with any third party under any circumstances. This SMS provision overrides any general data-sharing language elsewhere in this Privacy Policy.
+No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+
+This SMS provision, including phone numbers collected for SMS, overrides any general data-sharing language elsewhere in this Privacy Policy.
 
 ---
 

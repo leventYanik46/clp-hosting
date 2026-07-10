@@ -36,6 +36,66 @@ const textareaRows = textarea?.rows ?? (compact ? 3 : 4);
 const supportedLangs = languages.map((language) => language.languageCode);
 const defaultLanguage = config.settings?.default_language ?? 'en';
 const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? false;
+
+// Determine the current language from the URL so the SMS disclaimer and the
+// Privacy Policy link are shown in the visitor's language.
+const pathLang = Astro.url.pathname.split('/').filter(Boolean)[0];
+const currentLang = supportedLangs.includes(pathLang) ? pathLang : defaultLanguage;
+
+// Compliant SMS/text-messaging disclaimer, shown directly under the form.
+// The phone number is a mandatory field, so this consent language is required
+// by the SMS brand/campaign registration. STOP/HELP are kept in English as
+// they are the literal SMS keywords. "Privacy Policy" links to the localized
+// privacy policy page.
+const smsDisclaimerByLang = {
+  en: {
+    privacyUrl: '/terms/english/privacy',
+    policyLabel: 'Privacy Policy',
+    checkboxLabel: 'I agree to receive SMS text messages from Capitol Law Partners. (optional)',
+    before:
+      'By providing a telephone number and submitting the form, you are consenting to be contacted by SMS text message and agreeing to our ',
+    after:
+      '. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out of further messaging. Reply HELP for more information.',
+  },
+  tr: {
+    privacyUrl: '/terms/turkish/privacy',
+    policyLabel: 'Gizlilik Politikamızı',
+    checkboxLabel: "Capitol Law Partners'tan SMS metin mesajları almayı kabul ediyorum. (isteğe bağlı)",
+    before:
+      'Bir telefon numarası girerek ve formu göndererek, SMS metin mesajı yoluyla iletişime geçilmesine izin vermiş ve ',
+    after:
+      ' kabul etmiş olursunuz. Mesaj sıklığı değişebilir. Mesaj ve veri ücretleri uygulanabilir. Daha fazla mesaj almayı durdurmak için STOP yazın. Daha fazla bilgi için HELP yazın.',
+  },
+  es: {
+    privacyUrl: '/terms/spanish/privacy',
+    policyLabel: 'Política de Privacidad',
+    checkboxLabel: 'Acepto recibir mensajes de texto SMS de Capitol Law Partners. (opcional)',
+    before:
+      'Al proporcionar un número de teléfono y enviar el formulario, usted consiente ser contactado por mensaje de texto SMS y acepta nuestra ',
+    after:
+      '. La frecuencia de los mensajes puede variar. Pueden aplicarse tarifas de mensajes y datos. Responda STOP para dejar de recibir mensajes. Responda HELP para obtener más información.',
+  },
+  pt: {
+    privacyUrl: '/terms/portuguese/privacy',
+    policyLabel: 'Política de Privacidade',
+    checkboxLabel: 'Concordo em receber mensagens de texto SMS da Capitol Law Partners. (opcional)',
+    before:
+      'Ao fornecer um número de telefone e enviar o formulário, você consente em ser contatado por mensagem de texto SMS e concorda com a nossa ',
+    after:
+      '. A frequência das mensagens pode variar. Podem ser aplicadas tarifas de mensagens e dados. Responda STOP para deixar de receber mensagens. Responda HELP para obter mais informações.',
+  },
+  fr: {
+    privacyUrl: '/terms/french/privacy',
+    policyLabel: 'Politique de confidentialité',
+    checkboxLabel: 'J\'accepte de recevoir des messages texte SMS de Capitol Law Partners. (facultatif)',
+    before:
+      'En fournissant un numéro de téléphone et en soumettant le formulaire, vous consentez à être contacté par message texte SMS et acceptez notre ',
+    after:
+      '. La fréquence des messages peut varier. Des frais de messages et de données peuvent s\'appliquer. Répondez STOP pour ne plus recevoir de messages. Répondez HELP pour plus d\'informations.',
+  },
+};
+const sms = smsDisclaimerByLang[currentLang] ?? smsDisclaimerByLang.en;
+const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="underline hover:no-underline">${sms.policyLabel}</a>${sms.after}`;
 ---
 
 <form
@@ -176,7 +236,10 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
     )
   }
 
-  <div class={`${compact ? 'col-span-10 mt-2' : 'mt-3'} flex items-start gap-2`}>
+  {/* Voluntary SMS opt-in. The checkbox is optional (not required) — consent is
+      not a condition of contacting us — and the full disclaimer below is always
+      visible because the phone number field is mandatory. */}
+  <div class={`${compact ? 'col-span-10 mt-3' : 'mt-4'} flex items-start gap-2`}>
     <div class="flex mt-0.5">
       <input
         id="sms-consent"
@@ -187,10 +250,15 @@ const defaultLanguageInSubdir = config.settings?.default_language_in_subdir ?? f
     </div>
     <div class={compact ? 'ml-2' : 'ml-3'}>
       <label for="sms-consent" class={disclaimerLabelClass}>
-        I agree to receive text messages from Capitol Law Partners regarding my inquiry. Message &amp; data rates may apply. Reply STOP to opt out anytime.
+        {sms.checkboxLabel}
       </label>
     </div>
   </div>
+
+  <p
+    class:list={[compact ? 'col-span-10 mt-2' : 'mt-3', disclaimerLabelClass]}
+    set:html={smsDisclaimerHtml}
+  />
 
   <div class={`${compact ? 'mt-4 col-span-10' : 'mt-10'} grid`}>
     <Button variant="primary" type="submit">

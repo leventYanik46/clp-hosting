@@ -71,6 +71,8 @@ Web sitemiz, gezinmeyi kolaylaştırmak ve kullanıcı tercihlerini hatırlamak 
 
 Toplanan bilgileri öncelikle size kişiselleştirilmiş bir internet deneyimi sunmak, size en uygun bilgi, kaynak ve hizmetleri sağlamak amacıyla kullanırız. Sağladığınız hiçbir bilgiyi, bu Gizlilik Politikasında belirtilen durumlar dışında veya yasaların gerektirdiği haller haricinde üçüncü kişilerle paylaşmayız. Toplanan bilgiler yalnızca çalışanlarımız, temsilcilerimiz, web sitesi sağlayıcılarımız ve/veya bizim adımıza çalışabilecek yükleniciler tarafından erişilebilir. Ayrıca yasalar gerektirdiğinde veya haklarımızı ya da mülkiyetimizi korumak amacıyla da paylaşabiliriz. Hukuki konunuzda yardımcı olamayacağımızı düşünürsek, size yardımcı olabilecek başka bir avukata yönlendirebiliriz.
 
+**Hiçbir mobil bilgi, pazarlama/promosyon amaçlarıyla üçüncü taraflarla/bağlı kuruluşlarla paylaşılmayacaktır. Diğer tüm kategoriler, metin mesajlaşma gönderici opt-in verilerini ve onayını hariç tutar; bu bilgiler hiçbir üçüncü tarafla paylaşılmayacaktır.**
+
 ---
 
 ## 3. Kişisel Bilgilerin Düzeltilmesi/Güncellenmesi
