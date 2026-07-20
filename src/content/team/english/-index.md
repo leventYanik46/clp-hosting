@@ -124,6 +124,9 @@ sections:
       - title: null
         subtitle: Busra S.
         tagline: Case Manager
+      - title: null
+        subtitle: Gomolemo K.
+        tagline: Case Manager
   - wrapper: w-full
     members:
       - title: null

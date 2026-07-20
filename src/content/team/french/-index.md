@@ -126,6 +126,9 @@ sections:
       - title: null
         subtitle: Busra S.
         tagline: Responsable de dossiers
+      - title: null
+        subtitle: Gomolemo K.
+        tagline: Responsable de dossiers
   - wrapper: w-full
     members:
       - title: null

@@ -124,6 +124,9 @@ sections:
       - title: null
         subtitle: Busra S.
         tagline: Gerente de Casos
+      - title: null
+        subtitle: Gomolemo K.
+        tagline: Gerente de Casos
   - wrapper: w-full
     members:
       - title: null
