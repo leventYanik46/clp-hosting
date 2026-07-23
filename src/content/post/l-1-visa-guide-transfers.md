@@ -7,7 +7,8 @@ lang: en
 tags:
   - Immigration
   - Business law
-publishDate: 2026-06-07T15:32:44.889-04:00
+image: /images/l-1-visa-guide-transfers.jpg
+publishDate: 2026-07-23T16:56:31.453-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/l-1-visa-guide-transfers
   description: >-
@@ -25,7 +26,7 @@ The L-1 visa lets a multinational company transfer certain employees from a fore
 The employee must have worked for the company abroad for at least one continuous year in the preceding three years, in a role that's either managerial/executive or involves specialized knowledge. They're then transferred to a related U.S. entity in a similar capacity.
 
 ## The qualifying relationship
-There must be a genuine corporate relationship between the foreign and U.S. employer — parent, subsidiary, branch, or affiliate. Documenting this relationship (ownership, control, common ownership) is central to the petition.
+There must be a genuine corporate relationship between the foreign and U.S. employer: parent, subsidiary, branch, or affiliate. Documenting this relationship (ownership, control, common ownership) is central to the petition.
 
 ## New office L-1s
 Companies opening a first U.S. office can use the L-1, but new-office petitions get extra scrutiny and a shorter initial approval. You'll need to show secured premises, a viable business plan, and the ability to support the role within a year.
@@ -37,4 +38,4 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
-*Attorney Cagatay Ersoy — Practical strategy for founders, investors, and growing companies.*
+*Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
