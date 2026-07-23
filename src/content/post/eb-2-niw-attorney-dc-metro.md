@@ -7,19 +7,20 @@ lang: en
 tags:
   - Immigration
   - Green Card
-publishDate: 2026-06-07T15:32:49.999-04:00
+image: /images/eb-2-niw-attorney-dc-metro.jpg
+publishDate: 2026-07-23T16:56:15.562-04:00
 metadata:
   canonical: https://capitollawpartners.com/blog/eb-2-niw-attorney-dc-metro
   description: >-
     Capitol Law Partners helps EB-2 NIW self-petitioners across the DC metro build and file strong cases.
-  title: "EB-2 NIW Attorney in the DC Metro | CLP"
+  title: "EB-2 NIW Attorney in the DC Metro Area"
 seo:
   description: >-
     Capitol Law Partners helps EB-2 NIW self-petitioners across the DC metro build and file strong cases.
   canonicalOverride: https://capitollawpartners.com/blog/eb-2-niw-attorney-dc-metro
-  title: "EB-2 NIW Attorney in the DC Metro | CLP"
+  title: "EB-2 NIW Attorney in the DC Metro Area"
 ---
-If you're a professional in the DC metro area considering an EB-2 National Interest Waiver, you don't necessarily need an employer — you need a strong, well-documented case. Capitol Law Partners works with NIW self-petitioners across Northern Virginia, DC, and Maryland to build petitions that satisfy the three-prong Dhanasar test. Here's how we help.
+If you're a professional in the DC metro area considering an EB-2 National Interest Waiver, you don't necessarily need an employer. You need a strong, well-documented case. Capitol Law Partners works with NIW self-petitioners across Northern Virginia, DC, and Maryland to build petitions that satisfy the three-prong Dhanasar test. Here's how we help.
 
 ## Who we work with
 Researchers, engineers, entrepreneurs, healthcare professionals, and other advanced-degree or exceptional-ability individuals whose work has national importance. Many of our NIW clients are based in the DC metro's research, tech, and policy communities.
@@ -37,4 +38,4 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
-*Attorney Cagatay Ersoy — Practical strategy for founders, investors, and growing companies.*
+*Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
