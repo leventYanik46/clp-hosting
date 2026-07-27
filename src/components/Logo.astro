@@ -1,20 +1,20 @@
 ---
 import { SITE } from 'astrowind:config';
-import logoImage from '~/assets/images/Logo-Black.png';
+import logoImage from '~/assets/images/CLP-PNG-NORMAL-trimmed.png';
 import Image from '~/components/common/Image.astro';
 ---
 
-<span class="flex items-center justify-center mx-auto  text-[1.2rem] md:base font-bold text-gray-900 whitespace-nowrap">
-  <div class="pr-4 justify-start ">
+<span class="flex items-center justify-center mx-auto text-[1.2rem] md:base font-bold text-gray-900 whitespace-nowrap">
+  <div class="w-20 h-20 -my-2 mr-4 shrink-0">
     <Image
       src={logoImage}
-      alt="Capital Law Logo"
-      width={64}
-      height={64}
+      alt="Capitol Law Partners logo"
+      width={80}
+      height={80}
       loading="eager"
       format="webp"
-      quality={65}
-      class="rounded-md"
+      quality={90}
+      class="w-full h-full object-contain"
     />
   </div>
   {SITE?.name}
