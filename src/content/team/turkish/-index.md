@@ -104,6 +104,9 @@ sections:
         subtitle: Web Geliştirme, Arama Optimizasyonu ve Sistem Mühendisliği
         tagline: Teknik Lider
       - title: null
+        subtitle: Burak C.
+        tagline: Kıdemli Dosya Yöneticisi
+      - title: null
         subtitle: Dr. Ahmet B.
         tagline: Kıdemli Dosya Yöneticisi
       - title: null
@@ -126,6 +129,9 @@ sections:
         tagline: Dosya Yöneticisi
       - title: null
         subtitle: Gomolemo K.
+        tagline: Dosya Yöneticisi
+      - title: null
+        subtitle: Bektas D.
         tagline: Dosya Yöneticisi
   - wrapper: w-full
     members:

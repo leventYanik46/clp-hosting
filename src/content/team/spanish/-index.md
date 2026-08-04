@@ -106,6 +106,9 @@ sections:
         subtitle: Desarrollo Web, Optimización de Búsqueda e Ingeniería de Sistemas
         tagline: Líder Técnico
       - title: null
+        subtitle: Burak C.
+        tagline: Gestor sénior de casos
+      - title: null
         subtitle: Dr. Ahmet B.
         tagline: Gestor sénior de casos
       - title: null
@@ -128,6 +131,9 @@ sections:
         tagline: Gestor de casos
       - title: null
         subtitle: Gomolemo K.
+        tagline: Gestor de casos
+      - title: null
+        subtitle: Bektas D.
         tagline: Gestor de casos
   - wrapper: w-full
     members:
