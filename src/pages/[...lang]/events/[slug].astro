@@ -41,10 +41,11 @@ const generatedCanonical =
   });
 const canonical = generatedCanonical || String(new URL(Astro.url.pathname, siteUrl));
 const image = (await findImage(event.image)) as ImageMetadata | string | undefined;
+const detailImage = (await findImage(event.detailImage || event.image)) as ImageMetadata | string | undefined;
 const imageForPost =
-  image && typeof image === 'object' && 'src' in image
-    ? { ...image, width: 900, height: 506 }
-    : image;
+  detailImage && typeof detailImage === 'object' && 'src' in detailImage
+    ? { ...detailImage, width: 900, height: 506 }
+    : detailImage;
 const imageSource = typeof image === 'string' ? image : image?.src;
 const imageUrl = imageSource ? new URL(imageSource, siteUrl).toString() : undefined;
 const eventLangValues = Array.isArray(event.lang)

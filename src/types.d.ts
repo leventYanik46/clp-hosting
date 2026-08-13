@@ -22,6 +22,8 @@ export interface Post {
   excerpt?: string;
   /**  */
   image?: ImageMetadata | string;
+  /** Optional wide image used on the individual event page. */
+  detailImage?: ImageMetadata | string;
 
   /**  */
   category?: Taxonomy;
