@@ -6,7 +6,7 @@ sections:
   - wrapper: flex flex-wrap justify-center gap-4
     members:
       - title: Cagatay Ersoy
-        tagline: AvocaCofondateur et associé gérantt
+        tagline: Fondateur et associé gérant
         subtitle: Travaillons ensemble
         bottomtag: Immigration d’affaires | Droit des affaires | Droit des marques
         actions:
@@ -22,7 +22,7 @@ sections:
           src: ~/assets/images/cagatay-bio-new-team.jpeg
           alt: Prendre rendez-vous
       - title: Sena Sahin
-        tagline: Cofondatrice et associée gérante
+        tagline: Fondatrice et associée gérante
         subtitle: Travaillons ensemble
         bottomtag: Contentieux | Droit des sociétés | Droit de l’immigration
         actions:

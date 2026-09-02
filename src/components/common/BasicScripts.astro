@@ -58,6 +58,50 @@ import { UI } from 'astrowind:config';
       document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
     });
 
+    const closeAllDropdowns = function () {
+      document.querySelectorAll('#header .dropdown-menu').forEach((menu) => menu.classList.add('hidden'));
+      document.querySelectorAll('#header [data-aw-dropdown-toggle]').forEach((toggle) => {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.querySelector('.dropdown-chevron')?.classList.remove('rotate-180');
+      });
+    };
+
+    document.addEventListener('click', function (event) {
+      const target = event.target;
+      if (target instanceof Element && target.closest('#header .dropdown')) {
+        return;
+      }
+      closeAllDropdowns();
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        closeAllDropdowns();
+      }
+    });
+
+    attachEvent('#header [data-aw-dropdown-toggle]', 'click', function (_, elem) {
+      const dropdown = elem.closest('.dropdown');
+      const menu = dropdown?.querySelector('.dropdown-menu');
+      if (!menu) return;
+
+      const willOpen = menu.classList.contains('hidden');
+
+      document.querySelectorAll('#header .dropdown-menu').forEach((otherMenu) => {
+        if (otherMenu !== menu) otherMenu.classList.add('hidden');
+      });
+      document.querySelectorAll('#header [data-aw-dropdown-toggle]').forEach((otherToggle) => {
+        if (otherToggle !== elem) {
+          otherToggle.setAttribute('aria-expanded', 'false');
+          otherToggle.querySelector('.dropdown-chevron')?.classList.remove('rotate-180');
+        }
+      });
+
+      menu.classList.toggle('hidden', !willOpen);
+      elem.setAttribute('aria-expanded', String(willOpen));
+      elem.querySelector('.dropdown-chevron')?.classList.toggle('rotate-180', willOpen);
+    });
+
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
       elem.classList.toggle('expanded');
       document.body.classList.toggle('overflow-hidden');
@@ -66,6 +110,7 @@ import { UI } from 'astrowind:config';
       document.getElementById('header')?.classList.toggle('bg-page');
       document.querySelector('#header nav')?.classList.toggle('hidden');
       document.querySelector('#header > div > div:last-child')?.classList.toggle('hidden');
+      closeAllDropdowns();
     });
 
     attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
@@ -122,6 +167,7 @@ import { UI } from 'astrowind:config';
         document.getElementById('header')?.classList.remove('bg-page');
         document.querySelector('#header nav')?.classList.remove('hidden');
         document.querySelector('#header > div > div:last-child')?.classList.remove('hidden');
+        closeAllDropdowns();
       }
     };
     handleDesktopScreen(desktopScreen);
@@ -160,6 +206,11 @@ import { UI } from 'astrowind:config';
     document.getElementById('header')?.classList.remove('h-screen');
     document.getElementById('header')?.classList.remove('expanded');
     document.querySelector('#header nav')?.classList.add('hidden');
+    document.querySelectorAll('#header .dropdown-menu').forEach((menu) => menu.classList.add('hidden'));
+    document.querySelectorAll('#header [data-aw-dropdown-toggle]').forEach((toggle) => {
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.querySelector('.dropdown-chevron')?.classList.remove('rotate-180');
+    });
   };
 
   window.onload = onLoad;

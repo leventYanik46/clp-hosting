@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Sena Sahin
-  role: Cofundadora y Socia Directora
+  role: Fundadora y Socia Directora
   bio:
     - >-
       Sena Sahin es socia de Capitol Law Partners PLLC, con licencias en
@@ -140,12 +140,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Cofundadora y Socia Directora
+    personJobTitle: Fundadora y Socia Directora
     personImage: ~/assets/images/sena-bio-new.jpeg
     person:
       givenName: Sena
       familyName: Sahin
-      jobTitle: Cofundadora y Socia Directora
+      jobTitle: Fundadora y Socia Directora
       image: ~/assets/images/sena-bio-new.jpeg
       worksFor:
         id: https://capitollawpartners.com/#organization

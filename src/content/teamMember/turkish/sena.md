@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Sena Şahin
-  role: Kurucu Ortak ve Yönetici Ortak
+  role: Kurucu ve Yönetici Ortak
   bio:
     - >-
       Sena Şahin, Capitol Law Partners PLLC’de ortaktır; Washington, D.C.,
@@ -141,12 +141,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Kurucu Ortak ve Yönetici Ortak
+    personJobTitle: Kurucu ve Yönetici Ortak
     personImage: ~/assets/images/sena-bio-new.jpeg
     person:
       givenName: Sena
       familyName: Şahin
-      jobTitle: Kurucu Ortak ve Yönetici Ortak
+      jobTitle: Kurucu ve Yönetici Ortak
       image: ~/assets/images/sena-bio-new.jpeg
       alumniOf:
         - type: EducationalOrganization

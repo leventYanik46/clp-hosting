@@ -13,7 +13,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Sena Sahin
-  role: Co-Founder & Managing Partner
+  role: Founder & Managing Partner
   bio:
     - >-
       Sena Sahin is a partner at Capitol Law Partners PLLC, licensed in
@@ -134,12 +134,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Co-Founder & Managing Partner
+    personJobTitle: Founder & Managing Partner
     personImage: ~/assets/images/sena-bio-new.jpeg
     person:
       givenName: Sena
       familyName: Sahin
-      jobTitle: Co-Founder & Managing Partner
+      jobTitle: Founder & Managing Partner
       image: ~/assets/images/sena-bio-new.jpeg
       alumniOf:
         - type: EducationalOrganization

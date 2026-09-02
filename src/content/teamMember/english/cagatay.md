@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Cagatay Ersoy
-  role: Co-Founder & Managing Partner
+  role: Founder & Managing Partner
   bio:
     - >-
       Cagatay Ersoy is a partner at Capitol Law Partners PLLC. A graduate of
@@ -152,12 +152,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Co-Founder & Managing Partner
+    personJobTitle: Founder & Managing Partner
     personImage: ~/assets/images/cagatay-bio-new.jpeg
     person:
       givenName: Cagatay
       familyName: Ersoy
-      jobTitle: Co-Founder & Managing Partner
+      jobTitle: Founder & Managing Partner
       image: ~/assets/images/cagatay-bio-new.jpeg
       alumniOf:
         - type: EducationalOrganization

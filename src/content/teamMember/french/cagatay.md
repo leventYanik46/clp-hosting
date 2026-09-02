@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Cagatay Ersoy
-  role: Cofondateur et associé gérant
+  role: Fondateur et associé gérant
   bio:
     - >-
       Cagatay Ersoy est associé chez Capitol Law Partners PLLC. Diplômé de
@@ -155,12 +155,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Cofondateur et associé gérant
+    personJobTitle: Fondateur et associé gérant
     personImage: ~/assets/images/cagatay-bio-new.jpeg
     person:
       givenName: Cagatay
       familyName: Ersoy
-      jobTitle: Cofondateur et associé gérant
+      jobTitle: Fondateur et associé gérant
       image: ~/assets/images/cagatay-bio-new.jpeg
       alumniOf:
         - type: EducationalOrganization

@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Sena Sahin
-  role: Cofondatrice et associée gérante
+  role: Fondatrice et associée gérante
   bio:
     - >-
       Sena Sahin est associée chez Capitol Law Partners PLLC, admise à
@@ -140,12 +140,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Cofondatrice et associée gérante
+    personJobTitle: Fondatrice et associée gérante
     personImage: ~/assets/images/sena-bio-new.jpeg
     person:
       givenName: Sena
       familyName: Sahin
-      jobTitle: Cofondatrice et associée gérante
+      jobTitle: Fondatrice et associée gérante
       image: ~/assets/images/sena-bio-new.jpeg
       alumniOf:
         - type: EducationalOrganization

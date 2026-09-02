@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Cagatay Ersoy
-  role: Cofundador e Sócio-Diretor
+  role: Fundador e Sócio-Diretor
   bio:
     - >-
       Cagatay Ersoy é sócio da Capitol Law Partners PLLC. Formado pela Columbia
@@ -151,12 +151,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Cofundador e Sócio-Diretor
+    personJobTitle: Fundador e Sócio-Diretor
     personImage: ~/assets/images/cagatay-bio-new.jpeg
     person:
       givenName: Cagatay
       familyName: Ersoy
-      jobTitle: Cofundador e Sócio-Diretor
+      jobTitle: Fundador e Sócio-Diretor
       image: ~/assets/images/cagatay-bio-new.jpeg
       alumniOf:
         - type: EducationalOrganization
