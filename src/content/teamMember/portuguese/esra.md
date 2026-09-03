@@ -16,9 +16,9 @@ profile:
   bio:
     - >-
       Esra Nur Bulan concentra sua atuação em direito de imigração, proteção
-      humanitária e petições baseadas em família. Graduada pela Penn State
-      University School of Law e com diploma de Direito pela Universidade de
-      Istambul, a Sra. Bulan traz formação jurídica internacional e experiência
+      humanitária e petições baseadas em família. Obteve seu LL.M. na Penn State
+      University School of Law e seu diploma de Direito na Universidade de
+      Istambul. A Sra. Bulan traz formação jurídica internacional e experiência
       prática representando comunidades de imigrantes em todos os Estados
       Unidos.
     - >-
@@ -55,7 +55,7 @@ steps:
     items:
       - title: >-
           Penn State University <br /><span class="text-sm font-normal">(2017) –
-          J.D.</span>
+          LL.M.</span>
         icon: tabler:school
       - title: >-
           Istanbul University Faculty of Law <br /><span class="text-sm
@@ -125,7 +125,7 @@ blog:
     corporativo e privacidade de dados.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Esra Nur Bulan | Capitol Law Partners"
+  title: 'Esra Nur Bulan | Capitol Law Partners'
   description: >-
     Conheça a dedicação de Esra Nur Bulan ao direito de imigração, à proteção
     humanitária e às petições baseadas em família. Advogada bilíngue fluente em

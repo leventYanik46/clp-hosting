@@ -16,9 +16,9 @@ profile:
   bio:
     - >-
       Esra Nur Bulan focuses her practice on immigration law, humanitarian
-      relief, and family-based petitions. A graduate of Penn State University
-      School of Law and holding a law degree from Istanbul University, Ms. Bulan
-      brings both international legal training and hands-on experience
+      relief, and family-based petitions. She earned her LL.M. from Penn State
+      University School of Law and her law degree from Istanbul University. Ms.
+      Bulan brings both international legal training and hands-on experience
       representing immigrant communities across the United States.
     - >-
       Ms. Bulan has successfully represented asylum seekers, refugees, and
@@ -53,7 +53,7 @@ steps:
     items:
       - title: >-
           Penn State University <br /><span class="text-sm font-normal">(2017) –
-          J.D.</span>
+          LL.M.</span>
         icon: tabler:school
       - title: >-
           Istanbul University Faculty of Law <br /><span class="text-sm
@@ -123,7 +123,7 @@ blog:
     privacy.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Esra Nur Bulan | Capitol Law Partners"
+  title: 'Esra Nur Bulan | Capitol Law Partners'
   description: >-
     Explore Esra Nur Bulan’s dedication to immigration law, humanitarian relief,
     and family-based petitions. Bilingual advocate fluent in Turkish and

@@ -16,9 +16,9 @@ profile:
   bio:
     - >-
       Esra Nur Bulan, göçmenlik hukuku, insani yardım ve aile temelli başvurular
-      üzerine yoğunlaşmaktadır. Penn State University Hukuk Fakültesi mezunu
-      olan ve İstanbul Üniversitesi Hukuk Fakültesi’nden hukuk diplomasına sahip
-      olan Bulan, hem uluslararası hukuk eğitimi hem de Amerika genelinde göçmen
+      üzerine yoğunlaşmaktadır. Penn State University Hukuk Fakültesi’nden LL.M.
+      ve İstanbul Üniversitesi Hukuk Fakültesi’nden hukuk diploması alan Bulan,
+      hem uluslararası hukuk eğitimi hem de Amerika genelinde göçmen
       topluluklarını temsil etme deneyimiyle dikkat çekmektedir.
     - >-
       Bulan, sığınmacılar, mülteciler ve karmaşık aile veya insani göçmenlik
@@ -52,7 +52,7 @@ steps:
     items:
       - title: >-
           Penn State University <br /><span class="text-sm font-normal">(2017) –
-          J.D.</span>
+          LL.M.</span>
         icon: tabler:school
       - title: >-
           İstanbul Üniversitesi Hukuk Fakültesi <br /><span class="text-sm
@@ -124,7 +124,7 @@ blog:
     güncel kalın.
   bgClass: absolute inset-0 bg-blue-50
 seo:
-  title: "Esra Nur Bulan | Capitol Law Partners"
+  title: 'Esra Nur Bulan | Capitol Law Partners'
   description: >-
     Esra Nur Bulan’ın göçmenlik hukuku, insani yardım ve aile temelli
     başvurulara olan bağlılığını keşfedin. Türkçe ve İngilizce bilen iki dilli
