@@ -47,6 +47,7 @@ export default defineConfig({
           '/category',
           '/archive/',
           '/terms/',
+          '/counsel-crm-privacy',
           '/404',
         ].some((excl) => page.includes(excl));
         return !isExcludedSection && !isPaginatedBlogPage;
