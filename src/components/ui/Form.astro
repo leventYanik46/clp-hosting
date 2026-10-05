@@ -105,6 +105,14 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
     compact && 'grid grid-cols-1 gap-2 md:grid-cols-10 md:gap-3',
   ]}
 >
+  {/* Honeypot. Off-screen, not focusable and hidden from screen readers, so people
+      never see it; automated submitters that fill every input fill this one too and
+      the server treats a non-empty value as spam. */}
+  <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
+    <label for="website-field">Website</label>
+    <input type="text" name="website" id="website-field" tabindex="-1" autocomplete="off" />
+  </div>
+
   {
     compact
       ? (
@@ -307,6 +315,9 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
       const formData = new FormData(form);
       const formObject = Object.fromEntries(formData.entries());
       formObject.sourcePage = window.location.href;
+      if (form.dataset.contactFormElapsedMs) {
+        formObject.formElapsedMs = Number(form.dataset.contactFormElapsedMs);
+      }
 
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -390,6 +401,7 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
         }
 
         form.dataset.contactFormBound = 'true';
+        form.dataset.contactFormStartedAt = String(Date.now());
         form.addEventListener('submit', (event) => {
           const submitButton = form.querySelector('button[type="submit"]');
           if (!(submitButton instanceof HTMLButtonElement)) {
@@ -399,6 +411,12 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
           event.preventDefault();
           if (form.dataset.contactFormPending === 'true') {
             return;
+          }
+
+          // How long the visitor spent on the form; the server treats a few hundred ms as a bot signal.
+          const startedAt = Number(form.dataset.contactFormStartedAt);
+          if (Number.isFinite(startedAt)) {
+            form.dataset.contactFormElapsedMs = String(Date.now() - startedAt);
           }
 
           submitContactForm(form, submitButton);

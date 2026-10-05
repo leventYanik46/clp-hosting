@@ -39,10 +39,8 @@
     "astro-icon": "^1.1.5",
     "decap-cms-app": "^3.6.3",
     "dotenv": "^16.4.7",
-    "googleapis": "^144.0.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
-    "nodemailer": "^8.0.4",
     "unpic": "^3.18.0"
   },
   "devDependencies": {
@@ -58,7 +56,6 @@
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
     "@types/mdx": "^2.0.13",
-    "@types/nodemailer": "^7.0.11",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
     "astro-compress": "2.4.1",
