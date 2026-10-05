@@ -1,21 +1,20 @@
 /**
  * Spam screening for the website contact form.
  *
- * Every rule is a cheap local heuristic: no third-party service, no network
- * call. Each rule adds points to a score and the submission counts as spam once
- * the score reaches REJECT_SCORE. Most rules are worth less than REJECT_SCORE
- * on their own, so one weak signal never blocks a real visitor.
+ * Every check is a cheap local heuristic: no third-party service, no network
+ * call. Each check is strong enough to reject on its own, so a submission is
+ * spam as soon as any one of them fires. Weaker signals that would only make
+ * sense as tie-breakers (a dotted Gmail address, name equal to message, a
+ * missing fill-time field) are deliberately left out so that a real visitor is
+ * never refused on one of them.
  *
  * Tuned for the junk observed Jul–Sep 2026: name and message are random
- * mixed-case letter strings ("nyngTjdJVkQieWDxVupkinG"), the email is a Gmail
- * address with many dots ("da.t.oz.o.risi.5.9@gmail.com"), and the same payload
- * is sprayed across several pages a minute apart.
+ * mixed-case letter strings ("nyngTjdJVkQieWDxVupkinG") sprayed across several
+ * pages a minute apart.
  */
 
 export interface ContactSubmission {
   name: string;
-  email: string;
-  phone: string;
   message: string;
   /** Hidden input real visitors never see; bots that fill every input fill it. */
   honeypot?: string;
@@ -25,17 +24,16 @@ export interface ContactSubmission {
 
 export interface SpamVerdict {
   isSpam: boolean;
-  score: number;
+  /** One line per check that fired; empty when the submission passed. */
   reasons: string[];
 }
 
-export const REJECT_SCORE = 3;
-
-/** A person needs well over this to type a name, email, phone number and message. */
-const MIN_FILL_TIME_MS = 3000;
-
-/** Real local parts rarely have more than two dots; the bot abuses the Gmail dot trick. */
-const MAX_LOCAL_PART_DOTS = 2;
+/**
+ * The form has four required text fields and a required consent checkbox. Even
+ * with browser autofill and a pasted message a person needs several seconds of
+ * clicking; headless bots submit in a few hundred milliseconds.
+ */
+const MIN_FILL_TIME_MS = 2000;
 
 /**
  * True for values like "nyngTjdJVkQieWDxVupkinG": one or two words made only of
@@ -55,46 +53,24 @@ export const looksLikeRandomLetters = (value: string): boolean => {
   });
 };
 
-const localPartDots = (email: string): number => {
-  const atIndex = email.lastIndexOf('@');
-  if (atIndex <= 0) return 0;
-  return (email.slice(0, atIndex).match(/\./g) ?? []).length;
-};
-
 export const screenContactSubmission = (submission: ContactSubmission): SpamVerdict => {
   const reasons: string[] = [];
-  let score = 0;
 
-  const add = (points: number, reason: string) => {
-    score += points;
-    reasons.push(reason);
-  };
-
-  if (submission.honeypot && submission.honeypot.trim() !== '') {
-    add(REJECT_SCORE, 'honeypot field was filled in');
+  if (submission.honeypot?.trim()) {
+    reasons.push('hidden honeypot field was filled in');
   }
 
-  if (submission.elapsedMs === undefined) {
-    add(1, 'no fill-time measurement (form script bypassed)');
-  } else if (submission.elapsedMs < MIN_FILL_TIME_MS) {
-    add(2, `submitted ${submission.elapsedMs}ms after the form loaded`);
+  if (submission.elapsedMs !== undefined && submission.elapsedMs < MIN_FILL_TIME_MS) {
+    reasons.push(`submitted ${submission.elapsedMs}ms after the form loaded`);
   }
 
   if (looksLikeRandomLetters(submission.name)) {
-    add(2, 'name looks like random letters');
+    reasons.push('name looks like random letters');
   }
 
   if (looksLikeRandomLetters(submission.message)) {
-    add(2, 'message looks like random letters');
+    reasons.push('message looks like random letters');
   }
 
-  if (submission.name.trim().toLowerCase() === submission.message.trim().toLowerCase()) {
-    add(1, 'name and message are identical');
-  }
-
-  if (localPartDots(submission.email) > MAX_LOCAL_PART_DOTS) {
-    add(1, 'email address has an unusual number of dots');
-  }
-
-  return { isSpam: score >= REJECT_SCORE, score, reasons };
+  return { isSpam: reasons.length > 0, reasons };
 };

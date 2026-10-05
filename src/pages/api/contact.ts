@@ -108,11 +108,9 @@ export async function POST({ request }: { request: Request }) {
   const spamMode = resolveSpamMode();
   const verdict: SpamVerdict =
     spamMode === 'off'
-      ? { isSpam: false, score: 0, reasons: [] }
+      ? { isSpam: false, reasons: [] }
       : screenContactSubmission({
           name,
-          email,
-          phone,
           message,
           honeypot: typeof payload.website === 'string' ? payload.website : '',
           elapsedMs: parseElapsedMs(payload.formElapsedMs),
@@ -121,7 +119,6 @@ export async function POST({ request }: { request: Request }) {
   if (verdict.isSpam) {
     console.warn('[contact] spam screen flagged a submission:', {
       mode: spamMode,
-      score: verdict.score,
       reasons: verdict.reasons,
       name,
       email,
@@ -167,7 +164,7 @@ export async function POST({ request }: { request: Request }) {
 
   const safeName = headerSafe(name) || 'Website visitor';
   const subject = `${verdict.isSpam ? '[Possible spam] ' : ''}New Contact: ${safeName}`;
-  const screeningNote = verdict.isSpam ? `Spam screening: score ${verdict.score} (${verdict.reasons.join('; ')})` : '';
+  const screeningNote = verdict.isSpam ? `Spam screening: ${verdict.reasons.join('; ')}` : '';
 
   const html = `
     <p>Name: ${escapeHtml(name)}</p>
