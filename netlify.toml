@@ -757,6 +757,57 @@
   to   = "/schedule"
   status = 301
 
+# Retired attorney bio pages → the team page
+[[redirects]]
+  from = "/our-team/mehmet"
+  to   = "/team"
+  status = 301
+
+[[redirects]]
+  from = "/our-team/mehmet/"
+  to   = "/team"
+  status = 301
+
+[[redirects]]
+  from = "/tr/our-team/mehmet"
+  to   = "/tr/team"
+  status = 301
+
+[[redirects]]
+  from = "/tr/our-team/mehmet/"
+  to   = "/tr/team"
+  status = 301
+
+[[redirects]]
+  from = "/es/our-team/mehmet"
+  to   = "/es/team"
+  status = 301
+
+[[redirects]]
+  from = "/es/our-team/mehmet/"
+  to   = "/es/team"
+  status = 301
+
+[[redirects]]
+  from = "/fr/our-team/mehmet"
+  to   = "/fr/team"
+  status = 301
+
+[[redirects]]
+  from = "/fr/our-team/mehmet/"
+  to   = "/fr/team"
+  status = 301
+
+[[redirects]]
+  from = "/pt/our-team/mehmet"
+  to   = "/pt/team"
+  status = 301
+
+[[redirects]]
+  from = "/pt/our-team/mehmet/"
+  to   = "/pt/team"
+  status = 301
+
 # Sitemap canonicalization
 [[redirects]]
   from = "/sitemap.xml"

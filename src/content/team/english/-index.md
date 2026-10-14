@@ -53,22 +53,6 @@ sections:
         image:
           src: ~/assets/images/esra-bio-team-9x8.jpeg
           alt: Blueprint Image
-      - title: Mehmet Y. Turkoglu
-        tagline: Of Counsel
-        subtitle: Let's Work Together
-        bottomtag: Asylum | Naturalization | Family & Employment Based Immigration
-        actions:
-          - variant: primary
-            text: Contact Me
-            href: /contact
-            target: _blank
-          - variant: primary
-            text: See Bio →
-            href: /our-team/mehmet
-            target: _blank
-        image:
-          src: ~/assets/images/mehmet-bio-team-9x8.jpeg
-          alt: Mehmet Y. Turkoglu
       - title: Omar Bississo
         tagline: Criminal Defense Attorney
         subtitle: Let's Work Together

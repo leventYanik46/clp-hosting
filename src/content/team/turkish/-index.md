@@ -53,22 +53,6 @@ sections:
         image:
           src: ~/assets/images/esra-bio-team-9x8.jpeg
           alt: Plan görseli
-      - title: Mehmet Y. Turkoglu
-        tagline: Of Counsel
-        subtitle: Birlikte Çalışalım
-        bottomtag: Sığınma | Aile Birleşimi | Vatandaşlık | Çalışma Temelli Göçmenlik
-        actions:
-          - variant: primary
-            text: İletişime Geç
-            href: /tr/contact
-            target: _blank
-          - variant: primary
-            text: Biyografiyi Gör →
-            href: /tr/our-team/mehmet
-            target: _blank
-        image:
-          src: ~/assets/images/mehmet-bio-team-9x8.jpeg
-          alt: Mehmet Y. Turkoglu
       - title: Omar Bississo
         tagline: Ceza Savunma Avukatı
         subtitle: Birlikte Çalışalım

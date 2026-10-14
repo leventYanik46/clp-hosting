@@ -53,22 +53,6 @@ sections:
         image:
           src: ~/assets/images/esra-bio-team-9x8.jpeg
           alt: Imagem de projeto
-      - title: Mehmet Y. Turkoglu
-        tagline: Of Counsel
-        subtitle: Vamos trabalhar juntos
-        bottomtag: Asilo | Base familiar | Naturalização | Imigração baseada em emprego
-        actions:
-          - variant: primary
-            text: Fale comigo
-            href: /pt/contact
-            target: _blank
-          - variant: primary
-            text: Ver bio →
-            href: /pt/our-team/mehmet
-            target: _blank
-        image:
-          src: ~/assets/images/mehmet-bio-team-9x8.jpeg
-          alt: Mehmet Y. Turkoglu
       - title: Omar Bississo
         tagline: Advogado de Defesa Criminal
         subtitle: Vamos trabalhar juntos
