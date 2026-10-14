@@ -7,6 +7,7 @@ excerpt: >-
   stands the test of time. It also reviews signing formalities, witness rules,
   and common drafting mistakes that can create probate disputes later.
 category: Valid Will
+service: wills-trusts-probate-administration
 tags:
   - make a will
 image: /images/will-valid.jpg
@@ -130,3 +131,5 @@ We’ll guide you through every step to ensure your Will is valid, enforceable, 
 ](https://www.capitollawpartners.com/)
 
 ![Capitol Law Partners](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg "Capitol Law Partners")
+
+*Need help with this topic? See our [Wills, Trusts & Probate](/practice-area/key-services/wills-trusts-probate-administration) page or [schedule a consultation](/schedule).*

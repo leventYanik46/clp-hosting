@@ -6,6 +6,7 @@ excerpt: >-
   sürecin sorunsuz ilerlemesi açısından önemlidir.
 category: Corporate & Business Law
 lang: tr
+service: business-corporate-law
 image: /images/capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 3376
@@ -67,3 +68,5 @@ Capitol Law Partners, Amerika’da şirket kurmak isteyen yabancı girişimciler
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [İş ve Şirketler Hukuku](/tr/practice-area/business-corporate-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

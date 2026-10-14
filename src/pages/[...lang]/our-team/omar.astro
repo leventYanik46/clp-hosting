@@ -8,6 +8,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import { getPermalink } from '~/utils/permalinks';
 import { getEntry} from 'astro:content';
 import { supportedLang } from '~/utils/lib/languageParser';
+import { bioPortraitImage } from '~/utils/team-portraits';
 
 export function getStaticPaths() {
   // Return string (or undefined) for the `lang` param because this
@@ -41,7 +42,7 @@ const resolveHref = (href: string) => (/^(https?:|mailto:|tel:)/.test(href) ? hr
   <Content
     id={profile.id}
     columns={profile.columns}
-    image={profile.image}
+    image={bioPortraitImage(profile.image)}
   >
     <Fragment slot="content">
       <h1 class="text-4xl md:text-5xl font-bold tracking-tight sm:text-6xl mb-4">{profile.name}</h1>

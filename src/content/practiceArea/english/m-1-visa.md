@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: M-1 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/student-at-laptop.jpg
   content: >
 
     <p>Our M-1 Visa services guide you through eligibility, petition strategy,

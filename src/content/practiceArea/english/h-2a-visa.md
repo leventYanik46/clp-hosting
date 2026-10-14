@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: H-2A Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-in-farm-field.jpg
   content: >
 
     <p>Our H-2A Visa services guide you through eligibility, petition strategy,

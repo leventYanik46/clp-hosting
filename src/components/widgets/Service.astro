@@ -18,10 +18,23 @@ const {
   infoTitle,
   infoDescription,
   googleReview,
+  readMoreHref,
   id,
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
+
+// "Keep reading" cue under the info card on large screens, so visitors see the
+// page continues below the form. Language comes from the URL prefix, as in Form.astro.
+const readMoreLabelByLang: Record<string, string> = {
+  en: 'Keep reading',
+  tr: 'Okumaya devam edin',
+  es: 'Seguir leyendo',
+  pt: 'Continuar lendo',
+  fr: 'Continuer la lecture',
+};
+const pathLang = Astro.url.pathname.split('/').filter(Boolean)[0] ?? '';
+const readMoreLabel = readMoreLabelByLang[pathLang] ?? readMoreLabelByLang.en;
 
 ---
 
@@ -35,7 +48,7 @@ const {
 
   <!-- Main image container -->
   <div class="h-[39px] w-full hidden md:block"></div>
-  <div class="relative w-full min-h-[50vh] md:min-h-[80vh]">
+  <div class="relative w-full min-h-[50vh] md:min-h-[60vh]">
     <div class="absolute inset-0">
       <!-- Image container -->
       {
@@ -60,12 +73,13 @@ const {
     </div>
     <WidgetWrapper
       id={id}
-         containerClass={`max-w-6xl mx-auto px-4 md:px-6 py-8 md:py-12 lg:py-16 ${classes?.container ?? ''}`}
+         containerClass={`max-w-6xl mx-auto px-4 md:px-6 py-6 md:py-6 lg:py-6 ${classes?.container ?? ''}`}
       bg={bg}
     >
           <div class="w-full flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
         {(infoTitle || infoDescription || googleReview) && (
-          <div class="w-full lg:w-5/12 rounded-lg border border-gray-200 bg-white/60 shadow-sm p-4 sm:p-6 lg:p-7">
+          <div class="w-full lg:w-5/12">
+          <div class="rounded-lg border border-gray-200 bg-white/60 shadow-sm p-4 sm:p-6 lg:p-7">
             {infoTitle && (
               <h2 class="text-2xl md:text-3xl font-bold text-gray-900 leading-tight" set:html={infoTitle} />
             )}
@@ -105,7 +119,7 @@ const {
                     {googleReview.count && <span class="text-gray-500">({googleReview.count} reviews)</span>}
                     {googleReview.url && (
                       <a
-                        class="text-primary font-semibold hover:underline"
+                        class="inline-block py-1 text-primary font-semibold hover:underline"
                         href={googleReview.url}
                         target="_blank"
                         rel="noreferrer"
@@ -118,17 +132,33 @@ const {
               </div>
             )}
           </div>
-               )}
+          {readMoreHref && (
+            <a
+              href={readMoreHref}
+              class="mt-4 hidden lg:inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/80 px-4 py-2 text-sm font-semibold text-gray-800 shadow-sm backdrop-blur transition hover:bg-white hover:text-primary"
+            >
+              {readMoreLabel}
+              <svg class="h-4 w-4 motion-safe:animate-bounce" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          )}
+          </div>
+        )}
         {
           inputs && (
             <div class="w-full lg:w-7/12">
-              <div class="flex flex-col max-w-xl w-full ml-auto rounded-lg backdrop-blur border border-gray-200 bg-white shadow p-3 sm:p-4 lg:p-5">
+              <div class="flex flex-col max-w-2xl w-full ml-auto rounded-lg backdrop-blur border border-gray-200 bg-white shadow p-3 sm:p-4">
                 <Headline
                   title={title}
                   tagline={tagline}
                   subtitle={subtitle}
                   classes={{
-                    container: 'max-w-xl mb-6 md:mb-8',
+                    container: 'max-w-2xl mb-4 md:mb-5',
                     title: 'text-2xl md:text-3xl lg:text-3xl',
                     subtitle: 'text-sm md:text-base lg:text-base',
                   }}

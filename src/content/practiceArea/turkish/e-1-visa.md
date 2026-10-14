@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: E-1 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/globe-on-suitcase.jpg
   content: >
 
     <p>E-1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

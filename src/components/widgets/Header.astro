@@ -5,6 +5,7 @@ import Button from '~/components/ui/Button.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import { trimSlash } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
+import type { PracticeAreaMenu } from '~/data/practiceAreaMenu';
 
 const pathSegments = new URL(Astro.url).pathname.split('/').filter(Boolean);
 const lang = pathSegments[0] && pathSegments[0].length === 2 ? pathSegments[0] : '';
@@ -19,6 +20,10 @@ interface Link {
 
 interface MenuLink extends Link {
   links?: Array<MenuLink>;
+  /** Render as a sub-item of the previous entry (indented) inside a dropdown. */
+  indent?: boolean;
+  /** Render the practice-area mega menu (see src/data/practiceAreaMenu.ts) instead of a plain dropdown. */
+  mega?: boolean;
 }
 
 export interface Props {
@@ -28,6 +33,7 @@ export interface Props {
   isSticky?: boolean;
   isFullWidth?: boolean;
   position?: string;
+  megaMenu?: PracticeAreaMenu;
 }
 
 const {
@@ -37,9 +43,29 @@ const {
   isSticky = false,
   isFullWidth = false,
   position = 'center',
+  megaMenu,
 } = Astro.props;
 
+// The mega menu always opens on the "individuals" tab; business visitors switch
+// over with the segmented control. Active/idle styling is driven purely by
+// aria-selected, so the client script only has to flip that attribute.
+const MEGA_DEFAULT_TAB = 'individuals';
+const megaDefaultTab = megaMenu?.tabs.some((tab) => tab.id === MEGA_DEFAULT_TAB)
+  ? MEGA_DEFAULT_TAB
+  : megaMenu?.tabs[0]?.id;
+const megaTabClass =
+  'flex-1 min-[1230px]:flex-none inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 min-[1230px]:px-6 text-sm min-[1230px]:text-base font-semibold leading-tight text-gray-600 transition-all duration-200 hover:bg-white hover:text-primary hover:shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 aria-selected:bg-primary aria-selected:text-white aria-selected:shadow-md aria-selected:hover:bg-primary aria-selected:hover:text-white aria-selected:hover:shadow-md';
+
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
+
+// Rendered in the desktop toolbar and, below 1230px, at the bottom of the mobile menu.
+const languageOptions = [
+  { value: '/tr', label: '🇹🇷 Tr' },
+  { value: '/', label: '🇺🇸 En' },
+  { value: '/es', label: '🇪🇸 Es' },
+  { value: '/pt', label: '🇵🇹 Pt' },
+  { value: '/fr', label: '🇫🇷 Fr' },
+];
 ---
 
 <header
@@ -64,26 +90,148 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
         'max-w-7xl': !isFullWidth,
       },
     ]}
+    data-aw-header-inner
   >
-    <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between']}>
-      <a class="flex items-center ml-4 mr-1 md:ml-0 md:mr-0" href={logoHref}>
+    <div
+      class:list={[
+        { 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' },
+        'flex justify-between items-center gap-2 min-w-0',
+      ]}
+    >
+      <a class="flex items-center min-w-0 ml-2 sm:ml-4 mr-1 md:ml-0 md:mr-0" href={logoHref}>
         <Logo />
       </a>
-      <div class="flex items-center gap-4 min-[1230px]:hidden">
+      <div class="flex items-center gap-4 shrink-0 min-[1230px]:hidden">
         <ToggleMenu />
       </div>
     </div>
     <nav
-      class="items-center mt-16 min-[1230px]:mt-0 w-full min-[1230px]:w-auto hidden min-[1230px]:flex min-[1230px]:ml-24 min-[1230px]:-mr-4 -text-default overflow-y-auto overflow-x-hidden min-[1230px]:overflow-visible min-[1230px]:justify-self-center"
+      class="items-center mt-3 min-[1230px]:mt-0 w-full min-[1230px]:w-auto hidden min-[1230px]:flex min-[1230px]:ml-24 min-[1230px]:-mr-4 -text-default overflow-y-auto overflow-x-hidden min-[1230px]:overflow-visible min-[1230px]:justify-self-center"
       aria-label="Main navigation"
+      id="header-mobile-nav"
     >
       <ul
-        class="flex flex-col min-[1230px]:flex-row min-[1230px]:self-center w-full min-[1230px]:w-auto max-[1080px]:text-[0.85rem] min-[1080px]:text-[1rem] tracking-[0.01rem] font-medium min-[1230px]:justify-center"
+        class="flex flex-col min-[1230px]:flex-row min-[1230px]:self-center w-full min-[1230px]:w-auto text-[1rem] tracking-[0.01rem] font-medium min-[1230px]:justify-center"
       >
         {
-          links.map(({ text, href, links }, index) => (
-            <li class={links?.length ? 'dropdown group relative' : ''}>
-              {links?.length ? (
+          links.map(({ text, href, links, mega }, index) => (
+            <li
+              class={
+                mega && megaMenu ? 'dropdown group min-[1230px]:static' : links?.length ? 'dropdown group relative' : ''
+              }
+            >
+              {mega && megaMenu ? (
+                <>
+                  <button
+                    type="button"
+                    class="hover:text-link px-4 font-bold py-3 flex w-full items-center justify-between whitespace-nowrap min-[1230px]:w-auto min-[1230px]:justify-start"
+                    data-aw-dropdown-toggle
+                    aria-expanded="false"
+                    aria-controls={`header-submenu-${index}`}
+                  >
+                    {text}{' '}
+                    <Icon
+                      name="tabler:chevron-down"
+                      class="dropdown-chevron w-4 h-4 ml-2 rtl:ml-0 rtl:mr-2 transition-transform min-[1230px]:w-3.5 min-[1230px]:h-3.5 min-[1230px]:ml-0.5"
+                    />
+                  </button>
+                  <div
+                    id={`header-submenu-${index}`}
+                    class="dropdown-menu hidden pl-4 pb-4 min-[1230px]:pl-0 min-[1230px]:pb-0 font-medium min-[1230px]:absolute min-[1230px]:left-0 min-[1230px]:right-0 min-[1230px]:top-full min-[1230px]:bg-white min-[1230px]:shadow-2xl min-[1230px]:rounded-b-lg min-[1230px]:border-t min-[1230px]:border-gray-100 min-[1230px]:max-h-[calc(100vh-6rem)] min-[1230px]:overflow-y-auto"
+                    data-aw-mega
+                  >
+                    <div class="min-[1230px]:px-8 min-[1230px]:py-6">
+                      <div
+                        class="inline-flex w-full min-[1230px]:w-auto items-stretch gap-1 rounded-full bg-gray-100 p-1 ring-1 ring-gray-200 mt-2 min-[1230px]:mt-0"
+                        role="tablist"
+                        aria-label={text}
+                      >
+                        {megaMenu.tabs.map((tab) => (
+                          <button
+                            type="button"
+                            role="tab"
+                            id={`mega-tab-${index}-${tab.id}`}
+                            aria-controls={`mega-panel-${index}-${tab.id}`}
+                            aria-selected={tab.id === megaDefaultTab ? 'true' : 'false'}
+                            data-aw-mega-tab={tab.id}
+                            class={megaTabClass}
+                          >
+                            <Icon name={tab.icon} class="w-4 h-4 min-[1230px]:w-5 min-[1230px]:h-5 shrink-0" />
+                            {tab.label}
+                          </button>
+                        ))}
+                      </div>
+                      {megaMenu.tabs.map((tab) => (
+                        <div
+                          id={`mega-panel-${index}-${tab.id}`}
+                          role="tabpanel"
+                          aria-labelledby={`mega-tab-${index}-${tab.id}`}
+                          data-aw-mega-panel={tab.id}
+                          class:list={['mt-4', { hidden: tab.id !== megaDefaultTab }]}
+                        >
+                          <p class="text-sm text-muted mb-4">{tab.tagline}</p>
+                          <div
+                            class:list={[
+                              'grid gap-6',
+                              tab.groups.length > 5 ? 'min-[1230px]:grid-cols-6' : 'min-[1230px]:grid-cols-5',
+                            ]}
+                          >
+                            {tab.groups.map((group) => (
+                              <div>
+                                <h3 class="text-[0.7rem] font-semibold uppercase tracking-wider text-gray-500 mb-2">
+                                  {group.title}
+                                </h3>
+                                <ul class="border-l-2 border-primary/70 pl-3 space-y-0.5 min-[1230px]:space-y-1.5">
+                                  {group.links.map((link, linkIndex) => (
+                                    <li class:list={[{ 'mb-1 pb-1 border-b border-gray-100': linkIndex === 0 }]}>
+                                      <a
+                                        class:list={[
+                                          'block text-[0.9rem] leading-snug py-1.5 min-[1230px]:py-0 text-gray-800 hover:text-link hover:underline',
+                                          { 'aw-link-active': link.href === currentPath },
+                                          { 'font-semibold text-primary': linkIndex === 0 },
+                                        ]}
+                                        href={link.href}
+                                      >
+                                        {link.label}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                          <div class="mt-6 pt-4 border-t border-gray-100 flex flex-col gap-3 min-[1230px]:flex-row min-[1230px]:items-center min-[1230px]:justify-between">
+                            <p class="text-sm text-gray-600">
+                              <span class="font-semibold text-gray-800">{megaMenu.hubsTitle}:</span>{' '}
+                              {tab.hubs.map((hub, hubIndex) => (
+                                <>
+                                  {hubIndex > 0 && <span aria-hidden="true"> · </span>}
+                                  <a
+                                    class="inline-block py-1 min-[1230px]:py-0 hover:text-link hover:underline"
+                                    href={hub.href}
+                                  >
+                                    {hub.label}
+                                  </a>
+                                </>
+                              ))}
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                              {megaMenu.ctas.map((cta, ctaIndex) => (
+                                <a
+                                  href={cta.href}
+                                  class:list={[ctaIndex === 0 ? 'btn-primary' : 'btn-secondary', 'py-2 px-4 text-sm']}
+                                >
+                                  {cta.label}
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              ) : links?.length ? (
                 <>
                   <button
                     type="button"
@@ -102,12 +250,13 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
                     id={`header-submenu-${index}`}
                     class="dropdown-menu hidden pl-4 min-[1230px]:pl-0 font-medium min-[1230px]:bg-white/90 min-[1230px]:min-w-[320px] min-[1230px]:w-max drop-shadow-xl min-[1230px]:backdrop-blur-md rounded min-[1230px]:absolute min-[1230px]:top-full"
                   >
-                    {links.map(({ text: text2, href: href2 }) => (
+                    {links.map(({ text: text2, href: href2, indent }) => (
                       <li>
                         <a
                           class:list={[
                             'first:rounded-t last:rounded-b min-[1230px]:hover:bg-gray-100 hover:text-link py-2 px-5 block whitespace-no-wrap',
                             { 'aw-link-active': href2 === currentPath },
+                            { 'pl-9 text-[0.95em] text-gray-700': indent },
                           ]}
                           href={href2}
                         >
@@ -132,6 +281,32 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
           ))
         }
       </ul>
+      <div
+        class="min-[1230px]:hidden mt-4 mx-4 pt-5 pb-6 border-t border-gray-200 flex flex-col gap-4"
+        data-aw-mobile-actions
+      >
+        {
+          actions?.length ? (
+            <div class="flex flex-col gap-2">
+              {actions.map((btnProps) => (
+                <Button {...btnProps} class="w-full justify-center py-3 font-semibold text-base" />
+              ))}
+            </div>
+          ) : null
+        }
+        <form class="block">
+          <label class="sr-only" for="language-switcher-mobile"> Switch language </label>
+          <select
+            id="language-switcher-mobile"
+            class="w-full border border-gray-300 rounded-lg px-3 py-3 text-base bg-white"
+            onchange="if(this.value) window.location.href=this.value"
+            aria-label="Switch language"
+          >
+            <option disabled selected>Language</option>
+            {languageOptions.map((option) => <option value={option.value}>{option.label}</option>)}
+          </select>
+        </form>
+      </div>
     </nav>
     <div
       class:list={[
@@ -146,14 +321,9 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
           class="border rounded px-2 py-1 text-sm bg-white"
           onchange="if(this.value) window.location.href=this.value"
           aria-label="Switch language"
-          value={lang ? `/${lang}` : '/'}
         >
           <option disabled selected>Language</option>
-          <option value="/tr">🇹🇷 Tr</option>
-          <option value="/">🇺🇸 En</option>
-          <option value="/es">🇪🇸 Es</option>
-          <option value="/pt">🇵🇹 Pt</option>
-          <option value="/fr">🇫🇷 Fr</option>
+          {languageOptions.map((option) => <option value={option.value}>{option.label}</option>)}
         </select>
       </form>
       {
@@ -172,3 +342,26 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
   </div>
 </header>
 <div class="border-t-2 border-gray-100"></div>
+
+<script>
+  // Practice-area mega menu: switch between the "individuals" and "businesses"
+  // tabs. The menu always opens on the server-rendered default (individuals);
+  // the visitor's choice is deliberately not remembered across page loads.
+  const activate = (root: Element, id: string) => {
+    root.querySelectorAll<HTMLElement>('[data-aw-mega-tab]').forEach((tab) => {
+      tab.setAttribute('aria-selected', tab.dataset.awMegaTab === id ? 'true' : 'false');
+    });
+    root.querySelectorAll<HTMLElement>('[data-aw-mega-panel]').forEach((panel) => {
+      panel.classList.toggle('hidden', panel.dataset.awMegaPanel !== id);
+    });
+  };
+
+  document.addEventListener('click', (event) => {
+    const tab = (event.target as Element | null)?.closest<HTMLElement>('[data-aw-mega-tab]');
+    if (!tab) return;
+    const root = tab.closest('[data-aw-mega]');
+    const id = tab.dataset.awMegaTab;
+    if (!root || !id) return;
+    activate(root, id);
+  });
+</script>

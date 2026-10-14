@@ -8,6 +8,7 @@ excerpt: >-
   incidents as the reason.
 category: USA News
 lang: en
+service: immigration-law
 image: /images/trump-2546104_1280.jpg
 imageWidth: 1280
 imageHeight: 441
@@ -79,3 +80,5 @@ Every applicant's situation is different, and there is no single solution for th
 [](https://capitollawpartners.com/)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

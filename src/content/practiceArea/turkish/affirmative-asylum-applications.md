@@ -32,7 +32,7 @@ contactForm:
     başvuruları.
 post:
   title: Olumlu Sığınma Başvuruları
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/scales-and-laptop.jpg
   content: >
 
     <p>Destekleyici kanıtlar ve mülakat hazırlığıyla titizlikle hazırlanmış

@@ -8,6 +8,7 @@ excerpt: >-
   under the monthly Visa Bulletin. For those applying under the National
   Interest Waiver (NIW), the process is faster since PERM is not required.
 category: Immigrant Visas
+service: business-employment-immigration-solutions
 image: /images/pexels-travis-saylor-271738-951382.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -21,11 +22,12 @@ metadata:
   title: "What Is an EB-2 Visa?"
 seo:
   description: >-
-    What is an EB-2 Visa? Application Process and Timeline. Learn when and how
-    to apply for the EB-2 visa.Year-round eligibility, key..
+    How the employer-sponsored EB-2 visa works: advanced-degree and exceptional
+    ability requirements, PERM labor certification, the I-140 petition and the
+    Visa Bulletin timeline.
   canonicalOverride: >-
     https://capitollawpartners.com/what-is-an-eb-2-visa-application-process-and-timeline
-  title: "EB-2 Visa Process and Timeline Explained"
+  title: "EB-2 Visa: Application Process, PERM and Timeline"
 ---
 ## What is an EB-2 Visa? Application Process and Timeline
 
@@ -85,3 +87,5 @@ Let Us Guide You Through Your Application Process for a Positive Outcome
 If you are considering applying for an EB2 NIW or EB1 visa, please contact us. When you email us your current and detailed CV, [Capitol Law Partners](https://capitollawpartners.com) will conduct a free preliminary assessment and plan the process together. 
 
 [Contact Us Now.](https://capitollawpartners.com/contact)
+
+*Employer-sponsored EB-2 cases run through PERM and the I-140. Our [business immigration attorneys](/practice-area/key-services/business-employment-immigration-solutions) handle both stages, and our [EB-2 NIW attorneys](/practice-area/key-services/eb-2-niw-green-card) can advise if you qualify to self-petition instead.*

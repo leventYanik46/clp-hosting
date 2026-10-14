@@ -7,6 +7,7 @@ excerpt: >-
   categories principales, les delais et les risques proceduraux.
 category: Immigration
 lang: fr
+service: immigration-law
 image: /images/immigraiton-law.jpg
 imageWidth: 5760
 imageHeight: 3840
@@ -65,3 +66,4 @@ Chez **[Capitol Law Partners](https://capitollawpartners.com/)**, nous aidons
 nos clients a identifier la bonne voie, a preparer un dossier solide et a
 reduire les erreurs qui peuvent ralentir ou compromettre une demande.
 
+*Besoin d'aide sur ce sujet ? Consultez notre page [Droit de l’immigration](/fr/practice-area/immigration-law) ou [prenez rendez-vous](/fr/schedule).*

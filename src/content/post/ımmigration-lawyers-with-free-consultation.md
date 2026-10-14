@@ -10,6 +10,7 @@ excerpt: >-
   expert legal strategy with a transparent, client-first approach, so you get the
   clarity and guidance you need from day one...
 category: 'Immigration '
+service: immigration-law
 image: /images/immigrationlaw.jpg
 imageWidth: 5120
 imageHeight: 3840
@@ -120,3 +121,5 @@ We are committed to providing transparent legal advice, personalized service, an
 every step of your journey.
 
 If you're looking for immigration lawyers you can trust, start with a free consultation at **[Capitol Law Partners](https://capitollawpartners.com/)**. Let us guide you through your immigration options-with clarity, care, and professionalism.
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

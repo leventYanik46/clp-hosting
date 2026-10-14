@@ -36,7 +36,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Strategic Legal Guidance for Businesses
-  image: ~/assets/images/precision-img.jpg
+  image: ~/assets/images/practice-areas/business-analytics-laptop.jpg
   content: >
 
     <p>Our Strategic Legal Guidance for Businesses service is designed for

@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: E-2 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/two-passports-boarding-passes.jpg
   content: >
 
     <p>E-2 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

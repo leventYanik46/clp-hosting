@@ -4,6 +4,7 @@ excerpt: >-
   There's no fixed E-2 minimum. Here's what 'substantial' actually means in 2026 and how to gauge whether your investment is enough.
 category: Business Immigration Law
 lang: en
+service: e-2-visa
 tags:
   - Immigration
   - Business law
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [E-2 Treaty Investor](/practice-area/key-services/e-2-visa) page or [schedule a consultation](/schedule).*

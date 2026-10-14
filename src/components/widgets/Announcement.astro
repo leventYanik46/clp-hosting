@@ -27,12 +27,12 @@ if (!announcement) {
           <a
             href={`tel:${announcement.phone}`}
             data-analytics-announcement-phone
-            class="hover:text-primary font-bold underline"
+            class="hover:text-primary font-bold underline py-1"
           >
             {announcement.phone_display}
           </a>
           &nbsp;{announcement.or_text}&nbsp;
-          <a href={announcement.contact_url} class="hover:text-primary font-bold underline">
+          <a href={announcement.contact_url} class="hover:text-primary font-bold underline py-1">
             {announcement.contact_text}
           </a>
         </div>
@@ -44,11 +44,11 @@ if (!announcement) {
               announcement.turknetwork_feature_text &&
               announcement.turknetwork_feature_url && (
                 <>
-                  <a href={announcement.events_url} class="hover:text-primary font-bold underline">
+                  <a href={announcement.events_url} class="hover:text-primary font-bold underline py-1">
                     {announcement.events_link_text}
                   </a>
                   &nbsp;|&nbsp;
-                  <a href={announcement.turknetwork_feature_url} class="hover:text-primary font-bold underline">
+                  <a href={announcement.turknetwork_feature_url} class="hover:text-primary font-bold underline py-1">
                     {announcement.turknetwork_feature_text}
                   </a>
                 </>

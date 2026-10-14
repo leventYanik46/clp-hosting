@@ -32,7 +32,7 @@ contactForm:
     açık ve zamanında başvurular.
 post:
   title: Aile Temelli Göçmenlik
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/family-walking.jpg
   content: >
 
     <p>Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada

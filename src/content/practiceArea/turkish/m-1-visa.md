@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: M-1 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/student-at-laptop.jpg
   content: >
 
     <p>M-1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

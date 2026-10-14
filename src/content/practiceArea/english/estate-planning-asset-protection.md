@@ -34,7 +34,7 @@ contactForm:
     guide family transitions with clarity.
 post:
   title: Estate Planning & Asset Protection
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/elderly-hands-ring.jpg
   content: >
 
     <p>Comprehensive estate strategies that preserve wealth, minimize risk, and

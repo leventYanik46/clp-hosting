@@ -4,6 +4,7 @@ excerpt: >-
   How the O-1 visa works, the O-1A and O-1B criteria, and the evidence strategy for proving extraordinary ability to USCIS.
 category: Business Immigration Law
 lang: en
+service: o-1a-visa
 tags:
   - Immigration
   - Business law
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [O-1A Visa](/practice-area/key-services/o-1a-visa) page or [schedule a consultation](/schedule).*

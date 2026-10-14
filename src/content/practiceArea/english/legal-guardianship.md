@@ -34,7 +34,7 @@ contactForm:
     respecting family dynamics.
 post:
   title: Legal Guardianship
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/adult-child-hands.jpg
   content: >
 
     <p>Guardianship solutions that safeguard minors or vulnerable adults while

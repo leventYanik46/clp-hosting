@@ -6,6 +6,7 @@ excerpt: >-
   Application Requirements...
 category: Green Card
 lang: en
+service: green-card-for-parents
 image: /images/pexels-olly-3768168.jpg
 imageWidth: 5000
 imageHeight: 3333
@@ -86,18 +87,20 @@ At [Capitol Law Partners](https://capitollawpartners.com/), we evaluate parent s
 If you are considering applying for a Green Card for your parents, professional legal guidance from the very beginning can make a meaningful difference in both the process and the outcome.
 
 
-[Contact Us Now.](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
+[Contact Us Now.](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
 
-🟢Whatsapp [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
+🟢Whatsapp [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
 
-📞Phone [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
+📞Phone [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
 
-📩 [info@capitollawpartners.com](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)
+📩 [info@capitollawpartners.com](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)
 
-🔗[Instagram](https://www.instagram.com/capitollawpartners?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)[](https://www.instagram.com/capitollawpartners?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==) 
+🔗[Instagram](https://www.instagram.com/capitollawpartners?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)[](https://www.instagram.com/capitollawpartners?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==) 
 
-🌐 [capitollawpartners.com](https://capitollawpartners.com/)
+🌐 [capitollawpartners.com](https://capitollawpartners.com/)
 
 [](https://capitollawpartners.com/)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Petitioning for a parent or child? Our attorneys prepare [green cards for parents and children](/practice-area/key-services/green-card-for-parents) from the I-130 through adjustment or consular processing.*

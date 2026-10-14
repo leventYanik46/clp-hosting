@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Mehmet Y. Turkoglu
-  role: Avukat
+  role: Of Counsel
   bio:
     - >-
       Mehmet Y. Turkoglu, Capitol Law Partners PLLC’de göçmenlik avukatıdır.
@@ -133,12 +133,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Avukat
+    personJobTitle: Of Counsel
     personImage: ~/assets/images/mehmet-bio-new-team.jpeg
     person:
       givenName: Mehmet
       familyName: Turkoglu
-      jobTitle: Avukat
+      jobTitle: Of Counsel
       image: ~/assets/images/mehmet-bio-new-team.jpeg
       alumniOf:
         - type: EducationalOrganization

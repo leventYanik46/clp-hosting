@@ -13,7 +13,7 @@ import TrackingEvents from '~/components/common/TrackingEvents.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 import GlobalSearch from '~/components/search/GlobalSearch.astro';
 
-import type { MetaData as MetaDataType, SeoData } from '~/types';
+import type { MetaData as MetaDataType, SeoData, FaqItem } from '~/types';
 import { getLangFromPathname, type HreflangAlternate } from '~/data/seo';
 import type { SeoPageType, SeoArticleData } from '~/utils/seo/resolveSeo';
 
@@ -24,9 +24,10 @@ export interface Props {
   article?: SeoArticleData;
   languageAlternates?: HreflangAlternate[];
   ogLocaleAlternates?: string[];
+  faq?: FaqItem[];
 }
 
-const { metadata = {}, seo = {}, pageType = 'webpage', article, languageAlternates, ogLocaleAlternates } = Astro.props;
+const { metadata = {}, seo = {}, pageType = 'webpage', article, languageAlternates, ogLocaleAlternates, faq } = Astro.props;
 const { language, textDirection } = I18N;
 const htmlLang = getLangFromPathname(Astro.url.pathname, language as 'en' | 'tr' | 'es' | 'pt' | 'fr');
 const shouldLoadNetlifyIdentity = Astro.url.pathname === '/';
@@ -47,6 +48,7 @@ const shouldLoadNetlifyIdentity = Astro.url.pathname === '/';
       article={article}
       languageAlternates={languageAlternates}
       ogLocaleAlternates={ogLocaleAlternates}
+      faq={faq}
     >
       <slot name="schema" slot="schema" />
     </Seo>

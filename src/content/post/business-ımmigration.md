@@ -7,6 +7,7 @@ excerpt: >-
   of the way. The article also compares strategic visa pathways for founders,
   executives, and international businesses entering the U.S. market.
 category: Business Immigration
+service: business-immigration
 tags:
   - law
   - ImmigrationLaw
@@ -111,3 +112,5 @@ Let's determine the most suitable employment-based immigration path for your goa
  
 
 Contact us at capitollawpartners.com.
+
+*Need help with this topic? See our [Business Immigration Overview](/practice-area/key-services/business-immigration) page or [schedule a consultation](/schedule).*

@@ -7,6 +7,7 @@ excerpt: >-
   conflict, protect assets, and make future healthcare and inheritance
   decisions easier to manage.
 category: Estate Planning
+service: estate-planning
 image: /images/estateplanning.jpg
 imageWidth: 5472
 imageHeight: 3648
@@ -138,3 +139,5 @@ precision with empathy to:
 \- Handle probate administration with care
 
 Your legacy deserves clarity and protection. Let our team help you build a secure future.
+
+*Need help with this topic? See our [Trusts & Estates Overview](/practice-area/estate-planning) page or [schedule a consultation](/schedule).*

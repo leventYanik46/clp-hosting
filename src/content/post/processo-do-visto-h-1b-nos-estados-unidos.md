@@ -6,6 +6,7 @@ excerpt: >-
   de status. Este guia resume as datas principais e os erros mais comuns.
 category: Visa
 lang: pt
+service: h-1b-visa
 image: /images/understanding-the-h-1b-visa-process.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -57,3 +58,5 @@ E a data em que o status H-1B normalmente passa a valer para o novo ano fiscal.
 * presumir que ser selecionado na loteria significa aprovacao garantida.
 
 Na **Capitol Law Partners** auxiliamos empregadores e profissionais em todas as fases do caso H-1B, da estrategia inicial ao protocolo final.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Visto H-1B](/pt/practice-area/key-services/h-1b-visa) ou [agende uma consulta](/pt/schedule).*

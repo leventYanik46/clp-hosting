@@ -50,6 +50,7 @@ import { UI } from 'astrowind:config';
         return;
       }
       document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+      document.querySelector('[data-aw-toggle-menu]')?.setAttribute('aria-expanded', 'false');
       document.body.classList.remove('overflow-hidden');
       document.getElementById('header')?.classList.remove('h-screen');
       document.getElementById('header')?.classList.remove('expanded');
@@ -104,7 +105,11 @@ import { UI } from 'astrowind:config';
 
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
       elem.classList.toggle('expanded');
+      elem.setAttribute('aria-expanded', String(elem.classList.contains('expanded')));
       document.body.classList.toggle('overflow-hidden');
+      // The open menu fills the viewport below the header's current top edge (see #header.expanded in tailwind.css).
+      const headerEl = document.getElementById('header');
+      headerEl?.style.setProperty('--aw-header-offset', `${Math.max(0, headerEl.getBoundingClientRect().top)}px`);
       document.getElementById('header')?.classList.toggle('h-screen');
       document.getElementById('header')?.classList.toggle('expanded');
       document.getElementById('header')?.classList.toggle('bg-page');
@@ -149,6 +154,7 @@ import { UI } from 'astrowind:config';
     const screenSize = window.matchMedia('(max-width: 767px)');
     screenSize.addEventListener('change', function () {
       document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+      document.querySelector('[data-aw-toggle-menu]')?.setAttribute('aria-expanded', 'false');
       document.body.classList.remove('overflow-hidden');
       document.getElementById('header')?.classList.remove('h-screen');
       document.getElementById('header')?.classList.remove('expanded');
@@ -161,6 +167,7 @@ import { UI } from 'astrowind:config';
     const handleDesktopScreen = (event) => {
       if (event.matches) {
         document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+        document.querySelector('[data-aw-toggle-menu]')?.setAttribute('aria-expanded', 'false');
         document.body.classList.remove('overflow-hidden');
         document.getElementById('header')?.classList.remove('h-screen');
         document.getElementById('header')?.classList.remove('expanded');
@@ -201,6 +208,7 @@ import { UI } from 'astrowind:config';
     const elem = document.querySelector('[data-aw-toggle-menu]');
     if (elem) {
       elem.classList.remove('expanded');
+      elem.setAttribute('aria-expanded', 'false');
     }
     document.body.classList.remove('overflow-hidden');
     document.getElementById('header')?.classList.remove('h-screen');

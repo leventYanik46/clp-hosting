@@ -8,6 +8,7 @@ excerpt: >-
   temel adımları açıklar.
 category: Amerika Vizesi
 lang: tr
+service: citizenship-and-naturalization
 image: /images/family-based-attorney.jpg
 imageWidth: 5472
 imageHeight: 3648
@@ -121,3 +122,5 @@ Doğru yönlendirme ve hukuki destekle vatandaşlık başvurunuzu güvenle tamam
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

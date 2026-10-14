@@ -6,6 +6,7 @@ excerpt: >-
   strategy. Quick contact via our website. Reach out today and protect your
   rights..
 category: Legal Advice
+service: general-counsel-services
 image: /images/pexels-ekaterina-bolovtsova-6077797.jpg
 imageWidth: 1000
 imageHeight: 1060
@@ -65,3 +66,5 @@ If you're seeking trusted legal advice, our team is here to help. We work closel
 **Get in touch with us through our website** to schedule a consultation or ask your initial questions. Our experienced team will listen, assess your case, and offer a clear, honest path forward.
 
 Finding the right legal guidance is essential to protecting your rights and achieving the best outcome. By choosing a qualified law firm with experience in your legal area, you’ll gain peace of mind, and a strategy that’s built for success.
+
+*Need help with this topic? See our [General Counsel & Advisory Services](/practice-area/general-counsel-services) page or [schedule a consultation](/schedule).*

@@ -2,10 +2,16 @@
 import { Icon } from 'astro-icon/components';
 ---
 
-<span class="fixed top-32 md:top-auto md:bottom-4 right-4">
-  <div class="w-10 h-10 sm:w-14 sm:h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
-    <a href="https://wa.me/12024402272" target="_blank" rel="noopener noreferrer" data-analytics-whatsapp>
-        <Icon name="tabler:brand-whatsapp" class="w-8 h-8 text-white" />
-    </a>
-  </div>
+{/* z-30 keeps the bubble underneath the open mobile menu (header is z-40); the link itself is the 48px+ tap target. */}
+<span class="fixed z-30 top-32 md:top-auto md:bottom-4 right-4">
+  <a
+    href="https://wa.me/12024402272"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-analytics-whatsapp
+    aria-label="Chat with us on WhatsApp"
+    class="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-green-500 rounded-full shadow-lg"
+  >
+    <Icon name="tabler:brand-whatsapp" class="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+  </a>
 </span>

@@ -4,6 +4,7 @@ excerpt: >-
   What the EB-1C requires for transferred executives and managers, and how it connects to the L-1A intracompany transfer visa.
 category: Business Immigration Law
 lang: en
+service: eb-1c-green-card
 tags:
   - Immigration
   - Green Card
@@ -40,3 +41,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [EB-1C Multinational Manager](/practice-area/key-services/eb-1c-green-card) page or [schedule a consultation](/schedule).*

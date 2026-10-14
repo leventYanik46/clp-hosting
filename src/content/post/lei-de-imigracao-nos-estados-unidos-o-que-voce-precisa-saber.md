@@ -6,6 +6,7 @@ excerpt: >-
   guia resume as rotas mais comuns e os desafios que exigem orientacao legal.
 category: Imigracao
 lang: pt
+service: immigration-law
 image: /images/immigraiton-law.jpg
 imageWidth: 5760
 imageHeight: 3840
@@ -51,3 +52,5 @@ Residentes permanentes podem buscar a cidadania quando cumprem os requisitos de 
 * incertezas ligadas a cotas e politicas administrativas.
 
 Na **[Capitol Law Partners](https://capitollawpartners.com/)** ajudamos clientes a escolher a melhor categoria, preparar peticoes e responder exigencias de USCIS com estrategia e clareza.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Direito de Imigração](/pt/practice-area/immigration-law) ou [agende uma consulta](/pt/schedule).*

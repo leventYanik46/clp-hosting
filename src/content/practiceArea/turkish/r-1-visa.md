@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: R-1 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/us-flag-closeup.jpg
   content: >
 
     <p>R-1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

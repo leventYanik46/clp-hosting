@@ -3,6 +3,7 @@ title: Apply for a US Visa As a Healthcare Professionals
 excerpt: ' Foreign doctors, nurses, and healthcare professionals can work in the U.S. through visa sponsorship, credential verification, and state licensing. Capitol Law Partners offers legal guidance throughout this process.'
 category: 'Immigration '
 lang: en
+service: immigration-law
 image: /images/pexels-pixabay-40568.jpg
 imageWidth: 3000
 imageHeight: 2000
@@ -76,3 +77,5 @@ At [Capitol Law Partners](https://capitollawpartners.com/), we help healthcare p
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

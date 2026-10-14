@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: H-3 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-visa-pages.jpg
   content: >
 
     <p>Our H-3 Visa services guide you through eligibility, petition strategy,

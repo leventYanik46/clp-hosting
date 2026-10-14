@@ -8,6 +8,7 @@ excerpt: >-
   student visa risks.
 category: Visa Refused
 lang: en
+service: f-1-visa
 tags:
   - Visa Refused
   - F-1 Visa
@@ -169,3 +170,5 @@ Whatsapp [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce
 Phone [+1 (202) 440-2272](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2) 
 
 [info@capitollawpartners.com](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)
+
+*Need help with this topic? See our [F-1 Student Visa](/practice-area/key-services/f-1-visa) page or [schedule a consultation](/schedule).*

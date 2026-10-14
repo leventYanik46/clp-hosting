@@ -53,7 +53,7 @@ contactForm:
     şefkatli temsil.
 post:
   title: Haksız Ölüm
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/lady-justice-statue.jpg
   content: >
 
     <p>Compassionate representation for families seeking accountability and

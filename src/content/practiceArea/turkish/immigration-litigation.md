@@ -32,7 +32,7 @@ contactForm:
     davalar.
 post:
   title: Göçmenlik Davaları
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/courthouse.jpg
   content: >
 
     <p>Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari

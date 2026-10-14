@@ -6,6 +6,7 @@ excerpt: >-
   Başvuru Yapmak İçin Gerekli Şartlar..
 category: Green Card
 lang: tr
+service: green-card-for-parents
 image: /images/pexels-olly-3768168.jpg
 imageWidth: 5000
 imageHeight: 3333
@@ -89,3 +90,5 @@ Eğer anne veya babanız için Green Card başvurusu yapmayı düşünüyorsanı
 
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Green Card for Parents](/practice-area/key-services/green-card-for-parents) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

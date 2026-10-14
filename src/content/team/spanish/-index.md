@@ -19,7 +19,7 @@ sections:
             href: /es/our-team/cagatay
             target: _blank
         image:
-          src: ~/assets/images/cagatay-bio-new-team.jpeg
+          src: ~/assets/images/cagatay-bio-team-9x8.jpeg
           alt: Agendar una cita
       - title: Sena Sahin
         tagline: Fundadora y Socia Directora
@@ -35,7 +35,7 @@ sections:
             href: /es/our-team/sena
             target: _blank
         image:
-          src: ~/assets/images/sena-bio-new-team.jpeg
+          src: ~/assets/images/sena-bio-team-9x8.jpeg
           alt: Agendar una cita
       - title: Esra Nur Bulan
         tagline: Abogada
@@ -51,10 +51,10 @@ sections:
             href: /es/our-team/esra
             target: _blank
         image:
-          src: ~/assets/images/esra-bio-new-team.jpeg
+          src: ~/assets/images/esra-bio-team-9x8.jpeg
           alt: Imagen de plano
       - title: Mehmet Y. Turkoglu
-        tagline: Abogado
+        tagline: Of Counsel
         subtitle: Trabajemos juntos
         bottomtag: >-
           Asilo | Basado en la familia | Naturalización | Inmigración basada en
@@ -69,7 +69,7 @@ sections:
             href: /es/our-team/mehmet
             target: _blank
         image:
-          src: ~/assets/images/mehmet-bio-new-team.jpeg
+          src: ~/assets/images/mehmet-bio-team-9x8.jpeg
           alt: Mehmet Y. Turkoglu
       - title: Omar Bississo
         tagline: Abogado de Defensa Penal
@@ -85,8 +85,20 @@ sections:
             href: /es/our-team/omar
             target: _blank
         image:
-          src: ~/assets/images/omar-bio-new-team.jpeg
+          src: ~/assets/images/omar-bio-team-9x8.jpeg
           alt: Omar Bississo
+      - title: Volkan D.
+        tagline: Auxiliar jurídico
+        subtitle: Trabajemos juntos
+        bottomtag: Investigación jurídica | Preparación de casos
+        actions:
+          - variant: primary
+            text: Contácteme
+            href: /es/contact
+            target: _blank
+        image:
+          src: ~/assets/images/volkan-bio-team-9x8.jpeg
+          alt: Volkan D.
   - wrapper: w-full
     members:
       - title: null
@@ -99,15 +111,42 @@ sections:
             target: _blank
   - wrapper: w-full grid grid-cols-1 md:grid-cols-2 gap-4
     members:
-      - title: Said Murat
-        subtitle: Jefe de marketing digital y marca
-        tagline: Director de marketing
+      - title: Deniz Simay Oral
+        subtitle: Relaciones con Clientes, Coordinación de Admisión y Comunicación de Casos
+        tagline: Directora de relaciones con clientes
+        actions:
+          - variant: primary
+            text: Contácteme
+            href: https://wa.me/12024402272
+            target: _blank
+        image:
+          src: ~/assets/images/deniz-bio-team-9x8.jpeg
+          alt: Deniz Simay Oral
       - title: Levent Yanik
         subtitle: Desarrollo Web, Optimización de Búsqueda e Ingeniería de Sistemas
         tagline: Líder Técnico
+        image:
+          src: ~/assets/images/levent-bio-team-9x8.jpeg
+          alt: Levent Yanik
+      - title: null
+        subtitle: Tukez Q.
+        tagline: Especialista en admisión de clientes
+        actions:
+          - variant: primary
+            text: Contácteme
+            href: https://wa.me/12024402272
+            target: _blank
+      - title: null
+        subtitle: Kilare M.
+        tagline: Especialista en admisión de clientes
+        actions:
+          - variant: primary
+            text: Contácteme
+            href: https://wa.me/12024402272
+            target: _blank
       - title: null
         subtitle: Burak C.
-        tagline: Gestor sénior de casos
+        tagline: Analista de investigación
       - title: null
         subtitle: Dr. Ahmet B.
         tagline: Gestor sénior de casos
@@ -135,16 +174,12 @@ sections:
       - title: null
         subtitle: Bektas D.
         tagline: Gestor de casos
-  - wrapper: w-full
-    members:
       - title: null
-        subtitle: Kilare M.
+        subtitle: Busra G.
         tagline: Asistente legal
-        actions:
-          - variant: primary
-            text: Contácteme
-            href: https://wa.me/12024402272
-            target: _blank
+      - title: null
+        subtitle: Burak S.
+        tagline: Pasante
 seo:
   title: "Conozca al equipo de Capitol Law Partners"
   description: Conozca a nuestro equipo y agende una cita con nuestros expertos.

@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: J-1 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/laptop-coffee-work.jpg
   content: >
 
     <p>Our J-1 Visa services guide you through eligibility, petition strategy,

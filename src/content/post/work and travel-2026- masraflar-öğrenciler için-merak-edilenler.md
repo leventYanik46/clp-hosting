@@ -1,5 +1,5 @@
 ---
-title: "Work\_and\_Travel 2026:\_Masraflar, Öğrenciler\_İçin Merak Edilenler\_"
+title: "Work and Travel 2026: Masraflar, Öğrenciler İçin Merak Edilenler "
 excerpt: >-
   Work and Travel programı, üniversite öğrencilerine hem Amerika’da çalışma
   deneyimi kazanma hem de kültürel değişim fırsatı sunan en popüler yaz dönemi
@@ -8,6 +8,7 @@ excerpt: >-
   ettiği konular uzman bakışıyla ele alınıyor. 
 category: Work and Travel
 lang: tr
+service: j-1-visa
 image: /images/work-and-travel.jpg
 imageWidth: 5998
 imageHeight: 4000
@@ -231,3 +232,5 @@ Work and Travel başvuru süreci, evrak hazırlığı, vize mülakatı ve progra
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [J-1 Vizesi](/tr/practice-area/key-services/j-1-visa) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

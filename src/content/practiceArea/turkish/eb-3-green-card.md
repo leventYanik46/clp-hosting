@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: EB-3 Yeşil Kart
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-pink-sky.jpg
   content: >
 
     <p>EB-3 Yeşil Kart hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

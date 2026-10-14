@@ -1,0 +1,14 @@
+---
+import ServicePage from '~/components/widgets/ServicePage.astro';
+import { getServiceStaticPaths, type ServicePageProps } from '~/utils/servicePages';
+
+// One route per language that has a content file for this service
+// (src/content/practiceArea/<language>/trademark-enforcement-and-ttab-proceedings.md).
+export async function getStaticPaths() {
+  return getServiceStaticPaths('trademark-enforcement-and-ttab-proceedings');
+}
+
+const { entry, lang, availableLangs } = Astro.props as ServicePageProps;
+---
+
+<ServicePage entry={entry} lang={lang} availableLangs={availableLangs} />

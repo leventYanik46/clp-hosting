@@ -4,6 +4,7 @@ excerpt: >-
   Visa and green card strategy for Virginia tech employers, from H-1B and O-1 hiring to retaining engineers through permanent residence.
 category: Business Immigration Law
 lang: en
+service: business-immigration
 tags:
   - Immigration
   - Business law
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [Business Immigration Overview](/practice-area/key-services/business-immigration) page or [schedule a consultation](/schedule).*

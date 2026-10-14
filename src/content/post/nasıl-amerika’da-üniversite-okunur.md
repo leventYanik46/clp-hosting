@@ -10,6 +10,7 @@ excerpt: >-
   ve başvuru takviminin doğru yönetilmesi gibi kritik konulara da odaklanır.
 category: Amerika'da Eğitim
 lang: tr
+service: f-1-visa
 image: /images/amerika-da-nasıl-üniversite-okunur-.jpg
 imageWidth: 4416
 imageHeight: 2488
@@ -158,3 +159,5 @@ Bize Ulaşın. 
 📧[info@capitollawpartners.com](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [F-1 Vizesi](/tr/practice-area/key-services/f-1-visa) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

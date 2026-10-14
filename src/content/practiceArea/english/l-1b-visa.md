@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: L-1B Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/international-business-signing.jpg
   content: >
 
     <p>Our L-1B Visa services guide you through eligibility, petition strategy,

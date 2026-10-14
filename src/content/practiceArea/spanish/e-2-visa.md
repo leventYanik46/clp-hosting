@@ -34,7 +34,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Visa E-2
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/two-passports-boarding-passes.jpg
   content: >
 
     <p>Nuestros servicios de Visa E-2 te guían en elegibilidad, estrategia de

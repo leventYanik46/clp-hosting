@@ -5,6 +5,7 @@ excerpt: FIFA World Cup is not just about football. For many, it is
   opportunity to explore the U.S. market in a real and practical way.
 category: FIFA WORLD CUP
 lang: en
+service: investor-and-treaty-visas
 tags:
   - fifa world cup
   - USA
@@ -34,3 +35,5 @@ If you are already planning to attend the World Cup, this trip could become more
 📞 Phone / WhatsApp: +1 (202) 440-2272
 📧 Email: [info@capitollawpartners.com](<>)
 🌐 Website: [https://www.capitollawpartners.com](<>)
+
+*Need help with this topic? See our [Investor & Treaty Visas Overview](/practice-area/key-services/investor-and-treaty-visas) page or [schedule a consultation](/schedule).*

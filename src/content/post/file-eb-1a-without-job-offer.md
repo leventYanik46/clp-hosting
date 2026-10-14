@@ -4,6 +4,7 @@ excerpt: >-
   Yes. The EB-1A is self-petitioned and needs no employer or job offer. Here's what you must show instead and the evidence USCIS expects.
 category: Business Immigration Law
 lang: en
+service: eb-1a-green-card
 tags:
   - Immigration
   - Green Card
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [EB-1A Extraordinary Ability](/practice-area/key-services/eb-1a-green-card) page or [schedule a consultation](/schedule).*

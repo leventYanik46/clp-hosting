@@ -7,6 +7,7 @@ excerpt: >-
   professionnelle. Cette vue d'ensemble resume les etapes essentielles.
 category: Immigration et licence professionnelle
 lang: fr
+service: business-employment-immigration-solutions
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
@@ -78,3 +79,4 @@ Chez **Capitol Law Partners**, nous aidons les ingenieurs etrangers a coordonner
 leur strategie de licence professionnelle avec leur strategie migratoire afin de
 limiter les retards et les erreurs.
 
+*Besoin d'aide sur ce sujet ? Consultez notre page [Solutions d'Immigration d'Affaires et d'Emploi](/fr/practice-area/key-services/business-employment-immigration-solutions) ou [prenez rendez-vous](/fr/schedule).*

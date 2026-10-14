@@ -8,6 +8,7 @@ excerpt: >-
   opción para la familia.
 category: Green Card
 lang: es
+service: green-card-for-parents
 image: /images/pexels-olly-3768168.jpg
 imageWidth: 5000
 imageHeight: 3333
@@ -61,3 +62,5 @@ Los residentes permanentes deben pasar tiempo real en Estados Unidos y también 
 * expectativas reales sobre tiempos de procesamiento.
 
 En **[Capitol Law Partners](https://capitollawpartners.com/)** analizamos estos casos no solo desde el punto de vista legal, sino también desde sus consecuencias prácticas y familiares a largo plazo. Una buena estrategia desde el inicio puede evitar demoras, errores y decisiones migratorias poco convenientes.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Green Card for Parents](/practice-area/key-services/green-card-for-parents) o [programe una consulta](/es/schedule).*

@@ -34,7 +34,7 @@ contactForm:
     tout en respectant la dynamique familiale.
 post:
   title: Tutelle Légale
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/adult-child-hands.jpg
   content: >
 
     <p>Solutions de tutelle qui protègent les mineurs ou les adultes vulnérables

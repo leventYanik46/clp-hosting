@@ -6,6 +6,7 @@ excerpt: >-
   employers. It also explains cap-season timing, employer documentation,
   specialty occupation standards, and common mistakes that can delay approval.
 category: Visa
+service: h-1b-visa
 image: /images/understanding-the-h-1b-visa-process.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -91,3 +92,5 @@ Employment start date -- Oct 1, 2025 
 * Be ready to begin work on October 1 
 
 At **[Capitol Law Partners](<>)**, we guide clients through every step of the H-1B process, from employer sponsorship to visa issuance, ensuring deadlines are met and documentation is flawless. With the right preparation and guidance, your path to working in the United States can be a clear and confident one.
+
+*Need help with this topic? See our [H-1B Specialty Occupation](/practice-area/key-services/h-1b-visa) page or [schedule a consultation](/schedule).*

@@ -8,6 +8,7 @@ excerpt: >-
   erreurs qui peuvent nuire a de futures demandes de visa.
 category: Visa et Green Card
 lang: fr
+service: immigration-law
 image: /images/b1-b2visa.jpg
 imageWidth: 1280
 imageHeight: 720
@@ -74,3 +75,4 @@ Chez **[Capitol Law Partners](https://capitollawpartners.com/)**, nous aidons
 les voyageurs, les entrepreneurs et les familles a definir le bon objectif de
 voyage et a utiliser le visa B1/B2 en conformite avec les regles americaines.
 
+*Besoin d'aide sur ce sujet ? Consultez notre page [Droit de l’immigration](/fr/practice-area/immigration-law) ou [prenez rendez-vous](/fr/schedule).*

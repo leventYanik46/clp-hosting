@@ -32,7 +32,7 @@ contactForm:
     mahkeme uyumluluğu ile.
 post:
   title: Vasiyetçilik
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/desk-document-review.jpg
   content: >
 
     <p>Varlıkları yönetemeyen kişiler için şeffaf raporlama ve mahkeme 

@@ -29,12 +29,12 @@ export const BLOCKED_ROOT_BLOG_CATEGORY_REDIRECTS: Record<string, string> = {
   'gocmenlik-hukuku': 'tr/category/gocmenlik-hukuku',
   'gocmenlik-ve-mesleki-lisanslama': 'tr/category/gocmenlik-ve-mesleki-lisanslama',
   'green-card-basvurusu': 'tr/category/green-card-basvurusu',
-  'i-130': 'whatis-form-i-130-2025-update',
+  'i-130': 'what-is-form-i-130-2025-update',
   'immigration-mandamus-lawsuits': 'immigration-mandamus-lawsuits',
   'removal-proceedings': 'removal-proceedings',
   'visa': 'understanding-the-h-1b-visa-process',
   'vize-and-green-card': 'tr/category/vize-and-green-card',
-  'writ-of-mandamus': 'whatis-a-writ-ofmandamus',
+  'writ-of-mandamus': 'what-is-a-writ-of-mandamus',
 };
 
 const BLOCKED_TURKISH_BLOG_CATEGORY_SLUGS = [

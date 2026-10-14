@@ -4,20 +4,21 @@ excerpt: >-
   Concrete evidence types that strengthen an EB-2 NIW petition and how to document national importance under the Dhanasar prongs.
 category: Business Immigration Law
 lang: en
+service: eb-2-niw-green-card
 tags:
   - Immigration
   - Green Card
 image: /images/eb-2-niw-evidence-examples.jpg
 publishDate: 2026-07-29T09:01:10.646-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/eb-2-niw-evidence-examples
+  canonical: https://capitollawpartners.com/eb-2-niw-evidence-examples
   description: >-
     Evidence types that strengthen an EB-2 NIW petition and how to document national importance under Dhanasar.
   title: "EB-2 NIW Evidence Examples That Win Waivers"
 seo:
   description: >-
     Evidence types that strengthen an EB-2 NIW petition and how to document national importance under Dhanasar.
-  canonicalOverride: https://capitollawpartners.com/blog/eb-2-niw-evidence-examples
+  canonicalOverride: https://capitollawpartners.com/eb-2-niw-evidence-examples
   title: "EB-2 NIW Evidence Examples That Win Waivers"
 ---
 A strong EB-2 NIW petition lives or dies on its evidence. The Dhanasar framework gives you the three questions to answer. The evidence is how you answer them convincingly. Here are the categories that consistently carry weight and how to use them.
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Considering a National Interest Waiver? Our [EB-2 NIW attorneys](/practice-area/key-services/eb-2-niw-green-card) evaluate your case against the three Dhanasar prongs and prepare the petition from strategy through filing.*

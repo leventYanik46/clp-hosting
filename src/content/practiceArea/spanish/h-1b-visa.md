@@ -34,7 +34,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Visa H-1B
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-and-cards.jpg
   content: >
 
     <p>Nuestros servicios de Visa H-1B te guían en elegibilidad, estrategia de

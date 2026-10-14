@@ -35,7 +35,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Corporate Governance & Internal Policies
-  image: ~/assets/images/precision-img.jpg
+  image: ~/assets/images/capitol-law-partners.jpg
   content: >
 
     <p>Our Corporate Governance & Internal Policies service supports businesses

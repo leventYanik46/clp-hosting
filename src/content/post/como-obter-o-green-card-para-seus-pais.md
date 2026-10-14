@@ -6,6 +6,7 @@ excerpt: >-
   Este guia explica requisitos, etapas e consideracoes praticas antes do pedido.
 category: Green Card
 lang: pt
+service: green-card-for-parents
 image: /images/pexels-olly-3768168.jpg
 imageWidth: 5000
 imageHeight: 3333
@@ -54,3 +55,5 @@ Alguns pais nao pretendem morar permanentemente nos EUA e preferem apenas visita
 Quando o caso e conduzido dentro dos EUA, normalmente ha limitacoes de viagem ate a emissao da autorizacao apropriada. Esse detalhe precisa ser explicado desde o inicio.
 
 Na **[Capitol Law Partners](https://capitollawpartners.com/)** avaliamos pedidos para pais de forma estrategica, considerando o aspecto juridico e o impacto pratico de longo prazo para a familia.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Green Card for Parents](/practice-area/key-services/green-card-for-parents) ou [agende uma consulta](/pt/schedule).*

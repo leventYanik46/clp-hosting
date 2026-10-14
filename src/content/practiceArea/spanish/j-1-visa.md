@@ -34,7 +34,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Visa J-1
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/laptop-coffee-work.jpg
   content: >
 
     <p>Nuestros servicios de Visa J-1 te guían en elegibilidad, estrategia de

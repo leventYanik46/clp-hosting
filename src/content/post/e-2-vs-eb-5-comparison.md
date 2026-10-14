@@ -4,6 +4,7 @@ excerpt: >-
   A comparison of the E-2 and EB-5 investor routes on investment size, permanence, and timeline to help you choose.
 category: Business Immigration Law
 lang: en
+service: investor-and-treaty-visas
 tags:
   - Immigration
   - Green Card
@@ -40,3 +41,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [Investor & Treaty Visas Overview](/practice-area/key-services/investor-and-treaty-visas) page or [schedule a consultation](/schedule).*

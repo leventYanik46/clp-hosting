@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: P-2 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/migration-letter-tiles.jpg
   content: >
 
     <p>P-2 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

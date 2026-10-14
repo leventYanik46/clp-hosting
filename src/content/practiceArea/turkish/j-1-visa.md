@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: J-1 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/laptop-coffee-work.jpg
   content: >
 
     <p>J-1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

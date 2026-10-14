@@ -9,6 +9,7 @@ excerpt: >-
   perspective. 
 category: Work and Travel
 lang: en
+service: j-1-visa
 image: /images/work-and-travel.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -224,3 +225,5 @@ The Work and Travel application process, document preparation, visa interview, a
 
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Need help with this topic? See our [J-1 Exchange Visitor](/practice-area/key-services/j-1-visa) page or [schedule a consultation](/schedule).*

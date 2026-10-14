@@ -7,6 +7,7 @@ excerpt: >-
   migratorias frecuentes.
 category: Inmigracion
 lang: es
+service: immigration-law
 image: /images/pexels-pixabay-40568.jpg
 imageWidth: 3000
 imageHeight: 2000
@@ -65,3 +66,5 @@ Trabajar en salud en Estados Unidos puede ofrecer salarios competitivos y gran p
 * adaptacion al sistema sanitario y laboral estadounidense.
 
 En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a los profesionales de la salud a estructurar el componente migratorio del proceso, desde la visa hasta la coordinacion con los requisitos de licencia.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Derecho Migratorio](/es/practice-area/immigration-law) o [programe una consulta](/es/schedule).*

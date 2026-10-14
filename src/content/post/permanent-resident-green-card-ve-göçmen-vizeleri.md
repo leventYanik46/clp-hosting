@@ -7,6 +7,7 @@ excerpt: >-
   hukuki destek başvurunun başarısı açısından kritik öneme sahiptir.
 category: Green Card
 lang: tr
+service: immigration-law
 image: /images/pexels-rdne-7997404.jpg
 imageWidth: 6720
 imageHeight: 4480
@@ -75,3 +76,5 @@ Doğru yönlendirme ve hukuki destekle vize sürecinizi güvenle tamamlamak içi
 
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

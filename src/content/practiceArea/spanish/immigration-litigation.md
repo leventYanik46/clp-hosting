@@ -34,7 +34,7 @@ contactForm:
     decisiones migratorias adversas.
 post:
   title: Litigios de Inmigración
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/courthouse.jpg
   content: >
 
     <p>Litigios federales y administrativos para impugnar denegaciones, retrasos

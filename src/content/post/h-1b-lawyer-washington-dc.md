@@ -4,6 +4,7 @@ excerpt: >-
   How Capitol Law Partners helps Washington, DC-area employers sponsor H-1B workers, from lottery registration through petition filing.
 category: Business Immigration Law
 lang: en
+service: h-1b-visa
 tags:
   - Immigration
   - H-1B
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [H-1B Specialty Occupation](/practice-area/key-services/h-1b-visa) page or [schedule a consultation](/schedule).*

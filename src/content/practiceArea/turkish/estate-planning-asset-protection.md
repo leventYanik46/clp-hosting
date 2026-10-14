@@ -32,7 +32,7 @@ contactForm:
     yönlendiren kapsamlı miras stratejileri.
 post:
   title: Miras Planlaması ve Varlık Koruma
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/elderly-hands-ring.jpg
   content: >
 
     <p>Varlığı koruyan, riski en aza indiren ve aile geçişlerini netlikle

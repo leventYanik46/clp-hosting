@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: E-3 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-stamps-bed.jpg
   content: >
 
     <p>Our E-3 Visa services guide you through eligibility, petition strategy,

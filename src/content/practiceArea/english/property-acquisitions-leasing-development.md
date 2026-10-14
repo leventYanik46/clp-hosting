@@ -34,7 +34,7 @@ contactForm:
     keep investments on track.
 post:
   title: Property Acquisitions, Leasing, and Development
-  image: ~/assets/images/real-estate.jpg
+  image: ~/assets/images/practice-areas/keys-in-door.jpg
   content: >
 
     <p>Strategic guidance for acquisitions, leasing, and development projects to

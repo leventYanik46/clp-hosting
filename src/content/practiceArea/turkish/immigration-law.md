@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: Göçmenlik Hukuku
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/statue-of-liberty.jpg
   content: >
 
     <ul>

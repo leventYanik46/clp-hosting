@@ -36,7 +36,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Derecho Migratorio
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/statue-of-liberty.jpg
   content: >
 
     <ul>

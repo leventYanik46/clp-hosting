@@ -18,37 +18,7 @@ export const headerData = {
     },
     {
       text: 'Practice Areas',
-      links: [
-        {
-          text: 'General Counsel & Advisory Services',
-          href: getPermalink('/practice-area/general-counsel-services'),
-        },
-        {
-          text: 'Business & Corporate Law',
-          href: getPermalink('/practice-area/business-corporate-law'),
-        },
-
-        {
-          text: 'Trusts & Estates',
-          href: getPermalink('/practice-area/estate-planning'),
-        },
-        {
-          text: 'Real Estate',
-          href: getPermalink('/practice-area/real-estate'),
-        },
-        {
-          text: 'Intellectual Property Law',
-          href: getPermalink('/practice-area/ip-law'),
-        },
-        {
-          text: 'Immigration Law',
-          href: getPermalink('/practice-area/immigration-law'),
-        },
-        {
-          text: 'Personal Injury Law',
-          href: getPermalink('/practice-area/personal-injury-law'),
-        },
-      ],
+      mega: true,
     },
     {
       text: 'Our Team',
@@ -104,36 +74,7 @@ export const headerDataTr = {
     },
     {
       text: 'Çalışma Alanları',
-      links: [
-        {
-          text: 'Genel Hukuk Müşavirliği ve Danışmanlık',
-          href: getPermalink('/tr/practice-area/general-counsel-services'),
-        },
-        {
-          text: 'İş ve Şirketler Hukuku',
-          href: getPermalink('/tr/practice-area/business-corporate-law'),
-        },
-        {
-          text: 'Vasiyet ve Miras Hukuku',
-          href: getPermalink('/tr/practice-area/estate-planning'),
-        },
-        {
-          text: 'Gayrimenkul Hukuku',
-          href: getPermalink('/tr/practice-area/real-estate'),
-        },
-        {
-          text: 'Fikri Mülkiyet Hukuku',
-          href: getPermalink('/tr/practice-area/ip-law'),
-        },
-        {
-          text: 'Göçmenlik Hukuku',
-          href: getPermalink('/tr/practice-area/immigration-law'),
-        },
-        {
-          text: 'Kişisel Yaralanma Hukuku',
-          href: getPermalink('/tr/practice-area/personal-injury-law'),
-        },
-      ],
+      mega: true,
     },
     {
       text: 'Ekibimiz',
@@ -203,36 +144,7 @@ export const headerDataEs= {
     },
     {
       text: 'Áreas de Práctica',
-      links: [
-        {
-          text: 'Asesoría General y Servicios Consultivos',
-          href: getPermalink('/es/practice-area/general-counsel-services'),
-        },
-        {
-          text: 'Derecho Empresarial y Corporativo',
-          href: getPermalink('/es/practice-area/business-corporate-law'),
-        },
-        {
-          text: 'Fideicomisos y Sucesiones',
-          href: getPermalink('/es/practice-area/estate-planning'),
-        },
-        {
-          text: 'Derecho Inmobiliario',
-          href: getPermalink('/es/practice-area/real-estate'),
-        },
-        {
-          text: 'Propiedad Intelectual',
-          href: getPermalink('/es/practice-area/ip-law'),
-        },
-        {
-          text: 'Derecho Migratorio',
-          href: getPermalink('/es/practice-area/immigration-law'),
-        },
-        {
-          text: 'Lesiones Personales',
-          href: getPermalink('/es/practice-area/personal-injury-law'),
-        },
-      ],
+      mega: true,
     },
     {
       text: 'Nuestro Equipo',
@@ -289,36 +201,7 @@ export const headerDataFr = {
     },
     {
       text: 'Domaines de pratique',
-      links: [
-        {
-          text: 'Conseil juridique externe et services',
-          href: getPermalink('/fr/practice-area/general-counsel-services'),
-        },
-        {
-          text: 'Droit des affaires et des sociétés',
-          href: getPermalink('/fr/practice-area/business-corporate-law'),
-        },
-        {
-          text: 'Trusts et successions',
-          href: getPermalink('/fr/practice-area/estate-planning'),
-        },
-        {
-          text: 'Droit immobilier',
-          href: getPermalink('/fr/practice-area/real-estate'),
-        },
-        {
-          text: 'Propriété intellectuelle',
-          href: getPermalink('/fr/practice-area/ip-law'),
-        },
-        {
-          text: 'Droit de l’immigration',
-          href: getPermalink('/fr/practice-area/immigration-law'),
-        },
-        {
-          text: 'Préjudice Corporel',
-          href: getPermalink('/fr/practice-area/personal-injury-law'),
-        },
-      ],
+      mega: true,
     },
     {
       text: 'Notre équipe',
@@ -373,37 +256,7 @@ export const headerDataPt = {
     },
     {
       text: 'Áreas de Atuação',
-      links: [
-        {
-          text: 'Consultoria Jurídica Externa e Serviços de Assessoria',
-          href: getPermalink('/pt/practice-area/general-counsel-services'),
-        },
-        {
-          text: 'Direito Empresarial e Societário',
-          href: getPermalink('/pt/practice-area/business-corporate-law'),
-        },
-
-        {
-          text: 'Trusts e Sucessões',
-          href: getPermalink('/pt/practice-area/estate-planning'),
-        },
-        {
-          text: 'Direito Imobiliário',
-          href: getPermalink('/pt/practice-area/real-estate'),
-        },
-        {
-          text: 'Propriedade Intelectual',
-          href: getPermalink('/pt/practice-area/ip-law'),
-        },
-        {
-          text: 'Direito de Imigração',
-          href: getPermalink('/pt/practice-area/immigration-law'),
-        },
-        {
-          text: 'Direito de Lesões Pessoais',
-          href: getPermalink('/pt/practice-area/personal-injury-law'),
-        },
-      ],
+      mega: true,
     },
     {
       text: 'Nossa Equipe',
@@ -445,6 +298,11 @@ export const footerData = {
       links: [
         { text: 'About Us',  href: getPermalink('/about') },
         { text: 'Our Locations', href: getPermalink('/locations') },
+        { text: 'Washington, DC Office', href: getPermalink('/locations/washington-dc') },
+        { text: 'Herndon, VA Office', href: getPermalink('/locations/herndon-va') },
+        { text: 'New York Office', href: getPermalink('/locations/new-york') },
+        { text: 'Minneapolis Office', href: getPermalink('/locations/minneapolis') },
+        { text: 'Istanbul Office', href: getPermalink('/locations/istanbul') },
         { text: 'Contact Us', href: getPermalink('/contact') },
       ],
     },
@@ -516,6 +374,11 @@ export const footerDataTr = {
       links: [
         { text: 'Hakkımızda', href: getPermalink('/tr/about') },
         { text: 'Ofislerimiz', href: getPermalink('/tr/locations') },
+        { text: 'Washington, DC Ofisi', href: getPermalink('/locations/washington-dc') },
+        { text: 'Herndon, VA Ofisi', href: getPermalink('/locations/herndon-va') },
+        { text: 'New York Ofisi', href: getPermalink('/locations/new-york') },
+        { text: 'Minneapolis Ofisi', href: getPermalink('/locations/minneapolis') },
+        { text: 'İstanbul Ofisi', href: getPermalink('/locations/istanbul') },
         { text: 'Bize Ulaşın', href: getPermalink('/tr/contact') },
       ],
     },
@@ -586,6 +449,11 @@ export const footerDataSpanish = {
       links: [
         { text: 'Sobre Nosotros', href: getPermalink('/es/about') },
         { text: 'Nuestras Ubicaciones', href: getPermalink('/es/locations') },
+        { text: 'Oficina de Washington, DC', href: getPermalink('/locations/washington-dc') },
+        { text: 'Oficina de Herndon, VA', href: getPermalink('/locations/herndon-va') },
+        { text: 'Oficina de Nueva York', href: getPermalink('/locations/new-york') },
+        { text: 'Oficina de Minneapolis', href: getPermalink('/locations/minneapolis') },
+        { text: 'Oficina de Estambul', href: getPermalink('/locations/istanbul') },
         { text: 'Contáctenos', href: getPermalink('/es/contact') },
       ],
     },
@@ -657,6 +525,11 @@ export const footerDataFr = {
       links: [
         { text: 'À propos de nous', href: getPermalink('/fr/about') },
         { text: 'Nos bureaux', href: getPermalink('/fr/locations') },
+        { text: 'Bureau de Washington, DC', href: getPermalink('/locations/washington-dc') },
+        { text: 'Bureau de Herndon, VA', href: getPermalink('/locations/herndon-va') },
+        { text: 'Bureau de New York', href: getPermalink('/locations/new-york') },
+        { text: 'Bureau de Minneapolis', href: getPermalink('/locations/minneapolis') },
+        { text: 'Bureau d\'Istanbul', href: getPermalink('/locations/istanbul') },
         { text: 'Nous contacter', href: getPermalink('/fr/contact') },
       ],
     },
@@ -726,6 +599,11 @@ export const footerDataPt = {
       links: [
         { text: 'Sobre Nós', href: getPermalink('/pt/about') },
         { text: 'Nossos Escritórios', href: getPermalink('/pt/locations') },
+        { text: 'Escritório de Washington, DC', href: getPermalink('/locations/washington-dc') },
+        { text: 'Escritório de Herndon, VA', href: getPermalink('/locations/herndon-va') },
+        { text: 'Escritório de Nova York', href: getPermalink('/locations/new-york') },
+        { text: 'Escritório de Minneapolis', href: getPermalink('/locations/minneapolis') },
+        { text: 'Escritório de Istambul', href: getPermalink('/locations/istanbul') },
         { text: 'Fale Conosco', href: getPermalink('/pt/contact') },
       ],
     },

@@ -34,7 +34,7 @@ contactForm:
     case building.
 post:
   title: Medical Negligence
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/stethoscope-medical-form.jpg
   content: >
 
     <p>Holding providers accountable for preventable medical errors with

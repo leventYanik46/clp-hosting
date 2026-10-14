@@ -4,6 +4,7 @@ import Image from '~/components/common/Image.astro';
 import { getEntry} from 'astro:content';
 import { supportedLang } from '~/utils/lib/languageParser';
 import ContactUs from '~/components/widgets/Service.astro';
+import ServiceRelatedPosts from '~/components/widgets/ServiceRelatedPosts.astro';
 
 export function getStaticPaths() {
   // Return string (or undefined) for the `lang` param because this
@@ -50,12 +51,13 @@ const { metadata, seo, post, contactForm, hero } = entry.data;
         textarea={{ label: contactForm.textarea }}
         disclaimer={{ label: contactForm.disclaimer }}
         image={hero?.image}
+        readMoreHref="#overview"
       />
     )}
-    <article>
-      <header class="intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+    <article id="overview" class="scroll-mt-32">
+      <header class="intersect-once motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
         <h1
-          class="px-4 sm:px-6 max-w-3xl mb-16 mt-4 sm:mt-24 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+          class="px-4 sm:px-6 max-w-3xl mb-10 mt-4 sm:mt-10 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
         >
           {post.title}
         </h1>
@@ -85,5 +87,6 @@ const { metadata, seo, post, contactForm, hero } = entry.data;
         <Fragment set:html={post.content} />
       </div>
     </article>
+    <ServiceRelatedPosts slug="ip-law" lang={lang} pinned={seo?.strategy?.internalLinks ?? []} />
   </section>
 </Layout>

@@ -4,6 +4,7 @@ excerpt: New enforcement actions signal a major shift in how noncompete
   agreements will be scrutinized going forward.
 category: Business Law
 lang: en
+service: business-corporate-law
 tags:
   - FTC
   - Business law
@@ -51,3 +52,5 @@ The legal landscape around noncompetes is shifting fast. Whether you want to enf
 +1 (202) 440-2272  |  capitollawpartners.com
 
 **Disclaimer:** This article is for informational purposes only and does not constitute legal advice. Reading this content does not create an attorney-client relationship with Capitol Law Partners PLLC. For advice specific to your situation, please consult a qualified attorney.
+
+*Need help with this topic? See our [Business & Corporate Law Overview](/practice-area/business-corporate-law) page or [schedule a consultation](/schedule).*

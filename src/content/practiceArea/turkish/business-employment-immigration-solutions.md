@@ -32,7 +32,7 @@ contactForm:
     stratejileri.
 post:
   title: İş ve İstihdam Göçmenlik Çözümleri
-  image: ~/assets/images/business-immigration-img.jpg
+  image: ~/assets/images/practice-areas/employer-handshake.jpg
   content: >
 
     <p>Yetenekleri zamanında ve mevzuata uygun şekilde taşıyan iş gücü göçmenlik

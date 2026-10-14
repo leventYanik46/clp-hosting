@@ -1,0 +1,45 @@
+---
+import BlogHighlightedPosts from '~/components/widgets/BlogHighlightedPosts.astro';
+import { getPostsForService, RELATED_POSTS_COPY } from '~/utils/servicePosts';
+import { BLOG_BASE, getPermalink } from '~/utils/permalinks';
+import config from '~/config/config.json';
+
+export interface Props {
+  /** Practice-area slug (key service or hub), e.g. "eb-2-niw-green-card" or "immigration-law". */
+  slug: string;
+  lang?: string;
+  /** Hand-picked post URLs shown first, typically seo.strategy.internalLinks. */
+  pinned?: string[];
+  count?: number;
+  title?: string;
+  id?: string;
+}
+
+const { slug, lang, pinned = [], count = 4, title, id = 'related-articles' } = Astro.props;
+
+const { default_language, default_language_in_subdir } = config.settings;
+const resolveLang = lang || default_language;
+const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
+const pathPrefix = needsPrefix ? lang : '';
+const blogListUrl = getPermalink(pathPrefix ? `${pathPrefix}/${BLOG_BASE}` : BLOG_BASE, 'page');
+const copy = RELATED_POSTS_COPY[resolveLang] ?? RELATED_POSTS_COPY.en;
+
+const posts = await getPostsForService({ slug, lang: resolveLang, count, pinned });
+---
+
+{
+  posts.length > 0 && (
+    <BlogHighlightedPosts
+      id={id}
+      classes={{
+        container:
+          'pt-4 lg:pt-8 md:pt-6 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade',
+      }}
+      title={title ?? copy.title}
+      linkText={copy.link}
+      linkUrl={blogListUrl}
+      postIds={posts.map((post) => post.id)}
+      lang={resolveLang}
+    />
+  )
+}

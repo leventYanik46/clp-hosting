@@ -58,7 +58,7 @@ const posts = allPosts.filter((post) => {
               set:html={title}
             />
             {APP_BLOG.list.isEnabled && linkText && blogListUrl && (
-              <Button variant="link" href={blogListUrl}>
+              <Button variant="link" href={blogListUrl} class="inline-block py-1">
                 {' '}
                 {linkText} »
               </Button>

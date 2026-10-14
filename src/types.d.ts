@@ -32,6 +32,9 @@ export interface Post {
   /**  */
   author?: string;
 
+  /** Slug of the practice-area page this post supports (see src/utils/relatedService.ts). */
+  service?: string;
+
   /**  */
   metadata?: MetaData;
   seo?: SeoData;
@@ -126,6 +129,12 @@ export interface SeoData {
   canonicalOverride?: string;
   schema?: SeoSchemaControl;
   strategy?: SeoStrategy;
+}
+
+export interface FaqItem {
+  question: string;
+  /** Plain text or simple HTML (p, ul, li, a, strong, em). */
+  answer: string;
 }
 
 export interface MetaDataRobots {
@@ -368,4 +377,5 @@ export interface Service extends Omit<Headline, 'classes'>, Form, Widget {
   infoTitle?: string;
   infoDescription?: string;
   googleReview?: GoogleReview;
+  readMoreHref?: string;
 }

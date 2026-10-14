@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Business Formation and Structuring
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/startup-team-planning.jpg
   content: >
 
     <p>A strong legal structure sets the stage for growth. We help founders and

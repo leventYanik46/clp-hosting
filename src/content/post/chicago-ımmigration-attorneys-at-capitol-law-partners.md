@@ -9,6 +9,7 @@ excerpt: >-
   improve case preparation, reduce avoidable delays, and strengthen immigration
   outcomes.
 category: Law Partner
+service: immigration-law
 image: /images/img_1321.jpeg
 imageWidth: 0
 imageHeight: 0
@@ -49,3 +50,5 @@ At Capitol Law Partners, we go beyond filing paperwork. We provide strategic leg
 Located in Chicago, we represent clients locally and across the United States, using advanced technology to communicate effectively and keep your case moving forward. Our commitment is simple: protect your rights, secure your future, and help you achieve the American dream.
 
 If you need trusted immigration counsel, Capitol Law Partners is here to stand by your side, every step of the way.
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

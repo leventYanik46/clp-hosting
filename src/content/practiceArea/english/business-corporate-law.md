@@ -36,7 +36,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Business & Corporate Law
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/glass-office-towers.jpg
   content: >
 
     <ul>

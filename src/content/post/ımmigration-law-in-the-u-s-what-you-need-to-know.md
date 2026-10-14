@@ -1,5 +1,5 @@
 ---
-title: "Immigration Law in the U.S.: What You Need to Know\_"
+title: "Immigration Law in the U.S.: What You Need to Know "
 excerpt: >-
   Immigration law affects individuals, families, and businesses in many ways,
   from family petitions to employment-based visas and citizenship applications.
@@ -7,6 +7,7 @@ excerpt: >-
   guidance essential. Capitol Law Partners provides trusted immigration
   representation, ensuring compliance, clarity, and strong advocacy.
 category: 'Immigration '
+service: immigration-law
 image: /images/immigraiton-law.jpg
 imageWidth: 5760
 imageHeight: 3840
@@ -83,3 +84,5 @@ We combine legal expertise with practical strategies, ensuring that individuals,
 ### **Conclusion** 
 
 Immigration law is complex, but you don’t have to navigate it alone. Whether you are applying for a work visa, reuniting with family, or seeking U.S. citizenship, **Capitol Law Partners** is committed to protecting your rights and guiding you every step of the way.
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

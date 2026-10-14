@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: İş ve Şirketler Hukuku
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/glass-office-towers.jpg
   content: >
 
     <ul>

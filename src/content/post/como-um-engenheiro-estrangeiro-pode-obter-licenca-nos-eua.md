@@ -6,6 +6,7 @@ excerpt: >-
   estaduais antes de obter licenca. Este guia resume as principais etapas.
 category: Imigracao e licenciamento profissional
 lang: pt
+service: business-employment-immigration-solutions
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
@@ -50,3 +51,5 @@ O **FE** costuma ser o primeiro passo formal. Depois, muitos estados exigem expe
 O planejamento da licenca deve caminhar junto com o status imigratorio correto, como **H-1B**, **TN** ou algumas vias de residencia permanente, dependendo do perfil.
 
 Na **Capitol Law Partners** ajudamos profissionais estrangeiros a alinhar o processo de licenciamento com a estrategia migratoria.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Soluções de Imigração Empresarial e de Trabalho](/pt/practice-area/key-services/business-employment-immigration-solutions) ou [agende uma consulta](/pt/schedule).*

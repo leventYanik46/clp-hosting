@@ -34,7 +34,7 @@ contactForm:
     construcción de casos meticulosa.
 post:
   title: Negligencia Médica
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/stethoscope-medical-form.jpg
   content: >
 
     <p>Responsabilizando a los proveedores por errores médicos prevenibles con

@@ -4,6 +4,7 @@ excerpt: >-
   The difference between your priority date and filing date, how the visa bulletin uses them, and why the distinction affects your wait.
 category: Business Immigration Law
 lang: en
+service: immigration-law
 tags:
   - Immigration
   - Green Card
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

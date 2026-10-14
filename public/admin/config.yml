@@ -15,6 +15,7 @@ collections:
       - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Language", name: "lang", widget: "select", options: ["en", "tr", "es", "pt", "fr"], default: "en" }
+      - { label: "Related service (practice-area slug, e.g. eb-2-niw-green-card)", name: "service", widget: "string", required: false }
       - label: "Tags"
         name: "tags"
         widget: "list"

@@ -7,6 +7,7 @@ excerpt: >-
   coordinar la estrategia de licenciamiento con el estatus migratorio correcto.
 category: Inmigracion y licencias profesionales
 lang: es
+service: business-employment-immigration-solutions
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
@@ -67,3 +68,5 @@ Obtener la licencia no es solo un tema academico. Tambien debe coordinarse con e
 * **EB-2** o **NIW** cuando el perfil profesional permite una via hacia residencia permanente.
 
 En **Capitol Law Partners** ayudamos a profesionales extranjeros a alinear el proceso de licencia con la estrategia migratoria, evitando retrasos que afectan tanto el empleo como el desarrollo profesional.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Soluciones de Inmigración Empresarial y Laboral](/es/practice-area/key-services/business-employment-immigration-solutions) o [programe una consulta](/es/schedule).*

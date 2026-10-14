@@ -32,7 +32,7 @@ contactForm:
     sorumlu tutmak.
 post:
   title: Tıbbi İhmal
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/stethoscope-medical-form.jpg
   content: >
 
     <p>Önlenebilir tıbbi hatalar için sağlayıcıları titiz dosya hazırlığıyla

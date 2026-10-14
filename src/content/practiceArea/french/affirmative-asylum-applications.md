@@ -34,7 +34,7 @@ contactForm:
     préparation à l'entretien.
 post:
   title: Demandes d'Asile Affirmatives
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/scales-and-laptop.jpg
   content: >
 
     <p>Demandes d'asile soigneusement préparées avec des preuves à l'appui et

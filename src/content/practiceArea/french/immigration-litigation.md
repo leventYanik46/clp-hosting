@@ -34,7 +34,7 @@ contactForm:
     décisions défavorables en matière d'immigration.
 post:
   title: Contentieux de l'Immigration
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/courthouse.jpg
   content: >
 
     <p>Contentieux fédéral et administratif pour contester les refus, retards et

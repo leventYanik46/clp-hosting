@@ -1,7 +1,8 @@
 ---
-title: "How\_to\_Fill\_Out\_the\_DS-160 Form - A Step by Step "
-excerpt: "The\_DS-160 Form,\_which\_is\_mandatory\_for\_US\_visa\_applications, is a\_detailed\_electronic\_visa\_form\_that\_is\_filled\_out\_online.\_It\_is\_very\_important\_that\_the\_form is\_completed\_accurately\_and\_in\_full\_for\_the\_application\_to\_proceed\_smoothly. Here\_are\_the\_key\_points\_you\_need\_to\_know\_when\_filling\_out\_the\_form,\_including\_passport\_details,\_travel\_history,\_security\_questions,\_and\_common\_mistakes\_that\_can\_cause\_visa\_delays."
+title: "How to Fill Out the DS-160 Form - A Step by Step "
+excerpt: "The DS-160 Form, which is mandatory for US visa applications, is a detailed electronic visa form that is filled out online. It is very important that the form is completed accurately and in full for the application to proceed smoothly. Here are the key points you need to know when filling out the form, including passport details, travel history, security questions, and common mistakes that can cause visa delays."
 category: Form Guide
+service: immigration-law
 image: /images/ds-160-form-full-out.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -86,3 +87,5 @@ The Confirmation Page generated in the final step is mandatory to bring
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
 
 ![]()
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

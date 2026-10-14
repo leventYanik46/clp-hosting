@@ -1,10 +1,10 @@
 ---
 import { APP_BLOG } from 'astrowind:config';
 
-import { getRelatedPosts } from '~/utils/blog';
 import BlogHighlightedPosts from '../widgets/BlogHighlightedPosts.astro';
 import type { Post } from '~/types';
 import { BLOG_BASE, getPermalink } from '~/utils/permalinks';
+import { getSimilarPosts, RELATED_POSTS_COPY } from '~/utils/servicePosts';
 import config from '~/config/config.json';
 
 export interface Props {
@@ -18,26 +18,23 @@ const resolveLang = lang || default_language;
 const needsPrefix = lang && (lang !== default_language || default_language_in_subdir);
 const pathPrefix = needsPrefix ? lang : '';
 const blogListUrl = getPermalink(pathPrefix ? `${pathPrefix}/${BLOG_BASE}` : BLOG_BASE, 'page');
+const copy = RELATED_POSTS_COPY[resolveLang] ?? RELATED_POSTS_COPY.en;
 
-const relatedPosts = (post.tags ? await getRelatedPosts(post, 4) : []).filter((related) => {
-  const postLang = related.lang;
-  if (Array.isArray(postLang)) return postLang.includes(resolveLang);
-  if (typeof postLang === 'string') return postLang === resolveLang;
-  return resolveLang === default_language;
-});
+// Same service first, then same category and tags, filled with the latest posts in this language.
+const relatedPosts = APP_BLOG.isRelatedPostsEnabled ? await getSimilarPosts(post, resolveLang, 4) : [];
 ---
 
 {
-  APP_BLOG.isRelatedPostsEnabled ? (
+  APP_BLOG.isRelatedPostsEnabled && relatedPosts.length > 0 ? (
     <BlogHighlightedPosts
       classes={{
         container:
           'pt-0 lg:pt-0 md:pt-0 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade',
       }}
-      title="Related Posts"
-      linkText="View All Posts"
+      title={copy.postTitle}
+      linkText={copy.link}
       linkUrl={blogListUrl}
-      postIds={relatedPosts.map((post) => post.id)}
+      postIds={relatedPosts.map((related) => related.id)}
       lang={resolveLang}
     />
   ) : null

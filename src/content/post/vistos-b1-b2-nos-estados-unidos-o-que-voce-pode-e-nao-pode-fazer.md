@@ -7,6 +7,7 @@ excerpt: >-
   principais e os riscos de uso inadequado.
 category: Green Card
 lang: pt
+service: immigration-law
 image: /images/b1-b2visa.jpg
 imageWidth: 1280
 imageHeight: 720
@@ -53,3 +54,5 @@ Violacoes podem resultar em cancelamento do visto, recusas futuras e outros prob
 #### **Por que a orientacao juridica importa**
 
 As regras imigratorias americanas sao tecnicas e mudam com frequencia. Na **[Capitol Law Partners](https://capitollawpartners.com/)** ajudamos clientes a usar o visto B1/B2 de forma estrategica e em conformidade com a lei.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Direito de Imigração](/pt/practice-area/immigration-law) ou [agende uma consulta](/pt/schedule).*

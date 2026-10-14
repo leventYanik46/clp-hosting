@@ -30,7 +30,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: L-1B Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/international-business-signing.jpg
   content: >
 
     <p>L-1B Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

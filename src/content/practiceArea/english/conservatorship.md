@@ -34,7 +34,7 @@ contactForm:
     reporting and court compliance.
 post:
   title: Conservatorship
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/desk-document-review.jpg
   content: >
 
     <p>Financial stewardship for those unable to manage assets, with transparent

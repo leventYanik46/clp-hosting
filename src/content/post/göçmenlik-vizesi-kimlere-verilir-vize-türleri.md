@@ -6,6 +6,7 @@ excerpt: >-
   verir.
 category: Green Card
 lang: tr
+service: immigration-law
 tags:
   - göçmenlik
   - green card
@@ -85,3 +86,5 @@ Avukatın Sağladığı Faydalar
 📧[info@capitollawpartners.com](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

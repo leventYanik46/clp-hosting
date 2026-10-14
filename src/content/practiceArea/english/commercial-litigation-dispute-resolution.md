@@ -36,7 +36,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Commercial Litigation & Dispute Resolution
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/gavel-scales-law-book.jpg
   content: >
 
     <p>Business disputes threaten momentum, reputation, and profitability. Our

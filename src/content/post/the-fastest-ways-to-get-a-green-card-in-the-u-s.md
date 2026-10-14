@@ -1,11 +1,12 @@
 ---
-title: "The Fastest Ways to Get a Green Card in the U.S.\_"
+title: "The Fastest Ways to Get a Green Card in the U.S. "
 excerpt: >-
   There are several ways to obtain a Green Card in the US, but not all options
   are equally fast or applicable to everyone. We are reviewing the methods with
   you for a fast and effective process. It is very important to consult an
   immigration lawyer to determine the most suitable strategy.
 category: Green Card
+service: eb-2-niw-green-card
 tags:
   - greencard
   - fastest green card process
@@ -134,3 +135,5 @@ For more information about Green Cards, check out our other blog posts. 
 info@capitollawpartners.com
 
 Phone [+1 (202) 440-2272](tel:+12024402272)
+
+*Need help with this topic? See our [EB-2 National Interest Waiver (NIW)](/practice-area/key-services/eb-2-niw-green-card) page or [schedule a consultation](/schedule).*

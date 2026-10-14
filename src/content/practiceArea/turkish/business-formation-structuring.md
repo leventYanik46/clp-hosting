@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: Şirket Kuruluşu ve Yapılandırma
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/startup-team-planning.jpg
   content: >
 
     <p>Güçlü bir hukuki yapı büyümenin temelini oluşturur. Kuruculara ve

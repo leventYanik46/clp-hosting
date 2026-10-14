@@ -7,6 +7,7 @@ excerpt: "The Trump Administration’s proposed rule seeks to end the “duratio
   and regular vetting. "
 category: "Immigration "
 lang: en
+service: f-1-visa
 image: /images/pexels-rdne-7997404.jpg
 imageWidth: 6720
 imageHeight: 4480
@@ -91,3 +92,5 @@ We combine legal expertise with a client-focused approach to ensure that your ed
 The proposed rule reflects a major policy change that could affect thousands of international students and professionals in the U.S. While not yet finalized, individuals should begin preparing for stricter timelines and additional USCIS oversight. 
 
 At **[Capitol Law Partners](https://capitollawpartners.com/)**, we are committed to helping our clients adapt, comply, and succeed under evolving U.S. immigration policies.
+
+*Need help with this topic? See our [F-1 Student Visa](/practice-area/key-services/f-1-visa) page or [schedule a consultation](/schedule).*

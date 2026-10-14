@@ -1,0 +1,53 @@
+---
+import { Icon } from 'astro-icon/components';
+import type { FaqItem } from '~/types';
+
+export interface Props {
+  items?: FaqItem[];
+  title?: string;
+  lang?: string;
+  id?: string;
+}
+
+const TITLE_BY_LANG: Record<string, string> = {
+  en: 'Frequently Asked Questions',
+  tr: 'Sıkça Sorulan Sorular',
+  es: 'Preguntas frecuentes',
+  pt: 'Perguntas frequentes',
+  fr: 'Questions fréquentes',
+};
+
+const { items = [], lang = 'en', id = 'faq' } = Astro.props;
+const title = Astro.props.title ?? TITLE_BY_LANG[lang] ?? TITLE_BY_LANG.en;
+const faqItems = items.filter((item) => item && item.question && item.answer);
+---
+
+{
+  faqItems.length > 0 && (
+    <section id={id} class="mx-auto max-w-3xl px-6 sm:px-6 mt-12 mb-8" aria-labelledby={`${id}-title`}>
+      <h2 id={`${id}-title`} class="text-3xl font-bold font-heading leading-tighter tracking-tighter mb-6">
+        {title}
+      </h2>
+      <div class="divide-y divide-gray-200 border-y border-gray-200">
+        {faqItems.map((item) => (
+          <details class="faq-item py-4">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold font-heading">
+              <span>{item.question}</span>
+              <Icon name="tabler:chevron-down" class="faq-chevron h-5 w-5 shrink-0 text-primary transition-transform" />
+            </summary>
+            <div class="prose prose-md mt-3 max-w-none text-muted prose-a:text-primary" set:html={item.answer} />
+          </details>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-item[open] .faq-chevron {
+    transform: rotate(180deg);
+  }
+</style>

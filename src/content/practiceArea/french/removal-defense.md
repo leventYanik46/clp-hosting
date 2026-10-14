@@ -34,7 +34,7 @@ contactForm:
     l'éligibilité aux recours et la constitution de preuves.
 post:
   title: Défense contre l'Expulsion
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/due-process-sign.jpg
   content: >
 
     <p>Défense complète pour les personnes en procédure d'expulsion, axée sur

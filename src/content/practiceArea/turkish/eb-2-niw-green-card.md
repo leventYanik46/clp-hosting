@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: EB-2 NIW Yeşil Kart
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/NIW.jpg
   content: >
 
     <p>EB-2 NIW Yeşil Kart hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

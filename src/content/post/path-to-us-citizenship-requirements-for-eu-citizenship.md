@@ -6,6 +6,7 @@ excerpt: >-
   citizenship questions, residency expectations, and legal planning issues that
   often affect cross-border families and professionals.
 category: EU Citizenship
+service: citizenship-and-naturalization
 image: /images/law.jpg
 imageWidth: 1060
 imageHeight: 1055
@@ -101,3 +102,5 @@ If you are seeking reliable legal guidance, Capitol Law Partners is here to supp
   
 
 We invite you to contact us today to schedule a consultation and connect with our experienced staff.
+
+*Need help with this topic? See our [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) page or [schedule a consultation](/schedule).*

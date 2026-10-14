@@ -5,6 +5,7 @@ excerpt: >-
   Capitol Law Partners helps applicants prepare strong cases, avoid mistakes,
   and secure smooth entry for their travel needs.
 category: Green Card
+service: immigration-law
 image: /images/visa.jpg
 imageWidth: 6186
 imageHeight: 4124
@@ -92,3 +93,5 @@ Our experience ensures that your application is not just processed but positione
 [](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Phone [+1 (202) 440-2272](tel:+12024402272)
 
 [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

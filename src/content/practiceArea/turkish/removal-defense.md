@@ -32,7 +32,7 @@ contactForm:
     uygunluğu ve delillere odaklanmıştır.
 post:
   title: Sınır Dışı Etme Savunması
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/due-process-sign.jpg
   content: >
 
     <p>Sınır dışı etme işlemlerindeki bireylere yardım uygunluğu ve delillere 

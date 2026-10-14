@@ -34,7 +34,7 @@ contactForm:
     PI sur les objectifs de l'entreprise.
 post:
   title: Gestion de Portefeuille de PI
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/patent-agreement.jpg
   content: >
 
     <p>Gestion stratégique et économique du portefeuille pour aligner les actifs

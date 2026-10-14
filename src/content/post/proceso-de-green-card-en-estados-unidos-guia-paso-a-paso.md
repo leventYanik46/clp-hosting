@@ -7,6 +7,7 @@ excerpt: >-
   errores, demoras y decisiones migratorias incorrectas.
 category: Proceso de Green Card
 lang: es
+service: immigration-law
 image: /images/img_1324.jpeg
 imageWidth: 4040
 imageHeight: 3040
@@ -57,3 +58,5 @@ Una vez aprobada la solicitud, la Green Card llega por correo. A partir de ese m
 #### **Por qué trabajar con asesoría legal**
 
 Cada caso tiene matices. Una diferencia pequeña en la categoría elegida, en la cronología del caso o en la documentación presentada puede cambiar significativamente el resultado. En **[Capitol Law Partners](https://capitollawpartners.com/)** guiamos a nuestros clientes desde la evaluación inicial hasta la aprobación, con un enfoque práctico y estratégico en cada etapa.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Derecho Migratorio](/es/practice-area/immigration-law) o [programe una consulta](/es/schedule).*

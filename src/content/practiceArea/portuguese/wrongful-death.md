@@ -34,7 +34,7 @@ contactForm:
     estabilidade financeira após uma perda.
 post:
   title: Homicídio Culposo
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/lady-justice-statue.jpg
   content: >-
 
     <p>Representação compassiva para famílias que buscam responsabilização e

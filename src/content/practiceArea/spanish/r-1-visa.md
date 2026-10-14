@@ -34,7 +34,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Visa R-1
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/us-flag-closeup.jpg
   content: >
 
     <p>Nuestros servicios de Visa R-1 te guían en elegibilidad, estrategia de

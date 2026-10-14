@@ -4,8 +4,11 @@ import logoImage from '~/assets/images/CLP-PNG-NORMAL-trimmed.png';
 import Image from '~/components/common/Image.astro';
 ---
 
-<span class="flex items-center justify-center mx-auto text-[1.2rem] md:base font-bold text-[#231e54] whitespace-nowrap">
-  <div class="w-20 h-20 -my-2 mr-4 shrink-0">
+{/* Icon and wordmark shrink below `sm` so the logo and the menu toggle fit side by side on a 320px-wide phone. */}
+<span
+  class="flex items-center min-w-0 text-[0.95rem] sm:text-[1.2rem] leading-tight font-bold text-[#231e54] sm:whitespace-nowrap"
+>
+  <div class="w-14 h-14 sm:w-20 sm:h-20 -my-1 sm:-my-2 mr-3 sm:mr-4 shrink-0">
     <Image
       src={logoImage}
       alt="Capitol Law Partners logo"

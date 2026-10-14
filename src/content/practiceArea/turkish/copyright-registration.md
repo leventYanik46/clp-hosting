@@ -32,7 +32,7 @@ contactForm:
     önleyin ve uygulama seçeneklerini en üst düzeye çıkarın.
 post:
   title: Telif Hakkı Tescili
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/writing-in-notebook.jpg
   content: >
 
     <p>Yaratıcı eserleri tescil ederek sahipliği güvence altına alın, ihlali

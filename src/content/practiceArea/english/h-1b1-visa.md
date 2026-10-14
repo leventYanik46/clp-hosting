@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: H-1B1 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-over-world-map.jpg
   content: >
 
     <p>Our H-1B1 Visa services guide you through eligibility, petition strategy,

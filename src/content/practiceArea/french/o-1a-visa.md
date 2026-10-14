@@ -32,7 +32,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Visa O-1A
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/leadership-tiles.jpg
   content: >
 
     <p>Nos services Visa O-1A vous accompagnent sur l’admissibilité, la

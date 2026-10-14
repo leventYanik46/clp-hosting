@@ -7,6 +7,7 @@ excerpt: >-
   solicitantes con nacionalidad europea u otras trayectorias internacionales.
 category: Ciudadania de la UE
 lang: es
+service: citizenship-and-naturalization
 image: /images/law.jpg
 imageWidth: 1060
 imageHeight: 1055
@@ -65,3 +66,5 @@ USCIS publica materiales oficiales para prepararse, incluidos ejemplos de pregun
 * En familias con doble nacionalidad, la planificacion previa puede ser importante antes de presentar la solicitud.
 
 En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a revisar elegibilidad, preparar el N-400 y anticipar posibles riesgos antes de la entrevista de naturalizacion.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) o [programe una consulta](/es/schedule).*

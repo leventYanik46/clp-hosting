@@ -34,7 +34,7 @@ contactForm:
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Visto E-1
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/globe-on-suitcase.jpg
   content: >
 
     <p>Nossos serviços de Visto E-1 orientam você na elegibilidade, estratégia

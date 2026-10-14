@@ -1,8 +1,9 @@
 ---
-title: "Purchasing a Home Without Citizenship\_"
-excerpt: "Buying\_property\_in\_the\_United\_States\_is\_fully\_accessible\_to\_non-citizens.\_With\_the\_right\_team\_of\_experts\_and\_careful\_financial\_planning,\_you\_can\_successfully\_purchase\_real\_estate\_for\_both\_personal\_use\_and\_investment\_purposes.\_This guide also covers financing questions, title issues, closing risks, and legal planning for foreign buyers."
+title: "Purchasing a Home Without Citizenship "
+excerpt: "Buying property in the United States is fully accessible to non-citizens. With the right team of experts and careful financial planning, you can successfully purchase real estate for both personal use and investment purposes. This guide also covers financing questions, title issues, closing risks, and legal planning for foreign buyers."
 category: Real Estate Law
 lang: en
+service: real-estate
 tags:
   - RealEstateLaw
   - LegalAdvice
@@ -98,3 +99,5 @@ Once financing is in place, you can begin your property search. Key f
 
 
 [](mailto:info@capitollawpartners.com)
+
+*Need help with this topic? See our [Real Estate Law Overview](/practice-area/real-estate) page or [schedule a consultation](/schedule).*

@@ -34,7 +34,7 @@ contactForm:
     elegibilidade para alívio e provas.
 post:
   title: Defesa em Processos de Remoção
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/due-process-sign.jpg
   content: >-
 
     <p>Defesa abrangente para indivíduos em processos de remoção, com foco em

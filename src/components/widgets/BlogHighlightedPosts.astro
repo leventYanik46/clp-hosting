@@ -57,7 +57,7 @@ const posts = (APP_BLOG.isEnabled ? await findPostsByIds(postIds) : []).filter((
             />
             {APP_BLOG.list.isEnabled && linkText && blogListUrl && (
               <a
-                class="text-muted hover:text-primary transition ease-in duration-200 block mb-6 lg:mb-0"
+                class="text-muted hover:text-primary transition ease-in duration-200 block py-1 mb-6 lg:mb-0"
                 href={blogListUrl}
               >
                 {linkText} »

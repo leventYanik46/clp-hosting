@@ -7,6 +7,7 @@ excerpt: >-
   anticiper les dates cles et les erreurs frequentes.
 category: Visa
 lang: fr
+service: h-1b-visa
 image: /images/understanding-the-h-1b-visa-process.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -73,3 +74,4 @@ statut H-1B peut commencer.
 Chez **Capitol Law Partners**, nous accompagnons employeurs et professionnels a
 chaque phase du dossier H-1B, de la strategie initiale jusqu'au depot final.
 
+*Besoin d'aide sur ce sujet ? Consultez notre page [Visa H-1B](/fr/practice-area/key-services/h-1b-visa) ou [prenez rendez-vous](/fr/schedule).*

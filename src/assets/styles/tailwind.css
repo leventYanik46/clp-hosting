@@ -51,13 +51,43 @@
   @apply py-3;
 } */
 
+/*
+  Mobile menu (below 1230px). BasicScripts toggles `expanded` + `h-screen` on
+  the header; here the header becomes a full-height column and the nav scrolls
+  inside it, so nothing is clipped on short phones or behind browser chrome.
+*/
+#header.expanded {
+  /* --aw-header-offset is set by BasicScripts to the header's on-screen top (e.g. the announcement bar height on tablets). */
+  height: calc(100vh - var(--aw-header-offset, 0px));
+  height: calc(100dvh - var(--aw-header-offset, 0px));
+  display: flex;
+  flex-direction: column;
+}
+
+#header.expanded > [data-aw-header-inner] {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
 #header.expanded nav {
-  position: fixed;
-  top: 70px;
-  left: 0;
-  right: 0;
-  bottom: 70px !important;
-  padding: 0 5px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 5px calc(1rem + env(safe-area-inset-bottom, 0px));
+}
+
+/*
+  Touch devices: give inline links inside article lists (practice-area service
+  lists, related links) a taller hit area without changing the text layout.
+*/
+@media (pointer: coarse) {
+  .prose li > a {
+    padding-block: 0.25rem;
+  }
 }
 
 [astro-icon].icon-light > * {

@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: H-1B1 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-over-world-map.jpg
   content: >
 
     <p>H-1B1 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

@@ -34,14 +34,39 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Immigration Law
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/statue-of-liberty.jpg
   content: >
 
     <ul>
+      <li><a href="/practice-area/key-services/asylum-and-humanitarian-protection">Asylum &amp; Humanitarian Protection (overview)</a></li>
+      <li><a href="/practice-area/key-services/talent-and-extraordinary-ability-visas">Talent &amp; Extraordinary Ability Visas (overview)</a></li>
+      <li><a href="/practice-area/key-services/citizenship-status-and-travel">Citizenship, Status &amp; Travel (overview)</a></li>
+      <li><a href="/practice-area/key-services/immigration-appeals-delays-and-federal-court">Appeals, Delays &amp; Federal Court (overview)</a></li>
+      <li><a href="/practice-area/key-services/business-immigration">Business Immigration (overview)</a></li>
+      <li><a href="/practice-area/key-services/investor-and-treaty-visas">Investor &amp; Treaty Visas (overview)</a></li>
       <li><a href="/practice-area/key-services/immigration-litigation">Immigration Litigation</a></li>
+      <li><a href="/practice-area/key-services/immigration-mandamus">Immigration Mandamus Lawsuits (Writ of Mandamus)</a></li>
       <li><a href="/practice-area/key-services/removal-defense">Removal Defense</a></li>
-      <li><a href="/practice-area/key-services/affirmative-asylum-applications">Affirmative Asylum Applications</a></li>
+      <li><a href="/practice-area/key-services/affirmative-asylum-applications">Asylum Attorney (Form I-589)</a></li>
       <li><a href="/practice-area/key-services/family-based-immigration">Family-Based Immigration</a></li>
+      <li><a href="/practice-area/key-services/marriage-based-green-card">Marriage-Based Green Card</a></li>
+      <li><a href="/practice-area/key-services/green-card-for-parents">Green Card for Parents &amp; Children</a></li>
+      <li><a href="/practice-area/key-services/k-1-fiance-visa">K-1 Fiancé Visa</a></li>
+      <li><a href="/practice-area/key-services/green-card-through-asylum">Green Card Through Asylum</a></li>
+      <li><a href="/practice-area/key-services/special-immigrant-juvenile-status">Special Immigrant Juvenile Status (SIJS)</a></li>
+      <li><a href="/practice-area/key-services/child-green-card">Green Card for Children</a></li>
+      <li><a href="/practice-area/key-services/sibling-green-card">Sibling Green Card (F4)</a></li>
+      <li><a href="/practice-area/key-services/family-reunification">Family Reunification</a></li>
+      <li><a href="/practice-area/key-services/u-visa-vawa-humanitarian-protection">U Visa, VAWA &amp; T Visa</a></li>
+      <li><a href="/practice-area/key-services/immigration-detention-and-bond">Detention, Bond &amp; ICE Enforcement</a></li>
+      <li><a href="/practice-area/key-services/habeas-corpus">Habeas Corpus</a></li>
+      <li><a href="/practice-area/key-services/bia-appeals-and-motions">BIA Appeals &amp; Motions to Reopen</a></li>
+      <li><a href="/practice-area/key-services/citizenship-and-naturalization">Citizenship &amp; Naturalization</a></li>
+      <li><a href="/practice-area/key-services/change-and-extension-of-status">Change &amp; Extension of Status</a></li>
+      <li><a href="/practice-area/key-services/travel-and-reentry-permits">Travel &amp; Re-Entry Permits</a></li>
+      <li><a href="/practice-area/key-services/foia-requests">FOIA Requests</a></li>
+      <li><a href="/practice-area/key-services/eb-1-green-card">EB-1 Green Cards</a></li>
+      <li><a href="/practice-area/key-services/eb-1b-green-card">EB-1B Outstanding Researcher</a></li>
       <li><a href="/practice-area/key-services/business-employment-immigration-solutions">Business & Employment Immigration Solutions</a></li>
     </ul>
 
@@ -130,7 +155,7 @@ post:
     <ul>
       <li><a href="/practice-area/key-services/eb-1a-green-card">EB-1A Green Card</a></li>
       <li><a href="/practice-area/key-services/eb-1c-green-card">EB-1C Green Card</a></li>
-      <li><a href="/practice-area/key-services/eb-2-niw-green-card">EB-2 NIW Green Card</a></li>
+      <li><a href="/practice-area/key-services/eb-2-niw-green-card">EB-2 NIW Attorney (National Interest Waiver)</a></li>
       <li><a href="/practice-area/key-services/eb-3-green-card">EB-3 Green Card</a></li>
       <li><a href="/practice-area/key-services/eb-5-green-card">EB-5 Green Card</a></li>
     </ul>

@@ -34,7 +34,7 @@ contactForm:
     financial stability after a loss.
 post:
   title: Wrongful Death
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/lady-justice-statue.jpg
   content: >
 
     <p>Compassionate representation for families seeking accountability and

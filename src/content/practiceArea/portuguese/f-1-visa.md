@@ -34,7 +34,7 @@ contactForm:
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Visto F-1
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/student-writing-passport.jpg
   content: >
 
     <p>Nossos serviços de Visto F-1 orientam você na elegibilidade, estratégia

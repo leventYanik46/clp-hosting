@@ -4,6 +4,7 @@ excerpt: >-
   The Supreme Court has reaffirmed that babies born in the U.S. still acquire citizenship at birth under the 14th Amendment.
 category: Immigration Law
 lang: en
+service: citizenship-and-naturalization
 tags:
   - Immigration
 image: /images/birthright-citizenship-ruling-explained.jpg
@@ -81,3 +82,5 @@ Immigration law keeps shifting, and public debate does not always match the actu
 *This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.*
 
 *Attorney Sena Sahin. Clear advice for individuals, families, and business owners.*
+
+*Need help with this topic? See our [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) page or [schedule a consultation](/schedule).*

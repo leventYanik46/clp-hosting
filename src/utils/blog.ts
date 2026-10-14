@@ -80,6 +80,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     tags: rawTags = [],
     category: rawCategory,
     author,
+    service,
     draft = false,
     // allow editors to set a language or array of languages on the post frontmatter
     lang: rawLang = undefined,
@@ -118,6 +119,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     category: category,
     tags: tags,
     author: author,
+    service: service,
 
     draft: draft,
 

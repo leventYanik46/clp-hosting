@@ -4,6 +4,7 @@ excerpt: >-
   What a prevailing wage determination is, how the Department of Labor sets it, and why it gates the entire PERM and green card process.
 category: Business Immigration Law
 lang: en
+service: business-employment-immigration-solutions
 tags:
   - Immigration
   - PERM
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [PERM & Employer Sponsorship](/practice-area/key-services/business-employment-immigration-solutions) page or [schedule a consultation](/schedule).*

@@ -4,6 +4,7 @@ excerpt: >-
   Yüksek Mahkeme, ABD'de doğan bebeklerin 14. Anayasa Değişikliği uyarınca doğuştan vatandaşlık kazanmaya devam ettiğini teyit etti.
 category: Immigration Law
 lang: tr
+service: citizenship-and-naturalization
 tags:
   - Immigration
 image: /images/dogustan-vatandaslik-karari.jpg
@@ -81,3 +82,5 @@ Durumunuzu ekibimizle konuşmak için [randevu alın](https://capitollawpartners
 *Bu makale yalnızca genel bilgilendirme amaçlıdır ve hukuki danışmanlık niteliği taşımamaktadır. Bu iletişim yoluyla avukat-müvekkil ilişkisi kurulmamaktadır.*
 
 *Attorney Sena Sahin. Bireyler, aileler ve işletme sahipleri için açık ve net hukuki rehberlik.*
+
+*Bu konuda yardıma mı ihtiyacınız var? [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

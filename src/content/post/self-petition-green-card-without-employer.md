@@ -4,20 +4,21 @@ excerpt: >-
   The EB-1A and EB-2 NIW are the two employment routes that let you petition for a green card with no employer sponsor.
 category: Business Immigration Law
 lang: en
+service: eb-2-niw-green-card
 tags:
   - Immigration
   - Green Card
 image: /images/self-petition-green-card-without-employer.jpg
 publishDate: 2026-07-22T09:02:09.517-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/self-petition-green-card-without-employer
+  canonical: https://capitollawpartners.com/self-petition-green-card-without-employer
   description: >-
     The EB-1A and EB-2 NIW let you self-petition a green card with no employer. Here's how the two routes compare.
   title: "Self-Petition a Green Card Without an Employer"
 seo:
   description: >-
     The EB-1A and EB-2 NIW let you self-petition a green card with no employer. Here's how the two routes compare.
-  canonicalOverride: https://capitollawpartners.com/blog/self-petition-green-card-without-employer
+  canonicalOverride: https://capitollawpartners.com/self-petition-green-card-without-employer
   title: "Self-Petition a Green Card Without an Employer"
 ---
 Yes, you can get an employment-based green card without any employer, through one of two self-petition routes: the EB-1A extraordinary ability category and the EB-2 National Interest Waiver. Both remove the need for a sponsor and a job offer. What they require instead is a strong record. Here's how they compare.
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Considering a National Interest Waiver? Our [EB-2 NIW attorneys](/practice-area/key-services/eb-2-niw-green-card) evaluate your case against the three Dhanasar prongs and prepare the petition from strategy through filing.*

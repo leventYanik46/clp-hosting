@@ -4,6 +4,7 @@ excerpt: >-
   A timeline breakdown of each PERM stage in 2026, what's driving current Department of Labor processing times, and where delays come from.
 category: Business Immigration Law
 lang: en
+service: business-employment-immigration-solutions
 tags:
   - Immigration
   - PERM
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [PERM & Employer Sponsorship](/practice-area/key-services/business-employment-immigration-solutions) page or [schedule a consultation](/schedule).*

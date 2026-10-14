@@ -34,7 +34,7 @@ contactForm:
     stabilité financière après une perte.
 post:
   title: Décès Injustifié
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/lady-justice-statue.jpg
   content: >
 
     <p>Représentation compatissante pour les familles recherchant responsabilité

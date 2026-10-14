@@ -34,7 +34,7 @@ contactForm:
     honor intent and protect heirs.
 post:
   title: Wills, Trusts, and Probate Administration
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/signing-documents-desk.jpg
   content: >
 
     <p>Plain-English wills and trusts backed by efficient probate administration

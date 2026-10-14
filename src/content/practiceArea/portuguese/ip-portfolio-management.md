@@ -34,7 +34,7 @@ contactForm:
     objetivos do negócio.
 post:
   title: Gestão de Portfólio de PI
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/patent-agreement.jpg
   content: >
 
     <p>Gestão estratégica e econômica de portfólio para alinhar ativos de PI aos

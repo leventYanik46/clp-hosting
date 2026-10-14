@@ -7,6 +7,7 @@ excerpt: >-
   consular o ajuste de estatus, según la categoría aplicable.
 category: Visas de inmigrante
 lang: es
+service: business-employment-immigration-solutions
 image: /images/pexels-travis-saylor-271738-951382.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -64,3 +65,5 @@ En muchos casos NIW, la aprobación de USCIS puede llegar relativamente rápido,
 La categoría EB-2 puede ser una ruta muy fuerte hacia la residencia permanente, pero no existe un plazo único aplicable a todos los casos. El análisis debe hacerse según el perfil profesional, el país de procesamiento y la estrategia documental desde el principio.
 
 Si está evaluando una solicitud **EB-2 NIW** o una residencia basada en empleo, en **[Capitol Law Partners](https://capitollawpartners.com/contact)** podemos ayudarle a revisar su perfil y definir una estrategia de presentación sólida.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Soluciones de Inmigración Empresarial y Laboral](/es/practice-area/key-services/business-employment-immigration-solutions) o [programe una consulta](/es/schedule).*

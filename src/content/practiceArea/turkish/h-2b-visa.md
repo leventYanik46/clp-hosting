@@ -30,7 +30,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: H-2B Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-on-pole.jpg
   content: >
 
     <p>H-2B Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

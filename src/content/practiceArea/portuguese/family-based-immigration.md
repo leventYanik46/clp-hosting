@@ -34,7 +34,7 @@ contactForm:
     dispensas e processamento consular.
 post:
   title: Imigração Baseada em Família
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/family-walking.jpg
   content: >
 
     <p>Protocolos claros e ágeis que mantêm famílias unidas por meio de

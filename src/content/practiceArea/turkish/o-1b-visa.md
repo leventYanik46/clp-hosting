@@ -30,7 +30,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: O-1B Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-entertainment-magazine.jpg
   content: >
 
     <p>O-1B Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

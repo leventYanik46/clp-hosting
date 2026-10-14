@@ -5,6 +5,7 @@ excerpt: >-
   defenses may be available, and why early legal preparation can affect bond,
   deportation risk, case strategy, and long-term immigration options.
 category: Removal Proceedings
+service: removal-defense
 tags:
   - law
   - removalproceedings
@@ -51,3 +52,5 @@ The individual receives a court summons (Notice to Appear) and appears before an
 ### What is the Outcome?
 
 The judge may allow the individual to remain in the country or order their deportation. A deported individual is typically barred from re-entering the United States for a certain period of time.
+
+*Need help with this topic? See our [Removal & Deportation Defense](/practice-area/key-services/removal-defense) page or [schedule a consultation](/schedule).*

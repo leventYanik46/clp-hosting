@@ -34,7 +34,7 @@ contactForm:
     and litigation.
 post:
   title: IP Litigation and Dispute Resolution
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/gavel-dark-desk.jpg
   content: >
 
     <p>Protect and enforce IP rights through targeted demand letters,

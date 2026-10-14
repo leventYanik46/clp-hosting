@@ -32,7 +32,7 @@ contactForm:
     sorumluluğu talepleri.
 post:
   title: Tehlikeli veya Kusurlu Ürünler
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/attorney-laptop-gavel.jpg
   content: >
 
     <p>Yaralanmalar için kusurlu tasarım, üretim veya uyarılara yönelik ürün

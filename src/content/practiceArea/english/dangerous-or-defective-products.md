@@ -34,7 +34,7 @@ contactForm:
     warnings to recover for injuries.
 post:
   title: Dangerous or Defective Products
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/attorney-laptop-gavel.jpg
   content: >
 
     <p>Product liability claims that target defective design, manufacture, or

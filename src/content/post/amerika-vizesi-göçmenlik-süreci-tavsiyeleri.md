@@ -8,6 +8,7 @@ excerpt: >-
   alır.
 category: Göçmenlik Hukuku
 lang: tr
+service: immigration-law
 image: /images/grencardusway.jpg
 imageWidth: 5908
 imageHeight: 3938
@@ -78,3 +79,5 @@ Capitol Law Partners, Amerika Birleşik Devletleri ve Türkiye'den başvuran bir
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

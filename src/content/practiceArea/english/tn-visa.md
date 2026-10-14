@@ -32,7 +32,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: TN Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/map-passport-paper-plane.jpg
   content: >
 
     <p>Our TN Visa services guide you through eligibility, petition strategy,

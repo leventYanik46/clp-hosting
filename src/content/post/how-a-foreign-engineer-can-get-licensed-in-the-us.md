@@ -11,6 +11,7 @@ excerpt: >-
   reciprocity issues, and how licensing strategy can support career mobility.
 category: Immigration & Professional Licensing
 lang: en
+service: h-1b-visa
 image: /images/engineering.jpg
 imageWidth: 7804
 imageHeight: 5205
@@ -259,3 +260,5 @@ A professionally managed process ensures that every step, licensing, employment,
 [](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Need help with this topic? See our [H-1B Specialty Occupation](/practice-area/key-services/h-1b-visa) page or [schedule a consultation](/schedule).*

@@ -33,9 +33,9 @@ const shouldLink = taxonomyBasePath ? true : APP_BLOG?.tag?.isEnabled;
       </>
       <ul class={className}>
         {tags.map((tag) => (
-          <li class="bg-gray-100 inline-block mr-2 rtl:mr-0 rtl:ml-2 mb-2 py-0.5 px-2 lowercase font-medium">
+          <li class="bg-gray-100 inline-block mr-2 rtl:mr-0 rtl:ml-2 mb-2 lowercase font-medium">
             {!shouldLink ? (
-              tag.title
+              <span class="inline-block py-1 px-2">{tag.title}</span>
             ) : (
               <a
                 href={getPermalink(
@@ -48,7 +48,7 @@ const shouldLink = taxonomyBasePath ? true : APP_BLOG?.tag?.isEnabled;
                       : resolveBlogTagArchivePath(tag.slug, lang),
                   'page'
                 )}
-                class="text-muted hover:text-primary "
+                class="inline-block py-1 px-2 text-muted hover:text-primary"
               >
                 {tag.title}
               </a>

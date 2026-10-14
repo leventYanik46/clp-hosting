@@ -34,7 +34,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Visa H-2B
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-on-pole.jpg
   content: >
 
     <p>Nos services Visa H-2B vous accompagnent sur l’admissibilité, la

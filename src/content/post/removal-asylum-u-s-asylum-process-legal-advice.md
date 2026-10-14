@@ -12,6 +12,7 @@ excerpt: >-
   risks, interview preparation, and the value of early case strategy in
   protection-based claims.
 category: Removal Asylum
+service: affirmative-asylum-applications
 image: /images/removalasylum.jpg
 imageWidth: 6912
 imageHeight: 4160
@@ -99,3 +100,5 @@ A single mistake or omission can significantly delay or negatively impact your c
 **[Capitol Law Partners](https://capitollawpartners.com)** with its expertise and knowledge in immigration law, provides clients with accurate guidance, carefully prepares applications, and monitors the process with professionalism.
 
 If you are considering applying for asylum, a visa, or any type of immigration benefit in the U.S., partnering with **[Capitol Law Partners](https://capitollawpartners.com)** will ensure that your case is managed safely and effectively.
+
+*Need help with Form I-589? Our [asylum attorneys](/practice-area/key-services/affirmative-asylum-applications) prepare the application, the declaration and the evidence, and attend the interview with you.*

@@ -34,7 +34,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Visa H-2A
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-in-farm-field.jpg
   content: >
 
     <p>Nuestros servicios de Visa H-2A te guían en elegibilidad, estrategia de

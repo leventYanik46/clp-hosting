@@ -7,6 +7,7 @@ excerpt: >-
   requirements, avoid pitfalls, and achieve successful outcomes in their
   immigration journey. 
 category: 'Immigration '
+service: immigration-law
 image: /images/imig.law.jpg
 imageWidth: 4152
 imageHeight: 2560
@@ -100,3 +101,5 @@ Immigration issues often involve delays, denials, or deportation proceedings. Pr
 The U.S. immigration system is complex, but with the right legal guidance, individuals and businesses can achieve their goals, whether that means visiting the U.S. temporarily, building a career, uniting with family, or becoming a citizen. 
 
 **[Capitol Law Partners](https://capitollawpartners.com/)** stands ready to provide expert advice, strategic planning, and dedicated representation to help you succeed in your immigration journey.
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

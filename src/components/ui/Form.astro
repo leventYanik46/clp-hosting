@@ -15,12 +15,13 @@ const {
 
 const nameField = inputs?.find(({ name }) => name === 'name');
 const phoneField = inputs?.find(({ name }) => name === 'phone');
+const emailField = inputs?.find(({ name }) => name === 'email');
 const remainingInputs = inputs?.filter(
-  ({ name }) => name && name !== 'name' && name !== 'phone'
+  ({ name }) => name && name !== 'name' && name !== 'phone' && name !== 'email'
 );
 
 const labelClass = compact
-  ? 'block text-sm md:text-base font-medium text-gray-700 mb-1'
+  ? 'block text-sm md:text-base font-medium text-gray-700'
   : 'block text-base font-medium';
 const inputClass = compact
   ? 'py-2 px-3 block w-full text-sm md:text-base rounded-md border border-gray-200 bg-white'
@@ -95,14 +96,14 @@ const smsDisclaimerByLang = {
   },
 };
 const sms = smsDisclaimerByLang[currentLang] ?? smsDisclaimerByLang.en;
-const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="underline hover:no-underline">${sms.policyLabel}</a>${sms.after}`;
+const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="underline hover:no-underline py-1.5">${sms.policyLabel}</a>${sms.after}`;
 ---
 
 <form
   id="contactForm"
   data-contact-form
   class:list={[
-    compact && 'grid grid-cols-1 gap-2 md:grid-cols-10 md:gap-3',
+    compact && 'grid grid-cols-1 gap-2 md:grid-cols-10',
   ]}
 >
   {/* Honeypot. Off-screen, not focusable and hidden from screen readers, so people
@@ -118,7 +119,7 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
       ? (
         <>
           {nameField && (
-            <div class="col-span-10 md:col-span-3 flex flex-col gap-1">
+            <div class="col-span-10 md:col-span-5 lg:col-span-3 flex flex-col gap-1">
               {nameField.label && (
                 <label for="name" class={labelClass}>
                   {nameField.label}
@@ -137,7 +138,7 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
           )}
 
           {phoneField && (
-            <div class="col-span-10 md:col-span-7 flex flex-col gap-1">
+            <div class="col-span-10 md:col-span-5 lg:col-span-3 flex flex-col gap-1">
               {phoneField.label && (
                 <label for="phone" class={labelClass}>
                   {phoneField.label}
@@ -150,6 +151,25 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
                 autocomplete={phoneField.autocomplete ?? 'on'}
                 placeholder={phoneField.placeholder ?? ''}
                 required={phoneField.required ?? true}
+                class={inputClass}
+              />
+            </div>
+          )}
+
+          {emailField && (
+            <div class="col-span-10 lg:col-span-4 flex flex-col gap-1">
+              {emailField.label && (
+                <label for="email" class={labelClass}>
+                  {emailField.label}
+                </label>
+              )}
+              <input
+                type={emailField.type ?? 'email'}
+                name="email"
+                id="email"
+                autocomplete={emailField.autocomplete ?? 'on'}
+                placeholder={emailField.placeholder ?? ''}
+                required={emailField.required ?? true}
                 class={inputClass}
               />
             </div>
@@ -247,7 +267,7 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
   {/* Voluntary SMS opt-in. The checkbox is optional (not required) — consent is
       not a condition of contacting us — and the full disclaimer below is always
       visible because the phone number field is mandatory. */}
-  <div class={`${compact ? 'col-span-10 mt-3' : 'mt-4'} flex items-start gap-2`}>
+  <div class={`${compact ? 'col-span-10' : 'mt-4'} flex items-start gap-2`}>
     <div class="flex mt-0.5">
       <input
         id="sms-consent"
@@ -264,12 +284,12 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
   </div>
 
   <p
-    class:list={[compact ? 'col-span-10 mt-2' : 'mt-3', disclaimerLabelClass]}
+    class:list={compact ? 'col-span-10 text-xs text-gray-600' : ['mt-3', disclaimerLabelClass]}
     set:html={smsDisclaimerHtml}
   />
 
-  <div class={`${compact ? 'mt-4 col-span-10' : 'mt-10'} grid`}>
-    <Button variant="primary" type="submit">
+  <div class={`${compact ? 'mt-2 col-span-10' : 'mt-10'} grid`}>
+    <Button variant="primary" type="submit" class={compact ? 'py-3' : ''}>
       {button}
     </Button>
   </div>

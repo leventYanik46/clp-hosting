@@ -34,7 +34,7 @@ contactForm:
     maximizar opções de defesa.
 post:
   title: Registro de Direitos Autorais
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/writing-in-notebook.jpg
   content: >
 
     <p>Registre obras criativas para garantir titularidade, evitar infrações e

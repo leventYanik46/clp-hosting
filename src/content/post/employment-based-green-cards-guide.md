@@ -4,6 +4,7 @@ excerpt: >-
   An overview of the EB-1 through EB-3 categories, how employer sponsorship works, and how to find the right permanent residence path.
 category: Business Immigration Law
 lang: en
+service: business-employment-immigration-solutions
 tags:
   - Immigration
   - Green Card
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [PERM & Employer Sponsorship](/practice-area/key-services/business-employment-immigration-solutions) page or [schedule a consultation](/schedule).*

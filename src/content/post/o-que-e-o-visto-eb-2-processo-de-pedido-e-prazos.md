@@ -7,6 +7,7 @@ excerpt: >-
   comuns.
 category: Vistos de imigrante
 lang: pt
+service: business-employment-immigration-solutions
 image: /images/pexels-travis-saylor-271738-951382.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -60,3 +61,5 @@ Isso significa que:
 * Documentacao incompleta ou inconsistente costuma gerar atrasos desnecessarios.
 
 Na **[Capitol Law Partners](https://capitollawpartners.com)** ajudamos profissionais a avaliar elegibilidade, definir a melhor rota e montar um caso EB-2 ou EB-2 NIW com base juridica forte.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Soluções de Imigração Empresarial e de Trabalho](/pt/practice-area/key-services/business-employment-immigration-solutions) ou [agende uma consulta](/pt/schedule).*

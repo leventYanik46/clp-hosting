@@ -34,7 +34,7 @@ contactForm:
     deals efficient and compliant.
 post:
   title: Guidance in Commercial and Residential Real Estate Transactions
-  image: ~/assets/images/real-estate.jpg
+  image: ~/assets/images/practice-areas/neighborhood-aerial.jpg
   content: >
 
     <p>End-to-end counsel for buying, selling, and financing property, keeping

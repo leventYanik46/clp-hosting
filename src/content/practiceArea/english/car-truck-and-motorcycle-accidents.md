@@ -34,7 +34,7 @@ contactForm:
     trial.
 post:
   title: Car, Truck, and Motorcycle Accidents
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/immigration-img.jpg
   content: >
 
     <p>Relentless advocacy for crash victims, from investigation to negotiation

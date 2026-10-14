@@ -7,6 +7,7 @@ excerpt: >-
   concerns, litigation updates, and what skilled workers should watch before
   making filing or job-change decisions.
 category: Green Card & Immigration & Visa News
+service: h-1b-visa
 image: /images/h-1b-visa-100.000-.jpg
 imageWidth: 6720
 imageHeight: 4480
@@ -110,3 +111,5 @@ On the other hand, visa types such as the “Gold Card” and “Platinum Card�
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
 
 [](https://www.instagram.com/capitollawpartners/)
+
+*Need help with this topic? See our [H-1B Specialty Occupation](/practice-area/key-services/h-1b-visa) page or [schedule a consultation](/schedule).*

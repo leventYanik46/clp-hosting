@@ -32,7 +32,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: H-2B Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-on-pole.jpg
   content: >
 
     <p>Our H-2B Visa services guide you through eligibility, petition strategy,

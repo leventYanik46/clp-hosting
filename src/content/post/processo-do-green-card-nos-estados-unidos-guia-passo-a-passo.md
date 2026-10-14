@@ -7,6 +7,7 @@ excerpt: >-
   processo.
 category: Processo do Green Card
 lang: pt
+service: immigration-law
 image: /images/img_1324.jpeg
 imageWidth: 4040
 imageHeight: 3040
@@ -53,3 +54,5 @@ Biometria, coleta de documentos e entrevistas exigem preparacao cuidadosa. Respo
 Depois da aprovacao, o Green Card chega por correio. A partir dai, o residente permanente precisa preservar o status e cumprir as obrigacoes aplicaveis.
 
 Na **Capitol Law Partners** ajudamos clientes a escolher a melhor estrategia, preparar provas e conduzir o caso com seguranca em cada etapa.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Direito de Imigração](/pt/practice-area/immigration-law) ou [agende uma consulta](/pt/schedule).*

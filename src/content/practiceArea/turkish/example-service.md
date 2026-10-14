@@ -33,7 +33,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: General Counsel & Advisory Services
-  image: ~/assets/images/precision-img.jpg
+  image: ~/assets/images/practice-areas/counsel-handshake-certificate.jpg
   content: >
 
     <p>Our General Counsel & Advisory Services practice provides businesses with

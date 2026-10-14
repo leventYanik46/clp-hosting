@@ -8,6 +8,7 @@ excerpt: >-
   önemli karar noktalarını da özetler.
 category: Amerika'da Oturma İzni
 lang: tr
+service: immigration-law
 tags:
   - Green Card
   - Amerika Vatandaşlığı
@@ -84,3 +85,5 @@ Daha Fazla Bilgi ve Danışmanlık İçin [Bizimle İletişime Geçin.](https://
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
 
 [](https://www.instagram.com/capitollawpartners?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

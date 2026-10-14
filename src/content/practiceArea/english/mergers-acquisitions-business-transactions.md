@@ -36,7 +36,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Mergers, Acquisitions, and Business Transactions
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/business-deal-handshake.jpg
   content: >
 
     <p>We guide companies through complex transactions from LOI to closing.

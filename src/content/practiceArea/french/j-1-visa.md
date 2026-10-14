@@ -32,7 +32,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Visa J-1
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/laptop-coffee-work.jpg
   content: >
 
     <p>Nos services Visa J-1 vous accompagnent sur l’admissibilité, la stratégie

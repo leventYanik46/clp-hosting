@@ -38,7 +38,12 @@ post:
   content: >
 
     <ul>
+      <li><a href="/practice-area/key-services/trademark-law">Trademark Law (overview)</a></li>
       <li><a href="/practice-area/key-services/trademark-and-intellectual-property-registration">Trademark and Intellectual Property Registration</a></li>
+      <li><a href="/practice-area/key-services/trademark-search-and-clearance">Trademark Search &amp; Clearance</a></li>
+      <li><a href="/practice-area/key-services/trademark-office-action-responses">Trademark Office Action Responses</a></li>
+      <li><a href="/practice-area/key-services/trademark-enforcement-and-ttab-proceedings">Trademark Enforcement &amp; TTAB Proceedings</a></li>
+      <li><a href="/practice-area/key-services/trademark-renewal-and-international-registration">Trademark Renewal &amp; Madrid Protocol</a></li>
       <li><a href="/practice-area/key-services/copyright-registration">Copyright Registration</a></li>
       <li><a href="/practice-area/key-services/trade-secret-protection">Trade Secret Protection</a></li>
       <li><a href="/practice-area/key-services/ip-portfolio-management">IP Portfolio Management</a></li>

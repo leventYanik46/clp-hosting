@@ -34,7 +34,7 @@ contactForm:
     la dinámica familiar.
 post:
   title: Tutela Legal
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/adult-child-hands.jpg
   content: >
 
     <p>Soluciones de tutela que protegen a menores o adultos vulnerables

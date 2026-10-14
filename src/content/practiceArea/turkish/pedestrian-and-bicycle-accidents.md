@@ -32,7 +32,7 @@ contactForm:
     güvenceye alarak korumak.
 post:
   title: Yaya ve Bisiklet Kazaları
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/corporate-img.jpg
   content: >
 
     <p>Yaralanan yayaları ve bisikletlileri hızlı hareketle delil ve tazminat

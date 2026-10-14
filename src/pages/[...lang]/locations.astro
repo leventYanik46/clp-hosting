@@ -42,6 +42,14 @@ const languageAlternates = buildLanguageAlternatesForLangs(
   true
 );
 const ogLocaleAlternates = getAlternateOgLocalesForLangs(currentLang, supportedSeoLangs, true);
+const OFFICE_DETAILS_LABEL: Record<string, string> = {
+  en: 'Office details',
+  tr: 'Ofis detayları',
+  es: 'Detalles de la oficina',
+  pt: 'Detalhes do escritório',
+  fr: 'Détails du bureau',
+};
+const officeDetailsLabel = OFFICE_DETAILS_LABEL[currentLang] ?? OFFICE_DETAILS_LABEL.en;
 ---
 
 <Layout metadata={metadata} seo={seo} languageAlternates={languageAlternates} ogLocaleAlternates={ogLocaleAlternates}>
@@ -54,6 +62,17 @@ const ogLocaleAlternates = getAlternateOgLocalesForLangs(currentLang, supportedS
       title: loc.title,
       description: loc.description,
       image: loc.image,
+      ...(loc.href
+        ? {
+            callToAction: {
+              text: officeDetailsLabel,
+              href: loc.href,
+              variant: 'primary',
+              icon: 'tabler:arrow-right',
+              class: 'mt-2',
+            },
+          }
+        : {}),
     }))}
     columns={3}
     classes={{

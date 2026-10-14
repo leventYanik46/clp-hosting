@@ -34,7 +34,7 @@ contactForm:
     une constitution de dossier rigoureuse.
 post:
   title: Négligence Médicale
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/stethoscope-medical-form.jpg
   content: >
 
     <p>Tenir les prestataires responsables des erreurs médicales évitables grâce

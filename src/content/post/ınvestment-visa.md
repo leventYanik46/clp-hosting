@@ -11,6 +11,7 @@ excerpt: >-
   addresses business planning, source-of-funds review, and long-term residency
   strategy.
 category: Investment Visa
+service: e-2-visa
 image: /images/pexels-ekaterinabelinskaya-4922356.jpg
 imageWidth: 1060
 imageHeight: 1000
@@ -130,3 +131,5 @@ Deciding between the EB-5 and E-2 visa depends on your goals, resources, and tim
 
 
 * **Choose E-2 if**: You’re from a treaty country, want to start a business, and prefer a lower-risk, lower-cost option with quicker entry.
+
+*Need help with this topic? See our [E-2 Treaty Investor](/practice-area/key-services/e-2-visa) page or [schedule a consultation](/schedule).*

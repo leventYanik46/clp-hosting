@@ -34,7 +34,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: Ticari Dava ve Uyuşmazlık Çözümü
-  image: ~/assets/images/corporate-img.jpg
+  image: ~/assets/images/practice-areas/gavel-scales-law-book.jpg
   content: >
 
     <p>İşletme uyuşmazlıkları ivmeyi, itibarı ve kârlılığı tehdit eder. Ticari 

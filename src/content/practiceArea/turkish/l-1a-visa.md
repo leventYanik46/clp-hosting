@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: L-1A Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/city-skyline-night.jpg
   content: >
 
     <p>L-1A Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

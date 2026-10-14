@@ -5,7 +5,7 @@ import type { Props as AstroSeoProps } from '@astrolib/seo';
 import type { ImageMetadata } from 'astro';
 import { SITE, METADATA } from 'astrowind:config';
 
-import type { MetaData, SeoData } from '~/types';
+import type { MetaData, SeoData, FaqItem } from '~/types';
 import type { HreflangAlternate } from '~/data/seo';
 import { adaptOpenGraphImages, findImage } from '~/utils/images';
 import { getWebsiteSchema } from '~/js/schema/website';
@@ -14,6 +14,7 @@ import { getBlogPostingSchema } from '~/js/schema/blogPosting';
 import { getBreadcrumbSchema } from '~/js/schema/breadcrumb';
 import { getServiceSchema } from '~/js/schema/service';
 import { getPersonSchema } from '~/js/schema/person';
+import { getFaqPageSchema } from '~/js/schema/faq';
 import { resolveSeo, buildBreadcrumbItemsFromPath, type SeoPageType, type SeoArticleData } from '~/utils/seo/resolveSeo';
 
 interface Props {
@@ -23,6 +24,8 @@ interface Props {
   article?: SeoArticleData;
   languageAlternates?: HreflangAlternate[];
   ogLocaleAlternates?: string[];
+  /** Visible FAQ items on the page; emitted as FAQPage structured data. */
+  faq?: FaqItem[];
 }
 
 const {
@@ -32,6 +35,7 @@ const {
   article,
   languageAlternates,
   ogLocaleAlternates,
+  faq,
 } = Astro.props;
 
 const siteUrl = String(Astro.site ?? SITE?.site ?? 'https://capitollawpartners.com');
@@ -195,6 +199,10 @@ if (schemaMode !== 'replace') {
         siteUrl,
       })
     );
+  }
+
+  if (Array.isArray(faq) && faq.length > 0) {
+    pageSchemas.push(getFaqPageSchema(faq, resolved.canonical));
   }
 
   if (includeBreadcrumbs) {

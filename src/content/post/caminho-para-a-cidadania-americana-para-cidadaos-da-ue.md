@@ -6,6 +6,7 @@ excerpt: >-
   resume as regras principais para candidatos com trajetoria internacional.
 category: Cidadania da UE
 lang: pt
+service: citizenship-and-naturalization
 image: /images/law.jpg
 imageWidth: 1060
 imageHeight: 1055
@@ -58,3 +59,5 @@ Geralmente inclui:
 Tambem e importante avaliar como viagens longas, historico migratorio e questoes de conformidade podem afetar a elegibilidade.
 
 Na **[Capitol Law Partners](https://capitollawpartners.com/)** ajudamos clientes a revisar elegibilidade, preparar o N-400 e planejar o caso antes da entrevista.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) ou [agende uma consulta](/pt/schedule).*

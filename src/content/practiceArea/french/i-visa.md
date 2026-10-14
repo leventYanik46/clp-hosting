@@ -34,7 +34,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Visa I
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/press-camera.jpg
   content: >
 
     <p>Nos services Visa I vous accompagnent sur l’admissibilité, la stratégie

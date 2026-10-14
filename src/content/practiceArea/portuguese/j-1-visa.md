@@ -34,7 +34,7 @@ contactForm:
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Visto J-1
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/laptop-coffee-work.jpg
   content: >
 
     <p>Nossos serviços de Visto J-1 orientam você na elegibilidade, estratégia

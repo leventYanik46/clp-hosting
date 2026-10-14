@@ -34,7 +34,7 @@ contactForm:
     transparentes e conformidade judicial.
 post:
   title: Curatela
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/desk-document-review.jpg
   content: >
 
     <p>Administração financeira para quem não pode gerir seus bens, com

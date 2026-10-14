@@ -32,7 +32,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: F-1 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/student-writing-passport.jpg
   content: >
 
     <p>Our F-1 Visa services guide you through eligibility, petition strategy,

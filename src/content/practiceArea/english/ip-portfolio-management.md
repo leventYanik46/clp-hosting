@@ -34,7 +34,7 @@ contactForm:
     goals.
 post:
   title: IP Portfolio Management
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/patent-agreement.jpg
   content: >
 
     <p>Strategic, cost-aware portfolio management to align IP assets with

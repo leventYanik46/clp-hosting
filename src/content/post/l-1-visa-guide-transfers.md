@@ -4,6 +4,7 @@ excerpt: >-
   How the L-1 visa lets multinational companies move employees to a U.S. office, the qualifying corporate relationships, and who's eligible.
 category: Business Immigration Law
 lang: en
+service: l-1a-visa
 tags:
   - Immigration
   - Business law
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [L-1A Executives & Managers](/practice-area/key-services/l-1a-visa) page or [schedule a consultation](/schedule).*

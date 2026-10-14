@@ -34,7 +34,7 @@ contactForm:
     decisões migratórias desfavoráveis.
 post:
   title: Contencioso Migratório
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/courthouse.jpg
   content: >
 
     <p>Litígios federais e administrativos para contestar negativas, atrasos e

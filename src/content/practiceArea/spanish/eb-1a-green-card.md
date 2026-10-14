@@ -34,7 +34,7 @@ contactForm:
   description: Nuestro equipo suele responder dentro de 24 horas hábiles.
 post:
   title: Green Card EB-1A
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/eb-2.jpg
   content: >
 
     <p>Nuestros servicios de Green Card EB-1A te guían en elegibilidad,

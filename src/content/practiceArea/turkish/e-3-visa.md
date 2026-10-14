@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: E-3 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/passport-stamps-bed.jpg
   content: >
 
     <p>E-3 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

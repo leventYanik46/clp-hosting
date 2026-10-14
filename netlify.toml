@@ -159,12 +159,12 @@
 
 [[redirects]]
   from = "/category/i-130"
-  to   = "/whatis-form-i-130-2025-update"
+  to   = "/what-is-form-i-130-2025-update"
   status = 301
 
 [[redirects]]
   from = "/category/i-130/"
-  to   = "/whatis-form-i-130-2025-update"
+  to   = "/what-is-form-i-130-2025-update"
   status = 301
 
 [[redirects]]
@@ -209,12 +209,12 @@
 
 [[redirects]]
   from = "/category/writ-of-mandamus"
-  to   = "/whatis-a-writ-ofmandamus"
+  to   = "/what-is-a-writ-of-mandamus"
   status = 301
 
 [[redirects]]
   from = "/category/writ-of-mandamus/"
-  to   = "/whatis-a-writ-ofmandamus"
+  to   = "/what-is-a-writ-of-mandamus"
   status = 301
 
 # Turkish category URLs that belong to the English/root archive set
@@ -320,12 +320,12 @@
 
 [[redirects]]
   from = "/tr/category/i-130"
-  to   = "/whatis-form-i-130-2025-update"
+  to   = "/what-is-form-i-130-2025-update"
   status = 301
 
 [[redirects]]
   from = "/tr/category/i-130/"
-  to   = "/whatis-form-i-130-2025-update"
+  to   = "/what-is-form-i-130-2025-update"
   status = 301
 
 [[redirects]]
@@ -520,12 +520,12 @@
 
 [[redirects]]
   from = "/tr/category/writ-of-mandamus"
-  to   = "/whatis-a-writ-ofmandamus"
+  to   = "/what-is-a-writ-of-mandamus"
   status = 301
 
 [[redirects]]
   from = "/tr/category/writ-of-mandamus/"
-  to   = "/whatis-a-writ-ofmandamus"
+  to   = "/what-is-a-writ-of-mandamus"
   status = 301
 
 [[redirects]]
@@ -633,6 +633,101 @@
 [[redirects]]
   from = "/world-cup-usa-investment-opportunity/"
   to   = "/why-visiting-the-u-s-for-the-fifa-world-cup-could-be-a-smart-investment-move"
+  status = 301
+
+# ─────────────────────────────────────────────────────────────
+# EB-2 NIW consolidation: overlapping blog posts → the single service page
+# ─────────────────────────────────────────────────────────────
+[[redirects]]
+  from = "/niw"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/niw/"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/eb-2"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/eb-2/"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/eb-2-niw-green-card-a-strategic-path-to-u-s-permanent-residency"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/eb-2-niw-green-card-a-strategic-path-to-u-s-permanent-residency/"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/national-interest-waiver-the-leading-green-card-choice-for-professionals"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+[[redirects]]
+  from = "/national-interest-waiver-the-leading-green-card-choice-for-professionals/"
+  to   = "/practice-area/key-services/eb-2-niw-green-card"
+  status = 301
+
+# DC-metro NIW post → the Washington, DC office page
+[[redirects]]
+  from = "/eb-2-niw-attorney-dc-metro"
+  to   = "/locations/washington-dc"
+  status = 301
+
+[[redirects]]
+  from = "/eb-2-niw-attorney-dc-metro/"
+  to   = "/locations/washington-dc"
+  status = 301
+
+# Clean slugs for posts whose filenames contained spaces (old URLs lost the word breaks)
+[[redirects]]
+  from = "/whatis-a-writ-ofmandamus"
+  to   = "/what-is-a-writ-of-mandamus"
+  status = 301
+
+[[redirects]]
+  from = "/whatis-a-writ-ofmandamus/"
+  to   = "/what-is-a-writ-of-mandamus"
+  status = 301
+
+[[redirects]]
+  from = "/my-visa-applicationwasdeniedwhatshouldi-do"
+  to   = "/my-visa-application-was-denied-what-should-i-do"
+  status = 301
+
+[[redirects]]
+  from = "/my-visa-applicationwasdeniedwhatshouldi-do/"
+  to   = "/my-visa-application-was-denied-what-should-i-do"
+  status = 301
+
+[[redirects]]
+  from = "/whatis-form-i-130-2025-update"
+  to   = "/what-is-form-i-130-2025-update"
+  status = 301
+
+[[redirects]]
+  from = "/whatis-form-i-130-2025-update/"
+  to   = "/what-is-form-i-130-2025-update"
+  status = 301
+
+[[redirects]]
+  from = "/whatis-form-i-485-howtocomplete-step-by-step"
+  to   = "/what-is-form-i-485-how-to-complete-step-by-step"
+  status = 301
+
+[[redirects]]
+  from = "/whatis-form-i-485-howtocomplete-step-by-step/"
+  to   = "/what-is-form-i-485-how-to-complete-step-by-step"
   status = 301
 
 # Locations → /locations

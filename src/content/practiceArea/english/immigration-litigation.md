@@ -34,7 +34,7 @@ contactForm:
     adverse immigration decisions.
 post:
   title: Immigration Litigation
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/courthouse.jpg
   content: >
 
     <p>Federal and administrative litigation to challenge denials, delays, and

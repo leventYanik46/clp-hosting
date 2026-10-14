@@ -10,6 +10,7 @@ excerpt: >-
   fast, and stress-free.
 category: 'Immigration '
 lang: en
+service: family-based-immigration
 image: /images/bringg-fam.jpg
 imageWidth: 6016
 imageHeight: 4016
@@ -96,3 +97,5 @@ If the child of a U.S. citizen is born outside the U.S.:  
 The biggest mistakes in immigration processes are incorrectly filling out documents, providing incomplete information, and not starting the process on time. When you go through this process with us, we meticulously prepare all your applications to ensure you proceed without errors. With complete documents, proper guidance, and swift action, we minimize years of waiting time and provide reliable support to help you take steps toward your dream life in America. 
 
 [Contact Us.](https://capitollawpartners.com/contact)
+
+*Need help with this topic? See our [Family Immigration Overview](/practice-area/key-services/family-based-immigration) page or [schedule a consultation](/schedule).*

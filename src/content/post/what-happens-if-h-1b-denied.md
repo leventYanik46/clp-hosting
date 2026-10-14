@@ -4,6 +4,7 @@ excerpt: >-
   Your options after an H-1B denial: understanding the reason, appealing or refiling, and the alternative visa routes worth considering.
 category: Business Immigration Law
 lang: en
+service: h-1b-visa
 tags:
   - Immigration
   - H-1B
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy. Practical strategy for founders, investors, and growing companies.*
+
+*Need help with this topic? See our [H-1B Specialty Occupation](/practice-area/key-services/h-1b-visa) page or [schedule a consultation](/schedule).*

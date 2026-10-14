@@ -7,6 +7,7 @@ excerpt: >-
   is critical for a successful application.
 category: Green Card
 lang: en
+service: immigration-law
 image: /images/imig.law.jpg
 imageWidth: 4152
 imageHeight: 2560
@@ -80,3 +81,5 @@ Law firms like Capitol Law Partners assist individuals and families throughout t
 📧[info@capitollawpartners.com](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

@@ -36,7 +36,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Droit de l’immigration
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/statue-of-liberty.jpg
   content: >
     <ul>
       <li>

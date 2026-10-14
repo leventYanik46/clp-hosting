@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: P-2 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/migration-letter-tiles.jpg
   content: >
 
     <p>Our P-2 Visa services guide you through eligibility, petition strategy,

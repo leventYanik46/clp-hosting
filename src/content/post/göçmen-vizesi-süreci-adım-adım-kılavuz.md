@@ -1,5 +1,5 @@
 ---
-title: "Göçmen Vizesi Süreci: Adım Adım Kılavuz\_\_"
+title: "Göçmen Vizesi Süreci: Adım Adım Kılavuz  "
 excerpt: >-
   Bu kılavuz, ilk başvurunuzu yapmaktan son görüşmeye hazırlanmaya kadar ABD
   göçmen vizesi sürecini adım adım özetlemektedir. Gerekli ücretlerin ödenmesi,
@@ -12,6 +12,7 @@ excerpt: >-
   aşamasında bilgili, organize ve hazır olmanızı sağlar.
 category: 'Immigration '
 lang: tr
+service: immigration-law
 tags:
   - Green Card
   - immigration visa
@@ -201,3 +202,5 @@ ABD göçmen vizesi sürecini takip etmek karmaşık ve zorlu olabilir, ancak bu
 Davanızı veya belgelerinizi hazırlamak için yardıma mı ihtiyacınız var? Bugün bizimle iletişime geçin, danışma randevusu alın ve iç huzuruyla ilerleyin. 
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

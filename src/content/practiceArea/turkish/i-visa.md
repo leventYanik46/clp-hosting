@@ -30,7 +30,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: I Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/press-camera.jpg
   content: >
 
     <p>I Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

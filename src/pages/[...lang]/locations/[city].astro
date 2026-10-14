@@ -1,0 +1,278 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { Icon } from 'astro-icon/components';
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Image from '~/components/common/Image.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import FAQ from '~/components/widgets/FAQ.astro';
+import config from '~/config/config.json';
+import languages from '~/config/language.json';
+import {
+  buildLanguageAlternatesForLangs,
+  DEFAULT_SEO_LANG,
+  getAlternateOgLocalesForLangs,
+  stripLangPrefix,
+  type SeoOffice,
+} from '~/data/seo';
+import { getOfficeAttorneySchema } from '~/js/schema/organizationLegalService';
+import { findImage } from '~/utils/images';
+import type { SeoData } from '~/types';
+
+// One page per office, per language that has a content file in src/content/office/<language>/<city>.md
+export async function getStaticPaths() {
+  const folderToLang: Record<string, string> = Object.fromEntries(
+    languages.map((language) => [language.contentDir, language.languageCode])
+  );
+  const { default_language, default_language_in_subdir } = config.settings;
+  const disabledLanguages = config.settings.disable_languages as string[];
+
+  const entries = await getCollection('office', ({ data }) => !data.draft);
+  const resolved = entries
+    .map((entry) => {
+      const [folder, ...rest] = entry.id.split('/');
+      return { entry, lang: folderToLang[folder], city: rest.join('/') };
+    })
+    .filter(({ lang, city }) => Boolean(lang) && Boolean(city) && !disabledLanguages.includes(lang));
+
+  const langsByCity: Record<string, string[]> = {};
+  for (const { lang, city } of resolved) {
+    (langsByCity[city] ??= []).push(lang);
+  }
+
+  return resolved.map(({ entry, lang, city }) => ({
+    params: { lang: lang === default_language && !default_language_in_subdir ? undefined : lang, city },
+    props: { entry, lang, availableLangs: langsByCity[city] },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'office'>;
+  lang: string;
+  availableLangs: string[];
+}
+
+const { entry, lang, availableLangs } = Astro.props;
+const { metadata, seo, hero, office, labels, intro, services, content, faq, callToAction, city } = entry.data;
+const citySlug = entry.id.split('/').slice(1).join('/');
+
+const siteUrl = String(Astro.site ?? 'https://capitollawpartners.com');
+const { routePath } = stripLangPrefix(Astro.url.pathname, DEFAULT_SEO_LANG);
+const languageAlternates = buildLanguageAlternatesForLangs(routePath, siteUrl, availableLangs, DEFAULT_SEO_LANG, true);
+const ogLocaleAlternates = getAlternateOgLocalesForLangs(lang, availableLangs, true);
+
+const seoOffice: SeoOffice = {
+  id: citySlug,
+  name: office.name,
+  streetAddress: office.streetAddress,
+  addressLocality: office.addressLocality,
+  addressRegion: office.addressRegion,
+  postalCode: office.postalCode,
+  addressCountry: office.addressCountry,
+  telephone: office.telephone,
+  mapUrl: office.mapUrl,
+  geo: office.geo,
+  pagePath: routePath,
+};
+
+const resolvedImage = office.image?.src ? await findImage(office.image.src) : undefined;
+const imageSrc = typeof resolvedImage === 'string' ? resolvedImage : resolvedImage?.src;
+const imageUrl = imageSrc ? new URL(imageSrc, siteUrl).toString() : undefined;
+
+const officeSchema = getOfficeAttorneySchema(seoOffice, siteUrl, {
+  description: seo?.description ?? metadata?.description,
+  openingHours: office.openingHours,
+  areaServed: office.areaServed,
+  image: imageUrl,
+  email: office.email,
+});
+
+const seoWithSchema: SeoData = {
+  ...(seo ?? {}),
+  schema: {
+    mode: 'merge',
+    includeBreadcrumbs: true,
+    ...(seo?.schema ?? {}),
+    custom: [...(seo?.schema?.custom ?? []), officeSchema],
+  },
+};
+
+const DEFAULT_LABELS = {
+  address: 'Address',
+  phone: 'Phone',
+  email: 'Email',
+  directions: 'Get directions',
+  hours: 'Office hours',
+  servicesTitle: `Our services in ${city}`,
+  areasTitle: 'Areas we serve',
+};
+const L = { ...DEFAULT_LABELS, ...Object.fromEntries(Object.entries(labels ?? {}).filter(([, v]) => Boolean(v))) };
+
+const telHref = `tel:${office.telephone.replace(/[^+\d]/g, '')}`;
+const addressLine2 =
+  [office.addressLocality, office.addressRegion].filter(Boolean).join(', ') + ` ${office.postalCode}`;
+const ctaHref = callToAction?.href ?? '/schedule';
+const hasHours = Array.isArray(office.openingHours) && office.openingHours.length > 0;
+const hasAreas = Array.isArray(office.areaServed) && office.areaServed.length > 0;
+const hasServices = Array.isArray(services) && services.length > 0;
+const hasFaq = Array.isArray(faq) && faq.length > 0;
+const proseClass =
+  'mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-lg prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary prose-headings:scroll-mt-[80px] prose-li:my-0';
+---
+
+<Layout
+  metadata={metadata}
+  seo={seoWithSchema}
+  faq={faq}
+  languageAlternates={languageAlternates}
+  ogLocaleAlternates={ogLocaleAlternates}
+>
+  <HeroText tagline={hero.tagline} title={hero.title} subtitle={hero.subtitle} />
+
+  <section class="mx-auto max-w-6xl px-4 sm:px-6 mb-12">
+    <div class="grid gap-8 md:grid-cols-2 items-start">
+      <div class="rounded-lg border border-gray-200 bg-white p-6 sm:p-8 shadow-sm">
+        <h2 class="text-2xl font-bold font-heading leading-tighter tracking-tighter">{office.name}</h2>
+        <address class="not-italic mt-5 space-y-4 text-muted">
+          <p class="flex gap-3">
+            <Icon name="tabler:map-pin" class="w-5 h-5 text-primary mt-0.5 shrink-0" />
+            <span>
+              <span class="sr-only">{L.address}: </span>
+              {office.streetAddress}<br />
+              {addressLine2}
+            </span>
+          </p>
+          <p class="flex gap-3">
+            <Icon name="tabler:phone" class="w-5 h-5 text-primary mt-0.5 shrink-0" />
+            <a href={telHref} class="hover:underline">
+              <span class="sr-only">{L.phone}: </span>
+              {office.telephoneDisplay ?? office.telephone}
+            </a>
+          </p>
+          {
+            office.email && (
+              <p class="flex gap-3">
+                <Icon name="tabler:mail" class="w-5 h-5 text-primary mt-0.5 shrink-0" />
+                <a href={`mailto:${office.email}`} class="hover:underline">
+                  <span class="sr-only">{L.email}: </span>
+                  {office.email}
+                </a>
+              </p>
+            )
+          }
+          {
+            hasHours && (
+              <p class="flex gap-3">
+                <Icon name="tabler:clock" class="w-5 h-5 text-primary mt-0.5 shrink-0" />
+                <span>
+                  {L.hours}: {office.openingHours!.join(', ')}
+                </span>
+              </p>
+            )
+          }
+        </address>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a href={ctaHref} class="btn-primary justify-center">
+            {callToAction?.buttonText ?? 'Schedule a Consultation'}
+          </a>
+          {
+            office.mapUrl && (
+              <a href={office.mapUrl} target="_blank" rel="noopener noreferrer" class="btn-secondary justify-center">
+                {L.directions}
+                <Icon name="tabler:external-link" class="w-4 h-4 ml-1 inline-block" />
+              </a>
+            )
+          }
+        </div>
+      </div>
+      {
+        office.image && (
+          <a
+            href={office.mapUrl ?? ctaHref}
+            target={office.mapUrl ? '_blank' : undefined}
+            rel={office.mapUrl ? 'noopener noreferrer' : undefined}
+            class="block"
+          >
+            <Image
+              src={office.image.src}
+              alt={office.image.alt ?? office.name}
+              width={800}
+              height={500}
+              widths={[400, 800]}
+              sizes="(max-width: 768px) 100vw, 600px"
+              class="w-full rounded-lg shadow-lg bg-gray-200"
+              loading="eager"
+            />
+          </a>
+        )
+      }
+    </div>
+  </section>
+
+  <section class={proseClass}>
+    <Fragment set:html={intro} />
+  </section>
+
+  {
+    hasServices && (
+      <section class="mx-auto max-w-6xl px-4 sm:px-6 my-12" aria-labelledby="office-services">
+        <h2 id="office-services" class="text-3xl font-bold font-heading leading-tighter tracking-tighter mb-6">
+          {L.servicesTitle}
+        </h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {services!.map((service) => (
+            <a
+              href={service.href}
+              class="block rounded-lg border border-gray-200 bg-white p-5 shadow-sm transition hover:border-primary hover:shadow-md"
+            >
+              <h3 class="font-bold font-heading">{service.title}</h3>
+              {service.description && <p class="mt-2 text-sm text-muted">{service.description}</p>}
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    content && (
+      <section class={`${proseClass} mt-8`}>
+        <Fragment set:html={content} />
+      </section>
+    )
+  }
+
+  {
+    hasAreas && (
+      <section class="mx-auto max-w-3xl px-6 sm:px-6 mt-10" aria-labelledby="office-areas">
+        <h2 id="office-areas" class="text-2xl font-bold font-heading leading-tighter tracking-tighter mb-4">
+          {L.areasTitle}
+        </h2>
+        <ul class="flex flex-wrap gap-2">
+          {office.areaServed!.map((area) => (
+            <li class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">{area}</li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {hasFaq && <FAQ items={faq} lang={lang} />}
+
+  {
+    callToAction && (
+      <CallToAction
+        actions={[
+          {
+            variant: 'primary',
+            text: callToAction.buttonText,
+            href: ctaHref,
+          },
+        ]}
+      >
+        <Fragment slot="title">{callToAction.title}</Fragment>
+        <Fragment slot="subtitle">{callToAction.subtitle}</Fragment>
+      </CallToAction>
+    )
+  }
+</Layout>

@@ -5,10 +5,11 @@ import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 import Chatbox from '~/components/widgets/Chatbox.astro'; // Import Chatbox
 import { headerData, headerDataTr, headerDataEs, headerDataPt, headerDataFr, footerData, footerDataTr, footerDataSpanish, footerDataPt, footerDataFr } from '~/navigation';
-import type { MetaData, SeoData } from '~/types';
+import type { MetaData, SeoData, FaqItem } from '~/types';
 import type { HreflangAlternate } from '~/data/seo';
 import type { Props as HeaderProps } from '~/components/widgets/Header.astro';
 import type { SeoPageType, SeoArticleData } from '~/utils/seo/resolveSeo';
+import { getPracticeAreaMenu } from '~/data/practiceAreaMenu';
 export interface Props {
   metadata?: MetaData;
   seo?: SeoData;
@@ -16,9 +17,10 @@ export interface Props {
   article?: SeoArticleData;
   languageAlternates?: HreflangAlternate[];
   ogLocaleAlternates?: string[];
+  faq?: FaqItem[];
 }
 
-const { metadata, seo, pageType, article, languageAlternates, ogLocaleAlternates } = Astro.props;
+const { metadata, seo, pageType, article, languageAlternates, ogLocaleAlternates, faq } = Astro.props;
 // Extract language from URL path
 const pathSegments = new URL(Astro.url).pathname.split('/').filter(Boolean);
 const lang = pathSegments[0] && ['en','tr','es','pt','fr'].includes(pathSegments[0]) ? pathSegments[0] : 'en';
@@ -27,6 +29,7 @@ const headerlangdata = { 'en': headerData, 'tr': headerDataTr, 'es': headerDataE
 const header = headerlangdata[lang] || headerlangdata['en'];
 const footerlanguageData = { 'en': footerData, 'tr': footerDataTr, 'es': footerDataSpanish, 'pt': footerDataPt, 'fr': footerDataFr };
 const footer = footerlanguageData[lang] || footerlanguageData['en'];
+const megaMenu = await getPracticeAreaMenu(lang);
 ---
 
 <Layout
@@ -36,6 +39,7 @@ const footer = footerlanguageData[lang] || footerlanguageData['en'];
   article={article}
   languageAlternates={languageAlternates}
   ogLocaleAlternates={ogLocaleAlternates}
+  faq={faq}
 >
   <slot name="schema" slot="schema" />
   <slot name="announcement">
@@ -43,7 +47,7 @@ const footer = footerlanguageData[lang] || footerlanguageData['en'];
   </slot>
   <slot name="header">
     {/* Select headerData based on detected language */}
-    <Header {...header as HeaderProps} isSticky />
+    <Header {...(header as HeaderProps)} megaMenu={megaMenu} isSticky />
   </slot>
   <main>
     <slot />

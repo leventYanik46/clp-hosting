@@ -34,7 +34,7 @@ contactForm:
     rapports transparents et la conformité judiciaire.
 post:
   title: Tutelle
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/desk-document-review.jpg
   content: >
 
     <p>Gestion financière pour ceux qui ne peuvent pas gérer leurs biens, avec

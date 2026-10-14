@@ -14,7 +14,7 @@ profile:
     loading: eager
     class: w-full h-auto rounded-lg shadow-lg md:max-w-xl lg:max-w-2xl mx-auto
   name: Mehmet Y. Turkoglu
-  role: Abogado de inmigración
+  role: Of Counsel
   bio:
     - >-
       Mehmet Y. Turkoglu es abogado de inmigración en Capitol Law Partners PLLC.
@@ -138,12 +138,12 @@ seo:
     mode: merge
     includeBreadcrumbs: true
     entity: person
-    personJobTitle: Abogado de inmigración
+    personJobTitle: Of Counsel
     personImage: ~/assets/images/mehmet-bio-new-team.jpeg
     person:
       givenName: Mehmet
       familyName: Turkoglu
-      jobTitle: Abogado de inmigración
+      jobTitle: Of Counsel
       image: ~/assets/images/mehmet-bio-new-team.jpeg
       alumniOf:
         - type: EducationalOrganization

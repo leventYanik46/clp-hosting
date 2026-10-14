@@ -32,7 +32,7 @@ contactForm:
     koruyan vesayet çözümleri.
 post:
   title: Yasal Vesayet
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/adult-child-hands.jpg
   content: >
 
     <p>Aile dinamiklerine saygı göstererek küçükleri veya savunmasız

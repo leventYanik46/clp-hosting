@@ -6,6 +6,7 @@ excerpt: >-
   correct company structure are crucial for a smooth process.
 category: Corporate & Business Law
 lang: en
+service: business-corporate-law
 image: /images/capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 3376
@@ -69,3 +70,5 @@ Capitol Law Partners provides professional legal advice to foreign entrepreneurs
 [](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Need help with this topic? See our [Business & Corporate Law Overview](/practice-area/business-corporate-law) page or [schedule a consultation](/schedule).*

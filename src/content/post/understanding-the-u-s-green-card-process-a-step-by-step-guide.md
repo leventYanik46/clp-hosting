@@ -9,6 +9,7 @@ excerpt: >-
   precision and care, from eligibility review and filing strategy to interview
   preparation and final approval planning.
 category: 'Green Card Process '
+service: immigration-law
 image: /images/img_1324.jpeg
 imageWidth: 4040
 imageHeight: 3040
@@ -53,3 +54,5 @@ Obtaining a U.S. Green Card, the official proof of lawful permanent residency, i
 #### Why Choose Capitol Law Partners for Your Green Card Process?
 
 Our Chicago-based immigration attorneys combine in-depth legal knowledge with personalized attention. We navigate the complex requirements so you can focus on your future. With [Capitol Law Partners](https://capitollawpartners.com/), you gain a strategic partner committed to protecting your rights and achieving your goals.
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

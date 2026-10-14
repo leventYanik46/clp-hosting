@@ -7,6 +7,7 @@ excerpt: >-
   empleo es clave para evitar errores y perder oportunidades.
 category: Visa
 lang: es
+service: h-1b-visa
 image: /images/understanding-the-h-1b-visa-process.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -66,3 +67,5 @@ La persona beneficiaria puede comenzar a trabajar bajo estatus H-1B al inicio de
 ### **Por qué conviene planificar con tiempo**
 
 La visa H-1B es competitiva y el margen de error es reducido. Una presentación bien estructurada mejora tanto la elegibilidad documental como la rapidez de respuesta. En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a empleadores y profesionales a planificar la estrategia H-1B desde la fase de registro hasta la aprobación final.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Visa H-1B](/es/practice-area/key-services/h-1b-visa) o [programe una consulta](/es/schedule).*

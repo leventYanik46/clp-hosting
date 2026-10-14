@@ -8,6 +8,7 @@ excerpt: >-
   ayrıntılar da rehberde açıklanır.
 category: Green Card Başvurusu
 lang: tr
+service: immigration-law
 tags:
   - Green Card
   - Yeşil Kart Başvuru Süreci
@@ -194,3 +195,5 @@ Amerika Göçmenlik Yasası’na göre, her yıl Ekim –Kasım tarihleri arası
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

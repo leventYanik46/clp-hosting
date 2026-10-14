@@ -7,6 +7,7 @@ excerpt: >-
   presente les principales etapes a anticiper.
 category: Immigration
 lang: fr
+service: immigration-law
 image: /images/pexels-pixabay-40568.jpg
 imageWidth: 6123
 imageHeight: 4082
@@ -75,3 +76,4 @@ Chez **Capitol Law Partners**, nous aidons les professionnels de sante a
 coordonner equivalence, licence et immigration afin de construire un dossier
 coherent et conforme.
 
+*Besoin d'aide sur ce sujet ? Consultez notre page [Droit de l’immigration](/fr/practice-area/immigration-law) ou [prenez rendez-vous](/fr/schedule).*

@@ -1,0 +1,40 @@
+---
+import { Icon } from 'astro-icon/components';
+import type { Post } from '~/types';
+import { resolveRelatedService, getSchedulePath, RELATED_SERVICE_COPY } from '~/utils/relatedService';
+
+export interface Props {
+  post: Pick<Post, 'service' | 'category'>;
+  lang?: string;
+}
+
+const { post, lang = 'en' } = Astro.props;
+const target = await resolveRelatedService(post, lang);
+const copy = RELATED_SERVICE_COPY[lang] ?? RELATED_SERVICE_COPY.en;
+const scheduleHref = getSchedulePath(lang);
+---
+
+{
+  target && (
+    <aside class="mx-auto max-w-3xl px-6 sm:px-6 mt-12" aria-label={copy.eyebrow}>
+      <div class="rounded-lg border border-gray-200 bg-gray-50 p-6 sm:p-8 shadow-sm">
+        <p class="text-sm font-semibold uppercase tracking-wide text-primary">{copy.eyebrow}</p>
+        <h2 class="mt-2 text-2xl font-bold font-heading leading-tighter tracking-tighter">
+          <a href={target.href} class="hover:underline">
+            {target.title}
+          </a>
+        </h2>
+        {target.description && <p class="mt-2 text-muted">{target.description}</p>}
+        <div class="mt-5 flex flex-col sm:flex-row gap-3">
+          <a href={target.href} class="btn-primary justify-center">
+            {copy.primary}
+            <Icon name="tabler:arrow-right" class="w-5 h-5 ml-1 -mr-1.5 inline-block" />
+          </a>
+          <a href={scheduleHref} class="btn-secondary justify-center">
+            {copy.secondary}
+          </a>
+        </div>
+      </div>
+    </aside>
+  )
+}

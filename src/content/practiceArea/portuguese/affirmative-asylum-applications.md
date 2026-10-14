@@ -34,7 +34,7 @@ contactForm:
     preparação para entrevista.
 post:
   title: Pedidos de Asilo Afirmativo
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/scales-and-laptop.jpg
   content: >
 
     <p>Pedidos de asilo preparados minuciosamente, com provas corroborativas e

@@ -4,6 +4,7 @@ import type { CallToAction, Widget } from '~/types';
 import Headline from '~/components/ui/Headline.astro';
 import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
+import { findImage } from '~/utils/images';
 
 interface Props extends Widget {
   title?: string;
@@ -31,22 +32,43 @@ const {
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
+
+/*
+  Deliberate exception to the site-wide image defaults (quality 70, max 2x).
+  The portrait box defaults to 360x320 (9:8); a card can override it through
+  `image.width` / `image.height` (e.g. 240x320 for a head-and-shoulders photo).
+  We serve 1x-4x candidates at quality 90, drop any that would exceed the source
+  width so the srcset never advertises an upscaled image, and let the image
+  service crop to the box (fit=cover) so no candidate is letterboxed and then
+  stretched by the browser.
+*/
+const boxWidth = image?.width ?? 360;
+const boxHeight = image?.height ?? 320;
+const source = image ? await findImage(image.src) : undefined;
+const sourceWidth = source && typeof source === 'object' ? source.width : undefined;
+const portraitWidths = [1, 2, 3, 4]
+  .map((n) => n * boxWidth)
+  .filter((w, i) => i === 0 || !sourceWidth || w <= sourceWidth);
 ---
 
+{/* h-full on every layer lets a card stretch to its grid/flex row, so neighbouring cards share a height. */}
+{/* md:max-w-full caps the 38rem card at its grid cell so two-column sections never overflow on tablets. */}
+{/* The wrapper padding is tightened so a 30-card team page stays scannable on a phone. */}
 <WidgetWrapper
   id={id}
-  containerClass={`w-full md:w-[38rem] mx-auto ${classes.container ?? ''}`}
+  class="h-full"
+  containerClass={`w-full md:w-[38rem] md:max-w-full mx-auto h-full py-4 md:py-6 lg:py-8 ${classes.container ?? ''}`}
   bg={bg}
 >
-  <div class="w-full text-center p-6 rounded-md shadow-xl">
+  <div class="w-full h-full flex flex-col text-center p-4 sm:p-6 rounded-md shadow-xl">
     <Headline
       title={title}
       subtitle={subtitle}
       tagline={tagline}
       classes={{
         container: 'mb-4 md:mb-2',
-        title: 'text-4xl tracking-tighter my-4 md:my-2 font-heading break-words',
-        subtitle: 'text-xl text-muted break-words',
+        title: 'text-3xl sm:text-4xl tracking-tighter my-4 md:my-2 font-heading break-words',
+        subtitle: 'text-lg sm:text-xl text-muted break-words',
       }}
     />
     {image && (
@@ -54,19 +76,23 @@ const {
         <Image
           src={image.src}
           alt={image.alt}
-          width={360}
-          height={240}
-          widths={[400, 800]}
-          sizes="(max-width: 640px) 90vw, 320px"
+          width={boxWidth}
+          height={boxHeight}
+          layout="responsive"
+          widths={portraitWidths}
+          sizes={`(max-width: 640px) 90vw, ${boxWidth}px`}
+          quality={90}
+          fit="cover"
           class="mx-auto rounded-md shadow-lg"
+          style={`max-width: ${boxWidth}px;`}
         />
       </div>
     )}
     {bottomtag && (
-      <div class="text-xl text-muted mt-4 break-words" set:html={bottomtag} />
+      <div class="text-lg sm:text-xl text-muted mt-4 break-words" set:html={bottomtag} />
     )}
     {actions && (
-      <div class="flex flex-wrap justify-center gap-2 mt-3">
+      <div class="flex flex-wrap justify-center gap-2 mt-auto pt-3">
         {Array.isArray(actions) ? (
           actions.map((action) => (
             <div class="flex w-full sm:w-auto">

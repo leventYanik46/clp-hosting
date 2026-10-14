@@ -11,6 +11,7 @@ tags:
   - proceso rapido de Green Card
   - formas rapidas de obtener una Green Card
 lang: es
+service: eb-2-niw-green-card
 image: /images/green-card-capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -69,3 +70,5 @@ No todas las rutas hacia la residencia permanente se procesan a la misma velocid
 * calidad de la evidencia y consistencia del expediente.
 
 En **Capitol Law Partners** evaluamos no solo si una persona puede solicitar la Green Card, sino cual es la ruta mas eficiente y mas segura para su caso.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Green Card EB-2 NIW](/es/practice-area/key-services/eb-2-niw-green-card) o [programe una consulta](/es/schedule).*

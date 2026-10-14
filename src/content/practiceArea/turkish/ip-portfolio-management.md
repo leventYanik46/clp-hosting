@@ -32,7 +32,7 @@ contactForm:
     maliyet odaklı portföy yönetimi.
 post:
   title: Fikri Mülkiyet Portföy Yönetimi
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/patent-agreement.jpg
   content: >
 
     <p>Fikri mülkiyet varlıklarını iş hedefleriyle uyumlu hale getiren stratejik

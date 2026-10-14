@@ -34,7 +34,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Green Card EB-5
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/dollars-on-flag.jpg
   content: >
 
     <p>Nos services Green Card EB-5 vous accompagnent sur l’admissibilité, la

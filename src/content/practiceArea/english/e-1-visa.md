@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: E-1 Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/globe-on-suitcase.jpg
   content: >
 
     <p>Our E-1 Visa services guide you through eligibility, petition strategy,

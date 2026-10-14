@@ -1,8 +1,9 @@
 ---
-title: "Ways to Get a Green Card in the United States\_"
+title: "Ways to Get a Green Card in the United States "
 excerpt: ' There are multiple ways to get a Green Card: family sponsorship (parents, siblings, fiancé(e)/spouse), employment-based visas (EB categories), the Diversity Visa Lottery, and other special programs. Capitol Law Partners helps clients choose the best path and provides legal support to achieve permanent residency. '
 category: Green Card
 lang: en
+service: immigration-law
 image: /images/grencardusway.jpg
 imageWidth: 5908
 imageHeight: 3938
@@ -82,3 +83,5 @@ Immigration law is complex, and even small mistakes can delay or jeopardize your
 Whether your path is through family, employment, or a special program, our experienced attorneys are here to make your immigration journey smoother and more secure. 
 
 [Contact Us.](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

@@ -10,6 +10,7 @@ tags:
   - processo rapido de Green Card
   - maneiras rapidas de obter Green Card
 lang: pt
+service: eb-2-niw-green-card
 image: /images/green-card-capitol-law-partners.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -58,3 +59,5 @@ Profissionais cujo trabalho beneficia significativamente os Estados Unidos podem
 * local de processamento.
 
 Na **Capitol Law Partners** ajudamos a identificar nao apenas se o cliente pode obter um Green Card, mas qual caminho tende a ser mais rapido e mais seguro.
+
+*Precisa de ajuda com este tema? Veja nossa página de [Green Card EB-2 NIW](/pt/practice-area/key-services/eb-2-niw-green-card) ou [agende uma consulta](/pt/schedule).*

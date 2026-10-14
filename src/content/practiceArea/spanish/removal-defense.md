@@ -34,7 +34,7 @@ contactForm:
     elegibilidad para alivio y la evidencia.
 post:
   title: Defensa Contra la Deportación
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/due-process-sign.jpg
   content: >
 
     <p>Defensa integral para personas en procesos de deportación, enfocada en la

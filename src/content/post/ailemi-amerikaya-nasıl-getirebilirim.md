@@ -12,6 +12,7 @@ excerpt: >-
   alır.
 category: Green Card Başvurusu
 lang: tr
+service: family-based-immigration
 image: /images/how-can-i-bring-my-family-in-usa.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -120,3 +121,5 @@ Bize Ulaşın. 
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Aile Temelli Göçmenlik](/tr/practice-area/key-services/family-based-immigration) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

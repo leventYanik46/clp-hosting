@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: P-3 Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/america-hat-pinwheel.jpg
   content: >
 
     <p>P-3 Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

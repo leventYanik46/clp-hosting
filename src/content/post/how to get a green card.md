@@ -1,11 +1,12 @@
 ---
-title: "How\_to\_Get\_a\_Green\_Card ?"
+title: "How to Get a Green Card ?"
 excerpt: >-
   This text explains the process of obtaining a Green Card through employment.
   First, you need to find a job offer from an American company. The process then
   consists of three stages: the PERM application, the I-140 application, and the
   I-485 application.
 category: Green Card
+service: immigration-law
 image: /images/pexels-travis-saylor-271738-951382-kopyası.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -13,11 +14,11 @@ publishDate: 2025-09-26T10:42:00.000Z
 metadata:
   canonical: https://capitollawpartners.com/how-to-get-a-green-card
   description: "How\_to\_Get\_a\_Green\_Card? Employment-Based\_Green Card. Applying Through a Company. PERM Application. Can I include my family?.."
-  title: "How to Get a Green Card ? | Capitol Law Partners Blog"
+  title: "How to Get a Green Card ? | Capitol Law Partners Blog"
 seo:
   description: "How\_to\_Get\_a\_Green\_Card? Employment-Based\_Green Card. Applying Through a Company. PERM Application. Can I include my family?.."
   canonicalOverride: https://capitollawpartners.com/how-to-get-a-green-card
-  title: "How to Get a Green Card ? | Capitol Law Partners Blog"
+  title: "How to Get a Green Card ? | Capitol Law Partners Blog"
 ---
 ## **How to Get a Green Card?**
 
@@ -130,3 +131,5 @@ The Green Card process is quite complex and involves many details that require a
 [info@capitollawpartners.com](mailto:info@capitollawpartners.com)
 
 [](tel:+12024402272)
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

@@ -34,7 +34,7 @@ contactForm:
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Green Card EB-1C
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/globe-in-sunlight.jpg
   content: >
 
     <p>Nossos serviços de Green Card EB-1C orientam você na elegibilidade,

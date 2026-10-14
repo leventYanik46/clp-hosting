@@ -9,6 +9,7 @@ excerpt: >-
   States. It also clarifies screening issues, citizenship questions, and how
   military service may intersect with longer-term immigration planning.
 category: Citizenship & Military Service
+service: citizenship-and-naturalization
 image: /images/htbs.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -111,3 +112,5 @@ Capitol Law Partners is a U.S.-based legal consultancy and advisory firm providi
 With deep expertise and client-focused representation,[ Capitol Law Partners](https://capitollawpartners.com) ensures that individuals and businesses receive the legal support they need to achieve their goals. 
 
 [Contact Us WhatsApp.](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
+
+*Need help with this topic? See our [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) page or [schedule a consultation](/schedule).*

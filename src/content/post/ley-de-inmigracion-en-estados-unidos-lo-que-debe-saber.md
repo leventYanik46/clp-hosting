@@ -7,6 +7,7 @@ excerpt: >-
   frecuentes y la importancia de una estrategia legal adecuada.
 category: Inmigracion
 lang: es
+service: immigration-law
 image: /images/immigraiton-law.jpg
 imageWidth: 5760
 imageHeight: 3840
@@ -62,3 +63,5 @@ En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a:
 * acompañar a familias, estudiantes e inversionistas en cada etapa.
 
 Tener derecho potencial a un beneficio migratorio no siempre basta. Lo que suele marcar la diferencia es la estrategia, la consistencia documental y el momento correcto para presentar el caso.
+
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Derecho Migratorio](/es/practice-area/immigration-law) o [programe una consulta](/es/schedule).*

@@ -1,11 +1,12 @@
 ---
-title: "B1/B2 Visas in the United States: What You Can and Cannot Do\_"
+title: "B1/B2 Visas in the United States: What You Can and Cannot Do "
 excerpt: >-
   The B1/B2 visa is a flexible option for short-term travel, covering both
   business and leisure. It is best used for attending meetings, tourism, medical
   visits, and short-term courses. However, it is not a work or study visa, and
   misuse can have long-term immigration consequences. 
 category: Green Card
+service: immigration-law
 image: /images/b1-b2visa.jpg
 imageWidth: 1280
 imageHeight: 720
@@ -54,3 +55,5 @@ Violating these restrictions can lead to serious immigration consequences, inclu
 #### **Why Legal Guidance Matters** 
 
 Immigration rules are detailed and sometimes confusing. Many travelers unintentionally overstep their visa limits, which may affect future applications. At **[Capitol Law Partners](https://capitollawpartners.com/)**, our attorneys provide **personalized guidance** to help you maximize the opportunities of your B1/B2 visa while staying compliant with U.S. immigration law.
+
+*Need help with this topic? See our [Immigration Law](/practice-area/immigration-law) page or [schedule a consultation](/schedule).*

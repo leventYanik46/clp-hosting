@@ -10,6 +10,7 @@ excerpt: >-
   which type of protection best matches their products, branding, software, or
   confidential information.
 category: Intellectual Property Law
+service: trademark-and-intellectual-property-registration
 image: /images/intellectual-property.jpg
 imageWidth: 5000
 imageHeight: 3337
@@ -216,3 +217,5 @@ Contact Capitol Law Partners to register, safeguard, or enforce your trademark r
 [](mailto:info@capitollawpartners.com)
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg "Capitol Law Partners")
+
+*Need help with this topic? See our [Trademark Registration](/practice-area/key-services/trademark-and-intellectual-property-registration) page or [schedule a consultation](/schedule).*

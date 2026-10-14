@@ -34,7 +34,7 @@ contactForm:
     informes transparentes y cumplimiento judicial.
 post:
   title: Curatela
-  image: ~/assets/images/estate-img.jpg
+  image: ~/assets/images/practice-areas/desk-document-review.jpg
   content: >
 
     <p>Administración financiera para quienes no pueden gestionar sus bienes,

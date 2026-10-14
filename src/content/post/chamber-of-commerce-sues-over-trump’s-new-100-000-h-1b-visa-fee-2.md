@@ -10,6 +10,7 @@ excerpt: >-
   currently before the U.S. District Court for the District of Columbia, making
   it a major development for employers tracking H-1B compliance and cost risk.
 category: USA News
+service: h-1b-visa
 image: /images/news.jpg
 imageWidth: 6912
 imageHeight: 4160
@@ -134,3 +135,5 @@ More:
 [](<>)Phone [+1 (202) 440-2272](<>)
 
 [info@capitollawpartners.com](<>)
+
+*Need help with this topic? See our [H-1B Specialty Occupation](/practice-area/key-services/h-1b-visa) page or [schedule a consultation](/schedule).*

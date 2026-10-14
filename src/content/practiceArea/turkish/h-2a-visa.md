@@ -32,7 +32,7 @@ contactForm:
   description: Ekibimiz genellikle 24 iş saati içinde yanıt verir.
 post:
   title: H-2A Vizesi
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/flag-in-farm-field.jpg
   content: >
 
     <p>H-2A Vizesi hizmetlerimiz, uygunluk, dilekçe stratejisi ve kanıt

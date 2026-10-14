@@ -10,6 +10,7 @@ excerpt: >-
   başvurusunda gecikmeye yol açabilecek riskler hakkında da yol gösterir.
 category: Form Kılavuzu
 lang: tr
+service: family-based-immigration
 image: /images/ds-160-form-full-out.jpg
 imageWidth: 6000
 imageHeight: 4000
@@ -163,3 +164,5 @@ I-485 Formunu doldurmak imkansız bir iş değildir. Bilgilerinizin DS-160 ve pa
 📞[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Telefon [+1 (202) 440-2272](tel:+12024402272)
 
 📧[info@capitollawpartners.com](mailto:info@capitollawpartners.com)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Aile Temelli Göçmenlik](/tr/practice-area/key-services/family-based-immigration) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

@@ -34,7 +34,7 @@ contactForm:
     with clear negotiation strategies.
 post:
   title: Real Estate Contracts and Negotiations
-  image: ~/assets/images/real-estate.jpg
+  image: ~/assets/images/practice-areas/real-estate-contract-signing.jpg
   content: >
 
     <p>Contracts built to protect your position, from LOIs to final agreements,

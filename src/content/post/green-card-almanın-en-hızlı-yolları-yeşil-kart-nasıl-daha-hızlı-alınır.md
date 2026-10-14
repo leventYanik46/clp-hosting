@@ -7,6 +7,7 @@ excerpt: >-
   belirlemek için bir göçmenlik avukatına danışmak çok önemlidir..
 category: Green Card
 lang: tr
+service: immigration-law
 tags:
   - Green Card
   - Fastest Green Card Process
@@ -104,3 +105,5 @@ Yeşil kart başvuru süreci, doğru strateji ve eksiksiz belge yönetimi gerekt
 📧[info@capitollawpartners.com](mailto:info@capitollawpartners.com) 
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

@@ -34,7 +34,7 @@ contactForm:
     PI con los objetivos empresariales.
 post:
   title: Gestión de Portafolio de PI
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/patent-agreement.jpg
   content: >
 
     <p>Gestión estratégica y eficiente de portafolios para alinear los activos

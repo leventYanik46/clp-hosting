@@ -34,7 +34,7 @@ contactForm:
     evidence and compensation.
 post:
   title: Pedestrian and Bicycle Accidents
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/corporate-img.jpg
   content: >
 
     <p>Protecting injured pedestrians and cyclists with fast action to secure

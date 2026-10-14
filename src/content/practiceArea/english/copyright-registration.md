@@ -34,7 +34,7 @@ contactForm:
     maximize enforcement options.
 post:
   title: Copyright Registration
-  image: ~/assets/images/ip-law.jpg
+  image: ~/assets/images/practice-areas/writing-in-notebook.jpg
   content: >
 
     <p>Register creative works to secure ownership, deter infringement, and

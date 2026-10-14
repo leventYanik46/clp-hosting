@@ -212,6 +212,13 @@ const locationSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
   image: imageSchema,
+  /** Optional link to the dedicated office page, e.g. /locations/washington-dc */
+  href: z.string().optional(),
+});
+
+const faqItemSchema = z.object({
+  question: z.string(),
+  answer: z.string(),
 });
 
 const contactItemSchema = z.object({
@@ -462,6 +469,81 @@ const practiceAreaCollection = defineCollection({
       content: z.string().optional(),
     }),
     contactForm: contactFormSchema.optional(), // <-- added
+    /** Visible FAQ section; also emitted as FAQPage structured data. */
+    faq: z.array(faqItemSchema).optional(),
+  }),
+});
+
+/**
+ * One page per physical office ("Immigration Attorney in Washington, DC").
+ * Files live in src/content/office/<language folder>/<city-slug>.md
+ */
+const officeCollection = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: 'src/content/office' }),
+  schema: z.object({
+    metadata: metadataDefinition(),
+    seo: seoDefinition(),
+    draft: z.boolean().optional(),
+    order: z.number().optional(),
+    city: z.string(),
+    hero: z.object({
+      tagline: z.string().optional(),
+      title: z.string(),
+      subtitle: z.string().optional(),
+    }),
+    office: z.object({
+      name: z.string(),
+      streetAddress: z.string(),
+      addressLocality: z.string(),
+      addressRegion: z.string().optional(),
+      postalCode: z.string(),
+      addressCountry: z.string(),
+      telephone: z.string(),
+      telephoneDisplay: z.string().optional(),
+      email: z.string().optional(),
+      mapUrl: z.string().url().optional(),
+      geo: z
+        .object({
+          latitude: z.number(),
+          longitude: z.number(),
+        })
+        .optional(),
+      /** schema.org openingHours strings, e.g. "Mo-Fr 09:00-17:00" */
+      openingHours: z.array(z.string()).optional(),
+      areaServed: z.array(z.string()).optional(),
+      image: imageSchema.optional(),
+    }),
+    labels: z
+      .object({
+        address: z.string().optional(),
+        phone: z.string().optional(),
+        email: z.string().optional(),
+        directions: z.string().optional(),
+        hours: z.string().optional(),
+        servicesTitle: z.string().optional(),
+        areasTitle: z.string().optional(),
+      })
+      .optional(),
+    intro: z.string(),
+    services: z
+      .array(
+        z.object({
+          title: z.string(),
+          description: z.string().optional(),
+          href: z.string(),
+        })
+      )
+      .optional(),
+    content: z.string().optional(),
+    faq: z.array(faqItemSchema).optional(),
+    callToAction: z
+      .object({
+        title: z.string(),
+        subtitle: z.string().optional(),
+        buttonText: z.string(),
+        href: z.string().optional(),
+      })
+      .optional(),
   }),
 });
 
@@ -499,6 +581,12 @@ const postCollection = defineCollection({
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
     lang: z.enum(['en', 'tr', 'es', 'pt', 'fr']).optional().default('en'),
+    /**
+     * Slug of the practice-area page this post supports (e.g. "eb-2-niw-green-card"
+     * or "immigration-law"). Rendered as a "related service" call to action.
+     * When omitted, the post category decides (see src/utils/relatedService.ts).
+     */
+    service: z.string().optional(),
     metadata: metadataDefinition({ allowCanonical: false }),
     seo: seoDefinition({ allowCanonicalOverride: false }),
   }),
@@ -589,6 +677,7 @@ const confirmationCollection = defineCollection({
 
 export const collections = {
   post: postCollection,
+  office: officeCollection,
   event: eventCollection,
   events: eventsCollection,
   homepage: homepageCollection,

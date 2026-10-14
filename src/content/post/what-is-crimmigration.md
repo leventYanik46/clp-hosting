@@ -6,6 +6,7 @@ excerpt: >-
   guide clients through both systems, protecting immigration status, avoiding
   deportation, and securing future opportunities.
 category: İmmigration
+service: removal-defense
 image: /images/usa.jpg
 imageWidth: 4722
 imageHeight: 3062
@@ -114,3 +115,5 @@ At Capitol Law Partners, our attorneys understand both the criminal and immigrat
 * Crimmigration is a complex, high-stakes legal area where the wrong move can change your life. Having a legal team that understands the intersection of criminal and immigration law is critical. 
 
 If you or a loved one is facing criminal charges and you are not a U.S. citizen, don’t wait until it’s too late. **Contact Capitol Law Partners today** for experienced legal counsel and dedicated representation.
+
+*Need help with this topic? See our [Removal & Deportation Defense](/practice-area/key-services/removal-defense) page or [schedule a consultation](/schedule).*

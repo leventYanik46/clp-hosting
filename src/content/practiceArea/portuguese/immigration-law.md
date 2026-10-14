@@ -34,7 +34,7 @@ contactForm:
   description: Nossa equipe normalmente responde em até 24 horas úteis.
 post:
   title: Direito de Imigração
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/statue-of-liberty.jpg
   content: >
     <ul>
       <li><a href="/pt/practice-area/key-services/immigration-litigation">Contencioso de Imigração</a></li>

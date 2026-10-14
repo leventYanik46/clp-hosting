@@ -36,7 +36,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Contract Drafting, Review, and Negotiation
-  image: ~/assets/images/precision-img.jpg
+  image: ~/assets/images/practice-areas/contract-review-table.jpg
   content: >
 
     <p>Contracts define your business relationships. We draft, review, and

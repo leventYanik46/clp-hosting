@@ -36,7 +36,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: General Counsel & Advisory Services
-  image: ~/assets/images/precision-img.jpg
+  image: ~/assets/images/practice-areas/legal-advisor-handshake.jpg
   content: >
 
     <p>Our General Counsel & Advisory Services practice provides businesses with

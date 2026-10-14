@@ -34,7 +34,7 @@ contactForm:
     estabilidad financiera tras una pérdida.
 post:
   title: Muerte Injusta
-  image: ~/assets/images/personal-injury.jpg
+  image: ~/assets/images/practice-areas/lady-justice-statue.jpg
   content: >
 
     <p>Representación compasiva para familias que buscan responsabilidad y

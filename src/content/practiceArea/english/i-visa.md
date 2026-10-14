@@ -34,7 +34,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: I Visa
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/practice-areas/press-camera.jpg
   content: >
 
     <p>Our I Visa services guide you through eligibility, petition strategy, and

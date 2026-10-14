@@ -6,6 +6,9 @@ import type { HTMLAttributes } from 'astro/types';
 
 type Layout = 'fixed' | 'constrained' | 'fullWidth' | 'cover' | 'responsive' | 'contained';
 
+/** Resize mode passed to the image service when both width and height are set. */
+export type ImageFit = 'cover' | 'contain' | 'fill';
+
 export interface ImageProps extends Omit<HTMLAttributes<'img'>, 'src'> {
   src?: string | ImageMetadata | null;
   width?: string | number | null;
@@ -25,6 +28,7 @@ export interface ImageProps extends Omit<HTMLAttributes<'img'>, 'src'> {
 
   format?: string;
   quality?: number;
+  fit?: ImageFit;
 }
 
 export type ImagesOptimizer = (
@@ -33,7 +37,8 @@ export type ImagesOptimizer = (
   width?: number,
   height?: number,
   format?: string,
-  quality?: number
+  quality?: number,
+  fit?: ImageFit
 ) => Promise<Array<{ src: string; width: number }>>;
 
 /* ******* */
@@ -221,7 +226,8 @@ export const astroAsseetsOptimizer: ImagesOptimizer = async (
   _width,
   _height,
   format = undefined,
-  quality = undefined
+  quality = undefined,
+  fit = undefined
 ) => {
   if (!image) {
     return [];
@@ -237,6 +243,7 @@ export const astroAsseetsOptimizer: ImagesOptimizer = async (
           ...(h !== undefined ? { height: h } : { inferSize: true }),
           ...(format ? { format: format } : {}),
           ...(quality ? { quality: quality } : {}),
+          ...(fit ? { fit: fit } : {}),
         });
 
         return {
@@ -310,6 +317,7 @@ export async function getImagesOptimized(
     style = '',
     format = config.formats[0].replace('image/', ''),
     quality = config.quality,
+    fit,
     ...rest
   }: ImageProps,
   transform: ImagesOptimizer = () => Promise.resolve([])
@@ -358,7 +366,8 @@ export async function getImagesOptimized(
     Number(width) || undefined,
     Number(height) || undefined,
     format,
-    quality
+    quality,
+    fit
   );
 
   const srcset = transformedImages

@@ -4,20 +4,21 @@ excerpt: >-
   Understand the Dhanasar framework behind the EB-2 National Interest Waiver and exactly what each of the three prongs requires.
 category: Business Immigration Law
 lang: en
+service: eb-2-niw-green-card
 tags:
   - Immigration
   - Green Card
 image: /images/eb-2-niw-eligibility-three-prongs.jpg
 publishDate: 2026-07-01T09:02:15.352-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/eb-2-niw-eligibility-three-prongs
+  canonical: https://capitollawpartners.com/eb-2-niw-eligibility-three-prongs
   description: >-
     The EB-2 NIW test explained: what each of the three Dhanasar prongs requires and how USCIS weighs them.
   title: "EB-2 NIW Eligibility: The Three Dhanasar Prongs"
 seo:
   description: >-
     The EB-2 NIW test explained: what each of the three Dhanasar prongs requires and how USCIS weighs them.
-  canonicalOverride: https://capitollawpartners.com/blog/eb-2-niw-eligibility-three-prongs
+  canonicalOverride: https://capitollawpartners.com/eb-2-niw-eligibility-three-prongs
   title: "EB-2 NIW Eligibility: The Three Dhanasar Prongs"
 ---
 The EB-2 National Interest Waiver lets you skip the job offer and labor certification normally required for an EB-2 green card, if you can satisfy a three-part test. That test comes from a 2016 case called Matter of Dhanasar, and every NIW petition is judged against its three prongs.
@@ -39,3 +40,5 @@ If you're weighing your options, a consultation with Capitol Law Partners can ma
 This article is for informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by this communication.
 
 *Attorney Cagatay Ersoy, Practical strategy for founders, investors, and growing companies.*
+
+*Considering a National Interest Waiver? Our [EB-2 NIW attorneys](/practice-area/key-services/eb-2-niw-green-card) evaluate your case against the three Dhanasar prongs and prepare the petition from strategy through filing.*

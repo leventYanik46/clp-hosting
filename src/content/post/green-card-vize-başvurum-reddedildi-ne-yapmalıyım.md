@@ -3,6 +3,7 @@ title: Green Card - Vize Başvurum Reddedildi Ne Yapmalıyım?
 excerpt: ' ABD vizesinin reddedilmesi, göçmenlik yolculuğunuzun sonu anlamına gelmez. Başvurunuz reddedildikten sonra atmanız gereken adımları, ret gerekçesini nasıl analiz edeceğinizi, hangi belgeleri güçlendirmeniz gerektiğini ve Washington, D.C. ile Chicago''daki Capitol Law Partners avukatlarının yeniden başvuru veya itiraz sürecinde size nasıl rehberlik edebileceğini öğrenin.'
 category: ABD Vize Reddi, Reddetme ve İade
 lang: tr
+service: immigration-law
 image: /images/pexels-steve-845246.jpg
 imageWidth: 4379
 imageHeight: 2919
@@ -67,3 +68,5 @@ Whatsapp +1 (202) 440-2272
 Telefon +1 (202) 440-2272 
 
 info@capitollawpartners.com
+
+*Bu konuda yardıma mı ihtiyacınız var? [Göçmenlik Hukuku](/tr/practice-area/immigration-law) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

@@ -35,7 +35,7 @@ contactForm:
   description: Our team typically responds within 24 business hours.
 post:
   title: Contract Review & Executive Counsel
-  image: ~/assets/images/precision-img.jpg
+  image: ~/assets/images/practice-areas/reviewing-clipboard.jpg
   content: >
 
     <p>Our Contract Review & Executive Counsel service combines meticulous

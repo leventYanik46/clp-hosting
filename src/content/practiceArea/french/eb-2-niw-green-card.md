@@ -34,7 +34,7 @@ contactForm:
   description: Notre équipe répond généralement sous 24 heures ouvrables.
 post:
   title: Green Card EB-2 NIW
-  image: ~/assets/images/immigration-img.jpg
+  image: ~/assets/images/NIW.jpg
   content: >
 
     <p>Nos services Green Card EB-2 NIW vous accompagnent sur l’admissibilité,
