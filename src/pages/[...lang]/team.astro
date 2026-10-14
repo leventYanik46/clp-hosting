@@ -28,8 +28,9 @@ const isTwoColumnTeamSection = (wrapper?: string) => wrapper?.includes('md:grid-
 
 <Layout metadata={metadata} seo={seo}>
   {pageHeading && (
-    <section class="mx-auto max-w-6xl px-4 sm:px-6 pt-8 md:pt-12">
+    <section class="mx-auto max-w-6xl px-4 sm:px-6 pt-10 md:pt-16 pb-8 md:pb-12">
       <h1 class="text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading">{pageHeading}</h1>
+      <div class="mx-auto mt-2.5 h-1 w-16 rounded-full bg-primary" aria-hidden="true"></div>
     </section>
   )}
 
@@ -38,6 +39,13 @@ const isTwoColumnTeamSection = (wrapper?: string) => wrapper?.includes('md:grid-
       isTwoColumnTeamSection(section.wrapper) && section.members.length % 2 === 1;
 
     return (
+      <>
+      {section.heading && (
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 mt-20 md:mt-28 mb-10 md:mb-14 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold leading-tighter tracking-tighter font-heading">{section.heading}</h2>
+          <div class="mx-auto mt-2.5 h-1 w-16 rounded-full bg-primary" aria-hidden="true"></div>
+        </div>
+      )}
       <div class={section.wrapper}>
         {section.members.map((member, index) => {
           const isCenteredLastCard = shouldCenterLastCard && index === section.members.length - 1;
@@ -49,6 +57,7 @@ const isTwoColumnTeamSection = (wrapper?: string) => wrapper?.includes('md:grid-
           );
         })}
       </div>
+      </>
     );
   })}
 </Layout>

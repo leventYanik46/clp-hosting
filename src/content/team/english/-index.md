@@ -1,4 +1,5 @@
 ---
+heading: Meet Our Attorneys
 metadata:
   title: Meet Our Team
   description: Meet our team and schedule an appointment with our experts.
@@ -81,7 +82,8 @@ sections:
         image:
           src: ~/assets/images/volkan-bio-team-9x8.jpeg
           alt: Volkan D.
-  - wrapper: w-full
+  - heading: Meet Our Team
+    wrapper: w-full
     members:
       - title: null
         subtitle: Dr. Murat Y.

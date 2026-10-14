@@ -1,4 +1,5 @@
 ---
+heading: Conozca a Nuestros Abogados
 metadata:
   title: Conozca a Nuestro Equipo
   description: Conozca a nuestro equipo y agende una cita con nuestros expertos.
@@ -81,7 +82,8 @@ sections:
         image:
           src: ~/assets/images/volkan-bio-team-9x8.jpeg
           alt: Volkan D.
-  - wrapper: w-full
+  - heading: Conozca a Nuestro Equipo
+    wrapper: w-full
     members:
       - title: null
         subtitle: Dr. Murat Y.

@@ -1,4 +1,5 @@
 ---
+heading: Avukatlarımızla Tanışın
 metadata:
   title: Ekibimizle Tanışın
   description: Ekibimizle tanışın ve uzmanlarımızdan randevu alın.
@@ -81,7 +82,8 @@ sections:
         image:
           src: ~/assets/images/volkan-bio-team-9x8.jpeg
           alt: Volkan D.
-  - wrapper: w-full
+  - heading: Ekibimizle Tanışın
+    wrapper: w-full
     members:
       - title: null
         subtitle: Dr. Murat Y.

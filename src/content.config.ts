@@ -313,6 +313,8 @@ const teamCardSchema = z.object({
 
 const teamSectionSchema = z.object({
   wrapper: z.string().optional(),
+  /** Optional heading shown above this group of cards (e.g. Attorneys, Staff). */
+  heading: z.string().optional(),
   title: z.string().optional(),
   members: z.array(teamCardSchema),
 });
