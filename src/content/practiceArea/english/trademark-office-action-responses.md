@@ -3,8 +3,7 @@ metadata:
   title: "Trademark Office Action Attorney | USPTO Refusal Responses"
   description: >-
     Trademark office action attorneys who respond to USPTO refusals, final
-    actions and appeals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    actions and appeals. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -98,7 +97,7 @@ post:
     </ul>
 
     <h2>Your trademark office action attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement alongside the firm's business and immigration practices. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an office in <a href="/locations/istanbul">Istanbul</a> for Turkish brand owners, as part of our <a href="/practice-area/ip-law">intellectual property practice</a>. See also our <a href="/practice-area/key-services/trademark-search-and-clearance">clearance</a>, <a href="/practice-area/key-services/trademark-and-intellectual-property-registration">registration</a> and <a href="/practice-area/key-services/trademark-renewal-and-international-registration">renewal</a> services.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement alongside the firm's business and immigration practices. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, with an office in <a href="/locations/istanbul">Istanbul</a> for Turkish brand owners, as part of our <a href="/practice-area/ip-law">intellectual property practice</a>. See also our <a href="/practice-area/key-services/trademark-search-and-clearance">clearance</a>, <a href="/practice-area/key-services/trademark-and-intellectual-property-registration">registration</a> and <a href="/practice-area/key-services/trademark-renewal-and-international-registration">renewal</a> services.</p>
 
     <h2>Learn more about trademarks and IP</h2>
     <ul>
@@ -187,8 +186,7 @@ seo:
   title: "Trademark Office Action Attorney | USPTO Refusal Responses"
   description: >-
     Trademark office action attorneys who respond to USPTO refusals, final
-    actions and appeals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    actions and appeals. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

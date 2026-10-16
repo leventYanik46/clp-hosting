@@ -741,6 +741,17 @@
   to   = "/locations"
   status = 301
 
+# Minneapolis office closed (Oct 2026) → locations hub
+[[redirects]]
+  from = "/locations/minneapolis"
+  to   = "/locations"
+  status = 301
+
+[[redirects]]
+  from = "/locations/minneapolis/"
+  to   = "/locations"
+  status = 301
+
 # Scheduling → /schedule
 [[redirects]]
   from = "/consultation-appointment/"

@@ -3,8 +3,7 @@ metadata:
   title: "L-1A Visa Attorney | Intracompany Transfer Lawyers"
   description: >-
     L-1A attorneys for executives and managers moving to a U.S. subsidiary,
-    affiliate or new office. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    affiliate or new office. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -91,7 +90,7 @@ post:
 
     <h2>Why Capitol Law Partners</h2>
     <p>We work with companies from Turkey, Europe, Latin America and elsewhere that are opening or growing a U.S. presence, and we handle both the immigration and business side: <a href="/practice-area/key-services/business-formation-structuring">entity formation and structuring</a>, <a href="/practice-area/key-services/l-1b-visa">L-1B specialized knowledge transfers</a>, <a href="/practice-area/key-services/e-2-visa">E-2 investor visas</a> where the treaty applies, and <a href="/practice-area/key-services/business-employment-immigration-solutions">ongoing business immigration programs</a>.</p>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including L-1, E-2, H-1B, EB-1C and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent multinational employers from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an <a href="/locations/istanbul">Istanbul</a> office supporting companies expanding from Turkey.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including L-1, E-2, H-1B, EB-1C and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent multinational employers from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, with an <a href="/locations/istanbul">Istanbul</a> office supporting companies expanding from Turkey.</p>
 
     <h2>Learn more about the L-1A visa</h2>
     <ul>
@@ -175,8 +174,7 @@ seo:
   title: "L-1A Visa Attorney | Intracompany Transfer Lawyers"
   description: >-
     L-1A attorneys for executives and managers moving to a U.S. subsidiary,
-    affiliate or new office. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    affiliate or new office. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

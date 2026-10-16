@@ -3,8 +3,7 @@ metadata:
   title: "Sibling Green Card Attorney | F4 Brother & Sister Lawyers"
   description: >-
     F4 sibling green card attorneys for I-130 brother and sister petitions and
-    Visa Bulletin waits. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Visa Bulletin waits. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -96,7 +95,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles family-based petitions for siblings, children, parents and spouses, alongside <a href="/practice-area/key-services/green-card-for-parents">green cards for parents and children</a>, <a href="/practice-area/key-services/family-reunification">family reunification</a> and employment-based immigration. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent families from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an office in <a href="/locations/istanbul">Istanbul</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles family-based petitions for siblings, children, parents and spouses, alongside <a href="/practice-area/key-services/green-card-for-parents">green cards for parents and children</a>, <a href="/practice-area/key-services/family-reunification">family reunification</a> and employment-based immigration. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent families from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, with an office in <a href="/locations/istanbul">Istanbul</a>.</p>
 
     <h2>Learn more about sibling green cards</h2>
     <ul>
@@ -175,8 +174,7 @@ seo:
   title: "Sibling Green Card Attorney | F4 Brother & Sister Lawyers"
   description: >-
     F4 sibling green card attorneys for I-130 brother and sister petitions and
-    Visa Bulletin waits. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Visa Bulletin waits. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

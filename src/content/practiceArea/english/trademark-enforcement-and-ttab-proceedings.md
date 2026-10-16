@@ -3,8 +3,7 @@ metadata:
   title: "Trademark Enforcement Attorney | TTAB Opposition Lawyers"
   description: >-
     Trademark enforcement lawyers for TTAB oppositions, cancellations, UDRP and
-    Lanham Act claims. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Lanham Act claims. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -98,7 +97,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement. The same team handles <a href="/practice-area/key-services/trademark-office-action-responses">office action responses</a> and disputes, so prosecution arguments never undercut the position taken before the Board. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French, and we represent clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an <a href="/locations/istanbul">Istanbul</a> office.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement. The same team handles <a href="/practice-area/key-services/trademark-office-action-responses">office action responses</a> and disputes, so prosecution arguments never undercut the position taken before the Board. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French, and we represent clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, with an <a href="/locations/istanbul">Istanbul</a> office.</p>
 
     <h2>Learn more about protecting your brand</h2>
     <ul>
@@ -180,8 +179,7 @@ seo:
   title: "Trademark Enforcement Attorney | TTAB Opposition Lawyers"
   description: >-
     Trademark enforcement lawyers for TTAB oppositions, cancellations, UDRP and
-    Lanham Act claims. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Lanham Act claims. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

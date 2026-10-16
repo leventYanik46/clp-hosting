@@ -3,8 +3,7 @@ metadata:
   title: "SIJS Attorney | Special Immigrant Juvenile Status Lawyers"
   description: >-
     SIJS attorneys for abused, neglected or abandoned children: court order,
-    I-360 and green card. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    I-360 and green card. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -37,7 +36,7 @@ post:
   title: "SIJS Attorney: Special Immigrant Juvenile Status Lawyers"
   image: ~/assets/images/practice-areas/love-thy-neighbor-sign.jpg
   content: |
-    <p><strong>Special Immigrant Juvenile Status (SIJS) gives children and young adults who cannot safely reunite with a parent because of abuse, neglect or abandonment a path to a U.S. green card.</strong> Capitol Law Partners handles every stage: the state court proceeding that produces the required findings, the Form I-360 petition with USCIS, protection while the child waits for a visa number, and the final application for permanent residence. We represent young people in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>.</p>
+    <p><strong>Special Immigrant Juvenile Status (SIJS) gives children and young adults who cannot safely reunite with a parent because of abuse, neglect or abandonment a path to a U.S. green card.</strong> Capitol Law Partners handles every stage: the state court proceeding that produces the required findings, the Form I-360 petition with USCIS, protection while the child waits for a visa number, and the final application for permanent residence. We represent young people in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>.</p>
 
     <h2>What an SIJS attorney does for you</h2>
     <p>SIJS is unusual because it runs through two court systems. A state juvenile court must first make specific factual findings, and only then can USCIS act on the immigration petition. Our role is to:</p>
@@ -62,7 +61,7 @@ post:
     <h3>The three findings in the state court order</h3>
     <p>The juvenile court order must contain three findings. First, the child has been declared dependent on the court, or placed in the custody of a state agency or department, or of an individual or entity appointed by the state or the court. Second, reunification with one or both parents is not viable because of abuse, neglect, abandonment or a similar basis under state law. Third, it is not in the child's best interest to return to the country of nationality or last habitual residence. The order should also state the facts behind each finding, because USCIS reviews whether the court had a reasonable factual basis.</p>
     <h3>State court age limits and why timing matters</h3>
-    <p>Federal law allows filing until the child turns 21, but a state court can only issue findings while it has jurisdiction over the young person, and that jurisdiction varies by state and type of case. The DC Superior Court, the Virginia juvenile and domestic relations district courts, the New York Family Court and the Minnesota juvenile courts each have their own proceedings and age limits, and in some the practical cutoff is 18 rather than 21. A child who is 17 may have only months to obtain an order, so we treat every SIJS consultation as time-sensitive.</p>
+    <p>Federal law allows filing until the child turns 21, but a state court can only issue findings while it has jurisdiction over the young person, and that jurisdiction varies by state and type of case. The DC Superior Court, the Virginia juvenile and domestic relations district courts and the New York Family Court each have their own proceedings and age limits, and in some the practical cutoff is 18 rather than 21. A child who is 17 may have only months to obtain an order, so we treat every SIJS consultation as time-sensitive.</p>
 
     <h2>The SIJS process and timeline</h2>
     <ol>
@@ -97,7 +96,7 @@ post:
     <p>Many SIJS clients entered as unaccompanied minors and already have a case in immigration court, and SIJS can still be pursued. We ask the immigration judge to continue or administratively close the case while the state court and USCIS act, or seek dismissal once the I-360 is approved. If the child is in federal custody, additional consent requirements apply before a state court can change custody. Our <a href="/practice-area/key-services/removal-defense">removal defense</a> team coordinates both tracks so that nothing filed in one court undermines the other.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and leads the firm's immigration practice, covering humanitarian cases such as SIJS and asylum alongside family and employment-based matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent SIJS clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and leads the firm's immigration practice, covering humanitarian cases such as SIJS and asylum alongside family and employment-based matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent SIJS clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -173,8 +172,7 @@ seo:
   title: "SIJS Attorney | Special Immigrant Juvenile Status Lawyers"
   description: >-
     SIJS attorneys for abused, neglected or abandoned children: court order,
-    I-360 and green card. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    I-360 and green card. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

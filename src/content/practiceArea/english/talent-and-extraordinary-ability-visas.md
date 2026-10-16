@@ -3,7 +3,7 @@ metadata:
   title: "Talent & Extraordinary Ability Visa Attorney | Overview"
   description: >-
     EB-1, EB-2 NIW and O-1 visa attorneys for researchers, founders, artists
-    and athletes. Offices in Washington DC, Virginia, New York and Minneapolis.
+    and athletes. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -78,7 +78,7 @@ post:
     <p>Bring your CV, award letters, publication and citation records, articles about you, pay records and patent or funding documents, plus corporate documents for EB-1C and the planned U.S. work for O-1.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1, EB-2 NIW and O-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office supports clients processing at a consulate abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1, EB-2 NIW and O-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office supports clients processing at a consulate abroad.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -159,7 +159,7 @@ seo:
   title: "Talent & Extraordinary Ability Visa Attorney | Overview"
   description: >-
     EB-1, EB-2 NIW and O-1 visa attorneys for researchers, founders, artists
-    and athletes. Offices in Washington DC, Virginia, New York and Minneapolis.
+    and athletes. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

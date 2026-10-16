@@ -3,8 +3,7 @@ metadata:
   title: "H-1B Visa Attorney | Specialty Occupation Lawyers"
   description: >-
     H-1B attorneys for employers and specialty occupation workers: LCAs, cap
-    filings, transfers, RFEs. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    filings, transfers, RFEs. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -92,7 +91,7 @@ post:
 
     <h2>Why Capitol Law Partners</h2>
     <p>We represent technology companies, startups, healthcare providers, universities and professional services firms, as well as individual workers facing a transfer or extension. Our <a href="/practice-area/key-services/business-employment-immigration-solutions">business immigration solutions</a> cover H-1B programs, compliance and the <a href="/practice-area/key-services/eb-2-niw-green-card">EB-2</a> and <a href="/practice-area/key-services/eb-1a-green-card">EB-1</a> green card stages that follow.</p>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including H-1B, L-1, E-2 and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent employers and workers nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an office in <a href="/locations/istanbul">Istanbul</a> for workers applying from abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including H-1B, L-1, E-2 and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent employers and workers nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, with an office in <a href="/locations/istanbul">Istanbul</a> for workers applying from abroad.</p>
 
     <h2>Learn more about the H-1B visa</h2>
     <ul>
@@ -173,8 +172,7 @@ seo:
   title: "H-1B Visa Attorney | Specialty Occupation Lawyers"
   description: >-
     H-1B attorneys for employers and specialty occupation workers: LCAs, cap
-    filings, transfers, RFEs. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    filings, transfers, RFEs. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

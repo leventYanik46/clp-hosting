@@ -3,8 +3,7 @@ metadata:
   title: "K-1 Fiancé Visa Attorney | I-129F Petition Lawyers"
   description: >-
     K-1 fiancé visa lawyers for I-129F petitions, consular interviews and
-    adjustment after marriage. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    adjustment after marriage. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -97,7 +96,7 @@ post:
     </ul>
 
     <h2>Your K-1 fiancé visa attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles fiancé visas and marriage-based green cards alongside employment-based immigration, business and trademark matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent couples from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and we handle every other family category described on our <a href="/practice-area/key-services/family-based-immigration">family-based immigration</a> page.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles fiancé visas and marriage-based green cards alongside employment-based immigration, business and trademark matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent couples from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and we handle every other family category described on our <a href="/practice-area/key-services/family-based-immigration">family-based immigration</a> page.</p>
 
     <h2>Learn more about fiancé and spousal visas</h2>
     <ul>
@@ -175,8 +174,7 @@ seo:
   title: "K-1 Fiancé Visa Attorney | I-129F Petition Lawyers"
   description: >-
     K-1 fiancé visa lawyers for I-129F petitions, consular interviews and
-    adjustment after marriage. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    adjustment after marriage. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

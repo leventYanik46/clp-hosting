@@ -3,8 +3,7 @@ metadata:
   title: "Investor Visa Attorney | E-1, E-2, EB-5 & EB-1C Overview"
   description: >-
     Investor visa attorneys for E-1, E-2, EB-5 and EB-1C cases, including
-    Turkish treaty investors. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Turkish treaty investors. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -82,7 +81,7 @@ post:
     </ol>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who advises startups, investors and employers on workforce immigration, including E-2, L-1 and EB-1C matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent investors from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a> as part of a full <a href="/practice-area/immigration-law">immigration law</a> practice; our <a href="/locations/istanbul">Istanbul</a> office works directly with Turkish investors preparing consular applications.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who advises startups, investors and employers on workforce immigration, including E-2, L-1 and EB-1C matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent investors from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a> as part of a full <a href="/practice-area/immigration-law">immigration law</a> practice; our <a href="/locations/istanbul">Istanbul</a> office works directly with Turkish investors preparing consular applications.</p>
 
     <h2>Learn more about investor visas</h2>
     <ul>
@@ -167,8 +166,7 @@ seo:
   title: "Investor Visa Attorney | E-1, E-2, EB-5 & EB-1C Overview"
   description: >-
     Investor visa attorneys for E-1, E-2, EB-5 and EB-1C cases, including
-    Turkish treaty investors. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Turkish treaty investors. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

@@ -3,8 +3,8 @@ metadata:
   title: "Immigration Mandamus Lawyer | Writ of Mandamus for USCIS Delays"
   description: >-
     Writ of mandamus lawyers who sue USCIS and the State Department over
-    delayed green card, visa, asylum and citizenship cases. Offices in DC, VA,
-    NY and MN.
+    delayed green card, visa, asylum and citizenship cases. Offices in DC, VA
+    and NY.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -71,7 +71,7 @@ post:
     <p>Mandamus compels a decision, not an approval. If the application has a real problem, forcing a decision can produce a denial faster than waiting would have. That is why we review the merits before filing and tell you plainly if a lawsuit is the wrong tool. Consular cases carry an additional issue: courts generally will not review a consular officer's decision, but many courts will order a decision where the consulate has simply not acted. We explain how the courts in your district have treated these cases before you commit.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p>Our attorneys combine immigration practice with litigation experience. We handle mandamus matters for clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and we work in English, Turkish, Spanish, Portuguese and French. Because we also prepare the underlying green card, asylum and visa cases, we can fix a weak file before we force the agency to look at it.</p>
+    <p>Our attorneys combine immigration practice with litigation experience. We handle mandamus matters for clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and we work in English, Turkish, Spanish, Portuguese and French. Because we also prepare the underlying green card, asylum and visa cases, we can fix a weak file before we force the agency to look at it.</p>
 
     <h2>Learn more about mandamus</h2>
     <ul>
@@ -136,8 +136,8 @@ seo:
   title: "Immigration Mandamus Lawyer | Writ of Mandamus for USCIS Delays"
   description: >-
     Writ of mandamus lawyers who sue USCIS and the State Department over
-    delayed green card, visa, asylum and citizenship cases. Offices in DC, VA,
-    NY and MN.
+    delayed green card, visa, asylum and citizenship cases. Offices in DC, VA
+    and NY.
   schema:
     mode: merge
     includeBreadcrumbs: true

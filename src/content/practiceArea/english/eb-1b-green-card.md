@@ -3,8 +3,7 @@ metadata:
   title: "EB-1B Green Card Attorney | Outstanding Researcher Lawyers"
   description: >-
     EB-1B green card attorneys for outstanding professors and researchers and
-    their sponsors. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    their sponsors. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -100,7 +99,7 @@ post:
     <p>Most EB-1B beneficiaries hold <a href="/practice-area/key-services/h-1b-visa">H-1B</a>, <a href="/practice-area/key-services/o-1a-visa">O-1A</a> or <a href="/practice-area/key-services/j-1-visa">J-1</a> research scholar status. Filing does not jeopardize H-1B or O-1 status. J-1 scholars subject to the two-year home residence requirement of INA 212(e) can have the I-140 approved but cannot adjust status until the requirement is satisfied or waived, so we build the waiver into the timeline.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1, EB-2 NIW, O-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent researchers and institutions nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1, EB-2 NIW, O-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent researchers and institutions nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients abroad.</p>
 
     <h2>Learn more about the EB-1B</h2>
     <ul>
@@ -180,8 +179,7 @@ seo:
   title: "EB-1B Green Card Attorney | Outstanding Researcher Lawyers"
   description: >-
     EB-1B green card attorneys for outstanding professors and researchers and
-    their sponsors. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    their sponsors. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

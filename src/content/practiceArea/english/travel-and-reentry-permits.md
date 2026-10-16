@@ -3,7 +3,7 @@ metadata:
   title: "Advance Parole & Re-Entry Permit Attorney | Travel Documents"
   description: >-
     Attorneys for advance parole, re-entry permits and refugee travel documents
-    on Form I-131. Offices in Washington DC, Virginia, New York and Minneapolis.
+    on Form I-131. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -79,7 +79,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration and business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, many of whom split their lives between two countries.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration and business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, many of whom split their lives between two countries.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -157,7 +157,7 @@ seo:
   title: "Advance Parole & Re-Entry Permit Attorney | Travel Documents"
   description: >-
     Attorneys for advance parole, re-entry permits and refugee travel documents
-    on Form I-131. Offices in Washington DC, Virginia, New York and Minneapolis.
+    on Form I-131. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

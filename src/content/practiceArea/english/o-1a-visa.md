@@ -3,8 +3,7 @@ metadata:
   title: "O-1A Visa Attorney | Extraordinary Ability Visa Lawyers"
   description: >-
     O-1A visa attorneys for scientists, executives, founders and athletes with
-    extraordinary ability. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    extraordinary ability. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -100,7 +99,7 @@ post:
     <p>We prevent these problems by settling the petitioner structure first, documenting the standing of each award, publication and organization, and tying the exhibits to the regulatory language in a focused brief. If you received an RFE or denial on a petition prepared elsewhere, we can take over.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including O-1, EB-1A, EB-2 NIW, E-2 and L-1 matters, alongside business and trademark law. Because the firm also advises startups on formation and governance, we can build the structure a founder needs to be sponsored by their own company. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent O-1A beneficiaries and petitioners nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office supports clients applying from abroad. Employers sponsoring several professionals can see our <a href="/practice-area/key-services/business-employment-immigration-solutions">business and employment immigration</a> services.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including O-1, EB-1A, EB-2 NIW, E-2 and L-1 matters, alongside business and trademark law. Because the firm also advises startups on formation and governance, we can build the structure a founder needs to be sponsored by their own company. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent O-1A beneficiaries and petitioners nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office supports clients applying from abroad. Employers sponsoring several professionals can see our <a href="/practice-area/key-services/business-employment-immigration-solutions">business and employment immigration</a> services.</p>
 
     <h2>Learn more about the O-1 visa</h2>
     <ul>
@@ -175,8 +174,7 @@ seo:
   title: "O-1A Visa Attorney | Extraordinary Ability Visa Lawyers"
   description: >-
     O-1A visa attorneys for scientists, executives, founders and athletes with
-    extraordinary ability. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    extraordinary ability. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

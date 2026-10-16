@@ -3,8 +3,7 @@ metadata:
   title: "Habeas Corpus Attorney | Immigration Detention Lawsuits"
   description: >-
     Habeas corpus attorneys who challenge unlawful or prolonged ICE detention
-    in federal court. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    in federal court. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -67,7 +66,7 @@ post:
     <p>Federal district courts have divided sharply. Many have rejected the government's reading and ordered bond hearings; others have deferred to the Board. A surge of habeas petitions followed, and the law is moving week to week. We track the decisions in each district where our clients are held, confirm the current law at every consultation, and where Board precedent forecloses relief before the immigration judge, go directly to federal court.</p>
 
     <h2>Where to file: venue and the immediate custodian</h2>
-    <p>Under <em>Rumsfeld v. Padilla</em> (2004), a habeas petition is generally filed in the district where the person is physically held and names the immediate custodian, usually the facility warden, along with the ICE field office director and the Secretary of Homeland Security. Our clients are most often detained within the Eastern District of Virginia, the District of Maryland, the Southern and Western Districts of New York and the District of Minnesota. Because ICE frequently moves detainees, we file quickly and ask the court to bar transfer.</p>
+    <p>Under <em>Rumsfeld v. Padilla</em> (2004), a habeas petition is generally filed in the district where the person is physically held and names the immediate custodian, usually the facility warden, along with the ICE field office director and the Secretary of Homeland Security. Our clients are most often detained within the Eastern District of Virginia, the District of Maryland and the Southern and Western Districts of New York. Because ICE frequently moves detainees, we file quickly and ask the court to bar transfer.</p>
 
     <h2>What a federal court can order</h2>
     <ul>
@@ -101,7 +100,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and combines immigration practice with federal litigation, so the habeas petition, the <a href="/practice-area/key-services/immigration-detention-and-bond">bond hearing</a> and the underlying <a href="/practice-area/key-services/removal-defense">removal defense</a> or <a href="/practice-area/key-services/affirmative-asylum-applications">asylum</a> case are handled by one team. We work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, we appear in the federal courts of Virginia, Maryland, New York and Minnesota. Detention consultations are available by phone and video for family members.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and combines immigration practice with federal litigation, so the habeas petition, the <a href="/practice-area/key-services/immigration-detention-and-bond">bond hearing</a> and the underlying <a href="/practice-area/key-services/removal-defense">removal defense</a> or <a href="/practice-area/key-services/affirmative-asylum-applications">asylum</a> case are handled by one team. We work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, we appear in the federal courts of Virginia, Maryland and New York. Detention consultations are available by phone and video for family members.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -143,8 +142,7 @@ faq:
       person is physically detained, naming the warden or facility director as
       the immediate custodian along with ICE and DHS officials. For our clients
       that is most often the Eastern District of Virginia, the District of
-      Maryland, the Southern or Western District of New York, or the District of
-      Minnesota. If ICE transfers the person after filing, we argue that the
+      Maryland, or the Southern or Western District of New York. If ICE transfers the person after filing, we argue that the
       original court keeps jurisdiction.
   - question: I entered without inspection and the judge refused to hear my bond request. Can I file habeas?
     answer: >-
@@ -184,8 +182,7 @@ seo:
   title: "Habeas Corpus Attorney | Immigration Detention Lawsuits"
   description: >-
     Habeas corpus attorneys who challenge unlawful or prolonged ICE detention
-    in federal court. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    in federal court. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

@@ -3,8 +3,7 @@ metadata:
   title: "Removal Defense Attorney | Deportation Defense Lawyers"
   description: >-
     Removal defense attorneys for immigration court, bond, cancellation of
-    removal and appeals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    removal and appeals. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -94,7 +93,7 @@ post:
     </ul>
 
     <h2>Your removal defense attorneys</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based immigration, including the marriage-based green cards and fiancé visas that often provide the path to adjustment of status in proceedings, alongside employment-based immigration and business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, we represent respondents before the immigration courts serving those regions, including the Arlington and Sterling courts in Northern Virginia, the New York City courts and the Fort Snelling court in Minnesota. Where agency delay is the problem, our <a href="/practice-area/key-services/immigration-mandamus">mandamus</a> practice can compel a decision.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based immigration, including the marriage-based green cards and fiancé visas that often provide the path to adjustment of status in proceedings, alongside employment-based immigration and business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, we represent respondents before the immigration courts serving those regions, including the Arlington and Sterling courts in Northern Virginia and the New York City courts. Where agency delay is the problem, our <a href="/practice-area/key-services/immigration-mandamus">mandamus</a> practice can compel a decision.</p>
 
     <h2>Learn more about removal proceedings</h2>
     <ul>
@@ -172,8 +171,7 @@ seo:
   title: "Removal Defense Attorney | Deportation Defense Lawyers"
   description: >-
     Removal defense attorneys for immigration court, bond, cancellation of
-    removal and appeals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    removal and appeals. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

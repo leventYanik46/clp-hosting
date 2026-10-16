@@ -3,7 +3,7 @@ metadata:
   title: "Change of Status Attorney | I-539 Extension Lawyers"
   description: >-
     Change of status and I-539 extension attorneys for students, visitors and
-    dependents. Offices in Washington DC, Virginia, New York and Minneapolis.
+    dependents. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -87,7 +87,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who focuses on employment-based immigration, including H-1B, E-2 and L-1 matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and nationwide.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who focuses on employment-based immigration, including H-1B, E-2 and L-1 matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and nationwide.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -165,7 +165,7 @@ seo:
   title: "Change of Status Attorney | I-539 Extension Lawyers"
   description: >-
     Change of status and I-539 extension attorneys for students, visitors and
-    dependents. Offices in Washington DC, Virginia, New York and Minneapolis.
+    dependents. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

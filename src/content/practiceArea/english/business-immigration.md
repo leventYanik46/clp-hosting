@@ -3,8 +3,7 @@ metadata:
   title: "Business Immigration Attorney | Employer & Investor Overview"
   description: >-
     Business immigration lawyers for employers and investors: work visas, treaty
-    visas, green cards. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    visas, green cards. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -100,7 +99,7 @@ post:
     </ol>
 
     <h2>Why Capitol Law Partners</h2>
-    <p>We practice immigration and business law under one roof, so the entity, contracts and visa are planned together. <a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises startups and employers on workforce immigration, including H-1B, L-1, E-2 and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>.</p>
+    <p>We practice immigration and business law under one roof, so the entity, contracts and visa are planned together. <a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises startups and employers on workforce immigration, including H-1B, L-1, E-2 and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>.</p>
 
     <h2>Learn more about business immigration</h2>
     <ul>
@@ -183,8 +182,7 @@ seo:
   title: "Business Immigration Attorney | Employer & Investor Overview"
   description: >-
     Business immigration lawyers for employers and investors: work visas, treaty
-    visas, green cards. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    visas, green cards. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

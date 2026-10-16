@@ -3,8 +3,7 @@ metadata:
   title: "Immigration Detention & Bond Attorney | ICE Enforcement"
   description: >-
     Immigration detention and bond attorneys for ICE arrests, bond hearings
-    and release. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    and release. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -99,7 +98,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans immigration, removal defense and federal litigation, so a detained client's bond hearing, habeas petition and underlying case are handled by one team. We work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, we represent people held in ICE processing centers, contract facilities and county jails across Virginia, Maryland, New York and Minnesota. Detention consultations are available by phone and video for family members.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans immigration, removal defense and federal litigation, so a detained client's bond hearing, habeas petition and underlying case are handled by one team. We work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, we represent people held in ICE processing centers, contract facilities and county jails across Virginia, Maryland and New York. Detention consultations are available by phone and video for family members.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -181,8 +180,7 @@ seo:
   title: "Immigration Detention & Bond Attorney | ICE Enforcement"
   description: >-
     Immigration detention and bond attorneys for ICE arrests, bond hearings
-    and release. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    and release. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

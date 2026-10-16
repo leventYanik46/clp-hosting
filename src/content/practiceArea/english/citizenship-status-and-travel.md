@@ -3,7 +3,7 @@ metadata:
   title: "Citizenship, Status & Travel Attorney | Overview"
   description: >-
     Attorneys for naturalization, status changes, re-entry permits and F-1, J-1
-    and M-1 visas. Offices in Washington DC, Virginia, New York and Minneapolis.
+    and M-1 visas. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -78,7 +78,7 @@ post:
     <p>Bring your passport, visas and I-94 records, prior approval notices, Form I-20 or DS-2019, your green card, a dated list of trips abroad, tax returns, any police records and, for citizenship claims, birth and naturalization certificates.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office assists clients applying for visas at a consulate abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office assists clients applying for visas at a consulate abroad.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -161,7 +161,7 @@ seo:
   title: "Citizenship, Status & Travel Attorney | Overview"
   description: >-
     Attorneys for naturalization, status changes, re-entry permits and F-1, J-1
-    and M-1 visas. Offices in Washington DC, Virginia, New York and Minneapolis.
+    and M-1 visas. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

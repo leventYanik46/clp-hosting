@@ -3,8 +3,7 @@ metadata:
   title: "O-1B Visa Attorney | Artists & Entertainers Visa Lawyers"
   description: >-
     O-1B visa attorneys for artists, musicians, actors and film and television
-    professionals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    professionals. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -97,7 +96,7 @@ post:
     <p>Under 8 CFR 214.2(o)(13), an immigrant petition or approved labor certification is not a basis for denying an O-1 petition, extension or admission. Many artists build their record on an O-1B and then move to an <a href="/practice-area/key-services/eb-1a-green-card">EB-1A green card</a>, which covers the arts, or to an <a href="/practice-area/key-services/eb-2-niw-green-card">EB-2 National Interest Waiver</a>, and we plan that transition from the first filing.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including O-1, EB-1A and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent O-1B clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including O-1, EB-1A and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent O-1B clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients abroad.</p>
 
     <h2>Learn more about the O-1 visa</h2>
     <ul>
@@ -178,8 +177,7 @@ seo:
   title: "O-1B Visa Attorney | Artists & Entertainers Visa Lawyers"
   description: >-
     O-1B visa attorneys for artists, musicians, actors and film and television
-    professionals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    professionals. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

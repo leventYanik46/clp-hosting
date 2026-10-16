@@ -3,8 +3,7 @@ metadata:
   title: "PERM & Employer Sponsorship Attorney | Green Card Overview"
   description: >-
     PERM labor certification and employer sponsorship attorneys for EB-2, EB-3
-    and temporary workers. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    and temporary workers. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -86,7 +85,7 @@ post:
     <p>Employers bring the job description, minimum requirements, organizational chart, formation documents and latest tax return or financial statements; employees bring degrees, transcripts, credential evaluations, experience letters, passport, I-94 record and prior approval notices.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who advises startups and employers on workforce immigration, including PERM, EB-2, EB-3, H-1B and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent employers and employees from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, as part of a broader <a href="/practice-area/immigration-law">immigration law</a> and <a href="/practice-area/business-corporate-law">business and corporate law</a> practice.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who advises startups and employers on workforce immigration, including PERM, EB-2, EB-3, H-1B and EB-2 NIW matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent employers and employees from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, as part of a broader <a href="/practice-area/immigration-law">immigration law</a> and <a href="/practice-area/business-corporate-law">business and corporate law</a> practice.</p>
 
     <h2>Learn more about employer sponsorship</h2>
     <ul>
@@ -170,8 +169,7 @@ seo:
   title: "PERM & Employer Sponsorship Attorney | Green Card Overview"
   description: >-
     PERM labor certification and employer sponsorship attorneys for EB-2, EB-3
-    and temporary workers. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    and temporary workers. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

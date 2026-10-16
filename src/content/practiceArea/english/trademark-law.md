@@ -3,8 +3,7 @@ metadata:
   title: "Trademark Attorney | Trademark Law Services Overview"
   description: >-
     Trademark attorneys for clearance, USPTO registration, office actions,
-    renewals and enforcement. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    renewals and enforcement. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -75,7 +74,7 @@ post:
     <p>Two rules catch new brand owners by surprise. First, the applicant must be the party that controls the quality of the goods or services, usually the company rather than the founder, and an application filed in the wrong name is void. We coordinate the trademark filing with our <a href="/practice-area/key-services/business-formation-structuring">business formation and structuring</a> practice so the entity exists and owns the mark from the start. Second, since 2019 every applicant, registrant or TTAB party domiciled outside the United States must be represented by an attorney licensed in a U.S. state, and the USPTO will not register the mark until one appears. Capitol Law Partners serves as U.S. counsel for companies in Türkiye, works with their Turkish trademark agents, aligns TÜRKPATENT and USPTO filings to preserve Paris Convention priority, and handles the matter in Turkish and English through our <a href="/locations/istanbul">Istanbul office</a>.</p>
 
     <h2>Your trademark attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration, maintenance and enforcement alongside the firm's business and immigration practices. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve trademark clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an office in <a href="/locations/istanbul">Istanbul</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration, maintenance and enforcement alongside the firm's business and immigration practices. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve trademark clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, with an office in <a href="/locations/istanbul">Istanbul</a>.</p>
 
     <h2>Learn more about trademarks and IP</h2>
     <ul>
@@ -153,8 +152,7 @@ seo:
   title: "Trademark Attorney | Trademark Law Services Overview"
   description: >-
     Trademark attorneys for clearance, USPTO registration, office actions,
-    renewals and enforcement. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    renewals and enforcement. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

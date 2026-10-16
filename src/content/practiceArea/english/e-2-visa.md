@@ -3,8 +3,7 @@ metadata:
   title: "E-2 Visa Attorney | Treaty Investor Visa Lawyers"
   description: >-
     E-2 treaty investor visa attorneys for founders and companies, including
-    Turkish nationals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Turkish nationals. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -91,7 +90,7 @@ post:
 
     <h2>Why Capitol Law Partners</h2>
     <p>Our team combines immigration and business practice, so the entity, the contracts and the visa are planned together. We also handle <a href="/practice-area/key-services/business-formation-structuring">business formation and structuring</a>, the <a href="/practice-area/key-services/e-1-visa">E-1 treaty trader visa</a> for import and export companies, the <a href="/practice-area/key-services/l-1a-visa">L-1A</a> for companies expanding from abroad, and green card options such as the <a href="/practice-area/key-services/eb-2-niw-green-card">EB-2 National Interest Waiver</a> and <a href="/practice-area/key-services/eb-1c-green-card">EB-1C</a> for investors who later want permanent residence.</p>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based and investor immigration, including E-2, L-1, EB-2 NIW and EB-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent investors from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office works directly with Turkish investors preparing for consular applications.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based and investor immigration, including E-2, L-1, EB-2 NIW and EB-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent investors from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office works directly with Turkish investors preparing for consular applications.</p>
 
     <h2>Learn more about the E-2 visa</h2>
     <ul>
@@ -177,8 +176,7 @@ seo:
   title: "E-2 Visa Attorney | Treaty Investor Visa Lawyers"
   description: >-
     E-2 treaty investor visa attorneys for founders and companies, including
-    Turkish nationals. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Turkish nationals. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

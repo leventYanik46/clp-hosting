@@ -3,8 +3,7 @@ metadata:
   title: "Trademark Renewal & Madrid Protocol Attorney | Maintenance"
   description: >-
     Trademark renewal lawyers: Section 8 and 15 declarations, USPTO audits,
-    Madrid Protocol filings. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Madrid Protocol filings. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -84,7 +83,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French, and we serve clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an <a href="/locations/istanbul">Istanbul</a> office.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French, and we serve clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, with an <a href="/locations/istanbul">Istanbul</a> office.</p>
 
     <h2>Learn more about protecting your brand</h2>
     <ul>
@@ -167,8 +166,7 @@ seo:
   title: "Trademark Renewal & Madrid Protocol Attorney | Maintenance"
   description: >-
     Trademark renewal lawyers: Section 8 and 15 declarations, USPTO audits,
-    Madrid Protocol filings. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    Madrid Protocol filings. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

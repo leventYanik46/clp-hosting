@@ -3,8 +3,7 @@ metadata:
   title: "Family Immigration Attorney | Marriage & I-130 Green Cards"
   description: >-
     Family immigration attorneys for I-130 petitions, marriage green cards, K-1
-    visas and waivers. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    visas and waivers. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -102,7 +101,7 @@ post:
     </ul>
 
     <h2>Your family immigration attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles family-based petitions, including marriage-based green cards and fiancé visas, alongside employment-based immigration, business and trademark matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent families from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>. If a relative is already in proceedings, our <a href="/practice-area/key-services/removal-defense">removal defense</a> team can pursue adjustment of status before the immigration judge, and we also handle <a href="/practice-area/key-services/affirmative-asylum-applications">asylum</a> and <a href="/practice-area/key-services/immigration-mandamus">mandamus</a> cases.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles family-based petitions, including marriage-based green cards and fiancé visas, alongside employment-based immigration, business and trademark matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent families from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>. If a relative is already in proceedings, our <a href="/practice-area/key-services/removal-defense">removal defense</a> team can pursue adjustment of status before the immigration judge, and we also handle <a href="/practice-area/key-services/affirmative-asylum-applications">asylum</a> and <a href="/practice-area/key-services/immigration-mandamus">mandamus</a> cases.</p>
 
     <h2>Learn more about family-based immigration</h2>
     <ul>
@@ -182,8 +181,7 @@ seo:
   title: "Family Immigration Attorney | Marriage & I-130 Green Cards"
   description: >-
     Family immigration attorneys for I-130 petitions, marriage green cards, K-1
-    visas and waivers. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    visas and waivers. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

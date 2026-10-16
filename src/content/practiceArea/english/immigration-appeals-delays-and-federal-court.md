@@ -3,8 +3,7 @@ metadata:
   title: "Immigration Appeals & Federal Court Attorney | Overview"
   description: >-
     Mandamus, habeas corpus, BIA appeals, APA lawsuits and FOIA requests from
-    one litigation team. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    one litigation team. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -62,7 +61,7 @@ post:
     <p>Deadlines here are short and mostly unforgiving. Most appeals, including appeals to the Board, appeals to the Administrative Appeals Office and petitions for review, must be filed within 30 days of the decision, and the Board counts receipt, not mailing. Motions to reconsider are generally due within 30 days and motions to reopen within 90 days of the final order, with exceptions for in absentia orders, changed country conditions, joint motions and ineffective assistance by prior counsel. Mandamus, habeas and FOIA have no comparable deadline, but delay weakens each. After an adverse decision, count the days from its date and call us immediately.</p>
 
     <h2>The courts where our clients appear</h2>
-    <p>Federal cases are filed where venue lies: usually where you live, where the agency acted, or, for habeas, where the person is held. Our clients most often appear in the United States District Courts for the Eastern District of Virginia, the District of Maryland, the Southern and Eastern Districts of New York, the District of Minnesota and the District of Columbia, and on petitions for review in the Fourth, Second, Eighth and D.C. Circuits.</p>
+    <p>Federal cases are filed where venue lies: usually where you live, where the agency acted, or, for habeas, where the person is held. Our clients most often appear in the United States District Courts for the Eastern District of Virginia, the District of Maryland, the Southern and Eastern Districts of New York and the District of Columbia, and on petitions for review in the Fourth, Second and D.C. Circuits.</p>
 
     <h2>What we need from you</h2>
     <p>Bring every receipt notice, the decision or denial with its envelope, any Notice to Appear, hearing notice or bond order, and your A-number. For delay cases, add your inquiries to the agency and any Ombudsman or congressional case numbers. For detention cases, the family should gather the detainee's identity documents, the facility name and proof of community ties. For appeals, the full file from prior counsel lets us assess the issues before the deadline runs. Where documents are missing, a FOIA request fills the gaps.</p>
@@ -71,7 +70,7 @@ post:
     <p>Each tool has limits, and we explain them before you commit. Mandamus produces a decision, which can be a denial if the underlying case has a real problem, so we review the merits first. Habeas addresses custody, not the removal case itself. A timely appeal to the Board stays removal automatically, but a petition for review, a motion to reopen outside the in absentia context, a mandamus action and a habeas petition do not, so a separate stay request is filed wherever removal is a risk. Appellate and APA review are confined to the existing record and the issues already raised, and courts generally cannot review decisions the statute leaves to agency discretion. Where the government's position was not substantially justified, fees may be recoverable under the Equal Access to Justice Act.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who combines immigration practice with federal litigation, so the lawyer who knows your underlying case drafts the complaint, the habeas petition or the appellate brief. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, as part of our wider <a href="/practice-area/immigration-law">immigration law practice</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who combines immigration practice with federal litigation, so the lawyer who knows your underlying case drafts the complaint, the habeas petition or the appellate brief. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, as part of our wider <a href="/practice-area/immigration-law">immigration law practice</a>.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -130,7 +129,7 @@ faq:
       filed in the district where the person is held. A petition for review
       goes to the court of appeals for the circuit where the immigration judge
       completed the case. Our clients most often appear in the federal courts
-      of Virginia, Maryland, New York, Minnesota and the District of Columbia.
+      of Virginia, Maryland, New York and the District of Columbia.
   - question: Should I file a FOIA request before doing anything else?
     answer: >-
       Often, yes. Your USCIS file, your immigration court record and your CBP
@@ -146,15 +145,14 @@ faq:
       Appeals Office, motions to reopen and FOIA requests are paper filings
       that we handle for clients anywhere. Federal lawsuits must be filed in a
       court with proper venue; we regularly appear in the district courts of
-      Virginia, Maryland, New York, Minnesota and the District of Columbia and
-      in the Fourth, Second, Eighth and D.C. Circuits, and can seek admission
+      Virginia, Maryland, New York and the District of Columbia and
+      in the Fourth, Second and D.C. Circuits, and can seek admission
       in other federal courts where a case requires it.
 seo:
   title: "Immigration Appeals & Federal Court Attorney | Overview"
   description: >-
     Mandamus, habeas corpus, BIA appeals, APA lawsuits and FOIA requests from
-    one litigation team. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    one litigation team. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

@@ -3,8 +3,7 @@ metadata:
   title: "Marriage Green Card Attorney | Spousal Visa Lawyers"
   description: >-
     Marriage green card lawyers for I-130 and I-485 spousal cases, consular
-    processing and I-751. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    processing and I-751. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -100,7 +99,7 @@ post:
     </ul>
 
     <h2>Your marriage green card attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles marriage-based green cards and fiancé visas alongside employment-based immigration, business and trademark matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent couples from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>. Our <a href="/practice-area/key-services/family-based-immigration">family-based immigration</a> page covers the I-601 and I-601A waivers and other family categories, including <a href="/practice-area/key-services/green-card-for-parents">green cards for parents and children</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles marriage-based green cards and fiancé visas alongside employment-based immigration, business and trademark matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent couples from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>. Our <a href="/practice-area/key-services/family-based-immigration">family-based immigration</a> page covers the I-601 and I-601A waivers and other family categories, including <a href="/practice-area/key-services/green-card-for-parents">green cards for parents and children</a>.</p>
 
     <h2>Learn more about marriage-based green cards</h2>
     <ul>
@@ -180,8 +179,7 @@ seo:
   title: "Marriage Green Card Attorney | Spousal Visa Lawyers"
   description: >-
     Marriage green card lawyers for I-130 and I-485 spousal cases, consular
-    processing and I-751. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    processing and I-751. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

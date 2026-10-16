@@ -3,8 +3,7 @@ metadata:
   title: "EB-2 NIW Attorney | National Interest Waiver Lawyers"
   description: >-
     EB-2 NIW attorneys for researchers, engineers, physicians and founders who
-    self-petition for a green card. Offices in DC, Virginia, New York and
-    Minneapolis.
+    self-petition for a green card. Offices in DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -106,7 +105,7 @@ post:
     </ul>
 
     <h2>Your NIW attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-2 NIW, EB-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent NIW petitioners nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an office in <a href="/locations/istanbul">Istanbul</a> for clients applying from abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-2 NIW, EB-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent NIW petitioners nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, with an office in <a href="/locations/istanbul">Istanbul</a> for clients applying from abroad.</p>
 
     <h2>Learn more about the EB-2 NIW</h2>
     <ul>
@@ -176,8 +175,7 @@ seo:
   title: "EB-2 NIW Attorney | National Interest Waiver Lawyers"
   description: >-
     EB-2 NIW attorneys for researchers, engineers, physicians and founders who
-    self-petition for a green card. Offices in DC, Virginia, New York and
-    Minneapolis.
+    self-petition for a green card. Offices in DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

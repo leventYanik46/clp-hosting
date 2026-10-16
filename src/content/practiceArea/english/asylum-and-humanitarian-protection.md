@@ -3,8 +3,7 @@ metadata:
   title: "Asylum & Humanitarian Immigration Attorney | Overview"
   description: >-
     Asylum, U visa, T visa, VAWA, SIJS, detention, bond and removal defense
-    attorneys on one team. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    attorneys on one team. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -72,7 +71,7 @@ post:
     <p>Everything you tell us is protected by attorney-client privilege. Asylum applications are confidential under federal regulation, and U visa, T visa and VAWA filings carry statutory protections that bar the government from disclosing the filing or relying on information supplied by the abuser or trafficker. We contact no one about your case without your instruction.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who combines immigration representation with federal litigation, so every stage of a case is handled by one team. Claims are handled in English, Turkish, Spanish, Portuguese and French. We represent clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, in the immigration courts and the federal courts of Virginia, Maryland, New York, Minnesota and the District of Columbia, as part of our wider <a href="/practice-area/immigration-law">immigration law practice</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School who combines immigration representation with federal litigation, so every stage of a case is handled by one team. Claims are handled in English, Turkish, Spanish, Portuguese and French. We represent clients from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, in the immigration courts and the federal courts of Virginia, Maryland, New York and the District of Columbia, as part of our wider <a href="/practice-area/immigration-law">immigration law practice</a>.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -157,8 +156,7 @@ seo:
   title: "Asylum & Humanitarian Immigration Attorney | Overview"
   description: >-
     Asylum, U visa, T visa, VAWA, SIJS, detention, bond and removal defense
-    attorneys on one team. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    attorneys on one team. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

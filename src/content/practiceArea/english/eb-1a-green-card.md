@@ -3,8 +3,7 @@ metadata:
   title: "EB-1A Green Card Attorney | Extraordinary Ability Lawyers"
   description: >-
     EB-1A green card attorneys for researchers, executives and founders with
-    extraordinary ability. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    extraordinary ability. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -100,7 +99,7 @@ post:
     <p>We address these issues before filing by documenting the standing of each award, publication and organization, by selecting independent recommenders, and by writing a brief that connects the exhibits to the legal standard. If you received an RFE, NOID or denial on a petition prepared elsewhere, we can evaluate the record and take over. When a case is stuck beyond posted processing times, we also bring <a href="/practice-area/key-services/immigration-mandamus">mandamus actions</a> to compel a decision.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1A, EB-2 NIW, O-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent EB-1A petitioners nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients applying from abroad. Employers sponsoring talent can see our <a href="/practice-area/key-services/business-employment-immigration-solutions">business and employment immigration</a> services.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1A, EB-2 NIW, O-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent EB-1A petitioners nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients applying from abroad. Employers sponsoring talent can see our <a href="/practice-area/key-services/business-employment-immigration-solutions">business and employment immigration</a> services.</p>
 
     <h2>Learn more about the EB-1A</h2>
     <ul>
@@ -174,8 +173,7 @@ seo:
   title: "EB-1A Green Card Attorney | Extraordinary Ability Lawyers"
   description: >-
     EB-1A green card attorneys for researchers, executives and founders with
-    extraordinary ability. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    extraordinary ability. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

@@ -3,8 +3,7 @@ metadata:
   title: "Family Reunification Attorney | Bring Relatives to the U.S."
   description: >-
     Family reunification attorneys for consular processing, follow-to-join, I-730
-    and parole cases. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    and parole cases. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -104,7 +103,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles family-based petitions and consular cases, alongside asylum, employment-based immigration and business matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent families from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and through our <a href="/locations/istanbul">Istanbul</a> office for families in Turkey.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and handles family-based petitions and consular cases, alongside asylum, employment-based immigration and business matters. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent families from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and through our <a href="/locations/istanbul">Istanbul</a> office for families in Turkey.</p>
 
     <h2>Learn more about bringing family to the United States</h2>
     <ul>
@@ -184,8 +183,7 @@ seo:
   title: "Family Reunification Attorney | Bring Relatives to the U.S."
   description: >-
     Family reunification attorneys for consular processing, follow-to-join, I-730
-    and parole cases. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    and parole cases. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

@@ -3,7 +3,7 @@ metadata:
   title: "U Visa, VAWA & T Visa Attorney | Humanitarian Protection"
   description: >-
     U visa, T visa and VAWA attorneys for survivors of crime, trafficking and
-    abuse. Offices in Washington DC, Virginia, New York and Minneapolis.
+    abuse. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -84,7 +84,7 @@ post:
     </ul>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and humanitarian immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and we evaluate related options such as <a href="/practice-area/key-services/affirmative-asylum-applications">asylum</a>, <a href="/practice-area/key-services/special-immigrant-juvenile-status">Special Immigrant Juvenile Status</a>, <a href="/practice-area/key-services/family-based-immigration">family-based petitions</a> and the <a href="/practice-area/key-services/green-card-through-asylum">green card through asylum</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and humanitarian immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, and we evaluate related options such as <a href="/practice-area/key-services/affirmative-asylum-applications">asylum</a>, <a href="/practice-area/key-services/special-immigrant-juvenile-status">Special Immigrant Juvenile Status</a>, <a href="/practice-area/key-services/family-based-immigration">family-based petitions</a> and the <a href="/practice-area/key-services/green-card-through-asylum">green card through asylum</a>.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -168,7 +168,7 @@ seo:
   title: "U Visa, VAWA & T Visa Attorney | Humanitarian Protection"
   description: >-
     U visa, T visa and VAWA attorneys for survivors of crime, trafficking and
-    abuse. Offices in Washington DC, Virginia, New York and Minneapolis.
+    abuse. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

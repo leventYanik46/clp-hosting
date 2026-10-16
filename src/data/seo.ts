@@ -117,20 +117,6 @@ export const SEO_OFFICES: SeoOffice[] = [
     pagePath: '/locations/new-york',
   },
   {
-    id: 'minneapolis',
-    name: 'Capitol Law Partners - Minneapolis',
-    streetAddress: '5775 Wayzata Blvd',
-    addressLocality: 'St. Louis Park',
-    addressRegion: 'MN',
-    postalCode: '55416',
-    addressCountry: 'US',
-    telephone: '+1-202-440-2272',
-    mapUrl:
-      'https://www.google.com/maps/place/5775+Wayzata+Blvd+Suite+700,+St+Louis+Park,+MN+55416/@44.9694331,-93.3824122,13.31z/data=!4m6!3m5!1s0x52b334bd9ceaaaab:0x6ad439e33864c71e!8m2!3d44.9688915!4d-93.3538241!16s%2Fg%2F11mhjvs72_',
-    geo: { latitude: 44.9688915, longitude: -93.3538241 },
-    pagePath: '/locations/minneapolis',
-  },
-  {
     id: 'istanbul',
     name: 'Capitol Law Partners - Istanbul',
     streetAddress: 'Trump Towers, Residence 2901',
@@ -144,7 +130,7 @@ export const SEO_OFFICES: SeoOffice[] = [
 ];
 
 /** U.S. jurisdictions the firm serves, used for areaServed in structured data. */
-export const SEO_AREA_SERVED = ['US', 'District of Columbia', 'Virginia', 'New York', 'Minnesota'];
+export const SEO_AREA_SERVED = ['US', 'District of Columbia', 'Virginia', 'New York'];
 
 export const SEO_KNOWS_LANGUAGE = ['en', 'tr', 'es', 'pt', 'fr'];
 

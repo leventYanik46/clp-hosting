@@ -3,8 +3,8 @@ metadata:
   title: "Immigration FOIA Attorney | USCIS, ICE & EOIR Records"
   description: >-
     Immigration FOIA attorneys for USCIS A-files, EOIR records, CBP and ICE
-    files and FOIA lawsuits. Offices in Washington DC, Virginia,
-    New York and Minneapolis.
+    files and FOIA lawsuits. Offices in Washington DC, Virginia
+    and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -74,7 +74,7 @@ post:
     <p>Agencies withhold material under the FOIA exemptions, most often officer notes and internal deliberations, third parties' personal information and law enforcement techniques. Some redactions are improper, and a no records response is sometimes wrong, often because the A-number was mistyped or the request went to the wrong component. You may file an administrative appeal, generally within 90 days of the response, and the agency's letter states the exact deadline.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, we handle records requests for clients anywhere in the United States and abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, we handle records requests for clients anywhere in the United States and abroad.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -153,8 +153,8 @@ seo:
   title: "Immigration FOIA Attorney | USCIS, ICE & EOIR Records"
   description: >-
     Immigration FOIA attorneys for USCIS A-files, EOIR records, CBP and ICE
-    files and FOIA lawsuits. Offices in Washington DC, Virginia,
-    New York and Minneapolis.
+    files and FOIA lawsuits. Offices in Washington DC, Virginia
+    and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

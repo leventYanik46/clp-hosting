@@ -3,8 +3,7 @@ metadata:
   title: "Trademark Registration Attorney | USPTO Filing Lawyers"
   description: >-
     Trademark registration attorneys for brand owners, founders and companies
-    entering the U.S. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    entering the U.S. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -101,7 +100,7 @@ post:
     </ul>
 
     <h2>Your trademark registration attorney</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement alongside the firm's business and immigration practices. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve trademark clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, with an office in <a href="/locations/istanbul">Istanbul</a>, as part of our <a href="/practice-area/ip-law">intellectual property practice</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and advises brand owners on trademark clearance, registration and enforcement alongside the firm's business and immigration practices. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We serve trademark clients from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, with an office in <a href="/locations/istanbul">Istanbul</a>, as part of our <a href="/practice-area/ip-law">intellectual property practice</a>.</p>
 
     <h2>Learn more about trademarks and IP</h2>
     <ul>
@@ -181,8 +180,7 @@ seo:
   title: "Trademark Registration Attorney | USPTO Filing Lawyers"
   description: >-
     Trademark registration attorneys for brand owners, founders and companies
-    entering the U.S. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    entering the U.S. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

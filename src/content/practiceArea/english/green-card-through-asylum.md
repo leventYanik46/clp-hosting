@@ -3,8 +3,7 @@ metadata:
   title: "Green Card Through Asylum Attorney | Asylee I-485 Lawyers"
   description: >-
     Asylee green card attorneys: Form I-485 one year after asylum, waivers,
-    travel and family. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    travel and family. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -98,7 +97,7 @@ post:
     <p>A principal asylee can petition for a spouse and unmarried children under 21 who were not included in the grant by filing Form I-730 within two years of the asylum approval, whether they are abroad or in the United States. There is no filing fee for the I-730. Once admitted as derivative asylees, family members begin their own one-year period before adjustment. For relatives who do not qualify as derivatives, such as parents or married children, <a href="/practice-area/key-services/family-based-immigration">family-based immigration</a> becomes available once you hold a green card or citizenship. Children in the household who were abused, neglected or abandoned by a parent may also qualify for <a href="/practice-area/key-services/special-immigrant-juvenile-status">Special Immigrant Juvenile Status</a>, which we evaluate alongside asylum-based options.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and leads an immigration practice that covers asylum, adjustment of status, family and employment-based cases and federal litigation against agency delay. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent asylees from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and leads an immigration practice that covers asylum, adjustment of status, family and employment-based cases and federal litigation against agency delay. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent asylees from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>.</p>
 
     <h2>Learn more</h2>
     <ul>
@@ -176,8 +175,7 @@ seo:
   title: "Green Card Through Asylum Attorney | Asylee I-485 Lawyers"
   description: >-
     Asylee green card attorneys: Form I-485 one year after asylum, waivers,
-    travel and family. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    travel and family. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

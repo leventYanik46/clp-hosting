@@ -3,8 +3,7 @@ metadata:
   title: "EB-1 Green Card Attorney | First Preference Lawyers"
   description: >-
     EB-1 green card attorneys for EB-1A, EB-1B and EB-1C petitions with no
-    labor certification. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    labor certification. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -86,7 +85,7 @@ post:
     <p>EB-1A petitions most often fail at the final merits stage, where USCIS accepts three criteria but finds no sustained acclaim. EB-1B petitions are refused when the position is not permanent or when a private employer cannot show three full-time researchers. EB-1C petitions are refused when the duties are operational rather than managerial or when the corporate relationship is poorly documented. We address each issue before filing and take over RFEs and denials on petitions prepared elsewhere.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1, EB-2 NIW, O-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent EB-1 clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients applying from abroad.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School and focuses on employment-based immigration, including EB-1, EB-2 NIW, O-1, E-2 and L-1 matters, alongside business and trademark law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. We represent EB-1 clients nationwide from our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Northern Virginia</a> and <a href="/locations/new-york">New York</a>, and our <a href="/locations/istanbul">Istanbul</a> office serves clients applying from abroad.</p>
 
     <h2>Learn more about EB-1 green cards</h2>
     <ul>
@@ -165,8 +164,7 @@ seo:
   title: "EB-1 Green Card Attorney | First Preference Lawyers"
   description: >-
     EB-1 green card attorneys for EB-1A, EB-1B and EB-1C petitions with no
-    labor certification. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    labor certification. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

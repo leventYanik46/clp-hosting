@@ -3,8 +3,7 @@ metadata:
   title: "BIA Appeals Attorney | Motions to Reopen & Reconsider"
   description: >-
     BIA appeals attorneys for motions to reopen and reconsider, AAO appeals and
-    petitions for review. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    petitions for review. Offices in Washington DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -71,7 +70,7 @@ post:
     <p>Most USCIS petition and waiver denials can be appealed to the Administrative Appeals Office on Form I-290B, generally within 30 days of the decision, or 33 days if it was mailed. The same form is used for a motion to reopen or reconsider with the office that denied the case, and the denial notice states the available options and the exact deadline. Form I-130 family petitions are appealed to the Board rather than the AAO, and a denied adjustment of status application generally cannot be appealed, though it may be renewed before an immigration judge. Where a denial is legally wrong, a suit under the Administrative Procedure Act through our <a href="/practice-area/key-services/immigration-litigation">immigration litigation</a> practice may be the better route.</p>
 
     <h2>Petitions for review in federal court</h2>
-    <p>If the Board dismisses your appeal, you may file a petition for review in the court of appeals for the circuit in which the immigration judge completed the proceedings, within 30 days of the Board's decision. The deadline is strict. For our offices, that means the Fourth Circuit for Virginia and Maryland, the Second Circuit for New York, the Eighth Circuit for Minnesota and the District of Columbia Circuit for the District. Filing does not stay removal, so we file a motion for a stay with the court at the same time, addressing likelihood of success, irreparable harm, the balance of hardships and the public interest. The court reviews the administrative record and only the issues raised before the Board. Where a client is detained, our <a href="/practice-area/key-services/habeas-corpus">habeas corpus</a> and <a href="/practice-area/key-services/immigration-detention-and-bond">detention and bond</a> practices work alongside the appeal.</p>
+    <p>If the Board dismisses your appeal, you may file a petition for review in the court of appeals for the circuit in which the immigration judge completed the proceedings, within 30 days of the Board's decision. The deadline is strict. For our offices, that means the Fourth Circuit for Virginia and Maryland, the Second Circuit for New York and the District of Columbia Circuit for the District. Filing does not stay removal, so we file a motion for a stay with the court at the same time, addressing likelihood of success, irreparable harm, the balance of hardships and the public interest. The court reviews the administrative record and only the issues raised before the Board. Where a client is detained, our <a href="/practice-area/key-services/habeas-corpus">habeas corpus</a> and <a href="/practice-area/key-services/immigration-detention-and-bond">detention and bond</a> practices work alongside the appeal.</p>
 
     <h2>DHS motions to dismiss and administrative closure</h2>
     <p>In 2025, DHS attorneys moved to dismiss large numbers of pending court cases to pursue expedited removal or detention, and EOIR policy shifted against administrative closure even though a 2024 regulation confirmed the judges' authority to grant it. A dismissal that leaves you without a forum for relief should be opposed, and the judge's ruling is appealable to the Board. We confirm current rules and practice at consultation.</p>
@@ -88,7 +87,7 @@ post:
     <p>Appeals are won or lost on the record built before the immigration judge. We make sure exhibits are filed on time, objections are placed on the record, offers of proof are made when evidence is excluded, and country-conditions and expert evidence are complete before the individual hearing. Our <a href="/practice-area/key-services/removal-defense">removal defense</a> team builds the record with the appeal in mind from the first hearing.</p>
 
     <h2>Why Capitol Law Partners</h2>
-    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>, we handle Board appeals and motions nationwide and petitions for review in the Fourth, Second, Eighth and D.C. Circuits. Where the problem is agency delay rather than a denial, our <a href="/practice-area/key-services/immigration-mandamus">mandamus</a> practice can compel a decision.</p>
+    <p><a href="/our-team/cagatay">Cagatay Ersoy</a>, founder and managing partner of Capitol Law Partners, is a graduate of Columbia Law School whose practice spans family-based and employment-based immigration alongside business law. Our attorneys and staff work in English, Turkish, Spanish, Portuguese and French. From our offices in <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>, we handle Board appeals and motions nationwide and petitions for review in the Fourth, Second and D.C. Circuits. Where the problem is agency delay rather than a denial, our <a href="/practice-area/key-services/immigration-mandamus">mandamus</a> practice can compel a decision.</p>
 
     <h2>Learn more about appeals and motions</h2>
     <ul>
@@ -153,7 +152,7 @@ faq:
       The petition is filed in the court of appeals for the circuit where the
       immigration judge completed your proceedings, within 30 days of the
       Board's decision. Cases heard in Virginia and Maryland go to the Fourth
-      Circuit, New York to the Second Circuit, Minnesota to the Eighth Circuit,
+      Circuit, New York to the Second Circuit,
       and the District of Columbia to the D.C. Circuit. Because filing does not
       stay removal, we file a stay motion with the petition.
   - question: Can a removal order be reopened if my previous lawyer made serious mistakes?
@@ -168,8 +167,7 @@ seo:
   title: "BIA Appeals Attorney | Motions to Reopen & Reconsider"
   description: >-
     BIA appeals attorneys for motions to reopen and reconsider, AAO appeals and
-    petitions for review. Offices in Washington DC, Virginia, New York and
-    Minneapolis.
+    petitions for review. Offices in Washington DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true

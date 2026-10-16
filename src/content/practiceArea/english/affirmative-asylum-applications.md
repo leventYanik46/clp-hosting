@@ -3,8 +3,7 @@ metadata:
   title: "I-589 Asylum Attorney | Affirmative Asylum Applications"
   description: >-
     Asylum attorneys who prepare Form I-589, your declaration and evidence,
-    and attend your USCIS interview. Offices in DC, Virginia, New York and
-    Minneapolis.
+    and attend your USCIS interview. Offices in DC, Virginia and New York.
 hero:
   tagline: Contact Us
   title: Let's Connect!
@@ -62,7 +61,7 @@ post:
       <li><strong>Filing.</strong> We file Form I-589 with USCIS, online or by mail depending on your situation, and track the receipt. Congress added new asylum-related fees in 2025; we confirm the current amounts with you before filing.</li>
       <li><strong>Biometrics.</strong> USCIS schedules fingerprints and a photo at an Application Support Center.</li>
       <li><strong>Work authorization.</strong> You may apply for an employment authorization document 150 days after filing, and it can be approved once 180 days have passed on the asylum clock. Delays caused by the applicant stop the clock, so we manage the schedule carefully.</li>
-      <li><strong>The asylum interview.</strong> An asylum officer interviews you under oath, usually at the asylum office with jurisdiction over your address: the Arlington office for Washington, DC and Northern Virginia, the New York office, or the Chicago office for Minnesota. We prepare you with mock interviews and attend the interview with you.</li>
+      <li><strong>The asylum interview.</strong> An asylum officer interviews you under oath, usually at the asylum office with jurisdiction over your address: the Arlington office for Washington, DC and Northern Virginia, or the New York office. We prepare you with mock interviews and attend the interview with you.</li>
       <li><strong>Decision.</strong> USCIS may grant asylum, refer the case to the immigration court if you have no lawful status, or issue a notice of intent to deny if you are in status.</li>
       <li><strong>After a grant.</strong> You can work, apply for a Social Security number and a refugee travel document, petition for a spouse and children abroad on Form I-730 within two years, and apply for a green card one year after the grant.</li>
     </ol>
@@ -74,7 +73,7 @@ post:
     <p>Asylum officers decide credibility on details, consistency and corroboration. The most common reasons claims fail are a vague or inconsistent story, missing evidence that could have been obtained, an unprepared applicant, and a claim framed around the wrong protected ground. We shape the legal theory, prepare the declaration with you, source the evidence, and make sure your interview testimony matches your file.</p>
 
     <h2>Your asylum attorneys</h2>
-    <p>Capitol Law Partners represents asylum applicants from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a>, <a href="/locations/new-york">New York</a> and <a href="/locations/minneapolis">Minneapolis</a>. We work in English, Turkish, Spanish, Portuguese and French, and we treat every claim with the discretion it deserves.</p>
+    <p>Capitol Law Partners represents asylum applicants from <a href="/locations/washington-dc">Washington, DC</a>, <a href="/locations/herndon-va">Herndon, Virginia</a> and <a href="/locations/new-york">New York</a>. We work in English, Turkish, Spanish, Portuguese and French, and we treat every claim with the discretion it deserves.</p>
 
     <h2>Learn more about asylum and Form I-589</h2>
     <ul>
@@ -139,8 +138,7 @@ seo:
   title: "I-589 Asylum Attorney | Affirmative Asylum Applications"
   description: >-
     Asylum attorneys who prepare Form I-589, your declaration and evidence,
-    and attend your USCIS interview. Offices in DC, Virginia, New York and
-    Minneapolis.
+    and attend your USCIS interview. Offices in DC, Virginia and New York.
   schema:
     mode: merge
     includeBreadcrumbs: true
