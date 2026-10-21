@@ -113,6 +113,12 @@ post:
     <p>People comparing Guidance in Commercial and Residential Real Estate Transactions attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /commercial-vs-residential-real-estate-transactions
+      - /seller-disclosure-requirements-home-sale
+      - /buying-property-through-an-llc
+      - /real-estate-closing-step-by-step
   title: "Commercial & Residential Real Estate Legal Guidance"
   description: >-
     End-to-end counsel for buying, selling, and financing property, keeping

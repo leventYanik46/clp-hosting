@@ -148,6 +148,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /ip-licensing-agreement-key-terms
+      - /ip-mistakes-early-stage-companies
+      - /who-owns-ip-employees-contractors
+      - /how-to-protect-a-business-idea
+      - /ip-due-diligence-checklist-startups
   title: Intellectual Property Legal Services
   description: >-
     Trademark, copyright, trade secret protection, IP portfolio management, and

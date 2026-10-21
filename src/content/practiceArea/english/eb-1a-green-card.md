@@ -188,6 +188,9 @@ seo:
       - EB-1A criteria
       - EB-1A self petition
     internalLinks:
+      - /eb-1a-rfe-response
+      - /eb-1a-evidence-checklist
+      - /eb-1a-final-merits-determination
       - /eb-1a-visa-do-you-qualify
       - /file-eb-1a-without-job-offer
       - /self-petition-green-card-without-employer

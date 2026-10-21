@@ -195,6 +195,11 @@ seo:
       - mandatory detention 236(c)
       - how to get someone out of ICE detention
     internalLinks:
+      - /get-someone-out-of-ice-detention
+      - /mandatory-detention-ina-236c
+      - /how-to-pay-immigration-bond
+      - /immigration-bond-denied-next-steps
+      - /ice-detention-bond-hearing-explained
       - /removal-proceedings
       - /what-is-crimmigration
       - /affirmative-asylum

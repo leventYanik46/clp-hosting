@@ -197,6 +197,11 @@ seo:
       - prolonged immigration detention lawsuit
       - bond hearing denied habeas
     internalLinks:
+      - /bond-hearing-denied-habeas-corpus
+      - /how-to-file-habeas-petition-ice-custody
+      - /what-is-2241-habeas-petition-immigration
+      - /prolonged-immigration-detention-due-process
+      - /ice-detention-after-final-removal-order
       - /immigration-mandamus-lawsuits
       - /removal-proceedings
       - /what-is-crimmigration

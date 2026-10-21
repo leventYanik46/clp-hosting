@@ -112,6 +112,12 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /eb-1c-green-card-process-steps
+      - /eb-1c-without-l-1a-visa
+      - /eb-1c-denial-reasons-rfe
+      - /eb-1c-i-140-evidence-checklist
   title: "EB-1C Green Card Services | Capitol Law Partners"
   description: >-
     Multinational managers and executives pursuing permanent residence through

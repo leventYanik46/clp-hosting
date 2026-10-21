@@ -113,6 +113,13 @@ post:
     <p>People comparing Wrongful Death attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /wrongful-death-damages-explained
+      - /wrongful-death-claim-and-probate
+      - /wrongful-death-vs-survival-action
+      - /wrongful-death-filing-deadline
+      - /who-can-file-wrongful-death-claim
   title: "Wrongful Death Services | Capitol Law Partners"
   description: >-
     Compassionate representation for families seeking accountability and

@@ -190,6 +190,9 @@ seo:
       - L-1A requirements
       - blanket L petition
     internalLinks:
+      - /new-office-l-1a-petition-requirements
+      - /blanket-l-petition-explained
+      - /l-1a-managerial-capacity-requirements
       - /l-1-visa-guide-transfers
       - /l-1a-vs-l-1b-comparison
       - /eb-1c-multinational-manager-requirements

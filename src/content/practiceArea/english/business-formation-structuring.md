@@ -129,6 +129,13 @@ post:
     <p>People comparing Business Formation and Structuring attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /llc-vs-corporation-for-startup
+      - /business-formation-mistakes-to-avoid
+      - /founder-equity-split-and-vesting
+      - /llc-operating-agreement-what-to-include
+      - /where-to-incorporate-delaware-or-home-state
   title: "Business Formation and Structuring Services | Capitol Law Partners"
   description: >-
     Entity selection, operating agreements, equity splits, governance, and

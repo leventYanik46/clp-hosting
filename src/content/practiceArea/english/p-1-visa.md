@@ -110,6 +110,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /p-1-vs-o-1-athletes-performers
+      - /p-1a-visa-requirements-athletes
+      - /p-1b-entertainment-group-requirements
+      - /p-1-visa-petition-process-steps
+      - /p-1-visa-validity-athlete-trades
   title: "P-1 Visa | Capitol Law Partners"
   description: Visas for internationally recognized athletes and entertainment groups.
   schema:

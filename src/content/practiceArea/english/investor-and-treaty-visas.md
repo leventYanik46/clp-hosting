@@ -182,6 +182,9 @@ seo:
       - EB-1C attorney
       - E-2 visa Turkey
     internalLinks:
+      - /investor-visa-options-turkish-citizens
+      - /e-2-visa-to-green-card-paths
+      - /e-2-vs-l-1a-business-expansion
       - /e-2-vs-eb-5-comparison
       - /e-2-visa-minimum-investment-2026
       - /eb-1c-multinational-manager-requirements

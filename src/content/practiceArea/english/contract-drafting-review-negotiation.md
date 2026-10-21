@@ -116,6 +116,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /essential-business-contract-clauses
+      - /how-to-negotiate-business-contract
+      - /what-makes-contract-unenforceable
+      - /limitation-of-liability-indemnification-clauses
+      - /msa-vs-statement-of-work
   title: "Contract Drafting, Review, and Negotiation Services | Capitol Law Partners"
   description: >-
     Clear, enforceable agreements for vendors, clients, employees, and

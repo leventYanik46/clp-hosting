@@ -188,6 +188,8 @@ seo:
       - N-600 certificate of citizenship
       - naturalization application denied
     internalLinks:
+      - /n-400-naturalization-denied-next-steps
+      - /n-600-certificate-of-citizenship-eligibility
       - /path-to-us-citizenship-requirements-for-eu-citizenship
       - /birthright-citizenship-ruling-explained
       - /how-the-united-states-immigration-system-works

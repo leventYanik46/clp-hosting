@@ -196,6 +196,7 @@ seo:
       - K-1 fiance visa lawyer
       - I-601A waiver attorney
     internalLinks:
+      - /i-601a-provisional-waiver-explained
       - /how-to-get-a-green-card-for-your-parents
       - /ways-to-get-a-green-card-in-the-united-states
       - /permanent-resident-green-card-and-immigrant-visas

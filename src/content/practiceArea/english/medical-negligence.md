@@ -113,6 +113,13 @@ post:
     <p>People comparing Medical Negligence attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /misdiagnosis-delayed-diagnosis-malpractice
+      - /medical-malpractice-deadlines-dc-va-ny
+      - /medical-malpractice-case-step-by-step
+      - /medical-negligence-vs-bad-outcome
+      - /how-to-prove-medical-malpractice
   title: "Medical Negligence Services | Capitol Law Partners"
   description: >-
     Holding providers accountable for preventable medical errors with meticulous

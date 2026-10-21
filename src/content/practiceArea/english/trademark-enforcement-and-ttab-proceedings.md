@@ -195,6 +195,11 @@ seo:
       - trademark cease and desist letter
       - UDRP domain name dispute
     internalLinks:
+      - /how-to-oppose-trademark-application-ttab
+      - /trademark-cancellation-proceeding-grounds
+      - /trademark-cease-and-desist-letter-risks
+      - /trademark-expungement-vs-reexamination
+      - /udrp-complaint-domain-name-trademark
       - /practice-area/key-services/trademark-and-intellectual-property-registration
       - /practice-area/key-services/trademark-search-and-clearance
       - /practice-area/key-services/ip-litigation-and-dispute-resolution

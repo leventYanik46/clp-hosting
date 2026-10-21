@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /eb-5-source-of-funds-evidence
+      - /eb-5-green-card-requirements
+      - /eb-5-process-step-by-step
+      - /eb-5-removal-of-conditions-i-829
+      - /regional-center-vs-direct-eb-5
   title: "EB-5 Green Card Services | Capitol Law Partners"
   description: >-
     Investment-based green cards through qualifying capital investment and job

@@ -174,6 +174,11 @@ seo:
       - O-1 to green card
       - self-petition green card
     internalLinks:
+      - /eb-1a-vs-eb-2-niw-comparison
+      - /file-eb-1a-and-niw-together
+      - /o-1-visa-to-green-card
+      - /recommendation-letters-extraordinary-ability
+      - /us-talent-visa-by-profession
       - /self-petition-green-card-without-employer
       - /eb-1a-visa-do-you-qualify
       - /can-startup-founder-get-o-1-visa

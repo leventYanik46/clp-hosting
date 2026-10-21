@@ -124,6 +124,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /when-to-update-bylaws-operating-agreement
+      - /corporate-records-small-company-must-keep
+      - /when-do-you-need-board-resolution
+      - /breaking-50-50-owner-deadlock
+      - /conflict-of-interest-policy-what-to-include
   title: "Corporate Governance & Internal Policies Services | Capitol Law Partners"
   description: >-
     Governance frameworks, board procedures, and internal policies that promote

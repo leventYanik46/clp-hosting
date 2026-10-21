@@ -113,6 +113,13 @@ post:
     <p>People comparing Pedestrian and Bicycle Accidents attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /which-insurance-pays-pedestrian-cyclist-injury
+      - /sue-the-city-pedestrian-bike-crash
+      - /hit-and-run-pedestrian-compensation
+      - /who-is-at-fault-car-hits-pedestrian
+      - /bicycle-accident-with-car-next-steps
   title: "Pedestrian and Bicycle Accidents Services | Capitol Law Partners"
   description: >-
     Protecting injured pedestrians and cyclists with fast action to secure

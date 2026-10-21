@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /r-1-visa-documents-employer-checklist
+      - /r-1-visa-to-green-card-eb-4
+      - /r-1-visa-maximum-stay-extensions
+      - /r-1-visa-requirements-religious-worker
+      - /r-1-visa-process-i-129-site-visit
   title: "R-1 Visa Lawyer for Religious Workers – Capitol Law Partners"
   description: >-
     Temporary religious worker visas for ministers and those in religious

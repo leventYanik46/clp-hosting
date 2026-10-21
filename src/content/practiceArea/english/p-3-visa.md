@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /teach-or-coach-on-p-3-visa
+      - /p-3-visa-evidence-expert-letters
+      - /what-counts-as-culturally-unique-p-3-visa
+      - /p-3-vs-o-1b-visa-traditional-artists
+      - /p-3-visa-application-steps
   title: "P-3 Visa Lawyer for Culturally Unique Performers – Capitol Law Partners"
   description: >-
     Visas for artists and entertainers coming to perform, teach, or coach

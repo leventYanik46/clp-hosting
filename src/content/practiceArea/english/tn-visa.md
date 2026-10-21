@@ -110,6 +110,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /tn-visa-denied-at-border-reasons
+      - /tn-visa-to-green-card-options
+      - /tn-visa-application-process-canada-mexico
+      - /tn-visa-vs-h-1b-comparison
+      - /tn-visa-eligible-professions-list
   title: "TN Visa | Capitol Law Partners"
   description: NAFTA/USMCA professional visas for qualified Canadian and Mexican citizens.
   schema:

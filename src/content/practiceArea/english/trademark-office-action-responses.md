@@ -201,6 +201,11 @@ seo:
       - merely descriptive trademark refusal
       - trademark final office action appeal
     internalLinks:
+      - /respond-to-likelihood-of-confusion-refusal
+      - /final-office-action-trademark-next-steps
+      - /merely-descriptive-trademark-refusal-options
+      - /trademark-specimen-refusal-how-to-fix
+      - /trademark-office-action-response-deadline
       - /practice-area/key-services/trademark-and-intellectual-property-registration
       - /practice-area/key-services/trademark-search-and-clearance
       - /intellectual-property-law

@@ -186,6 +186,9 @@ seo:
       - cancellation of removal lawyer
       - motion to reopen removal order
     internalLinks:
+      - /who-qualifies-cancellation-of-removal
+      - /green-card-during-removal-proceedings
+      - /missed-immigration-court-hearing
       - /removal-proceedings
       - /what-is-crimmigration
       - /affirmative-asylum

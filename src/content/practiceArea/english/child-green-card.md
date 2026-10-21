@@ -196,6 +196,11 @@ seo:
       - CSPA age out attorney
       - stepchild green card
     internalLinks:
+      - /f2a-green-card-child-of-permanent-resident
+      - /green-card-for-child-of-us-citizen
+      - /stepchild-green-card-requirements
+      - /cspa-age-out-calculation-explained
+      - /child-green-card-documents-checklist
       - /what-is-form-i-130-2025-update
       - /priority-date-vs-filing-date
       - /what-is-form-i-485-how-to-complete-step-by-step

@@ -190,6 +190,11 @@ seo:
       - i-485 after asylum
       - asylee green card one year
     internalLinks:
+      - /asylee-inadmissibility-waiver-i-602
+      - /when-can-asylee-apply-for-green-card
+      - /why-asylee-green-card-taking-so-long
+      - /asylee-i-485-documents-checklist
+      - /asylee-travel-before-green-card
       - /affirmative-asylum
       - /understanding-the-u-s-green-card-process-a-step-by-step-guide
       - /ways-to-get-a-green-card-in-the-united-states

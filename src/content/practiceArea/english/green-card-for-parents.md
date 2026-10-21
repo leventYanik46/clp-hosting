@@ -190,6 +190,10 @@ seo:
       - I-601A waiver for parents
       - adjustment of status for parents
     internalLinks:
+      - /parent-entered-without-inspection-green-card
+      - /consular-processing-for-parents-abroad
+      - /adjustment-of-status-for-parents
+      - /i-130-petition-for-parents-documents
       - /how-to-get-a-green-card-for-your-parents
       - /priority-date-vs-filing-date
       - /ways-to-get-a-green-card-in-the-united-states

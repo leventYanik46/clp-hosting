@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /l-1b-petition-documents-checklist
+      - /l-1b-to-green-card-options
+      - /l-1b-rfe-denial-reasons
+      - /l-1b-five-year-limit-extensions
+      - /l-1b-specialized-knowledge-explained
   title: "L-1B Visa Lawyer for Specialized Knowledge Employees – Capitol Law Partners"
   description: >-
     Intra-company transfers for professionals with specialized knowledge

@@ -110,6 +110,10 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /f-1-opt-rules-and-timing
+      - /f-1-student-work-off-campus
   title: "Student Visa Lawyer for F-1 Visas – Capitol Law Partners"
   description: Student visas for full-time academic study and practical training planning.
   schema:

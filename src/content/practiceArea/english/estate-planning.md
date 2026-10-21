@@ -148,6 +148,12 @@ post:
 
     <p>A careful estate plan can reduce confusion, support family decision-making, and make later administration easier. We focus on practical drafting and regular review so the documents stay aligned with the client’s wishes and circumstances.</p>
 seo:
+  strategy:
+    internalLinks:
+      - /power-of-attorney-vs-health-care-directive
+      - /estate-planning-documents-checklist
+      - /estate-planning-for-non-citizens
+      - /when-to-update-your-estate-plan
   title: "Trusts & Estates Services | Capitol Law Partners"
   description: >-
     Comprehensive estate planning, asset protection, wills, trusts, probate

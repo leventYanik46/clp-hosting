@@ -112,6 +112,12 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /eb-3-skilled-worker-vs-other-worker
+      - /eb-3-green-card-process-steps
+      - /eb-3-vs-eb-2-which-category
+      - /eb-3-i-140-rfe-ability-to-pay
   title: "EB-3 Green Card Services | Capitol Law Partners"
   description: >-
     Employment-based permanent residence for skilled workers, professionals, and

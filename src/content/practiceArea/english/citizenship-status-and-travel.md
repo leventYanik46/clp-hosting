@@ -176,6 +176,11 @@ seo:
       - re-entry permit lawyer
       - F-1 J-1 M-1 visa lawyer
     internalLinks:
+      - /unlawful-presence-vs-out-of-status
+      - /student-visa-comparison-f1-j1-m1
+      - /i-94-expiration-vs-visa-expiration
+      - /travel-while-immigration-application-pending
+      - /continuous-residence-vs-physical-presence
       - /path-to-us-citizenship-requirements-for-eu-citizenship
       - /j-1-visa-exchange-visitor-program-update-2025
       - /what-is-the-m-1-visa-step-by-step

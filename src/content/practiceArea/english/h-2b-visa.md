@@ -110,6 +110,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /h-2b-denial-delay-reasons
+      - /h-2b-temporary-need-types
+      - /h-2b-visa-cap-explained
+      - /h-2b-employer-obligations-workers
+      - /h-2b-visa-process-employers
   title: "H-2B Visa Lawyer for Seasonal Workers – Capitol Law Partners"
   description: Temporary non-agricultural worker visas for seasonal or peak-load needs.
   schema:

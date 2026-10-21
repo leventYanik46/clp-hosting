@@ -152,6 +152,9 @@ seo:
       - form i-589
       - asylum interview attorney
     internalLinks:
+      - /how-to-write-asylum-declaration
+      - /what-happens-after-asylum-interview
+      - /asylum-interview-what-to-expect
       - /affirmative-asylum
       - /removal-asylum-u-s-asylum-process-legal-advice
 ---

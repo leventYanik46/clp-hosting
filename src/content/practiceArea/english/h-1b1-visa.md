@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /how-to-apply-h-1b1-visa
+      - /h-1b1-visa-requirements-chile-singapore
+      - /h-1b1-vs-h-1b-differences
+      - /h-1b1-visa-extension-renewal
+      - /h-1b1-to-green-card-path
   title: "H-1B1 Visa | Capitol Law Partners"
   description: >-
     Professionals from Chile and Singapore seeking specialty occupation roles in

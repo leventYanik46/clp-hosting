@@ -192,6 +192,9 @@ seo:
       - E-2 visa Turkey
       - E-2 change of status
     internalLinks:
+      - /e-2-change-of-status-vs-consular-processing
+      - /e-2-visa-business-plan-requirements
+      - /e-2-visa-refused-214b-what-next
       - /e-2-visa-minimum-investment-2026
       - /e-2-vs-eb-5-comparison
       - /what-business-immigration-lawyer-does

@@ -113,6 +113,13 @@ post:
     <p>People comparing Trade Secret Protection attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /trade-secret-vs-patent-protection
+      - /what-qualifies-as-a-trade-secret
+      - /employee-took-confidential-information-what-to-do
+      - /reasonable-measures-to-protect-trade-secrets
+      - /nda-trade-secret-protection-limits
   title: "Trade Secret Protection Services | Capitol Law Partners"
   description: >-
     Keep confidential know-how protected with policies, agreements, and

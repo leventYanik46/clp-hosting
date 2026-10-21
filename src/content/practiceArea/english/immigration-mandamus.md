@@ -151,6 +151,9 @@ seo:
       - mandamus lawsuit USCIS delay
       - mandamus 221g administrative processing
     internalLinks:
+      - /n-400-120-day-rule-after-interview
+      - /mandamus-221g-administrative-processing
+      - /how-courts-decide-uscis-delay-unreasonable
       - /what-is-a-writ-of-mandamus
       - /immigration-mandamus-lawsuits
 ---

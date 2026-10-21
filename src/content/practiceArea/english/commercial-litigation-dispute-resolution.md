@@ -115,6 +115,12 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /breach-of-contract-demand-letter
+      - /mediation-vs-arbitration-business-disputes
+      - /litigation-hold-notice-for-businesses
+      - /business-partner-dispute-options
   title: "Commercial Litigation & Dispute Resolution Services | Capitol Law Partners"
   description: >-
     Strategic representation for contract breaches, partnership conflicts, and

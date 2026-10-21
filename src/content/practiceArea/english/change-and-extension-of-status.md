@@ -180,6 +180,11 @@ seo:
       - B-2 to F-1 change of status
       - 60-day grace period H-1B
     internalLinks:
+      - /h-1b-60-day-grace-period-options
+      - /change-status-after-visa-waiver-entry
+      - /change-of-status-denied-what-happens
+      - /b2-to-f1-change-of-status
+      - /form-i-539-evidence-checklist
       - /understanding-the-h-1b-visa-process
       - /j-1-visa-exchange-visitor-program-update-2025
       - /my-visa-application-was-denied-what-should-i-do

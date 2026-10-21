@@ -199,6 +199,10 @@ seo:
       - following to join immigrant visa
       - humanitarian parole attorney
     internalLinks:
+      - /humanitarian-parole-for-family-member
+      - /following-to-join-spouse-children
+      - /consular-processing-immigrant-visa-steps
+      - /i-730-asylee-relative-petition-family
       - /understanding-family-based-immigration-attorney
       - /understanding-the-u-s-green-card-process-a-step-by-step-guide
       - /priority-date-vs-filing-date

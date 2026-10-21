@@ -125,6 +125,12 @@ post:
 
     <p>Real estate deals are often won or lost in the details. We focus on clear drafting, practical negotiation, and issue spotting that helps protect the client’s property interests and the larger business plan behind the deal.</p>
 seo:
+  strategy:
+    internalLinks:
+      - /firpta-withholding-foreign-seller
+      - /do-you-need-title-insurance
+      - /joint-tenancy-vs-tenancy-in-common
+      - /warranty-deed-vs-quitclaim-deed
   title: "Real Estate Law Services | Capitol Law Partners"
   description: >-
     Guidance in commercial and residential real estate transactions, property

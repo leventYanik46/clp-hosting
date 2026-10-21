@@ -183,6 +183,11 @@ seo:
       - form i-918 supplement b
       - VAWA cancellation of removal
     internalLinks:
+      - /vawa-self-petition-requirements
+      - /vawa-cancellation-of-removal-explained
+      - /t-visa-application-trafficking-survivors
+      - /i-918-supplement-b-certification
+      - /u-visa-qualifying-crimes-list
       - /removal-proceedings
       - /affirmative-asylum
       - /how-the-united-states-immigration-system-works

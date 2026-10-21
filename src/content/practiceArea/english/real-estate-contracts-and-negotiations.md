@@ -113,6 +113,13 @@ post:
     <p>People comparing Real Estate Contracts and Negotiations attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /buyer-backs-out-of-real-estate-contract
+      - /as-is-clause-real-estate-contract
+      - /real-estate-contract-contingencies
+      - /is-a-letter-of-intent-binding
+      - /negotiating-repairs-after-home-inspection
   title: "Real Estate Contracts and Negotiations Services | Capitol Law Partners"
   description: >-
     Contracts built to protect your position, from LOIs to final agreements,

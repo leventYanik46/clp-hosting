@@ -182,6 +182,11 @@ seo:
       - I-290B appeal attorney
       - petition for review immigration
     internalLinks:
+      - /how-to-appeal-uscis-denial-form-i-290b
+      - /motion-to-reopen-deadline-exceptions
+      - /motion-to-reopen-vs-motion-to-reconsider
+      - /petition-for-review-after-bia-decision
+      - /how-to-appeal-immigration-judge-decision
       - /removal-proceedings
       - /what-is-crimmigration
       - /immigration-law-in-the-u-s-what-you-need-to-know

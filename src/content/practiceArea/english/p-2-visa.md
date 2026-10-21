@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /p-2-visa-duration-extensions-family
+      - /p-2-visa-reciprocal-exchange-requirements
+      - /p-2-visa-documents-checklist
+      - /p-2-vs-p-1-visa-artists
+      - /p-2-visa-petition-process-steps
   title: "P-2 Visa Lawyer for Reciprocal Exchange Artists – Capitol Law Partners"
   description: >-
     Reciprocal exchange visas for artists and entertainers participating in

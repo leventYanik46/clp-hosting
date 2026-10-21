@@ -113,6 +113,13 @@ post:
     <p>People comparing Estate Planning & Asset Protection attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /revocable-vs-irrevocable-trust-asset-protection
+      - /asset-protection-for-business-owners
+      - /lifetime-gifting-reduce-taxable-estate
+      - /beneficiary-designations-override-will
+      - /real-estate-in-multiple-states-estate-plan
   title: "Estate Planning & Asset Protection Services | Capitol Law Partners"
   description: >-
     Comprehensive estate strategies that preserve wealth, minimize risk, and

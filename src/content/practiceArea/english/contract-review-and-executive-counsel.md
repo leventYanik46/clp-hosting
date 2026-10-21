@@ -124,6 +124,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /contract-playbook-for-recurring-deals
+      - /strategic-partnership-agreement-key-questions
+      - /executive-employment-agreement-key-terms
+      - /how-to-review-contract-before-signing
+      - /other-party-breached-contract-next-steps
   title: "Contract Review & Executive Counsel Services | Capitol Law Partners"
   description: >-
     Careful contract review, negotiation, and drafting, combined with direct

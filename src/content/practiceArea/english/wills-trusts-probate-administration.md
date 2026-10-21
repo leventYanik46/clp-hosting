@@ -113,6 +113,12 @@ post:
     <p>People comparing Wills, Trusts, and Probate Administration attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /revocable-living-trust-vs-will
+      - /what-happens-without-a-will
+      - /executor-duties-after-death
+      - /how-probate-works-step-by-step
   title: "Wills, Trusts, and Probate Administration Services | Capitol Law Partners"
   description: >-
     Plain-English wills and trusts backed by efficient probate administration to

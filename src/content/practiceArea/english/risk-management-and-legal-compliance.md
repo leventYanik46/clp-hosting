@@ -124,6 +124,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /vendor-contract-clauses-legal-risk
+      - /internal-investigation-attorney-client-privilege
+      - /small-business-compliance-program-elements
+      - /legal-risk-assessment-for-business
+      - /discovered-compliance-violation-next-steps
   title: "Risk Management & Legal Compliance Services | Capitol Law Partners"
   description: >-
     Proactive legal risk assessment, compliance planning, and regulatory support

@@ -182,6 +182,11 @@ seo:
       - international trademark registration
       - USPTO post-registration audit
     internalLinks:
+      - /section-8-declaration-of-use-deadline
+      - /madrid-protocol-international-trademark-process
+      - /section-15-incontestability-benefits
+      - /uspto-post-registration-audit-response
+      - /madrid-protocol-vs-direct-national-filing
       - /practice-area/key-services/trademark-and-intellectual-property-registration
       - /practice-area/key-services/trademark-enforcement-and-ttab-proceedings
       - /practice-area/key-services/ip-portfolio-management

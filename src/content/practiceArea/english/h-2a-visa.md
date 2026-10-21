@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /h-2a-housing-requirements
+      - /h-2a-visa-process-timeline
+      - /h-2a-wage-requirements-employers
+      - /h-2a-visa-eligibility-farm-work
+      - /h-2a-vs-h-2b-which-visa
   title: "H-2A Visa Lawyer for Agricultural Workers – Capitol Law Partners"
   description: >-
     Temporary agricultural worker visas covering employer petitions, compliance,

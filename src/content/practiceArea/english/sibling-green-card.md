@@ -190,6 +190,11 @@ seo:
       - sibling petition priority date
       - humanitarian reinstatement I-130
     internalLinks:
+      - /half-sibling-step-sibling-green-card
+      - /how-to-file-i-130-for-sibling
+      - /sibling-green-card-spouse-children-derivatives
+      - /f4-sibling-priority-date-wait
+      - /sibling-petition-when-petitioner-dies
       - /what-is-form-i-130-2025-update
       - /priority-date-vs-filing-date
       - /the-fastest-ways-to-get-a-green-card-in-the-u-s

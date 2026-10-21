@@ -113,6 +113,13 @@ post:
     <p>People comparing IP Litigation and Dispute Resolution attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /ip-infringement-lawsuit-process
+      - /dmca-takedown-notice-process
+      - /ip-dispute-mediation-arbitration-settlement
+      - /received-cease-and-desist-letter-next-steps
+      - /when-to-send-cease-and-desist-letter
   title: "IP Litigation and Dispute Resolution Services | Capitol Law Partners"
   description: >-
     Protect and enforce IP rights through targeted demand letters, negotiations,

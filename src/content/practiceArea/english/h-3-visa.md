@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /h-3-training-plan-requirements
+      - /after-h-3-training-ends-options
+      - /h-3-training-not-available-home-country
+      - /h-3-special-education-exchange-visitor
+      - /h-3-visa-vs-j-1-trainee
   title: "H-3 Visa Lawyer for Trainees and Special Education – Capitol Law Partners"
   description: >-
     Trainee visas for individuals receiving practical training not available in

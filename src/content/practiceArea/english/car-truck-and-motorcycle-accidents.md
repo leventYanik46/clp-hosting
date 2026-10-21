@@ -113,6 +113,13 @@ post:
     <p>People comparing Car, Truck, and Motorcycle Accidents attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /uninsured-underinsured-motorist-coverage-explained
+      - /car-accident-insurance-claim-process
+      - /first-week-after-car-accident
+      - /truck-accident-claims-differences
+      - /motorcycle-accident-claim-fault-helmet
   title: "Car, Truck, and Motorcycle Accidents Services | Capitol Law Partners"
   description: >-
     Relentless advocacy for crash victims, from investigation to negotiation and

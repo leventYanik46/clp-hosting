@@ -169,6 +169,11 @@ seo:
       - EOIR FOIA record of proceedings
       - FOIA lawsuit immigration
     internalLinks:
+      - /foia-lawsuit-immigration-records
+      - /cbp-foia-entry-exit-records
+      - /how-to-file-uscis-foia-request
+      - /eoir-foia-record-of-proceedings
+      - /what-is-in-your-a-file
       - /immigration-mandamus-lawsuits
       - /removal-proceedings
       - /immigration-law-in-the-u-s-what-you-need-to-know

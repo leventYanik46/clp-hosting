@@ -189,6 +189,9 @@ seo:
       - O-1A criteria
       - O-1 visa for founders
     internalLinks:
+      - /o-1a-visa-validity-extensions
+      - /o-1-advisory-opinion-who-provides-it
+      - /o-1a-vs-h-1b-which-visa-fits
       - /o-1-visa-extraordinary-ability
       - /how-to-prove-extraordinary-ability-o-1
       - /can-startup-founder-get-o-1-visa

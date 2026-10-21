@@ -112,6 +112,11 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /j-1-intern-vs-trainee-category
+      - /change-j-1-to-h-1b-status
+      - /j-1-two-year-home-residency-requirement
   title: "J-1 Visa Lawyer for Exchange Visitors – Capitol Law Partners"
   description: >-
     Exchange visitor visas covering training, research, and cultural exchange

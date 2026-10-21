@@ -194,6 +194,11 @@ seo:
       - EB-1B criteria
       - EB-1B vs EB-1A
     internalLinks:
+      - /eb-1b-permanent-job-offer
+      - /eb-1b-outstanding-researcher-requirements
+      - /eb-1b-vs-eb-1a-researchers
+      - /eb-1b-criteria-evidence
+      - /eb-1b-process-step-by-step
       - /employment-based-green-cards-guide
       - /eb-1a-visa-do-you-qualify
       - /j-1-visa-exchange-visitor-program-update-2025

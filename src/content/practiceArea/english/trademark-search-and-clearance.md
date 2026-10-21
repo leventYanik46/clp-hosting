@@ -199,6 +199,11 @@ seo:
       - comprehensive trademark search
       - likelihood of confusion trademark
     internalLinks:
+      - /can-you-use-a-dead-trademark
+      - /likelihood-of-confusion-trademark-factors
+      - /trademark-availability-opinion-explained
+      - /how-to-search-for-a-trademark
+      - /knockout-search-vs-comprehensive-trademark-search
       - /practice-area/key-services/trademark-and-intellectual-property-registration
       - /practice-area/key-services/trademark-office-action-responses
       - /small-business-intellectual-property-protection-types

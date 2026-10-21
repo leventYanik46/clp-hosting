@@ -113,6 +113,13 @@ post:
     <p>People comparing Dangerous or Defective Products attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /defective-product-injury-evidence-to-keep
+      - /who-is-liable-defective-product
+      - /does-product-recall-prove-defect
+      - /strict-liability-vs-negligence-defective-product
+      - /three-types-of-product-defects
   title: "Dangerous or Defective Products Services | Capitol Law Partners"
   description: >-
     Product liability claims that target defective design, manufacture, or

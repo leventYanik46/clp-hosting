@@ -141,6 +141,11 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /general-counsel-retainer-how-it-works
+      - /outside-general-counsel-vs-in-house
+      - /what-outside-general-counsel-does
   title: "General Counsel & Advisory Services Services | Capitol Law Partners"
   description: >-
     Executive legal advisory, contract review, corporate governance, and

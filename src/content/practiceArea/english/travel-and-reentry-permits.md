@@ -172,6 +172,11 @@ seo:
       - refugee travel document
       - abandonment of permanent residence
     internalLinks:
+      - /sb-1-returning-resident-visa
+      - /advance-parole-pending-green-card
+      - /re-entry-permit-before-long-trip
+      - /refugee-travel-document-rules
+      - /how-long-green-card-holder-stay-abroad
       - /understanding-the-u-s-green-card-process-a-step-by-step-guide
       - /what-is-form-i-485-how-to-complete-step-by-step
       - /path-to-us-citizenship-requirements-for-eu-citizenship

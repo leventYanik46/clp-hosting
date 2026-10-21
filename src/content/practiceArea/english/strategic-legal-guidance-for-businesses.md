@@ -130,6 +130,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /expand-business-to-another-state
+      - /legal-checklist-new-product-launch
+      - /foreign-company-us-market-entry
+      - /legal-prep-before-raising-capital
+      - /hiring-first-employee-legal-steps
   title: "Strategic Legal Guidance for Businesses Services | Capitol Law Partners"
   description: >-
     High-level legal counsel that aligns with your business strategy, supports

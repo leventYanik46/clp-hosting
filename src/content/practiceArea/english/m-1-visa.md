@@ -112,6 +112,12 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /m-1-visa-practical-training-rules
+      - /m-1-transfer-and-extension-rules
+      - /change-m-1-to-f-1-status
+      - /which-programs-qualify-m-1-visa
   title: "M-1 Visa Lawyer for Vocational Students – Capitol Law Partners"
   description: >-
     Student visas for vocational and technical programs, including status

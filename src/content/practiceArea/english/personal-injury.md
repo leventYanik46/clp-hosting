@@ -125,6 +125,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /injury-claim-deadlines-dc-virginia-new-york
+      - /how-to-prove-negligence-injury-claim
+      - /damages-in-personal-injury-case
+      - /mistakes-that-weaken-injury-claim
+      - /contributory-negligence-virginia-dc-explained
   title: "Personal Injury Services | Capitol Law Partners"
   description: >-
     Our Personal Injury team protects clients who have been harmed by

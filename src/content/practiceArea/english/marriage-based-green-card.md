@@ -194,6 +194,11 @@ seo:
       - marriage-based adjustment of status
       - I-751 removal of conditions attorney
     internalLinks:
+      - /bona-fide-marriage-evidence-uscis
+      - /marriage-based-adjustment-of-status-steps
+      - /spouse-adjustment-vs-consular-processing
+      - /marriage-green-card-after-visa-overstay
+      - /form-i-751-removal-of-conditions-timing
       - /what-is-form-i-130-2025-update
       - /what-is-form-i-485-how-to-complete-step-by-step
       - /understanding-family-based-immigration-attorney

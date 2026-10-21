@@ -189,6 +189,11 @@ seo:
       - K-1 visa requirements
       - K-1 adjustment of status
     internalLinks:
+      - /k-1-fiance-visa-process-steps
+      - /k-1-adjustment-of-status-after-marriage
+      - /k-1-vs-cr-1-spousal-visa
+      - /k-1-visa-90-day-marriage-deadline
+      - /k-1-visa-requirements-who-qualifies
       - /what-is-form-i-485-how-to-complete-step-by-step
       - /permanent-resident-green-card-and-immigrant-visas
       - /ways-to-get-a-green-card-in-the-united-states

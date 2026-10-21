@@ -113,6 +113,13 @@ post:
     <p>People comparing IP Portfolio Management attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /ip-ownership-chain-of-title-assignments
+      - /ip-docketing-deadlines-explained
+      - /trademark-filing-strategy-budget-priorities
+      - /trademark-licensing-quality-control-requirements
+      - /how-to-conduct-ip-audit
   title: "IP Portfolio Management Services | Capitol Law Partners"
   description: >-
     Strategic, cost-aware portfolio management to align IP assets with business

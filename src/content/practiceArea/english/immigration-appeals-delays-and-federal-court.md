@@ -168,6 +168,11 @@ seo:
       - APA lawsuit USCIS denial
       - immigration FOIA request
     internalLinks:
+      - /immigration-appeal-deadlines-explained
+      - /eaja-fees-immigration-cases
+      - /which-federal-court-hears-immigration-case
+      - /can-you-sue-uscis-federal-court
+      - /does-immigration-appeal-stop-deportation
       - /practice-area/key-services/immigration-mandamus
       - /practice-area/key-services/habeas-corpus
       - /practice-area/key-services/bia-appeals-and-motions

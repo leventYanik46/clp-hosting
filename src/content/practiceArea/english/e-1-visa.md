@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /e-1-visa-for-employees
+      - /e-1-vs-e-2-treaty-visa
+      - /how-to-apply-e-1-visa
+      - /e-1-treaty-trader-visa-requirements
+      - /substantial-trade-e-1-visa
   title: "Treaty Trader Visa Lawyer for E-1 Visas – Capitol Law Partners"
   description: >-
     Treaty trader visa guidance for businesses conducting substantial trade

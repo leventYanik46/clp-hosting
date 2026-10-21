@@ -179,6 +179,10 @@ seo:
       - EB-1A vs EB-1B vs EB-1C
       - first preference green card
     internalLinks:
+      - /eb-1a-vs-eb-1b-vs-eb-1c
+      - /eb-1-denial-reasons-next-steps
+      - /after-eb-1-i-140-approved
+      - /visa-bulletin-eb-1-first-preference
       - /employment-based-green-cards-guide
       - /the-fastest-ways-to-get-a-green-card-in-the-u-s
       - /priority-date-vs-filing-date

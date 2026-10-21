@@ -187,6 +187,11 @@ seo:
       - SIJS requirements
       - form i-360 sijs
     internalLinks:
+      - /form-i-360-sijs-petition-process
+      - /sijs-green-card-adjustment-of-status
+      - /who-qualifies-for-sijs
+      - /sijs-state-court-order-findings
+      - /sijs-age-out-deadlines
       - /removal-proceedings
       - /affirmative-asylum
       - /ways-to-get-a-green-card-in-the-united-states

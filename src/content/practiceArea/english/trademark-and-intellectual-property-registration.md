@@ -195,6 +195,7 @@ seo:
       - trademark application attorney
       - intent to use trademark application
     internalLinks:
+      - /intent-to-use-trademark-application-explained
       - /practice-area/key-services/trademark-search-and-clearance
       - /practice-area/key-services/trademark-office-action-responses
       - /small-business-intellectual-property-protection-types

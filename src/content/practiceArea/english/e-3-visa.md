@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /how-to-apply-e-3-visa
+      - /e-3-visa-requirements-australian-citizens
+      - /e-3-visa-spouse-work-authorization
+      - /changing-jobs-on-e-3-visa
+      - /e-3-vs-h-1b-australian-professionals
   title: "E-3 Visa Lawyer for Australian Professionals – Capitol Law Partners"
   description: >-
     Specialty occupation visas for Australian nationals, including employer

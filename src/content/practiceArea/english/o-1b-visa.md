@@ -192,6 +192,10 @@ seo:
       - O-1 visa for artists
       - O-1B visa for musicians and actors
     internalLinks:
+      - /o-1b-distinction-in-the-arts-standard
+      - /o-1b-film-television-standard
+      - /o-1b-agent-petition-touring-artists
+      - /o-1b-evidence-checklist-musicians-actors
       - /o-1-visa-extraordinary-ability
       - /how-to-prove-extraordinary-ability-o-1
       - /eb-1a-visa-do-you-qualify

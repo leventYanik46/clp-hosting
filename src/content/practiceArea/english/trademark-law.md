@@ -167,6 +167,11 @@ seo:
       - USPTO trademark attorney
       - trademark registration and enforcement lawyer
     internalLinks:
+      - /trademark-rights-without-registration
+      - /what-makes-a-strong-trademark
+      - /business-name-vs-trademark-protection
+      - /tm-vs-registered-trademark-symbol
+      - /who-should-own-trademark-founder-or-company
       - /practice-area/key-services/trademark-search-and-clearance
       - /practice-area/key-services/trademark-and-intellectual-property-registration
       - /practice-area/key-services/trademark-office-action-responses

@@ -113,6 +113,13 @@ post:
     <p>People comparing Legal Guardianship attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /how-to-file-adult-guardianship-petition
+      - /emergency-temporary-guardianship-how-fast
+      - /guardian-of-minor-when-parents-cannot-act
+      - /guardianship-vs-power-of-attorney
+      - /when-adult-needs-court-appointed-guardian
   title: "Legal Guardianship Services | Capitol Law Partners"
   description: >-
     Guardianship solutions that safeguard minors or vulnerable adults while

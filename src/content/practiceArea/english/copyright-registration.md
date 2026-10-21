@@ -113,6 +113,13 @@ post:
     <p>People comparing Copyright Registration attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /work-for-hire-vs-copyright-assignment
+      - /why-copyright-office-refuses-registration
+      - /copyright-registration-for-software
+      - /is-copyright-automatic-why-register
+      - /how-to-register-a-copyright-online
   title: "Copyright Registration Services | Capitol Law Partners"
   description: >-
     Register creative works to secure ownership, deter infringement, and

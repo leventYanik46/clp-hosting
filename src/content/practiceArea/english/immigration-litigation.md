@@ -115,6 +115,12 @@ post:
     <p>People comparing Immigration Litigation attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /administrative-record-immigration-lawsuit
+      - /i-290b-appeal-vs-federal-lawsuit
+      - /which-uscis-decisions-federal-court-review
+      - /apa-lawsuit-uscis-denial
   title: "Immigration Litigation Services | Capitol Law Partners"
   description: >-
     Federal and administrative litigation to challenge denials, delays, and

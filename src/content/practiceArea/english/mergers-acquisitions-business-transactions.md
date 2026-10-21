@@ -132,6 +132,13 @@ post:
     <p>People comparing Mergers, Acquisitions, and Business Transactions attorneys are usually looking for responsiveness, preparation, and legal work that supports a real-world objective. Whether the matter involves planning, protection, compliance, disputes, recovery, or immigration status, careful preparation can improve clarity and put the case or transaction in a stronger position.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /letter-of-intent-business-acquisition
+      - /steps-to-sell-a-business-loi-to-closing
+      - /asset-purchase-vs-stock-purchase
+      - /due-diligence-checklist-buying-a-business
+      - /reps-warranties-indemnification-explained
   title: "M&A Lawyers and Business Transaction Counsel"
   description: >-
     Deal strategy, diligence, and documentation for buy- and sell-side M&A,

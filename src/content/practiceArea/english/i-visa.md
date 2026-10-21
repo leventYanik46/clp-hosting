@@ -112,6 +112,13 @@ post:
 
     </ul>
 seo:
+  strategy:
+    internalLinks:
+      - /i-visa-change-employer-or-extension
+      - /i-visa-application-steps-documents
+      - /i-visa-vs-b1-vs-o1-media
+      - /who-qualifies-i-visa-foreign-media
+      - /freelance-journalist-i-visa
   title: "I Visa | Capitol Law Partners"
   description: >-
     Media and press visas for representatives of foreign media entering the U.S.
