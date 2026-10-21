@@ -85,7 +85,7 @@ Vize onayı / statü değişikliği --> Temmuz – Eylül 2025
 
 Capitol Law Partners olarak, işveren sponsorluğundan vize verilmesi aşamasına kadar H-1B sürecinin her adımında müşterilerimize rehberlik ediyor, son başvuru tarihlerinin kaçırılmamasını ve belgelerin eksiksiz olmasını sağlıyoruz. Doğru hazırlık ve rehberlikle, Amerika Birleşik Devletleri'nde çalışma yolunuz net ve güvenli olabilir.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

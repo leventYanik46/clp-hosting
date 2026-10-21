@@ -109,6 +109,13 @@ post:
     <p>E-3 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/e-3-vizesi-basvurusu-nasil-yapilir
+      - /tr/e-3-vizesi-sartlari-avustralya-vatandaslari
+      - /tr/e-3-vizesi-esi-calisma-izni
+      - /tr/e-3-vizesinde-isveren-degisikligi
+      - /tr/e-3-mu-h-1b-mi-avustralyali-profesyoneller
   title: "E-3 Avustralyalı Profesyoneller için Vize Avukatı – Capitol Law Partners"
   description: >-
     İşveren dilekçeleri ve uyum dahil, Avustralya vatandaşları için uzmanlık

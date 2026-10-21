@@ -107,6 +107,13 @@ post:
     <p>P-1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/p-1-mi-o-1-mi-hangi-vize
+      - /tr/p-1a-vizesi-sartlari-profesyonel-sporcular
+      - /tr/p-1b-vizesi-sartlari-eglence-gruplari
+      - /tr/p-1-vizesi-basvuru-sureci-adim-adim
+      - /tr/p-1-vizesi-suresi-ve-transfer-durumu
   title: "P-1 Sporcu ve Eğlence Grubu Vizesi Avukatı – Capitol Law Partners"
   description: Uluslararası tanınırlığa sahip sporcular ve eğlence grupları için vizeler.
   schema:

@@ -109,6 +109,11 @@ post:
     <p>J-1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/j-1-intern-ve-trainee-farki
+      - /tr/j-1-vizesinden-h-1b-ye-gecis
+      - /tr/j-1-iki-yillik-ulkeye-donus-sarti
   title: "J-1 Değişim Ziyaretçisi Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Eğitim, araştırma ve kültürel değişim programlarını kapsayan değişim

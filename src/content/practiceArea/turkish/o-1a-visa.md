@@ -107,6 +107,11 @@ post:
     <p>O-1A Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/o-1a-vizesi-gecerlilik-suresi-uzatma
+      - /tr/o-1-vizesi-danisma-gorusu-nedir
+      - /tr/o-1a-ve-h-1b-vizesi-farklari
   title: "O-1A Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: Bilim, eğitim, iş veya spor alanında olağanüstü yetenek vizeleri.
   schema:

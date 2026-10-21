@@ -1,0 +1,29 @@
+---
+// Localized privacy page at /<lang>/privacy. Content lives in src/legal/<language>/privacy.md.
+// English keeps its existing URL (/terms/english/privacy); this route only builds tr, es, pt, fr
+// so localized pages never send visitors to an English-chrome legal page.
+import type { MarkdownInstance } from 'astro';
+import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
+import languages from '~/config/language.json';
+import config from '~/config/config.json';
+
+const docs = import.meta.glob<MarkdownInstance<{ title?: string }>>('/src/legal/*/privacy.md', {
+  eager: true,
+});
+
+export function getStaticPaths() {
+  return languages
+    .filter((l) => l.languageCode !== config.settings.default_language)
+    .filter((l) => !(config.settings.disable_languages as string[]).includes(l.languageCode))
+    .map((l) => ({ params: { lang: l.languageCode }, props: { folder: l.contentDir } }));
+}
+
+const { folder } = Astro.props as { folder: string };
+const doc = docs[`/src/legal/${folder}/privacy.md`];
+if (!doc) throw new Error(`Missing legal document src/legal/${folder}/privacy.md`);
+const { Content, frontmatter } = doc;
+---
+
+<MarkdownLayout frontmatter={frontmatter}>
+  <Content />
+</MarkdownLayout>

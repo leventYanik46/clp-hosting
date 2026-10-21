@@ -93,6 +93,12 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Visto M-1 normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/treinamento-pratico-visto-m-1-regras
+      - /pt/transferencia-e-prorrogacao-do-visto-m-1
+      - /pt/mudar-de-visto-m-1-para-f-1
+      - /pt/quais-cursos-se-qualificam-para-o-visto-m-1
   title: "Advogado de visto M-1 para estudantes vocacionais – Capitol Law Partners"
   description: >-
     Vistos de estudante para programas vocacionais e técnicos, incluindo

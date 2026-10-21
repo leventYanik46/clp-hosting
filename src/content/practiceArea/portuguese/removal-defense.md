@@ -78,6 +78,11 @@ post:
     <p>Em muitos assuntos de alta importância, a diferença entre um processo mais previsível e um problema mais caro costuma estar na preparação inicial. Reunir registros, alinhar expectativas, identificar riscos e definir uma sequência clara de ações ajuda o cliente a agir com mais segurança. Para quem pesquisa esse tipo de serviço jurídico, a combinação de organização, comunicação e estratégia prática costuma ser um fator decisivo na escolha da representação.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/cancelamento-de-remocao-quem-tem-direito
+      - /pt/green-card-durante-processo-de-deportacao
+      - /pt/perdi-audiencia-no-tribunal-de-imigracao
   title: "Defesa em Processos de Remoção | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Defesa abrangente para indivíduos em processos de remoção, com foco em

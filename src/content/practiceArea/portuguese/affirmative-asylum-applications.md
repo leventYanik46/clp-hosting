@@ -97,6 +97,11 @@ post:
     <p>Quem compara advogados de Pedidos de Asilo Afirmativo costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/como-escrever-a-declaracao-de-asilo
+      - /pt/o-que-acontece-depois-da-entrevista-de-asilo
+      - /pt/entrevista-de-asilo-no-uscis-o-que-esperar
   title: "Pedidos de Asilo Afirmativo | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Pedidos de asilo preparados minuciosamente, com provas corroborativas e

@@ -97,6 +97,13 @@ post:
     <p>Las personas que comparan abogados de Muerte Injusta normalmente buscan capacidad de respuesta, preparación y trabajo legal alineado con un objetivo real. Ya se trate de planificación, protección, cumplimiento, conflicto, compensación o estatus migratorio, una preparación cuidadosa puede dar más claridad y fortalecer la posición del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/danos-por-muerte-injusta-que-puede-reclamar
+      - /es/demanda-por-muerte-injusta-y-proceso-sucesorio
+      - /es/muerte-injusta-vs-accion-de-supervivencia
+      - /es/plazo-para-demandar-por-muerte-injusta
+      - /es/quien-puede-demandar-por-muerte-injusta
   title: "Muerte Injusta | Servicios Legales de Capitol Law Partners"
   description: >-
     Representación compasiva para familias que buscan responsabilidad y

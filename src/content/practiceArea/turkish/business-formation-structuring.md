@@ -113,6 +113,13 @@ post:
     <p>Şirket Kuruluşu ve Yapılandırma avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/startup-icin-llc-mi-corporation-mi
+      - /tr/sirket-kurarken-yapilan-yaygin-hatalar
+      - /tr/kurucu-ortak-hisse-paylasimi-ve-vesting
+      - /tr/llc-isletme-sozlesmesi-neleri-icermeli
+      - /tr/sirket-kurulusu-delaware-mi-kendi-eyaletiniz-mi
   title: "Şirket Kuruluşu ve Yapılandırma | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Sağlam bir hukuki temel ile şirketinizi kurmak ve büyütmek için tüzel

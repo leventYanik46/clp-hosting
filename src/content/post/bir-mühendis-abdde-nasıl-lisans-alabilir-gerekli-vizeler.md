@@ -193,7 +193,7 @@ Capitol Law Partners, aşağıdakiler dahil olmak üzere tam süreç rehberli�
 
 Profesyonelce yönetilen bir süreç, lisanslama, istihdam ve göçmenlik gibi her adımın verimli bir şekilde birlikte çalışmasını sağlar. 
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

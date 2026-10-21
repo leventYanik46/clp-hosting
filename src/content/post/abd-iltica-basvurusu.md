@@ -71,7 +71,7 @@ Onaylanmazsa ve geçerli göçmenlik statünüz yoksa, davanız hakim önünde t
 
 İstisnayı belgelemeden geç başvurmak. Belirsiz veya tutarsız beyan sunmak. Zararı korunan bir gerekçeye bağlamamak. Ülke koşulları kanıtı sunmamak. Yeniden planlama talep etmeden mülakatı kaçırmak.
 
-İltica, yüksek bahisli ve katı süreleri olan karmaşık bir süreçtir. Başvurmanız gerekiyorsa veya uygunluğunuz hakkında sorularınız varsa, [Capitol Law Partners ile görüşme planlayın](https://capitollawpartners.com/tr/schedule).
+İltica, yüksek bahisli ve katı süreleri olan karmaşık bir süreçtir. Başvurmanız gerekiyorsa veya uygunluğunuz hakkında sorularınız varsa, [Capitol Law Partners ile görüşme planlayın](/tr/schedule).
 
 *Bu makale yalnızca bilgilendirme amaçlıdır ve hukuki danışmanlık niteliği taşımaz. Göçmenlik yasaları ve prosedürleri sık sık değişmektedir. Durumunuza özel rehberlik için nitelikli bir göçmenlik avukatıyla görüşün.*
 

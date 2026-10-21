@@ -357,10 +357,10 @@ export const footerDataTr = {
       links: [
         { text: 'Hakkımızda', href: getPermalink('/tr/about') },
         { text: 'Ofislerimiz', href: getPermalink('/tr/locations') },
-        { text: 'Washington, DC Ofisi', href: getPermalink('/locations/washington-dc') },
-        { text: 'Herndon, VA Ofisi', href: getPermalink('/locations/herndon-va') },
-        { text: 'New York Ofisi', href: getPermalink('/locations/new-york') },
-        { text: 'İstanbul Ofisi', href: getPermalink('/locations/istanbul') },
+        { text: 'Washington, DC Ofisi', href: getPermalink('/tr/locations/washington-dc') },
+        { text: 'Herndon, VA Ofisi', href: getPermalink('/tr/locations/herndon-va') },
+        { text: 'New York Ofisi', href: getPermalink('/tr/locations/new-york') },
+        { text: 'İstanbul Ofisi', href: getPermalink('/tr/locations/istanbul') },
         { text: 'Bize Ulaşın', href: getPermalink('/tr/contact') },
       ],
     },
@@ -395,8 +395,8 @@ export const footerDataTr = {
     },
   ],
   secondaryLinks: [
-    { text: 'Şartlar', href: getPermalink('/terms/turkish/terms') },
-    { text: 'Gizlilik Politikası', href: getPermalink('/terms/turkish/privacy') },
+    { text: 'Şartlar', href: getPermalink('/tr/terms') },
+    { text: 'Gizlilik Politikası', href: getPermalink('/tr/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },
@@ -430,10 +430,10 @@ export const footerDataSpanish = {
       links: [
         { text: 'Sobre Nosotros', href: getPermalink('/es/about') },
         { text: 'Nuestras Ubicaciones', href: getPermalink('/es/locations') },
-        { text: 'Oficina de Washington, DC', href: getPermalink('/locations/washington-dc') },
-        { text: 'Oficina de Herndon, VA', href: getPermalink('/locations/herndon-va') },
-        { text: 'Oficina de Nueva York', href: getPermalink('/locations/new-york') },
-        { text: 'Oficina de Estambul', href: getPermalink('/locations/istanbul') },
+        { text: 'Oficina de Washington, DC', href: getPermalink('/es/locations/washington-dc') },
+        { text: 'Oficina de Herndon, VA', href: getPermalink('/es/locations/herndon-va') },
+        { text: 'Oficina de Nueva York', href: getPermalink('/es/locations/new-york') },
+        { text: 'Oficina de Estambul', href: getPermalink('/es/locations/istanbul') },
         { text: 'Contáctenos', href: getPermalink('/es/contact') },
       ],
     },
@@ -468,8 +468,8 @@ export const footerDataSpanish = {
     },
   ],
   secondaryLinks: [
-    { text: 'Términos', href: getPermalink('/terms/spanish/terms') },
-    { text: 'Política de Privacidad', href: getPermalink('/terms/spanish/privacy') },
+    { text: 'Términos', href: getPermalink('/es/terms') },
+    { text: 'Política de Privacidad', href: getPermalink('/es/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },
@@ -504,10 +504,10 @@ export const footerDataFr = {
       links: [
         { text: 'À propos de nous', href: getPermalink('/fr/about') },
         { text: 'Nos bureaux', href: getPermalink('/fr/locations') },
-        { text: 'Bureau de Washington, DC', href: getPermalink('/locations/washington-dc') },
-        { text: 'Bureau de Herndon, VA', href: getPermalink('/locations/herndon-va') },
-        { text: 'Bureau de New York', href: getPermalink('/locations/new-york') },
-        { text: 'Bureau d\'Istanbul', href: getPermalink('/locations/istanbul') },
+        { text: 'Bureau de Washington, DC', href: getPermalink('/fr/locations/washington-dc') },
+        { text: 'Bureau de Herndon, VA', href: getPermalink('/fr/locations/herndon-va') },
+        { text: 'Bureau de New York', href: getPermalink('/fr/locations/new-york') },
+        { text: 'Bureau d\'Istanbul', href: getPermalink('/fr/locations/istanbul') },
         { text: 'Nous contacter', href: getPermalink('/fr/contact') },
       ],
     },
@@ -542,8 +542,8 @@ export const footerDataFr = {
     },
   ],
   secondaryLinks: [
-    { text: 'Conditions', href: getPermalink('/terms/french/terms') },
-    { text: 'Politique de confidentialité', href: getPermalink('/terms/french/privacy') },
+    { text: 'Conditions', href: getPermalink('/fr/terms') },
+    { text: 'Politique de confidentialité', href: getPermalink('/fr/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },
@@ -576,10 +576,10 @@ export const footerDataPt = {
       links: [
         { text: 'Sobre Nós', href: getPermalink('/pt/about') },
         { text: 'Nossos Escritórios', href: getPermalink('/pt/locations') },
-        { text: 'Escritório de Washington, DC', href: getPermalink('/locations/washington-dc') },
-        { text: 'Escritório de Herndon, VA', href: getPermalink('/locations/herndon-va') },
-        { text: 'Escritório de Nova York', href: getPermalink('/locations/new-york') },
-        { text: 'Escritório de Istambul', href: getPermalink('/locations/istanbul') },
+        { text: 'Escritório de Washington, DC', href: getPermalink('/pt/locations/washington-dc') },
+        { text: 'Escritório de Herndon, VA', href: getPermalink('/pt/locations/herndon-va') },
+        { text: 'Escritório de Nova York', href: getPermalink('/pt/locations/new-york') },
+        { text: 'Escritório de Istambul', href: getPermalink('/pt/locations/istanbul') },
         { text: 'Fale Conosco', href: getPermalink('/pt/contact') },
       ],
     },
@@ -615,8 +615,8 @@ export const footerDataPt = {
     },
   ],
   secondaryLinks: [
-    { text: 'Termos', href: getPermalink('/terms/portuguese/terms') },
-    { text: 'Política de Privacidade', href: getPermalink('/terms/portuguese/privacy') },
+    { text: 'Termos', href: getPermalink('/pt/terms') },
+    { text: 'Política de Privacidade', href: getPermalink('/pt/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/capitollawpartners/' },

@@ -39,7 +39,7 @@ Aile temelli Green Card başvuruları, ABD vatandaşı veya Green Card sahibi ol
 
 Amerika’daki bir işveren tarafından sponsor olunan kişiler, çalışma temelli Green Card kategorilerine başvurabilir. Bu başvurular; mesleki deneyim, eğitim durumu ve iş teklifinin niteliğine göre değerlendirilir. Çalışma yoluyla yapılan başvurular genellikle detaylı bir değerlendirme sürecinden geçer.
 
-[🔗Amerika'da çalışma izni almak için bilgilendirici yazımız.](https://capitollawpartners.com/tr/amerikada-calisma-izni-nasil-alinir-hangi-vize-gerekiyor)
+[🔗Amerika'da çalışma izni almak için bilgilendirici yazımız.](/tr/amerikada-calisma-izni-nasil-alinir-hangi-vize-gerekiyor)
 
 ### 3. Green Card Çekilişi (Diversity Visa Programı)
 
@@ -56,7 +56,7 @@ Green Card başvuru sürecinde profesyonel hukuki destek almak, doğru başvuru 
 
 Green Card başvuru süreci, her başvuru sahibi için farklı kriterler ve değerlendirmeler içerir. Aile durumu, mesleki geçmiş ve uzun vadeli hedefler doğrultusunda doğru başvuru yolunun belirlenmesi büyük önem taşır. Capitol Law Partners, Green Card ve göçmenlik süreçlerine ilişkin güncel mevzuat çerçevesinde bilgilendirici hukuki destek sunarak, başvuru sahiplerinin süreci daha bilinçli ve planlı şekilde yönetmelerine yardımcı olur.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

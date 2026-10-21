@@ -8,8 +8,12 @@ import { getServicePath } from '~/utils/relatedService';
  * grouped columns of service links and a row of practice-area hub pages.
  *
  * Link labels: English uses the short labels below; other languages use the
- * localized page title from the practiceArea collection and fall back to the
- * English label (and the English URL) when no translation exists.
+ * localized page title from the practiceArea collection.
+ *
+ * RULE: a localized menu never links to another language's page. When a
+ * service has no translation for the requested language, the item is left
+ * out of that language's menu (and a group with no items disappears). Do not
+ * reintroduce an English fallback here; translate the page instead.
  */
 
 export type Audience = 'individuals' | 'businesses';
@@ -431,16 +435,15 @@ export const getPracticeAreaMenu = async (rawLang?: string): Promise<PracticeAre
   const copy = COPY[lang];
 
   const resolve = (slug: string): MenuItem | undefined => {
-    const localized = folder ? byId.get(`${folder}/${slug}`) : undefined;
-    const english = byId.get(`${LANG_TO_FOLDER[DEFAULT_LANG]}/${slug}`);
-    if (!localized && !english) return undefined;
-    const targetLang = localized ? lang : DEFAULT_LANG;
-    const localizedTitle = localized?.data.post?.title;
+    // Same-language only: a missing translation hides the item, it never
+    // falls back to the English page.
+    const entry = folder ? byId.get(`${folder}/${slug}`) : undefined;
+    if (!entry) return undefined;
     const label =
       lang === DEFAULT_LANG
-        ? (EN_LABELS[slug] ?? english?.data.post?.title ?? slug)
-        : (localizedTitle ?? EN_LABELS[slug] ?? english?.data.post?.title ?? slug);
-    return { slug, label, href: getServicePath(slug, targetLang) };
+        ? (EN_LABELS[slug] ?? entry.data.post?.title ?? slug)
+        : (entry.data.post?.title ?? EN_LABELS[slug] ?? slug);
+    return { slug, label, href: getServicePath(slug, lang) };
   };
 
   const tabs: MenuTab[] = (Object.keys(STRUCTURE) as Audience[]).map((id) => ({

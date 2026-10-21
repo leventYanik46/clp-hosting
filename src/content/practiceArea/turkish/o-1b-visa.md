@@ -107,6 +107,12 @@ post:
     <p>O-1B Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/o-1b-vizesi-sanatta-seckinlik-standardi
+      - /tr/film-ve-televizyon-icin-o-1b-vizesi
+      - /tr/o-1b-acente-dilekcesi-turne-sanatci
+      - /tr/o-1b-kanit-listesi-muzisyen-oyuncu
   title: "O-1B Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: Sanat, sinema ve televizyon profesyonelleri için olağanüstü başarı vizeleri.
   schema:

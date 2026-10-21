@@ -114,6 +114,12 @@ post:
     <p>Ticari Dava ve Uyuşmazlık Çözümü avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/sozlesme-ihlali-ihtarnamesi-nasil-yazilir
+      - /tr/ticari-uyusmazliklarda-arabuluculuk-mi-tahkim-mi
+      - /tr/litigation-hold-delil-muhafaza-bildirimi-nedir
+      - /tr/sirkette-ortaklar-arasi-uyusmazlik-secenekleri
   title: "Ticari Dava ve Uyuşmazlık Çözümü | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Sözleşme ihlalleri, ortaklık çatışmaları ve ticari haksız fiiller için 

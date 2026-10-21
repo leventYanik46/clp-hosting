@@ -95,6 +95,13 @@ post:
     <p>Fikri Mülkiyet Portföy Yönetimi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/fikri-mulkiyet-hak-zinciri-ve-devir-sozlesmeleri
+      - /tr/fikri-mulkiyet-sure-takibi-nedir
+      - /tr/marka-tescil-stratejisi-butce-oncelikleri
+      - /tr/marka-lisans-sozlesmesi-kalite-kontrol
+      - /tr/fikri-mulkiyet-denetimi-nasil-yapilir
   title: "Fikri Mülkiyet Portföy Yönetimi | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Fikri mülkiyet varlıklarını iş hedefleriyle uyumlu hale getiren stratejik ve

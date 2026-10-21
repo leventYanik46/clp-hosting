@@ -93,6 +93,11 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa O-1A recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/duree-visa-o-1a-prolongations
+      - /fr/avis-consultatif-o-1-qui-le-fournit
+      - /fr/visa-o-1a-ou-h-1b-lequel-choisir
   title: "Avocat en visa O-1A pour talents extraordinaires – Capitol Law Partners"
   description: Visas pour capacité extraordinaire en science, éducation, business ou sport.
   schema:

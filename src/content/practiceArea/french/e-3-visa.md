@@ -94,6 +94,13 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa E-3 recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/demande-visa-e-3-etapes
+      - /fr/visa-e-3-conditions-citoyens-australiens
+      - /fr/visa-e-3-conjoint-autorisation-de-travail
+      - /fr/visa-e-3-changement-employeur-perte-emploi
+      - /fr/visa-e-3-ou-h-1b-professionnels-australiens
   title: "Avocat en visa E-3 pour professionnels australiens – Capitol Law Partners"
   description: >-
     Visas de profession spécialisée pour ressortissants australiens, incluant

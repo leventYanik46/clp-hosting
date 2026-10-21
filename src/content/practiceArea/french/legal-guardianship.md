@@ -98,6 +98,13 @@ post:
     <p>Les clients qui comparent des avocats en Tutelle Légale recherchent généralement de la réactivité, de la préparation et un travail juridique orienté vers un objectif réel. Qu’il s’agisse de planification, de protection, de conformité, de litige, de réparation ou de statut migratoire, une préparation rigoureuse peut renforcer le dossier.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/comment-demander-tutelle-adulte-etapes
+      - /fr/tutelle-urgence-delai-nomination-tuteur
+      - /fr/tuteur-enfant-mineur-parents-empeches
+      - /fr/tutelle-ou-procuration-quelle-difference
+      - /fr/tutelle-adulte-quand-est-elle-necessaire
   title: "Tutelle Légale | Services Juridiques de Capitol Law Partners"
   description: >-
     Solutions de tutelle qui protègent les mineurs ou les adultes vulnérables

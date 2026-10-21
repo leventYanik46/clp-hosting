@@ -65,6 +65,6 @@ Trabajar en salud en Estados Unidos puede ofrecer salarios competitivos y gran p
 * costos de equivalencia y licencia;
 * adaptacion al sistema sanitario y laboral estadounidense.
 
-En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a los profesionales de la salud a estructurar el componente migratorio del proceso, desde la visa hasta la coordinacion con los requisitos de licencia.
+En **[Capitol Law Partners](/es)** ayudamos a los profesionales de la salud a estructurar el componente migratorio del proceso, desde la visa hasta la coordinacion con los requisitos de licencia.
 
 *¿Necesita ayuda con este tema? Consulte nuestra página de [Derecho Migratorio](/es/practice-area/immigration-law) o [programe una consulta](/es/schedule).*

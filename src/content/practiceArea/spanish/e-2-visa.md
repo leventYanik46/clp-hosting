@@ -94,6 +94,11 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa E-2 normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/cambio-de-estatus-e-2-o-procesamiento-consular
+      - /es/plan-de-negocios-visa-e-2
+      - /es/negativa-visa-e-2-214b-que-hacer
   title: "Abogado de visa E-2 para inversionistas por tratado – Capitol Law Partners"
   description: >-
     Planificación de visa de inversionista por tratado para personas y empresas

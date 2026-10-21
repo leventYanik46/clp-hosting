@@ -106,11 +106,11 @@ Koşullar karşılanmazsa, çocuk için I-130 başvurusu yapılır.  
 
  
 
-Göçmenlik süreçlerinde yapılan en büyük hatalar, belgelerin yanlış doldurulması, eksik bilgi verilmesi ve sürecin zamanında başlatılmamasıdır. Bu süreci bizimle birlikte geçirdiğinizde, hatasız bir şekilde ilerlemenizi sağlamak için tüm başvurularınızı titizlikle hazırlarız. [Capitol Law Partners](https://capitollawpartners.com/) eksiksiz belgeler, doğru rehberlik ve hızlı hareket ile yıllarca süren bekleme süresini en aza indirir ve Amerika'da hayalinizdeki hayata doğru adımlar atmanıza yardımcı olmak için güvenilir destek sağlarız.  
+Göçmenlik süreçlerinde yapılan en büyük hatalar, belgelerin yanlış doldurulması, eksik bilgi verilmesi ve sürecin zamanında başlatılmamasıdır. Bu süreci bizimle birlikte geçirdiğinizde, hatasız bir şekilde ilerlemenizi sağlamak için tüm başvurularınızı titizlikle hazırlarız. [Capitol Law Partners](/tr) eksiksiz belgeler, doğru rehberlik ve hızlı hareket ile yıllarca süren bekleme süresini en aza indirir ve Amerika'da hayalinizdeki hayata doğru adımlar atmanıza yardımcı olmak için güvenilir destek sağlarız.  
 
 Bize Ulaşın. 
 
-[Contact Us Now.](https://capitollawpartners.com/contact)
+[Contact Us Now.](/tr/contact)
 
 [](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

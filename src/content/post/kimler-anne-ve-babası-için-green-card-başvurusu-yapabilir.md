@@ -80,7 +80,7 @@ Capitol Law Partners olarak, anne ve baba sponsorluğu süreçlerinde başvurunu
 
 Eğer anne veya babanız için Green Card başvurusu yapmayı düşünüyorsanız, dosyanızı baştan doğru şekilde planlamak ve süreci güvenle ilerletmek için profesyonel hukuki destek almanız büyük önem taşır.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 
@@ -91,4 +91,4 @@ Eğer anne veya babanız için Green Card başvurusu yapmayı düşünüyorsanı
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
 
-*Bu konuda yardıma mı ihtiyacınız var? [Green Card for Parents](/practice-area/key-services/green-card-for-parents) sayfamıza göz atın veya [randevu alın](/tr/schedule).*
+*Bu konuda yardıma mı ihtiyacınız var? [Anne-Baba İçin Green Card Avukatı](/tr/practice-area/key-services/green-card-for-parents) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

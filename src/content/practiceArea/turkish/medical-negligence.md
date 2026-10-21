@@ -95,6 +95,13 @@ post:
     <p>Tıbbi İhmal avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/yanlis-teshis-gecikmis-teshis-tibbi-malpraktis
+      - /tr/tibbi-malpraktis-zamanasimi-dc-virginia-new-york
+      - /tr/tibbi-malpraktis-davasi-adim-adim
+      - /tr/tibbi-ihmal-nedir-kotu-sonuc-farki
+      - /tr/tibbi-malpraktis-mahkemede-nasil-kanitlanir
   title: "Tıbbi İhmal | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Önlenebilir tıbbi hatalar için sağlayıcıları titiz dosya hazırlığıyla

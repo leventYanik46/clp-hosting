@@ -97,6 +97,13 @@ post:
     <p>Quem compara advogados de Negligência Médica costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/erro-de-diagnostico-ou-diagnostico-tardio
+      - /pt/prazo-para-processar-erro-medico-dc-va-ny
+      - /pt/processo-por-erro-medico-passo-a-passo
+      - /pt/negligencia-medica-ou-resultado-adverso
+      - /pt/como-provar-erro-medico
   title: "Negligência Médica | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Responsabilizando prestadores por erros médicos evitáveis com construção

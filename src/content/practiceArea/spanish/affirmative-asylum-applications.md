@@ -81,6 +81,11 @@ post:
     <p>Quienes investigan servicios legales de Solicitudes de Asilo Afirmativo suelen comparar experiencia, capacidad de respuesta, estrategia y claridad para explicar procesos complejos. Una representación útil debe combinar preparación cuidadosa, comunicación eficiente y próximos pasos prácticos según los hechos del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/como-redactar-una-declaracion-de-asilo
+      - /es/que-pasa-despues-de-la-entrevista-de-asilo
+      - /es/entrevista-de-asilo-uscis-que-esperar
   title: "Solicitudes de Asilo Afirmativo | Servicios Legales de Capitol Law Partners"
   description: >-
     Solicitudes de asilo meticulosamente preparadas con pruebas corroborativas y

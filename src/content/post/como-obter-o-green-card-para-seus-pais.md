@@ -54,6 +54,6 @@ Alguns pais nao pretendem morar permanentemente nos EUA e preferem apenas visita
 
 Quando o caso e conduzido dentro dos EUA, normalmente ha limitacoes de viagem ate a emissao da autorizacao apropriada. Esse detalhe precisa ser explicado desde o inicio.
 
-Na **[Capitol Law Partners](https://capitollawpartners.com/)** avaliamos pedidos para pais de forma estrategica, considerando o aspecto juridico e o impacto pratico de longo prazo para a familia.
+Na **[Capitol Law Partners](/pt)** avaliamos pedidos para pais de forma estrategica, considerando o aspecto juridico e o impacto pratico de longo prazo para a familia.
 
-*Precisa de ajuda com este tema? Veja nossa página de [Green Card for Parents](/practice-area/key-services/green-card-for-parents) ou [agende uma consulta](/pt/schedule).*
+*Precisa de ajuda com este tema? Veja nossa página de [Advogado de Green Card para Pais](/pt/practice-area/key-services/green-card-for-parents) ou [agende uma consulta](/pt/schedule).*

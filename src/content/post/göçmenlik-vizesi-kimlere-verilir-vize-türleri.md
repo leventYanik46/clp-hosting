@@ -77,7 +77,7 @@ Avukatın Sağladığı Faydalar
 * USCIS veya konsoloslukla resmi yazışmaları yürütür.
 
 
-[](https://capitollawpartners.com/chamber-of-commerce-sues-over-trumps-new-100-000-h-1b-visa-fee-2)[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

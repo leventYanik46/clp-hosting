@@ -140,6 +140,12 @@ post:
     <p>Une stratégie pragmatique aide à conclure plus efficacement, à résoudre les problèmes plus tôt et à protéger la rentabilité du projet ou de l’investissement. Les clients qui comparent des avocats en Droit immobilier recherchent une rédaction solide, une négociation efficace et des conseils clairs.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/retenue-firpta-vendeur-etranger
+      - /fr/assurance-titre-achat-immobilier-etats-unis
+      - /fr/joint-tenancy-ou-tenancy-in-common-differences
+      - /fr/warranty-deed-ou-quitclaim-deed-differences
   title: "Droit immobilier | Services Juridiques de Capitol Law Partners"
   description: >-
     Conseil pour les transactions immobilières commerciales et résidentielles,

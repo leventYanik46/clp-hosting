@@ -3,7 +3,7 @@ title: Anuncio
 lang: es
 phone: '+12024402272'
 phone_display: (202) 440-2272
-contact_url: /contact
+contact_url: /es/contact
 contact_text: Formulario de Contacto.
 intro_text: Nos encantaría saber de usted.
 call_text: Llámenos al

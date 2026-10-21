@@ -94,6 +94,13 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa H-2A normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/requisitos-de-vivienda-visa-h-2a
+      - /es/proceso-y-plazos-visa-h-2a
+      - /es/requisitos-salariales-visa-h-2a-empleadores
+      - /es/visa-h-2a-requisitos-trabajo-agricola
+      - /es/visa-h-2a-o-h-2b-cual-elegir
   title: "Abogado de visa H-2A para trabajadores agrícolas – Capitol Law Partners"
   description: >-
     Visas de trabajador agrícola temporal que cubren peticiones del empleador,

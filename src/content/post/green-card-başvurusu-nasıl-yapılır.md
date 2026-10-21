@@ -158,7 +158,7 @@ Unutmayın, dikkat edilmesi gereken en önemli kısım fotoğrafınız. Kurallar
 
 ### **Capitol Law Partners ile Profesyonel Göçmenlik Danışmanlığı** 
 
-Göçmenlik süreçleri, doğru bilgi ve dikkat gerektiren aşamalardan oluşur. Formların doğru doldurulması, belgelerin hazırlanması ve sürecin stratejik şekilde yönetilmesi, başvurunuzun sonucunu doğrudan etkileyebilir. [Capitol Law Partners](https://capitollawpartners.com/tr) olarak; Amerika Birleşik Devletleri göçmenlik hukukunda uzman ekibimizle başvuru sürecinizin her aşamasında yanınızdayız. 
+Göçmenlik süreçleri, doğru bilgi ve dikkat gerektiren aşamalardan oluşur. Formların doğru doldurulması, belgelerin hazırlanması ve sürecin stratejik şekilde yönetilmesi, başvurunuzun sonucunu doğrudan etkileyebilir. [Capitol Law Partners](/tr) olarak; Amerika Birleşik Devletleri göçmenlik hukukunda uzman ekibimizle başvuru sürecinizin her aşamasında yanınızdayız. 
 
  
 
@@ -184,7 +184,7 @@ Amerika Göçmenlik Yasası’na göre, her yıl Ekim –Kasım tarihleri arası
 
 
 
-[Şimdi Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Şimdi Bizimle İletişime Geçin.](/tr/contact)
 
 [🟢](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

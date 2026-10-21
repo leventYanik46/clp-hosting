@@ -97,6 +97,12 @@ post:
     <p>Las personas que comparan abogados de Litigios de Inmigración normalmente buscan capacidad de respuesta, preparación y trabajo legal alineado con un objetivo real. Ya se trate de planificación, protección, cumplimiento, conflicto, compensación o estatus migratorio, una preparación cuidadosa puede dar más claridad y fortalecer la posición del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/expediente-administrativo-demanda-migratoria
+      - /es/apelacion-i-290b-o-demanda-federal
+      - /es/decisiones-de-uscis-revisables-en-tribunal-federal
+      - /es/demanda-apa-contra-negacion-de-uscis
   title: "Litigios de Inmigración | Servicios Legales de Capitol Law Partners"
   description: >-
     Litigios federales y administrativos para impugnar denegaciones, retrasos y

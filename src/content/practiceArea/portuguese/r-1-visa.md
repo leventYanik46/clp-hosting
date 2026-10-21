@@ -95,6 +95,13 @@ post:
     <p>Quem pesquisa serviços jurídicos de Visto R-1 costuma comparar experiência, capacidade de resposta, estratégia e clareza para explicar procedimentos complexos. Uma representação útil deve combinar preparação cuidadosa, comunicação eficiente e próximos passos práticos ajustados aos fatos do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/documentos-visto-r-1-para-o-empregador
+      - /pt/do-visto-r-1-ao-green-card-eb-4
+      - /pt/visto-r-1-tempo-maximo-e-prorrogacoes
+      - /pt/requisitos-visto-r-1-trabalhador-religioso
+      - /pt/processo-do-visto-r-1-e-inspecao
   title: "Advogado de visto R-1 para trabalhadores religiosos – Capitol Law Partners"
   description: >-
     Vistos temporários para trabalhadores religiosos, ministros e pessoal em

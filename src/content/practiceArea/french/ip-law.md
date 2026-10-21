@@ -130,6 +130,13 @@ post:
     marques, de droits d’auteur ou de défense contre une infraction, nous sommes
     à vos côtés pour protéger votre créativité et votre avantage commercial.</p>
 seo:
+  strategy:
+    internalLinks:
+      - /fr/contrat-de-licence-propriete-intellectuelle-clauses-cles
+      - /fr/erreurs-propriete-intellectuelle-jeunes-entreprises
+      - /fr/qui-detient-propriete-intellectuelle-salaries-prestataires
+      - /fr/comment-proteger-une-idee-commerciale
+      - /fr/due-diligence-propriete-intellectuelle-startups
   title: "Propriété intellectuelle | Services Juridiques de Capitol Law Partners"
   description: >-
     Services de dépôt de marques et droits d’auteur, protection des secrets

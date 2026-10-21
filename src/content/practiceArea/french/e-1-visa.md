@@ -94,6 +94,13 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa E-1 recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/visa-e-1-pour-salaries
+      - /fr/visa-e-1-ou-e-2-lequel-choisir
+      - /fr/comment-demander-visa-e-1-etape-par-etape
+      - /fr/conditions-visa-e-1-negociant-de-traite
+      - /fr/commerce-substantiel-visa-e-1
   title: "Avocat en visa E-1 pour commerçants internationaux – Capitol Law Partners"
   description: >-
     Conseil pour visa de commerçant par traité pour les entreprises menant un

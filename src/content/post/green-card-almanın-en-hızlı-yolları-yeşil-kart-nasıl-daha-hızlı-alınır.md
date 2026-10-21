@@ -92,11 +92,11 @@ Sizin için en uygun yolun hangisi olduğunu belirlemek için bir göçmenlik av
 
 **Yeşil Kart alma süreci hakkında daha fazla bilgi için diğer blog yazılarımızı inceleyin.**  
 
-🔗[Şimdi bizimle iletişime geçin ve uzman rehberliğiyle geleceğinizi planlayalım.](https://capitollawpartners.com/contact)
+🔗[Şimdi bizimle iletişime geçin ve uzman rehberliğiyle geleceğinizi planlayalım.](/tr/contact)
 
-Yeşil kart başvuru süreci, doğru strateji ve eksiksiz belge yönetimi gerektiren detaylı bir süreçtir. [Capitol Law Partners](https://capitollawpartners.com/) olarak, başvuru sahiplerinin tüm adımları sorunsuz şekilde tamamlayabilmeleri için kapsamlı bir hukuki rehberlik sunuyoruz. Vize kategorisinin belirlenmesinden, başvuru formlarının hazırlanmasına; USCIS ile yazışmaların yürütülmesinden mülakat sürecine kadar tüm aşamaları profesyonelce yönetiyoruz. Her başvuruyu bireysel hedeflere göre özelleştirerek hem sürecin hızlanmasını hem de onay ihtimalinin artmasını sağlıyoruz. Amerika’da kalıcı oturum elde etmek isteyen herkes için güvenilir ve deneyimli bir çözüm ortağı olarak yanınızdayız. 
+Yeşil kart başvuru süreci, doğru strateji ve eksiksiz belge yönetimi gerektiren detaylı bir süreçtir. [Capitol Law Partners](/tr) olarak, başvuru sahiplerinin tüm adımları sorunsuz şekilde tamamlayabilmeleri için kapsamlı bir hukuki rehberlik sunuyoruz. Vize kategorisinin belirlenmesinden, başvuru formlarının hazırlanmasına; USCIS ile yazışmaların yürütülmesinden mülakat sürecine kadar tüm aşamaları profesyonelce yönetiyoruz. Her başvuruyu bireysel hedeflere göre özelleştirerek hem sürecin hızlanmasını hem de onay ihtimalinin artmasını sağlıyoruz. Amerika’da kalıcı oturum elde etmek isteyen herkes için güvenilir ve deneyimli bir çözüm ortağı olarak yanınızdayız. 
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

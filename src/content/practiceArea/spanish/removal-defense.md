@@ -82,6 +82,11 @@ post:
     <p>Quienes investigan servicios legales de Defensa Contra la Deportación suelen comparar experiencia, capacidad de respuesta, estrategia y claridad para explicar procesos complejos. Una representación útil debe combinar preparación cuidadosa, comunicación eficiente y próximos pasos prácticos según los hechos del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/cancelacion-de-deportacion-quien-califica
+      - /es/green-card-durante-proceso-de-deportacion
+      - /es/falte-a-mi-corte-de-inmigracion-que-hacer
   title: "Defensa Contra la Deportación | Servicios Legales de Capitol Law Partners"
   description: >-
     Defensa integral para personas en procesos de deportación, enfocada en la

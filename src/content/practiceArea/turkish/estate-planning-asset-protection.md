@@ -95,6 +95,13 @@ post:
     <p>Miras Planlaması ve Varlık Koruma avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/geri-alinabilir-ve-geri-alinamaz-trost-farki
+      - /tr/isletme-sahipleri-icin-varlik-koruma
+      - /tr/hayattayken-bagisla-veraset-vergisini-azaltma
+      - /tr/lehtar-tayini-vasiyetnamenin-onune-gecer-mi
+      - /tr/birden-fazla-eyalette-gayrimenkul-miras-planlamasi
   title: "Miras Planlaması ve Varlık Koruma | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Varlığı koruyan, riski en aza indiren ve aile geçişlerini netlikle

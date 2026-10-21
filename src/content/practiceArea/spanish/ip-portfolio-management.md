@@ -97,6 +97,13 @@ post:
     <p>Las personas que comparan abogados de Gestión de Portafolio de PI normalmente buscan capacidad de respuesta, preparación y trabajo legal alineado con un objetivo real. Ya se trate de planificación, protección, cumplimiento, conflicto, compensación o estatus migratorio, una preparación cuidadosa puede dar más claridad y fortalecer la posición del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/cadena-de-titularidad-propiedad-intelectual
+      - /es/control-de-plazos-de-propiedad-intelectual
+      - /es/estrategia-de-registro-de-marcas-con-presupuesto-limitado
+      - /es/contrato-de-licencia-de-marca-que-incluir
+      - /es/como-hacer-una-auditoria-de-propiedad-intelectual
   title: "Gestión de Portafolio de PI | Servicios Legales de Capitol Law Partners"
   description: >-
     Gestión estratégica y eficiente de portafolios para alinear los activos de

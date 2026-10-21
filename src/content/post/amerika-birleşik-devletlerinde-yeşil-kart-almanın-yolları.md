@@ -83,7 +83,7 @@ Yolunuz aile, iş veya özel bir program aracılığıyla olsun, deneyimli avuka
 
 #### Bize Ulaşın. 
 
-[Contact Us Now.](https://capitollawpartners.com/contact)
+[Contact Us Now.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

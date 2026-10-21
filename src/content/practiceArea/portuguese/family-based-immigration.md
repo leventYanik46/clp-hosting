@@ -97,6 +97,9 @@ post:
     <p>Quem compara advogados de Imigração Baseada em Família costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/perdao-provisorio-i-601a-como-funciona
   title: "Imigração Baseada em Família | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Protocolos claros e ágeis que mantêm famílias unidas por meio de petições,

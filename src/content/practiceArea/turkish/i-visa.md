@@ -107,6 +107,13 @@ post:
     <p>I Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/i-vizesi-isveren-degisikligi-ve-sure-uzatimi
+      - /tr/i-vizesi-basvurusu-adimlar-ve-belgeler
+      - /tr/i-vizesi-b-1-o-1-karsilastirma
+      - /tr/i-vizesi-kimlere-verilir-yabanci-medya
+      - /tr/serbest-gazeteci-i-vizesi-alabilir-mi
   title: "I Gazeteci ve Medya Vizesi Avukatı – Capitol Law Partners"
   description: Görevle ABD'ye gelen yabancı medya temsilcileri için basın (I) vizeleri.
   schema:

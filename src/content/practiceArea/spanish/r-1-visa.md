@@ -94,6 +94,13 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa R-1 normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/documentos-visa-r-1-para-el-empleador
+      - /es/visa-r-1-a-green-card-eb-4
+      - /es/visa-r-1-estadia-maxima-y-extensiones
+      - /es/requisitos-visa-r-1-trabajador-religioso
+      - /es/proceso-de-la-visa-r-1-e-inspeccion
   title: "Abogado de visa R-1 para trabajadores religiosos – Capitol Law Partners"
   description: >-
     Visas temporales para trabajadores religiosos, ministros y personal en

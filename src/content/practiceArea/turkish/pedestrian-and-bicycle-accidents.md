@@ -95,6 +95,13 @@ post:
     <p>Yaya ve Bisiklet Kazaları avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/yaya-bisikletli-yaralanmasinda-hangi-sigorta-oder
+      - /tr/yaya-bisiklet-kazasinda-belediyeye-dava
+      - /tr/carpip-kacma-kazasinda-yaya-tazminati
+      - /tr/yaya-kazasinda-kusur-kimde
+      - /tr/aracla-bisiklet-kazasindan-sonra-ne-yapmali
   title: "Yaya ve Bisiklet Kazaları | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Yaralanan yayaları ve bisikletlileri hızlı hareketle delil ve tazminat

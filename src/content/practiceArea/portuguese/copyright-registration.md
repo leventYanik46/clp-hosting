@@ -97,6 +97,13 @@ post:
     <p>Quem compara advogados de Registro de Direitos Autorais costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/trabalho-sob-encomenda-ou-cessao-de-direitos-autorais
+      - /pt/registro-de-direitos-autorais-recusado
+      - /pt/registro-de-direitos-autorais-de-software
+      - /pt/direitos-autorais-sao-automaticos-por-que-registrar
+      - /pt/como-registrar-direitos-autorais-online-nos-eua
   title: "Registro de Direitos Autorais | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Registre obras criativas para garantir titularidade, evitar infrações e

@@ -145,6 +145,13 @@ post:
     <p>Kişisel Yaralanma avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/kisisel-yaralanma-davasi-zamanasimi-suresi
+      - /tr/kisisel-yaralanma-davasinda-ihmal-nasil-kanitlanir
+      - /tr/kisisel-yaralanma-davasinda-tazminat-kalemleri
+      - /tr/kisisel-yaralanma-talebini-zayiflatan-hatalar
+      - /tr/virginia-ve-dcde-muterafik-kusur-kurali
   title: "Kişisel Yaralanma | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Kişisel Yaralanma ekibimiz, ihmal sonucu zarar gören müvekkillerimizin

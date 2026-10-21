@@ -71,7 +71,7 @@ Certaines situations paraissent simples, mais elles ne le sont pas toujours.
 Une reunion d'affaires legitime n'est pas la meme chose qu'un travail effectif.
 Un atelier recreatif n'est pas la meme chose qu'un programme universitaire.
 
-Chez **[Capitol Law Partners](https://capitollawpartners.com/)**, nous aidons
+Chez **[Capitol Law Partners](/fr)**, nous aidons
 les voyageurs, les entrepreneurs et les familles a definir le bon objectif de
 voyage et a utiliser le visa B1/B2 en conformite avec les regles americaines.
 

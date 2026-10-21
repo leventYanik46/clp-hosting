@@ -62,7 +62,7 @@ reste essentiel.
 * dossiers incomplets ou incoherents ;
 * demandes de preuves supplementaires ou refus.
 
-Chez **[Capitol Law Partners](https://capitollawpartners.com/)**, nous aidons
+Chez **[Capitol Law Partners](/fr)**, nous aidons
 nos clients a identifier la bonne voie, a preparer un dossier solide et a
 reduire les erreurs qui peuvent ralentir ou compromettre une demande.
 

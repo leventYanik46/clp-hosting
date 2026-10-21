@@ -82,6 +82,11 @@ post:
     <p>Les clients qui recherchent des services juridiques en Défense contre l'Expulsion comparent souvent l’expérience, la réactivité, la stratégie et la capacité à expliquer clairement des procédures complexes. Une représentation utile doit combiner préparation rigoureuse, communication efficace et prochaines étapes adaptées aux faits.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/annulation-expulsion-qui-peut-en-beneficier
+      - /fr/green-card-pendant-procedure-expulsion
+      - /fr/audience-tribunal-immigration-manquee-que-faire
   title: "Défense contre l'Expulsion | Services Juridiques de Capitol Law Partners"
   description: >-
     Défense complète pour les personnes en procédure d'expulsion, axée sur

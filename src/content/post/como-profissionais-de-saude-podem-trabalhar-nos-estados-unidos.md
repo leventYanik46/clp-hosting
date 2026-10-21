@@ -48,6 +48,6 @@ Entre as opcoes mais comuns:
 
 Cada estado regula a pratica profissional de forma propria. Depois dos exames nacionais, o profissional deve obter a licenca local e manter conformidade com as regras aplicaveis.
 
-Na **[Capitol Law Partners](https://capitollawpartners.com/)** ajudamos profissionais da saude a estruturar a parte imigratoria do processo para que a transicao profissional ocorra com mais seguranca.
+Na **[Capitol Law Partners](/pt)** ajudamos profissionais da saude a estruturar a parte imigratoria do processo para que a transicao profissional ocorra com mais seguranca.
 
 *Precisa de ajuda com este tema? Veja nossa página de [Direito de Imigração](/pt/practice-area/immigration-law) ou [agende uma consulta](/pt/schedule).*

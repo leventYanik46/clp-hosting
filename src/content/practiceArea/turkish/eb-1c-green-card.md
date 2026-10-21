@@ -109,6 +109,12 @@ post:
     <p>EB-1C Yeşil Kart avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/eb-1c-green-card-basvuru-sureci-adimlari
+      - /tr/l-1a-vizesi-olmadan-eb-1c-green-card
+      - /tr/eb-1c-ret-nedenleri-ek-belge-talebi
+      - /tr/eb-1c-i-140-delil-listesi
   title: "EB-1C Yeşil Kart | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Uygun ABD şirketleri üzerinden kalıcı oturum arayan uluslararası yöneticiler

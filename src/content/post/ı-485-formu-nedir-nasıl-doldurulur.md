@@ -157,7 +157,7 @@ DS-160 hazırlığınız aslında I-485 başvurusunu kolaylaştırır çünkü k
 
 I-485 Formunu doldurmak imkansız bir iş değildir. Bilgilerinizin DS-160 ve pasaportunuzla eşleştiğinden emin olun, doğru belgeleri ekleyin ve göndermeden önce her bölümü gözden geçirin.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

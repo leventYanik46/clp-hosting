@@ -97,6 +97,13 @@ post:
     <p>Quem compara advogados de Curatela costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/evitar-curatela-com-trust-e-procuracao
+      - /pt/como-ser-curador-do-pai-ou-da-mae
+      - /pt/como-encerrar-a-curatela-ou-trocar-o-curador
+      - /pt/prestacao-de-contas-anual-do-curador
+      - /pt/o-que-e-curatela-e-quando-e-necessaria
   title: "Advogado de curatela para adultos e famílias – Capitol Law Partners"
   description: >-
     Administração financeira para quem não pode gerir seus bens, com relatórios

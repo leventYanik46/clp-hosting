@@ -116,6 +116,13 @@ post:
     <p>Haksız Ölüm avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/haksiz-olum-tazminati-kalemleri
+      - /tr/haksiz-olum-davasi-ve-tereke-islemleri
+      - /tr/haksiz-olum-davasi-ve-terekeye-gecen-dava-farki
+      - /tr/haksiz-olum-davasi-zamanasimi-suresi
+      - /tr/haksiz-olum-davasini-kim-acabilir
   title: "Haksız Ölüm | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Kayıptan sonra hesap verebilirlik ve mali istikrar arayan aileler için

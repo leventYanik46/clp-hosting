@@ -95,6 +95,13 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa H-2B recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/visa-h-2b-refus-retards-causes
+      - /fr/visa-h-2b-types-besoin-temporaire
+      - /fr/visa-h-2b-plafond-annuel-explique
+      - /fr/visa-h-2b-obligations-employeur-travailleurs
+      - /fr/visa-h-2b-procedure-employeurs
   title: "Avocat en visa H-2B pour travailleurs saisonniers – Capitol Law Partners"
   description: >-
     Visas de travailleur temporaire non agricole pour besoins saisonniers ou de

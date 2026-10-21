@@ -93,6 +93,13 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Visto E-1 normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/visto-e-1-para-funcionarios
+      - /pt/visto-e-1-ou-e-2-qual-escolher
+      - /pt/como-solicitar-visto-e-1-passo-a-passo
+      - /pt/requisitos-visto-e-1-comerciante-de-tratado
+      - /pt/comercio-substancial-visto-e-1
   title: "Advogado de visto E-1 para comerciantes por tratado – Capitol Law Partners"
   description: >-
     Assessoria para visto de comerciante por tratado a empresas que realizam

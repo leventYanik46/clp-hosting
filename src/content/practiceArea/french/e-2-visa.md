@@ -95,6 +95,11 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa E-2 recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/changement-de-statut-e-2-ou-procedure-consulaire
+      - /fr/business-plan-visa-e-2-exigences
+      - /fr/refus-visa-e-2-214b-que-faire
   title: "Avocat en visa E-2 pour investisseurs internationaux – Capitol Law Partners"
   description: >-
     Planification de visa d’investisseur par traité pour les personnes et

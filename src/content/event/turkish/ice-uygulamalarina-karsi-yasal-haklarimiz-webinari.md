@@ -40,6 +40,6 @@ Webinarı faydalanabileceğini düşündüğünüz kişilerle paylaşabilirsiniz
 
 ## Capitol Law Partners İletişim
 
-- [capitollawpartners.com](https://capitollawpartners.com)
+- [capitollawpartners.com/tr](/tr)
 - [(202) 440-2272](tel:+12024402272)
 - [info@capitollawpartners.com](mailto:info@capitollawpartners.com)

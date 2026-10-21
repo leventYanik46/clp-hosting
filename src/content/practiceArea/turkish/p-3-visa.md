@@ -109,6 +109,13 @@ post:
     <p>P-3 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/p-3-vizesi-ile-egitim-ve-koclik
+      - /tr/p-3-vizesi-kanitlar-uzman-mektuplari
+      - /tr/p-3-vizesi-kulturel-benzersizlik-nedir
+      - /tr/p-3-ve-o-1b-vizesi-geleneksel-sanatcilar
+      - /tr/p-3-vizesi-basvurusu-nasil-yapilir
   title: "P-3 Kültürel Olarak Eşsiz Sanatçı Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Kültürel açıdan özgün programlarda performans sergilemek, öğretmek veya

@@ -109,6 +109,11 @@ post:
     <p>L-1A Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/yeni-ofis-l-1a-dilekcesi-sartlari
+      - /tr/blanket-l-dilekcesi-nedir-kimler-kullanabilir
+      - /tr/l-1a-yonetici-sifati-sartlari
   title: "L-1A Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     ABD ofislerine genişleyen veya taşınan yönetici ve müdürler için şirket içi

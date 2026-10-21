@@ -77,10 +77,10 @@ Bu adımların hiçbiri kararla değişmedi. Ailelerin her zaman izlediği süre
 
 Göçmenlik hukuku değişmeye devam ediyor ve kamuoyundaki tartışmalar her zaman hukukun gerçek durumunu yansıtmıyor. Bu kararın ailenizi, dosyanızı veya atacağınız adımları nasıl etkilediğine dair sorularınız varsa, Capitol Law Partners ekibi olarak yardımcı olmaya hazırız.
 
-Durumunuzu ekibimizle konuşmak için [randevu alın](https://capitollawpartners.com/tr/schedule).
+Durumunuzu ekibimizle konuşmak için [randevu alın](/tr/schedule).
 
 *Bu makale yalnızca genel bilgilendirme amaçlıdır ve hukuki danışmanlık niteliği taşımamaktadır. Bu iletişim yoluyla avukat-müvekkil ilişkisi kurulmamaktadır.*
 
 *Attorney Sena Sahin. Bireyler, aileler ve işletme sahipleri için açık ve net hukuki rehberlik.*
 
-*Bu konuda yardıma mı ihtiyacınız var? [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) sayfamıza göz atın veya [randevu alın](/tr/schedule).*
+*Bu konuda yardıma mı ihtiyacınız var? [Vatandaşlık ve Vatandaşlığa Geçiş Avukatı](/tr/practice-area/key-services/citizenship-and-naturalization) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

@@ -58,7 +58,7 @@ Mühendislik, bilişim, finans, muhasebe, mimarlık, sağlık ve benzeri alanlar
 
  
 
-🔗[**H-1B Vizesi ile ilgili daha fazla bilgi için diğer yazımıza göz atabilirsiniz.** ](https://capitollawpartners.com/understanding-the-h-1b-visa-process)
+🔗[**H-1B Vizesi ile ilgili daha fazla bilgi için diğer yazımıza göz atabilirsiniz.** ](/tr/h-1-vize-sureci)
 
  
 
@@ -158,7 +158,7 @@ Amerika ve Türkiye arasında güçlü bir bağlantıya sahip olan ekibimiz, öz
 
 🔗Bu konu hakkında daha kısa ve görsel bir açıklama için, Instagram hesabımızda paylaştığımız bilgilendirici gönderiye göz atabilirsiniz.
 
-[Daha Fazla Bilgi ve Danışmanlık İçin ](https://capitollawpartners.com/contact)[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Daha Fazla Bilgi ve Danışmanlık İçin ](/tr/contact)[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

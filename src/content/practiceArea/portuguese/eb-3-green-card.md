@@ -94,6 +94,12 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Green Card EB-3 normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/eb-3-trabalhador-qualificado-profissional-ou-outro
+      - /pt/processo-green-card-eb-3-passo-a-passo
+      - /pt/eb-3-ou-eb-2-qual-categoria-escolher
+      - /pt/rfe-i-140-eb-3-capacidade-de-pagamento
   title: "Green Card EB-3 | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Residência permanente baseada em emprego para trabalhadores qualificados,

@@ -24,6 +24,87 @@
 # Redirect outdated CLP routes → current site routes
 # ─────────────────────────────────────────────────────────────
 
+# Localized terms/privacy moved into the language tree (2026-10-19)
+[[redirects]]
+  from = "/terms/turkish/terms"
+  to   = "/tr/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/turkish/terms/"
+  to   = "/tr/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/turkish/privacy"
+  to   = "/tr/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/turkish/privacy/"
+  to   = "/tr/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/spanish/terms"
+  to   = "/es/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/spanish/terms/"
+  to   = "/es/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/spanish/privacy"
+  to   = "/es/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/spanish/privacy/"
+  to   = "/es/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/portuguese/terms"
+  to   = "/pt/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/portuguese/terms/"
+  to   = "/pt/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/portuguese/privacy"
+  to   = "/pt/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/portuguese/privacy/"
+  to   = "/pt/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/french/terms"
+  to   = "/fr/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/french/terms/"
+  to   = "/fr/terms"
+  status = 301
+
+[[redirects]]
+  from = "/terms/french/privacy"
+  to   = "/fr/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/terms/french/privacy/"
+  to   = "/fr/privacy"
+  status = 301
+
 # Legacy English-prefixed URLs → root canonical URLs
 [[redirects]]
   from = "/en"

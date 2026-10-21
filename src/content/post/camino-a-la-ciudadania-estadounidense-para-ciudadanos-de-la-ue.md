@@ -65,6 +65,6 @@ USCIS publica materiales oficiales para prepararse, incluidos ejemplos de pregun
 * Ciertos antecedentes o problemas de cumplimiento pueden afectar el requisito de buen caracter moral.
 * En familias con doble nacionalidad, la planificacion previa puede ser importante antes de presentar la solicitud.
 
-En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a revisar elegibilidad, preparar el N-400 y anticipar posibles riesgos antes de la entrevista de naturalizacion.
+En **[Capitol Law Partners](/es)** ayudamos a revisar elegibilidad, preparar el N-400 y anticipar posibles riesgos antes de la entrevista de naturalizacion.
 
-*¿Necesita ayuda con este tema? Consulte nuestra página de [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) o [programe una consulta](/es/schedule).*
+*¿Necesita ayuda con este tema? Consulte nuestra página de [Abogado de ciudadanía y naturalización](/es/practice-area/key-services/citizenship-and-naturalization) o [programe una consulta](/es/schedule).*

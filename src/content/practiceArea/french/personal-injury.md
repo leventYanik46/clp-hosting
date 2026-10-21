@@ -135,6 +135,13 @@ post:
     <p>Une préparation détaillée permet de montrer ce qui s’est passé, comment la blessure a affecté la vie du client et quelle indemnisation peut être justifiée. Les clients qui comparent des avocats en Préjudice Corporel recherchent généralement une communication claire, une stratégie réaliste et une gestion rigoureuse du dossier.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/delai-de-prescription-prejudice-corporel
+      - /fr/comment-prouver-la-negligence-prejudice-corporel
+      - /fr/dommages-et-interets-prejudice-corporel
+      - /fr/erreurs-a-eviter-indemnisation-prejudice-corporel
+      - /fr/negligence-contributive-virginie-et-dc
   title: "Préjudice Corporel | Services Juridiques de Capitol Law Partners"
   description: >-
     Notre équipe de Préjudice Corporel protège les clients victimes de

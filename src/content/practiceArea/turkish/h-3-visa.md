@@ -109,6 +109,13 @@ post:
     <p>H-3 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/h-3-egitim-plani-nasil-hazirlanir
+      - /tr/h-3-egitimi-bittikten-sonra-secenekler
+      - /tr/h-3-vizesi-ulkede-mevcut-olmayan-egitim
+      - /tr/h-3-ozel-egitim-degisim-ziyaretcisi-programi
+      - /tr/h-3-vizesi-ve-j-1-trainee-karsilastirmasi
   title: "H-3 Eğitim ve Özel Eğitim Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Kendi ülkelerinde bulunmayan uygulamalı eğitimi almak isteyen kişiler için

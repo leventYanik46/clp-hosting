@@ -93,6 +93,11 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Visto J-1 normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/j-1-intern-ou-trainee-qual-categoria
+      - /pt/mudanca-de-status-de-j-1-para-h-1b
+      - /pt/exigencia-de-residencia-de-dois-anos-j-1
   title: "Advogado de visto J-1 para visitantes de intercâmbio – Capitol Law Partners"
   description: >-
     Vistos de visitante de intercâmbio que abrangem programas de treinamento,

@@ -93,6 +93,13 @@ post:
     <p>Quem pesquisa serviços jurídicos de Visto H-2B costuma comparar experiência, capacidade de resposta, estratégia e clareza para explicar procedimentos complexos. Uma representação útil deve combinar preparação cuidadosa, comunicação eficiente e próximos passos práticos ajustados aos fatos do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/motivos-de-negativa-do-visto-h-2b
+      - /pt/tipos-de-necessidade-temporaria-visto-h-2b
+      - /pt/limite-anual-visto-h-2b-como-funciona
+      - /pt/obrigacoes-do-empregador-visto-h-2b
+      - /pt/processo-visto-h-2b-para-empregadores
   title: "Advogado de visto H-2B para trabalhadores sazonais – Capitol Law Partners"
   description: Vistos temporários não agrícolas para necessidades sazonais ou de pico.
   schema:

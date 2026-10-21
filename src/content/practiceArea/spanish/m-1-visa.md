@@ -94,6 +94,12 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa M-1 normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/practica-profesional-visa-m-1-reglas
+      - /es/transferencia-y-extension-visa-m-1
+      - /es/cambio-de-estatus-m-1-a-f-1
+      - /es/programas-que-califican-para-visa-m-1
   title: "Abogado de visa M-1 para estudiantes vocacionales – Capitol Law Partners"
   description: >-
     Visas de estudiante para programas vocacionales y técnicos, incluyendo

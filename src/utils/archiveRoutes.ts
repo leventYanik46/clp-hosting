@@ -107,7 +107,9 @@ export const resolveBlogCategoryArchivePath = (slug: string, lang?: string) => {
     return BLOCKED_ROOT_BLOG_CATEGORY_REDIRECTS[slug];
   }
   if (resolvedLang === 'tr' && BLOCKED_TURKISH_BLOG_CATEGORY_REDIRECTS[slug]) {
-    return BLOCKED_TURKISH_BLOG_CATEGORY_REDIRECTS[slug];
+    // No Turkish archive is built for this category. Link to the Turkish blog,
+    // never to the English category page (localized pages stay in their language).
+    return resolveBlogIndexPath(resolvedLang);
   }
   if (!CATEGORY_BASE) return resolveBlogIndexPath(resolvedLang);
   return joinPath(getLanguagePrefix(resolvedLang), CATEGORY_BASE, slug);

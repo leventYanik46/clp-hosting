@@ -107,6 +107,13 @@ post:
     <p>H-2B Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/h-2b-ret-nedenleri-ve-gecikmeler
+      - /tr/h-2b-vizesi-gecici-ihtiyac-turleri
+      - /tr/h-2b-vizesi-kotasi-nasil-isler
+      - /tr/h-2b-isveren-yukumlulukleri
+      - /tr/h-2b-vizesi-sureci-isverenler-icin
   title: "H-2B Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: Sezonluk veya yoğun dönem ihtiyaçları için geçici tarım dışı işçi vizeleri.
   schema:

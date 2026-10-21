@@ -94,6 +94,10 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa F-1 normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/opt-para-estudiantes-f-1-plazos-y-reglas
+      - /es/estudiante-f-1-trabajar-fuera-del-campus
   title: "Abogado de visa de estudiante F-1 – Capitol Law Partners"
   description: >-
     Visas de estudiante para estudios académicos de tiempo completo y

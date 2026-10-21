@@ -130,6 +130,12 @@ post:
     <p>Uma abordagem estruturada pode tornar o planejamento de longo prazo mais eficaz e a administração mais gerenciável. Clientes que comparam advogados de Trusts e Sucessões procuram explicações claras, próximos passos concretos e documentos confiáveis.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/procuracao-ou-diretiva-medica-antecipada
+      - /pt/lista-de-documentos-do-planejamento-sucessorio
+      - /pt/planejamento-sucessorio-para-estrangeiros-nos-eua
+      - /pt/quando-atualizar-seu-plano-sucessorio
   title: "Trusts e Sucessões | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Planejamento sucessório completo, proteção de patrimônio, testamentos,

@@ -97,6 +97,13 @@ post:
     <p>Las personas que comparan abogados de Negligencia Médica normalmente buscan capacidad de respuesta, preparación y trabajo legal alineado con un objetivo real. Ya se trate de planificación, protección, cumplimiento, conflicto, compensación o estatus migratorio, una preparación cuidadosa puede dar más claridad y fortalecer la posición del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/diagnostico-erroneo-o-tardio-negligencia-medica
+      - /es/plazo-de-prescripcion-por-negligencia-medica
+      - /es/caso-de-negligencia-medica-paso-a-paso
+      - /es/que-se-considera-negligencia-medica
+      - /es/como-probar-negligencia-medica
   title: "Negligencia Médica | Servicios Legales de Capitol Law Partners"
   description: >-
     Responsabilizando a los proveedores por errores médicos prevenibles con una

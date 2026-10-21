@@ -94,6 +94,12 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Green Card EB-1C normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/processo-green-card-eb-1c-etapas
+      - /pt/green-card-eb-1c-sem-visto-l-1a
+      - /pt/eb-1c-negado-motivos-rfe-opcoes
+      - /pt/provas-i-140-eb-1c-lista-documentos
   title: "Green Card EB-1C | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Residência permanente para executivos e gerentes multinacionais por meio de

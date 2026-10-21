@@ -92,6 +92,11 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa J-1 recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/visa-j-1-intern-ou-trainee
+      - /fr/changement-statut-j-1-vers-h-1b
+      - /fr/j-1-obligation-residence-deux-ans
   title: "Avocat en visa J-1 pour visiteurs d’échange – Capitol Law Partners"
   description: Visas d’échange couvrant formation, recherche et programmes culturels.
   schema:

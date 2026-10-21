@@ -107,6 +107,13 @@ post:
     <p>Uma preparação detalhada ajuda a mostrar o que aconteceu, como a lesão afetou a vida da pessoa e qual compensação pode ser adequada. Quem compara advogados de Direito de Lesões Pessoais normalmente procura comunicação direta, orientação prática e uma estratégia disciplinada para buscar responsabilização.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/prazo-prescricional-para-acao-de-lesoes-pessoais
+      - /pt/como-provar-negligencia-em-acao-de-lesoes-pessoais
+      - /pt/danos-indenizaveis-em-acao-de-lesoes-pessoais
+      - /pt/erros-que-enfraquecem-seu-pedido-de-indenizacao
+      - /pt/negligencia-contributiva-na-virginia-e-em-dc
   title: "Direito de Lesões Pessoais | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Nossa equipe de Lesões Pessoais protege clientes prejudicados por

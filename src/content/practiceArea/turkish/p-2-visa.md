@@ -109,6 +109,13 @@ post:
     <p>P-2 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/p-2-vizesi-suresi-uzatma-ve-aile
+      - /tr/p-2-vizesi-karsilikli-degisim-sartlari
+      - /tr/p-2-vizesi-gerekli-belgeler-listesi
+      - /tr/p-2-ve-p-1b-vizesi-farki-turne-gruplari
+      - /tr/p-2-vizesi-basvuru-sureci-adim-adim
   title: "P-2 Karşılıklı Değişim Sanatçı Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Değişim programlarına katılan sanatçılar ve eğlence profesyonelleri için

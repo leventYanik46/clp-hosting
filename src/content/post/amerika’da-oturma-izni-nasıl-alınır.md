@@ -70,7 +70,7 @@ Amerika’da oturma izni başvuruları, karmaşık göçmenlik mevzuatına tabid
 
 Capitol Law Partners, Amerika’da oturma izni almak isteyen birey ve ailelere; başvuru stratejisinin belirlenmesi, belge hazırlığı ve olası ret durumlarında hukuki yol haritası oluşturulması konularında kapsamlı destek sunmaktadır.
 
-Daha Fazla Bilgi ve Danışmanlık İçin [Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+Daha Fazla Bilgi ve Danışmanlık İçin [Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

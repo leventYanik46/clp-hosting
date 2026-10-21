@@ -109,6 +109,13 @@ post:
     <p>EB-5 Yeşil Kart avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/eb-5-fon-kaynagi-nasil-belgelenir
+      - /tr/eb-5-yatirimci-green-card-sartlari
+      - /tr/eb-5-basvuru-sureci-adim-adim
+      - /tr/eb-5-sartlarin-kaldirilmasi-i-829
+      - /tr/eb-5-bolgesel-merkez-mi-dogrudan-yatirim-mi
   title: "EB-5 Yeşil Kart | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Uygun sermaye yatırımı ve istihdam yaratımıyla yatırım temelli yeşil

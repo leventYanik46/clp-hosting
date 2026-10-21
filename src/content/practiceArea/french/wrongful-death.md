@@ -98,6 +98,13 @@ post:
     <p>Les clients qui comparent des avocats en Décès Injustifié recherchent généralement de la réactivité, de la préparation et un travail juridique orienté vers un objectif réel. Qu’il s’agisse de planification, de protection, de conformité, de litige, de réparation ou de statut migratoire, une préparation rigoureuse peut renforcer le dossier.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/dommages-et-interets-deces-injustifie
+      - /fr/action-deces-injustifie-et-succession
+      - /fr/deces-injustifie-ou-action-en-survie
+      - /fr/delai-de-prescription-deces-injustifie
+      - /fr/qui-peut-intenter-action-deces-injustifie
   title: "Décès Injustifié | Services Juridiques de Capitol Law Partners"
   description: >-
     Représentation compatissante pour les familles recherchant responsabilité et

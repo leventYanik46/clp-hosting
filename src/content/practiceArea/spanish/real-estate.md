@@ -128,6 +128,12 @@ post:
     <p>Una estrategia práctica puede ayudar a cerrar con más eficiencia, resolver problemas antes y evitar disputas que afecten ocupación, desarrollo, financiamiento o rentabilidad. Quienes comparan abogados de Derecho Inmobiliario suelen valorar orientación clara, redacción sólida y apoyo en negociación con enfoque comercial.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/retencion-firpta-vendedor-extranjero
+      - /es/seguro-de-titulo-al-comprar-una-propiedad
+      - /es/tenencia-conjunta-vs-tenencia-en-comun
+      - /es/escritura-de-garantia-vs-quitclaim-deed
   title: "Derecho Inmobiliario | Servicios Legales de Capitol Law Partners"
   description: >-
     Asesoría en transacciones inmobiliarias comerciales y residenciales,

@@ -93,6 +93,11 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Visto E-2 normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/mudanca-de-status-e-2-ou-processamento-consular
+      - /pt/plano-de-negocios-visto-e-2
+      - /pt/visto-e-2-negado-214b-o-que-fazer
   title: "Advogado de visto E-2 para investidores por tratado – Capitol Law Partners"
   description: >-
     Planejamento de visto de investidor por tratado para pessoas e empresas que

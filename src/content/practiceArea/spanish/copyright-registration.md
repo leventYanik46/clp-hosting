@@ -97,6 +97,13 @@ post:
     <p>Las personas que comparan abogados de Registro de Derechos de Autor normalmente buscan capacidad de respuesta, preparación y trabajo legal alineado con un objetivo real. Ya se trate de planificación, protección, cumplimiento, conflicto, compensación o estatus migratorio, una preparación cuidadosa puede dar más claridad y fortalecer la posición del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/trabajo-por-encargo-vs-cesion-de-derechos-de-autor
+      - /es/registro-de-derechos-de-autor-denegado-motivos
+      - /es/registro-de-derechos-de-autor-de-software
+      - /es/ventajas-del-registro-de-derechos-de-autor
+      - /es/como-registrar-derechos-de-autor-en-linea
   title: "Registro de Derechos de Autor | Servicios Legales de Capitol Law Partners"
   description: >-
     Registre obras creativas para asegurar la titularidad, disuadir infracciones

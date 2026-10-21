@@ -109,6 +109,12 @@ post:
     <p>EB-3 Yeşil Kart avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/eb-3-nitelikli-isci-profesyonel-diger-isci
+      - /tr/eb-3-green-card-sureci-adim-adim
+      - /tr/eb-3-mu-eb-2-mi-hangi-kategori
+      - /tr/eb-3-i-140-rfe-odeme-gucu
   title: "EB-3 Yeşil Kart | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Nitelikli işçiler, profesyoneller ve diğer çalışanlar için iş temelli kalıcı

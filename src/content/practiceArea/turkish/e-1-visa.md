@@ -109,6 +109,13 @@ post:
     <p>E-1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/calisanlar-icin-e-1-vizesi-sartlari
+      - /tr/e-1-ve-e-2-vizesi-farklari
+      - /tr/e-1-vizesi-basvurusu-adim-adim
+      - /tr/e-1-antlasma-tuccari-vizesi-sartlari
+      - /tr/e-1-vizesi-onemli-olcude-ticaret-nedir
   title: "E-1 Anlaşmalı Tüccar Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Antlaşma ülkesi ile ABD arasında kayda değer ticaret yapan işletmeler için

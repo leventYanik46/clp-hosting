@@ -15,7 +15,8 @@ export interface Props {
 }
 
 const { frontmatter, languageAlternates, ogLocaleAlternates } = Astro.props;
-const isTermsPage = Astro.url.pathname.startsWith('/terms/');
+const isTermsPage =
+  Astro.url.pathname.startsWith('/terms/') || /^\/(tr|es|pt|fr)\/(terms|privacy)\/?$/.test(Astro.url.pathname);
 
 const metadata: MetaData = {
   ...frontmatter?.metadata,

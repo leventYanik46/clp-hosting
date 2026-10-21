@@ -109,6 +109,13 @@ post:
     <p>H-2A Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/h-2a-konaklama-sartlari-ve-denetim
+      - /tr/h-2a-vizesi-sureci-ve-zaman-cizelgesi
+      - /tr/h-2a-isverenleri-icin-ucret-sartlari
+      - /tr/h-2a-vizesine-uygun-tarim-isleri
+      - /tr/h-2a-mi-h-2b-mi-hangi-vize
   title: "H-2A Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     İşveren dilekçeleri, uyum ve işçi yerleştirmeyi kapsayan geçici tarım işçisi

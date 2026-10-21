@@ -98,6 +98,11 @@ post:
     <p>Les clients qui comparent des avocats en Demandes d'Asile Affirmatives recherchent généralement de la réactivité, de la préparation et un travail juridique orienté vers un objectif réel. Qu’il s’agisse de planification, de protection, de conformité, de litige, de réparation ou de statut migratoire, une préparation rigoureuse peut renforcer le dossier.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/comment-rediger-declaration-asile
+      - /fr/que-se-passe-t-il-apres-entretien-asile
+      - /fr/deroulement-entretien-asile-uscis
   title: "Demandes d'Asile Affirmatives | Services Juridiques de Capitol Law Partners"
   description: >-
     Demandes d'asile soigneusement préparées avec des preuves à l'appui et une

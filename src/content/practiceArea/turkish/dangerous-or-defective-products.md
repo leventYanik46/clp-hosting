@@ -95,6 +95,13 @@ post:
     <p>Tehlikeli veya Kusurlu Ürünler avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/kusurlu-urun-yaralanmasinda-saklanacak-deliller
+      - /tr/kusurlu-urunden-kim-sorumlu-uretici-satici
+      - /tr/urun-geri-cagirma-kusuru-kanitlar-mi
+      - /tr/kusurlu-urunde-kusursuz-sorumluluk-ve-ihmal
+      - /tr/urun-kusuru-turleri-tasarim-uretim-uyari
   title: "Tehlikeli veya Kusurlu Ürünler | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Yaralanmalar için kusurlu tasarım, üretim veya uyarılara yönelik ürün

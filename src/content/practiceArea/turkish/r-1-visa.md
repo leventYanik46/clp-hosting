@@ -109,6 +109,13 @@ post:
     <p>R-1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/r-1-vizesi-belgeleri-isveren-kontrol-listesi
+      - /tr/r-1-vizesinden-eb-4-green-card-basvurusu
+      - /tr/r-1-vizesi-azami-sure-ve-uzatma
+      - /tr/r-1-vizesi-sartlari-din-gorevlisi
+      - /tr/r-1-vizesi-sureci-i-129-yerinde-denetim
   title: "R-1 Din Görevlisi Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Din görevlileri ve dini mesleklerde çalışanlar için geçici dini görevli

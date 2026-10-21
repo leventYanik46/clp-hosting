@@ -109,6 +109,10 @@ post:
     <p>F-1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/f-1-opt-basvurusu-sureler-ve-kurallar
+      - /tr/f-1-ogrencisi-kampus-disinda-calisabilir-mi
   title: "F-1 Öğrenci Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Tam zamanlı akademik eğitim ve pratik eğitim planlaması için öğrenci

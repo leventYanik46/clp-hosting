@@ -95,6 +95,13 @@ post:
     <p>Ticari Sır Koruması avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/ticari-sir-mi-patent-mi
+      - /tr/ticari-sir-nedir-abd-hukuku
+      - /tr/calisan-gizli-bilgileri-aldi-ne-yapmali
+      - /tr/ticari-sirlari-korumak-icin-makul-onlemler
+      - /tr/gizlilik-sozlesmesi-nda-ticari-sir-korumasi
   title: "Ticari Sır Koruması | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Politikalar, anlaşmalar ve uygulama planlarıyla gizli bilgi birikimini 

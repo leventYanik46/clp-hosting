@@ -51,6 +51,6 @@ Residentes permanentes podem buscar a cidadania quando cumprem os requisitos de 
 * documentacao complexa;
 * incertezas ligadas a cotas e politicas administrativas.
 
-Na **[Capitol Law Partners](https://capitollawpartners.com/)** ajudamos clientes a escolher a melhor categoria, preparar peticoes e responder exigencias de USCIS com estrategia e clareza.
+Na **[Capitol Law Partners](/pt)** ajudamos clientes a escolher a melhor categoria, preparar peticoes e responder exigencias de USCIS com estrategia e clareza.
 
 *Precisa de ajuda com este tema? Veja nossa página de [Direito de Imigração](/pt/practice-area/immigration-law) ou [agende uma consulta](/pt/schedule).*

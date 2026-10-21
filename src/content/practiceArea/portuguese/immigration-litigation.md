@@ -97,6 +97,12 @@ post:
     <p>Quem compara advogados de Contencioso Migratório costuma procurar preparo, agilidade e trabalho jurídico alinhado com um objetivo real. Seja em planejamento, proteção, compliance, disputa, compensação ou status migratório, uma preparação cuidadosa pode dar mais clareza e fortalecer a posição do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/autos-administrativos-em-acao-de-imigracao
+      - /pt/recurso-i-290b-ou-acao-na-justica-federal
+      - /pt/decisoes-do-uscis-que-a-justica-federal-revisa
+      - /pt/acao-pela-apa-contra-negativa-do-uscis
   title: "Contencioso Migratório | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Litígios federais e administrativos para contestar negativas, atrasos e

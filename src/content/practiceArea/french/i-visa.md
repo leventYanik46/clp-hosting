@@ -94,6 +94,13 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa I recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/visa-i-changement-employeur-prolongation
+      - /fr/demande-visa-i-etapes-documents
+      - /fr/visa-i-b-1-ou-o-1-medias
+      - /fr/visa-i-medias-etrangers-conditions
+      - /fr/journaliste-pigiste-visa-i
   title: "Avocat en visa I pour journalistes et médias – Capitol Law Partners"
   description: >-
     Visas de presse pour représentants de médias étrangers venant en mission aux

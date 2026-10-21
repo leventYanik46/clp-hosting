@@ -95,6 +95,9 @@ post:
     <p>Aile Temelli Göçmenlik avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/i-601a-gecici-af-basvurusu-nedir
   title: "Aile Temelli Göçmenlik | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Dilekçeler, muafiyetler ve konsolosluk işlemleriyle aileleri bir arada tutan

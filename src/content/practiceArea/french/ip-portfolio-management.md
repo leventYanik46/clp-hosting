@@ -82,6 +82,13 @@ post:
     <p>Les clients qui recherchent des services juridiques en Gestion de Portefeuille de PI comparent souvent l’expérience, la réactivité, la stratégie et la capacité à expliquer clairement des procédures complexes. Une représentation utile doit combiner préparation rigoureuse, communication efficace et prochaines étapes adaptées aux faits.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/chaine-des-titres-propriete-intellectuelle-cessions
+      - /fr/suivi-des-echeances-propriete-intellectuelle
+      - /fr/strategie-depot-marque-budget-priorites
+      - /fr/contrat-licence-de-marque-controle-qualite
+      - /fr/comment-realiser-audit-propriete-intellectuelle
   title: "Gestion de Portefeuille de PI | Services Juridiques de Capitol Law Partners"
   description: >-
     Gestion stratégique et économique du portefeuille pour aligner les actifs de

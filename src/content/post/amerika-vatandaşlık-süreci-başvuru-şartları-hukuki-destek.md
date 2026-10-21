@@ -111,7 +111,7 @@ Vatandaşlık başvuruları, detaylara büyük önem verilen ve bireysel durumla
 
 Doğru yönlendirme ve hukuki destekle vatandaşlık başvurunuzu güvenle tamamlamak için Capitol Law Partners ile iletişime geçebilirsiniz.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 
@@ -123,4 +123,4 @@ Doğru yönlendirme ve hukuki destekle vatandaşlık başvurunuzu güvenle tamam
 
 ![](/images/43ff11f8-bfc3-40f3-a65e-da5d9e294acf.jpeg)
 
-*Bu konuda yardıma mı ihtiyacınız var? [Citizenship & Naturalization](/practice-area/key-services/citizenship-and-naturalization) sayfamıza göz atın veya [randevu alın](/tr/schedule).*
+*Bu konuda yardıma mı ihtiyacınız var? [Vatandaşlık ve Vatandaşlığa Geçiş Avukatı](/tr/practice-area/key-services/citizenship-and-naturalization) sayfamıza göz atın veya [randevu alın](/tr/schedule).*

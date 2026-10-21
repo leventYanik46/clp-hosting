@@ -107,6 +107,13 @@ post:
     <p>L-1B Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/l-1b-dilekcesi-gerekli-belgeler
+      - /tr/l-1b-vizesinden-green-carda-gecis
+      - /tr/l-1b-ek-belge-talebi-ret-nedenleri
+      - /tr/l-1b-vizesi-bes-yil-siniri-uzatma
+      - /tr/l-1b-vizesi-ozel-bilgi-sarti
   title: "L-1B Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: Özel bilgiye sahip uzmanların ABD ofislerine şirket içi transferi.
   schema:

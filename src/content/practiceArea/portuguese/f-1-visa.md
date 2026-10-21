@@ -95,6 +95,10 @@ post:
     <p>Quem pesquisa serviços jurídicos de Visto F-1 costuma comparar experiência, capacidade de resposta, estratégia e clareza para explicar procedimentos complexos. Uma representação útil deve combinar preparação cuidadosa, comunicação eficiente e próximos passos práticos ajustados aos fatos do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/opt-pos-conclusao-estudante-f-1-prazos
+      - /pt/estudante-f-1-pode-trabalhar-fora-do-campus
   title: "Advogado de visto de estudante F-1 – Capitol Law Partners"
   description: >-
     Vistos de estudante para estudos acadêmicos em tempo integral e planejamento

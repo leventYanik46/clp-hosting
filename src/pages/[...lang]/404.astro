@@ -39,7 +39,7 @@ const pageMetadata: MetaData = {
         </h2>
         <p class="text-3xl font-semibold md:text-3xl">{messages.primary}</p>
         <p class="mt-4 mb-8 text-lg text-muted">{messages.secondary}</p>
-        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">{cta.text}</a>
+        <a rel="noopener noreferrer" href={lang ? `/${lang}` : getHomePermalink()} class="btn ml-4">{cta.text}</a>
       </div>
     </div>
   </section>

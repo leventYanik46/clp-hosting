@@ -97,6 +97,13 @@ post:
     <p>Las personas que comparan abogados de Tutela Legal normalmente buscan capacidad de respuesta, preparación y trabajo legal alineado con un objetivo real. Ya se trate de planificación, protección, cumplimiento, conflicto, compensación o estatus migratorio, una preparación cuidadosa puede dar más claridad y fortalecer la posición del caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/como-solicitar-la-tutela-de-un-adulto
+      - /es/tutela-de-emergencia-cuanto-tarda
+      - /es/tutor-de-un-menor-si-los-padres-no-pueden
+      - /es/tutela-o-poder-notarial-diferencias
+      - /es/cuando-un-adulto-necesita-tutor-legal
   title: "Tutela Legal | Servicios Legales de Capitol Law Partners"
   description: >-
     Soluciones de tutela que protegen a menores o adultos vulnerables respetando

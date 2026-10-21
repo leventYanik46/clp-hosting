@@ -93,6 +93,13 @@ post:
     <p>O planejamento antecipado dá tempo para identificar lacunas documentais, preparar provas mais persuasivas e organizar o caso de forma consistente. Clientes que comparam serviços de Visto H-2A normalmente procuram orientação clara, expectativas realistas e um time jurídico capaz de transformar um processo complexo em um plano estruturado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/requisitos-de-moradia-visto-h-2a
+      - /pt/processo-e-prazos-visto-h-2a
+      - /pt/requisitos-salariais-visto-h-2a-empregadores
+      - /pt/visto-h-2a-requisitos-trabalho-agricola
+      - /pt/visto-h-2a-ou-h-2b-qual-escolher
   title: "Advogado de visto H-2A para trabalhadores agrícolas – Capitol Law Partners"
   description: >-
     Vistos de trabalhador agrícola temporário incluindo petições do empregador,

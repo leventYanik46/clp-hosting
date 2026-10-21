@@ -95,6 +95,13 @@ post:
     <p>Quem pesquisa serviços jurídicos de Visto H-1B1 costuma comparar experiência, capacidade de resposta, estratégia e clareza para explicar procedimentos complexos. Uma representação útil deve combinar preparação cuidadosa, comunicação eficiente e próximos passos práticos ajustados aos fatos do caso.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/como-solicitar-visto-h-1b1-passo-a-passo
+      - /pt/requisitos-visto-h-1b1-chile-cingapura
+      - /pt/diferencas-entre-visto-h-1b1-e-h-1b
+      - /pt/prorrogacao-e-renovacao-visto-h-1b1
+      - /pt/do-visto-h-1b1-ao-green-card
   title: "Visto H-1B1 | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Profissionais do Chile e de Cingapura buscando funções de ocupação

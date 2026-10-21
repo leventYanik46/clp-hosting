@@ -109,6 +109,11 @@ post:
     <p>E-2 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/e-2-statu-degisikligi-mi-konsolosluk-mu
+      - /tr/e-2-vizesi-is-plani-nasil-hazirlanir
+      - /tr/e-2-vizesi-reddedildi-214b-ne-yapmali
   title: "E-2 Yatırımcı Vizesi Avukatı – Capitol Law Partners"
   description: >-
     ABD işletmesine kayda değer yatırım yapan kişi ve şirketler için antlaşmalı

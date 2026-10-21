@@ -144,6 +144,12 @@ post:
     <p>Yapılandırılmış hukuki yaklaşım, uzun vadeli planlamayı daha etkili ve idare sürecini daha yönetilebilir hale getirebilir. Vasiyetler ve Miras avukatlarını karşılaştıran müvekkiller genellikle açık açıklamalar, somut sonraki adımlar ve güvenilir belgeler arar.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/vekaletname-ve-saglik-talimati-farki
+      - /tr/miras-planlamasi-belgeleri-kontrol-listesi
+      - /tr/abd-vatandasi-olmayanlar-icin-miras-planlamasi
+      - /tr/miras-plani-ne-zaman-guncellenmeli
   title: "Vasiyetler ve Miras | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Kapsamlı miras planlaması, varlık koruma, vasiyet, vakıf, veraset işlemleri,

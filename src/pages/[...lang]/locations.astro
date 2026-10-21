@@ -89,7 +89,7 @@ const officeDetailsLabel = OFFICE_DETAILS_LABEL[currentLang] ?? OFFICE_DETAILS_L
         {
           variant: 'primary',
           text: callToAction.buttonText,
-          href: callToAction.href || '/contact',
+          href: callToAction.href || (currentLang && currentLang !== 'en' ? `/${currentLang}/contact` : '/contact'),
         },
       ]}
     >

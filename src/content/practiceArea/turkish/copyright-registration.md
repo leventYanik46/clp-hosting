@@ -95,6 +95,13 @@ post:
     <p>Telif Hakkı Tescili avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/work-for-hire-ve-telif-hakki-devri-farki
+      - /tr/telif-hakki-tescili-neden-reddedilir
+      - /tr/yazilim-telif-hakki-tescili
+      - /tr/telif-hakki-tescilinin-avantajlari
+      - /tr/online-telif-hakki-tescili-nasil-yapilir
   title: "Telif Hakkı Tescili | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Yaratıcı eserleri tescil ederek sahipliği güvence altına alın, ihlali

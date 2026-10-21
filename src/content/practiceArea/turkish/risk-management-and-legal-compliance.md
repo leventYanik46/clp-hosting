@@ -108,6 +108,13 @@ post:
     <p>Pratik strateji yalnızca sorun büyüdükten sonra tepki vermek için değil, daha iyi müzakere etmek, daha temiz belgelemek ve büyümeyi desteklemek için de önemlidir. Risk Yönetimi ve Hukuki Uyum avukatlarını karşılaştıran şirketler genellikle hızlı iletişim, ticari bakış açısı ve sonuç odaklı çalışma arar.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/tedarikci-sozlesmesi-hukuki-risk-maddeleri
+      - /tr/sirket-ici-sorusturma-avukat-muvekkil-gizliligi
+      - /tr/kucuk-isletme-uyum-programi-unsurlari
+      - /tr/isletmeler-icin-hukuki-risk-degerlendirmesi
+      - /tr/uyum-ihlali-tespit-edildiginde-ne-yapilmali
   title: "Risk Yönetimi ve Hukuki Uyum | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     İşletmelerin pahasına bir çok tuzaktan kaçınmalarına ve güvenle

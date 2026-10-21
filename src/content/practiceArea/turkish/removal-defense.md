@@ -95,6 +95,11 @@ post:
     <p>Sınır Dışı Etme Savunması avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/sinir-disi-etmenin-iptali-kimler-yararlanabilir
+      - /tr/sinir-disi-etme-surecinde-green-card
+      - /tr/gocmenlik-mahkemesi-durusmasini-kacirmak
   title: "Sınır Dışı Etme Savunması | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Sınır dışı etme işlemlerindeki bireylerin kapsamlı savunması,  yardım

@@ -95,6 +95,13 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Green Card EB-5 recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/justifier-origine-des-fonds-eb-5
+      - /fr/conditions-green-card-eb-5-investisseur
+      - /fr/procedure-eb-5-etape-par-etape
+      - /fr/formulaire-i-829-levee-des-conditions-eb-5
+      - /fr/eb-5-centre-regional-ou-investissement-direct
   title: "Green Card EB-5 | Services Juridiques de Capitol Law Partners"
   description: >-
     Green cards fondées sur l’investissement via capital qualifié et création

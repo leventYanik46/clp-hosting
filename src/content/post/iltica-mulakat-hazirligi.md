@@ -65,7 +65,7 @@ Mülakat sırasında tercümanın sözlerinizi doğru aktarmadığını hisseder
 
 Memur bir tavsiyede bulunur, bunu denetleyici iltica memuru inceler. Genellikle mülakatta karar almazsınız. Karar birkaç hafta ila ay arasında teslim alınabilir veya postalanır.
 
-Yaklaşan iltica mülakatınız varsa ve avukatla hazırlanmak istiyorsanız, [Capitol Law Partners ile görüşme planlayın](https://capitollawpartners.com/tr/schedule).
+Yaklaşan iltica mülakatınız varsa ve avukatla hazırlanmak istiyorsanız, [Capitol Law Partners ile görüşme planlayın](/tr/schedule).
 
 *Bu makale yalnızca bilgilendirme amaçlıdır ve hukuki danışmanlık niteliği taşımaz. Göçmenlik yasaları ve prosedürleri sık sık değişmektedir. Durumunuza özel rehberlik için nitelikli bir göçmenlik avukatıyla görüşün.*
 

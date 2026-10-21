@@ -148,6 +148,13 @@ post:
     <p>Proaktif koruma, müzakerelerdeki pozisyonu güçlendirebilir, büyüme sırasında kesintileri azaltabilir ve ticari değeri koruyabilir. Fikri Mülkiyet Hukuku avukatlarını karşılaştıran müvekkiller genellikle pratik yanıtlar, verimli uygulama ve iş hedefleriyle uyumlu bir strateji arar.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/fikri-mulkiyet-lisans-sozlesmesi-temel-hukumler
+      - /tr/girisimlerin-fikri-mulkiyet-hatalari-ve-cozumleri
+      - /tr/fikri-mulkiyet-kime-ait-calisan-yuklenici
+      - /tr/is-fikri-nasil-korunur-abd-hukuku
+      - /tr/fikri-mulkiyet-due-diligence-kontrol-listesi
   title: "Fikri Mülkiyet Hukuku | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Markanızı ve yeniliklerinizi korumak için marka, telif hakkı, ticari sır

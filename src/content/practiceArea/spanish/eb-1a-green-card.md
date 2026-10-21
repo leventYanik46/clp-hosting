@@ -94,6 +94,11 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Green Card EB-1A normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/como-responder-rfe-eb-1a
+      - /es/lista-de-evidencia-eb-1a-por-criterio
+      - /es/determinacion-final-de-meritos-eb-1a
   title: "Green Card EB-1A | Servicios Legales de Capitol Law Partners"
   description: >-
     Peticiones de green card por habilidad extraordinaria con reconocimiento

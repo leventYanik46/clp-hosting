@@ -54,7 +54,7 @@ Los residentes permanentes que cumplen con los requisitos pueden solicitar la ci
 
 ### **Como ayuda Capitol Law Partners**
 
-En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a:
+En **[Capitol Law Partners](/es)** ayudamos a:
 
 * evaluar la categoria migratoria mas conveniente;
 * preparar y presentar solicitudes con evidencia completa;

@@ -57,6 +57,6 @@ El incumplimiento de estas reglas puede terminar en cancelación de visa, inadmi
 
 Las reglas migratorias pueden parecer sencillas en teoría, pero en la práctica hay muchas zonas grises. Una reunión de negocios legítima no es lo mismo que empleo; una clase recreativa no es lo mismo que un programa de estudios. Cuando el propósito del viaje no está bien definido, el riesgo migratorio aumenta.
 
-En **[Capitol Law Partners](https://capitollawpartners.com/)** ayudamos a viajeros, emprendedores y familias a usar sus visas B1/B2 de forma correcta y estratégica. Una orientación adecuada antes del viaje puede evitar errores costosos y proteger futuras solicitudes.
+En **[Capitol Law Partners](/es)** ayudamos a viajeros, emprendedores y familias a usar sus visas B1/B2 de forma correcta y estratégica. Una orientación adecuada antes del viaje puede evitar errores costosos y proteger futuras solicitudes.
 
 *¿Necesita ayuda con este tema? Consulte nuestra página de [Derecho Migratorio](/es/practice-area/immigration-law) o [programe una consulta](/es/schedule).*

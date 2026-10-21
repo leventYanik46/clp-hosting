@@ -196,7 +196,7 @@ steps:
   items:
     - title: >-
         Paso 1: <span class="font-medium">Complete el formulario <a
-        href="/contact" class="hover:text-primary underline font-bold">
+        href="/es/contact" class="hover:text-primary underline font-bold">
         Contáctenos</a></span>
       description: >-
         Comience proporcionándonos detalles sobre sus inquietudes legales a
@@ -204,7 +204,7 @@ steps:
         y lo conectará con el experto adecuado.
       icon: tabler:file-text
     - title: >-
-        Paso 2: <span class="font-medium">Agende una <a href="/evaluations"
+        Paso 2: <span class="font-medium">Agende una <a href="/es/evaluations"
         class="hover:text-primary underline font-bold"> evaluación
         gratuita</a></span>
       description: >-

@@ -5,7 +5,7 @@ hero:
 locations:
   - title: Virginia Ofisi
     description: 13873 Park Center Road, Suite 152, Herndon, VA 20171
-    href: /locations/herndon-va
+    href: /tr/locations/herndon-va
     image:
       src: ~/assets/images/map-herndon.jpg
       alt: Harita konum görseli
@@ -13,7 +13,7 @@ locations:
         https://www.google.com/maps/place/Capitol+Law+Partners/data=!4m2!3m1!1s0x0:0xdd25a8b02491aacd?sa=X&ved=1t:2428&ictx=111
   - title: Washington DC Ofisi
     description: 1200 G Street, NW, STE 800, Washington, DC 20005
-    href: /locations/washington-dc
+    href: /tr/locations/washington-dc
     image:
       src: ~/assets/images/map-washington.png
       alt: Harita konum görseli
@@ -21,7 +21,7 @@ locations:
         https://www.google.com/maps/place/Capitol+Law+Partners/@38.8981849,-77.0307687,17z/data=!3m2!4b1!5s0x89b7b7bdf11bb751:0xf9b2c66482b778ff!4m6!3m5!1s0x89b7b79fdc4c0afd:0x70647fab40f6ef1b!8m2!3d38.8981808!4d-77.0281938!16s%2Fg%2F11y23hfk14?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D
   - title: New York Ofisi
     description: 14 Wall Street 20. Kat, New York, NY 10005
-    href: /locations/new-york
+    href: /tr/locations/new-york
     image:
       src: ~/assets/images/map-newyork.png
       alt: Harita konum görseli
@@ -29,7 +29,7 @@ locations:
         https://www.google.com/maps/place/14+Wall+St+20th+Floor,+New+York,+NY+10005
   - title: İstanbul Ofisi
     description: Trump Towers, Residence 2901, 34381, Şişli/İstanbul Türkiye
-    href: /locations/istanbul
+    href: /tr/locations/istanbul
     image:
       src: ~/assets/images/map-istanbul-1.png
       alt: Harita konum görseli

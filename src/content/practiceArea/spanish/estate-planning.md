@@ -121,6 +121,12 @@ post:
     <p>Un enfoque legal estructurado puede hacer que la planificación a largo plazo sea más efectiva y que la administración sea más manejable. Quienes comparan abogados de Fideicomisos y Sucesiones suelen buscar explicaciones claras, pasos concretos y documentos que respalden tanto las necesidades familiares como los requisitos legales.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/poder-notarial-duradero-o-directiva-medica
+      - /es/lista-de-documentos-de-planificacion-patrimonial
+      - /es/planificacion-patrimonial-para-no-ciudadanos-en-eeuu
+      - /es/cuando-actualizar-su-plan-patrimonial
   title: "Fideicomisos y Sucesiones | Servicios Legales de Capitol Law Partners"
   description: >-
     Planificación patrimonial integral, protección de activos, testamentos,

@@ -82,6 +82,13 @@ post:
     <p>Les clients qui recherchent des services juridiques en Négligence Médicale comparent souvent l’expérience, la réactivité, la stratégie et la capacité à expliquer clairement des procédures complexes. Une représentation utile doit combiner préparation rigoureuse, communication efficace et prochaines étapes adaptées aux faits.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/erreur-ou-retard-de-diagnostic-faute-medicale
+      - /fr/delai-prescription-faute-medicale-dc-virginie-new-york
+      - /fr/procedure-pour-faute-medicale-etape-par-etape
+      - /fr/negligence-medicale-ou-mauvais-resultat
+      - /fr/comment-prouver-une-faute-medicale
   title: "Négligence Médicale | Services Juridiques de Capitol Law Partners"
   description: >-
     Tenir les prestataires responsables des erreurs médicales évitables grâce à

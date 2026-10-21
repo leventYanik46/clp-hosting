@@ -65,7 +65,7 @@ Bu nedenle, başvuru sürecinin doğru yönetilmesi büyük önem taşır. Capit
 
 Doğru yönlendirme ve hukuki destekle vize sürecinizi güvenle tamamlamak için Capitol Law Partners ile iletişime geçebilirsiniz.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

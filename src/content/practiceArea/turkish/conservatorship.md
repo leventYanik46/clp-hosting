@@ -95,6 +95,13 @@ post:
     <p>Vasiyetçilik avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/kayyimliktan-kacinmak-trost-ve-vekaletname
+      - /tr/ebeveyn-icin-kayyim-nasil-olunur
+      - /tr/kayyimlik-nasil-sona-erer-kayyim-degisikligi
+      - /tr/kayyim-yillik-hesap-raporu-neleri-icermeli
+      - /tr/kayyimlik-nedir-ne-zaman-gerekir
   title: "Vasiyetçilik | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Varlıkları yönetemeyen kişiler için mali vekillik, şeffaf raporlama ve 

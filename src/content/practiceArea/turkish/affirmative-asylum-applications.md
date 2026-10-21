@@ -105,6 +105,11 @@ post:
     <p>Olumlu Sığınma Başvuruları avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/iltica-beyani-nasil-yazilir
+      - /tr/iltica-mulakatindan-sonra-ne-olur
+      - /tr/uscis-iltica-mulakatinda-sizi-neler-bekliyor
   title: "Olumlu Sığınma Başvuruları | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Destekleyici kanıtlar ve mülakat hazırlığıyla titizlikle hazırlanmış sığınma

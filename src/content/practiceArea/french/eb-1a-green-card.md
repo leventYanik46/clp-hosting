@@ -95,6 +95,11 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Green Card EB-1A recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/repondre-rfe-eb-1a-demande-de-preuves
+      - /fr/liste-des-preuves-eb-1a
+      - /fr/eb-1a-examen-final-au-fond
   title: "Green Card EB-1A | Services Juridiques de Capitol Law Partners"
   description: >-
     Pétitions de green card pour capacité extraordinaire, fondées sur une

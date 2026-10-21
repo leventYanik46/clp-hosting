@@ -81,6 +81,13 @@ post:
     <p>Quando a decisão precisa ser tomada com rapidez, um plano jurídico bem organizado ajuda a priorizar documentos, definir riscos e avançar com mais segurança. Esse tipo de clareza costuma ser especialmente valioso para clientes que procuram orientação confiável antes que o assunto se torne mais difícil ou mais caro.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/indenizacao-por-morte-por-negligencia
+      - /pt/acao-por-morte-por-negligencia-e-inventario
+      - /pt/morte-por-negligencia-vs-acao-de-sobrevivencia
+      - /pt/prazo-para-acao-por-morte-por-negligencia
+      - /pt/quem-pode-processar-por-morte-por-negligencia
   title: "Homicídio Culposo | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Representação compassiva para famílias que buscam responsabilização e

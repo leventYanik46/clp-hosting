@@ -217,11 +217,11 @@ Gibi tat kaçırıcı etkenler olabiliyor. 
 
 ### **Capitol Law Partners ile Profesyonel Danışmanlık** 
 
-Work and Travel başvuru süreci, evrak hazırlığı, vize mülakatı ve program kurallarının takibi öğrenciler için zaman zaman karmaşık bir hâle gelebilir. [Capitol Law Partners](https://capitollawpartners.com/) olarak, ABD göçmenlik ve öğrenci programlarında uzman ekibimizle sürecin her aşamasında doğru adımlarla ilerlemenize yardımcı oluyoruz. Belgelerinizin eksiksiz hazırlanması, vize görüşmesine uygun şekilde yönlendirilmeniz ve program sürecinizin sorunsuz ilerlemesi için profesyonel bir rehberlik sunuyoruz. ABD’de eğitim veya çalışma deneyimi planlıyorsanız, Capitol Law Partners ile güvenilir ve uzman bir danışmanlık desteği alarak sürecinizi daha kolay ve sağlam bir şekilde yönetebilirsiniz. 
+Work and Travel başvuru süreci, evrak hazırlığı, vize mülakatı ve program kurallarının takibi öğrenciler için zaman zaman karmaşık bir hâle gelebilir. [Capitol Law Partners](/tr) olarak, ABD göçmenlik ve öğrenci programlarında uzman ekibimizle sürecin her aşamasında doğru adımlarla ilerlemenize yardımcı oluyoruz. Belgelerinizin eksiksiz hazırlanması, vize görüşmesine uygun şekilde yönlendirilmeniz ve program sürecinizin sorunsuz ilerlemesi için profesyonel bir rehberlik sunuyoruz. ABD’de eğitim veya çalışma deneyimi planlıyorsanız, Capitol Law Partners ile güvenilir ve uzman bir danışmanlık desteği alarak sürecinizi daha kolay ve sağlam bir şekilde yönetebilirsiniz. 
 
 #### Bize Ulaşın. 
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

@@ -94,6 +94,13 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa H-2B normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/negacion-o-demora-visa-h-2b-causas
+      - /es/tipos-de-necesidad-temporal-visa-h-2b
+      - /es/limite-anual-visa-h-2b-como-funciona
+      - /es/obligaciones-del-empleador-visa-h-2b
+      - /es/proceso-visa-h-2b-para-empleadores
   title: "Abogado de visa H-2B para trabajadores estacionales – Capitol Law Partners"
   description: >-
     Visas de trabajador temporal no agrícola para necesidades estacionales o de

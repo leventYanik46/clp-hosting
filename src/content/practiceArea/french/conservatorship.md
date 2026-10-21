@@ -98,6 +98,13 @@ post:
     <p>Les clients qui comparent des avocats en Tutelle recherchent généralement de la réactivité, de la préparation et un travail juridique orienté vers un objectif réel. Qu’il s’agisse de planification, de protection, de conformité, de litige, de réparation ou de statut migratoire, une préparation rigoureuse peut renforcer le dossier.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/eviter-curatelle-trust-procuration
+      - /fr/devenir-curateur-finances-parent
+      - /fr/mettre-fin-curatelle-changer-curateur
+      - /fr/compte-de-gestion-annuel-curateur
+      - /fr/curatelle-conservatorship-definition-quand-necessaire
   title: "Avocat en tutelle pour adultes et familles – Capitol Law Partners"
   description: >-
     Gestion financière pour ceux qui ne peuvent pas gérer leurs biens, avec des

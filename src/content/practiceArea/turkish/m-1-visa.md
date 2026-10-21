@@ -109,6 +109,12 @@ post:
     <p>M-1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/m-1-vizesi-pratik-egitim-kurallari
+      - /tr/m-1-okul-transferi-ve-sure-uzatimi
+      - /tr/m-1-vizesinden-f-1-vizesine-gecis
+      - /tr/m-1-vizesi-icin-uygun-meslek-programlari
   title: "M-1 Mesleki Eğitim Öğrenci Vizesi Avukatı – Capitol Law Partners"
   description: >-
     Mesleki ve teknik programlar için, statü koruma ve transferleri de kapsayan

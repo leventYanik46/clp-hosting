@@ -57,7 +57,7 @@ Amerika’da şirket kurma süreci her ne kadar erişilebilir olsa da, yanlış 
 
 Capitol Law Partners, Amerika’da şirket kurmak isteyen yabancı girişimcilere; şirket yapısının belirlenmesi, yasal uygunluk ve göçmenlik hedefleriyle uyumlu planlama konularında profesyonel hukuki danışmanlık sunmaktadır.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

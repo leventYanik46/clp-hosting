@@ -68,7 +68,7 @@ Birçok başvuru sahibi, önceki retler, birden fazla vatandaşlık veya karmaş
 
 Capitol Law Partners, Amerika Birleşik Devletleri ve Türkiye'den başvuran bireyler ve aileler için göçmenlik hukuku alanında hukuki yardım sağlamaktadır. Washington, New York ve Virginia'da hizmet veren ofislerimizle, müşterilerimizin ABD göçmenlik sürecinde netlik ve güvenle yol almalarına yardımcı oluyoruz.
 
-[Bizimle İletişime Geçin.](https://capitollawpartners.com/contact)
+[Bizimle İletişime Geçin.](/tr/contact)
 
 🟢[](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)Whatsapp [+1 (202) 440-2272](https://api.whatsapp.com/send/?phone=12024402272&text&type=phone_number&app_absent=0)
 

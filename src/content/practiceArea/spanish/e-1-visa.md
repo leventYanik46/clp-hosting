@@ -94,6 +94,13 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa E-1 normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/visa-e-1-para-empleados
+      - /es/visa-e-1-o-e-2-cual-elegir
+      - /es/como-solicitar-visa-e-1-paso-a-paso
+      - /es/requisitos-visa-e-1-comerciante-por-tratado
+      - /es/comercio-sustancial-visa-e-1
   title: "Abogado de visa E-1 para comerciantes por tratado – Capitol Law Partners"
   description: >-
     Asesoría en visa de comerciante por tratado para negocios que realizan

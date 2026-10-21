@@ -94,6 +94,11 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa J-1 normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/j-1-intern-o-trainee-que-categoria-elegir
+      - /es/cambio-de-estatus-j-1-a-h-1b
+      - /es/requisito-de-residencia-de-dos-anos-j-1
   title: "Abogado de visa J-1 para visitantes de intercambio – Capitol Law Partners"
   description: >-
     Visas de visitante de intercambio que abarcan programas de capacitación,

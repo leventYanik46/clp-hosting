@@ -110,6 +110,13 @@ post:
     <p>Una preparación detallada ayuda a demostrar qué ocurrió, cómo afectó la lesión la vida de la persona y qué tipo de compensación puede corresponder. Las personas que comparan abogados de Lesiones Personales normalmente buscan comunicación clara, orientación práctica y una estrategia disciplinada para exigir responsabilidad.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/plazo-de-prescripcion-por-lesiones-personales
+      - /es/como-probar-negligencia-en-lesiones-personales
+      - /es/danos-que-puede-reclamar-por-lesiones-personales
+      - /es/errores-que-debilitan-su-reclamacion-por-lesiones
+      - /es/negligencia-contributiva-en-virginia-y-dc
   title: "Lesiones Personales | Servicios Legales de Capitol Law Partners"
   description: >-
     Nuestro equipo de Lesiones Personales protege a los clientes perjudicados

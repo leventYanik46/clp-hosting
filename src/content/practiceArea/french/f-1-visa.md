@@ -94,6 +94,10 @@ post:
     <p>Une planification précoce laisse le temps d’identifier les lacunes documentaires, de préparer des preuves plus convaincantes et d’organiser le dossier avec cohérence. Les personnes qui comparent des services en Visa F-1 recherchent en général des réponses claires, des attentes réalistes et une stratégie structurée.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/opt-post-diplome-visa-f-1-delais
+      - /fr/travailler-hors-campus-etudiant-f-1
   title: "Avocat pour visa étudiant F-1 – Capitol Law Partners"
   description: >-
     Visas étudiants pour études académiques à temps plein et planification de

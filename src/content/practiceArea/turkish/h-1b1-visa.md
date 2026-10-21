@@ -109,6 +109,13 @@ post:
     <p>H-1B1 Vizesi avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/h-1b1-vizesi-basvurusu-nasil-yapilir
+      - /tr/h-1b1-vizesi-sartlari-sili-singapur
+      - /tr/h-1b1-ve-h-1b-arasindaki-farklar
+      - /tr/h-1b1-vizesi-uzatma-ve-yenileme
+      - /tr/h-1b1-statusunden-green-card-alma
   title: "H-1B1 Vizesi | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     ABD'de uzmanlık gerektiren pozisyonlara başvuran Şili ve Singapur

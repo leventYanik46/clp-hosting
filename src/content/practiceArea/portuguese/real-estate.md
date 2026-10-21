@@ -128,6 +128,12 @@ post:
     <p>Uma estratégia prática ajuda a fechar negócios com mais eficiência, resolver problemas mais cedo e proteger ocupação, desenvolvimento, financiamento ou rentabilidade. Clientes que comparam advogados de Direito Imobiliário costumam valorizar orientação clara, redação forte e boa negociação.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /pt/retencao-firpta-vendedor-estrangeiro
+      - /pt/seguro-de-titulo-na-compra-de-imovel
+      - /pt/joint-tenancy-ou-tenancy-in-common-diferencas
+      - /pt/warranty-deed-ou-quitclaim-deed-diferencas
   title: "Direito Imobiliário | Servicos Juridicos da Capitol Law Partners"
   description: >-
     Orientação em transações imobiliárias comerciais e residenciais, aquisições

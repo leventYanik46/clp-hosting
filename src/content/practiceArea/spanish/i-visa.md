@@ -94,6 +94,13 @@ post:
     <p>La planificación temprana permite detectar vacíos documentales, preparar pruebas persuasivas y tomar mejores decisiones sobre el orden de presentación, la preparación para entrevista y la comunicación con las agencias migratorias. Quienes comparan servicios de Visa I normalmente buscan orientación clara, expectativas realistas y un equipo legal capaz de convertir un proceso complejo en un plan estructurado.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/visa-i-cambio-de-empleador-y-extension
+      - /es/como-solicitar-la-visa-i-pasos-y-documentos
+      - /es/visa-i-b-1-u-o-1-medios
+      - /es/quien-califica-para-la-visa-i-periodistas
+      - /es/visa-i-para-periodistas-independientes
   title: "Abogado de visa I para periodistas y medios – Capitol Law Partners"
   description: >-
     Visas de prensa para representantes de medios extranjeros que ingresan a EE.

@@ -130,6 +130,12 @@ post:
     <p>Une approche structurée peut rendre la planification à long terme plus efficace et l’administration plus gérable. Les clients qui comparent des avocats en Trusts et successions recherchent en général des explications claires, des étapes concrètes et des documents fiables.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /fr/procuration-ou-directive-medicale-anticipee
+      - /fr/liste-documents-planification-successorale
+      - /fr/planification-successorale-non-citoyens-etats-unis
+      - /fr/quand-mettre-a-jour-plan-successoral
   title: "Trusts et successions | Services Juridiques de Capitol Law Partners"
   description: >-
     Planification successorale complète, protection du patrimoine, testaments,

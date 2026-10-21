@@ -135,6 +135,12 @@ post:
     <p>Pratik bir strateji, işlemlerin daha verimli tamamlanmasına, sorunların daha erken çözülmesine ve kullanım, geliştirme, finansman veya karlılığın korunmasına yardımcı olur. Gayrimenkul Hukuku avukatlarını karşılaştıran kişiler genellikle açık yönlendirme, güçlü sözleşme dili ve etkili müzakere desteği ister.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/firpta-stopaji-yabanci-saticilar
+      - /tr/abd-tapu-sigortasi-gerekli-mi
+      - /tr/joint-tenancy-ve-tenancy-in-common-farki
+      - /tr/warranty-deed-ve-quitclaim-deed-farki
   title: "Gayrimenkul Hukuku | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Ticari ve konut gayrimenkul işlemlerinde, taşınmaz alım-satım, kiralama,

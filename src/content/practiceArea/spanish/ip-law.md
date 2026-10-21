@@ -126,6 +126,13 @@ post:
     <p>La protección proactiva puede fortalecer la posición de negociación, reducir interrupciones durante el crecimiento y preservar valor comercial. Las personas que comparan abogados de Propiedad Intelectual suelen buscar respuestas prácticas, ejecución eficiente y una estrategia que proteja tanto el riesgo inmediato como el valor futuro de la marca.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /es/acuerdo-de-licencia-de-propiedad-intelectual-clausulas
+      - /es/errores-de-propiedad-intelectual-en-startups
+      - /es/titularidad-propiedad-intelectual-empleados-contratistas
+      - /es/como-proteger-una-idea-de-negocio
+      - /es/debida-diligencia-propiedad-intelectual-startups
   title: "Propiedad Intelectual | Servicios Legales de Capitol Law Partners"
   description: >-
     Registro de marcas, derechos de autor, protección de secretos comerciales,

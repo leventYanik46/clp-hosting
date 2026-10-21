@@ -95,6 +95,12 @@ post:
     <p>Göçmenlik Davaları avukatlarını karşılaştıran kişiler genellikle hazırlık, erişilebilirlik ve gerçek bir hedefe bağlı hukuki çalışma arar. Konu planlama, koruma, uyum, uyuşmazlık, tazminat veya göçmenlik statüsü olsun, dikkatli hazırlık daha fazla netlik sağlayabilir ve dosyanın konumunu güçlendirebilir.</p>
 
 seo:
+  strategy:
+    internalLinks:
+      - /tr/gocmenlik-davasinda-idari-kayit-neden-belirleyici
+      - /tr/i-290b-itirazi-mi-federal-dava-mi
+      - /tr/federal-mahkeme-hangi-uscis-kararlarini-inceler
+      - /tr/uscis-ret-kararina-karsi-apa-davasi
   title: "Göçmenlik Davaları | Capitol Law Partners Hukuk Hizmetleri"
   description: >-
     Ret, gecikme ve olumsuz göçmenlik kararlarına karşı federal ve idari
