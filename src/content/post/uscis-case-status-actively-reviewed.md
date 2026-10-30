@@ -1,5 +1,5 @@
 ---
-title: "USCIS Case Status Messages Decoded: "Actively Reviewed" and Other Updates"
+title: "USCIS Case Status Messages Decoded: 'Actively Reviewed' and Other Updates"
 excerpt: >-
   What common USCIS case status messages mean, including case is being actively reviewed, which updates need action, and when to escalate.
 category: Immigration Law
@@ -8,7 +8,7 @@ author: "Attorney Sena Sahin"
 tags:
   - Immigration
 image: /images/uscis-case-status-actively-reviewed.jpg
-publishDate: 2026-10-27T16:14:46.810-04:00
+publishDate: 2026-10-30T14:14:50.057-04:00
 metadata:
   canonical: https://capitollawpartners.com/uscis-case-status-actively-reviewed
   description: >-
