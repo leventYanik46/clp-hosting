@@ -1,5 +1,5 @@
 ---
-title: "EB-3 "Other Worker" Green Card: Which Jobs Qualify and the Wait to Expect"
+title: "EB-3 'Other Worker' Green Card: Which Jobs Qualify and the Wait to Expect"
 excerpt: >-
   How the EB-3 other worker category works for jobs needing less than two years of training, which positions qualify, and why the wait is longer.
 category: Business Immigration Law
@@ -10,7 +10,7 @@ tags:
   - Green Card
   - PERM
 image: /images/eb3-unskilled-other-worker-green-card.jpg
-publishDate: 2026-10-27T15:29:51.357-04:00
+publishDate: 2026-10-30T14:14:45.547-04:00
 metadata:
   canonical: https://capitollawpartners.com/eb3-unskilled-other-worker-green-card
   description: >-
