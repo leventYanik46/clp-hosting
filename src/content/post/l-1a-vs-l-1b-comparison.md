@@ -11,14 +11,14 @@ tags:
 image: /images/l-1a-vs-l-1b-comparison.jpg
 publishDate: 2026-07-08T09:03:36.160-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/l-1a-vs-l-1b-comparison
+  canonical: https://capitollawpartners.com/l-1a-vs-l-1b-comparison
   description: >-
     Compare the L-1A manager track and L-1B specialized-knowledge track to pick the right intracompany transfer visa.
   title: "L-1A vs L-1B: Which Transfer Visa Fits?"
 seo:
   description: >-
     Compare the L-1A manager track and L-1B specialized-knowledge track to pick the right intracompany transfer visa.
-  canonicalOverride: https://capitollawpartners.com/blog/l-1a-vs-l-1b-comparison
+  canonicalOverride: https://capitollawpartners.com/l-1a-vs-l-1b-comparison
   title: "L-1A vs L-1B: Which Transfer Visa Fits?"
 ---
 The L-1 visa splits into two tracks, and choosing the right one matters because they lead to different durations and different green card paths. L-1A is for managers and executives. L-1B is for employees with specialized knowledge. Picking the wrong one invites a denial.

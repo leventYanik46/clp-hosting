@@ -11,14 +11,14 @@ tags:
 image: /images/immigration-counsel-tech-companies-virginia.jpg
 publishDate: 2026-07-30T09:01:16.317-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/immigration-counsel-tech-companies-virginia
+  canonical: https://capitollawpartners.com/immigration-counsel-tech-companies-virginia
   description: >-
     Visa and green card strategy for Virginia tech employers, from H-1B and O-1 hiring to retaining engineers.
   title: "Immigration Counsel for Virginia Tech Companies"
 seo:
   description: >-
     Visa and green card strategy for Virginia tech employers, from H-1B and O-1 hiring to retaining engineers.
-  canonicalOverride: https://capitollawpartners.com/blog/immigration-counsel-tech-companies-virginia
+  canonicalOverride: https://capitollawpartners.com/immigration-counsel-tech-companies-virginia
   title: "Immigration Counsel for Virginia Tech Companies"
 ---
 Virginia's tech sector, concentrated in Northern Virginia but growing statewide, runs on specialized talent, and a lot of that talent needs work authorization. Capitol Law Partners provides immigration counsel built for how tech companies actually hire, from fast-moving startups to established firms. Here's where we help.

@@ -9,14 +9,14 @@ tags:
 image: /images/mandamus-davasi-nedir.jpg
 publishDate: 2026-10-21T09:01:05.499-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/mandamus-davasi-nedir
+  canonical: https://capitollawpartners.com/tr/mandamus-davasi-nedir
   description: >-
     Mandamus davasinin ne oldugunu, USCIS gecikmelerinde ne zaman acilabilecegini ve federal mahkeme surecinin nasil isleyecegini ogrenin.
   title: "Mandamus Davasi: Gocmenlik Gecikmelerinde Cozum"
 seo:
   description: >-
     Mandamus davasinin ne oldugunu, USCIS gecikmelerinde ne zaman acilabilecegini ve federal mahkeme surecinin nasil isleyecegini ogrenin.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/mandamus-davasi-nedir
+  canonicalOverride: https://capitollawpartners.com/tr/mandamus-davasi-nedir
   title: "Mandamus Davasi: Gocmenlik Gecikmelerinde Cozum"
 ---
 ## Mandamus Emri Ne Yapar

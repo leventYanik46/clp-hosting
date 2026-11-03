@@ -11,14 +11,14 @@ tags:
 image: /images/how-much-does-perm-cost.jpg
 publishDate: 2026-07-12T09:00:41.171-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/how-much-does-perm-cost
+  canonical: https://capitollawpartners.com/how-much-does-perm-cost
   description: >-
     PERM cost breakdown: recruitment, attorney fees, government fees, and who is legally required to pay each.
   title: "How Much Does PERM Labor Certification Cost?"
 seo:
   description: >-
     PERM cost breakdown: recruitment, attorney fees, government fees, and who is legally required to pay each.
-  canonicalOverride: https://capitollawpartners.com/blog/how-much-does-perm-cost
+  canonicalOverride: https://capitollawpartners.com/how-much-does-perm-cost
   title: "How Much Does PERM Labor Certification Cost?"
 ---
 PERM has no government filing fee for the ETA-9089 itself, but it's not free. The real costs are recruitment and attorney fees, and the law dictates who must pay them. Understanding the split matters because charging the employee for costs the employer must bear can invalidate the case.

@@ -12,14 +12,14 @@ tags:
 image: /images/e-2-vs-eb-5-comparison.jpg
 publishDate: 2026-07-17T09:01:34.821-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/e-2-vs-eb-5-comparison
+  canonical: https://capitollawpartners.com/e-2-vs-eb-5-comparison
   description: >-
     Compare the E-2 and EB-5 investor routes on investment size, permanence, and timeline to choose the right one.
   title: "E-2 vs EB-5: Comparing Investor Visa Paths"
 seo:
   description: >-
     Compare the E-2 and EB-5 investor routes on investment size, permanence, and timeline to choose the right one.
-  canonicalOverride: https://capitollawpartners.com/blog/e-2-vs-eb-5-comparison
+  canonicalOverride: https://capitollawpartners.com/e-2-vs-eb-5-comparison
   title: "E-2 vs EB-5: Comparing Investor Visa Paths"
 ---
 E-2 and EB-5 are both investment-based routes, but they're fundamentally different products. The E-2 is a renewable temporary visa with a lower entry point. The EB-5 is a path to a green card requiring a much larger investment. Choosing between them comes down to how much you can invest and whether you want permanent residence.

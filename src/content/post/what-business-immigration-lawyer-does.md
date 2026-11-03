@@ -11,14 +11,14 @@ tags:
 image: /images/what-business-immigration-lawyer-does.jpg
 publishDate: 2026-06-30T15:06:59.563-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/what-business-immigration-lawyer-does
+  canonical: https://capitollawpartners.com/what-business-immigration-lawyer-does
   description: >-
     What a business immigration lawyer handles for your company, from work visas to green cards, and when to hire one.
   title: "Business Immigration Lawyer: What They Do for Employers"
 seo:
   description: >-
     What a business immigration lawyer handles for your company, from work visas to green cards, and when to hire one.
-  canonicalOverride: https://capitollawpartners.com/blog/what-business-immigration-lawyer-does
+  canonicalOverride: https://capitollawpartners.com/what-business-immigration-lawyer-does
   title: "Business Immigration Lawyer: What They Do for Employers"
 ---
 A business immigration lawyer is the person who keeps your company's hiring of foreign talent legal, on schedule, and defensible if the government asks questions. If you're a founder or HR lead trying to bring on a key engineer, transfer an executive from an overseas office, or sponsor someone for a green card, a business immigration attorney handles the strategy and the paperwork so a hire doesn't fall apart over a missed filing window.

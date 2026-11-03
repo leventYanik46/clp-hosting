@@ -10,14 +10,14 @@ tags:
 image: /images/yesil-kart-bekleme-listesi.jpg
 publishDate: 2026-10-20T09:01:05.323-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/yesil-kart-bekleme-listesi
+  canonical: https://capitollawpartners.com/tr/yesil-kart-bekleme-listesi
   description: >-
     Ulke basina kotalarin, vize bulteninin ve geri cekilmenin green card bekleme surelerini nasil uzattigini ve neler yapabileceginizi ogrenin.
   title: "Green Card Bekleme Listesi: Neden Bazi Basvurular Yillarca Surer"
 seo:
   description: >-
     Ulke basina kotalarin, vize bulteninin ve geri cekilmenin green card bekleme surelerini nasil uzattigini ve neler yapabileceginizi ogrenin.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/yesil-kart-bekleme-listesi
+  canonicalOverride: https://capitollawpartners.com/tr/yesil-kart-bekleme-listesi
   title: "Green Card Bekleme Listesi: Neden Bazi Basvurular Yillarca Surer"
 ---
 ## Green Card Süreci Neden Bu Kadar Uzun Sürüyor

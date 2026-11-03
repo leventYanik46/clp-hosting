@@ -11,14 +11,14 @@ tags:
 image: /images/priority-date-vs-filing-date.jpg
 publishDate: 2026-07-16T09:01:46.798-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/priority-date-vs-filing-date
+  canonical: https://capitollawpartners.com/priority-date-vs-filing-date
   description: >-
     The difference between priority date and filing date, how the visa bulletin uses them, and why it affects your wait.
   title: "Priority Date vs Filing Date Explained"
 seo:
   description: >-
     The difference between priority date and filing date, how the visa bulletin uses them, and why it affects your wait.
-  canonicalOverride: https://capitollawpartners.com/blog/priority-date-vs-filing-date
+  canonicalOverride: https://capitollawpartners.com/priority-date-vs-filing-date
   title: "Priority Date vs Filing Date Explained"
 ---
 Two dates cause endless confusion for green card applicants: the priority date and the filing date. They're not the same thing, and mixing them up leads to misreading the visa bulletin and miscalculating your wait. Here's the clear version.

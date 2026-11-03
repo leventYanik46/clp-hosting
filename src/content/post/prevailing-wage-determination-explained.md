@@ -11,14 +11,14 @@ tags:
 image: /images/prevailing-wage-determination-explained.jpg
 publishDate: 2026-07-09T09:01:24.148-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/prevailing-wage-determination-explained
+  canonical: https://capitollawpartners.com/prevailing-wage-determination-explained
   description: >-
     What a prevailing wage determination is, how the DOL sets it, and why it gates the PERM and green card process.
   title: "Prevailing Wage Determination Explained"
 seo:
   description: >-
     What a prevailing wage determination is, how the DOL sets it, and why it gates the PERM and green card process.
-  canonicalOverride: https://capitollawpartners.com/blog/prevailing-wage-determination-explained
+  canonicalOverride: https://capitollawpartners.com/prevailing-wage-determination-explained
   title: "Prevailing Wage Determination Explained"
 ---
 A prevailing wage determination (PWD) is the Department of Labor's official answer to a simple question: what's the going rate for this job, in this location, at this skill level? It's the foundation of PERM and many work visas because the employer must pay at least this wage. Get it wrong and everything downstream is at risk.

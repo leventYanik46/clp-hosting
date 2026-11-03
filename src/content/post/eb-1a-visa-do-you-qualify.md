@@ -11,14 +11,14 @@ tags:
 image: /images/eb-1a-visa-do-you-qualify.jpg
 publishDate: 2026-07-31T09:01:10.493-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/eb-1a-visa-do-you-qualify
+  canonical: https://capitollawpartners.com/eb-1a-visa-do-you-qualify
   description: >-
     See whether you qualify for the EB-1A extraordinary ability green card, covering the ten USCIS criteria and what evidence wins.
   title: "EB-1A Visa: Do You Qualify? Criteria Explained"
 seo:
   description: >-
     See whether you qualify for the EB-1A extraordinary ability green card, covering the ten USCIS criteria and what evidence wins.
-  canonicalOverride: https://capitollawpartners.com/blog/eb-1a-visa-do-you-qualify
+  canonicalOverride: https://capitollawpartners.com/eb-1a-visa-do-you-qualify
   title: "EB-1A Visa: Do You Qualify? Criteria Explained"
 ---
 The EB-1A is a green card for people at the top of their field who can document it. There's no employer sponsor and no labor certification required, which makes it one of the fastest employment-based routes. The trade-off is a high standard. You qualify either by a one-time major achievement (think a Nobel-level award) or, far more commonly, by meeting at least three of ten regulatory criteria.

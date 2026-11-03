@@ -12,14 +12,14 @@ tags:
 image: /images/eb-1c-multinational-manager-requirements.jpg
 publishDate: 2026-08-02T09:00:44.260-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/eb-1c-multinational-manager-requirements
+  canonical: https://capitollawpartners.com/eb-1c-multinational-manager-requirements
   description: >-
     EB-1C requirements for transferred executives and managers, and how it connects to the L-1A transfer visa.
   title: "EB-1C Multinational Manager Green Card Explained"
 seo:
   description: >-
     EB-1C requirements for transferred executives and managers, and how it connects to the L-1A transfer visa.
-  canonicalOverride: https://capitollawpartners.com/blog/eb-1c-multinational-manager-requirements
+  canonicalOverride: https://capitollawpartners.com/eb-1c-multinational-manager-requirements
   title: "EB-1C Multinational Manager Green Card Explained"
 ---
 The EB-1C is a green card for multinational managers and executives, essentially the permanent-residence counterpart to the L-1A visa. It lets a company that's transferred a leader to the U.S. make that arrangement permanent, without PERM labor certification. Here's what it requires.

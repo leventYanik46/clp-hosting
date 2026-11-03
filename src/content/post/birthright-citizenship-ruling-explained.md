@@ -10,14 +10,14 @@ tags:
 image: /images/birthright-citizenship-ruling-explained.jpg
 publishDate: 2026-07-07T17:04:52.923-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/birthright-citizenship-ruling-explained
+  canonical: https://capitollawpartners.com/birthright-citizenship-ruling-explained
   description: >-
     The Supreme Court reaffirmed birthright citizenship under the 14th Amendment. Learn what it means for your family and immigration case.
   title: "Birthright Citizenship Ruling: What It Means for You"
 seo:
   description: >-
     The Supreme Court reaffirmed birthright citizenship under the 14th Amendment. Learn what it means for your family and immigration case.
-  canonicalOverride: https://capitollawpartners.com/blog/birthright-citizenship-ruling-explained
+  canonicalOverride: https://capitollawpartners.com/birthright-citizenship-ruling-explained
   title: "Birthright Citizenship Ruling: What It Means for You"
 ---
 ## Birthright Citizenship Remains in Effect for Babies Born in the United States

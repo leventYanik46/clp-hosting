@@ -11,14 +11,14 @@ tags:
 image: /images/how-to-prove-extraordinary-ability-o-1.jpg
 publishDate: 2026-08-01T09:00:49.516-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/how-to-prove-extraordinary-ability-o-1
+  canonical: https://capitollawpartners.com/how-to-prove-extraordinary-ability-o-1
   description: >-
     An evidence guide to documenting each O-1 criterion so your petition meets the extraordinary ability standard.
   title: "How to Prove Extraordinary Ability for O-1"
 seo:
   description: >-
     An evidence guide to documenting each O-1 criterion so your petition meets the extraordinary ability standard.
-  canonicalOverride: https://capitollawpartners.com/blog/how-to-prove-extraordinary-ability-o-1
+  canonicalOverride: https://capitollawpartners.com/how-to-prove-extraordinary-ability-o-1
   title: "How to Prove Extraordinary Ability for O-1"
 ---
 Meeting the O-1 standard is an evidence exercise. The criteria tell you what categories count. The petition wins or loses on how well you document each one. This is a deep dive into building evidence that USCIS finds persuasive, criterion by criterion.

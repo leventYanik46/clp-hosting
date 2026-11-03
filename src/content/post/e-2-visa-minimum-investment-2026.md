@@ -11,14 +11,14 @@ tags:
 image: /images/e-2-visa-minimum-investment-2026.jpg
 publishDate: 2026-07-19T09:00:43.752-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/e-2-visa-minimum-investment-2026
+  canonical: https://capitollawpartners.com/e-2-visa-minimum-investment-2026
   description: >-
     There's no fixed E-2 minimum. Learn what 'substantial' means in 2026 and how to gauge if your investment is enough.
   title: "E-2 Visa Minimum Investment 2026: How Much?"
 seo:
   description: >-
     There's no fixed E-2 minimum. Learn what 'substantial' means in 2026 and how to gauge if your investment is enough.
-  canonicalOverride: https://capitollawpartners.com/blog/e-2-visa-minimum-investment-2026
+  canonicalOverride: https://capitollawpartners.com/e-2-visa-minimum-investment-2026
   title: "E-2 Visa Minimum Investment 2026: How Much?"
 ---
 The E-2 visa has no official minimum investment amount, which surprises a lot of applicants. Instead, the law asks whether your investment is 'substantial' relative to the business. In practice that means there's no magic number for 2026. There's a proportionality test you have to satisfy.

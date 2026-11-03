@@ -11,14 +11,14 @@ tags:
 image: /images/what-happens-if-h-1b-denied.jpg
 publishDate: 2026-07-10T09:01:25.260-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/what-happens-if-h-1b-denied
+  canonical: https://capitollawpartners.com/what-happens-if-h-1b-denied
   description: >-
     Options after an H-1B denial: understanding the reason, appealing, refiling, and alternative visa routes to consider.
   title: "What Happens If Your H-1B Is Denied?"
 seo:
   description: >-
     Options after an H-1B denial: understanding the reason, appealing, refiling, and alternative visa routes to consider.
-  canonicalOverride: https://capitollawpartners.com/blog/what-happens-if-h-1b-denied
+  canonicalOverride: https://capitollawpartners.com/what-happens-if-h-1b-denied
   title: "What Happens If Your H-1B Is Denied?"
 ---
 An H-1B denial isn't necessarily the end of the road, but it does start a clock. What you can do next depends on why it was denied and what status the worker currently holds. The first move is always to read the denial closely, because the stated reason determines every option that follows.

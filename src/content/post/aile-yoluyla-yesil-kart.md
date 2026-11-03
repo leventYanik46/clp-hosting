@@ -10,14 +10,14 @@ tags:
 image: /images/aile-yoluyla-yesil-kart.jpg
 publishDate: 2026-10-19T09:01:22.916-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/aile-yoluyla-yesil-kart
+  canonical: https://capitollawpartners.com/tr/aile-yoluyla-yesil-kart
   description: >-
     Aile bazli green card kategorileri, kimlerin basvurabileceegi ve her kategorinin ne kadar surdugunu ogrenin.
   title: "Aile Yoluyla Green Card: Kategoriler ve Bekleme"
 seo:
   description: >-
     Aile bazli green card kategorileri, kimlerin basvurabileceegi ve her kategorinin ne kadar surdugunu ogrenin.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/aile-yoluyla-yesil-kart
+  canonicalOverride: https://capitollawpartners.com/tr/aile-yoluyla-yesil-kart
   title: "Aile Yoluyla Green Card: Kategoriler ve Bekleme"
 ---
 ## Aile Yoluyla Green Card Nasıl İşler

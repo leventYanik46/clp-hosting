@@ -12,14 +12,14 @@ tags:
 image: /images/can-you-change-h-1b-to-green-card.jpg
 publishDate: 2026-07-18T09:00:51.277-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/can-you-change-h-1b-to-green-card
+  canonical: https://capitollawpartners.com/can-you-change-h-1b-to-green-card
   description: >-
     How to move from H-1B to an employment green card: dual intent, the PERM-to-adjustment path, and timing that matters.
   title: "Can You Change From H-1B to a Green Card?"
 seo:
   description: >-
     How to move from H-1B to an employment green card: dual intent, the PERM-to-adjustment path, and timing that matters.
-  canonicalOverride: https://capitollawpartners.com/blog/can-you-change-h-1b-to-green-card
+  canonicalOverride: https://capitollawpartners.com/can-you-change-h-1b-to-green-card
   title: "Can You Change From H-1B to a Green Card?"
 ---
 Yes, and the H-1B is actually built for it. Unlike some visas, the H-1B allows 'dual intent,' meaning you can pursue permanent residence while holding it without jeopardizing your status. For many professionals, the H-1B is the bridge to an employment-based green card.

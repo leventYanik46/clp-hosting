@@ -11,14 +11,14 @@ tags:
 image: /images/l-1-visa-guide-transfers.jpg
 publishDate: 2026-07-28T09:01:41.293-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/l-1-visa-guide-transfers
+  canonical: https://capitollawpartners.com/l-1-visa-guide-transfers
   description: >-
     How the L-1 visa works for multinational employers: qualifying relationships, eligibility, and new-office petitions.
   title: "L-1 Visa Guide: Transferring Employees to the U.S."
 seo:
   description: >-
     How the L-1 visa works for multinational employers: qualifying relationships, eligibility, and new-office petitions.
-  canonicalOverride: https://capitollawpartners.com/blog/l-1-visa-guide-transfers
+  canonicalOverride: https://capitollawpartners.com/l-1-visa-guide-transfers
   title: "L-1 Visa Guide: Transferring Employees to the U.S."
 ---
 The L-1 visa lets a multinational company transfer certain employees from a foreign office to a U.S. one. It's the go-to route for companies expanding into the U.S. or moving key people across borders, because it doesn't depend on a lottery and supports both established offices and new ones.

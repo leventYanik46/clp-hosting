@@ -9,14 +9,14 @@ tags:
 image: /images/asylum-interview-preparation.jpg
 publishDate: 2026-10-17T09:00:33.062-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/asylum-interview-preparation
+  canonical: https://capitollawpartners.com/asylum-interview-preparation
   description: >-
     Prepare for your USCIS asylum interview with this guide to common questions, credibility factors, and evidence tips.
   title: "Asylum Interview Prep: Questions and How to Answer"
 seo:
   description: >-
     Prepare for your USCIS asylum interview with this guide to common questions, credibility factors, and evidence tips.
-  canonicalOverride: https://capitollawpartners.com/blog/asylum-interview-preparation
+  canonicalOverride: https://capitollawpartners.com/asylum-interview-preparation
   title: "Asylum Interview Prep: Questions and How to Answer"
 ---
 ## What Happens at the Asylum Interview

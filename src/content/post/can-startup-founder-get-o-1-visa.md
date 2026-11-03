@@ -11,14 +11,14 @@ tags:
 image: /images/can-startup-founder-get-o-1-visa.jpg
 publishDate: 2026-07-14T12:22:34.034-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/can-startup-founder-get-o-1-visa
+  canonical: https://capitollawpartners.com/can-startup-founder-get-o-1-visa
   description: >-
     Yes, founders can qualify for the O-1 with an agent or a properly structured company petitioner. Here's how.
   title: "Can a Startup Founder Get an O-1 Visa?"
 seo:
   description: >-
     Yes, founders can qualify for the O-1 with an agent or a properly structured company petitioner. Here's how.
-  canonicalOverride: https://capitollawpartners.com/blog/can-startup-founder-get-o-1-visa
+  canonicalOverride: https://capitollawpartners.com/can-startup-founder-get-o-1-visa
   title: "Can a Startup Founder Get an O-1 Visa?"
 ---
 Yes, startup founders can get the O-1 visa, and it's become a popular route for founders who can't use the H-1B lottery. The catch is structural: the O-1 needs a petitioner, and you generally can't petition for yourself. Founders solve this with an agent or a carefully structured company petition.

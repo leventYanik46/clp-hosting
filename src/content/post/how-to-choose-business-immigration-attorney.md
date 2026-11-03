@@ -11,14 +11,14 @@ tags:
 image: /images/how-to-choose-business-immigration-attorney.jpg
 publishDate: 2026-06-30T16:24:01.249-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/how-to-choose-business-immigration-attorney
+  canonical: https://capitollawpartners.com/how-to-choose-business-immigration-attorney
   description: >-
     Vetting a business immigration attorney: questions to ask, red flags, and what fee structures mean for employers.
   title: "How to Choose a Business Immigration Attorney"
 seo:
   description: >-
     Vetting a business immigration attorney: questions to ask, red flags, and what fee structures mean for employers.
-  canonicalOverride: https://capitollawpartners.com/blog/how-to-choose-business-immigration-attorney
+  canonicalOverride: https://capitollawpartners.com/how-to-choose-business-immigration-attorney
   title: "How to Choose a Business Immigration Attorney"
 ---
 Choosing a business immigration attorney is mostly about fit, track record, and clear pricing. The category of visa or green card you need is rarely exotic, so the differentiator is how the attorney communicates, how they handle problems, and whether their fees are predictable. Here's how to vet one before you commit.

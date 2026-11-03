@@ -11,14 +11,14 @@ tags:
 image: /images/business-immigration-lawyer-virginia.jpg
 publishDate: 2026-07-25T09:00:46.297-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/business-immigration-lawyer-virginia
+  canonical: https://capitollawpartners.com/business-immigration-lawyer-virginia
   description: >-
     Capitol Law Partners helps Virginia employers with work visas and green cards, from H-1B to PERM and EB petitions.
   title: "Business Immigration Lawyer in Virginia"
 seo:
   description: >-
     Capitol Law Partners helps Virginia employers with work visas and green cards, from H-1B to PERM and EB petitions.
-  canonicalOverride: https://capitollawpartners.com/blog/business-immigration-lawyer-virginia
+  canonicalOverride: https://capitollawpartners.com/business-immigration-lawyer-virginia
   title: "Business Immigration Lawyer in Virginia"
 ---
 Virginia companies, from Northern Virginia tech firms to growing businesses across the state, increasingly need to hire and retain foreign talent. Capitol Law Partners helps Virginia employers navigate work visas and employment-based green cards so a key hire doesn't stall over immigration. Here's how we support employers in the Commonwealth.

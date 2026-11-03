@@ -11,14 +11,14 @@ tags:
 image: /images/h-1b-lawyer-washington-dc.jpg
 publishDate: 2026-08-05T09:01:28.573-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/h-1b-lawyer-washington-dc
+  canonical: https://capitollawpartners.com/h-1b-lawyer-washington-dc
   description: >-
     Capitol Law Partners helps DC-area employers sponsor H-1B workers, from lottery registration through filing.
   title: "H-1B Sponsorship Lawyer in Washington, DC"
 seo:
   description: >-
     Capitol Law Partners helps DC-area employers sponsor H-1B workers, from lottery registration through filing.
-  canonicalOverride: https://capitollawpartners.com/blog/h-1b-lawyer-washington-dc
+  canonicalOverride: https://capitollawpartners.com/h-1b-lawyer-washington-dc
   title: "H-1B Sponsorship Lawyer in Washington, DC"
 ---
 Washington, DC employers competing for specialized talent often need to sponsor H-1B workers, and the cap, lottery, and compliance rules make getting it right essential. Capitol Law Partners helps DC-area employers manage H-1B sponsorship from registration through filing. Here's how we support you.

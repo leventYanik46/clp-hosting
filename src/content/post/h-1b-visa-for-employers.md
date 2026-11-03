@@ -11,14 +11,14 @@ tags:
 image: /images/h-1b-visa-for-employers.jpg
 publishDate: 2026-07-20T09:01:53.253-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/h-1b-visa-for-employers
+  canonical: https://capitollawpartners.com/h-1b-visa-for-employers
   description: >-
     An employer's guide to H-1B sponsorship: what it requires, the annual cap, and how the registration lottery works.
   title: "H-1B Visa for Employers: Sponsorship and Caps"
 seo:
   description: >-
     An employer's guide to H-1B sponsorship: what it requires, the annual cap, and how the registration lottery works.
-  canonicalOverride: https://capitollawpartners.com/blog/h-1b-visa-for-employers
+  canonicalOverride: https://capitollawpartners.com/h-1b-visa-for-employers
   title: "H-1B Visa for Employers: Sponsorship and Caps"
 ---
 Sponsoring an H-1B worker means committing to a defined process and a set of obligations as the employer. The H-1B is the main route for hiring foreign professionals in specialty occupations, but the annual cap and lottery make timing and preparation everything. Here's what sponsorship actually involves.

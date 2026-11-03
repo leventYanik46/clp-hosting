@@ -11,14 +11,14 @@ tags:
 image: /images/h-1b-cap-exempt-employers.jpg
 publishDate: 2026-08-04T09:01:25.127-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/h-1b-cap-exempt-employers
+  canonical: https://capitollawpartners.com/h-1b-cap-exempt-employers
   description: >-
     H-1B cap-exempt categories explained: universities, affiliated nonprofits, and research organizations that skip the lottery.
   title: "Which Employers Are H-1B Cap-Exempt?"
 seo:
   description: >-
     H-1B cap-exempt categories explained: universities, affiliated nonprofits, and research organizations that skip the lottery.
-  canonicalOverride: https://capitollawpartners.com/blog/h-1b-cap-exempt-employers
+  canonicalOverride: https://capitollawpartners.com/h-1b-cap-exempt-employers
   title: "Which Employers Are H-1B Cap-Exempt?"
 ---
 Some employers can hire H-1B workers any time of year, with no cap and no lottery. If you're one of them, the seasonal scramble doesn't apply. Cap-exempt status is defined by the type of organization, and in some cases by where the work is performed.

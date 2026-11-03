@@ -11,14 +11,14 @@ tags:
 image: /images/file-eb-1a-without-job-offer.jpg
 publishDate: 2026-06-30T16:34:25.890-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/file-eb-1a-without-job-offer
+  canonical: https://capitollawpartners.com/file-eb-1a-without-job-offer
   description: >-
     The EB-1A is self-petitioned with no job offer or employer required. Learn what you must show and the evidence USCIS expects.
   title: "Can You File EB-1A Without a Job Offer? Yes"
 seo:
   description: >-
     The EB-1A is self-petitioned with no job offer or employer required. Learn what you must show and the evidence USCIS expects.
-  canonicalOverride: https://capitollawpartners.com/blog/file-eb-1a-without-job-offer
+  canonicalOverride: https://capitollawpartners.com/file-eb-1a-without-job-offer
   title: "Can You File EB-1A Without a Job Offer? Yes"
 ---
 Yes. The EB-1A is one of the only employment-based green cards you can file entirely on your own, with no employer, no job offer, and no labor certification. What replaces the sponsor is a requirement to show you'll continue working in your area of extraordinary ability and that your work benefits the United States.

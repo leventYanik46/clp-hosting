@@ -11,14 +11,14 @@ tags:
 image: /images/how-long-does-perm-take-2026.jpg
 publishDate: 2026-07-03T09:01:45.825-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/how-long-does-perm-take-2026
+  canonical: https://capitollawpartners.com/how-long-does-perm-take-2026
   description: >-
     PERM timelines in 2026 by stage, what drives current DOL processing times, and where delays come from.
   title: "How Long Does PERM Take in 2026?"
 seo:
   description: >-
     PERM timelines in 2026 by stage, what drives current DOL processing times, and where delays come from.
-  canonicalOverride: https://capitollawpartners.com/blog/how-long-does-perm-take-2026
+  canonicalOverride: https://capitollawpartners.com/how-long-does-perm-take-2026
   title: "How Long Does PERM Take in 2026?"
 ---
 PERM in 2026 is a multi-stage process, and the total time depends heavily on Department of Labor backlogs, which shift month to month. The honest answer is that a clean PERM case commonly runs well over a year from start to certification, driven mostly by two government queues. Always check the DOL's current processing time disclosures for the latest figures before planning around a date.

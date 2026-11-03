@@ -10,14 +10,14 @@ tags:
 image: /images/evlilik-yoluyla-yesil-kart.jpg
 publishDate: 2026-10-18T09:00:31.015-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/evlilik-yoluyla-yesil-kart
+  canonical: https://capitollawpartners.com/tr/evlilik-yoluyla-yesil-kart
   description: >-
     Evlilik bazli green card basvurusunun adim adim sureci, eszamanli dosyalama, mulakat hazirligi ve yaygin RFE'ler.
   title: "Evlilik Yoluyla Green Card: Basvuru Rehberi"
 seo:
   description: >-
     Evlilik bazli green card basvurusunun adim adim sureci, eszamanli dosyalama, mulakat hazirligi ve yaygin RFE'ler.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/evlilik-yoluyla-yesil-kart
+  canonicalOverride: https://capitollawpartners.com/tr/evlilik-yoluyla-yesil-kart
   title: "Evlilik Yoluyla Green Card: Basvuru Rehberi"
 ---
 ## Evlilik Bazlı Green Card Süreci

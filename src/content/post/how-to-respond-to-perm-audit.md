@@ -11,14 +11,14 @@ tags:
 image: /images/how-to-respond-to-perm-audit.jpg
 publishDate: 2026-07-11T09:00:39.920-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/how-to-respond-to-perm-audit
+  canonical: https://capitollawpartners.com/how-to-respond-to-perm-audit
   description: >-
     PERM audit triggers, how to read the notice, and how to build a response that keeps your labor certification on track.
   title: "How to Respond to a PERM Audit and Win"
 seo:
   description: >-
     PERM audit triggers, how to read the notice, and how to build a response that keeps your labor certification on track.
-  canonicalOverride: https://capitollawpartners.com/blog/how-to-respond-to-perm-audit
+  canonicalOverride: https://capitollawpartners.com/how-to-respond-to-perm-audit
   title: "How to Respond to a PERM Audit and Win"
 ---
 A PERM audit isn't a denial. It's the Department of Labor asking you to prove the case you filed. Audits are common, and a well-documented PERM survives them. The danger is treating the audit casually or missing the deadline. Here's how to respond without losing the case.

@@ -11,14 +11,14 @@ tags:
 image: /images/o-1-visa-extraordinary-ability.jpg
 publishDate: 2026-07-15T09:01:28.636-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/o-1-visa-extraordinary-ability
+  canonical: https://capitollawpartners.com/o-1-visa-extraordinary-ability
   description: >-
     How the O-1 visa works, the O-1A and O-1B criteria, and the evidence strategy for proving extraordinary ability.
   title: "O-1 Visa: Proving Extraordinary Ability"
 seo:
   description: >-
     How the O-1 visa works, the O-1A and O-1B criteria, and the evidence strategy for proving extraordinary ability.
-  canonicalOverride: https://capitollawpartners.com/blog/o-1-visa-extraordinary-ability
+  canonicalOverride: https://capitollawpartners.com/o-1-visa-extraordinary-ability
   title: "O-1 Visa: Proving Extraordinary Ability"
 ---
 The O-1 is a temporary visa for individuals with extraordinary ability or achievement. It splits into O-1A (sciences, education, business, athletics) and O-1B (arts, or extraordinary achievement in film and television). Unlike the H-1B, there's no cap and no lottery. What you do have to prove is that you're genuinely at the top of your field.

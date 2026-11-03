@@ -11,14 +11,14 @@ tags:
 image: /images/h-1b-vs-l-1-comparison.jpg
 publishDate: 2026-07-07T09:03:24.556-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/h-1b-vs-l-1-comparison
+  canonical: https://capitollawpartners.com/h-1b-vs-l-1-comparison
   description: >-
     Compare H-1B and L-1 visas on caps, the lottery, costs, and timelines to choose the right one for your company.
   title: "H-1B vs L-1: Which Visa Should You Use?"
 seo:
   description: >-
     Compare H-1B and L-1 visas on caps, the lottery, costs, and timelines to choose the right one for your company.
-  canonicalOverride: https://capitollawpartners.com/blog/h-1b-vs-l-1-comparison
+  canonicalOverride: https://capitollawpartners.com/h-1b-vs-l-1-comparison
   title: "H-1B vs L-1: Which Visa Should You Use?"
 ---
 H-1B and L-1 both bring foreign professionals to work in the U.S., but they suit different situations. The H-1B is for specialty occupation hires from anywhere. The L-1 is only for transferring existing employees within a multinational company. For employers, the practical differences come down to the cap, timing, and who's eligible.

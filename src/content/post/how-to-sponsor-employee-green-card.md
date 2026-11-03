@@ -12,14 +12,14 @@ tags:
 image: /images/how-to-sponsor-employee-green-card.jpg
 publishDate: 2026-07-23T09:01:40.699-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/how-to-sponsor-employee-green-card
+  canonical: https://capitollawpartners.com/how-to-sponsor-employee-green-card
   description: >-
     The employer process for green card sponsorship: PERM, the I-140, and adjustment of status, step by step.
   title: "How to Sponsor an Employee for a Green Card"
 seo:
   description: >-
     The employer process for green card sponsorship: PERM, the I-140, and adjustment of status, step by step.
-  canonicalOverride: https://capitollawpartners.com/blog/how-to-sponsor-employee-green-card
+  canonicalOverride: https://capitollawpartners.com/how-to-sponsor-employee-green-card
   title: "How to Sponsor an Employee for a Green Card"
 ---
 Sponsoring an employee for a green card is a multi-step commitment that usually starts with testing the labor market and ends with the employee becoming a permanent resident. For most professional roles, the path runs through PERM, the I-140, and finally adjustment of status. Here's the employer's view of each step.

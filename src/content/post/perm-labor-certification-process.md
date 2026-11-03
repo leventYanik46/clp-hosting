@@ -11,14 +11,14 @@ tags:
 image: /images/perm-labor-certification-process.jpg
 publishDate: 2026-08-06T09:01:20.339-04:00
 metadata:
-  canonical: https://capitollawpartners.com/blog/perm-labor-certification-process
+  canonical: https://capitollawpartners.com/perm-labor-certification-process
   description: >-
     The full PERM process for employers: prevailing wage, recruitment, and filing the ETA-9089 with the DOL.
   title: "PERM Labor Certification Process, Step by Step"
 seo:
   description: >-
     The full PERM process for employers: prevailing wage, recruitment, and filing the ETA-9089 with the DOL.
-  canonicalOverride: https://capitollawpartners.com/blog/perm-labor-certification-process
+  canonicalOverride: https://capitollawpartners.com/perm-labor-certification-process
   title: "PERM Labor Certification Process, Step by Step"
 ---
 PERM is the labor certification step that comes before most employment-based green cards in the EB-2 and EB-3 categories. Its purpose is for the employer to test the U.S. labor market and confirm there's no able, willing, qualified U.S. worker available for the role at the prevailing wage. Here's the process from start to finish.

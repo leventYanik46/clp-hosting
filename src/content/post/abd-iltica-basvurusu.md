@@ -9,14 +9,14 @@ tags:
 image: /images/abd-iltica-basvurusu.jpg
 publishDate: 2026-10-15T09:01:09.383-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/abd-iltica-basvurusu
+  canonical: https://capitollawpartners.com/tr/abd-iltica-basvurusu
   description: >-
     ABD iltica basvuru surecini, bir yillik sureyi, olumlu ve savunma amacli ilticayi ve hazirlanacak kanitlari ogrenin.
   title: "ABD'de Iltica Basvurusu: Adim Adim Rehber"
 seo:
   description: >-
     ABD iltica basvuru surecini, bir yillik sureyi, olumlu ve savunma amacli ilticayi ve hazirlanacak kanitlari ogrenin.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/abd-iltica-basvurusu
+  canonicalOverride: https://capitollawpartners.com/tr/abd-iltica-basvurusu
   title: "ABD'de Iltica Basvurusu: Adim Adim Rehber"
 ---
 ## ABD'de İltica: Temel Bilgiler

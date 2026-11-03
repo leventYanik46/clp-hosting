@@ -9,14 +9,14 @@ tags:
 image: /images/iltica-mulakat-hazirligi.jpg
 publishDate: 2026-10-16T09:01:19.353-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/iltica-mulakat-hazirligi
+  canonical: https://capitollawpartners.com/tr/iltica-mulakat-hazirligi
   description: >-
     USCIS iltica mulakatina bu rehberle hazirlanin: yaygin sorular, guvenilirlik faktorleri ve kanit ipuclari.
   title: "Iltica Mulakati Hazirligi: Sorular ve Yanitlar"
 seo:
   description: >-
     USCIS iltica mulakatina bu rehberle hazirlanin: yaygin sorular, guvenilirlik faktorleri ve kanit ipuclari.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/iltica-mulakat-hazirligi
+  canonicalOverride: https://capitollawpartners.com/tr/iltica-mulakat-hazirligi
   title: "Iltica Mulakati Hazirligi: Sorular ve Yanitlar"
 ---
 ## İltica Mülakatında Neler Olur

@@ -10,14 +10,14 @@ tags:
 image: /images/dogustan-vatandaslik-karari.jpg
 publishDate: 2026-07-07T17:02:08.335-04:00
 metadata:
-  canonical: https://capitollawpartners.com/tr/blog/dogustan-vatandaslik-karari
+  canonical: https://capitollawpartners.com/tr/dogustan-vatandaslik-karari
   description: >-
     Yüksek Mahkeme doğuştan vatandaşlığı teyit etti. ABD'de doğan bebekler için 14. Anayasa Değişikliği ne anlama geliyor, öğrenin.
   title: "Doğuştan Vatandaşlık Kararı: Ailenize Etkisi"
 seo:
   description: >-
     Yüksek Mahkeme doğuştan vatandaşlığı teyit etti. ABD'de doğan bebekler için 14. Anayasa Değişikliği ne anlama geliyor, öğrenin.
-  canonicalOverride: https://capitollawpartners.com/tr/blog/dogustan-vatandaslik-karari
+  canonicalOverride: https://capitollawpartners.com/tr/dogustan-vatandaslik-karari
   title: "Doğuştan Vatandaşlık Kararı: Ailenize Etkisi"
 ---
 ## Amerika'da Doğan Bebekler İçin Doğuştan Vatandaşlık Hakkı Devam Ediyor
