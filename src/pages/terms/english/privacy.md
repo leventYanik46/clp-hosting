@@ -63,7 +63,11 @@ When you visit the Capitol Law Partners website, we may track information about 
 
 #### Cookies
 
-Our website uses cookies for easier navigation and to remember user preferences (for example, remembering what you entered in a form so you don’t have to re-enter it). Cookies do **not** generate or read personal data from your computer or any device used to access our site.
+Our website uses cookies for easier navigation and to remember user preferences (for example, remembering what you entered in a form so you don’t have to re-enter it).
+
+We also use two third-party measurement tools. **Google Analytics** sets cookies that tell us how visitors use the site. The **Meta Pixel and Meta Conversions API** set cookies (`_fbp`, `_fbc`) that help us measure and improve our advertising on Facebook and Instagram. When you submit a contact form, we send Meta a hashed (SHA-256) version of your email address, phone number and name, together with the page you were on and your browser and network details, so that Meta can match the submission to an ad you may have seen. The hash is matched against Meta's own records; we do not send Meta your details in plain text. If you later become a client, our case management system may also report the stage of your matter to Meta in the same hashed form, for the same purpose.
+
+You can opt out of Google Analytics with [Google's browser add-on](https://tools.google.com/dlpage/gaoptout) and manage how Meta uses your data in your [Meta ad preferences](https://www.facebook.com/ads/preferences). Blocking cookies in your browser does not affect your ability to contact us.
 
 ---
 

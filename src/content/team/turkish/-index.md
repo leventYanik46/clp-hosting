@@ -112,14 +112,18 @@ sections:
         image:
           src: ~/assets/images/levent-bio-team-9x8.jpeg
           alt: Levent Yanik
-      - title: null
-        subtitle: Tukez Q.
-        tagline: Müvekkil Kabul Uzmanı
+      - title: Ozgun
+        tagline: İstanbul Ofis Direktörü
         actions:
           - variant: primary
             text: İletişime Geç
             href: https://wa.me/12024402272
             target: _blank
+        image:
+          src: ~/assets/images/ozgun-bio-team-9x8.webp
+          alt: Ozgun
+  - wrapper: w-full grid grid-cols-1 md:grid-cols-2 gap-4
+    members:
       - title: null
         subtitle: Kilare M.
         tagline: Müvekkil Kabul Uzmanı

@@ -1,6 +1,15 @@
 import { createHmac } from 'node:crypto';
+import type { APIContext } from 'astro';
 import dotenv from 'dotenv';
+import { ANALYTICS } from 'astrowind:config';
 import { screenContactSubmission, type SpamVerdict } from '~/utils/contactSpam';
+import {
+  META_EVENT_ID_PATTERN,
+  collectMetaIdentity,
+  newEventId,
+  sendMetaLeadEvent,
+  type MetaIdentity,
+} from '~/utils/metaCapi';
 export const prerender = false;
 
 const SMTP2GO_SEND_ENDPOINT = 'https://api.smtp2go.com/v3/email/send';
@@ -79,6 +88,10 @@ interface ContactPayload {
   formElapsedMs?: string | number;
   /** The optional SMS consent checkbox ("on" when ticked). */
   smsConsent?: string | boolean;
+  /** The id the browser Pixel used for its Lead event; reused for the server Lead and as the CRM submissionId. */
+  metaEventId?: string;
+  /** Ad parameters of the first page of the visit (utm_*, fbclid), kept by MetaPixel.astro. */
+  touch?: unknown;
 }
 
 /** The language of the page the form was on, from its path (/tr/..., /es/...); English otherwise. */
@@ -127,6 +140,10 @@ const sendLeadToCrm = async (lead: {
   sourcePage: string;
   smsConsent: boolean;
   lang: string;
+  /** The CRM's dedupe key; equals the Meta event id (contract of 2026-11-10, docs/meta-crm-contract.md). */
+  submissionId: string;
+  /** Identity keys the CRM stores on the lead and attaches to its Meta stage events. */
+  meta: MetaIdentity;
 }): Promise<CrmLeadOutcome> => {
   const url = process.env.CRM_LEADS_URL ?? '';
   const secret = process.env.CRM_LEADS_SECRET ?? '';
@@ -210,8 +227,9 @@ const sendLeadToCrm = async (lead: {
   }
 };
 
-export async function POST({ request }: { request: Request }) {
+export async function POST(context: APIContext) {
   dotenv.config();
+  const { request } = context;
 
   let payload: ContactPayload;
   try {
@@ -239,6 +257,26 @@ export async function POST({ request }: { request: Request }) {
   if ((phone.match(/\d/g) ?? []).length < 7) {
     return json({ error: 'Please enter a valid phone number.' }, 400);
   }
+
+  // One id ties the browser Lead, the server Lead and the CRM record together; the browser made it, we check it.
+  const eventId =
+    typeof payload.metaEventId === 'string' && META_EVENT_ID_PATTERN.test(payload.metaEventId)
+      ? payload.metaEventId
+      : newEventId();
+  // The visitor's address as the host saw it (never this function's own); the adapter fills clientAddress.
+  let clientIp = '';
+  try {
+    clientIp = context.clientAddress;
+  } catch {
+    clientIp = request.headers.get('x-nf-client-connection-ip') ?? '';
+  }
+  const metaIdentity = collectMetaIdentity({
+    eventId,
+    request,
+    clientIp,
+    sourcePage: resolvedSourcePage,
+    touch: payload.touch,
+  });
 
   const TO_EMAIL = process.env.CONTACT_TO_EMAIL || 'info@capitollawpartners.com';
   // What the visitor reads when neither the CRM nor the office email took the message: what did not happen, why, what to do.
@@ -270,6 +308,16 @@ export async function POST({ request }: { request: Request }) {
 
   // 1. The CRM is the record (Levent 2026-11-03: no office email once the lead is on the Leads page).
   //    Flagged submissions stay out of the pipeline and go by email with the [Possible spam] mark.
+  //    Meta gets its server-side Lead at the same time (3 s cap, never blocks or fails the submission).
+  const metaSend = verdict.isSpam
+    ? Promise.resolve()
+    : sendMetaLeadEvent({
+        pixelId: ANALYTICS?.vendors?.metaPixel?.id,
+        identity: metaIdentity,
+        email,
+        phone,
+        name,
+      });
   const crm: CrmLeadOutcome = verdict.isSpam
     ? { recorded: false, note: '' }
     : await sendLeadToCrm({
@@ -280,7 +328,10 @@ export async function POST({ request }: { request: Request }) {
         sourcePage: resolvedSourcePage,
         smsConsent: payload.smsConsent === 'on' || payload.smsConsent === true || payload.smsConsent === 'true',
         lang: pageLanguage(resolvedSourcePage),
+        submissionId: eventId,
+        meta: metaIdentity,
       });
+  await metaSend;
   if (crm.recorded) {
     return json({ success: true });
   }

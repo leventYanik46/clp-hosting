@@ -62,7 +62,11 @@ Capitol Law Partners web sitesini ziyaret ettiğinizde, ziyaretinizle ilgili baz
 
 #### Çerezler (Cookies)
 
-Web sitemiz, gezinmeyi kolaylaştırmak ve kullanıcı tercihlerini hatırlamak için çerezler kullanır (örneğin, bir formda girdiğiniz bilgileri tekrar girmek zorunda kalmamanız için). Çerezler, bilgisayarınızdan veya web sitemize eriştiğiniz cihazdan kişisel veri oluşturmaz veya okumaz.
+Web sitemiz, gezinmeyi kolaylaştırmak ve kullanıcı tercihlerini hatırlamak için çerezler kullanır (örneğin, bir formda girdiğiniz bilgileri tekrar girmek zorunda kalmamanız için).
+
+Ayrıca iki üçüncü taraf ölçüm aracı kullanıyoruz. **Google Analytics**, ziyaretçilerin siteyi nasıl kullandığını bize gösteren çerezler yerleştirir. **Meta Pixel ve Meta Conversions API**, Facebook ve Instagram'daki reklamlarımızı ölçmemize ve iyileştirmemize yardımcı olan çerezler (`_fbp`, `_fbc`) yerleştirir. Bir iletişim formu gönderdiğinizde, Meta'nın gönderimi görmüş olabileceğiniz bir reklamla eşleştirebilmesi için e-posta adresinizin, telefon numaranızın ve adınızın karma (SHA-256) sürümünü, bulunduğunuz sayfayla ve tarayıcı ile ağ bilgilerinizle birlikte Meta'ya iletiriz. Karma değer Meta'nın kendi kayıtlarıyla eşleştirilir; bilgilerinizi Meta'ya açık metin olarak göndermeyiz. Daha sonra müvekkilimiz olursanız, dava yönetim sistemimiz de aynı amaçla ve aynı karma biçimde dosyanızın aşamasını Meta'ya bildirebilir.
+
+Google Analytics'ten [Google'ın tarayıcı eklentisi](https://tools.google.com/dlpage/gaoptout) ile çıkabilir ve Meta'nın verilerinizi nasıl kullandığını [Meta reklam tercihlerinizden](https://www.facebook.com/ads/preferences) yönetebilirsiniz. Tarayıcınızda çerezleri engellemek bizimle iletişime geçmenizi etkilemez.
 
 ---
 
