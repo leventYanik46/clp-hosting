@@ -113,7 +113,7 @@ sections:
           src: ~/assets/images/levent-bio-team-9x8.jpeg
           alt: Levent Yanik
       - title: Ozgun
-        tagline: Kıdemli Satış Uzmanı
+        tagline: İstanbul Ofis Direktörü
         actions:
           - variant: primary
             text: İletişime Geç

@@ -69,6 +69,8 @@ analytics:
     googleAnalytics:
       id: 'G-7YV9JCGHPY'
       partytown: false
+    metaPixel:
+      id: '1667395125103753' # Meta dataset (pixel) id; the Conversions API token lives in Netlify env, not here
 
 ui:
   theme: 'light' # Values: "light"

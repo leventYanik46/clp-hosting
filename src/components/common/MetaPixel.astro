@@ -1,0 +1,57 @@
+---
+import { ANALYTICS } from 'astrowind:config';
+
+// Meta Pixel (dataset 1667395125103753 in src/config.yaml). Loaded like GA4: on every page, no consent gate.
+// The server half (Conversions API) lives in src/utils/metaCapi.ts and is called from /api/contact.
+const pixelId = ANALYTICS?.vendors?.metaPixel?.id;
+
+// Meta's standard loader, then one PageView per page: the first load here, every client-side swap below.
+const pixelScript = pixelId
+  ? `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '${pixelId}');
+fbq('track', 'PageView');
+document.addEventListener('astro:after-swap', function () { fbq('track', 'PageView'); });`
+  : '';
+
+// First touch: the contact form reads window.location at submit time, by which point the visitor has usually
+// left the landing page. Keep the ad parameters of the first page of the visit in sessionStorage so the form
+// can send them with the lead (the CRM stores them next to the Meta identity keys). First value wins.
+const touchScript = `(function () {
+  var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'fbclid'];
+  function capture() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var found = {};
+      var any = false;
+      keys.forEach(function (key) {
+        var value = params.get(key);
+        if (value) { found[key] = value.slice(0, 200); any = true; }
+      });
+      if (!any) return;
+      var previous = {};
+      try { previous = JSON.parse(sessionStorage.getItem('clp_touch') || '{}') || {}; } catch (e) { previous = {}; }
+      sessionStorage.setItem('clp_touch', JSON.stringify(Object.assign({}, found, previous)));
+    } catch (e) {}
+  }
+  capture();
+  document.addEventListener('astro:after-swap', capture);
+})();`;
+---
+
+{
+  pixelId && (
+    <>
+      <script is:inline set:html={pixelScript} />
+      <script is:inline set:html={touchScript} />
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style="display:none"
+          alt=""
+          src={`https://www.facebook.com/tr?id=${pixelId}&ev=PageView&noscript=1`}
+        />
+      </noscript>
+    </>
+  )
+}

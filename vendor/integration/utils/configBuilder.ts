@@ -78,6 +78,9 @@ export interface AnalyticsConfig {
     googleAds: {
       id?: string;
     };
+    metaPixel: {
+      id?: string;
+    };
   };
 }
 
@@ -191,6 +194,9 @@ const getAnalytics = (config: Config) => {
         partytown: false,
       },
       googleAds: {
+        id: undefined,
+      },
+      metaPixel: {
         id: undefined,
       },
     },

@@ -113,7 +113,7 @@ sections:
           src: ~/assets/images/levent-bio-team-9x8.jpeg
           alt: Levent Yanik
       - title: Ozgun
-        tagline: Especialista Sênior em Vendas
+        tagline: Diretor do Escritório de Istambul
         actions:
           - variant: primary
             text: Fale comigo

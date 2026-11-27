@@ -339,6 +339,20 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
         formObject.formElapsedMs = Number(form.dataset.contactFormElapsedMs);
       }
 
+      // One id for the whole lead: the browser Pixel Lead, the server Conversions API Lead (Meta keeps one of
+      // the two) and the CRM's submissionId. Characters limited to [A-Za-z0-9_.-], 6 to 64 long.
+      const eventId =
+        window.crypto && typeof window.crypto.randomUUID === 'function'
+          ? window.crypto.randomUUID()
+          : `web-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+      formObject.metaEventId = eventId;
+      // Ad parameters of the first page of this visit, kept by MetaPixel.astro.
+      try {
+        formObject.touch = JSON.parse(sessionStorage.getItem('clp_touch') || '{}') || {};
+      } catch {
+        formObject.touch = {};
+      }
+
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -347,6 +361,14 @@ const smsDisclaimerHtml = `${sms.before}<a href="${sms.privacyUrl}" class="under
 
       const result = await response.json();
       if (result.success) {
+        // The pixel request is a beacon, so it survives the redirect that follows.
+        if (typeof fbq === 'function') {
+          try {
+            fbq('track', 'Lead', {}, { eventID: eventId });
+          } catch (pixelError) {
+            console.error('Failed to send the Meta Lead event.', pixelError);
+          }
+        }
         window.location.assign(buildConfirmationPath());
         return true;
       }
